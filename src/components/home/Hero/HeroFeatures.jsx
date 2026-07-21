@@ -9,17 +9,17 @@ const HeroFeatures = () => {
     const features = [
 
         {
-            icon: <BadgeCheck size={20} />,
+            icon: <BadgeCheck size={18} />,
             text: "Recruiter-ready certificates"
         },
 
         {
-            icon: <Zap size={20} />,
+            icon: <Zap size={18} />,
             text: "Fast skill validation"
         },
 
         {
-            icon: <ShieldCheck size={20} />,
+            icon: <ShieldCheck size={18} />,
             text: "Verified online"
         }
 
@@ -27,7 +27,7 @@ const HeroFeatures = () => {
 
     return (
 
-        <div className="mt-10 flex flex-wrap gap-8">
+        <div className="mt-10 flex flex-wrap gap-6">
 
             {features.map((item) => (
 
