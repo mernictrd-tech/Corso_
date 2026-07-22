@@ -27,7 +27,15 @@ const Navbar = () => {
             Login
           </button>
 
-          <button className="inline-flex h-8 items-center justify-center rounded-xl bg-white px-5 text-sm font-semibold text-slate-900 transition-all duration-300 hover:bg-slate-100">
+          <button
+            onClick={() => {
+              document.getElementById("courses")?.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            }}
+            className="inline-flex h-8 cursor-pointer items-center justify-center rounded-xl bg-white px-5 text-sm font-semibold text-slate-900 transition-all duration-300 hover:bg-slate-100"
+          >
             Explore Courses
           </button>
 

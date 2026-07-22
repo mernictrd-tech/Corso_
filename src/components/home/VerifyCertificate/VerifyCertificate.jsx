@@ -3,7 +3,7 @@ import Container from "../../layout/Container";
 
 const VerifyCertificate = () => {
   return (
-    <section className="bg-[#070B1A] py-28">
+    <section id="verify-certificate" className="bg-[#070B1A] py-28">
 
       <Container>
 

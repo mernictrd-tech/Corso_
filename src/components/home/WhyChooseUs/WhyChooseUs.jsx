@@ -6,7 +6,7 @@ import Container from "../../layout/Container";
 
 const WhyChooseUs = () => {
   return (
-    <section className="bg-[#070B1A] py-28">
+    <section id="about" className="bg-[#070B1A] py-28">
 
        <Container>
 

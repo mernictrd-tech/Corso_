@@ -6,6 +6,7 @@ import HowItWorks from "../../components/home/HowItWorks/HowItWorks";
 import ReadyToProve from "../../components/home/ReadyToProve/ReadyToProve";
 import VerifyCertificate from "../../components/home/VerifyCertificate/VerifyCertificate";
 import Footer from "../../components/layout/Footer/Footer";
+import CoursesCards from "../../components/home/Courses/CoursesCards";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <WhyChooseUs />
+      <CoursesCards />
       <AssessmentInfo />
       <HowItWorks />
       <ReadyToProve />

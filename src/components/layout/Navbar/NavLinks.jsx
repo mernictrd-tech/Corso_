@@ -1,23 +1,27 @@
 import { ChevronDown } from "lucide-react";
+import { NavLink } from "react-router-dom";
 
 const navLinks = [
   {
     title: "Home",
-    path: "/",
+    sectionId: "home",
   },
-  {
-    title: "Courses",
-    path: "/courses",
-    dropdown: true,
-  },
-  {
-    title: "For Business",
-    path: "/business",
-  },
+ 
   {
     title: "About",
-    path: "/about",
+    sectionId: "about",
   },
+
+  {
+    title: "Assessment Info",
+    sectionId: "assessment-info",
+  },
+
+  {
+    title: "Verify Certificate",
+    sectionId: "verify-certificate",
+  },
+
   {
     title: "Contact",
     path: "/contact",
@@ -25,35 +29,40 @@ const navLinks = [
 ];
 
 const NavLinks = () => {
+  const scrollToSection = (sectionId) => {
+    document.getElementById(sectionId)?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
-    <ul className="flex items-center gap-10">
-
-      {navLinks.map((item) => (
-
-        <li key={item.title}>
-
-          <a
-            href={item.path}
-            className="group flex items-center gap-1 text-[15px] font-medium text-gray-300 transition hover:text-white"
-          >
-
-            {item.title}
-
-            {item.dropdown && (
-              <ChevronDown
-                size={17}
-                className="transition group-hover:rotate-180"
-              />
-            )}
-
-          </a>
-
-        </li>
-
-      ))}
-
-    </ul>
+   <ul className="flex items-center gap-8">
+  {navLinks.map((link) => (
+    <li key={link.title}>
+      {link.sectionId ? (
+        <button
+          onClick={() =>
+            document.getElementById(link.sectionId)?.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            })
+          }
+          className="flex cursor-pointer items-center gap-1 text-gray-300 transition hover:text-cyan-400"
+        >
+          {link.title}
+        </button>
+      ) : (
+        <NavLink
+          to={link.path}
+          className="flex items-center gap-1 text-gray-300 transition hover:text-cyan-400"
+        >
+          {link.title}
+        </NavLink>
+      )}
+    </li>
+  ))}
+</ul>
   );
 };
-
 export default NavLinks;

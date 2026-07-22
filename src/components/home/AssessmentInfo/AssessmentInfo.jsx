@@ -4,7 +4,7 @@ import Container from "../../layout/Container";
 
 const AssessmentInfo = () => {
   return (
-    <section className="bg-[#070B1A] py-28">
+    <section id="assessment-info" className="bg-[#070B1A] py-28">
 
       <Container>
 
