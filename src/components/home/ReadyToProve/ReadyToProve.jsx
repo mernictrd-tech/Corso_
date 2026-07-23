@@ -17,13 +17,12 @@ const ReadyToProve = () => {
             <div>
 
               <h2 className="max-w-xl text-5xl font-bold leading-tight text-white">
-                Ready to prove your skills?
+                Are You Ready to Unlock New Opportunities?
               </h2>
 
-              <p className="mt-6 max-w-2xl text-[21px] leading-9 text-gray-300">
-                Start your tailored quiz now and unlock your certificate.
-                It's the fastest way to add a strong proof point to your
-                profile.
+              <p className="mt-6 max-w-2xl text-[17px] leading-7 text-gray-300">
+                Complete your assessment, demonstrate your technical skills, and 
+                receive a trusted certification to support your career growth.
               </p>
 
               <div className="mt-10 flex flex-wrap gap-4">
@@ -44,7 +43,7 @@ const ReadyToProve = () => {
                 Start the assessment
               </h3>
 
-              <p className="mt-5 text-[17px] leading-8 text-gray-300">
+              <p className="mt-5 text-[17px] leading-7 text-gray-300">
                 Click below to begin. After completion, you'll be able to
                 download your certificate instantly.
               </p>

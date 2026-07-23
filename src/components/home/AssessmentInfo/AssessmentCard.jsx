@@ -19,19 +19,18 @@ const AssessmentCard = () => {
                 <div className="w-[320px] rounded-2xl border border-white/10 bg-white/5 px-5 py-4">
                     <p className="text-sm text-gray-400">Category</p>
                     <h4 className="mt-1 text-lg font-semibold text-white">
-                        Finance &amp; Accounting
+                        Technical Courses
                     </h4>
                 </div>
             </div>
 
             <h5 className="mt-8 text-lg font-semibold text-white">
-                Why recruiters like it
+                Designed for today's tech industry
             </h5>
 
             <p className="mt-4 text-[17px] leading-6 text-gray-300">
-                This assessment validates practical understanding, not just theory.
-                It's designed to be a quick proof point on your resume and LinkedIn —
-                especially valuable for entry-to-mid level roles.
+                Corso evaluates practical technical competencies through focused assessments, 
+                helping learners earn recognized certifications that strengthen their career prospects.
             </p>
 
             <button className="mt-10 flex w-full items-center justify-center gap-3 rounded-2xl bg-white py-5 text-lg font-semibold text-black transition hover:bg-gray-100">

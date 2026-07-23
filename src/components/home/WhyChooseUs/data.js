@@ -1,32 +1,34 @@
 export const features = [
   {
-    title: "Instant credibility",
-    description: "Prove you can do the work — not just say it.",
+    title: "Industry Recognition",
+    description: "Validate your expertise with assessments trusted by professionals.",
   },
   {
-    title: "Verifiable certificate",
-    description: "Share a verification link that builds trust.",
+    title: "Verified Certification",
+    description: "Earn a secure, verifiable certificate to showcase your skills.",
   },
   {
-    title: "Career acceleration",
-    description: "Stand out for internships, jobs, promotions.",
+    title: "Career Growth",
+    description: "Strengthen your profile for jobs, promotions, and new opportunities.",
   },
   {
-    title: "Takes minutes",
-    description: "10 questions. Quick challenge. Big payoff.",
+    title: "Quick Assessment",
+    description: "Complete focused evaluations in just a few minutes.",
   },
 ];
 
 export const topics = [
-  "Financial Reporting",
-  "Taxation Knowledge",
-  "Auditing Principles",
-  "Regulatory Compliance",
-  "Budgeting and Forecasting",
+  "Artificial Intelligence",
+  "Data Science",
+  "Project Management",
+  "React.js",
+  "Python",
+  "Frontend Development",
+  "Entrepreneurship",
 ];
 
 export const benefits = [
-  "Hallmark certificate (download instantly)",
-  "Verification link for recruiters",
-  "Share-ready format for LinkedIn",
+  "Industry-recognized digital certificate",
+  "Secure online verification",
+  "Easy sharing on LinkedIn and your resume",
 ];

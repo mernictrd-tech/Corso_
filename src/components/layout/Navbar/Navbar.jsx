@@ -1,5 +1,6 @@
 import { Search, Menu, ArrowRight } from "lucide-react";
 import NavLinks from "./NavLinks";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
 
         {/* Logo */}
         <h1 className="text-2xl font-bold tracking-widest text-white">
-          COURSE<span className="text-cyan-400">.</span>
+          CORSO<span className="text-cyan-400">.</span>
         </h1>
 
         {/* Desktop Menu */}
@@ -27,17 +28,13 @@ const Navbar = () => {
             Login
           </button>
 
-          <button
-            onClick={() => {
-              document.getElementById("courses")?.scrollIntoView({
-                behavior: "smooth",
-                block: "start",
-              });
-            }}
+          <HashLink
+            smooth
+            to="/#courses"
             className="inline-flex h-8 cursor-pointer items-center justify-center rounded-xl bg-white px-5 text-sm font-semibold text-slate-900 transition-all duration-300 hover:bg-slate-100"
           >
             Explore Courses
-          </button>
+          </HashLink>
 
         </div>
 

@@ -1,23 +1,23 @@
 export const jobRoles = [
   {
-    title: "Accountant",
-    description: "Certificate strengthens your profile for this role",
+    title: "Full Stack Developer",
+    description: "Build and manage complete web applications with confidence.",
   },
   {
-    title: "Financial Analyst",
-    description: "Certificate strengthens your profile for this role",
+    title: "Data Analyst",
+    description: "Demonstrate your ability to analyze and interpret data effectively.",
   },
   {
-    title: "Tax Consultant",
-    description: "Certificate strengthens your profile for this role",
+    title: "Cybersecurity Analyst",
+    description: "Validate your skills in securing systems and networks.",
   },
   {
-    title: "Auditor",
-    description: "Certificate strengthens your profile for this role",
+    title: "DevOps Engineer",
+    description: "Show your expertise in automation, CI/CD, and cloud deployment.",
   },
   {
-    title: "Compliance Officer",
-    description: "Certificate strengthens your profile for this role",
+    title: "Cloud Engineer",
+    description: "Prove your knowledge of modern cloud platforms and services.",
   },
 ];
 

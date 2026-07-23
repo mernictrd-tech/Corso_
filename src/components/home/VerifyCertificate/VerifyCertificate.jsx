@@ -19,9 +19,9 @@ const VerifyCertificate = () => {
                 Verify a certificate
               </h2>
 
-              <p className="mt-5 text-[20px] leading-8 text-gray-300">
-                Recruiter or student? Enter certificate ID to verify
-                authenticity.
+              <p className="mt-5 text-[18px] leading-8 text-gray-300">
+                Employers and learners can instantly verify any Corso 
+                certificate using its unique certificate ID.
               </p>
 
               <p className="mt-4 text-[15px] text-gray-500">

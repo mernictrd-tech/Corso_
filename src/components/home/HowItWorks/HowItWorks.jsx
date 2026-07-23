@@ -19,7 +19,7 @@ const HowItWorks = () => {
               How it works
             </h2>
 
-            <p className="mt-4 text-[22px] text-gray-300">
+            <p className="mt-4 text-[17px] text-gray-300">
               Simple. Fast. Add it to your profile the same day.
             </p>
 
@@ -37,7 +37,7 @@ const HowItWorks = () => {
 
         {/* Cards */}
 
-        <div className="mt-16 grid gap-8 lg:grid-cols-3">
+        <div className="mt-10 grid gap-8 lg:grid-cols-3">
 
           {steps.map((step) => (
             <StepCard

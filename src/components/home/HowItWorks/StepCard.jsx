@@ -10,13 +10,13 @@ const StepCard = ({ step }) => {
           {step.id}
         </div>
 
-        <h3 className="text-[22px] font-semibold text-white">
+        <h3 className="text-[20px] font-semibold text-white">
           {step.title}
         </h3>
 
       </div>
 
-      <p className="mt-6 text-[17px] leading-8 text-gray-300">
+      <p className="mt-6 text-[17px] leading-7 text-gray-300">
         {step.description}
       </p>
 

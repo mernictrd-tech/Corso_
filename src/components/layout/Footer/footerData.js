@@ -1,8 +1,18 @@
 export const footerLinks = [
-  "Verify Certificate",
-  "Privacy Policy",
-  "Terms and Conditions",
-  "Refund Policy",
-  "Brand Disclaimer",
-  "info@skillsmint.com",
+  {
+    title: "Privacy Policy",
+    path: "/privacy-policy",
+  },
+  {
+    title: "Terms & Conditions",
+    path: "/terms-and-conditions",
+  },
+  {
+    title: "Refund Policy",
+    path: "/refund-policy",
+  },
+  // {
+  //   title: "Brand Disclaimer",
+  //   path: "/brand-disclaimer",
+  // },
 ];
