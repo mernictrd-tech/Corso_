@@ -1,5 +1,6 @@
 import { useState } from "react";
 import courses from "./data.js";
+import { Link } from "react-router-dom";
 
 const categories = [
     "All",
@@ -25,7 +26,7 @@ const CoursesCards = () => {
     });
 
     return (
-        <section  id="courses" className="scroll-mt-24 bg-[#070D17] py-24">
+        <section id="courses" className="scroll-mt-24 bg-[#070D17] py-24">
             <div className="max-w-7xl mx-auto px-6">
 
                 {/* Heading */}
@@ -61,8 +62,8 @@ const CoursesCards = () => {
                             key={category}
                             onClick={() => setActiveCategory(category)}
                             className={`px-6 py-3 rounded-4xl border transition-all duration-300 ${activeCategory === category
-                                    ? "bg-cyan-500 text-black border-cyan-500"
-                                    : "border-slate-700 text-gray-300 hover:bg-cyan-500 hover:text-black"
+                                ? "bg-cyan-500 text-black border-cyan-500"
+                                : "border-slate-700 text-gray-300 hover:bg-cyan-500 hover:text-black"
                                 }`}
                         >
                             {category}
@@ -109,10 +110,12 @@ const CoursesCards = () => {
                                     {course.description}
                                 </p>
 
-                                <button className="mt-8 w-full py-4 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-white font-semibold text-lg transition">
+                                <Link
+                                    to={`/course/${course.id}`}
+                                    className="mt-8 flex w-full items-center justify-center rounded-xl bg-cyan-500 py-4 text-lg font-semibold text-white transition hover:bg-cyan-400"
+                                >
                                     Start →
-                                </button>
-
+                                </Link>
                             </div>
                         </div>
                     ))}
