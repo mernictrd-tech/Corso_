@@ -10,36 +10,11 @@ import {
 
 const CourseHero = ({ course }) => {
   return (
-    <section className="relative overflow-hidden bg-[#070B1A] pt-32 pb-20">
-      {/* Background Blur */}
+<section className="relative overflow-hidden bg-[#070B1A] py-10">          {/* Background Blur */}
       <div className="absolute -top-40 left-0 h-80 w-80 rounded-full bg-cyan-500/20 blur-[120px]" />
       <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-emerald-500/10 blur-[150px]" />
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
-        {/* Breadcrumb */}
-        <div className="mb-8 flex items-center gap-2 text-sm text-gray-400">
-          <Link
-            to="/"
-            className="transition hover:text-cyan-400"
-          >
-            Home
-          </Link>
-
-          <span>/</span>
-
-          <Link
-            to="/"
-            className="transition hover:text-cyan-400"
-          >
-            Courses
-          </Link>
-
-          <span>/</span>
-
-          <span className="text-white">
-            {course.title}
-          </span>
-        </div>
 
         <div className="grid items-center gap-16 lg:grid-cols-2">
           {/* Left Side */}

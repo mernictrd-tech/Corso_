@@ -11,8 +11,8 @@ const courseDetails = [
     rating: 4.9,
     students: 1265,
 
-    duration: "60 Minutes",
-    questions: 50,
+    duration: "10 Minutes",
+    questions: 10,
     passingScore: "70%",
     attempts: "Unlimited",
 

@@ -1,9 +1,17 @@
-import { Search, Menu, ArrowRight } from "lucide-react";
-import NavLinks from "./NavLinks";
+import { useState } from "react";
+import { Search, Menu } from "lucide-react";
 import { HashLink } from "react-router-hash-link";
 
+import NavLinks from "./NavLinks";
+import AuthModal from "../../auth/AuthModal";
+
+
 const Navbar = () => {
+
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+
   return (
+  <>
     <header className="sticky top-0 z-50 border-white/10 bg-[#111827] backdrop-blur-xl">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
 
@@ -24,7 +32,10 @@ const Navbar = () => {
             <Search size={20} />
           </button>
 
-          <button className="font-medium text-gray-300 transition hover:text-white">
+          <button
+            onClick={() => setIsAuthModalOpen(true)}
+            className="font-medium text-gray-300 transition hover:text-white"
+          >
             Login
           </button>
 
@@ -45,7 +56,14 @@ const Navbar = () => {
 
       </div>
     </header>
-  );
+
+    {/* Auth Modal */}
+    <AuthModal
+      isOpen={isAuthModalOpen}
+      onClose={() => setIsAuthModalOpen(false)}
+    />
+  </>
+);
 };
 
 export default Navbar;
