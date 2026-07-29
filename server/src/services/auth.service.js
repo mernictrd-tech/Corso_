@@ -17,14 +17,12 @@ const registerUser = async (userData) => {
     throw new Error("Email already exists.");
   }
 
-  const hashedPassword = await bcrypt.hash(password, 10);
-
   const user = await User.create({
-    fullName,
-    email,
-    password: hashedPassword,
-    termsAccepted,
-  });
+  fullName,
+  email,
+  password,
+  termsAccepted,
+});
 
   const token = generateToken(user._id);
 

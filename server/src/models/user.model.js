@@ -7,26 +7,18 @@ const userSchema = new mongoose.Schema(
   {
     fullName: {
       type: String,
-      required: [true, "Full name is required"],
-      trim: true,
-      minlength: 3,
-      maxlength: 100,
+      required: true,
     },
 
     email: {
       type: String,
-      required: [true, "Email is required"],
+      required: true,
       unique: true,
-      lowercase: true,
-      trim: true,
     },
 
     password: {
       type: String,
-      required: function () {
-        return this.provider === "local";
-      },
-      minlength: 6,
+      required: true,
       select: false,
     },
 
@@ -41,20 +33,29 @@ const userSchema = new mongoose.Schema(
     },
 
     provider: {
-      type: String,
-      enum: ["local", "google"],
-      default: "local",
-    },
+    type: String,
+    enum: ["local", "google"],
+    default: "local",
+},
 
     role: {
       type: String,
-      enum: ["user", "admin"],
       default: "user",
     },
 
     isVerified: {
       type: Boolean,
       default: false,
+    },
+
+    verificationOTP: {
+      type: String,
+      default: null,
+    },
+
+    verificationOTPExpires: {
+      type: Date,
+      default: null,
     },
 
     termsAccepted: {
@@ -64,10 +65,12 @@ const userSchema = new mongoose.Schema(
 
     termsAcceptedAt: {
       type: Date,
+      default: Date.now,
     },
 
-    lastLogin: {
-      type: Date,
+    googleId: {
+      type: String,
+      default: "",
     },
   },
   {

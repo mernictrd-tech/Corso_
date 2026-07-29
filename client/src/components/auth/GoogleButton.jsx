@@ -1,9 +1,26 @@
-const GoogleButton = ({ onClick }) => {
+import { useGoogleLogin } from "@react-oauth/google";
+
+const GoogleButton = ({
+  onSuccess,
+}) => {
+  const login = useGoogleLogin({
+    onSuccess: async (tokenResponse) => {
+      await onSuccess(
+    tokenResponse.access_token
+);
+    },
+
+    onError: () => {
+      console.log("Google Login Failed");
+    },
+  });
+
   return (
     <button
       type="button"
-      onClick={onClick}
-className="group flex w-full items-center justify-center gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-2.5 text-white transition-all duration-300 hover:border-cyan-400/40 hover:bg-white/10"    >
+      onClick={() => login()}
+      className="group flex w-full items-center justify-center gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-2.5 text-white transition-all duration-300 hover:border-cyan-400/40 hover:bg-white/10"
+    >
       <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white">
         <svg
           xmlns="http://www.w3.org/2000/svg"

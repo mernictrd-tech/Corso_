@@ -14,6 +14,7 @@ const {
   login,
   me,
   logout,
+  googleAuth,
 } = require("../controllers/auth.controller");
 
 
@@ -44,4 +45,7 @@ router.get("/me", protect, me);
 
 router.post("/logout", logout);
 
+router.post("/google", googleAuth);
+
 module.exports = router;
+

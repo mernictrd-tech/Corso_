@@ -4,7 +4,13 @@ import { User, Mail, Lock } from "lucide-react";
 import InputField from "./InputField";
 import GoogleButton from "./GoogleButton";
 
+import { useNavigate } from "react-router-dom";
+import { registerUser, googleLogin } from "../../services/authService";
+
 const SignupForm = ({ onSwitchToLogin }) => {
+
+  const navigate = useNavigate();
+  const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -24,7 +30,7 @@ const SignupForm = ({ onSwitchToLogin }) => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (formData.password !== formData.confirmPassword) {
@@ -37,19 +43,59 @@ const SignupForm = ({ onSwitchToLogin }) => {
       return;
     }
 
-    setError("");
+    try {
+      setLoading(true);
+      setError("");
 
-    console.log("Signup Data:", formData);
+      const res = await registerUser({
+        fullName: formData.name,
+        email: formData.email,
+        password: formData.password,
+        confirmPassword: formData.confirmPassword,
+        termsAccepted: formData.agree,
+      });
 
-    // Backend
-    // axios.post("/api/signup", formData);
+      console.log(res);
+
+      localStorage.setItem(
+        "user",
+        JSON.stringify(res.data)
+      );
+
+      navigate("/dashboard");
+    } catch (error) {
+      if (
+        error.response?.data?.errors &&
+        error.response.data.errors.length > 0
+      ) {
+        setError(error.response.data.errors[0].message);
+      } else {
+        setError(
+          error.response?.data?.message ||
+          "Registration failed."
+        );
+      }
+    } finally {
+      setLoading(false);
+    }
   };
 
-  const handleGoogleSignup = () => {
-    console.log("Google Signup");
+  const handleGoogleSignup = async (accessToken) => {
+    try {
+      const res = await googleLogin(accessToken);
 
-    // Backend
-    // window.location.href="/api/auth/google";
+      localStorage.setItem(
+        "user",
+        JSON.stringify(res.data)
+      );
+
+      navigate("/dashboard");
+    } catch (error) {
+      setError(
+        error.response?.data?.message ||
+        "Google signup failed."
+      );
+    }
   };
 
   return (
@@ -63,7 +109,9 @@ const SignupForm = ({ onSwitchToLogin }) => {
       </p>
 
       <div className="mt-4">
-        <GoogleButton onClick={handleGoogleSignup} />
+        <GoogleButton
+          onSuccess={handleGoogleSignup}
+        />
       </div>
 
       {/* Divider */}
@@ -156,8 +204,10 @@ const SignupForm = ({ onSwitchToLogin }) => {
 
         <button
           type="submit"
-className="w-full rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-400 py-2.5 font-semibold text-black transition hover:scale-[1.02]"        >
-          Create Account
+          disabled={loading}
+          className="w-full rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-400 py-2.5 font-semibold text-black transition hover:scale-[1.02] disabled:opacity-60"
+        >
+          {loading ? "Creating Account..." : "Create Account"}
         </button>
       </form>
 

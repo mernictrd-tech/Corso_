@@ -1,13 +1,24 @@
 import { useState } from "react";
 import { Mail, Lock } from "lucide-react";
-
+import { googleLogin, loginUser } from "../../services/authService";
 import InputField from "./InputField";
 import GoogleButton from "./GoogleButton";
+import { useNavigate } from "react-router-dom";
+
+
+
 
 const LoginForm = ({
+
   onSwitchToSignup,
   onForgotPassword,
 }) => {
+
+  const navigate = useNavigate();
+
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -26,20 +37,63 @@ const LoginForm = ({
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    console.log("Login Data:", formData);
+    try {
+      setLoading(true);
+      setError("");
 
-    // Backend Integration
-    // await axios.post("/api/login", formData);
+      const res = await loginUser({
+        email: formData.email,
+        password: formData.password,
+      });
+
+      console.log(res);
+
+      localStorage.setItem(
+        "user",
+        JSON.stringify(res.data)
+      );
+
+      navigate("/dashboard");
+
+    } catch (error) {
+      if (
+        error.response?.data?.errors &&
+        error.response.data.errors.length > 0
+      ) {
+        setError(error.response.data.errors[0].message);
+      } else {
+        setError(
+          error.response?.data?.message ||
+          "Login failed."
+        );
+      }
+    } finally {
+      setLoading(false);
+    }
   };
 
-  const handleGoogleLogin = () => {
-    console.log("Google Login");
+  const handleGoogleLogin = async (
+    accessToken
+  ) => {
+    try {
+      const res = await googleLogin(
+        accessToken
+      );
 
-    // Backend
-    // window.location.href="/api/auth/google";
+      console.log(res);
+
+      localStorage.setItem(
+        "user",
+        JSON.stringify(res.data)
+      );
+
+      navigate("/dashboard");
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
@@ -55,7 +109,7 @@ const LoginForm = ({
 
       <div className="mt-5">
         <GoogleButton
-          onClick={handleGoogleLogin}
+          onSuccess={handleGoogleLogin}
         />
       </div>
 
@@ -72,9 +126,9 @@ const LoginForm = ({
       </div>
 
       <form
-  onSubmit={handleSubmit}
-  className="space-y-4"
->
+        onSubmit={handleSubmit}
+        className="space-y-4"
+      >
         <InputField
           label="Email Address"
           type="email"
@@ -123,14 +177,22 @@ const LoginForm = ({
 
         </div>
 
+        {error && (
+          <p className="text-sm text-red-400">
+            {error}
+          </p>
+        )}
+
         <button
           type="submit"
-className="w-full rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-400 py-2.5 font-semibold text-black transition hover:scale-[1.02]"        >
-          Login
+          disabled={loading}
+          className="w-full rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-400 py-2.5 font-semibold text-black transition hover:scale-[1.02] disabled:opacity-60"
+        >
+          {loading ? "Logging In..." : "Login"}
         </button>
       </form>
 
-<p className="mt-5 text-center text-gray-400">
+      <p className="mt-5 text-center text-gray-400">
         Don't have an account?
 
         <button
@@ -142,8 +204,8 @@ className="w-full rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-400 py-2.
 
       </p>
 
-<p className="mt-4 text-center text-xs text-gray-500">        
-  By continuing you agree to our Terms &
+      <p className="mt-4 text-center text-xs text-gray-500">
+        By continuing you agree to our Terms &
         Conditions and Privacy Policy.
       </p>
 
