@@ -5,6 +5,7 @@ import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
 import Terms from "../pages/Terms/Terms";
 import RefundPolicy from "../pages/RefundPolicy/RefundPolicy";
 import CourseDetails from "../pages/CourseDetails/CourseDetails";
+import Dashboard from "../pages/Dashboard";
 
 
 
@@ -42,6 +43,10 @@ const AppRoutes = () => {
           path="/refund-policy"
           element={<RefundPolicy />}
         />
+
+        <Route 
+        path="/dashboard" 
+        element={<Dashboard />} />
       </Routes>
     </>
   );
