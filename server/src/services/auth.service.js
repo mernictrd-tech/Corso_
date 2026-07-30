@@ -34,30 +34,24 @@ const registerUser = async (userData) => {
   };
 };
 
-const loginUser = async (userData) => {
-  const { email, password } = userData;
-
-  // Find user and include password
+const loginUser = async ({ email, password }) => {
   const user = await User.findOne({ email }).select("+password");
 
   if (!user) {
     throw new Error("Invalid email or password.");
   }
 
-  // Compare password
-  const isPasswordMatched = await bcrypt.compare(
+  const passwordMatched = await bcrypt.compare(
     password,
     user.password
   );
 
-  if (!isPasswordMatched) {
+  if (!passwordMatched) {
     throw new Error("Invalid email or password.");
   }
 
-  // Generate Token
   const token = generateToken(user._id);
 
-  // Hide password
   user.password = undefined;
 
   return {

@@ -33,16 +33,16 @@ const userSchema = new mongoose.Schema(
     },
 
     provider: {
-    type: String,
-    enum: ["local", "google"],
-    default: "local",
-},
+      type: String,
+      enum: ["local", "google"],
+      default: "local",
+    },
 
     role: {
       type: String,
+      enum: ["user", "admin"],
       default: "user",
     },
-
     isVerified: {
       type: Boolean,
       default: false,
