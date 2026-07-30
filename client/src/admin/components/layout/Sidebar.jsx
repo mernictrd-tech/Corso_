@@ -6,8 +6,8 @@ import {
   CreditCard,
   Award,
   LogOut,
+  X,
 } from "lucide-react";
-
 import { NavLink } from "react-router-dom";
 
 const menu = [
@@ -43,28 +43,65 @@ const menu = [
   },
 ];
 
-const Sidebar = () => {
-
+const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
   const handleLogout = () => {
     localStorage.removeItem("admin");
     window.location.href = "/admin/login";
   };
 
   return (
-    <aside className="flex h-full w-72 flex-col border-r border-slate-800 bg-[#0F172A]">
+    <aside
+      className={`
+      fixed lg:static
+      z-50
+      flex h-screen w-64 flex-col
+      bg-gradient-to-b
+      from-[#0B1120]
+      via-[#111827]
+      to-[#172554]
+      text-white
+      transition-all
+      duration-300
+      ${
+        sidebarOpen
+          ? "translate-x-0"
+          : "-translate-x-full lg:translate-x-0"
+      }
+    `}
+    >
+      {/* Logo */}
 
-      <div className="border-b border-slate-800 p-6">
-        <h1 className="text-3xl font-bold text-cyan-400">
-          CORSO
-        </h1>
+      <div className="flex items-center justify-between border-b border-white/10 p-5">
 
-        <p className="mt-1 text-sm text-gray-400">
-          Admin Panel
-        </p>
+        <div>
+
+          <h1 className="text-3xl font-bold text-cyan-400">
+            CORSO
+          </h1>
+
+          <p className="text-xs text-slate-400">
+            Admin Panel
+          </p>
+
+        </div>
+
+        {/* Mobile Close */}
+
+        <button
+          onClick={() => setSidebarOpen(false)}
+          className="lg:hidden"
+        >
+          <X size={22} />
+        </button>
+
       </div>
 
-      <nav className="flex-1 p-5">
+      {/* Menu */}
+
+      <nav className="flex-1 px-4 py-5">
+
         <ul className="space-y-2">
+
           {menu.map((item) => {
             const Icon = item.icon;
 
@@ -72,36 +109,45 @@ const Sidebar = () => {
               <li key={item.title}>
                 <NavLink
                   to={item.path}
+                  onClick={() => setSidebarOpen(false)}
                   className={({ isActive }) =>
-                    `flex items-center gap-4 rounded-xl px-4 py-3 transition ${
+                    `flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-medium transition-all
+                    ${
                       isActive
-                        ? "bg-cyan-500 text-white"
-                        : "text-gray-400 hover:bg-slate-800 hover:text-white"
+                        ? "bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg"
+                        : "text-slate-300 hover:bg-white/10 hover:text-white"
                     }`
                   }
                 >
-                  <Icon size={20} />
+                  <Icon size={19} />
+
                   {item.title}
                 </NavLink>
               </li>
             );
           })}
+
         </ul>
+
       </nav>
 
-      <div className="border-t border-slate-800 p-5">
+      {/* Logout */}
+
+      <div className="border-t border-white/10 p-4">
+
         <button
           onClick={handleLogout}
-          className="flex w-full items-center gap-4 rounded-xl px-4 py-3 text-gray-400 transition hover:bg-red-500 hover:text-white"
+          className="flex w-full items-center gap-3 rounded-xl bg-red-500/10 px-4 py-3 text-sm text-red-300 transition hover:bg-red-500 hover:text-white"
         >
-          <LogOut size={20} />
+          <LogOut size={18} />
+
           Logout
         </button>
+
       </div>
 
     </aside>
   );
 };
-
 
 export default Sidebar;

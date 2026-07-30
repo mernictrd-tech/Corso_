@@ -1,46 +1,91 @@
-import { Bell, UserCircle } from "lucide-react";
+import {
+  Bell,
+  Menu,
+  UserCircle2,
+  ChevronDown,
+} from "lucide-react";
 
-const Topbar = () => {
+const Topbar = ({ setSidebarOpen }) => {
   return (
-    <header className="flex h-20 items-center justify-between border-b border-slate-800 bg-white px-8">
+    <header className="sticky top-0 z-30 px-4 pt-4 lg:px-6">
 
-      <div>
+      <div className="flex h-16 items-center justify-between rounded-2xl bg-white px-5 shadow-[0_10px_30px_rgba(15,23,42,0.08)]">
 
-        <h2 className="text-2xl font-bold text-slate-800">
-          Dashboard
-        </h2>
-
-        <p className="text-sm text-gray-500">
-          Welcome back, Admin
-        </p>
-
-      </div>
-
-      <div className="flex items-center gap-6">
-
-        <Bell
-          className="text-gray-500"
-          size={22}
-        />
+        {/* Left */}
 
         <div className="flex items-center gap-3">
 
-          <UserCircle
-            size={42}
-            className="text-cyan-500"
-          />
+          {/* Mobile Menu */}
+
+          <button
+            onClick={() => setSidebarOpen(true)}
+            className="rounded-lg p-2 hover:bg-slate-100 lg:hidden"
+          >
+            <Menu size={22} />
+          </button>
 
           <div>
 
-            <p className="font-semibold">
-              Admin
+            <p className="text-lg font-semibold text-slate-800">
+              Admin Panel
             </p>
 
-            <p className="text-sm text-gray-500">
-              Super Admin
+            <p className="text-xs text-slate-500">
+              Welcome back 👋
             </p>
 
           </div>
+
+        </div>
+
+        {/* Right */}
+
+        <div className="flex items-center gap-4">
+
+          {/* Notification */}
+
+          <button className="relative rounded-xl p-2 transition hover:bg-slate-100">
+
+            <Bell
+              size={20}
+              className="text-slate-600"
+            />
+
+            <span className="absolute right-2 top-2 h-2 w-2 rounded-full bg-cyan-500"></span>
+
+          </button>
+
+          {/* Profile */}
+
+          <button className="flex items-center gap-2 rounded-xl px-2 py-1 transition hover:bg-slate-100">
+
+            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-r from-cyan-500 to-blue-600">
+
+              <UserCircle2
+                size={22}
+                className="text-white"
+              />
+
+            </div>
+
+            <div className="hidden sm:block text-left">
+
+              <p className="text-sm font-semibold text-slate-800">
+                Super Admin
+              </p>
+
+              <p className="text-xs text-slate-500">
+                Administrator
+              </p>
+
+            </div>
+
+            <ChevronDown
+              size={16}
+              className="hidden sm:block text-slate-500"
+            />
+
+          </button>
 
         </div>
 

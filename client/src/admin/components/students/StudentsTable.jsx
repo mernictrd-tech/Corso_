@@ -5,7 +5,7 @@ import {
   Trash2,
 } from "lucide-react";
 
-const PaymentTable = ({ payments }) => {
+const StudentsTable = ({ students }) => {
   return (
     <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
 
@@ -19,10 +19,8 @@ const PaymentTable = ({ payments }) => {
 
               <th className="px-5 py-3">Student</th>
               <th className="px-5 py-3">Program</th>
-              <th className="px-5 py-3">Amount</th>
-              <th className="px-5 py-3">Method</th>
-              <th className="px-5 py-3">Date</th>
               <th className="px-5 py-3">Status</th>
+              <th className="px-5 py-3">Payment</th>
               <th className="px-5 py-3 text-center">Action</th>
 
             </tr>
@@ -31,10 +29,10 @@ const PaymentTable = ({ payments }) => {
 
           <tbody>
 
-            {payments.map((payment) => (
+            {students.map((student) => (
 
               <tr
-                key={payment.id}
+                key={student.id}
                 className="border-t border-slate-100 hover:bg-slate-50 transition"
               >
 
@@ -56,11 +54,11 @@ const PaymentTable = ({ payments }) => {
                     <div>
 
                       <h3 className="text-[15px] font-semibold text-slate-800">
-                        {payment.name}
+                        {student.name}
                       </h3>
 
                       <p className="text-xs text-slate-500">
-                        {payment.email}
+                        {student.email}
                       </p>
 
                     </div>
@@ -74,37 +72,7 @@ const PaymentTable = ({ payments }) => {
                 <td className="px-5 py-4">
 
                   <span className="rounded-full bg-sky-100 px-3 py-1 text-xs font-medium text-sky-700">
-                    {payment.program}
-                  </span>
-
-                </td>
-
-                {/* Amount */}
-
-                <td className="px-5 py-4">
-
-                  <span className="text-sm font-semibold text-slate-700">
-                    {payment.amount}
-                  </span>
-
-                </td>
-
-                {/* Method */}
-
-                <td className="px-5 py-4">
-
-                  <span className="rounded-full bg-violet-100 px-3 py-1 text-xs font-medium text-violet-700">
-                    {payment.method}
-                  </span>
-
-                </td>
-
-                {/* Date */}
-
-                <td className="px-5 py-4">
-
-                  <span className="text-sm text-slate-600">
-                    {payment.date}
+                    {student.program}
                   </span>
 
                 </td>
@@ -115,12 +83,28 @@ const PaymentTable = ({ payments }) => {
 
                   <span
                     className={`rounded-full px-3 py-1 text-xs font-medium ${
-                      payment.status === "Paid"
+                      student.status === "Active"
+                        ? "bg-green-100 text-green-700"
+                        : "bg-red-100 text-red-700"
+                    }`}
+                  >
+                    {student.status}
+                  </span>
+
+                </td>
+
+                {/* Payment */}
+
+                <td className="px-5 py-4">
+
+                  <span
+                    className={`rounded-full px-3 py-1 text-xs font-medium ${
+                      student.payment === "Paid"
                         ? "bg-green-100 text-green-700"
                         : "bg-yellow-100 text-yellow-700"
                     }`}
                   >
-                    {payment.status}
+                    {student.payment}
                   </span>
 
                 </td>
@@ -161,4 +145,4 @@ const PaymentTable = ({ payments }) => {
   );
 };
 
-export default PaymentTable;
+export default StudentsTable;
