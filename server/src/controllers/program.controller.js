@@ -1,4 +1,6 @@
-const Program = require("../models/program.model"); 
+const Program = require("../models/program.model");
+const fs = require("fs");
+const path = require("path");
 
 const createProgram = async (req, res) => {
   try {
@@ -46,6 +48,137 @@ const createProgram = async (req, res) => {
   }
 };
 
+const getPrograms = async (req, res) => {
+  try {
+    const programs = await Program.find().sort({ createdAt: -1 });
+
+    return res.status(200).json({
+      success: true,
+      count: programs.length,
+      data: programs,
+    });
+  } catch (error) {
+    return res.status(500).json({
+      success: false,
+      message: "Failed to fetch programs.",
+      error: error.message,
+    });
+  }
+};
+
+const updateProgram = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const {
+      name,
+      category,
+      originalPrice,
+      sellingPrice,
+      totalQuestions,
+      description,
+    } = req.body;
+
+    const program = await Program.findById(id);
+
+    if (!program) {
+      return res.status(404).json({
+        success: false,
+        message: "Program not found.",
+      });
+    }
+
+    const existingProgram = await Program.findOne({
+      name,
+      _id: { $ne: id },
+    });
+
+    if (existingProgram) {
+      return res.status(409).json({
+        success: false,
+        message: "Program name already exists.",
+      });
+    }
+
+    program.name = name;
+    program.category = category;
+    program.originalPrice = originalPrice;
+    program.sellingPrice = sellingPrice;
+    program.totalQuestions = totalQuestions;
+    program.description = description;
+
+    if (req.file) {
+      if (program.thumbnail) {
+        const oldImage = path.join(__dirname, "../../", program.thumbnail);
+
+        if (fs.existsSync(oldImage)) {
+          fs.unlinkSync(oldImage);
+        }
+      }
+      program.thumbnail = `/uploads/programs/${req.file.filename}`;
+    }
+
+    await program.save();
+
+    return res.status(200).json({
+      success: true,
+      message: "Program updated successfully.",
+      data: program,
+    });
+  } catch (error) {
+    return res.status(500).json({
+      success: false,
+      message: "Failed to update program.",
+      error: error.message,
+    });
+  }
+};
+
+const deleteProgram = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const program = await Program.findById(id);
+
+    if (!program) {
+      return res.status(404).json({
+        success: false,
+        message: "Program not found.",
+      });
+    }
+
+    // Delete thumbnail if it exists
+    if (program.thumbnail) {
+      const imagePath = path.join(
+        __dirname,
+        "../../",
+        program.thumbnail
+      );
+
+      if (fs.existsSync(imagePath)) {
+        fs.unlinkSync(imagePath);
+      }
+    }
+
+    await Program.findByIdAndDelete(id);
+
+    return res.status(200).json({
+      success: true,
+      message: "Program deleted successfully.",
+    });
+
+  } catch (error) {
+    return res.status(500).json({
+      success: false,
+      message: "Failed to delete program.",
+      error: error.message,
+    });
+  }
+};
+
 module.exports = {
   createProgram,
+  getPrograms,
+  updateProgram,
+  deleteProgram
 };

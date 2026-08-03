@@ -14,10 +14,10 @@ const {
 
 router.post("/program/store", protect, adminMiddleware, upload.single("thumbnail"), createProgram);
 
-// router.get("/program/list", protect, adminMiddleware, getPrograms);
+router.get("/program/list", protect, adminMiddleware, getPrograms);
 
-// router.put("/program/update/:id", protect, adminMiddleware, updateProgram);
+router.put("/program/update/:id", protect, adminMiddleware, updateProgram);
 
-// router.delete("/program/delete/:id", protect, adminMiddleware, deleteProgram);
+router.delete("/program/delete/:id", protect, adminMiddleware, deleteProgram);
 
 module.exports = router;
