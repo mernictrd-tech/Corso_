@@ -8,14 +8,14 @@ const questionSchema = new mongoose.Schema(
       trim: true,
     },
 
-    options: [
-      {
-        text: {
-          type: String,
-          required: true,
-        },
-      },
-    ],
+    options: {
+      type: [String],
+      required: true,
+      validate: {
+        validator: (v) => v.length === 4,
+        message: "Exactly 4 options are required."
+      }
+    },
 
     correctAnswer: {
       type: Number,
@@ -27,17 +27,14 @@ const questionSchema = new mongoose.Schema(
     category: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Category",
+      required: true,
     },
 
     program: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Program",
-    },
-
-    subject: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Subject",
       required: true,
+      index: true,
     },
 
     marks: {
