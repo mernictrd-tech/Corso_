@@ -1,4 +1,5 @@
 const Program = require("../models/program.model");
+const Category = require("../models/category.model");
 const fs = require("fs");
 const path = require("path");
 
@@ -50,7 +51,7 @@ const createProgram = async (req, res) => {
 
 const getPrograms = async (req, res) => {
   try {
-    const programs = await Program.find().sort({ createdAt: -1 });
+    const programs = await Program.find().populate("category", "name").sort({ createdAt: -1 });
 
     return res.status(200).json({
       success: true,

@@ -57,7 +57,7 @@ const ProgramTable = ({ programs }) => {
             {programs.map((program) => (
 
               <ProgramRow
-                key={program.id}
+                key={program._id}
                 program={program}
               />
 
@@ -76,7 +76,7 @@ const ProgramTable = ({ programs }) => {
         {programs.map((program) => (
 
           <div
-            key={program.id}
+            key={program._id}
             className="rounded-xl border border-slate-200 p-4"
           >
 
@@ -115,7 +115,7 @@ const ProgramTable = ({ programs }) => {
                 </p>
 
                 <p className="font-medium">
-                  {program.category}
+                  {program.category?.name || '-'}
                 </p>
 
               </div>
