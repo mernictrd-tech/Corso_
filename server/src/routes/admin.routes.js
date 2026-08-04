@@ -21,6 +21,14 @@ const {
   getQuestionsByProgram,
 } = require("../controllers/question.controller");
 
+const {
+  createCategory,
+  getCategories,
+  getCategoryById,
+  updateCategory,
+  deleteCategory,
+} = require("../controllers/category.controller");
+
 ////////////////////////   Program Routes ///////////////////////
 
 router.post(
@@ -49,6 +57,23 @@ router.put("/question/update/:id", protect, adminMiddleware, updateQuestion);
 
 router.get("/question/view/:id", protect, adminMiddleware, getQuestionById);
 
-router.get("/program/:programId/questions", protect, adminMiddleware, getQuestionsByProgram,);
+router.get(
+  "/program/:programId/questions",
+  protect,
+  adminMiddleware,
+  getQuestionsByProgram,
+);
+
+////////////////////////     Categories ////////////////////////////
+
+router.post("/category/store", protect, adminMiddleware, createCategory);
+
+router.get("/category/list", protect, adminMiddleware, getCategories);
+
+router.get("/category/:id", protect, adminMiddleware, getCategoryById);
+
+router.put("/category/update/:id", protect, adminMiddleware, updateCategory);
+
+router.delete("/category/delete/:id", protect, adminMiddleware, deleteCategory);
 
 module.exports = router;

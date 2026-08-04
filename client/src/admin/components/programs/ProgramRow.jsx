@@ -47,24 +47,19 @@ const ProgramRow = ({ program }) => {
 
         <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-600">
 
-          {program.category}
+          {program.category?.name || '-'}
 
         </span>
 
       </td>
 
-      {/* Duration */}
+      {/* Question Count */}
 
       <td className="px-6 py-4">
 
         <span className="flex items-center gap-2 text-sm text-slate-600">
 
-          <Clock3
-            size={15}
-            className="text-orange-500"
-          />
-
-          {program.duration}
+          {program.totalQuestions}
 
         </span>
 
@@ -76,12 +71,12 @@ const ProgramRow = ({ program }) => {
 
         <span
           className={`rounded-full px-3 py-1 text-xs font-semibold ${
-            program.status === "Active"
+            program.isActive == true
               ? "bg-green-100 text-green-600"
               : "bg-red-100 text-red-600"
           }`}
         >
-          {program.status}
+          {program.isActive == true ? 'Active' : 'Inactive'}
         </span>
 
       </td>

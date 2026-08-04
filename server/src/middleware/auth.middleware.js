@@ -3,6 +3,9 @@ const User = require("../models/user.model");
 
 const protect = async (req, res, next) => {
   try {
+    console.log("Cookies:", req.cookies);
+    console.log("Authorization:", req.headers.authorization);
+    
     let token;
 
     // Read token from cookie

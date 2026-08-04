@@ -35,7 +35,7 @@ const Login = () => {
 
       const res = await adminLogin(formData);
 
-      localStorage.setItem(
+      localStorage.setItem( 
         "admin",
         JSON.stringify(res.data)
       );
