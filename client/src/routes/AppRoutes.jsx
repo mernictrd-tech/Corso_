@@ -6,6 +6,7 @@ import Terms from "../pages/Terms/Terms";
 import RefundPolicy from "../pages/RefundPolicy/RefundPolicy";
 import CourseDetails from "../pages/CourseDetails/CourseDetails";
 import Dashboard from "../pages/Dashboard";
+import Assessment from "../components/assessment/Assessment";
 
 
 
@@ -23,11 +24,10 @@ const AppRoutes = () => {
           element={<CourseDetails />}
         />
 
-        {/* Future Assessment Page */}
-        {/* <Route
-          path="/assessment/:courseId"
-          element={<Assessment />}
-        /> */}
+       <Route
+  path="/assessment/:courseId"
+  element={<Assessment />}
+/>
 
         <Route
           path="/privacy-policy"
