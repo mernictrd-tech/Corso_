@@ -49,7 +49,7 @@ router.delete("/program/delete/:id", protect, adminMiddleware, deleteProgram);
 
 ////////////////////////   Question Routes ///////////////////////
 
-router.post("/question/store", protect, adminMiddleware, createQuestion);
+router.post("/question/create", protect, adminMiddleware, createQuestion);
 
 router.delete("/question/delete/:id", protect, adminMiddleware, deleteQuestion);
 

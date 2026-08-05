@@ -82,9 +82,9 @@ const updateQuestion = async (req, res) => {
     existingQuestion.question = question;
     existingQuestion.options = options;
     existingQuestion.correctAnswer = correctAnswer;
-    existingQuestion.category = category;
+    if (category !== undefined) existingQuestion.category = category;
+    if (marks !== undefined) existingQuestion.marks = marks;
     existingQuestion.program = program;
-    existingQuestion.marks = marks;
     existingQuestion.isActive = isActive;
 
     await existingQuestion.save();
@@ -161,5 +161,5 @@ module.exports = {
   getQuestionById,
   deleteQuestion,
   updateQuestion,
-  getQuestionsByProgram
+  getQuestionsByProgram,
 };

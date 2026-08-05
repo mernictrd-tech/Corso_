@@ -26,7 +26,7 @@ const Login = () => {
     e.preventDefault();
 
       console.log("FORM DATA:", formData);
-  console.log("EMAIL LENGTH:", formData.email.length);
+      console.log("EMAIL LENGTH:", formData.email.length);
 
     try {
       setLoading(true);

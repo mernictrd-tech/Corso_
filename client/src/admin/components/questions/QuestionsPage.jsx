@@ -1,62 +1,70 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Plus, ChevronDown, Check } from "lucide-react";
 
 import AdminLayout from "../layout/AdminLayout";
 import QuestionTable from "./QuestionTable";
 import AddQuestionModal from "./AddQuestionModal";
+import api from "../../../services/api";
+import EditQuestionModal from "./EditQuestionModal";
 
 const QuestionsPage = () => {
   const [showModal, setShowModal] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(false);
 
-  const programs = [
-    "Full Stack Development",
-    "Data Analytics",
-    "Python Programming",
-  ];
+  const [programs, setPrograms] = useState([]);
+  const [questions, setQuestions] = useState([]);
+  const [selectedProgram, setSelectedProgram] = useState("");
+  const [loading, setLoading] = useState(true);
+  const [editQuestion, setEditQuestion] = useState(null);
 
-  const [selectedProgram, setSelectedProgram] = useState(programs[0]);
+  useEffect(() => {
+    fetchPrograms();
+  }, []);
 
-  const questions = [
-    {
-      id: 1,
-      program: "Full Stack Development",
-      question: "What is React?",
-      options: [
-        "Database",
-        "JavaScript Library",
-        "Operating System",
-        "Programming Language",
-      ],
-      answer: "B",
-    },
-    {
-      id: 2,
-      program: "Data Analytics",
-      question: "Which library is used for data analysis in Python?",
-      options: [
-        "NumPy",
-        "Pandas",
-        "React",
-        "Express",
-      ],
-      answer: "B",
-    },
-  ];
+  useEffect(() => {
+    if (selectedProgram) {
+      fetchQuestions();
+    }
+  }, [selectedProgram]);
+
+  const fetchPrograms = async () => {
+    try {
+      const res = await api.get("/admin/program/list");
+
+      setPrograms(res.data.data);
+
+      if (res.data.data.length > 0) {
+        setSelectedProgram(res.data.data[0]._id);
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  const fetchQuestions = async () => {
+    try {
+      setLoading(true);
+
+      const res = await api.get(`/admin/program/${selectedProgram}/questions`);
+
+      setQuestions(res.data.data);
+    } catch (err) {
+      console.log(err);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const filteredQuestions = questions.filter(
-    (q) => q.program === selectedProgram
+    (q) => q.program === selectedProgram,
   );
 
   return (
     <AdminLayout>
       <div className="space-y-5">
-
         {/* Header */}
         <div className="flex items-start justify-between">
-
           <div>
-
             <h1 className="text-[28px] font-semibold text-slate-800">
               Question Bank
             </h1>
@@ -67,7 +75,6 @@ const QuestionsPage = () => {
 
             {/* Custom Dropdown */}
             <div className="relative mt-5 w-[320px]">
-
               <label className="mb-2 block text-sm font-medium text-slate-700">
                 Select Program
               </label>
@@ -76,49 +83,40 @@ const QuestionsPage = () => {
                 onClick={() => setOpenDropdown(!openDropdown)}
                 className="flex h-11 w-full items-center justify-between rounded-xl border border-slate-200 bg-white px-4 text-sm font-medium text-slate-700 shadow-sm transition hover:border-sky-400"
               >
-                {selectedProgram}
+                {programs.find((p) => p._id === selectedProgram)?.name ||
+                  "Select Program"}
 
                 <ChevronDown
                   size={18}
-                  className={`transition ${
-                    openDropdown ? "rotate-180" : ""
-                  }`}
+                  className={`transition ${openDropdown ? "rotate-180" : ""}`}
                 />
               </button>
 
               {openDropdown && (
                 <div className="absolute z-50 mt-2 w-full overflow-hidden rounded-xl border border-slate-200 bg-white shadow-xl">
-
                   {programs.map((program) => (
                     <button
-                      key={program}
+                      key={program._id}
                       onClick={() => {
-                        setSelectedProgram(program);
+                        setSelectedProgram(program._id);
                         setOpenDropdown(false);
                       }}
-                      className={`flex w-full items-center justify-between px-4 py-3 text-left text-sm transition
-                      ${
-                        selectedProgram === program
+                      className={`flex w-full items-center justify-between px-4 py-3 text-left text-sm transition ${
+                        selectedProgram === program._id
                           ? "bg-sky-50 text-sky-600"
                           : "hover:bg-slate-50 text-slate-700"
                       }`}
                     >
-                      {program}
+                      {program.name}
 
-                      {selectedProgram === program && (
-                        <Check
-                          size={16}
-                          className="text-sky-600"
-                        />
+                      {selectedProgram === program._id && (
+                        <Check size={16} className="text-sky-600" />
                       )}
                     </button>
                   ))}
-
                 </div>
               )}
-
             </div>
-
           </div>
 
           <button
@@ -128,20 +126,33 @@ const QuestionsPage = () => {
             <Plus size={17} />
             Add Question
           </button>
-
         </div>
 
         {/* Questions */}
 
-        <QuestionTable questions={filteredQuestions} />
-
+        <QuestionTable questions={questions} onEdit={setEditQuestion} />
       </div>
 
       {showModal && (
         <AddQuestionModal
-          programs={programs}
-          selectedProgram={selectedProgram}
           close={() => setShowModal(false)}
+          programs={programs}
+          onSuccess={() => {
+            fetchQuestions();
+            setShowModal(false);
+          }}
+        />
+      )}
+
+      {editQuestion && (
+        <EditQuestionModal
+          question={editQuestion}
+          programs={programs}
+          close={() => setEditQuestion(null)}
+          onSuccess={() => {
+            fetchQuestions();
+            setEditQuestion(null);
+          }}
         />
       )}
     </AdminLayout>

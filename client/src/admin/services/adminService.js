@@ -3,7 +3,7 @@ import axios from "axios";
 const API = "http://localhost:5000/api/auth";
 
 export const adminLogin = async (loginData) => {
-  const { a } = await axios.post(
+  const { data } = await axios.post(
     `${API}/login`,
     loginData,
     {
