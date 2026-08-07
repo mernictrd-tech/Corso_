@@ -24,10 +24,10 @@ const AppRoutes = () => {
           element={<CourseDetails />}
         />
 
-       <Route
-  path="/assessment/:courseId"
-  element={<Assessment />}
-/>
+        <Route
+          path="/assessment/:courseId"
+          element={<Assessment />}
+        />
 
         <Route
           path="/privacy-policy"
@@ -44,9 +44,9 @@ const AppRoutes = () => {
           element={<RefundPolicy />}
         />
 
-        <Route 
-        path="/dashboard" 
-        element={<Dashboard />} />
+        <Route
+          path="/dashboard"
+          element={<Dashboard />} />
       </Routes>
     </>
   );
