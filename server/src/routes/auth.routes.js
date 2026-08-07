@@ -17,6 +17,10 @@ const {
   googleAuth,
 } = require("../controllers/auth.controller");
 
+const {
+getProgramSuggestion
+} = require("../controllers/users/dashboard.controller");
+
 
 
 /*
@@ -48,6 +52,11 @@ router.get("/me", protect, me);
 router.post("/logout", logout);
 
 router.post("/google", googleAuth);
+
+
+////////////////////  Program Suggestion  ////////////////////
+
+router.get("/programs/suggestion", protect, getProgramSuggestion);
 
 module.exports = router;
 

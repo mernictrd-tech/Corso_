@@ -7,8 +7,7 @@ import RefundPolicy from "../pages/RefundPolicy/RefundPolicy";
 import CourseDetails from "../pages/CourseDetails/CourseDetails";
 import Dashboard from "../pages/Dashboard";
 import Assessment from "../components/assessment/Assessment";
-
-
+import ProtectedRoute from "../components/auth/ProtectedRoute";
 
 const AppRoutes = () => {
   return (
@@ -19,34 +18,20 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
 
         {/* Course Details */}
-        <Route
-          path="/course/:courseId"
-          element={<CourseDetails />}
-        />
+        <Route path="/course/:courseId" element={<CourseDetails />} />
 
-       <Route
-  path="/assessment/:courseId"
-  element={<Assessment />}
-/>
+        <Route path="/assessment/:courseId" element={<Assessment />} />
 
-        <Route
-          path="/privacy-policy"
-          element={<PrivacyPolicy />}
-        />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
-        <Route
-          path="/terms-and-conditions"
-          element={<Terms />}
-        />
+        <Route path="/terms-and-conditions" element={<Terms />} />
 
-        <Route
-          path="/refund-policy"
-          element={<RefundPolicy />}
-        />
+        <Route path="/refund-policy" element={<RefundPolicy />} />
 
-        <Route 
-        path="/dashboard" 
-        element={<Dashboard />} />
+        {/* Protected Routes */}
+        {/* <Route element={<ProtectedRoute />}> */}
+          <Route path="/dashboard" element={<Dashboard />} />
+        {/* </Route> */}
       </Routes>
     </>
   );

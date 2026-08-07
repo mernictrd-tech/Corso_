@@ -21,14 +21,7 @@ const Dashboard = () => {
           <StatsGrid stats={dashboardData.stats} />
         </div>
 
-        {/* Full Width Certificates */}
-        <div className="mt-8">
-          <CertificatesSection
-            certificates={dashboardData.certificates}
-          />
-        </div>
-
-        {/* Bottom Section */}
+        {/* Profile Section */}
         <div className="mt-8 grid gap-6 lg:grid-cols-2">
 
           <SuggestedAssessments
@@ -40,6 +33,14 @@ const Dashboard = () => {
           />
 
         </div>
+
+        {/* Full Width Certificates */}
+        <div className="mt-8">
+          <CertificatesSection
+            certificates={dashboardData.certificates}
+          />
+        </div>
+
 
       </div>
     </main>

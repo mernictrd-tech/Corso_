@@ -7,7 +7,13 @@ const cookieParser = require("cookie-parser");
 const app = express();
 
 // Security Middleware
-app.use(helmet());
+app.use(
+  helmet({
+    crossOriginResourcePolicy: {
+      policy: "cross-origin",
+    },
+  })
+);
 
 // CORS
 app.use(
