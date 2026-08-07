@@ -1,6 +1,6 @@
 import { Pencil, Trash2, CheckCircle2 } from "lucide-react";
 
-const QuestionTable = ({ questions, onEdit }) => {
+const QuestionTable = ({ questions, onEdit, onDelete }) => {
   if (questions.length === 0) {
     return (
       <div className="rounded-xl border border-slate-200 bg-white py-10 text-center shadow-sm">
@@ -35,7 +35,10 @@ const QuestionTable = ({ questions, onEdit }) => {
                 <Pencil size={15} />
               </button>
 
-              <button className="flex h-8 w-8 items-center justify-center rounded-lg border border-red-100 text-red-500 hover:bg-red-50">
+              <button
+                onClick={() => onDelete(item)}
+                className="flex h-8 w-8 items-center justify-center rounded-lg border border-red-100 text-red-500 hover:bg-red-50"
+              >
                 <Trash2 size={15} />
               </button>
             </div>

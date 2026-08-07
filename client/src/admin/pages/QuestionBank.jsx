@@ -12,30 +12,7 @@ const QuestionBank = () => {
   const [selectedProgram, setSelectedProgram] = useState("");
 
   // Dummy Data
-  const questions = [
-    {
-      id: 1,
-      question: "What is React?",
-      options: [
-        "Angular",
-        "Java",
-        "React",
-        "PHP",
-      ],
-      answer: "C",
-    },
-    {
-      id: 2,
-      question: "React is developed by?",
-      options: [
-        "Google",
-        "Microsoft",
-        "Meta",
-        "Amazon",
-      ],
-      answer: "C",
-    },
-  ];
+  const questions = [];
 
   return (
 

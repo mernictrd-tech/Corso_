@@ -6,6 +6,7 @@ import QuestionTable from "./QuestionTable";
 import AddQuestionModal from "./AddQuestionModal";
 import api from "../../../services/api";
 import EditQuestionModal from "./EditQuestionModal";
+import DeleteConfirmModal from "../common/DeleteConfirmModal";
 
 const QuestionsPage = () => {
   const [showModal, setShowModal] = useState(false);
@@ -16,6 +17,9 @@ const QuestionsPage = () => {
   const [selectedProgram, setSelectedProgram] = useState("");
   const [loading, setLoading] = useState(true);
   const [editQuestion, setEditQuestion] = useState(null);
+
+  const [deleteQuestion, setDeleteQuestion] = useState(null);
+  const [deleteLoading, setDeleteLoading] = useState(false);
 
   useEffect(() => {
     fetchPrograms();
@@ -55,9 +59,24 @@ const QuestionsPage = () => {
     }
   };
 
-  const filteredQuestions = questions.filter(
-    (q) => q.program === selectedProgram,
-  );
+  const handleDelete = async () => {
+    try {
+      setDeleteLoading(true);
+
+      await api.delete(`/admin/question/delete/${deleteQuestion._id}`);
+
+      fetchQuestions();
+      setDeleteQuestion(null);
+    } catch (err) {
+      console.log(err);
+    } finally {
+      setDeleteLoading(false);
+    }
+  };
+
+  // const filteredQuestions = questions.filter(
+  //   (q) => q.program === selectedProgram,
+  // );
 
   return (
     <AdminLayout>
@@ -130,7 +149,11 @@ const QuestionsPage = () => {
 
         {/* Questions */}
 
-        <QuestionTable questions={questions} onEdit={setEditQuestion} />
+        <QuestionTable
+          questions={questions}
+          onEdit={setEditQuestion}
+          onDelete={setDeleteQuestion}
+        />
       </div>
 
       {showModal && (
@@ -153,6 +176,16 @@ const QuestionsPage = () => {
             fetchQuestions();
             setEditQuestion(null);
           }}
+        />
+      )}
+
+      {deleteQuestion && (
+        <DeleteConfirmModal
+          title="Delete Question"
+          message={`Are you sure you want to delete "${deleteQuestion.question}"? This action cannot be undone.`}
+          loading={deleteLoading}
+          onCancel={() => setDeleteQuestion(null)}
+          onConfirm={handleDelete}
         />
       )}
     </AdminLayout>

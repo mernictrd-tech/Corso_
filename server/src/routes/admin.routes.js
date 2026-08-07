@@ -29,6 +29,10 @@ const {
   deleteCategory,
 } = require("../controllers/category.controller");
 
+const { 
+  getStudents,
+  deleteStudent } = require("../controllers/student.controller");
+
 ////////////////////////   Program Routes ///////////////////////
 
 router.post(
@@ -64,7 +68,7 @@ router.get(
   getQuestionsByProgram,
 );
 
-////////////////////////     Categories ////////////////////////////
+////////////////////////  Categories    ////////////////////////////
 
 router.post("/category/store", protect, adminMiddleware, createCategory);
 
@@ -75,5 +79,11 @@ router.get("/category/:id", protect, adminMiddleware, getCategoryById);
 router.put("/category/update/:id", protect, adminMiddleware, updateCategory);
 
 router.delete("/category/delete/:id", protect, adminMiddleware, deleteCategory);
+
+////////////////////////    Students    ////////////////////////////
+
+router.get("/students/list", protect, adminMiddleware, getStudents);
+
+router.delete("/student/delete/:id", protect, adminMiddleware, deleteStudent);
 
 module.exports = router;
