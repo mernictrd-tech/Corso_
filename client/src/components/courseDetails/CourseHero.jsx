@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import AssessmentModal from "../assessment/AssessmentModal";
 import {
   ArrowRight,
   Star,
@@ -9,7 +11,9 @@ import {
 } from "lucide-react";
 
 const CourseHero = ({ course }) => {
+    const [openModal, setOpenModal] = useState(false);
   return (
+    <>
 <section className="relative overflow-hidden bg-[#070B1A] py-10">          {/* Background Blur */}
       <div className="absolute -top-40 left-0 h-80 w-80 rounded-full bg-cyan-500/20 blur-[120px]" />
       <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-emerald-500/10 blur-[150px]" />
@@ -70,7 +74,10 @@ const CourseHero = ({ course }) => {
             </div>
 
             {/* Button */}
-            <button className="group mt-10 flex items-center gap-3 rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-400 px-8 py-4 font-semibold text-black transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-cyan-400/30">
+            <button 
+            onClick={() => setOpenModal(true)}
+            className="group mt-10 flex items-center gap-3 rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-400 px-8 py-4 font-semibold text-black transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-cyan-400/30">
+             
               Start Assessment
 
               <ArrowRight
@@ -145,6 +152,12 @@ const CourseHero = ({ course }) => {
         </div>
       </div>
     </section>
+    <AssessmentModal
+  open={openModal}
+  onClose={() => setOpenModal(false)}
+  course={course}
+/>
+    </>
   );
 };
 
