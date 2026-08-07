@@ -1,5 +1,6 @@
 import {
   LayoutDashboard,
+  Folder,
   BookOpen,
   CircleHelp,
   Users,
@@ -15,6 +16,11 @@ const menu = [
     title: "Dashboard",
     path: "/admin/dashboard",
     icon: LayoutDashboard,
+  },
+  {
+    title: "Categories",
+    path: "/admin/categories",
+    icon: Folder,
   },
   {
     title: "Program Master",

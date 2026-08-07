@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Login from "../pages/Login";
 import Dashboard from "../pages/Dashboard";
+import Categories from "../pages/Categories";
 import ProtectedAdminRoute from "./ProtectedAdminRoute";
 
 import ProgramMaster from "../components/programs/ProgramMaster";
@@ -21,6 +22,15 @@ const AdminRoutes = () => {
         element={
           <ProtectedAdminRoute>
             <Dashboard />
+          </ProtectedAdminRoute>
+        }
+      />
+      
+      <Route
+        path="categories"
+        element={
+          <ProtectedAdminRoute>
+            <Categories />
           </ProtectedAdminRoute>
         }
       />
