@@ -29,9 +29,18 @@ const {
   deleteCategory,
 } = require("../controllers/category.controller");
 
-const { 
+const {
   getStudents,
-  deleteStudent } = require("../controllers/student.controller");
+  deleteStudent,
+} = require("../controllers/student.controller");
+
+const {
+  createTopic,
+  getTopicsByProgram,
+  getTopicById,
+  updateTopic,
+  deleteTopic,
+} = require("../controllers/topic.controller");
 
 ////////////////////////   Program Routes ///////////////////////
 
@@ -39,7 +48,10 @@ router.post(
   "/program/store",
   protect,
   adminMiddleware,
-  upload.single("thumbnail"),
+  upload.fields([
+    { name: "thumbnail", maxCount: 1 },
+    { name: "certificateDemo", maxCount: 1 },
+  ]),
   createProgram,
 );
 
@@ -50,6 +62,23 @@ router.get("/program/:id", protect, adminMiddleware, getProgramById);
 router.put("/program/update/:id", protect, adminMiddleware, updateProgram);
 
 router.delete("/program/delete/:id", protect, adminMiddleware, deleteProgram);
+
+////////////////////////   Program Topic Routes ///////////////////////
+
+router.post("/topic/store", protect, adminMiddleware, createTopic);
+
+router.get(
+  "/topic/program/:programId",
+  protect,
+  adminMiddleware,
+  getTopicsByProgram,
+);
+
+router.get("/topic/:id", protect, adminMiddleware, getTopicById);
+
+router.put("/topic/:id", protect, adminMiddleware, updateTopic);
+
+router.delete("/topic/delete/:id", protect, adminMiddleware, deleteTopic);
 
 ////////////////////////   Question Routes ///////////////////////
 

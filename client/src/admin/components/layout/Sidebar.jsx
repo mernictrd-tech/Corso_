@@ -28,6 +28,11 @@ const menu = [
     icon: BookOpen,
   },
   {
+    title: "Program Topics",
+    path: "/admin/program-topics",
+    icon: BookOpen,
+  },
+  {
     title: "Questions",
     path: "/admin/questions",
     icon: CircleHelp,

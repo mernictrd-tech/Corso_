@@ -24,11 +24,11 @@ const CourseHero = ({ course }) => {
           {/* Left Side */}
           <div>
             <span className="rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-2 text-sm font-semibold text-cyan-300">
-              {course.category.name}
+              {course.category}
             </span>
 
             <h1 className="mt-6 text-5xl font-bold leading-tight text-white lg:text-6xl">
-              {course.name}
+              {course.title}
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-400 bg-clip-text text-transparent">
                 Assessment
               </span>
@@ -45,7 +45,7 @@ const CourseHero = ({ course }) => {
                   size={18}
                   className="fill-yellow-400 text-yellow-400"
                 />
-                {/* <span>{course.rating}</span> */}
+                <span>{course.rating}</span>
               </div>
 
               <div className="flex items-center gap-2 text-gray-300">
@@ -53,7 +53,7 @@ const CourseHero = ({ course }) => {
                   size={18}
                   className="text-cyan-400"
                 />
-                {/* <span>{course.students}+ Learners</span> */}
+                <span>{course.students}+ Learners</span>
               </div>
 
               <div className="flex items-center gap-2 text-gray-300">
@@ -61,7 +61,7 @@ const CourseHero = ({ course }) => {
                   size={18}
                   className="text-cyan-400"
                 />
-                {/* <span>{course.duration}</span> */}
+                <span>{course.duration}</span>
               </div>
 
               <div className="flex items-center gap-2 text-gray-300">

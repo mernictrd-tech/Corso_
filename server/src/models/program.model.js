@@ -45,6 +45,11 @@ const programSchema = new mongoose.Schema(
       default: "",
     },
 
+    certification: {
+      type: String,
+      default: "",
+    },
+
     originalPrice: {
       type: Number,
       required: [true, "Original price is required"],

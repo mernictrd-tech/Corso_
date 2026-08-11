@@ -1,10 +1,14 @@
 import { useEffect, useState } from "react";
 import api from "../../../services/api";
 import { X, UploadCloud } from "lucide-react";
+import { toast } from "react-hot-toast";
 
 const AddProgramModal = ({ close, onSuccess }) => {
   const [thumbnail, setThumbnail] = useState(null);
+  const [certificateDemo, setCertificateDemo] = useState(null);
 
+  const [preview, setPreview] = useState(null);
+  const [certificatePreview, setCertificatePreview] = useState(null);
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
@@ -19,11 +23,10 @@ const AddProgramModal = ({ close, onSuccess }) => {
     originalPrice: "",
     sellingPrice: "",
     totalQuestions: "",
+    examDuration: "",
     description: "",
     status: "Active",
   });
-
-  const [preview, setPreview] = useState(null);
 
   const handleChange = (e) => {
     setForm((prev) => ({
@@ -42,6 +45,15 @@ const AddProgramModal = ({ close, onSuccess }) => {
     setPreview(URL.createObjectURL(file));
   };
 
+  const handleCertificateImage = (e) => {
+    const file = e.target.files[0];
+
+    if (!file) return;
+
+    setCertificateDemo(file);
+    setCertificatePreview(URL.createObjectURL(file));
+  };
+
   const fetchCategories = async () => {
     try {
       const response = await api.get("/admin/category/list");
@@ -53,14 +65,58 @@ const AddProgramModal = ({ close, onSuccess }) => {
   };
 
   const handleSubmit = async () => {
-    if (
-      !form.name ||
-      !form.category ||
-      !form.originalPrice ||
-      !form.sellingPrice ||
-      !form.totalQuestions
-    ) {
-      alert("Please fill all required fields");
+    if (!form.name.trim()) {
+      toast.error("Program name is required");
+      return;
+    }
+
+    if (!form.category) {
+      toast.error("Please select a category");
+      return;
+    }
+
+    if (!form.originalPrice) {
+      toast.error("Original price is required");
+      return;
+    }
+
+    if (!form.sellingPrice) {
+      toast.error("Selling price is required");
+      return;
+    }
+
+    if (!form.totalQuestions) {
+      toast.error("Number of questions is required");
+      return;
+    }
+
+    if (!form.examDuration) {
+      toast.error("Exam duration is required");
+      return;
+    }
+
+    if (Number(form.originalPrice) <= 0) {
+      toast.error("Original price must be greater than 0");
+      return;
+    }
+
+    if (Number(form.sellingPrice) <= 0) {
+      toast.error("Selling price must be greater than 0");
+      return;
+    }
+
+    if (Number(form.sellingPrice) > Number(form.originalPrice)) {
+      toast.error("Selling price cannot be greater than original price");
+      return;
+    }
+
+    if (Number(form.totalQuestions) <= 0) {
+      toast.error("Number of questions must be greater than 0");
+      return;
+    }
+
+    if (Number(form.examDuration) <= 0) {
+      toast.error("Exam duration must be greater than 0 minutes");
       return;
     }
 
@@ -87,20 +143,31 @@ const AddProgramModal = ({ close, onSuccess }) => {
         data.append("thumbnail", thumbnail);
       }
 
+      if (certificateDemo) {
+        data.append("certificateDemo", certificateDemo);
+      }
+
       const response = await api.post("/admin/program/store", data, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
       });
 
-      alert("Program created");
+      toast.success("Program created successfully");
 
       if (onSuccess) {
         onSuccess();
       }
       close();
     } catch (error) {
-      console.log(error);
+      console.error(error);
+
+      const message =
+        error.response?.data?.message ||
+        error.response?.data?.error ||
+        "Failed to create program";
+
+      toast.error(message);
     } finally {
       setLoading(false);
     }
@@ -207,20 +274,43 @@ const AddProgramModal = ({ close, onSuccess }) => {
               </div>
             </div>
 
-            <div className="grid gap-5 md:grid-cols-1">
+            <div className="grid gap-5 md:grid-cols-2">
               <div>
                 <label className="mb-2 block text-sm font-medium text-slate-700">
                   No. of Questions
                 </label>
 
                 <input
-                  type="text"
+                  type="number"
+                  min="1"
                   name="totalQuestions"
                   value={form.totalQuestions}
                   onChange={handleChange}
-                  placeholder="10-50"
+                  placeholder="50"
                   className="h-11 w-full rounded-xl border border-slate-200 bg-white px-4 text-slate-800 placeholder:text-slate-400 outline-none focus:border-sky-500"
                 />
+              </div>
+
+              <div>
+                <label className="mb-2 block text-sm font-medium text-slate-700">
+                  Exam Duration
+                </label>
+
+                <div className="relative">
+                  <input
+                    type="number"
+                    min="1"
+                    name="examDuration"
+                    value={form.examDuration}
+                    onChange={handleChange}
+                    placeholder="60"
+                    className="h-11 w-full rounded-xl border border-slate-200 bg-white px-4 pr-16 text-slate-800 placeholder:text-slate-400 outline-none focus:border-sky-500"
+                  />
+
+                  <span className="absolute right-4 top-1/2 -translate-y-1/2 text-sm text-slate-500">
+                    min
+                  </span>
+                </div>
               </div>
             </div>
 
@@ -267,6 +357,37 @@ const AddProgramModal = ({ close, onSuccess }) => {
               )}
 
               <input type="file" className="hidden" onChange={handleImage} />
+            </label>
+
+            <label className="my-3 block text-sm font-medium text-slate-700">
+              Certificate Demo
+            </label>
+
+            <label className="flex h-48 cursor-pointer flex-col items-center justify-center rounded-2xl border-2 border-dashed border-slate-300 bg-slate-50 transition hover:border-sky-400 hover:bg-sky-50">
+              {certificatePreview ? (
+                <img
+                  src={certificatePreview}
+                  alt="Certificate Demo"
+                  className="h-full w-full rounded-2xl object-cover"
+                />
+              ) : (
+                <>
+                  <UploadCloud size={36} className="text-sky-500" />
+
+                  <p className="mt-3 text-base font-semibold text-slate-700">
+                    Upload Certificate
+                  </p>
+
+                  <span className="mt-1 text-sm text-slate-500">PNG / JPG</span>
+                </>
+              )}
+
+              <input
+                type="file"
+                className="hidden"
+                accept="image/png,image/jpeg,image/jpg,image/webp"
+                onChange={handleCertificateImage}
+              />
             </label>
           </div>
         </div>

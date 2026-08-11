@@ -11,28 +11,42 @@ const createProgram = async (req, res) => {
       originalPrice,
       sellingPrice,
       totalQuestions,
-      thumbnail,
+      examDuration,
       description,
+      status,
     } = req.body;
 
-    // Check duplicate program code
+    // Check duplicate program name
     const existingProgram = await Program.findOne({ name });
 
     if (existingProgram) {
       return res.status(409).json({
         success: false,
-        message: "Program code already exists.",
+        message: "Program already exists.",
       });
     }
+
+    // Get uploaded files
+    const thumbnail = req.files?.thumbnail?.[0];
+    const certificateDemo = req.files?.certificateDemo?.[0];
 
     const program = await Program.create({
       name,
       category,
-      originalPrice,
-      sellingPrice,
-      totalQuestions,
-      thumbnail: req.file ? `/uploads/programs/${req.file.filename}` : "",
+      originalPrice: Number(originalPrice),
+      sellingPrice: Number(sellingPrice),
+      totalQuestions: Number(totalQuestions),
+      examDuration: Number(examDuration),
+
+      thumbnail: thumbnail ? `/uploads/programs/${thumbnail.filename}` : "",
+
+      certificateDemo: certificateDemo
+        ? `/uploads/programs/certifications/${certificateDemo.filename}`
+        : "",
+
       description,
+
+      isActive: status === "Active",
     });
 
     return res.status(201).json({
@@ -41,6 +55,8 @@ const createProgram = async (req, res) => {
       data: program,
     });
   } catch (error) {
+    console.error(error);
+
     return res.status(500).json({
       success: false,
       message: "Failed to create program.",
@@ -51,7 +67,9 @@ const createProgram = async (req, res) => {
 
 const getPrograms = async (req, res) => {
   try {
-    const programs = await Program.find().populate("category", "name").sort({ createdAt: -1 });
+    const programs = await Program.find()
+      .populate("category", "name")
+      .sort({ createdAt: -1 });
 
     return res.status(200).json({
       success: true,
@@ -150,11 +168,7 @@ const deleteProgram = async (req, res) => {
 
     // Delete thumbnail if it exists
     if (program.thumbnail) {
-      const imagePath = path.join(
-        __dirname,
-        "../../",
-        program.thumbnail
-      );
+      const imagePath = path.join(__dirname, "../../", program.thumbnail);
 
       if (fs.existsSync(imagePath)) {
         fs.unlinkSync(imagePath);
@@ -167,7 +181,6 @@ const deleteProgram = async (req, res) => {
       success: true,
       message: "Program deleted successfully.",
     });
-
   } catch (error) {
     return res.status(500).json({
       success: false,
@@ -203,10 +216,12 @@ const getProgramById = async (req, res) => {
   }
 };
 
+
+
 module.exports = {
   createProgram,
   getPrograms,
   updateProgram,
   deleteProgram,
-  getProgramById
+  getProgramById,
 };

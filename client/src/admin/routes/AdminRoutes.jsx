@@ -10,6 +10,7 @@ import QuestionsPage from "../components/questions/QuestionsPage";
 import StudentsPage from "../components/students/StudentsPage";
 import Payments from "../pages/Payments";
 import Certificates from "../pages/Certificates";
+import TopicsPage from "../components/topics/TopicsPage";
 
 const AdminRoutes = () => {
   return (
@@ -76,6 +77,15 @@ const AdminRoutes = () => {
         element={
           <ProtectedAdminRoute>
             <Certificates />
+          </ProtectedAdminRoute>
+        }
+      />
+      
+      <Route
+        path="program-topics"
+        element={
+          <ProtectedAdminRoute>
+            <TopicsPage />
           </ProtectedAdminRoute>
         }
       />
