@@ -6,8 +6,6 @@ import GoogleButton from "./GoogleButton";
 import { useNavigate } from "react-router-dom";
 
 
-
-
 const LoginForm = ({
 
   onSwitchToSignup,
