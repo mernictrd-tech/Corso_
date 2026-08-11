@@ -1,6 +1,5 @@
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Layout from "../../components/layout/Layout";
-import courseDetails from "../../data/courseDetails";
 import api from "../../services/api";
 import Layout from "../../components/layout/Layout";
 
@@ -18,9 +17,6 @@ import {
 const CourseDetails = () => {
   const { courseId } = useParams();
 
-  const course =
-    courseDetails.find((item) => item.id === courseId) ||
-    courseDetails[0];
   const [course, setCourse] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
