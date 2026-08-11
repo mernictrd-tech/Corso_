@@ -33,13 +33,12 @@ const AssessmentCard = () => {
                 helping learners earn recognized certifications that strengthen their career prospects.
             </p>
 
-            <button className="mt-10 flex w-full items-center justify-center gap-3 rounded-2xl bg-white py-5 text-lg font-semibold text-black transition hover:bg-gray-100">
-
-                Start Test — Download Certificate Instantly
-
-                <ArrowRight size={18} />
-
-            </button>
+           <a
+          href="#courses"
+          className="mt-10 flex w-full items-center justify-center gap-3 rounded-2xl bg-white py-5 text-lg font-semibold text-black transition-all duration-300 hover:scale-[1.02] hover:bg-gray-100">
+          Start Test — Download Certificate Instantly
+          <ArrowRight size={20} />
+        </a>
 
         </div>
     );

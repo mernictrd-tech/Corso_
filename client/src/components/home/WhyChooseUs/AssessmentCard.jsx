@@ -55,13 +55,12 @@ const AssessmentCard = () => {
 
         </div>
 
-        <button className="mt-6 flex w-full items-center justify-center gap-3 rounded-2xl bg-white py-3 text-xl font-semibold text-black transition hover:bg-gray-200">
-
+        <a
+          href="#courses"
+          className="mt-10 flex w-full items-center justify-center gap-3 rounded-2xl bg-white py-5 text-lg font-semibold text-black transition-all duration-300 hover:scale-[1.02] hover:bg-gray-100">
           Start Test — Get Certified
-
           <ArrowRight size={20} />
-
-        </button>
+        </a>
 
       </div>
 

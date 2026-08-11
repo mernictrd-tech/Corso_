@@ -3,42 +3,29 @@ import { useState } from "react";
 import PaymentPopup from "./PaymentPopup";
 
 const ResultCard = ({ score, total }) => {
-
     const [showPayment, setShowPayment] = useState(false);
-
     const navigate = useNavigate();
-
     const percentage = Math.round(
         (score / total) * 100
     );
 
 
     const passed = percentage >= 70;
-
-
     return (
         <div className="min-h-screen bg-[#070B1A] flex items-center justify-center p-6">
-
             <div className="max-w-xl w-full rounded-3xl border border-white/10 bg-white/5 p-10 text-center">
-
-
                 {
                     passed ? (
-
                         <>
                             <h1 className="text-4xl font-bold text-emerald-400">
-                                Congratulations 🎉
+                                Congratulations
                             </h1>
-
                             <p className="mt-5 text-white text-xl">
                                 You have passed the assessment
                             </p>
-
                             <h2 className="mt-6 text-6xl font-bold text-white">
                                 {percentage}%
                             </h2>
-
-
                             <button
 
                                 onClick={() => setShowPayment(true)}

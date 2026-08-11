@@ -1,4 +1,4 @@
-import certificate from "../../../assets/images/certificate.png";
+import certificate from "../../../assets/images/CertificateHero.png";
 
 const HeroImage = () => {
   return (
