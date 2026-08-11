@@ -4,6 +4,8 @@ const router = express.Router();
 const validate = require("../middleware/validate.middleware");
 const protect = require("../middleware/auth.middleware");
 
+const uploadProfile = require("../middleware/uploadprofile.middleware");
+
 const {
   registerValidation,
   loginValidation,
@@ -18,10 +20,9 @@ const {
 } = require("../controllers/auth.controller");
 
 const {
-getProgramSuggestion
+  getProgramSuggestion,
+  updateProfile,
 } = require("../controllers/users/dashboard.controller");
-
-
 
 /*
 |--------------------------------------------------------------------------
@@ -30,22 +31,10 @@ getProgramSuggestion
 */
 
 // Register
-router.post(
-  "/register",
-  registerValidation,
-  validate,
-  register
-);
+router.post("/register", registerValidation, validate, register);
 
 // Login
-router.post(
-  "/login",
-  loginValidation,
-  validate,
-  login
-);
-
-
+router.post("/login", loginValidation, validate, login);
 
 router.get("/me", protect, me);
 
@@ -53,10 +42,15 @@ router.post("/logout", logout);
 
 router.post("/google", googleAuth);
 
-
 ////////////////////  Program Suggestion  ////////////////////
 
 router.get("/programs/suggestion", protect, getProgramSuggestion);
 
-module.exports = router;
+router.put(
+  "/profile",
+  protect,
+  uploadProfile.single("profileImage"),
+  updateProfile,
+);
 
+module.exports = router;

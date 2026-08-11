@@ -45,11 +45,11 @@ const CertificatePreview = ({ course }) => {
 
             <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
 
-              <img
+              {/* <img
                 src={course.certificate.image}
                 alt="Certificate"
                 className="w-full rounded-2xl shadow-2xl"
-              />
+              /> */}
 
             </div>
 
@@ -65,15 +65,15 @@ const CertificatePreview = ({ course }) => {
                 className="text-cyan-400"
               />
 
-              <h3 className="text-3xl font-bold text-white">
+              {/* <h3 className="text-3xl font-bold text-white">
                 {course.certificate.title}
-              </h3>
+              </h3> */}
 
             </div>
 
-            <p className="mt-6 leading-8 text-gray-400">
+            {/* <p className="mt-6 leading-8 text-gray-400">
               {course.certificate.description}
-            </p>
+            </p> */}
 
             {/* Benefits */}
 

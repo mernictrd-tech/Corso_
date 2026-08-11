@@ -41,7 +41,7 @@ const SuggestedAssessments = () => {
           >
             <div className="flex items-center gap-4">
               <img
-                src={`http://localhost:5000${item.thumbnail}`}
+                src={`${import.meta.env.VITE_API_BASE_URL_RESOURCE}${item.thumbnail}`}
                 alt={item.name}
                 className="h-16 w-16 rounded-xl object-cover border border-white/10"
               />

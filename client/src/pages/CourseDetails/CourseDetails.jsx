@@ -1,6 +1,7 @@
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Layout from "../../components/layout/Layout";
-import courseDetails from "../../data/courseDetails";
+import api from "../../services/api";
 
 import {
   CourseHero,
@@ -12,11 +13,28 @@ import {
 } from "../../components/courseDetails";
 
 const CourseDetails = () => {
-  const { courseId } = useParams();
+  const { courseId } = useParams(); // this is the slug
 
-  const course =
-    courseDetails.find((item) => item.id === courseId) ||
-    courseDetails[0];
+  const [course, setCourse] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchCourse = async () => {
+      try {
+        const { data } = await api.get(`/program/slug/${courseId}`);
+        setCourse(data.data);
+      } catch (error) {
+        console.error(error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchCourse();
+  }, [courseId]);
+
+  if (loading) return <Layout><div>Loading...</div></Layout>;
+  if (!course) return <Layout><div>Course not found.</div></Layout>;
 
   return (
     <Layout>

@@ -50,7 +50,7 @@ const SkillsCovered = ({ course }) => {
 
         {/* Skills Grid */}
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
-          {course.skills.map((skill, index) => {
+          {/* {course.skills.map((skill, index) => {
             const Icon = iconMap[skill] || CheckCircle2;
 
             return (
@@ -75,7 +75,7 @@ const SkillsCovered = ({ course }) => {
                 </p>
               </div>
             );
-          })}
+          })} */}
         </div>
 
         {/* Bottom CTA */}
@@ -96,7 +96,7 @@ const SkillsCovered = ({ course }) => {
             <div className="flex flex-wrap gap-4">
               <div className="rounded-xl bg-cyan-500/10 px-6 py-4 text-center border border-cyan-400/20">
                 <h4 className="text-2xl font-bold text-cyan-400">
-                  {course.skills.length}
+                  {/* {course.skills.length} */}
                 </h4>
 
                 <p className="text-sm text-gray-400 mt-1">

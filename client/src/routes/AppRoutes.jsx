@@ -29,9 +29,9 @@ const AppRoutes = () => {
         <Route path="/refund-policy" element={<RefundPolicy />} />
 
         {/* Protected Routes */}
-        {/* <Route element={<ProtectedRoute />}> */}
+        <Route element={<ProtectedRoute />}>
           <Route path="/dashboard" element={<Dashboard />} />
-        {/* </Route> */}
+        </Route>
       </Routes>
     </>
   );
