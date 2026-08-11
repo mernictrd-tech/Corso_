@@ -10,7 +10,7 @@ mongoose.connect(process.env.MONGO_URI);
 const createAdmin = async () => {
   try {
     const exists = await User.findOne({
-      email: "priti.ictrd@gmail.com",
+      email: "mernictrd@gmail.com",
     });
 
     if (exists) {
@@ -20,7 +20,7 @@ const createAdmin = async () => {
 
    await User.create({
   fullName: "Super Admin",
-  email: "priti.ictrd@gmail.com",
+  email: "mernictrd@gmail.com",
   password: "admin@123",
   role: "admin",
   provider: "local",

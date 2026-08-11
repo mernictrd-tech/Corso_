@@ -2,6 +2,8 @@ const express = require("express");
 const router = express.Router();
 const authRoutes = require("./auth.routes");
 const adminRoutes = require("./admin.routes");
+const assessmentRoutes = require("./assessment.routes");
+const paymentRoutes = require("./payment.routes");
 const {
    getPrograms,
    getProgramBySlug
@@ -25,6 +27,8 @@ router.use("/admin", adminRoutes);
 
 router.get("/program/list", getPrograms);
 router.get("/category/list", getCategories);
+router.use("/assessment", assessmentRoutes);
+router.use("/payment", paymentRoutes);
 
 router.get("/program/slug/:slug", getProgramBySlug);
 
