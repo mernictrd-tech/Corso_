@@ -25,13 +25,13 @@ const HowItWorks = () => {
 
           </div>
 
-          <button className="flex items-center justify-center gap-3 rounded-2xl bg-white px-8 py-5 text-lg font-semibold text-black transition hover:bg-gray-100">
-
+          <a
+            href="#courses"
+            className="flex items-center justify-center gap-3 rounded-2xl bg-white px-8 py-5 text-lg font-semibold text-black transition-all duration-300 hover:scale-[1.02] hover:bg-gray-100">
+  
             Start Challenge
-
             <ArrowRight size={18} />
-
-          </button>
+          </a>
 
         </div>
 

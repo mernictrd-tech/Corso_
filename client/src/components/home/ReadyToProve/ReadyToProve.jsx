@@ -48,13 +48,16 @@ const ReadyToProve = () => {
                 download your certificate instantly.
               </p>
 
-              <button className="mt-8 flex w-full items-center justify-center gap-3 rounded-2xl bg-white py-5 text-lg font-semibold text-black transition-all duration-300 hover:scale-[1.02] hover:bg-gray-100">
+              <a
+                href="#courses"
+              
+              className="mt-8 flex w-full items-center justify-center gap-3 rounded-2xl bg-white py-5 text-lg font-semibold text-black transition-all duration-300 hover:scale-[1.02] hover:bg-gray-100">
 
                 Start Challenge
 
                 <ArrowRight size={18} />
 
-              </button>
+              </a>
 
               <p className="mt-6 text-sm text-gray-400">
                 Tip: Share your certificate on LinkedIn for maximum visibility.
