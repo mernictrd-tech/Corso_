@@ -4,6 +4,8 @@ const authRoutes = require("./auth.routes");
 const adminRoutes = require("./admin.routes");
 const assessmentRoutes = require("./assessment.routes");
 const paymentRoutes = require("./payment.routes");
+const userRoutes = require("./users.routes");
+
 const {
    getPrograms,
    getProgramBySlug
@@ -22,6 +24,7 @@ router.get("/health", (req, res) => {
 // Authentication Routes
 router.use("/auth", authRoutes);
 router.use("/admin", adminRoutes);
+router.use("/users", userRoutes);
 
 // Routes
 
