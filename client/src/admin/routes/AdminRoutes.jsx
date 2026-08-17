@@ -11,6 +11,7 @@ import StudentsPage from "../components/students/StudentsPage";
 import Payments from "../pages/Payments";
 import Certificates from "../pages/Certificates";
 import TopicsPage from "../components/topics/TopicsPage";
+import StudentDetails from "../components/students/StudentDetails";
 
 const AdminRoutes = () => {
   return (
@@ -59,6 +60,16 @@ const AdminRoutes = () => {
         element={
           <ProtectedAdminRoute>
             <StudentsPage />
+          </ProtectedAdminRoute>
+        }
+      />
+
+
+      <Route
+        path="students/:studentId"
+        element={
+          <ProtectedAdminRoute>
+            <StudentDetails />
           </ProtectedAdminRoute>
         }
       />
