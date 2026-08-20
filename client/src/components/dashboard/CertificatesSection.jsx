@@ -2,22 +2,22 @@ import { useMemo, useState } from "react";
 import { Search, Filter } from "lucide-react";
 import CertificateItem from "./CertificateItem";
 
-const CertificatesSection = ({ certificates }) => {
+const CertificatesSection = ({ certificates, onViewCertificate }) => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const filteredCertificates = useMemo(() => {
-    return certificates.filter((certificate) => {
+    return (certificates || []).filter((certificate) => {
       const value = searchTerm.toLowerCase();
 
       return (
-        certificate.title.toLowerCase().includes(value) ||
-        certificate.certificateId.toLowerCase().includes(value)
+        (certificate.title || certificate.program?.name || "").toLowerCase().includes(value) ||
+        (certificate.certificateId || "").toLowerCase().includes(value)
       );
     });
   }, [certificates, searchTerm]);
 
   return (
-    <section className="rounded-3xl border border-white/10 bg-[#141A2A] p-8">
+    <section className="rounded-2xl sm:rounded-3xl border border-white/10 bg-[#141A2A] p-5 sm:p-8">
 
       {/* Header */}
 
@@ -56,20 +56,20 @@ const CertificatesSection = ({ certificates }) => {
               placeholder="Search certificates..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full rounded-xl border border-white/10 bg-[#1A2032] py-3 pl-11 pr-4 text-white outline-none transition focus:border-cyan-500 sm:w-72"
+              className="w-full rounded-xl border border-white/10 bg-[#1A2032] py-2 pl-11 pr-4 text-sm text-white outline-none transition focus:border-cyan-500 sm:w-72"
             />
 
           </div>
 
           {/* Filter Button */}
 
-          <button className="flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-[#1A2032] px-5 py-3 text-gray-300 transition hover:border-cyan-500 hover:text-cyan-400">
+          {/* <button className="flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-[#1A2032] px-5 py-3 text-gray-300 transition hover:border-cyan-500 hover:text-cyan-400">
 
             <Filter size={18} />
 
             Filter
 
-          </button>
+          </button> */}
 
         </div>
 
@@ -86,8 +86,9 @@ const CertificatesSection = ({ certificates }) => {
         {filteredCertificates.length > 0 ? (
           filteredCertificates.map((certificate) => (
             <CertificateItem
-              key={certificate.id}
+              key={certificate.id || certificate._id || certificate.certificateId}
               certificate={certificate}
+              onViewCertificate={onViewCertificate}
             />
           ))
         ) : (

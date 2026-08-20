@@ -16,8 +16,8 @@ const Home = () => {
         <CoursesCards />
         <AssessmentInfo />
         <HowItWorks />
-      <ReadyToProve />
-      <VerifyCertificate />
+        <ReadyToProve />
+        <VerifyCertificate />
       </Layout>
     </>
   );
