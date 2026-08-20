@@ -1,6 +1,6 @@
 import ProgramRow from "./ProgramRow";
 
-const ProgramTable = ({ programs }) => {
+const ProgramTable = ({ programs, fetchPrograms }) => {
   return (
     <div className="overflow-hidden rounded-2xl bg-white shadow-sm">
 
@@ -59,6 +59,7 @@ const ProgramTable = ({ programs }) => {
               <ProgramRow
                 key={program._id}
                 program={program}
+                onSuccess={fetchPrograms}
               />
 
             ))}

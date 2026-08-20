@@ -11,6 +11,7 @@ const {
   deleteProgram,
   getPrograms,
   getProgramById,
+  getWidget,
 } = require("../controllers/program.controller");
 
 const {
@@ -32,6 +33,8 @@ const {
 const {
   getStudents,
   deleteStudent,
+  getStudentDetails,
+  searchStudents,
 } = require("../controllers/student.controller");
 
 const {
@@ -41,6 +44,11 @@ const {
   updateTopic,
   deleteTopic,
 } = require("../controllers/topic.controller");
+const { getAllPayments } = require("../controllers/payment.controller");
+
+////////////////////////  Dashboard Widget ///////////////////////
+
+router.get("/dashboard/widgets", protect, adminMiddleware, getWidget);
 
 ////////////////////////   Program Routes ///////////////////////
 
@@ -59,7 +67,22 @@ router.get("/program/list", protect, adminMiddleware, getPrograms);
 
 router.get("/program/:id", protect, adminMiddleware, getProgramById);
 
-router.put("/program/update/:id", protect, adminMiddleware, updateProgram);
+router.put(
+  "/program/update/:id",
+  protect,
+  adminMiddleware,
+  upload.fields([
+    {
+      name: "thumbnail",
+      maxCount: 1,
+    },
+    {
+      name: "certificateDemo",
+      maxCount: 1,
+    },
+  ]),
+  updateProgram,
+);
 
 router.delete("/program/delete/:id", protect, adminMiddleware, deleteProgram);
 
@@ -109,10 +132,20 @@ router.put("/category/update/:id", protect, adminMiddleware, updateCategory);
 
 router.delete("/category/delete/:id", protect, adminMiddleware, deleteCategory);
 
+////////////////////////  Global Search ////////////////////////////
+
+router.get("/students/search", protect, adminMiddleware, searchStudents);
+
 ////////////////////////    Students    ////////////////////////////
 
 router.get("/students/list", protect, adminMiddleware, getStudents);
 
 router.delete("/student/delete/:id", protect, adminMiddleware, deleteStudent);
+
+router.get("/students/:studentId", protect, adminMiddleware, getStudentDetails);
+
+////////////////////////  Payment List  ////////////////////////////
+
+router.get("/payments/list", protect, adminMiddleware, getAllPayments);
 
 module.exports = router;

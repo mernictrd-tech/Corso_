@@ -22,6 +22,12 @@ const programSchema = new mongoose.Schema(
       required: true,
     },
 
+    examDuration: {
+      type: Number,
+      required: true,
+      min: 1,
+    },
+
     description: {
       type: String,
       trim: true,
@@ -45,7 +51,7 @@ const programSchema = new mongoose.Schema(
       default: "",
     },
 
-    certification: {
+    certificateDemo: {
       type: String,
       default: "",
     },
@@ -71,6 +77,16 @@ const programSchema = new mongoose.Schema(
     isActive: {
       type: Boolean,
       default: true,
+    },
+
+    isDeleted: {
+      type: Boolean,
+      default: false,
+    },
+
+    deletedAt: {
+      type: Date,
+      default: null,
     },
   },
   {

@@ -12,10 +12,6 @@ const razorpay = new Razorpay({
   key_secret: process.env.RAZORPAY_KEY_SECRET,
 });
 
-const CERTIFICATE_FEE = Number(
-  process.env.CERTIFICATE_FEE || 249
-);
-
 /*
 |--------------------------------------------------------------------------
 | Create Razorpay Order
@@ -26,29 +22,16 @@ const createPaymentOrder = async (req, res) => {
   try {
     const studentId = req.user._id;
 
-    const {
-      assessmentId,
-      programId,
-      name,
-      email,
-      mobile,
-    } = req.body;
+    const { assessmentId, programId, name, email, mobile } = req.body;
 
     // ---------------------------------------------------------
     // Validate input
     // ---------------------------------------------------------
 
-    if (
-      !assessmentId ||
-      !programId ||
-      !name ||
-      !email ||
-      !mobile
-    ) {
+    if (!assessmentId || !programId || !name || !email || !mobile) {
       return res.status(400).json({
         success: false,
-        message:
-          "Assessment, program and user details are required.",
+        message: "Assessment, program and user details are required.",
       });
     }
 
@@ -57,17 +40,12 @@ const createPaymentOrder = async (req, res) => {
     // ---------------------------------------------------------
 
     if (
-      !mongoose.Types.ObjectId.isValid(
-        assessmentId
-      ) ||
-      !mongoose.Types.ObjectId.isValid(
-        programId
-      )
+      !mongoose.Types.ObjectId.isValid(assessmentId) ||
+      !mongoose.Types.ObjectId.isValid(programId)
     ) {
       return res.status(400).json({
         success: false,
-        message:
-          "Invalid assessment or program ID.",
+        message: "Invalid assessment or program ID.",
       });
     }
 
@@ -75,13 +53,12 @@ const createPaymentOrder = async (req, res) => {
     // Verify passed assessment
     // ---------------------------------------------------------
 
-    const assessment =
-      await Assessment.findOne({
-        _id: assessmentId,
-        student: studentId,
-        program: programId,
-        passed: true,
-      });
+    const assessment = await Assessment.findOne({
+      _id: assessmentId,
+      student: studentId,
+      program: programId,
+      passed: true,
+    });
 
     if (!assessment) {
       return res.status(403).json({
@@ -95,13 +72,25 @@ const createPaymentOrder = async (req, res) => {
     // Verify program
     // ---------------------------------------------------------
 
-    const program =
-      await Program.findById(programId);
+    const program = await Program.findById(programId);
 
     if (!program) {
       return res.status(404).json({
         success: false,
         message: "Program not found.",
+      });
+    }
+
+    // -------------------------------------------------------
+    // Get Program Price
+    // -------------------------------------------------------
+
+    const certificateFee = Number(program.sellingPrice);
+
+    if (!certificateFee || certificateFee <= 0) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid certificate fee for this program.",
       });
     }
 
@@ -111,54 +100,45 @@ const createPaymentOrder = async (req, res) => {
 
     const receipt = `cert_${Date.now()}`;
 
-    const order =
-      await razorpay.orders.create({
-        amount: CERTIFICATE_FEE * 100,
-        currency: "INR",
-        receipt,
+    const order = await razorpay.orders.create({
+      amount: certificateFee * 100,
+      currency: "INR",
+      receipt,
 
-        notes: {
-          studentId:
-            studentId.toString(),
+      notes: {
+        studentId: studentId.toString(),
 
-          assessmentId:
-            assessmentId.toString(),
+        assessmentId: assessmentId.toString(),
 
-          programId:
-            programId.toString(),
+        programId: programId.toString(),
 
-          studentName:
-            name.trim(),
+        studentName: name.trim(),
 
-          studentEmail:
-            email.trim(),
+        studentEmail: email.trim(),
 
-          studentMobile:
-            mobile.trim(),
-        },
-      });
+        studentMobile: mobile.trim(),
+      },
+    });
 
     // ---------------------------------------------------------
     // Save payment record
     // ---------------------------------------------------------
 
-    const payment =
-      await Payment.create({
-        student: studentId,
+    const payment = await Payment.create({
+      student: studentId,
 
-        program: programId,
+      program: programId,
 
-        assessment: assessmentId,
+      assessment: assessmentId,
 
-        amount: CERTIFICATE_FEE,
+      amount: certificateFee,
 
-        currency: "INR",
+      currency: "INR",
 
-        razorpayOrderId:
-          order.id,
+      razorpayOrderId: order.id,
 
-        status: "created",
-      });
+      status: "created",
+    });
 
     // ---------------------------------------------------------
     // Send order to frontend
@@ -167,24 +147,18 @@ const createPaymentOrder = async (req, res) => {
     return res.status(200).json({
       success: true,
 
-      message:
-        "Payment order created.",
+      message: "Payment order created.",
 
       data: {
-        paymentId:
-          payment._id,
+        paymentId: payment._id,
 
-        orderId:
-          order.id,
+        orderId: order.id,
 
-        amount:
-          order.amount,
+        amount: order.amount,
 
-        currency:
-          order.currency,
+        currency: order.currency,
 
-        key:
-          process.env.RAZORPAY_KEY_ID,
+        key: process.env.RAZORPAY_KEY_ID,
 
         student: {
           name,
@@ -193,28 +167,21 @@ const createPaymentOrder = async (req, res) => {
         },
 
         program: {
-          id:
-            program._id,
+          id: program._id,
 
-          name:
-            program.name,
+          name: program.name,
         },
       },
     });
   } catch (error) {
-    console.error(
-      "Create payment order error:",
-      error
-    );
+    console.error("Create payment order error:", error);
 
     return res.status(500).json({
       success: false,
 
-      message:
-        "Unable to create payment order.",
+      message: "Unable to create payment order.",
 
-      error:
-        error.message,
+      error: error.message,
     });
   }
 };
@@ -242,16 +209,11 @@ const verifyPayment = async (req, res) => {
     // Validate Razorpay response
     // ---------------------------------------------------------
 
-    if (
-      !razorpay_payment_id ||
-      !razorpay_order_id ||
-      !razorpay_signature
-    ) {
+    if (!razorpay_payment_id || !razorpay_order_id || !razorpay_signature) {
       return res.status(400).json({
         success: false,
 
-        message:
-          "Payment verification details are missing.",
+        message: "Payment verification details are missing.",
       });
     }
 
@@ -259,21 +221,17 @@ const verifyPayment = async (req, res) => {
     // Find our payment
     // ---------------------------------------------------------
 
-    const payment =
-      await Payment.findOne({
-        razorpayOrderId:
-          razorpay_order_id,
+    const payment = await Payment.findOne({
+      razorpayOrderId: razorpay_order_id,
 
-        student:
-          studentId,
-      });
+      student: studentId,
+    });
 
     if (!payment) {
       return res.status(404).json({
         success: false,
 
-        message:
-          "Payment record not found.",
+        message: "Payment record not found.",
       });
     }
 
@@ -281,52 +239,32 @@ const verifyPayment = async (req, res) => {
     // Generate Razorpay signature
     // ---------------------------------------------------------
 
-    const generatedSignature =
-      crypto
-        .createHmac(
-          "sha256",
-          process.env.RAZORPAY_KEY_SECRET
-        )
-        .update(
-          `${payment.razorpayOrderId}|${razorpay_payment_id}`
-        )
-        .digest("hex");
+    const generatedSignature = crypto
+      .createHmac("sha256", process.env.RAZORPAY_KEY_SECRET)
+      .update(`${payment.razorpayOrderId}|${razorpay_payment_id}`)
+      .digest("hex");
 
     // ---------------------------------------------------------
     // Timing safe verification
     // ---------------------------------------------------------
 
-    const generatedBuffer =
-      Buffer.from(
-        generatedSignature,
-        "utf8"
-      );
+    const generatedBuffer = Buffer.from(generatedSignature, "utf8");
 
-    const receivedBuffer =
-      Buffer.from(
-        razorpay_signature,
-        "utf8"
-      );
+    const receivedBuffer = Buffer.from(razorpay_signature, "utf8");
 
     const isValid =
-      generatedBuffer.length ===
-        receivedBuffer.length &&
-      crypto.timingSafeEqual(
-        generatedBuffer,
-        receivedBuffer
-      );
+      generatedBuffer.length === receivedBuffer.length &&
+      crypto.timingSafeEqual(generatedBuffer, receivedBuffer);
 
     if (!isValid) {
-      payment.status =
-        "failed";
+      payment.status = "failed";
 
       await payment.save();
 
       return res.status(400).json({
         success: false,
 
-        message:
-          "Payment verification failed.",
+        message: "Payment verification failed.",
       });
     }
 
@@ -334,17 +272,13 @@ const verifyPayment = async (req, res) => {
     // Mark payment as paid
     // ---------------------------------------------------------
 
-    payment.status =
-      "paid";
+    payment.status = "paid";
 
-    payment.razorpayPaymentId =
-      razorpay_payment_id;
+    payment.razorpayPaymentId = razorpay_payment_id;
 
-    payment.razorpaySignature =
-      razorpay_signature;
+    payment.razorpaySignature = razorpay_signature;
 
-    payment.paidAt =
-      new Date();
+    payment.paidAt = new Date();
 
     await payment.save();
 
@@ -352,20 +286,13 @@ const verifyPayment = async (req, res) => {
     // Get assessment
     // ---------------------------------------------------------
 
-    const assessment =
-      await Assessment.findById(
-        payment.assessment
-      );
+    const assessment = await Assessment.findById(payment.assessment);
 
-    if (
-      !assessment ||
-      !assessment.passed
-    ) {
+    if (!assessment || !assessment.passed) {
       return res.status(400).json({
         success: false,
 
-        message:
-          "Valid passed assessment not found.",
+        message: "Valid passed assessment not found.",
       });
     }
 
@@ -373,17 +300,13 @@ const verifyPayment = async (req, res) => {
     // Get program
     // ---------------------------------------------------------
 
-    const program =
-      await Program.findById(
-        payment.program
-      );
+    const program = await Program.findById(payment.program);
 
     if (!program) {
       return res.status(404).json({
         success: false,
 
-        message:
-          "Program not found.",
+        message: "Program not found.",
       });
     }
 
@@ -401,24 +324,17 @@ const verifyPayment = async (req, res) => {
       req.user.name ||
       "Student";
 
-    const studentEmail =
-      customer?.email?.trim() ||
-      req.user.email ||
-      "";
+    const studentEmail = customer?.email?.trim() || req.user.email || "";
 
-    const studentMobile =
-      customer?.mobile?.trim() ||
-      "";
+    const studentMobile = customer?.mobile?.trim() || "";
 
     // ---------------------------------------------------------
     // Prevent duplicate certificate
     // ---------------------------------------------------------
 
-    let certificate =
-      await Certificate.findOne({
-        payment:
-          payment._id,
-      });
+    let certificate = await Certificate.findOne({
+      payment: payment._id,
+    });
 
     // ---------------------------------------------------------
     // Create certificate
@@ -431,10 +347,7 @@ const verifyPayment = async (req, res) => {
 
       const certificateId =
         `CRSO-${new Date().getFullYear()}-` +
-        crypto
-          .randomBytes(4)
-          .toString("hex")
-          .toUpperCase();
+        crypto.randomBytes(4).toString("hex").toUpperCase();
 
       // -------------------------------------------------------
       // Corso ID
@@ -442,10 +355,7 @@ const verifyPayment = async (req, res) => {
 
       const corsoId =
         `CORSO-${new Date().getFullYear()}-` +
-        crypto
-          .randomBytes(4)
-          .toString("hex")
-          .toUpperCase();
+        crypto.randomBytes(4).toString("hex").toUpperCase();
 
       // -------------------------------------------------------
       // Document Identifier
@@ -453,63 +363,47 @@ const verifyPayment = async (req, res) => {
 
       const documentIdentifier =
         `DOC-${Date.now()}-` +
-        crypto
-          .randomBytes(3)
-          .toString("hex")
-          .toUpperCase();
+        crypto.randomBytes(3).toString("hex").toUpperCase();
 
       // -------------------------------------------------------
       // Create Certificate
       // -------------------------------------------------------
 
-      certificate =
-        await Certificate.create({
-          // Required Certificate fields
-          user:
-            studentId,
+      certificate = await Certificate.create({
+        // Required Certificate fields
+        user: studentId,
 
-          studentName:
-            studentName,
+        studentName: studentName,
 
-          program:
-            program._id,
+        program: program._id,
 
-          /*
-           * Your current assessment flow stores the completed
-           * assessment in Assessment.
-           *
-           * Certificate schema requires an ObjectId for `attempt`.
-           * Using the completed assessment ID here keeps the
-           * certificate linked to the student's completed attempt.
-           */
-          attempt:
-            assessment._id,
+        /*
+         * Your current assessment flow stores the completed
+         * assessment in Assessment.
+         *
+         * Certificate schema requires an ObjectId for `attempt`.
+         * Using the completed assessment ID here keeps the
+         * certificate linked to the student's completed attempt.
+         */
+        attempt: assessment._id,
 
-          payment:
-            payment._id,
+        payment: payment._id,
 
-          certificateId:
+        certificateId: certificateId,
 
-            certificateId,
+        corsoId: corsoId,
 
-          corsoId:
-            corsoId,
+        documentIdentifier: documentIdentifier,
 
-          documentIdentifier:
-            documentIdentifier,
+        // Assessment score
+        score: assessment.score,
 
-          // Assessment score
-          score:
-            assessment.score,
+        // Certificate issue date
+        issueDate: new Date(),
 
-          // Certificate issue date
-          issueDate:
-            new Date(),
-
-          // Certificate status
-          status:
-            "Issued",
-        });
+        // Certificate status
+        status: "Issued",
+      });
     }
 
     // ---------------------------------------------------------
@@ -519,71 +413,73 @@ const verifyPayment = async (req, res) => {
     return res.status(200).json({
       success: true,
 
-      message:
-        "Payment verified and certificate generated.",
+      message: "Payment verified and certificate generated.",
 
       data: {
         payment: {
-          id:
-            payment._id,
+          id: payment._id,
 
-          amount:
-            payment.amount,
+          amount: payment.amount,
 
-          status:
-            payment.status,
+          status: payment.status,
 
-          razorpayPaymentId:
-            payment.razorpayPaymentId,
+          razorpayPaymentId: payment.razorpayPaymentId,
 
-          paidAt:
-            payment.paidAt,
+          paidAt: payment.paidAt,
         },
 
         certificate: {
-          id:
-            certificate._id,
+          id: certificate._id,
 
-          certificateId:
-            certificate.certificateId,
+          certificateId: certificate.certificateId,
 
-          corsoId:
-            certificate.corsoId,
+          corsoId: certificate.corsoId,
 
-          documentIdentifier:
-            certificate.documentIdentifier,
+          documentIdentifier: certificate.documentIdentifier,
 
-          studentName:
-            certificate.studentName,
+          studentName: certificate.studentName,
 
-          programName:
-            program.name,
+          programName: program.name,
 
-          score:
-            certificate.score,
+          score: certificate.score,
 
-          issueDate:
-            certificate.issueDate,
+          issueDate: certificate.issueDate,
 
-          status:
-            certificate.status,
+          status: certificate.status,
         },
       },
     });
   } catch (error) {
-    console.error(
-      "Verify payment error:",
-      error
-    );
+    console.error("Verify payment error:", error);
 
     return res.status(500).json({
       success: false,
 
-      message:
-        "Payment verification failed.",
+      message: "Payment verification failed.",
 
-      error:
-        error.message,
+      error: error.message,
+    });
+  }
+};
+
+const getAllPayments = async (req, res) => {
+  try {
+    const payments = await Payment.find()
+      .populate("student", "fullName email")
+      .populate("program", "name")
+      .populate("assessment", "score passed")
+      .sort({ createdAt: -1 });
+
+    return res.status(200).json({
+      success: true,
+      data: payments,
+    });
+  } catch (error) {
+    console.error("Get all payments error:", error);
+
+    return res.status(500).json({
+      success: false,
+      message: "Failed to fetch payments.",
     });
   }
 };
@@ -597,4 +493,5 @@ const verifyPayment = async (req, res) => {
 module.exports = {
   createPaymentOrder,
   verifyPayment,
+  getAllPayments,
 };

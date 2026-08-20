@@ -18,9 +18,7 @@ const StudentsTable = ({ students, onDelete }) => {
           <thead className="bg-slate-50">
             <tr className="text-left text-sm font-semibold text-slate-600">
               <th className="px-5 py-3">Student</th>
-              <th className="px-5 py-3">Program</th>
-              <th className="px-5 py-3">Status</th>
-              <th className="px-5 py-3">Payment</th>
+              <th className="px-5 py-3">Program Count</th>
               <th className="px-5 py-3 text-center">Action</th>
             </tr>
           </thead>
@@ -53,35 +51,7 @@ const StudentsTable = ({ students, onDelete }) => {
 
                 <td className="px-5 py-4">
                   <span className="rounded-full bg-sky-100 px-3 py-1 text-xs font-medium text-sky-700">
-                    {student.program}
-                  </span>
-                </td>
-
-                {/* Status */}
-
-                <td className="px-5 py-4">
-                  <span
-                    className={`rounded-full px-3 py-1 text-xs font-medium ${
-                      student.status === "Active"
-                        ? "bg-green-100 text-green-700"
-                        : "bg-red-100 text-red-700"
-                    }`}
-                  >
-                    {student.status}
-                  </span>
-                </td>
-
-                {/* Payment */}
-
-                <td className="px-5 py-4">
-                  <span
-                    className={`rounded-full px-3 py-1 text-xs font-medium ${
-                      student.payment === "Paid"
-                        ? "bg-green-100 text-green-700"
-                        : "bg-yellow-100 text-yellow-700"
-                    }`}
-                  >
-                    {student.payment}
+                    {student.assessmentCount}
                   </span>
                 </td>
 

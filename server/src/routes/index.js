@@ -24,14 +24,11 @@ router.get("/health", (req, res) => {
 // Authentication Routes
 router.use("/auth", authRoutes);
 router.use("/admin", adminRoutes);
-router.use("/users", userRoutes);
 
 // Routes
 
 router.get("/program/list", getPrograms);
 router.get("/category/list", getCategories);
-router.use("/assessment", assessmentRoutes);
-router.use("/payment", paymentRoutes);
 
 router.get("/program/slug/:slug", getProgramBySlug);
 
