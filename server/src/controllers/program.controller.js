@@ -14,6 +14,7 @@ const createProgram = async (req, res) => {
       sellingPrice,
       totalQuestions,
       examDuration,
+      passingQuestions,
       description,
       status,
     } = req.body;
@@ -39,7 +40,7 @@ const createProgram = async (req, res) => {
       sellingPrice: Number(sellingPrice),
       totalQuestions: Number(totalQuestions),
       examDuration: Number(examDuration),
-
+      passingQuestions: Number(passingQuestions),
       thumbnail: thumbnail ? `/uploads/programs/${thumbnail.filename}` : "",
 
       certificateDemo: certificateDemo
@@ -104,6 +105,7 @@ const updateProgram = async (req, res) => {
       sellingPrice,
       totalQuestions,
       examDuration,
+      passingQuestions,
       description,
       status,
     } = req.body || {};
@@ -154,6 +156,8 @@ const updateProgram = async (req, res) => {
     program.examDuration = Number(examDuration);
 
     program.description = description || "";
+
+    program.passingQuestions = Number(passingQuestions);
 
     program.isActive = status === "Active";
 

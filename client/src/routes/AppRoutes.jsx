@@ -8,6 +8,7 @@ import CourseDetails from "../pages/CourseDetails/CourseDetails";
 import Dashboard from "../pages/Dashboard";
 import Assessment from "../components/assessment/Assessment";
 import ProtectedRoute from "../components/auth/ProtectedRoute";
+import NotFound from "../pages/NotFound";
 
 const AppRoutes = () => {
   return (
@@ -32,6 +33,9 @@ const AppRoutes = () => {
         <Route element={<ProtectedRoute />}>
           <Route path="/dashboard" element={<Dashboard />} />
         </Route>
+
+        {/* 404 - Catch All */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );

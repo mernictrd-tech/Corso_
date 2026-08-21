@@ -1,4 +1,5 @@
 const Program = require("../../models/program.model");
+const topicModel = require("../../models/topic.model");
 
 // Get active programs for public website
 const getPrograms = async (req, res) => {
@@ -38,9 +39,17 @@ const getProgramBySlug = async (req, res) => {
       });
     }
 
+    const topics = await topicModel.find({
+      program: program._id,
+      isActive: true,
+    }).select("name description");
+
     return res.status(200).json({
       success: true,
-      data: program,
+      data: {
+        ...program.toObject(),
+        topics,
+      },
     });
   } catch (error) {
     console.error(error);
@@ -54,5 +63,5 @@ const getProgramBySlug = async (req, res) => {
 
 module.exports = {
   getPrograms,
-  getProgramBySlug
+  getProgramBySlug,
 };

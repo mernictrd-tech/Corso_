@@ -28,6 +28,12 @@ const programSchema = new mongoose.Schema(
       min: 1,
     },
 
+    passingQuestions: {
+      type: Number,
+      required: true,
+      min: 1,
+    },
+
     description: {
       type: String,
       trim: true,
@@ -38,12 +44,6 @@ const programSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Category",
       required: true,
-    },
-
-    subject: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Subject",
-      default: null,
     },
 
     thumbnail: {

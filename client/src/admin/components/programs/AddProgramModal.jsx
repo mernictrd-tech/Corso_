@@ -24,6 +24,7 @@ const AddProgramModal = ({ close, onSuccess }) => {
     sellingPrice: "",
     totalQuestions: "",
     examDuration: "",
+    passingQuestions: "",
     description: "",
     status: "Active",
   });
@@ -95,6 +96,11 @@ const AddProgramModal = ({ close, onSuccess }) => {
       return;
     }
 
+    if (!form.passingQuestions) {
+      toast.error("No of questions to pass required");
+      return;
+    }
+
     if (Number(form.originalPrice) <= 0) {
       toast.error("Original price must be greater than 0");
       return;
@@ -136,6 +142,8 @@ const AddProgramModal = ({ close, onSuccess }) => {
       data.append("sellingPrice", Number(form.sellingPrice));
 
       data.append("totalQuestions", Number(form.totalQuestions));
+
+      data.append("passingQuestions", Number(form.passingQuestions));
 
       data.append("description", form.description);
 
@@ -313,6 +321,24 @@ const AddProgramModal = ({ close, onSuccess }) => {
                     min
                   </span>
                 </div>
+              </div>
+            </div>
+            
+            <div className="grid gap-5 md:grid-cols-2">
+              <div>
+                <label className="mb-2 block text-sm font-medium text-slate-700">
+                  No of Questions To Pass
+                </label>
+
+                <input
+                  type="number"
+                  min="1"
+                  name="passingQuestions"
+                  value={form.passingQuestions}
+                  onChange={handleChange}
+                  placeholder="15"
+                  className="h-11 w-full rounded-xl border border-slate-200 bg-white px-4 text-slate-800 placeholder:text-slate-400 outline-none focus:border-sky-500"
+                />
               </div>
             </div>
 
