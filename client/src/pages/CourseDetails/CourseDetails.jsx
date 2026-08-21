@@ -72,7 +72,7 @@ const CourseDetails = () => {
             program.totalQuestions || 0,
 
           duration:
-            "10 Minutes",
+           program.examDuration + " Minutes" || "Unlimited",
 
           passingScore:
             "70%",
