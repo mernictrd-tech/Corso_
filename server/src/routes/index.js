@@ -4,6 +4,8 @@ const authRoutes = require("./auth.routes");
 const adminRoutes = require("./admin.routes");
 const assessmentRoutes = require("./assessment.routes");
 const paymentRoutes = require("./payment.routes");
+const userRoutes = require("./users.routes");
+
 const {
    getPrograms,
    getProgramBySlug
@@ -24,6 +26,7 @@ router.use("/auth", authRoutes);
 router.use("/admin", adminRoutes);
 router.use("/assessment", assessmentRoutes);
 router.use("/payment", paymentRoutes);
+router.use("/users", userRoutes);
 
 // Routes
 
