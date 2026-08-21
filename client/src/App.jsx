@@ -8,7 +8,7 @@ function App() {
     <>
       <Routes>
         <Route path="/admin/*" element={<AdminRoutes />} />
-
+        
         <Route path="/*" element={<AppRoutes />} />
       </Routes>
 

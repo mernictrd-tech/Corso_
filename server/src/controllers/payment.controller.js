@@ -464,7 +464,7 @@ const verifyPayment = async (req, res) => {
 
 const getAllPayments = async (req, res) => {
   try {
-    const payments = await Payment.find()
+    const payments = await Payment.find({ status: "paid" })
       .populate("student", "fullName email")
       .populate("program", "name")
       .populate("assessment", "score passed")

@@ -1,4 +1,4 @@
-import { X, Clock3, FileQuestion, Tag, IndianRupee, CheckCircle2, XCircle } from "lucide-react";
+import { X, Clock3, FileQuestion, Tag, IndianRupee, CheckCircle2, XCircle, Check } from "lucide-react";
 
 const ViewProgramModal = ({ program, close }) => {
   if (!program) return null;
@@ -177,6 +177,28 @@ const ViewProgramModal = ({ program, close }) => {
 
                   <p className="text-lg font-semibold text-slate-800">
                     ₹{program.sellingPrice || 0}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Passing Question Count */}
+            <div className="rounded-xl border border-slate-200 p-4">
+              <div className="flex items-center gap-3">
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-green-100">
+                  <Check
+                    size={20}
+                    className="text-green-600"
+                  />
+                </div>
+
+                <div>
+                  <p className="text-xs text-slate-400">
+                    Passing Question Count
+                  </p>
+
+                  <p className="text-lg font-semibold text-slate-800">
+                    {program.passingQuestions || 0}
                   </p>
                 </div>
               </div>

@@ -86,8 +86,8 @@ const CourseDetails = () => {
           students:
             0,
 
-          skills:
-            [],
+          topics:
+            program.topics || [],
 
           certificate: {
             image: certificatePreview,

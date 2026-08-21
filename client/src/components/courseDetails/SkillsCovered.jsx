@@ -11,20 +11,21 @@ import {
   Sparkles,
 } from "lucide-react";
 
-const iconMap = {
-  Java: Code2,
-  "Spring Boot": Layers3,
-  "REST API": Cpu,
-  Hibernate: Database,
-  MySQL: Database,
-  Collections: BookOpen,
-  "Exception Handling": ShieldCheck,
-  Git: GitBranch,
-  OOP: Brain,
-  "Problem Solving": Sparkles,
-};
+const topicIcons = [
+  BookOpen,
+  Brain,
+  Code2,
+  Database,
+  Layers3,
+  Cpu,
+  ShieldCheck,
+  GitBranch,
+  CheckCircle2,
+  Sparkles,
+];
 
 const SkillsCovered = ({ course }) => {
+
   return (
     <section className="bg-[#070B1A] py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -50,8 +51,8 @@ const SkillsCovered = ({ course }) => {
 
         {/* Skills Grid */}
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
-          {course.skills.map((skill, index) => {
-            const Icon = iconMap[skill] || CheckCircle2;
+          {course.topics.map((skill, index) => {
+            const Icon = topicIcons[index % topicIcons.length];
 
             return (
               <div
@@ -66,12 +67,11 @@ const SkillsCovered = ({ course }) => {
                 </div>
 
                 <h3 className="mt-6 text-lg font-semibold text-white">
-                  {skill}
+                  {skill.name}
                 </h3>
 
                 <p className="mt-3 text-sm leading-6 text-gray-400">
-                  Questions based on this topic will assess your conceptual
-                  understanding and practical implementation skills.
+                  {skill.description}
                 </p>
               </div>
             );
@@ -96,7 +96,7 @@ const SkillsCovered = ({ course }) => {
             <div className="flex flex-wrap gap-4">
               <div className="rounded-xl bg-cyan-500/10 px-6 py-4 text-center border border-cyan-400/20">
                 <h4 className="text-2xl font-bold text-cyan-400">
-                  {course.skills.length}
+                  {course.topics.length}
                 </h4>
 
                 <p className="text-sm text-gray-400 mt-1">

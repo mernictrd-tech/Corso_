@@ -21,6 +21,7 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
     sellingPrice: "",
     totalQuestions: "",
     examDuration: "",
+    passingQuestions: "",
     description: "",
     status: "Active",
   });
@@ -70,17 +71,23 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
 
       description: program.description || "",
 
+      passingQuestions: program.passingQuestions || "",
+
       status: program.isActive ? "Active" : "Inactive",
     });
 
     // Existing thumbnail
     if (program.thumbnail) {
-      setPreview(`${import.meta.env.VITE_API_BASE_URL_RESOURCE}${program.thumbnail}`);
+      setPreview(
+        `${import.meta.env.VITE_API_BASE_URL_RESOURCE}${program.thumbnail}`,
+      );
     }
 
     // Existing certificate
     if (program.certificateDemo) {
-      setCertificatePreview(`${import.meta.env.VITE_API_BASE_URL_RESOURCE}${program.certificateDemo}`);
+      setCertificatePreview(
+        `${import.meta.env.VITE_API_BASE_URL_RESOURCE}${program.certificateDemo}`,
+      );
     }
   }, [program]);
 
@@ -124,7 +131,6 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
   // Submit
   // ==========================================
   const handleSubmit = async () => {
-
     // -----------------------------
     // Validation
     // -----------------------------
@@ -159,6 +165,11 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
       return;
     }
 
+    if (Number(form.passingQuestions) <= 0) {
+      toast.error("No. of Questions to pass is required");
+      return;
+    }
+
     if (Number(form.originalPrice) <= 0) {
       toast.error("Original price must be greater than 0");
       return;
@@ -169,29 +180,20 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
       return;
     }
 
-    if (
-      Number(form.sellingPrice) >
-      Number(form.originalPrice)
-    ) {
-      toast.error(
-        "Selling price cannot be greater than original price"
-      );
+    if (Number(form.sellingPrice) > Number(form.originalPrice)) {
+      toast.error("Selling price cannot be greater than original price");
 
       return;
     }
 
     if (Number(form.totalQuestions) <= 0) {
-      toast.error(
-        "Number of questions must be greater than 0"
-      );
+      toast.error("Number of questions must be greater than 0");
 
       return;
     }
 
     if (Number(form.examDuration) <= 0) {
-      toast.error(
-        "Exam duration must be greater than 0 minutes"
-      );
+      toast.error("Exam duration must be greater than 0 minutes");
 
       return;
     }
@@ -205,35 +207,19 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
 
       data.append("category", form.category);
 
-      data.append(
-        "originalPrice",
-        Number(form.originalPrice)
-      );
+      data.append("originalPrice", Number(form.originalPrice));
 
-      data.append(
-        "sellingPrice",
-        Number(form.sellingPrice)
-      );
+      data.append("sellingPrice", Number(form.sellingPrice));
 
-      data.append(
-        "totalQuestions",
-        Number(form.totalQuestions)
-      );
+      data.append("totalQuestions", Number(form.totalQuestions));
 
-      data.append(
-        "examDuration",
-        Number(form.examDuration)
-      );
+      data.append("examDuration", Number(form.examDuration));
 
-      data.append(
-        "description",
-        form.description
-      );
+      data.append("passingQuestions", Number(form.passingQuestions));
 
-      data.append(
-        "status",
-        form.status
-      );
+      data.append("description", form.description);
+
+      data.append("status", form.status);
 
       // Only upload if new thumbnail selected
       if (thumbnail) {
@@ -242,10 +228,7 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
 
       // Only upload if new certificate selected
       if (certificateDemo) {
-        data.append(
-          "certificateDemo",
-          certificateDemo
-        );
+        data.append("certificateDemo", certificateDemo);
       }
 
       const response = await api.put(
@@ -255,18 +238,14 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
           headers: {
             "Content-Type": "multipart/form-data",
           },
-        }
+        },
       );
 
-      toast.success(
-        response.data?.message ||
-          "Program updated successfully"
-      );
+      toast.success(response.data?.message || "Program updated successfully");
 
       if (onSuccess) {
         onSuccess();
       }
-
     } catch (error) {
       console.error(error);
 
@@ -276,7 +255,6 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
         "Failed to update program";
 
       toast.error(message);
-
     } finally {
       setLoading(false);
     }
@@ -284,40 +262,29 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
-
       <div
         className="w-full max-w-4xl rounded-3xl bg-white shadow-2xl"
         style={{ color: "#1e293b" }}
       >
-
         {/* ==================================
             Header
         ================================== */}
 
         <div className="flex items-center justify-between border-b border-slate-200 px-6 py-5">
-
           <div>
-
-            <h2 className="text-2xl font-bold text-slate-800">
-              Edit Program
-            </h2>
+            <h2 className="text-2xl font-bold text-slate-800">Edit Program</h2>
 
             <p className="mt-1 text-sm text-slate-500">
               Update certification program details
             </p>
-
           </div>
 
           <button
             onClick={close}
             className="rounded-xl bg-slate-100 p-2 transition hover:bg-red-100"
           >
-            <X
-              size={18}
-              className="text-slate-700"
-            />
+            <X size={18} className="text-slate-700" />
           </button>
-
         </div>
 
         {/* ==================================
@@ -325,19 +292,15 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
         ================================== */}
 
         <div className="grid gap-6 p-6 lg:grid-cols-3">
-
           {/* ==================================
               Left
           ================================== */}
 
           <div className="space-y-5 lg:col-span-2">
-
             {/* Program Name + Category */}
 
             <div className="grid gap-5 md:grid-cols-2">
-
               <div>
-
                 <label className="mb-2 block text-sm font-medium text-slate-700">
                   Program Name
                 </label>
@@ -350,11 +313,9 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
                   placeholder="Full Stack Development"
                   className="h-11 w-full rounded-xl border border-slate-200 bg-white px-4 text-slate-800 placeholder:text-slate-400 outline-none focus:border-sky-500"
                 />
-
               </div>
 
               <div>
-
                 <label className="mb-2 block text-sm font-medium text-slate-700">
                   Category
                 </label>
@@ -365,32 +326,21 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
                   onChange={handleChange}
                   className="h-11 w-full rounded-xl border border-slate-200 bg-white px-4 text-slate-800 outline-none focus:border-sky-500"
                 >
-
-                  <option value="">
-                    Select Category
-                  </option>
+                  <option value="">Select Category</option>
 
                   {categories.map((item) => (
-                    <option
-                      key={item._id}
-                      value={item._id}
-                    >
+                    <option key={item._id} value={item._id}>
                       {item.name}
                     </option>
                   ))}
-
                 </select>
-
               </div>
-
             </div>
 
             {/* Prices */}
 
             <div className="grid gap-5 md:grid-cols-2">
-
               <div>
-
                 <label className="mb-2 block text-sm font-medium text-slate-700">
                   Original Price
                 </label>
@@ -403,11 +353,9 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
                   placeholder="1999"
                   className="h-11 w-full rounded-xl border border-slate-200 bg-white px-4 text-slate-800 placeholder:text-slate-400 outline-none focus:border-sky-500"
                 />
-
               </div>
 
               <div>
-
                 <label className="mb-2 block text-sm font-medium text-slate-700">
                   Selling Price
                 </label>
@@ -420,17 +368,13 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
                   placeholder="999"
                   className="h-11 w-full rounded-xl border border-slate-200 bg-white px-4 text-slate-800 placeholder:text-slate-400 outline-none focus:border-sky-500"
                 />
-
               </div>
-
             </div>
 
             {/* Questions + Duration */}
 
             <div className="grid gap-5 md:grid-cols-2">
-
               <div>
-
                 <label className="mb-2 block text-sm font-medium text-slate-700">
                   No. of Questions
                 </label>
@@ -444,17 +388,14 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
                   placeholder="50"
                   className="h-11 w-full rounded-xl border border-slate-200 bg-white px-4 text-slate-800 placeholder:text-slate-400 outline-none focus:border-sky-500"
                 />
-
               </div>
 
               <div>
-
                 <label className="mb-2 block text-sm font-medium text-slate-700">
                   Exam Duration
                 </label>
 
                 <div className="relative">
-
                   <input
                     type="number"
                     min="1"
@@ -468,17 +409,31 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
                   <span className="absolute right-4 top-1/2 -translate-y-1/2 text-sm text-slate-500">
                     min
                   </span>
-
                 </div>
-
               </div>
+            </div>
 
+            <div className="grid gap-5 md:grid-cols-2">
+              <div>
+                <label className="mb-2 block text-sm font-medium text-slate-700">
+                  No of Questions To Pass
+                </label>
+
+                <input
+                  type="number"
+                  min="1"
+                  name="passingQuestions"
+                  value={form.passingQuestions}
+                  onChange={handleChange}
+                  placeholder="15"
+                  className="h-11 w-full rounded-xl border border-slate-200 bg-white px-4 text-slate-800 placeholder:text-slate-400 outline-none focus:border-sky-500"
+                />
+              </div>
             </div>
 
             {/* Description */}
 
             <div>
-
               <label className="mb-2 block text-sm font-medium text-slate-700">
                 Description
               </label>
@@ -491,13 +446,11 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
                 placeholder="Write program description..."
                 className="w-full resize-none rounded-xl border border-slate-200 bg-white p-4 text-slate-800 placeholder:text-slate-400 outline-none focus:border-sky-500"
               />
-
             </div>
 
             {/* Status */}
 
             <div>
-
               <label className="mb-2 block text-sm font-medium text-slate-700">
                 Status
               </label>
@@ -508,19 +461,11 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
                 onChange={handleChange}
                 className="h-11 w-full rounded-xl border border-slate-200 bg-white px-4 text-slate-800 outline-none focus:border-sky-500"
               >
+                <option value="Active">Active</option>
 
-                <option value="Active">
-                  Active
-                </option>
-
-                <option value="Inactive">
-                  Inactive
-                </option>
-
+                <option value="Inactive">Inactive</option>
               </select>
-
             </div>
-
           </div>
 
           {/* ==================================
@@ -528,7 +473,6 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
           ================================== */}
 
           <div>
-
             {/* Thumbnail */}
 
             <label className="mb-2 block text-sm font-medium text-slate-700">
@@ -536,7 +480,6 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
             </label>
 
             <label className="flex h-64 cursor-pointer flex-col items-center justify-center overflow-hidden rounded-2xl border-2 border-dashed border-slate-300 bg-slate-50 transition hover:border-sky-400 hover:bg-sky-50">
-
               {preview ? (
                 <img
                   src={preview}
@@ -545,18 +488,13 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
                 />
               ) : (
                 <>
-                  <UploadCloud
-                    size={40}
-                    className="text-sky-500"
-                  />
+                  <UploadCloud size={40} className="text-sky-500" />
 
                   <p className="mt-4 text-base font-semibold text-slate-700">
                     Upload Image
                   </p>
 
-                  <span className="mt-1 text-sm text-slate-500">
-                    PNG / JPG
-                  </span>
+                  <span className="mt-1 text-sm text-slate-500">PNG / JPG</span>
                 </>
               )}
 
@@ -566,7 +504,6 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
                 accept="image/png,image/jpeg,image/jpg,image/webp"
                 onChange={handleImage}
               />
-
             </label>
 
             {/* Certificate */}
@@ -576,7 +513,6 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
             </label>
 
             <label className="flex h-48 cursor-pointer flex-col items-center justify-center overflow-hidden rounded-2xl border-2 border-dashed border-slate-300 bg-slate-50 transition hover:border-sky-400 hover:bg-sky-50">
-
               {certificatePreview ? (
                 <img
                   src={certificatePreview}
@@ -585,18 +521,13 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
                 />
               ) : (
                 <>
-                  <UploadCloud
-                    size={36}
-                    className="text-sky-500"
-                  />
+                  <UploadCloud size={36} className="text-sky-500" />
 
                   <p className="mt-3 text-base font-semibold text-slate-700">
                     Upload Certificate
                   </p>
 
-                  <span className="mt-1 text-sm text-slate-500">
-                    PNG / JPG
-                  </span>
+                  <span className="mt-1 text-sm text-slate-500">PNG / JPG</span>
                 </>
               )}
 
@@ -606,11 +537,8 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
                 accept="image/png,image/jpeg,image/jpg,image/webp"
                 onChange={handleCertificateImage}
               />
-
             </label>
-
           </div>
-
         </div>
 
         {/* ==================================
@@ -618,7 +546,6 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
         ================================== */}
 
         <div className="flex justify-end gap-3 border-t border-slate-200 px-6 py-5">
-
           <button
             onClick={close}
             disabled={loading}
@@ -632,15 +559,10 @@ const EditProgramModal = ({ close, onSuccess, program }) => {
             disabled={loading}
             className="rounded-xl bg-sky-500 px-6 py-2.5 font-medium text-white shadow-lg transition hover:bg-sky-600 disabled:cursor-not-allowed disabled:opacity-60"
           >
-            {loading
-              ? "Updating..."
-              : "Update Program"}
+            {loading ? "Updating..." : "Update Program"}
           </button>
-
         </div>
-
       </div>
-
     </div>
   );
 };
