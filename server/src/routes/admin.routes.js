@@ -45,6 +45,7 @@ const {
   deleteTopic,
 } = require("../controllers/topic.controller");
 const { getAllPayments } = require("../controllers/payment.controller");
+const { getAllContacts, updateContactStatus, deleteContact } = require("../controllers/contact.controller");
 
 ////////////////////////  Dashboard Widget ///////////////////////
 
@@ -147,5 +148,13 @@ router.get("/students/:studentId", protect, adminMiddleware, getStudentDetails);
 ////////////////////////  Payment List  ////////////////////////////
 
 router.get("/payments/list", protect, adminMiddleware, getAllPayments);
+
+////////////////////////  Contact List  ////////////////////////////
+
+router.get("/contacts/list", protect, adminMiddleware, getAllContacts);
+
+router.patch("/contacts/:id/status", protect, adminMiddleware, updateContactStatus);
+
+router.delete("/contact/delete/:id", protect, adminMiddleware, deleteContact);
 
 module.exports = router;

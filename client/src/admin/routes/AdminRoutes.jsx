@@ -13,6 +13,7 @@ import Certificates from "../pages/Certificates";
 import TopicsPage from "../components/topics/TopicsPage";
 import StudentDetails from "../components/students/StudentDetails";
 import AdminNotFound from "../pages/AdminNotFound";
+import ContactPage from "../pages/ContactPage";
 
 const AdminRoutes = () => {
   return (
@@ -98,6 +99,15 @@ const AdminRoutes = () => {
         element={
           <ProtectedAdminRoute>
             <TopicsPage />
+          </ProtectedAdminRoute>
+        }
+      />
+
+      <Route
+        path="contact"
+        element={
+          <ProtectedAdminRoute>
+            <ContactPage />
           </ProtectedAdminRoute>
         }
       />

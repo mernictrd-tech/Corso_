@@ -6,6 +6,7 @@ import ReadyToProve from "../../components/home/ReadyToProve/ReadyToProve";
 import VerifyCertificate from "../../components/home/VerifyCertificate/VerifyCertificate";
 import CoursesCards from "../../components/home/Courses/CoursesCards";
 import Layout from "../../components/layout/Layout";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         <HowItWorks />
         <ReadyToProve />
         <VerifyCertificate />
+        <Contact />
       </Layout>
     </>
   );

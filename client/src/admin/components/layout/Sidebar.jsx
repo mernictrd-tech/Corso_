@@ -48,8 +48,8 @@ const menu = [
     icon: CreditCard,
   },
   {
-    title: "Certificates",
-    path: "/admin/certificates",
+    title: "Contact Queries",
+    path: "/admin/contact",
     icon: Award,
   },
 ];
