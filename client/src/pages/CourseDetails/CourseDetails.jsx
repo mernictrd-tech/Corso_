@@ -3,7 +3,8 @@ import { useParams } from "react-router-dom";
 import api from "../../services/api";
 import Layout from "../../components/layout/Layout";
 
-import certificatePreview from "../../assets/images/certificate-preview.png";
+// import certificatePreview from "../../assets/images/certificate-preview.png";
+import certificatePreview from "../../assets/images/CertificateHero.png";
 
 import {
   CourseHero,
@@ -47,6 +48,12 @@ const CourseDetails = () => {
 
         const program = response.data.data;
 
+        const passingScore = Math.round(
+          (program.passingQuestions /
+            program.totalQuestions) *
+            100
+        );
+
         /*
          * Convert MongoDB Program into the
          * structure your existing UI expects.
@@ -75,7 +82,7 @@ const CourseDetails = () => {
            program.examDuration + " Minutes" || "Unlimited",
 
           passingScore:
-            "70%",
+            passingScore + "%" || "N/A",
 
           attempts:
             "Unlimited",
@@ -84,7 +91,7 @@ const CourseDetails = () => {
             4.9,
 
           students:
-            0,
+            1550,
 
           topics:
             program.topics || [],

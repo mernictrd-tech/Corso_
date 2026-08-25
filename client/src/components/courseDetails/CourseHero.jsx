@@ -40,13 +40,13 @@ const CourseHero = ({ course }) => {
 
             {/* Stats */}
             <div className="mt-10 flex flex-wrap gap-6">
-              <div className="flex items-center gap-2 text-gray-300">
+              {/* <div className="flex items-center gap-2 text-gray-300">
                 <Star
                   size={18}
                   className="fill-yellow-400 text-yellow-400"
                 />
                 <span>{course.rating}</span>
-              </div>
+              </div> */}
 
               <div className="flex items-center gap-2 text-gray-300">
                 <Users
@@ -143,7 +143,7 @@ const CourseHero = ({ course }) => {
 
               <div className="mt-8 rounded-xl border border-emerald-400/30 bg-emerald-400/10 p-4">
                 <p className="text-sm text-emerald-300">
-                  🎉 Pass the assessment and instantly unlock your verified
+                    Pass the assessment and instantly unlock your verified
                   certificate.
                 </p>
               </div>
