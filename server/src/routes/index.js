@@ -7,11 +7,14 @@ const paymentRoutes = require("./payment.routes");
 const userRoutes = require("./users.routes");
 
 const {
-   getPrograms,
-   getProgramBySlug
-   } = require("../controllers/client/program.controller");
+  getPrograms,
+  getProgramBySlug,
+} = require("../controllers/client/program.controller");
 
 const { getCategories } = require("../controllers/client/category.controller");
+const { createContactValidation } = require("../validations/contact.validation");
+const validate = require("../middleware/validate.middleware");
+const { createContact } = require("../controllers/client/contact.controller");
 
 // Health Check
 router.get("/health", (req, res) => {
@@ -34,5 +37,8 @@ router.get("/program/list", getPrograms);
 router.get("/category/list", getCategories);
 
 router.get("/program/slug/:slug", getProgramBySlug);
+
+// Contact Form
+router.post("/contact", createContactValidation, validate, createContact);
 
 module.exports = router;
