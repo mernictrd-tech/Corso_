@@ -76,7 +76,7 @@ const NotFound = ({ admin = false }) => {
 
                 <span className="h-1.5 w-1.5 rounded-full bg-indigo-500" />
 
-                <span>Corso</span>
+                <span>Skilium</span>
 
                 <span className="text-slate-700">•</span>
 

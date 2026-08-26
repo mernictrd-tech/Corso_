@@ -24,7 +24,7 @@ const WhyChooseUs = () => {
 
             <p className="mt-5 mb-7 max-w-lg text-[17px] leading-6 text-gray-400">
 
-              Corso assessments are built to measure practical skills, helping you earn trusted certifications and stand out with confidence.            </p>
+              Skilium assessments are built to measure practical skills, helping you earn trusted certifications and stand out with confidence.            </p>
 
             <div className="mt-4 grid gap-6 md:grid-cols-2">
 

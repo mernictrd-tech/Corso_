@@ -13,12 +13,13 @@ const Navbar = () => {
   return (
   <>
     <header className="sticky top-0 z-50 border-white/10 bg-[#111827] backdrop-blur-xl">
-      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
+      <div className="mx-auto flex h-30 max-w-7xl items-center justify-between px-6">
 
         {/* Logo */}
-        <h1 className="text-2xl font-bold tracking-widest text-white">
-          CORSO<span className="text-cyan-400">.</span>
-        </h1>
+        <a href="/">
+          <img className="w-70" 
+              src="/assets/skilium-logo-without-bg-DARK.png" alt="skilium-logo" />
+        </a>
 
         {/* Desktop Menu */}
         <div className="hidden lg:block">

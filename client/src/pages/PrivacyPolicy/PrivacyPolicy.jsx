@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
                 1. Information We Collect
               </h2>
               <p>
-                Corso collects information you provide while creating an account,
+                Sklium collects information you provide while creating an account,
                 enrolling in courses, completing assessments, purchasing
                 certifications, or contacting our support team. This may include
                 your name, email address, phone number, educational background,
@@ -67,7 +67,7 @@ const PrivacyPolicy = () => {
                 5. Certificate Verification
               </h2>
               <p>
-                Corso certificates may be verified through a unique certificate
+                Skilium certificates may be verified through a unique certificate
                 ID. Only information necessary for verification will be publicly
                 displayed.
               </p>
@@ -90,7 +90,7 @@ const PrivacyPolicy = () => {
               </h2>
               <p>
                 If you have any questions regarding this Privacy Policy, please
-                contact us at <strong>info@corso.com</strong>.
+                contact us at <strong>info@skilium.com</strong>.
               </p>
             </div>
           </div>

@@ -29,7 +29,7 @@ const AssessmentCard = () => {
             </h5>
 
             <p className="mt-4 text-[17px] leading-6 text-gray-300">
-                Corso evaluates practical technical competencies through focused assessments, 
+                Skilium evaluates practical technical competencies through focused assessments, 
                 helping learners earn recognized certifications that strengthen their career prospects.
             </p>
 

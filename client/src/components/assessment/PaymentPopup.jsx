@@ -124,7 +124,7 @@ const PaymentPopup = ({
 
         currency: order.currency,
 
-        name: "Corso",
+        name: "Skilium",
 
         description: `Certificate - ${
           programName || "Course"

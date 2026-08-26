@@ -20,7 +20,7 @@ const VerifyCertificate = () => {
               </h2>
 
               <p className="mt-5 text-[18px] leading-8 text-gray-300">
-                Employers and learners can instantly verify any Corso 
+                Employers and learners can instantly verify any Skilium 
                 certificate using its unique certificate ID.
               </p>
 

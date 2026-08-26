@@ -87,7 +87,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
         <div>
 
           <h1 className="text-3xl font-bold text-cyan-400">
-            CORSO
+            SKILIUM
           </h1>
 
           <p className="text-xs text-slate-400">

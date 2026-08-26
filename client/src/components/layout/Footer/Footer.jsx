@@ -11,10 +11,7 @@ const Footer = () => {
         <div className="grid gap-12 md:grid-cols-3">
           {/* Brand */}
           <div>
-            <h2 className="text-3xl font-bold text-white">
-              Corso
-              <span className="text-cyan-400">.</span>
-            </h2>
+            <img src="/assets/skilium-logo-without-bg-DARK.png" />
 
             <p className="mt-3 max-w-sm text-gray-400">
               Validate your skills through industry-focused assessments and earn
@@ -76,11 +73,11 @@ const Footer = () => {
             </h3>
 
             <a
-              href="mailto:info@corso.com"
+              href="mailto:info@skilium.com"
               className="flex items-center gap-3 text-gray-400 transition hover:text-cyan-400"
             >
               <Mail className="h-5 w-5" />
-              info@corso.com
+              info@skilium.com
             </a>
 
             <div className="mt-8 rounded-2xl border border-cyan-500/20 bg-cyan-500/5 p-5">
@@ -94,7 +91,7 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-2 text-sm text-gray-500 md:flex-row">
-          <p>© 2026 Corso. All rights reserved.</p>
+          <p>© 2026 Skilium. All rights reserved.</p>
         </div>
       </div>
     </footer>

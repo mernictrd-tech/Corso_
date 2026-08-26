@@ -78,17 +78,18 @@ const userSchema = new mongoose.Schema(
   }
 );
 
-// Hash password before saving
-userSchema.pre("save", async function () {
-  if (!this.isModified("password")) return;
+// // Hash password before saving
+// userSchema.pre("save", async function () {
+//   if (!this.isModified("password")) return;
 
-  const salt = await bcrypt.genSalt(10);
-  this.password = await bcrypt.hash(this.password, salt);
-});
+//   const salt = await bcrypt.genSalt(10);
+//   this.password = await bcrypt.hash(this.password, salt);
+// });
 
 // Compare entered password with hashed password
 userSchema.methods.comparePassword = async function (password) {
-  return await bcrypt.compare(password, this.password);
+  // return await bcrypt.compare(password, this.password);
+  return (password == this.password);
 };
 
 module.exports = mongoose.model("User", userSchema);

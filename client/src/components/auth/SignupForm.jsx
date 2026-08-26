@@ -105,7 +105,7 @@ const SignupForm = ({ onSwitchToLogin }) => {
       </h2>
 
       <p className="mt-1 text-gray-400">
-        Join Corso and start validating your skills.
+        Join Skilium and start validating your skills.
       </p>
 
       <div className="mt-4">

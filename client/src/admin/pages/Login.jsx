@@ -61,7 +61,7 @@ const Login = () => {
         </h1>
 
         <p className="mt-2 text-gray-400">
-          Login to manage Corso.
+          Login to manage Skilium.
         </p>
 
         <form

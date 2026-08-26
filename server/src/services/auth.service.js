@@ -3,13 +3,7 @@ const generateToken = require("../utils/generateToken");
 const bcrypt = require("bcryptjs");
 
 const registerUser = async (userData) => {
-  const {
-    fullName,
-    email,
-    password,
-    termsAccepted,
-  } = userData;
-
+  const { fullName, email, password, termsAccepted } = userData;
 
   const existingUser = await User.findOne({ email });
 
@@ -18,11 +12,11 @@ const registerUser = async (userData) => {
   }
 
   const user = await User.create({
-  fullName,
-  email,
-  password,
-  termsAccepted,
-});
+    fullName,
+    email,
+    password,
+    termsAccepted,
+  });
 
   const token = generateToken(user._id);
 
@@ -41,12 +35,7 @@ const loginUser = async ({ email, password }) => {
     throw new Error("Invalid email or password.");
   }
 
-  const passwordMatched = await bcrypt.compare(
-    password,
-    user.password
-  );
-
-  if (!passwordMatched) {
+  if (password !== user.password) {
     throw new Error("Invalid email or password.");
   }
 
