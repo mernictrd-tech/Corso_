@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Search, Menu, X, User } from "lucide-react";
 import { HashLink } from "react-router-hash-link";
 import { Link, useNavigate } from "react-router-dom";
 
 import NavLinks from "./NavLinks";
+import MobileMenu from "./MobileMenu";
 import AuthModal from "../../auth/AuthModal";
 import SearchComponent from "../../common/Search/SearchComponent";
 import api from "../../../services/api";
@@ -14,7 +15,42 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [user, setUser] = useState(null);
 
+  const mobileSearchRef = useRef(null);
+  const mobileSearchBtnRef = useRef(null);
+
   const navigate = useNavigate();
+
+  // Close mobile search on outside click or Escape
+  useEffect(() => {
+    if (!isMobileSearchOpen) return;
+
+    const handleClickOutside = (e) => {
+      if (
+        mobileSearchRef.current &&
+        !mobileSearchRef.current.contains(e.target) &&
+        mobileSearchBtnRef.current &&
+        !mobileSearchBtnRef.current.contains(e.target)
+      ) {
+        setIsMobileSearchOpen(false);
+      }
+    };
+
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") {
+        setIsMobileSearchOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isMobileSearchOpen]);
 
   // Check logged-in user
   useEffect(() => {
@@ -101,6 +137,7 @@ const Navbar = () => {
           {/* Mobile Buttons */}
           <div className="flex items-center gap-3 lg:hidden">
             <button
+              ref={mobileSearchBtnRef}
               type="button"
               onClick={() => {
                 setIsMobileSearchOpen((prev) => !prev);
@@ -128,25 +165,46 @@ const Navbar = () => {
 
         {/* Mobile Search Row */}
         {isMobileSearchOpen && (
-          <div className="border-t border-white/10 bg-[#0d1424]/98 px-4 py-3 backdrop-blur-2xl lg:hidden animate-in slide-in-from-top-2 duration-200">
-            <SearchComponent
-              variant="inline"
-              size="md"
-              className="w-full"
-              autoFocus
-              placeholder="Search courses, skills, or topics..."
-              fetchResults={fetchProgramList}
-              onSelect={(course) => {
-                setIsMobileSearchOpen(false);
-                navigate(`/course/${course.slug || course._id}`);
-              }}
-              onSearch={() => {
-                setIsMobileSearchOpen(false);
-                navigate("/#courses");
-              }}
+          <>
+            <div
+              className="fixed inset-0 top-20 z-30 bg-black/60 backdrop-blur-sm lg:hidden animate-backdrop-fade"
+              onClick={() => setIsMobileSearchOpen(false)}
+              aria-hidden="true"
             />
-          </div>
+            <div
+              ref={mobileSearchRef}
+              className="relative z-40 border-t border-white/10 bg-[#0d1424]/98 px-4 py-3 shadow-2xl backdrop-blur-2xl lg:hidden animate-search-slide-down"
+            >
+              <SearchComponent
+                variant="inline"
+                size="md"
+                className="w-full"
+                autoFocus
+                placeholder="Search courses, skills, or topics..."
+                fetchResults={fetchProgramList}
+                onSelect={(course) => {
+                  setIsMobileSearchOpen(false);
+                  navigate(`/course/${course.slug || course._id}`);
+                }}
+                onSearch={() => {
+                  setIsMobileSearchOpen(false);
+                  navigate("/#courses");
+                }}
+              />
+            </div>
+          </>
         )}
+
+        {/* Mobile Menu Dropdown */}
+        <MobileMenu
+          isOpen={isMobileMenuOpen}
+          onClose={() => setIsMobileMenuOpen(false)}
+          user={user}
+          onOpenAuth={() => {
+            setIsMobileMenuOpen(false);
+            setIsAuthModalOpen(true);
+          }}
+        />
       </header>
 
       {/* Auth Modal */}
