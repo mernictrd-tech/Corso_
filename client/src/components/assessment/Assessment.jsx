@@ -804,7 +804,7 @@ const Assessment = () => {
             to="/"
             className="mb-8 text-2xl font-black tracking-widest text-white transition hover:opacity-90"
           >
-            CORSO<span className="text-cyan-400">.</span>
+            Skilium
           </Link>
 
           <div className="relative flex h-20 w-20 items-center justify-center rounded-3xl bg-slate-900/80 border border-white/10 shadow-[0_0_40px_rgba(6,182,212,0.2)] backdrop-blur-xl">
@@ -879,7 +879,7 @@ const Assessment = () => {
               to="/"
               className="text-2xl font-black tracking-widest text-white transition hover:opacity-90"
             >
-              CORSO<span className="text-cyan-400">.</span>
+              Skilium
             </Link>
             <Link
               to="/#courses"
@@ -948,7 +948,7 @@ const Assessment = () => {
               to="/"
               className="text-lg sm:text-2xl font-black tracking-widest text-white transition hover:opacity-90 shrink-0"
             >
-              CORSO<span className="text-cyan-400">.</span>
+              Skilium
             </Link>
 
             <span className="hidden sm:inline-block h-4 w-px bg-white/20" />
