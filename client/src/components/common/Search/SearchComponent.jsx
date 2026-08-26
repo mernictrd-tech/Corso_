@@ -145,40 +145,37 @@ const SearchComponent = ({
 
   // Click outside and Esc listener
   useEffect(() => {
-    if (variant === "inline" || !isOpen) return;
+    if (!isOpen && query.trim().length === 0) return;
 
     const handleClickOutside = (e) => {
-      // Don't close if clicked on a search toggle button
-      const searchToggleBtn = document.querySelector('[aria-label="Search"]');
-      if (searchToggleBtn && searchToggleBtn.contains(e.target)) {
-        return;
-      }
       if (containerRef.current && !containerRef.current.contains(e.target)) {
-        setIsOpen(false);
+        if (variant !== "inline") {
+          setIsOpen(false);
+        }
         setSelectedIndex(-1);
       }
     };
 
     const handleKeyDown = (e) => {
       if (e.key === "Escape") {
-        setIsOpen(false);
+        if (variant !== "inline") {
+          setIsOpen(false);
+        }
         setSelectedIndex(-1);
+        onClose?.();
       }
     };
 
-    const timer = setTimeout(() => {
-      document.addEventListener("mousedown", handleClickOutside);
-      document.addEventListener("touchstart", handleClickOutside);
-      document.addEventListener("keydown", handleKeyDown);
-    }, 50);
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+    document.addEventListener("keydown", handleKeyDown);
 
     return () => {
-      clearTimeout(timer);
       document.removeEventListener("mousedown", handleClickOutside);
       document.removeEventListener("touchstart", handleClickOutside);
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, [isOpen, variant]);
+  }, [isOpen, variant, query, onClose]);
 
   // Filter items based on query
   const results = useMemo(() => {
@@ -328,7 +325,7 @@ const SearchComponent = ({
 
       {/* Live Results Dropdown */}
       {showDropdown && isOpen && query.trim().length > 0 && (
-        <div className="absolute left-0 right-0 sm:left-auto sm:right-0 top-[calc(100%+8px)] z-50 w-full sm:w-auto sm:min-w-[360px] max-w-lg overflow-hidden rounded-2xl border border-cyan-500/25 bg-[#0b1220]/98 p-2.5 shadow-2xl backdrop-blur-2xl transition-all duration-200 origin-top animate-in fade-in zoom-in-95">
+        <div className="absolute left-0 right-0 sm:left-auto sm:right-0 top-[calc(100%+8px)] z-50 w-full sm:w-auto sm:min-w-[360px] max-w-lg overflow-hidden rounded-2xl border border-cyan-500/30 bg-[#0b1220]/98 p-2.5 shadow-[0_20px_50px_rgba(0,0,0,0.8),0_0_30px_rgba(6,182,212,0.15)] backdrop-blur-2xl transition-all duration-200 origin-top animate-dropdown-reveal">
           {/* Header */}
           <div className="flex items-center justify-between px-2.5 py-1 mb-1.5 border-b border-white/5">
             <span className="text-[11px] font-semibold uppercase tracking-wider text-cyan-400 flex items-center gap-1.5">

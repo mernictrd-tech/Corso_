@@ -5,6 +5,7 @@ const adminRoutes = require("./admin.routes");
 const assessmentRoutes = require("./assessment.routes");
 const paymentRoutes = require("./payment.routes");
 const userRoutes = require("./users.routes");
+const certificateRoutes = require("./certificate.routes");
 
 const {
   getPrograms,
@@ -37,6 +38,7 @@ router.get("/program/list", getPrograms);
 router.get("/category/list", getCategories);
 
 router.get("/program/slug/:slug", getProgramBySlug);
+router.use("/certificate", certificateRoutes);
 
 // Contact Form
 router.post("/contact", createContactValidation, validate, createContact);
