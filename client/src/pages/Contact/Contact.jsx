@@ -48,7 +48,8 @@ const Contact = () => {
     // Phone - optional
     if (phone) {
       if (!/^[6-9]\d{9}$/.test(phone)) {
-        newErrors.phone = "Please enter a valid 10-digit Indian mobile number.";
+        newErrors.phone =
+          "Please enter a valid 10-digit Indian mobile number.";
       }
     }
 
@@ -83,7 +84,6 @@ const Contact = () => {
       [name]: value,
     }));
 
-    // Remove error as user fixes the field
     if (errors[name]) {
       setErrors((prev) => ({
         ...prev,
@@ -96,8 +96,6 @@ const Contact = () => {
 
   const handleBlur = (e) => {
     const { name } = e.target;
-
-    // Validate individual field when user leaves it
     const value = formData[name].trim();
 
     let error = "";
@@ -184,7 +182,7 @@ const Contact = () => {
 
       setSuccess(
         response?.data?.message ||
-          "Thank you for contacting us. We will get back to you shortly.",
+          "Thank you for contacting us. We will get back to you shortly."
       );
 
       setFormData({
@@ -221,7 +219,9 @@ const Contact = () => {
         <div className="absolute bottom-[-150px] left-[-200px] h-[500px] w-[500px] rounded-full bg-cyan-600/10 blur-[160px]" />
       </div>
 
-      <div className="relative px-3 md:px-auto">
+      {/* Same Container as other sections */}
+      <div className="relative mx-auto w-full max-w-[1440px] px-8 lg:px-12 xl:px-16">
+
         {/* Heading */}
         <div className="mx-auto max-w-2xl text-center">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-cyan-400">
@@ -231,6 +231,7 @@ const Contact = () => {
           <h2 className="text-4xl font-bold leading-tight text-white md:text-5xl">
             Have a question?
             <br />
+
             <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
               We’re here to help.
             </span>
@@ -243,13 +244,17 @@ const Contact = () => {
         </div>
 
         {/* Main Content */}
-        <div className="mx-auto mt-16 grid max-w-6xl gap-8 lg:grid-cols-[0.8fr_1.2fr]">
+        <div className="mx-auto mt-16 grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
+
           {/* Contact Information */}
-          <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-4 backdrop-blur-xl">
+          <div className="relative overflow-hidden rounded-[32px] border border-white/10 bg-white/[0.03] p-4 backdrop-blur-xl">
+
             <div className="absolute right-[-80px] top-[-80px] h-48 w-48 rounded-full bg-violet-600/10 blur-[80px]" />
 
             <div className="relative">
-              <h3 className="text-2xl font-semibold text-white">Let’s talk</h3>
+              <h3 className="text-2xl font-semibold text-white">
+                Let’s talk
+              </h3>
 
               <p className="mt-4 leading-7 text-gray-400">
                 Our team is ready to help you with any questions or concerns.
@@ -257,6 +262,8 @@ const Contact = () => {
               </p>
 
               <div className="mt-10 space-y-7">
+
+                {/* Email */}
                 <div className="flex gap-4">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-cyan-500/10 text-cyan-400">
                     ✉
@@ -264,10 +271,14 @@ const Contact = () => {
 
                   <div>
                     <p className="text-sm text-gray-500">Email</p>
-                    <p className="mt-1 text-gray-200">info@skilium.com</p>
+
+                    <p className="mt-1 text-gray-200">
+                      info@skilium.com
+                    </p>
                   </div>
                 </div>
 
+                {/* Phone */}
                 <div className="flex gap-4">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-violet-500/10 text-violet-400">
                     ☎
@@ -275,31 +286,41 @@ const Contact = () => {
 
                   <div>
                     <p className="text-sm text-gray-500">Phone</p>
-                    <p className="mt-1 text-gray-200">+91 00000 00000</p>
+
+                    <p className="mt-1 text-gray-200">
+                      +91 00000 00000
+                    </p>
                   </div>
                 </div>
 
+                {/* Working Hours */}
                 <div className="flex gap-4">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-blue-500/10 text-blue-400">
                     ◷
                   </div>
 
                   <div>
-                    <p className="text-sm text-gray-500">Working Hours</p>
+                    <p className="text-sm text-gray-500">
+                      Working Hours
+                    </p>
 
-                    <p className="mt-1 text-gray-200">Monday - Saturday</p>
+                    <p className="mt-1 text-gray-200">
+                      Monday - Saturday
+                    </p>
 
                     <p className="mt-1 text-sm text-gray-500">
                       10:00 AM - 6:00 PM
                     </p>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
 
           {/* Form */}
-          <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-4 backdrop-blur-xl md:p-10">
+          <div className="relative overflow-hidden rounded-[32px] border border-white/10 bg-white/[0.03] p-4 backdrop-blur-xl md:p-10">
+
             <div className="absolute bottom-[-100px] right-[-100px] h-64 w-64 rounded-full bg-cyan-600/10 blur-[100px]" />
 
             <form
@@ -307,8 +328,10 @@ const Contact = () => {
               noValidate
               className="relative space-y-6"
             >
+
               {/* Name + Email */}
               <div className="grid gap-5 md:grid-cols-2">
+
                 <div>
                   <label className="mb-2 block text-sm font-medium text-gray-300">
                     Name <span className="text-cyan-400">*</span>
@@ -330,7 +353,9 @@ const Contact = () => {
                   />
 
                   {errors.name && (
-                    <p className="mt-2 text-xs text-red-400">{errors.name}</p>
+                    <p className="mt-2 text-xs text-red-400">
+                      {errors.name}
+                    </p>
                   )}
                 </div>
 
@@ -355,13 +380,17 @@ const Contact = () => {
                   />
 
                   {errors.email && (
-                    <p className="mt-2 text-xs text-red-400">{errors.email}</p>
+                    <p className="mt-2 text-xs text-red-400">
+                      {errors.email}
+                    </p>
                   )}
                 </div>
+
               </div>
 
               {/* Phone + Subject */}
               <div className="grid gap-5 md:grid-cols-2">
+
                 <div>
                   <label className="mb-2 block text-sm font-medium text-gray-300">
                     Phone
@@ -384,7 +413,9 @@ const Contact = () => {
                   />
 
                   {errors.phone && (
-                    <p className="mt-2 text-xs text-red-400">{errors.phone}</p>
+                    <p className="mt-2 text-xs text-red-400">
+                      {errors.phone}
+                    </p>
                   )}
                 </div>
 
@@ -414,6 +445,7 @@ const Contact = () => {
                     </p>
                   )}
                 </div>
+
               </div>
 
               {/* Message */}
@@ -438,8 +470,11 @@ const Contact = () => {
                 />
 
                 <div className="mt-2 flex justify-between">
+
                   {errors.message ? (
-                    <p className="text-xs text-red-400">{errors.message}</p>
+                    <p className="text-xs text-red-400">
+                      {errors.message}
+                    </p>
                   ) : (
                     <span />
                   )}
@@ -447,6 +482,7 @@ const Contact = () => {
                   <span className="text-xs text-gray-600">
                     {formData.message.length}/1000
                   </span>
+
                 </div>
               </div>
 
@@ -472,6 +508,7 @@ const Contact = () => {
               >
                 {loading ? "Sending..." : "Send Message"}
               </button>
+
             </form>
           </div>
         </div>
