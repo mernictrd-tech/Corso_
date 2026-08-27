@@ -8,7 +8,21 @@ const ReadyToProve = () => {
     <section className="bg-[#070B1A] py-16 sm:py-20 lg:py-28">
 
       <Container>
-        <div className="overflow-hidden rounded-[28px] border border-white/10 bg-gradient-to-r from-[#24245C] via-[#40134E] to-[#4B3816] p-5 sm:rounded-[34px] sm:p-8 lg:p-16">
+        <div
+          className="
+            overflow-hidden
+            rounded-[28px]
+            border border-white/10
+            bg-gradient-to-br
+            from-[#0878C9]
+            via-[#08A6A5]
+            to-[#22B84A]
+            p-5
+            sm:rounded-[34px]
+            sm:p-8
+            lg:p-16
+          "
+        >
 
           <div className="grid items-center gap-8 sm:gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:gap-12">
 
@@ -19,7 +33,7 @@ const ReadyToProve = () => {
                 Are You Ready to Unlock New Opportunities?
               </h2>
 
-              <p className="mt-5 max-w-2xl text-base leading-6 text-gray-300 sm:mt-6 sm:text-[17px] sm:leading-7">
+              <p className="mt-5 max-w-2xl text-base leading-6 text-white/80 sm:mt-6 sm:text-[17px] sm:leading-7">
                 Complete your assessment, demonstrate your technical skills,
                 and receive a trusted certification to support your career
                 growth.
@@ -36,7 +50,17 @@ const ReadyToProve = () => {
             </div>
 
             {/* Right */}
-            <div className="rounded-[24px] border border-white/10 bg-[#231D2A]/95 p-5 backdrop-blur sm:rounded-[30px] sm:p-8">
+            <div
+              className="
+                rounded-[24px]
+                border border-white/10
+                bg-[#0B1724]/90
+                p-5
+                backdrop-blur
+                sm:rounded-[30px]
+                sm:p-8
+              "
+            >
 
               <h3 className="text-2xl font-semibold text-white sm:text-3xl">
                 Start the assessment
@@ -49,7 +73,28 @@ const ReadyToProve = () => {
 
               <a
                 href="#courses"
-                className="mt-6 flex w-full items-center justify-center gap-3 rounded-2xl bg-white px-4 py-4 text-base font-semibold text-black transition-all duration-300 hover:scale-[1.02] hover:bg-gray-100 sm:mt-8 sm:py-5 sm:text-lg"
+                className="
+                  mt-6
+                  flex
+                  w-full
+                  items-center
+                  justify-center
+                  gap-3
+                  rounded-2xl
+                  bg-white
+                  px-4
+                  py-4
+                  text-base
+                  font-semibold
+                  text-black
+                  transition-all
+                  duration-300
+                  hover:scale-[1.02]
+                  hover:bg-gray-100
+                  sm:mt-8
+                  sm:py-5
+                  sm:text-lg
+                "
               >
                 Start Challenge
                 <ArrowRight size={18} className="shrink-0" />
