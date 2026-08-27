@@ -26,8 +26,8 @@ export const downloadCertificate = (certificate, userProfile) => {
       certificate?.id ||
       "CRS-2026-001";
 
-    const corsoId =
-      certificate?.corsoId ||
+    const skiliumId =
+      certificate?.skiliumId ||
       `CRSO-${String(certificateId).replace(/[^a-zA-Z0-9]/g, "") || "2026"}`;
 
     const documentIdentifier =
@@ -91,13 +91,13 @@ export const downloadCertificate = (certificate, userProfile) => {
       ctx.font = `600 ${Math.round(h * 0.018)}px "Inter", "Segoe UI", sans-serif`;
       ctx.textAlign = "left";
       ctx.textBaseline = "middle";
-      ctx.fillText(corsoId, w * 0.23, h * 0.862);
+      ctx.fillText(skiliumId, w * 0.23, h * 0.862);
       ctx.fillText(documentIdentifier, w * 0.29, h * 0.902);
       ctx.fillText(formattedDate, w * 0.77, h * 0.885);
 
       const safeName = String(programName).replace(/[^a-zA-Z0-9]/g, "_");
       const link = document.createElement("a");
-      link.download = `Corso_Certificate_${safeName}_${certificateId}.png`;
+      link.download = `Skilium_Certificate_${safeName}_${certificateId}.png`;
       link.href = canvas.toDataURL("image/png");
       link.click();
 

@@ -41,7 +41,7 @@ const certificateSchema = new mongoose.Schema(
       index: true,
     },
 
-    corsoId: {
+    skiliumId: {
       type: String,
       required: true,
       index: true,

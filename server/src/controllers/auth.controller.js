@@ -38,7 +38,6 @@ const register = async (req, res) => {
 
 const login = async (req, res) => {
 
-  console.log("REQ BODY:", req.body);
   try {
     const { user, token } = await loginUser(req.body);
 

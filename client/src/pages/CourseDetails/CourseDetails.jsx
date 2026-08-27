@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import api from "../../services/api";
 import Layout from "../../components/layout/Layout";
 
-// import certificatePreview from "../../assets/images/certificate-preview.png";
 import certificatePreview from "../../assets/images/CertificateHero.png";
 
 import {
@@ -28,49 +27,40 @@ const CourseDetails = () => {
         setLoading(true);
         setError("");
 
-        /*
-         * courseId here is the slug from:
-         * /course/:courseId
-         *
-         * Example:
-         * /course/java-full-stack
-         */
-
         const response = await api.get(
           `/program/slug/${courseId}`
         );
 
         if (!response.data.success) {
           throw new Error(
-            response.data.message || "Failed to load program."
+            response.data.message ||
+              "Failed to load program."
           );
         }
 
         const program = response.data.data;
 
-        const passingScore = Math.round(
-          (program.passingQuestions /
-            program.totalQuestions) *
-            100
-        );
-
-        /*
-         * Convert MongoDB Program into the
-         * structure your existing UI expects.
-         */
+        const passingScore =
+          program.totalQuestions > 0
+            ? Math.round(
+                (program.passingQuestions /
+                  program.totalQuestions) *
+                  100
+              )
+            : 0;
 
         const mappedCourse = {
-          // VERY IMPORTANT
-          // This is MongoDB _id
+          // MongoDB _id
           id: program._id,
 
-          // Keep slug separately
+          // Slug
           slug: program.slug,
 
           title: program.name,
 
           category:
-            program.category?.name || "Assessment",
+            program.category?.name ||
+            "Assessment",
 
           description:
             program.description || "",
@@ -79,22 +69,20 @@ const CourseDetails = () => {
             program.totalQuestions || 0,
 
           duration:
-           program.examDuration + " Minutes" || "Unlimited",
+            program.examDuration
+              ? `${program.examDuration} Minutes`
+              : "Unlimited",
 
           passingScore:
-            passingScore + "%" || "N/A",
+            `${passingScore}%`,
 
-          attempts:
-            "Unlimited",
+          attempts: "Unlimited",
 
-          rating:
-            4.9,
+          rating: 4.9,
 
-          students:
-            1550,
+          students: 1550,
 
-          topics:
-            program.topics || [],
+          topics: program.topics || [],
 
           certificate: {
             image: certificatePreview,
@@ -109,7 +97,10 @@ const CourseDetails = () => {
 
         setCourse(mappedCourse);
       } catch (err) {
-        console.error("Course details error:", err);
+        console.error(
+          "Course details error:",
+          err
+        );
 
         setError(
           err.response?.data?.message ||
@@ -125,12 +116,6 @@ const CourseDetails = () => {
       fetchCourse();
     }
   }, [courseId]);
-
-  /*
-  |--------------------------------------------------------------------------
-  | Loading
-  |--------------------------------------------------------------------------
-  */
 
   if (loading) {
     return (
@@ -149,12 +134,6 @@ const CourseDetails = () => {
       </Layout>
     );
   }
-
-  /*
-  |--------------------------------------------------------------------------
-  | Error
-  |--------------------------------------------------------------------------
-  */
 
   if (error || !course) {
     return (

@@ -5,7 +5,7 @@ const paymentSchema = new mongoose.Schema(
     student: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
-      required: true,
+      required: false,
       index: true,
     },
 
@@ -14,6 +14,21 @@ const paymentSchema = new mongoose.Schema(
       ref: "Program",
       required: true,
       index: true,
+    },
+
+    customerName: {
+      type: String,
+      required: true,
+    },
+
+    customerEmail: {
+      type: String,
+      required: true,
+    },
+
+    customerMobile: {
+      type: String,
+      required: true,
     },
 
     assessment: {
@@ -61,7 +76,7 @@ const paymentSchema = new mongoose.Schema(
   },
   {
     timestamps: true,
-  }
+  },
 );
 
 module.exports = mongoose.model("Payment", paymentSchema);

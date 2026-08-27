@@ -418,7 +418,7 @@ const ResultCard = ({ result, program, courseId }) => {
                   </h2>
 
                   <p className="mt-2 text-xs sm:text-sm text-gray-300 leading-relaxed">
-                    Get your official Corso certificate with a verifiable ID, permanent ledger verification, and downloadable high-res assets for your resume and LinkedIn.
+                    Get your official Skilium certificate with a verifiable ID, permanent ledger verification, and downloadable high-res assets for your resume and LinkedIn.
                   </p>
                 </div>
 

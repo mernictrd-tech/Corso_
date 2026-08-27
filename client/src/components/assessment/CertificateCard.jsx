@@ -46,10 +46,10 @@ const CertificateCard = ({ certificate, program, courseId, onViewCertificate }) 
     certificate?.id ||
     `CRS-${String(certificate?._id || "2026").slice(-6).toUpperCase()}`;
 
-  // Corso ID
-  const corsoId =
-    certificate?.corsoId ||
-    `CRSO-${String(certificateId).replace(/[^a-zA-Z0-9]/g, "") || "2026"}`;
+  // Skilium ID
+  const skiliumId =
+    certificate?.skiliumId ||
+    `SKLM-${String(certificateId).replace(/[^a-zA-Z0-9]/g, "") || "2026"}`;
 
   // Document Identifier
   const documentIdentifier =
@@ -103,7 +103,7 @@ const CertificateCard = ({ certificate, program, courseId, onViewCertificate }) 
           certificateId,
           score,
           issueDate: rawDate,
-          corsoId,
+          skiliumId,
           documentIdentifier,
           ...certificate,
         },
@@ -215,7 +215,7 @@ const CertificateCard = ({ certificate, program, courseId, onViewCertificate }) 
               <div className="relative w-full aspect-[2000/1414] select-none">
                 <img
                   src={certificateTemplate}
-                  alt="Corso Certificate Preview"
+                  alt="Skilium Certificate Preview"
                   className="w-full h-full object-contain"
                 />
 
@@ -239,12 +239,12 @@ const CertificateCard = ({ certificate, program, courseId, onViewCertificate }) 
                   </span>
                 </div>
 
-                {/* Overlay Corso ID */}
+                {/* Overlay Skilium ID */}
                 <div
                   className="absolute font-mono text-[3.5px] sm:text-[9px] md:text-[11px] font-semibold text-slate-300 -translate-y-1/2 pointer-events-none"
                   style={{ top: "86.2%", left: "23.5%" }}
                 >
-                  {corsoId}
+                  {skiliumId}
                 </div>
 
                 {/* Overlay Document ID */}

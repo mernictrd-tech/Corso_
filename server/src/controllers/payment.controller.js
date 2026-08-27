@@ -6,6 +6,7 @@ const Payment = require("../models/payment.model");
 const Certificate = require("../models/certificate.model");
 const Assessment = require("../models/assessment.model");
 const Program = require("../models/program.model");
+const userModel = require("../models/user.model");
 
 const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID,
@@ -20,8 +21,6 @@ const razorpay = new Razorpay({
 
 const createPaymentOrder = async (req, res) => {
   try {
-    const studentId = req.user._id;
-
     const { assessmentId, programId, name, email, mobile } = req.body;
 
     // ---------------------------------------------------------
@@ -55,7 +54,6 @@ const createPaymentOrder = async (req, res) => {
 
     const assessment = await Assessment.findOne({
       _id: assessmentId,
-      student: studentId,
       program: programId,
       passed: true,
     });
@@ -81,9 +79,9 @@ const createPaymentOrder = async (req, res) => {
       });
     }
 
-    // -------------------------------------------------------
-    // Get Program Price
-    // -------------------------------------------------------
+    // ---------------------------------------------------------
+    // Get certificate price
+    // ---------------------------------------------------------
 
     const certificateFee = Number(program.sellingPrice);
 
@@ -93,6 +91,14 @@ const createPaymentOrder = async (req, res) => {
         message: "Invalid certificate fee for this program.",
       });
     }
+
+    // ---------------------------------------------------------
+    // Clean customer details
+    // ---------------------------------------------------------
+
+    const customerName = name.trim();
+    const customerEmail = email.trim().toLowerCase();
+    const customerMobile = mobile.trim();
 
     // ---------------------------------------------------------
     // Create Razorpay order
@@ -106,17 +112,12 @@ const createPaymentOrder = async (req, res) => {
       receipt,
 
       notes: {
-        studentId: studentId.toString(),
-
         assessmentId: assessmentId.toString(),
-
         programId: programId.toString(),
 
-        studentName: name.trim(),
-
-        studentEmail: email.trim(),
-
-        studentMobile: mobile.trim(),
+        studentName: customerName,
+        studentEmail: customerEmail,
+        studentMobile: customerMobile,
       },
     });
 
@@ -125,14 +126,14 @@ const createPaymentOrder = async (req, res) => {
     // ---------------------------------------------------------
 
     const payment = await Payment.create({
-      student: studentId,
-
       program: programId,
-
       assessment: assessmentId,
 
-      amount: certificateFee,
+      customerName,
+      customerEmail,
+      customerMobile,
 
+      amount: certificateFee,
       currency: "INR",
 
       razorpayOrderId: order.id,
@@ -141,12 +142,11 @@ const createPaymentOrder = async (req, res) => {
     });
 
     // ---------------------------------------------------------
-    // Send order to frontend
+    // Response
     // ---------------------------------------------------------
 
     return res.status(200).json({
       success: true,
-
       message: "Payment order created.",
 
       data: {
@@ -161,14 +161,13 @@ const createPaymentOrder = async (req, res) => {
         key: process.env.RAZORPAY_KEY_ID,
 
         student: {
-          name,
-          email,
-          mobile,
+          name: customerName,
+          email: customerEmail,
+          mobile: customerMobile,
         },
 
         program: {
           id: program._id,
-
           name: program.name,
         },
       },
@@ -178,9 +177,7 @@ const createPaymentOrder = async (req, res) => {
 
     return res.status(500).json({
       success: false,
-
       message: "Unable to create payment order.",
-
       error: error.message,
     });
   }
@@ -194,16 +191,8 @@ const createPaymentOrder = async (req, res) => {
 
 const verifyPayment = async (req, res) => {
   try {
-    const studentId = req.user._id;
-
-    const {
-      razorpay_payment_id,
-      razorpay_order_id,
-      razorpay_signature,
-
-      // Details entered in PaymentPopup
-      customer,
-    } = req.body;
+    const { razorpay_payment_id, razorpay_order_id, razorpay_signature } =
+      req.body;
 
     // ---------------------------------------------------------
     // Validate Razorpay response
@@ -212,44 +201,46 @@ const verifyPayment = async (req, res) => {
     if (!razorpay_payment_id || !razorpay_order_id || !razorpay_signature) {
       return res.status(400).json({
         success: false,
-
         message: "Payment verification details are missing.",
       });
     }
 
     // ---------------------------------------------------------
-    // Find our payment
+    // Find payment
     // ---------------------------------------------------------
 
     const payment = await Payment.findOne({
       razorpayOrderId: razorpay_order_id,
-
-      student: studentId,
     });
 
     if (!payment) {
       return res.status(404).json({
         success: false,
-
         message: "Payment record not found.",
       });
     }
 
     // ---------------------------------------------------------
-    // Generate Razorpay signature
+    // Prevent duplicate verification
+    // ---------------------------------------------------------
+
+    if (payment.status === "paid") {
+      return res.status(400).json({
+        success: false,
+        message: "Payment has already been verified.",
+      });
+    }
+
+    // ---------------------------------------------------------
+    // Verify Razorpay signature
     // ---------------------------------------------------------
 
     const generatedSignature = crypto
       .createHmac("sha256", process.env.RAZORPAY_KEY_SECRET)
-      .update(`${payment.razorpayOrderId}|${razorpay_payment_id}`)
+      .update(`${razorpay_order_id}|${razorpay_payment_id}`)
       .digest("hex");
 
-    // ---------------------------------------------------------
-    // Timing safe verification
-    // ---------------------------------------------------------
-
     const generatedBuffer = Buffer.from(generatedSignature, "utf8");
-
     const receivedBuffer = Buffer.from(razorpay_signature, "utf8");
 
     const isValid =
@@ -263,14 +254,33 @@ const verifyPayment = async (req, res) => {
 
       return res.status(400).json({
         success: false,
-
         message: "Payment verification failed.",
       });
     }
 
     // ---------------------------------------------------------
-    // Mark payment as paid
+    // Find existing user OR create new user
     // ---------------------------------------------------------
+
+    let student = await userModel.findOne({
+      email: payment.customerEmail,
+    });
+
+    if (!student) {
+      student = await userModel.create({
+        fullName: payment.customerName,
+        email: payment.customerEmail,
+        mobile: payment.customerMobile,
+        password: crypto.randomBytes(10).toString("hex"),
+        termsAccepted: true,
+      });
+    }
+
+    // ---------------------------------------------------------
+    // Link payment to student
+    // ---------------------------------------------------------
+
+    payment.student = student._id;
 
     payment.status = "paid";
 
@@ -291,7 +301,6 @@ const verifyPayment = async (req, res) => {
     if (!assessment || !assessment.passed) {
       return res.status(400).json({
         success: false,
-
         message: "Valid passed assessment not found.",
       });
     }
@@ -305,28 +314,9 @@ const verifyPayment = async (req, res) => {
     if (!program) {
       return res.status(404).json({
         success: false,
-
         message: "Program not found.",
       });
     }
-
-    // ---------------------------------------------------------
-    // Student details
-    //
-    // Priority:
-    // 1. Payment popup details
-    // 2. Logged-in user's details
-    // ---------------------------------------------------------
-
-    const studentName =
-      customer?.fullName?.trim() ||
-      req.user.fullName ||
-      req.user.name ||
-      "Student";
-
-    const studentEmail = customer?.email?.trim() || req.user.email || "";
-
-    const studentMobile = customer?.mobile?.trim() || "";
 
     // ---------------------------------------------------------
     // Prevent duplicate certificate
@@ -341,73 +331,45 @@ const verifyPayment = async (req, res) => {
     // ---------------------------------------------------------
 
     if (!certificate) {
-      // -------------------------------------------------------
-      // Certificate ID
-      // -------------------------------------------------------
-
       const certificateId =
-        `CRSO-${new Date().getFullYear()}-` +
+        `SKLM-${new Date().getFullYear()}-` +
         crypto.randomBytes(4).toString("hex").toUpperCase();
 
-      // -------------------------------------------------------
-      // Corso ID
-      // -------------------------------------------------------
-
-      const corsoId =
-        `CORSO-${new Date().getFullYear()}-` +
+      const skiliumId =
+        `SKILIUM-${new Date().getFullYear()}-` +
         crypto.randomBytes(4).toString("hex").toUpperCase();
-
-      // -------------------------------------------------------
-      // Document Identifier
-      // -------------------------------------------------------
 
       const documentIdentifier =
         `DOC-${Date.now()}-` +
         crypto.randomBytes(3).toString("hex").toUpperCase();
 
-      // -------------------------------------------------------
-      // Create Certificate
-      // -------------------------------------------------------
-
       certificate = await Certificate.create({
-        // Required Certificate fields
-        user: studentId,
+        user: student._id,
 
-        studentName: studentName,
+        studentName: payment.customerName,
 
         program: program._id,
 
-        /*
-         * Your current assessment flow stores the completed
-         * assessment in Assessment.
-         *
-         * Certificate schema requires an ObjectId for `attempt`.
-         * Using the completed assessment ID here keeps the
-         * certificate linked to the student's completed attempt.
-         */
         attempt: assessment._id,
 
         payment: payment._id,
 
-        certificateId: certificateId,
+        certificateId,
 
-        corsoId: corsoId,
+        skiliumId,
 
-        documentIdentifier: documentIdentifier,
+        documentIdentifier,
 
-        // Assessment score
         score: assessment.score,
 
-        // Certificate issue date
         issueDate: new Date(),
 
-        // Certificate status
         status: "Issued",
       });
     }
 
     // ---------------------------------------------------------
-    // Success response
+    // Success
     // ---------------------------------------------------------
 
     return res.status(200).json({
@@ -418,33 +380,21 @@ const verifyPayment = async (req, res) => {
       data: {
         payment: {
           id: payment._id,
-
           amount: payment.amount,
-
           status: payment.status,
-
           razorpayPaymentId: payment.razorpayPaymentId,
-
           paidAt: payment.paidAt,
         },
 
         certificate: {
           id: certificate._id,
-
           certificateId: certificate.certificateId,
-
-          corsoId: certificate.corsoId,
-
+          skiliumId: certificate.skiliumId,
           documentIdentifier: certificate.documentIdentifier,
-
           studentName: certificate.studentName,
-
           programName: program.name,
-
           score: certificate.score,
-
           issueDate: certificate.issueDate,
-
           status: certificate.status,
         },
       },
@@ -454,9 +404,7 @@ const verifyPayment = async (req, res) => {
 
     return res.status(500).json({
       success: false,
-
       message: "Payment verification failed.",
-
       error: error.message,
     });
   }

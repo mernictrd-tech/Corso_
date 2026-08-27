@@ -39,8 +39,8 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
     certificate?.id ||
     "CRS-2026-001";
 
-  const corsoId =
-    certificate?.corsoId ||
+  const skiliumId =
+    certificate?.skiliumId ||
     `CRSO-${String(certificateId).replace(/[^a-zA-Z0-9]/g, "") || "2026"}`;
 
   const documentIdentifier =
@@ -152,13 +152,13 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
         ctx.font = `600 ${Math.round(h * 0.018)}px "Inter", "Segoe UI", sans-serif`;
         ctx.textAlign = "left";
         ctx.textBaseline = "middle";
-        ctx.fillText(corsoId, w * 0.23, h * 0.862);
+        ctx.fillText(skiliumId, w * 0.23, h * 0.862);
         ctx.fillText(documentIdentifier, w * 0.29, h * 0.902);
         ctx.fillText(formattedDate, w * 0.77, h * 0.885);
 
         const safeName = String(programName).replace(/[^a-zA-Z0-9]/g, "_");
         const link = document.createElement("a");
-        link.download = `Corso_Certificate_${safeName}_${certificateId}.png`;
+        link.download = `Skilium_Certificate_${safeName}_${certificateId}.png`;
         link.href = canvas.toDataURL("image/png");
         link.click();
 
@@ -264,7 +264,7 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
             {/* Background Template */}
             <img
               src={certificateTemplate}
-              alt="Corso Certificate"
+              alt="Skilium Certificate"
               className="w-full h-full object-contain pointer-events-none"
             />
 
@@ -288,12 +288,12 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
               </span>
             </div>
 
-            {/* 3. Corso ID */}
+            {/* 3. Skilium ID */}
             <div
               className="absolute font-mono text-[4px] sm:text-[10px] md:text-xs lg:text-[13px] font-semibold text-slate-300 -translate-y-1/2 pointer-events-none"
               style={{ top: "86.2%", left: "23.5%" }}
             >
-              {corsoId}
+              {skiliumId}
             </div>
 
             {/* 4. Document Identifier */}

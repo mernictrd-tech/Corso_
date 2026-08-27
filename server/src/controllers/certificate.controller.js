@@ -20,11 +20,11 @@ const verifyCertificate = async (req, res) => {
 
     const cleanId = certificateId.trim();
 
-    // Match case-insensitively across certificateId, corsoId, or documentIdentifier
+    // Match case-insensitively across certificateId, skiliumId, or documentIdentifier
     const certificate = await Certificate.findOne({
       $or: [
         { certificateId: { $regex: new RegExp(`^${cleanId}$`, "i") } },
-        { corsoId: { $regex: new RegExp(`^${cleanId}$`, "i") } },
+        { skiliumId: { $regex: new RegExp(`^${cleanId}$`, "i") } },
         { documentIdentifier: { $regex: new RegExp(`^${cleanId}$`, "i") } },
       ],
     })
@@ -50,7 +50,7 @@ const verifyCertificate = async (req, res) => {
       message: "Certificate verified successfully.",
       data: {
         certificateId: certificate.certificateId,
-        corsoId: certificate.corsoId,
+        skiliumId: certificate.skiliumId,
         documentIdentifier: certificate.documentIdentifier,
         studentName: certificate.studentName || certificate.user?.name,
         courseName: certificate.program?.name || "Technical Certification",

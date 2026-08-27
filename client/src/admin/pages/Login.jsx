@@ -25,9 +25,6 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-      console.log("FORM DATA:", formData);
-      console.log("EMAIL LENGTH:", formData.email.length);
-
     try {
       setLoading(true);
 

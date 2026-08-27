@@ -3,7 +3,6 @@ const router = express.Router();
 const upload = require("../middleware/upload.middleware");
 
 const protect = require("../middleware/auth.middleware");
-const adminMiddleware = require("../middleware/admin.middleware");
 
 const {
   createProgram,
@@ -46,17 +45,22 @@ const {
 } = require("../controllers/topic.controller");
 const { getAllPayments } = require("../controllers/payment.controller");
 const { getAllContacts, updateContactStatus, deleteContact } = require("../controllers/contact.controller");
+const { adminLogin } = require("../controllers/admin.controller");
+const adminProtect = require("../middleware/adminProtect.middleware");
+
+////////////////////////  Admin Login  ///////////////////////
+
+router.post("/login", adminLogin);
 
 ////////////////////////  Dashboard Widget ///////////////////////
 
-router.get("/dashboard/widgets", protect, adminMiddleware, getWidget);
+router.get("/dashboard/widgets", adminProtect, getWidget);
 
 ////////////////////////   Program Routes ///////////////////////
 
 router.post(
   "/program/store",
-  protect,
-  adminMiddleware,
+  adminProtect,
   upload.fields([
     { name: "thumbnail", maxCount: 1 },
     { name: "certificateDemo", maxCount: 1 },
@@ -64,14 +68,13 @@ router.post(
   createProgram,
 );
 
-router.get("/program/list", protect, adminMiddleware, getPrograms);
+router.get("/program/list", adminProtect, getPrograms);
 
-router.get("/program/:id", protect, adminMiddleware, getProgramById);
+router.get("/program/:id", adminProtect, getProgramById);
 
 router.put(
   "/program/update/:id",
-  protect,
-  adminMiddleware,
+  adminProtect,
   upload.fields([
     {
       name: "thumbnail",
@@ -85,76 +88,75 @@ router.put(
   updateProgram,
 );
 
-router.delete("/program/delete/:id", protect, adminMiddleware, deleteProgram);
+router.delete("/program/delete/:id", adminProtect, deleteProgram);
 
 ////////////////////////   Program Topic Routes ///////////////////////
 
-router.post("/topic/store", protect, adminMiddleware, createTopic);
+router.post("/topic/store", adminProtect, createTopic);
 
 router.get(
   "/topic/program/:programId",
-  protect,
-  adminMiddleware,
+  adminProtect,
   getTopicsByProgram,
 );
 
-router.get("/topic/:id", protect, adminMiddleware, getTopicById);
+router.get("/topic/:id", adminProtect, getTopicById);
 
-router.put("/topic/:id", protect, adminMiddleware, updateTopic);
+router.put("/topic/:id", adminProtect, updateTopic);
 
-router.delete("/topic/delete/:id", protect, adminMiddleware, deleteTopic);
+router.delete("/topic/delete/:id", adminProtect, deleteTopic);
 
 ////////////////////////   Question Routes ///////////////////////
 
-router.post("/question/create", protect, adminMiddleware, createQuestion);
+router.post("/question/create", adminProtect, createQuestion);
 
-router.delete("/question/delete/:id", protect, adminMiddleware, deleteQuestion);
+router.delete("/question/delete/:id", adminProtect, deleteQuestion);
 
-router.put("/question/update/:id", protect, adminMiddleware, updateQuestion);
+router.put("/question/update/:id", adminProtect, updateQuestion);
 
-router.get("/question/view/:id", protect, adminMiddleware, getQuestionById);
+router.get("/question/view/:id", adminProtect, getQuestionById);
 
 router.get(
   "/program/:programId/questions",
-  protect,
-  adminMiddleware,
+  adminProtect,
+  
   getQuestionsByProgram,
 );
 
 ////////////////////////  Categories    ////////////////////////////
 
-router.post("/category/store", protect, adminMiddleware, createCategory);
+router.post("/category/store", adminProtect, createCategory);
 
-router.get("/category/list", protect, adminMiddleware, getCategories);
+router.get("/category/list", adminProtect, getCategories);
 
-router.get("/category/:id", protect, adminMiddleware, getCategoryById);
+router.get("/category/:id", adminProtect, getCategoryById);
 
-router.put("/category/update/:id", protect, adminMiddleware, updateCategory);
+router.put("/category/update/:id", adminProtect, updateCategory);
 
-router.delete("/category/delete/:id", protect, adminMiddleware, deleteCategory);
+router.delete("/category/delete/:id", adminProtect, deleteCategory);
 
 ////////////////////////  Global Search ////////////////////////////
 
-router.get("/students/search", protect, adminMiddleware, searchStudents);
+router.get("/students/search", adminProtect, searchStudents);
 
 ////////////////////////    Students    ////////////////////////////
 
-router.get("/students/list", protect, adminMiddleware, getStudents);
+router.get("/students/list", adminProtect, getStudents);
 
-router.delete("/student/delete/:id", protect, adminMiddleware, deleteStudent);
+router.delete("/student/delete/:id", adminProtect, deleteStudent);
 
-router.get("/students/:studentId", protect, adminMiddleware, getStudentDetails);
+router.get("/students/:studentId", adminProtect, getStudentDetails);
 
 ////////////////////////  Payment List  ////////////////////////////
 
-router.get("/payments/list", protect, adminMiddleware, getAllPayments);
+router.get("/payments/list", adminProtect, getAllPayments);
 
 ////////////////////////  Contact List  ////////////////////////////
 
-router.get("/contacts/list", protect, adminMiddleware, getAllContacts);
+router.get("/contacts/list", adminProtect, getAllContacts);
 
-router.patch("/contacts/:id/status", protect, adminMiddleware, updateContactStatus);
+router.patch("/contacts/:id/status", adminProtect, updateContactStatus);
 
-router.delete("/contact/delete/:id", protect, adminMiddleware, deleteContact);
+router.delete("/contact/delete/:id", adminProtect, deleteContact);
 
 module.exports = router;
