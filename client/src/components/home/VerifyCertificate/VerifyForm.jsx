@@ -184,6 +184,7 @@ const VerifyForm = () => {
             <p className="mt-1 text-xs sm:text-sm text-gray-400">
               This credential has been authenticated against the Corso
               registry.
+              This credential has been authenticated against the Skilium registry.
             </p>
 
             {/* Certificate Details Card */}

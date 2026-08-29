@@ -1,13 +1,12 @@
 const adminMiddleware = (req, res, next) => {
-  // Ensure protect middleware has run first
-  if (!req.user) {
+  if (!req.admin) {
     return res.status(401).json({
       success: false,
       message: "Unauthorized. Please login.",
     });
   }
 
-  if (req.user.role !== "admin") {
+  if (req.admin.role !== "admin") {
     return res.status(403).json({
       success: false,
       message: "Access denied. Admin privileges required.",

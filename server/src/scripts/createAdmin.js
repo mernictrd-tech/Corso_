@@ -1,38 +1,55 @@
-require("dotenv").config();
+require("dotenv").config({
+  path: require("path").resolve(__dirname, "../../.env"),
+});
 
 const mongoose = require("mongoose");
-const bcrypt = require("bcryptjs");
-
-const User = require("../models/user.model");
-
-mongoose.connect(process.env.MONGO_URI);
+const Admin = require("../models/admin.model");
 
 const createAdmin = async () => {
   try {
-    const exists = await User.findOne({
-      email: "mernictrd@gmail.com",
-    });
+    // Check MongoDB URI
+    if (!process.env.MONGO_URI) {
+      throw new Error("MONGO_URI is not defined in .env");
+    }
+
+    // Connect MongoDB
+    await mongoose.connect(process.env.MONGO_URI);
+
+    console.log("MongoDB Connected");
+
+    const email = "mernictrd@gmail.com";
+
+    // Check existing admin
+    const exists = await Admin.findOne({ email });
 
     if (exists) {
       console.log("Admin already exists.");
-      process.exit();
+      await mongoose.connection.close();
+      process.exit(0);
     }
 
-   await User.create({
-  fullName: "Super Admin",
-  email: "mernictrd@gmail.com",
-  password: "admin@123",
-  role: "admin",
-  provider: "local",
-  termsAccepted: true,
-  isVerified: true,
-});
+    // Create admin
+    const admin = await Admin.create({
+      name: "Super Admin",
+      email,
+      password: "admin@123",
+      role: "admin",
+      isActive: true,
+    });
 
     console.log("Admin Created Successfully");
-    process.exit();
-  } catch (err) {
-    console.log(err);
-    process.exit();
+    console.log("Admin ID:", admin._id);
+    console.log("Email:", admin.email);
+
+    await mongoose.connection.close();
+
+    process.exit(0);
+  } catch (error) {
+    console.error("Create Admin Error:", error);
+
+    await mongoose.connection.close();
+
+    process.exit(1);
   }
 };
 

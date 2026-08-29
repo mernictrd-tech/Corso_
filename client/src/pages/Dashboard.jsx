@@ -130,44 +130,6 @@ const [cardStatus, setCardStatus] = useState({
   }, []);
 
   // Format certificates for listing
-  // const userCertificates =
-  //   certificateData?.certificatesWithAssessments?.length > 0
-  //     ? certificateData.certificatesWithAssessments.map((cert) => ({
-  //         _id: cert._id,
-  //         id: cert._id,
-  //         title: cert.program?.name || "Certification",
-  //         score: cert.score || cert.assessment?.score || 92,
-  //         certificateId: cert.certificateId || "CRS-2026-001",
-  //         corsoId: cert.corsoId,
-  //         documentIdentifier: cert.documentIdentifier,
-  //         studentName: cert.studentName || profile?.fullName || "Student",
-  //         issuedOn: cert.issueDate
-  //           ? new Date(cert.issueDate).toLocaleDateString("en-US", {
-  //               day: "2-digit",
-  //               month: "short",
-  //               year: "numeric",
-  //             })
-  //           : "29 Jul 2026",
-  //         issueDate: cert.issueDate,
-  //         payment: {
-  //           amount: "₹249",
-  //           status: "Paid",
-  //           transactionId: cert.documentIdentifier || "TXN78451236",
-  //           date: cert.issueDate
-  //             ? new Date(cert.issueDate).toLocaleDateString("en-US", {
-  //                 day: "2-digit",
-  //                 month: "short",
-  //                 year: "numeric",
-  //               })
-  //             : "29 Jul 2026",
-  //         },
-  //         program: cert.program,
-  //       }))
-  //     : dashboardData.certificates.map((cert) => ({
-  //         ...cert,
-  //         studentName: profile?.fullName || "Student",
-  //       }));
-  // Format certificates for listing
 const userCertificates =
   certificateData?.certificatesWithAssessments?.length > 0
     ? certificateData.certificatesWithAssessments.map((cert) => {
@@ -188,7 +150,7 @@ const userCertificates =
           certificateId:
             cert.certificateId || "CRS-2026-001",
 
-          corsoId: cert.corsoId,
+          skiliumId: cert.skiliumId,
 
           documentIdentifier: cert.documentIdentifier,
 

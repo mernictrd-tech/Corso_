@@ -63,7 +63,7 @@ const DashboardHero = ({ hero, certificate, profile, onViewCertificate }) => {
       score,
       totalQuestions,
       issueDate: issuedDate,
-      corsoId: certificate?.corsoId,
+      skiliumId: certificate?.skiliumId,
       documentIdentifier: certificate?.documentIdentifier,
       ...certificate,
     });
@@ -80,7 +80,7 @@ const DashboardHero = ({ hero, certificate, profile, onViewCertificate }) => {
           certificateId,
           score,
           issueDate: issuedDate,
-          corsoId: certificate?.corsoId,
+          skiliumId: certificate?.skiliumId,
           documentIdentifier: certificate?.documentIdentifier,
           ...certificate,
         },
