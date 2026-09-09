@@ -1,3 +1,26 @@
+// const mongoose = require("mongoose");
+
+// const categorySchema = new mongoose.Schema(
+//   {
+//     name: {
+//       type: String,
+//       required: true,
+//       unique: true,
+//     },
+
+//     isActive: {
+//       type: Boolean,
+//       default: true,
+//     },
+//   },
+//   {
+//     timestamps: true,
+//   },
+// );
+
+// module.exports = mongoose.model("Category", categorySchema);
+
+
 const mongoose = require("mongoose");
 
 const categorySchema = new mongoose.Schema(
@@ -6,6 +29,7 @@ const categorySchema = new mongoose.Schema(
       type: String,
       required: true,
       unique: true,
+      trim: true,
     },
 
     isActive: {
@@ -15,7 +39,7 @@ const categorySchema = new mongoose.Schema(
   },
   {
     timestamps: true,
-  },
+  }
 );
 
 module.exports = mongoose.model("Category", categorySchema);

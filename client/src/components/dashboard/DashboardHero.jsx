@@ -178,7 +178,7 @@ const DashboardHero = ({ hero, certificate, profile, onViewCertificate }) => {
               <Award className="mx-auto text-cyan-500" size={50} />
 
               <p className="mt-4 text-xs tracking-[5px] text-gray-500">
-                CERTIFICATE
+                ACHIEVEMENT BADGE
               </p>
 
               <h2 className="mt-4 text-lg sm:text-2xl font-bold text-gray-800 break-words">
