@@ -4,6 +4,8 @@ const helmet = require("helmet");
 const morgan = require("morgan");
 const cookieParser = require("cookie-parser");
 
+const sitemapRoutes = require("./routes/sitemap.routes");
+
 const app = express();
 
 // Security Middleware
@@ -37,5 +39,6 @@ app.use(morgan("dev"));
 const routes = require("./routes");
 
 app.use("/api", routes);
-module.exports = app;
+app.use("/", sitemapRoutes);
+
 module.exports = app;

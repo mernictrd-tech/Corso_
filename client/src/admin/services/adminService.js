@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/admin";
+const API = `${import.meta.env.VITE_API_BASE_URL}/admin`;
 
 export const adminLogin = async (loginData) => {
   const { data } = await axios.post(

@@ -13,6 +13,7 @@ import {
   CertificatePreview,
   StartAssessmentCard,
 } from "../../components/courseDetails";
+import StructuredData from "../../seo/StructuredData";
 
 const CourseDetails = () => {
   const { courseId } = useParams();
@@ -27,15 +28,10 @@ const CourseDetails = () => {
         setLoading(true);
         setError("");
 
-        const response = await api.get(
-          `/program/slug/${courseId}`
-        );
+        const response = await api.get(`/program/slug/${courseId}`);
 
         if (!response.data.success) {
-          throw new Error(
-            response.data.message ||
-              "Failed to load program."
-          );
+          throw new Error(response.data.message || "Failed to load program.");
         }
 
         const program = response.data.data;
@@ -43,9 +39,7 @@ const CourseDetails = () => {
         const passingScore =
           program.totalQuestions > 0
             ? Math.round(
-                (program.passingQuestions /
-                  program.totalQuestions) *
-                  100
+                (program.passingQuestions / program.totalQuestions) * 100,
               )
             : 0;
 
@@ -58,23 +52,17 @@ const CourseDetails = () => {
 
           title: program.name,
 
-          category:
-            program.category?.name ||
-            "Assessment",
+          category: program.category?.name || "Assessment",
 
-          description:
-            program.description || "",
+          description: program.description || "",
 
-          questions:
-            program.totalQuestions || 0,
+          questions: program.totalQuestions || 0,
 
-          duration:
-            program.examDuration
-              ? `${program.examDuration} Minutes`
-              : "Unlimited",
+          duration: program.examDuration
+            ? `${program.examDuration} Minutes`
+            : "Unlimited",
 
-          passingScore:
-            `${passingScore}%`,
+          passingScore: `${passingScore}%`,
 
           attempts: "Unlimited",
 
@@ -87,8 +75,7 @@ const CourseDetails = () => {
           certificate: {
             image: certificatePreview,
 
-            title:
-              "Industry Recognized Certificate",
+            title: "Industry Recognized Certificate",
 
             description:
               "Receive a verified certificate after successfully clearing the assessment.",
@@ -97,15 +84,12 @@ const CourseDetails = () => {
 
         setCourse(mappedCourse);
       } catch (err) {
-        console.error(
-          "Course details error:",
-          err
-        );
+        console.error("Course details error:", err);
 
         setError(
           err.response?.data?.message ||
             err.message ||
-            "Failed to load course."
+            "Failed to load course.",
         );
       } finally {
         setLoading(false);
@@ -117,18 +101,36 @@ const CourseDetails = () => {
     }
   }, [courseId]);
 
+  const courseSchema = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "@id": `https://skilium.in/course/${course?.slug}#course`,
+    name: course?.title,
+    description: course?.description,
+    url: `https://skilium.in/course/${course?.slug}`,
+    provider: {
+      "@type": "Organization",
+      name: "Skilium",
+      url: "https://skilium.in",
+    },
+    educationalLevel: "Professional",
+    inLanguage: "en-IN",
+    coursePrerequisites: "No prerequisites",
+    hasCourseInstance: {
+      "@type": "CourseInstance",
+      courseMode: "online",
+      duration: course?.duration,
+    },
+  };
+
   if (loading) {
     return (
       <Layout>
         <div className="min-h-screen bg-[#070B1A] flex items-center justify-center">
           <div className="text-center">
-            <h2 className="text-2xl font-bold text-white">
-              Loading course...
-            </h2>
+            <h2 className="text-2xl font-bold text-white">Loading course...</h2>
 
-            <p className="mt-2 text-gray-400">
-              Please wait.
-            </p>
+            <p className="mt-2 text-gray-400">Please wait.</p>
           </div>
         </div>
       </Layout>
@@ -144,9 +146,7 @@ const CourseDetails = () => {
               Unable to Load Course
             </h2>
 
-            <p className="mt-4 text-gray-300">
-              {error || "Course not found."}
-            </p>
+            <p className="mt-4 text-gray-300">{error || "Course not found."}</p>
           </div>
         </div>
       </Layout>
@@ -155,6 +155,8 @@ const CourseDetails = () => {
 
   return (
     <Layout>
+      <StructuredData data={courseSchema} />
+
       <CourseHero course={course} />
 
       <CourseOverview course={course} />
