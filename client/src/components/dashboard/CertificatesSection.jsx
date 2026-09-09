@@ -95,11 +95,11 @@ const CertificatesSection = ({ certificates, onViewCertificate }) => {
           <div className="rounded-2xl border border-dashed border-white/10 py-12 text-center">
 
             <h3 className="text-xl font-semibold text-white">
-              No Certificates Found
+              No Certificates Yet
             </h3>
 
             <p className="mt-2 text-gray-400">
-              Try searching with another course name.
+              Complete a suggested assessment to earn your first certificate.
             </p>
 
           </div>

@@ -9,7 +9,7 @@ import StatsCard from "./StatsCard";
 
 const StatsGrid = ({ cardStatus }) => {
   return (
-    <section className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+    <section className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
  
       <StatsCard
         title="Certificates"
@@ -30,13 +30,6 @@ const StatsGrid = ({ cardStatus }) => {
         value={cardStatus?.passRate || "0%"}
         icon={TrendingUp}
         iconColor="bg-violet-500"
-      />
-
-      <StatsCard
-        title="Skills Verified"
-        value={cardStatus?.skillsVerified || 0}
-        icon={BadgeCheck}
-        iconColor="bg-orange-500"
       />
 
     </section>

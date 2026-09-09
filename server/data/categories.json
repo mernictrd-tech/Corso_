@@ -1,0 +1,632 @@
+[
+  {
+    "name": "Artificial Intelligence & Generative AI",
+    "pricing": {
+      "originalPrice": 999,
+      "sellingPrice": 599
+    },
+    "courses": [
+      {
+        "name": "AI Fundamentals",
+        "description": "Learn the fundamentals of Artificial Intelligence, including core concepts, applications, and real-world use cases."
+      },
+      {
+        "name": "Generative AI Fundamentals",
+        "description": "Understand the fundamentals of Generative AI, including how AI models generate text, images, code, and other content."
+      },
+      {
+        "name": "Prompt Engineering",
+        "description": "Learn how to design effective prompts and interact efficiently with Generative AI models."
+      },
+      {
+        "name": "Large Language Models",
+        "description": "Understand how Large Language Models work, their architecture, capabilities, limitations, and applications."
+      },
+      {
+        "name": "Agentic AI Fundamentals",
+        "description": "Learn the fundamentals of AI agents, autonomous workflows, tool usage, and agent-based systems."
+      },
+      {
+        "name": "AI for Business",
+        "description": "Explore how Artificial Intelligence can be applied to improve business processes, decision-making, and productivity."
+      },
+      {
+        "name": "Responsible AI",
+        "description": "Understand ethical AI principles, fairness, transparency, privacy, safety, and responsible AI development."
+      },
+      {
+        "name": "AI Automation",
+        "description": "Learn how AI can automate repetitive tasks, workflows, and business processes."
+      },
+      {
+        "name": "AI Productivity Tools",
+        "description": "Learn how to use modern AI-powered tools to improve productivity, research, communication, and daily work."
+      }
+    ]
+  },
+  {
+    "name": "Data Science & Data Analytics",
+    "pricing": {
+      "originalPrice": 899,
+      "sellingPrice": 499
+    },
+    "courses": [
+      {
+        "name": "Data Analytics Fundamentals",
+        "description": "Learn the fundamentals of data analytics, including data collection, cleaning, analysis, and interpretation."
+      },
+      {
+        "name": "Python for Data Analysis",
+        "description": "Learn how Python and popular libraries can be used for data cleaning, analysis, and visualization."
+      },
+      {
+        "name": "SQL for Data Analytics",
+        "description": "Learn how to use SQL queries to retrieve, filter, transform, and analyze data."
+      },
+      {
+        "name": "Excel for Data Analysis",
+        "description": "Learn Excel features and techniques for organizing, analyzing, and visualizing data."
+      },
+      {
+        "name": "Power BI Fundamentals",
+        "description": "Learn the fundamentals of Microsoft Power BI for creating reports, dashboards, and business insights."
+      },
+      {
+        "name": "Data Visualization",
+        "description": "Learn how to represent data effectively using charts, graphs, dashboards, and visualization techniques."
+      },
+      {
+        "name": "Business Intelligence",
+        "description": "Understand business intelligence concepts and how organizations use data to make informed decisions."
+      },
+      {
+        "name": "Statistics for Data Science",
+        "description": "Learn essential statistical concepts required for data science and data-driven decision-making."
+      },
+      {
+        "name": "Advanced Data Analytics",
+        "description": "Explore advanced analytical techniques for extracting meaningful insights from complex datasets."
+      }
+    ]
+  },
+  {
+    "name": "Machine Learning & Deep Learning",
+    "pricing": {
+      "originalPrice": 999,
+      "sellingPrice": 599
+    },
+    "courses": [
+      {
+        "name": "Machine Learning Fundamentals",
+        "description": "Learn the fundamentals of machine learning, including algorithms, training, testing, and model prediction."
+      },
+      {
+        "name": "Supervised Learning",
+        "description": "Understand supervised learning techniques including regression, classification, and common algorithms."
+      },
+      {
+        "name": "Unsupervised Learning",
+        "description": "Learn clustering, dimensionality reduction, and other unsupervised machine learning techniques."
+      },
+      {
+        "name": "Deep Learning Fundamentals",
+        "description": "Understand neural networks, deep learning concepts, architectures, and applications."
+      },
+      {
+        "name": "Natural Language Processing",
+        "description": "Learn how machines process, understand, and generate human language."
+      },
+      {
+        "name": "Computer Vision",
+        "description": "Learn how machine learning and deep learning techniques are used to analyze images and video."
+      },
+      {
+        "name": "Model Evaluation & Optimization",
+        "description": "Learn techniques for evaluating, improving, tuning, and optimizing machine learning models."
+      },
+      {
+        "name": "Machine Learning with Python",
+        "description": "Learn how to implement machine learning algorithms and workflows using Python."
+      },
+      {
+        "name": "Applied Machine Learning",
+        "description": "Apply machine learning concepts to real-world datasets and practical business problems."
+      }
+    ]
+  },
+  {
+    "name": "Software Development & Programming",
+    "pricing": {
+      "originalPrice": 799,
+      "sellingPrice": 399
+    },
+    "courses": [
+      {
+        "name": "Programming Fundamentals",
+        "description": "Learn fundamental programming concepts including variables, conditions, loops, functions, and problem solving."
+      },
+      {
+        "name": "Python Programming",
+        "description": "Learn Python programming from fundamentals to practical application development."
+      },
+      {
+        "name": "Java Programming",
+        "description": "Learn Java programming concepts including syntax, object-oriented programming, collections, and exception handling."
+      },
+      {
+        "name": "JavaScript Fundamentals",
+        "description": "Learn modern JavaScript fundamentals including variables, functions, arrays, objects, ES6+, and asynchronous programming."
+      },
+      {
+        "name": "C Programming",
+        "description": "Learn C programming fundamentals including data types, pointers, functions, arrays, and memory management."
+      },
+      {
+        "name": "C++ Programming",
+        "description": "Learn C++ programming including object-oriented programming, STL, classes, inheritance, and polymorphism."
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "description": "Understand object-oriented programming concepts such as classes, objects, inheritance, encapsulation, and polymorphism."
+      },
+      {
+        "name": "Software Development Fundamentals",
+        "description": "Learn the fundamental concepts, practices, methodologies, and lifecycle of software development."
+      },
+      {
+        "name": "Git & Version Control",
+        "description": "Learn Git and version control concepts for managing source code and collaborating with development teams."
+      }
+    ]
+  },
+  {
+    "name": "Web Development",
+    "pricing": {
+      "originalPrice": 799,
+      "sellingPrice": 399
+    },
+    "courses": [
+      {
+        "name": "HTML & CSS Fundamentals",
+        "description": "Learn how to structure web pages with HTML and style responsive interfaces using CSS."
+      },
+      {
+        "name": "JavaScript for Web Development",
+        "description": "Learn how JavaScript is used to create interactive and dynamic web applications."
+      },
+      {
+        "name": "React.js Fundamentals",
+        "description": "Learn React.js fundamentals including components, props, state, hooks, events, and application structure."
+      },
+      {
+        "name": "Node.js Fundamentals",
+        "description": "Learn the fundamentals of Node.js for building scalable server-side JavaScript applications."
+      },
+      {
+        "name": "Express.js Fundamentals",
+        "description": "Learn how to build backend applications and REST APIs using Express.js."
+      },
+      {
+        "name": "MERN Stack Development",
+        "description": "Learn full-stack web development using MongoDB, Express.js, React.js, and Node.js."
+      },
+      {
+        "name": "REST API Development",
+        "description": "Learn how to design, develop, test, and consume RESTful APIs."
+      },
+      {
+        "name": "Frontend Development",
+        "description": "Learn modern frontend development concepts for creating responsive and interactive web interfaces."
+      },
+      {
+        "name": "Full Stack Web Development",
+        "description": "Learn end-to-end web application development covering frontend, backend, APIs, databases, and deployment."
+      }
+    ]
+  },
+  {
+    "name": "Cloud Computing & DevOps",
+    "pricing": {
+      "originalPrice": 999,
+      "sellingPrice": 599
+    },
+    "courses": [
+      {
+        "name": "Cloud Computing Fundamentals",
+        "description": "Learn the fundamentals of cloud computing, cloud services, deployment models, and cloud architecture."
+      },
+      {
+        "name": "AWS Fundamentals",
+        "description": "Learn the fundamental concepts and services of Amazon Web Services."
+      },
+      {
+        "name": "Microsoft Azure Fundamentals",
+        "description": "Learn the fundamentals of Microsoft Azure cloud services and infrastructure."
+      },
+      {
+        "name": "Google Cloud Fundamentals",
+        "description": "Learn the fundamentals of Google Cloud Platform and its core cloud services."
+      },
+      {
+        "name": "DevOps Fundamentals",
+        "description": "Understand DevOps principles, practices, culture, automation, and continuous delivery."
+      },
+      {
+        "name": "Docker Fundamentals",
+        "description": "Learn containerization concepts and how to build, run, and manage applications using Docker."
+      },
+      {
+        "name": "Kubernetes Fundamentals",
+        "description": "Learn Kubernetes fundamentals for deploying, managing, and scaling containerized applications."
+      },
+      {
+        "name": "CI/CD Fundamentals",
+        "description": "Learn continuous integration and continuous delivery concepts for automating software delivery pipelines."
+      },
+      {
+        "name": "Cloud Security Fundamentals",
+        "description": "Learn fundamental cloud security principles, practices, threats, and protection techniques."
+      }
+    ]
+  },
+  {
+    "name": "Cybersecurity",
+    "pricing": {
+      "originalPrice": 999,
+      "sellingPrice": 599
+    },
+    "courses": [
+      {
+        "name": "Cybersecurity Fundamentals",
+        "description": "Learn fundamental cybersecurity concepts, threats, vulnerabilities, and security practices."
+      },
+      {
+        "name": "Network Security",
+        "description": "Learn how networks are protected from attacks, unauthorized access, and security threats."
+      },
+      {
+        "name": "Ethical Hacking Fundamentals",
+        "description": "Understand ethical hacking concepts, methodologies, security testing, and vulnerability assessment."
+      },
+      {
+        "name": "Security Operations Center Fundamentals",
+        "description": "Learn the fundamentals of SOC operations, monitoring, detection, analysis, and incident handling."
+      },
+      {
+        "name": "Cloud Security",
+        "description": "Learn security principles and techniques for protecting cloud-based infrastructure and applications."
+      },
+      {
+        "name": "Cyber Threat Intelligence",
+        "description": "Learn how organizations collect, analyze, and use threat intelligence to improve cybersecurity."
+      },
+      {
+        "name": "Incident Response",
+        "description": "Learn how security incidents are detected, investigated, contained, and resolved."
+      },
+      {
+        "name": "Data Privacy & Protection",
+        "description": "Understand data privacy principles, protection practices, compliance, and responsible data handling."
+      },
+      {
+        "name": "Application Security",
+        "description": "Learn fundamental application security practices for identifying and preventing software vulnerabilities."
+      }
+    ]
+  },
+  {
+    "name": "Database & Data Engineering",
+    "pricing": {
+      "originalPrice": 799,
+      "sellingPrice": 399
+    },
+    "courses": [
+      {
+        "name": "Database Fundamentals",
+        "description": "Learn fundamental database concepts including data models, tables, relationships, and database management."
+      },
+      {
+        "name": "SQL Fundamentals",
+        "description": "Learn SQL basics including queries, filtering, sorting, grouping, joins, and data manipulation."
+      },
+      {
+        "name": "Advanced SQL",
+        "description": "Learn advanced SQL concepts including subqueries, window functions, CTEs, optimization, and complex queries."
+      },
+      {
+        "name": "MySQL Fundamentals",
+        "description": "Learn the fundamentals of MySQL database management, queries, relationships, and database operations."
+      },
+      {
+        "name": "PostgreSQL Fundamentals",
+        "description": "Learn PostgreSQL fundamentals including database creation, SQL queries, relationships, and advanced features."
+      },
+      {
+        "name": "MongoDB Fundamentals",
+        "description": "Learn MongoDB concepts including documents, collections, queries, indexes, and aggregation."
+      },
+      {
+        "name": "Database Design",
+        "description": "Learn database design principles including normalization, relationships, schemas, and efficient data modeling."
+      },
+      {
+        "name": "Data Engineering Fundamentals",
+        "description": "Learn the fundamentals of data pipelines, data processing, storage, transformation, and engineering workflows."
+      },
+      {
+        "name": "Data Warehousing Fundamentals",
+        "description": "Understand data warehouse concepts, architecture, ETL processes, dimensional modeling, and analytics."
+      }
+    ]
+  },
+  {
+    "name": "Digital Marketing & E-Commerce",
+    "pricing": {
+      "originalPrice": 699,
+      "sellingPrice": 349
+    },
+    "courses": [
+      {
+        "name": "Digital Marketing Fundamentals",
+        "description": "Learn the fundamentals of digital marketing, online channels, campaigns, and digital customer engagement."
+      },
+      {
+        "name": "Search Engine Optimization",
+        "description": "Learn SEO techniques for improving website visibility, search rankings, and organic traffic."
+      },
+      {
+        "name": "Social Media Marketing",
+        "description": "Learn how to create and manage effective social media marketing campaigns."
+      },
+      {
+        "name": "Content Marketing",
+        "description": "Learn how to plan, create, distribute, and measure valuable content for digital audiences."
+      },
+      {
+        "name": "Google Ads Fundamentals",
+        "description": "Learn the fundamentals of paid advertising and campaign management using Google Ads."
+      },
+      {
+        "name": "Email Marketing",
+        "description": "Learn how to create effective email campaigns, manage audiences, and measure email marketing performance."
+      },
+      {
+        "name": "E-Commerce Fundamentals",
+        "description": "Learn the fundamentals of e-commerce business models, platforms, operations, and online selling."
+      },
+      {
+        "name": "Digital Marketing Analytics",
+        "description": "Learn how to analyze digital marketing data and measure campaign performance."
+      },
+      {
+        "name": "Brand Marketing",
+        "description": "Learn fundamental strategies for building, positioning, and promoting strong brands."
+      }
+    ]
+  },
+  {
+    "name": "Business, Management & Leadership",
+    "pricing": {
+      "originalPrice": 799,
+      "sellingPrice": 399
+    },
+    "courses": [
+      {
+        "name": "Business Management Fundamentals",
+        "description": "Learn the fundamentals of business management, planning, decision-making, and organizational operations."
+      },
+      {
+        "name": "Project Management Fundamentals",
+        "description": "Learn project management concepts including planning, execution, monitoring, and project delivery."
+      },
+      {
+        "name": "Agile Project Management",
+        "description": "Learn Agile principles, Scrum practices, iterative development, and Agile project management."
+      },
+      {
+        "name": "Business Analysis Fundamentals",
+        "description": "Learn how business analysts identify requirements, analyze processes, and support business solutions."
+      },
+      {
+        "name": "Strategic Management",
+        "description": "Learn strategic planning, competitive analysis, decision-making, and business strategy."
+      },
+      {
+        "name": "Leadership Fundamentals",
+        "description": "Learn fundamental leadership principles, team management, motivation, and effective decision-making."
+      },
+      {
+        "name": "Operations Management",
+        "description": "Learn how organizations manage processes, resources, quality, and operational efficiency."
+      },
+      {
+        "name": "Business Communication",
+        "description": "Develop effective communication skills for professional and business environments."
+      },
+      {
+        "name": "Entrepreneurship Fundamentals",
+        "description": "Learn the fundamentals of entrepreneurship, business ideas, planning, innovation, and startup development."
+      }
+    ]
+  },
+  {
+    "name": "Human Resources & Professional Skills",
+    "pricing": {
+      "originalPrice": 699,
+      "sellingPrice": 349
+    },
+    "courses": [
+      {
+        "name": "Human Resource Management",
+        "description": "Learn the fundamentals of HR management, employee lifecycle, policies, and organizational practices."
+      },
+      {
+        "name": "Talent Acquisition Fundamentals",
+        "description": "Learn recruitment and talent acquisition processes including sourcing, screening, interviewing, and hiring."
+      },
+      {
+        "name": "Performance Management",
+        "description": "Learn how organizations manage employee performance, feedback, goals, and development."
+      },
+      {
+        "name": "Learning & Development",
+        "description": "Learn how organizations design and manage employee learning and professional development programs."
+      },
+      {
+        "name": "Payroll Fundamentals",
+        "description": "Learn the fundamentals of payroll processing, compensation, deductions, and employee payment management."
+      },
+      {
+        "name": "Employee Relations",
+        "description": "Learn fundamental practices for maintaining positive employee relationships and resolving workplace issues."
+      },
+      {
+        "name": "Professional Communication",
+        "description": "Develop professional communication skills for workplace conversations, emails, presentations, and collaboration."
+      },
+      {
+        "name": "Time Management & Productivity",
+        "description": "Learn practical techniques for managing time, priorities, tasks, and personal productivity."
+      },
+      {
+        "name": "Critical Thinking & Problem Solving",
+        "description": "Develop critical thinking and structured problem-solving skills for professional and everyday situations."
+      }
+    ]
+  },
+  {
+    "name": "UI/UX & Graphic Design",
+    "pricing": {
+      "originalPrice": 799,
+      "sellingPrice": 399
+    },
+    "courses": [
+      {
+        "name": "UI/UX Fundamentals",
+        "description": "Learn the fundamentals of user interface and user experience design."
+      },
+      {
+        "name": "Figma Fundamentals",
+        "description": "Learn the fundamentals of Figma for designing interfaces, components, prototypes, and collaborative design projects."
+      },
+      {
+        "name": "User Research Fundamentals",
+        "description": "Learn user research methods for understanding user needs, behaviors, problems, and expectations."
+      },
+      {
+        "name": "Wireframing & Prototyping",
+        "description": "Learn how to create wireframes and interactive prototypes for digital products."
+      },
+      {
+        "name": "UX Design Fundamentals",
+        "description": "Learn UX design principles, processes, usability, information architecture, and user-centered design."
+      },
+      {
+        "name": "Graphic Design Fundamentals",
+        "description": "Learn fundamental graphic design principles including composition, typography, color, and visual hierarchy."
+      },
+      {
+        "name": "Branding & Visual Identity",
+        "description": "Learn how to develop strong brand identities using visual systems, typography, colors, and design principles."
+      },
+      {
+        "name": "Design Thinking",
+        "description": "Learn the Design Thinking process for understanding users and developing innovative solutions."
+      },
+      {
+        "name": "Canva Design Fundamentals",
+        "description": "Learn how to create professional graphics, presentations, social media content, and marketing materials using Canva."
+      }
+    ]
+  },
+  {
+    "name": "Emerging Technologies",
+    "pricing": {
+      "originalPrice": 999,
+      "sellingPrice": 599
+    },
+    "courses": [
+      {
+        "name": "Internet of Things Fundamentals",
+        "description": "Learn the fundamentals of IoT, connected devices, sensors, communication, and IoT applications."
+      },
+      {
+        "name": "Blockchain Fundamentals",
+        "description": "Understand blockchain concepts including distributed ledgers, blocks, consensus, and decentralized applications."
+      },
+      {
+        "name": "Robotics Fundamentals",
+        "description": "Learn the fundamentals of robotics including sensors, actuators, control systems, and robotic applications."
+      },
+      {
+        "name": "Internet of Things Security",
+        "description": "Learn security principles and practices for protecting IoT devices, networks, and connected systems."
+      },
+      {
+        "name": "Augmented & Virtual Reality",
+        "description": "Learn the fundamentals of AR and VR technologies, applications, and immersive experiences."
+      },
+      {
+        "name": "RPA Fundamentals",
+        "description": "Learn the fundamentals of Robotic Process Automation and how software bots automate repetitive tasks."
+      },
+      {
+        "name": "Semiconductor Fundamentals",
+        "description": "Learn fundamental semiconductor concepts, components, manufacturing, and applications."
+      },
+      {
+        "name": "Embedded Systems Fundamentals",
+        "description": "Learn the fundamentals of embedded systems, microcontrollers, hardware interfaces, and embedded programming."
+      },
+      {
+        "name": "Electric Vehicle Fundamentals",
+        "description": "Learn the fundamentals of electric vehicles, batteries, motors, charging systems, and EV technologies."
+      }
+    ]
+  },
+  {
+    "name": "IT Support, Networking & Infrastructure",
+    "pricing": {
+      "originalPrice": 699,
+      "sellingPrice": 349
+    },
+    "courses": [
+      {
+        "name": "IT Support Fundamentals",
+        "description": "Learn fundamental IT support concepts including troubleshooting, hardware, software, and user assistance."
+      },
+      {
+        "name": "Computer Fundamentals",
+        "description": "Learn fundamental computer concepts including hardware, software, operating systems, and basic troubleshooting."
+      },
+      {
+        "name": "Networking Fundamentals",
+        "description": "Learn fundamental networking concepts including protocols, devices, IP addressing, and network communication."
+      },
+      {
+        "name": "Windows Administration Fundamentals",
+        "description": "Learn the fundamentals of Windows system administration, configuration, users, permissions, and troubleshooting."
+      },
+      {
+        "name": "Linux Fundamentals",
+        "description": "Learn Linux fundamentals including commands, file systems, permissions, processes, and basic administration."
+      },
+      {
+        "name": "System Administration Fundamentals",
+        "description": "Learn the fundamentals of managing operating systems, servers, users, resources, and IT infrastructure."
+      },
+      {
+        "name": "Network Administration",
+        "description": "Learn how to configure, manage, monitor, and troubleshoot computer networks."
+      },
+      {
+        "name": "Technical Support Specialist",
+        "description": "Develop practical skills for diagnosing technical problems and providing effective IT support."
+      },
+      {
+        "name": "IT Infrastructure Fundamentals",
+        "description": "Learn the fundamentals of IT infrastructure including servers, networks, storage, systems, and enterprise technologies."
+      }
+    ]
+  }
+]
