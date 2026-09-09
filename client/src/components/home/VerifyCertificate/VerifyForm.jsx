@@ -7,13 +7,11 @@ import {
   X,
   Copy,
   Check,
-  Calendar,
-  Award,
-  ExternalLink,
-  Sparkles,
+  Download,
 } from "lucide-react";
 import api from "../../../services/api";
 import toast from "react-hot-toast";
+import { downloadCertificate } from "../../../utils/downloadCertificate";
 
 const VerifyForm = () => {
   const [certificateId, setCertificateId] = useState("");
@@ -26,6 +24,7 @@ const VerifyForm = () => {
     if (e) e.preventDefault();
 
     const cleanId = certificateId.trim();
+
     if (!cleanId) {
       setError("Please enter a valid Certificate ID.");
       toast.error("Please enter a Certificate ID");
@@ -50,10 +49,12 @@ const VerifyForm = () => {
       }
     } catch (err) {
       console.error("Verification error:", err);
+
       const errMsg =
         err.response?.data?.message ||
         err.message ||
         "No matching certificate found.";
+
       setError(errMsg);
       setVerifiedCert(null);
       toast.error(errMsg);
@@ -64,10 +65,38 @@ const VerifyForm = () => {
 
   const handleCopy = (id) => {
     if (!id) return;
+
     navigator.clipboard.writeText(id);
     setCopied(true);
+
     toast.success("Certificate ID copied to clipboard!");
+
     setTimeout(() => setCopied(false), 2000);
+  };
+
+  // Download verified certificate
+  const handleDownload = async () => {
+    if (!verifiedCert) return;
+
+    try {
+      await downloadCertificate(
+        {
+          studentName: verifiedCert.studentName,
+          programName: verifiedCert.courseName,
+          certificateId: verifiedCert.certificateId,
+          score: verifiedCert.score,
+          totalQuestions: verifiedCert.totalQuestions,
+          issueDate: verifiedCert.issueDate,
+          corsoId: verifiedCert.corsoId,
+          documentIdentifier: verifiedCert.documentIdentifier,
+          ...verifiedCert,
+        },
+        null
+      );
+    } catch (error) {
+      console.error("Certificate download error:", error);
+      toast.error("Failed to download certificate.");
+    }
   };
 
   return (
@@ -87,6 +116,7 @@ const VerifyForm = () => {
             placeholder="Enter Certificate ID (e.g. CRSO-2026-XXXX)"
             className="h-14 sm:h-16 w-full rounded-2xl border border-white/10 bg-[#0F1323] px-5 sm:px-6 text-sm sm:text-base text-white placeholder:text-gray-500 outline-none transition focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400/50"
           />
+
           {certificateId && (
             <button
               type="button"
@@ -150,7 +180,10 @@ const VerifyForm = () => {
             <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
               Certificate Verified
             </h3>
+
             <p className="mt-1 text-xs sm:text-sm text-gray-400">
+              This credential has been authenticated against the Corso
+              registry.
               This credential has been authenticated against the Skilium registry.
             </p>
 
@@ -159,6 +192,7 @@ const VerifyForm = () => {
               {/* Recipient */}
               <div className="flex items-center justify-between border-b border-white/5 pb-3">
                 <span className="text-gray-400">Recipient Name</span>
+
                 <span className="font-bold text-white text-sm sm:text-base">
                   {verifiedCert.studentName}
                 </span>
@@ -167,6 +201,7 @@ const VerifyForm = () => {
               {/* Course */}
               <div className="flex items-center justify-between border-b border-white/5 pb-3">
                 <span className="text-gray-400">Course / Program</span>
+
                 <span className="font-semibold text-cyan-300">
                   {verifiedCert.courseName}
                 </span>
@@ -175,6 +210,7 @@ const VerifyForm = () => {
               {/* Score / Grade */}
               <div className="flex items-center justify-between border-b border-white/5 pb-3">
                 <span className="text-gray-400">Assessment Score</span>
+
                 <span className="font-bold text-emerald-400">
                   {verifiedCert.score} / {verifiedCert.totalQuestions} (Passed)
                 </span>
@@ -183,13 +219,17 @@ const VerifyForm = () => {
               {/* Certificate ID */}
               <div className="flex items-center justify-between border-b border-white/5 pb-3">
                 <span className="text-gray-400">Certificate ID</span>
+
                 <div className="flex items-center gap-2">
                   <span className="font-mono font-bold text-white text-xs">
                     {verifiedCert.certificateId}
                   </span>
+
                   <button
                     type="button"
-                    onClick={() => handleCopy(verifiedCert.certificateId)}
+                    onClick={() =>
+                      handleCopy(verifiedCert.certificateId)
+                    }
                     title="Copy Certificate ID"
                     className="flex h-6 w-6 items-center justify-center rounded-md border border-white/10 bg-white/5 text-gray-400 hover:text-white transition cursor-pointer"
                   >
@@ -205,6 +245,7 @@ const VerifyForm = () => {
               {/* Issue Date */}
               <div className="flex items-center justify-between">
                 <span className="text-gray-400">Issue Date</span>
+
                 <span className="text-gray-200">
                   {new Date(verifiedCert.issueDate).toLocaleDateString(
                     undefined,
@@ -222,10 +263,11 @@ const VerifyForm = () => {
             <div className="mt-6 flex gap-3">
               <button
                 type="button"
-                onClick={() => setVerifiedCert(null)}
-                className="w-full rounded-xl bg-white/10 hover:bg-white/15 py-3 text-sm font-semibold text-white transition cursor-pointer"
+                onClick={handleDownload}
+                className="flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-400 py-3 text-sm font-semibold text-black transition hover:scale-[1.02] cursor-pointer shadow-lg shadow-cyan-500/20"
               >
-                Close
+                <Download size={17} />
+                Download Certificate
               </button>
             </div>
           </div>

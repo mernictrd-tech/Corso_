@@ -186,7 +186,7 @@ const AddProgramModal = ({ close, onSuccess }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
       <div
-        className="w-full max-w-4xl rounded-3xl bg-white shadow-2xl"
+        className="flex max-h-[90vh] w-full max-w-4xl flex-col rounded-3xl bg-white shadow-2xl"
         style={{ color: "#1e293b" }}
       >
         {/* Header */}
@@ -210,7 +210,7 @@ const AddProgramModal = ({ close, onSuccess }) => {
 
         {/* Body */}
 
-        <div className="grid gap-6 p-6 lg:grid-cols-3">
+        <div className="min-h-0 flex-1 overflow-y-auto grid gap-6 p-6 lg:grid-cols-3">
           {/* Left */}
 
           <div className="space-y-5 lg:col-span-2">
