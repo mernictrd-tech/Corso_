@@ -347,12 +347,29 @@ const getAssessmentQuestions = async (req, res) => {
       }
     }
 
-    const questions = await Question.find({
-      program: programId,
-      isActive: true,
-    })
-      .select("_id question options marks")
-      .sort({ createdAt: 1 });
+    const questionLimit = program.numberOfQuestions || 10;
+
+    const questions = await Question.aggregate([
+      {
+        $match: {
+          program: new mongoose.Types.ObjectId(programId),
+          isActive: true,
+        },
+      },
+      {
+        $sample: {
+          size: questionLimit,
+        },
+      },
+      {
+        $project: {
+          _id: 1,
+          question: 1,
+          options: 1,
+          marks: 1,
+        },
+      },
+    ]);
 
     return res.status(200).json({
       success: true,
@@ -504,5 +521,5 @@ module.exports = {
   startAssessment,
   saveAssessmentAnswers,
   getAssessmentSession,
-  completeAssessment
+  completeAssessment,
 };
