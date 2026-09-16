@@ -279,8 +279,9 @@ const ResultCard = ({ result, program, courseId }) => {
   // ---------------------------------------------------------
   // Retake
   // ---------------------------------------------------------
+
   const handleRetake = () => {
-    navigate(`/assessment/${courseId}`);
+    navigate(`/course/${program.slug}`);
     window.location.reload();
   };
 

@@ -20,10 +20,10 @@ const {
 */
 
 // Get questions for selected program
-router.get("/:programId/questions", getAssessmentQuestions);
+router.get("/:programId/questions/:sessionId", getAssessmentQuestions);
 
 // Submit assessment
-router.post("/:programId/submit", submitAssessment);
+// router.post("/:programId/submit", submitAssessment);
 
 router.post("/:programId/start", startAssessment);
 

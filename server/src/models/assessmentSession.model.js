@@ -16,6 +16,12 @@ const assessmentSessionSchema = new mongoose.Schema(
       index: true,
     },
 
+    questionIds: {
+      type: [mongoose.Schema.Types.ObjectId],
+      ref: "Question",
+      required: true,
+    },
+
     answers: {
       type: mongoose.Schema.Types.Mixed,
       default: {},
@@ -44,10 +50,7 @@ const assessmentSessionSchema = new mongoose.Schema(
   },
   {
     timestamps: true,
-  }
+  },
 );
 
-module.exports = mongoose.model(
-  "AssessmentSession",
-  assessmentSessionSchema
-);
+module.exports = mongoose.model("AssessmentSession", assessmentSessionSchema);

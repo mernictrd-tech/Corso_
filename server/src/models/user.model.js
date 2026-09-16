@@ -10,10 +10,20 @@ const userSchema = new mongoose.Schema(
       required: true,
     },
 
+    tid: {
+      type: String,
+      unique: true,
+      index: true,
+      trim: true,
+    },
+
     email: {
       type: String,
       required: true,
       unique: true,
+      index: true,
+      lowercase: true,
+      trim: true,
     },
 
     password: {
@@ -75,7 +85,7 @@ const userSchema = new mongoose.Schema(
   },
   {
     timestamps: true,
-  }
+  },
 );
 
 // // Hash password before saving
@@ -89,7 +99,7 @@ const userSchema = new mongoose.Schema(
 // Compare entered password with hashed password
 userSchema.methods.comparePassword = async function (password) {
   // return await bcrypt.compare(password, this.password);
-  return (password == this.password);
+  return password == this.password;
 };
 
 module.exports = mongoose.model("User", userSchema);

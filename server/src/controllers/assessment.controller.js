@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const crypto = require("crypto");
 
 const Assessment = require("../models/assessment.model");
 const Question = require("../models/question.model");
@@ -12,39 +13,120 @@ const startAssessment = async (req, res) => {
   try {
     const { programId } = req.params;
 
-    const program = await Program.findById(programId);
+    if (!mongoose.Types.ObjectId.isValid(programId)) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid program ID.",
+      });
+    }
+
+    /*
+     * Find active program
+     */
+    const program = await Program.findOne({
+      _id: programId,
+      isActive: true,
+      isDeleted: false,
+    });
 
     if (!program) {
       return res.status(404).json({
         success: false,
-        message: "Program not found",
+        message: "Program not found.",
       });
     }
 
-    const durationInMinutes = Number(program.examDuration) || 10;
+    /*
+     * Check how many questions are required
+     */
+    const requiredQuestions = Number(program.totalQuestions);
 
+    if (!requiredQuestions || requiredQuestions < 1) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid number of questions configured for this program.",
+      });
+    }
+
+    /*
+     * Get random questions from question bank
+     */
+    const questions = await Question.aggregate([
+      {
+        $match: {
+          program: new mongoose.Types.ObjectId(programId),
+          isActive: true,
+        },
+      },
+      {
+        $sample: {
+          size: requiredQuestions,
+        },
+      },
+      {
+        $project: {
+          _id: 1,
+        },
+      },
+    ]);
+
+    /*
+     * Make sure enough questions exist
+     */
+    if (questions.length < requiredQuestions) {
+      return res.status(400).json({
+        success: false,
+        message: `Not enough active questions available. Required: ${requiredQuestions}, Available: ${questions.length}`,
+      });
+    }
+
+    /*
+     * Store only question IDs in the session
+     */
+    const questionIds = questions.map((question) => question._id);
+
+    /*
+     * Create unique session ID
+     */
     const sessionId = crypto.randomUUID();
 
+    /*
+     * Assessment timing
+     */
     const startedAt = new Date();
 
     const expiresAt = new Date(
-      startedAt.getTime() + durationInMinutes * 60 * 1000,
+      startedAt.getTime() + program.examDuration * 60 * 1000,
     );
 
+    /*
+     * Create assessment session
+     */
     const session = await AssessmentSession.create({
       sessionId,
       program: program._id,
+      questionIds,
+      answers: {},
       startedAt,
       expiresAt,
-      answers: {},
+      completed: false,
     });
 
+    /*
+     * Return session information
+     */
     return res.status(201).json({
       success: true,
-      message: "Assessment started",
+      message: "Assessment started successfully.",
       data: {
         sessionId: session.sessionId,
-        programId: session.program,
+        program: {
+          id: program._id,
+          name: program.name,
+          totalQuestions: program.totalQuestions,
+          passingQuestions: program.passingQuestions,
+          examDuration: program.examDuration,
+        },
         startedAt: session.startedAt,
         expiresAt: session.expiresAt,
       },
@@ -54,14 +136,14 @@ const startAssessment = async (req, res) => {
 
     return res.status(500).json({
       success: false,
-      message: "Failed to start assessment",
+      message: "Failed to start assessment.",
     });
   }
 };
 
 const saveAssessmentAnswers = async (req, res) => {
   try {
-    const { sessionId } = req.params;
+    const { sessionId, forceSubmit } = req.params;
     const { answers } = req.body;
 
     if (!answers || typeof answers !== "object") {
@@ -86,7 +168,7 @@ const saveAssessmentAnswers = async (req, res) => {
     /*
      * Server-side timer validation
      */
-    if (new Date() > session.expiresAt) {
+    if (new Date() > session.expiresAt && forceSubmit) {
       return res.status(400).json({
         success: false,
         message: "Assessment time has expired",
@@ -158,7 +240,7 @@ const getAssessmentSession = async (req, res) => {
 
 const completeAssessment = async (req, res) => {
   try {
-    const { sessionId } = req.body;
+    const { sessionId, forceSubmit } = req.body;
 
     /*
      * Validate user information
@@ -190,8 +272,11 @@ const completeAssessment = async (req, res) => {
     /*
      * Check server-side expiry
      */
+    console.log("complete");
 
-    if (new Date() > session.expiresAt) {
+    console.log(sessionId);
+
+    if (new Date() > session.expiresAt && !forceSubmit) {
       return res.status(400).json({
         success: false,
         message: "Assessment time has expired",
@@ -203,7 +288,8 @@ const completeAssessment = async (req, res) => {
      */
 
     const questions = await Question.find({
-      program: session.program,
+      _id: { $in: session.questionIds },
+      isActive: true,
     });
 
     /*
@@ -227,16 +313,22 @@ const completeAssessment = async (req, res) => {
       }
     });
 
+    console.log(questions);
+    console.table(answers);
+
     const totalQuestions = questions.length;
 
-    const percentage = totalQuestions > 0 ? (score / totalQuestions) * 100 : 0;
+    const percentage =
+      totalQuestions > 0
+        ? Number(((score / totalQuestions) * 100).toFixed(2))
+        : 0;
 
     /*
      * Change this according to your
      * actual passing percentage.
      */
 
-    const passed = percentage >= 50;
+    const passed = percentage >= PASSING_PERCENTAGE;
 
     /*
      * Create final Assessment
@@ -295,7 +387,7 @@ const completeAssessment = async (req, res) => {
 
 const getAssessmentQuestions = async (req, res) => {
   try {
-    const { programId } = req.params;
+    const { programId, sessionId } = req.params;
     const studentId = req.user?._id;
 
     if (!mongoose.Types.ObjectId.isValid(programId)) {
@@ -347,29 +439,15 @@ const getAssessmentQuestions = async (req, res) => {
       }
     }
 
-    const questionLimit = program.numberOfQuestions || 10;
+    const session = await AssessmentSession.findOne({
+      sessionId,
+      completed: false,
+    });
 
-    const questions = await Question.aggregate([
-      {
-        $match: {
-          program: new mongoose.Types.ObjectId(programId),
-          isActive: true,
-        },
-      },
-      {
-        $sample: {
-          size: questionLimit,
-        },
-      },
-      {
-        $project: {
-          _id: 1,
-          question: 1,
-          options: 1,
-          marks: 1,
-        },
-      },
-    ]);
+    const questions = await Question.find({
+      _id: { $in: session.questionIds },
+      isActive: true,
+    });
 
     return res.status(200).json({
       success: true,
@@ -429,8 +507,13 @@ const submitAssessment = async (req, res) => {
       });
     }
 
+    const session = await AssessmentSession.findOne({
+      sessionId,
+      completed: false,
+    });
+
     const questions = await Question.find({
-      program: programId,
+      _id: { $in: session.questionIds },
       isActive: true,
     }).select("_id correctAnswer marks");
 

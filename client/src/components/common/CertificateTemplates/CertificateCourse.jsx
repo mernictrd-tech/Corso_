@@ -14,11 +14,14 @@ import {
 } from "lucide-react";
 import toast from "react-hot-toast";
 import certificateTemplate from "../../../assets/images/certificate.png";
+import { QRCodeSVG } from "qrcode.react";
+import { toPng } from "html-to-image";
 
 const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
   const [copied, setCopied] = useState(false);
   const [downloading, setDownloading] = useState(false);
   const modalRef = useRef(null);
+  const certificateRef = useRef(null);
 
   // Extract certificate fields with robust fallbacks
   const studentName =
@@ -26,6 +29,8 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
     userProfile?.fullName ||
     certificate?.name ||
     "Donna Stroupe";
+
+  const tid = certificate?.tid || certificate?.user?.tid || "TID";
 
   const programName =
     certificate?.program?.name ||
@@ -35,9 +40,7 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
     "React.js";
 
   const certificateId =
-    certificate?.certificateId ||
-    certificate?.id ||
-    "CRS-2026-001";
+    certificate?.certificateId || certificate?.id || "CRS-2026-001";
 
   const skiliumId =
     certificate?.skiliumId ||
@@ -45,12 +48,13 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
 
   const documentIdentifier =
     certificate?.documentIdentifier ||
-    `DOC-${String(certificate?._id || certificateId).slice(-8).toUpperCase() || "9842104"}`;
+    `DOC-${
+      String(certificate?._id || certificateId)
+        .slice(-8)
+        .toUpperCase() || "9842104"
+    }`;
 
-  const score =
-    certificate?.score ??
-    certificate?.assessment?.score ??
-    92;
+  const score = certificate?.score ?? certificate?.assessment?.score ?? 92;
 
   const totalQuestions = certificate?.assessment?.totalQuestions ?? 10;
 
@@ -113,66 +117,31 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
   };
 
   // High-Resolution PNG Download using HTML5 Canvas
-  const handleDownload = () => {
+  const handleDownload = async () => {
+    if (downloading || !certificateRef.current) return;
+
     try {
       setDownloading(true);
-      const canvas = document.createElement("canvas");
-      const ctx = canvas.getContext("2d");
-      const img = new Image();
-      img.crossOrigin = "anonymous";
-      img.src = certificateTemplate;
 
-      img.onload = () => {
-        const w = img.naturalWidth || 2000;
-        const h = img.naturalHeight || 1414;
-        canvas.width = w;
-        canvas.height = h;
+      const dataUrl = await toPng(certificateRef.current, {
+        pixelRatio: 3,
+        cacheBust: true,
+        backgroundColor: "#070b1a",
+      });
 
-        ctx.drawImage(img, 0, 0, w, h);
+      const safeName = String(programName).replace(/[^a-zA-Z0-9]/g, "_");
 
-        ctx.fillStyle = "#00f0ff";
-        ctx.font = `600 ${Math.round(h * 0.054)}px "Playfair Display", "Times New Roman", Georgia, serif`;
-        ctx.textAlign = "center";
-        ctx.textBaseline = "middle";
-        ctx.shadowColor = "rgba(0, 240, 255, 0.4)";
-        ctx.shadowBlur = 12;
-        ctx.fillText(studentName, w * 0.5, h * 0.456);
+      const link = document.createElement("a");
 
-        ctx.shadowColor = "transparent";
-        ctx.shadowBlur = 0;
+      link.download = `Skilium_Certificate_${safeName}_${certificateId}.png`;
+      link.href = dataUrl;
+      link.click();
 
-        ctx.fillStyle = "#FFFFFF";
-        ctx.font = `bold ${Math.round(h * 0.044)}px "Playfair Display", "Times New Roman", Georgia, serif`;
-        ctx.textAlign = "center";
-        ctx.textBaseline = "middle";
-        ctx.letterSpacing = "2px";
-        ctx.fillText(String(programName).toUpperCase(), w * 0.5, h * 0.648);
-
-        ctx.fillStyle = "#cbd5e1";
-        ctx.font = `600 ${Math.round(h * 0.018)}px "Inter", "Segoe UI", sans-serif`;
-        ctx.textAlign = "left";
-        ctx.textBaseline = "middle";
-        ctx.fillText(skiliumId, w * 0.23, h * 0.862);
-        ctx.fillText(documentIdentifier, w * 0.29, h * 0.902);
-        ctx.fillText(formattedDate, w * 0.77, h * 0.885);
-
-        const safeName = String(programName).replace(/[^a-zA-Z0-9]/g, "_");
-        const link = document.createElement("a");
-        link.download = `Skilium_Certificate_${safeName}_${certificateId}.png`;
-        link.href = canvas.toDataURL("image/png");
-        link.click();
-
-        toast.success("Certificate downloaded successfully!");
-        setDownloading(false);
-      };
-
-      img.onerror = () => {
-        toast.error("Failed to load certificate template.");
-        setDownloading(false);
-      };
-    } catch (err) {
-      console.error("Download error:", err);
-      toast.error("An error occurred during download.");
+      toast.success("Certificate downloaded successfully!");
+    } catch (error) {
+      console.error("Certificate download error:", error);
+      toast.error("Failed to download certificate.");
+    } finally {
       setDownloading(false);
     }
   };
@@ -190,7 +159,6 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
       >
         {/* ── Top Header Bar ─────────────────────────────── */}
         <div className="no-print mb-4 border-b border-white/10 pb-4">
-
           {/* Row 1: Icon + Title + Close button */}
           <div className="flex items-center justify-between gap-3">
             <div className="flex items-center gap-2.5 min-w-0">
@@ -231,19 +199,23 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
               title="Copy Certificate ID"
               className="flex h-8 sm:h-9 items-center gap-1.5 rounded-xl border border-white/10 bg-white/5 px-2.5 sm:px-3 text-xs font-medium text-gray-300 transition hover:border-cyan-400 hover:text-cyan-300 hover:bg-white/10"
             >
-              {copied ? <Check size={13} className="text-emerald-400" /> : <Copy size={13} />}
+              {copied ? (
+                <Check size={13} className="text-emerald-400" />
+              ) : (
+                <Copy size={13} />
+              )}
               <span>{copied ? "Copied!" : "Copy ID"}</span>
             </button>
 
             {/* Print / Save PDF */}
-            <button
+            {/* <button
               onClick={handlePrint}
               title="Print / Save PDF"
               className="flex h-8 sm:h-9 items-center gap-1.5 rounded-xl border border-white/10 bg-white/5 px-2.5 sm:px-3 text-xs font-medium text-gray-300 transition hover:border-cyan-400 hover:text-cyan-300 hover:bg-white/10"
             >
               <Printer size={13} />
               <span>Print / PDF</span>
-            </button>
+            </button> */}
 
             {/* Download PNG */}
             <button
@@ -259,7 +231,10 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
         </div>
 
         {/* ── Certificate Display Area ────────────────── */}
-        <div className="print-certificate-container relative w-full overflow-hidden rounded-xl sm:rounded-2xl border border-white/10 bg-[#070b1a] shadow-2xl">
+        <div
+          ref={certificateRef}
+          className="print-certificate-container relative w-full overflow-hidden rounded-xl sm:rounded-2xl border border-white/10 bg-[#070b1a] shadow-2xl"
+        >
           <div className="relative w-full aspect-[2000/1414] select-none">
             {/* Background Template */}
             <img
@@ -271,7 +246,7 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
             {/* 1. Student Name */}
             <div
               className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 text-center pointer-events-none w-[80%]"
-              style={{ top: "45.6%" }}
+              style={{ top: "49%" }}
             >
               <span className="font-serif font-bold text-cyan-300 tracking-wide drop-shadow-[0_0_15px_rgba(6,182,212,0.5)] text-[9px] sm:text-xl md:text-3xl lg:text-[34px] leading-tight block">
                 {studentName}
@@ -288,18 +263,38 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
               </span>
             </div>
 
-            {/* 3. Skilium ID */}
+            {/* QR Code */}
+            <div
+              className="absolute -translate-x-1/2 -translate-y-1/2"
+              style={{
+                top: "85%",
+                left: "11%",
+              }}
+            >
+              <div className="bg-white p-1 rounded">
+                <QRCodeSVG
+                  value={`https://skilium.in/verify-certificate/${certificateId}`}
+                  className="w-8 h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20"
+                  bgColor="#ffffff"
+                  fgColor="#000000"
+                  level="H"
+                  includeMargin={false}
+                />
+              </div>
+            </div>
+
+            {/* 3. TID ID */}
             <div
               className="absolute font-mono text-[4px] sm:text-[10px] md:text-xs lg:text-[13px] font-semibold text-slate-300 -translate-y-1/2 pointer-events-none"
-              style={{ top: "86.2%", left: "23.5%" }}
+              style={{ top: "84.2%", left: "28.5%" }}
             >
-              {skiliumId}
+              {tid}
             </div>
 
             {/* 4. Document Identifier */}
             <div
               className="absolute font-mono text-[4px] sm:text-[10px] md:text-xs lg:text-[13px] font-semibold text-slate-300 -translate-y-1/2 pointer-events-none"
-              style={{ top: "90.2%", left: "29.5%" }}
+              style={{ top: "87.5%", left: "38.5%" }}
             >
               {documentIdentifier}
             </div>
@@ -307,7 +302,7 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
             {/* 5. Achievement Date */}
             <div
               className="absolute font-sans text-[4px] sm:text-[10px] md:text-xs lg:text-[13px] font-semibold text-slate-300 -translate-y-1/2 pointer-events-none"
-              style={{ top: "88.5%", left: "77.5%" }}
+              style={{ top: "91%", left: "37.5%" }}
             >
               {formattedDate}
             </div>
@@ -319,31 +314,45 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
           <div className="flex items-center gap-2">
             <User size={14} className="text-cyan-400 shrink-0" />
             <div className="min-w-0">
-              <span className="text-gray-500 block text-[9px] uppercase">Learner</span>
-              <span className="font-medium text-white truncate block text-[10px] sm:text-xs">{studentName}</span>
+              <span className="text-gray-500 block text-[9px] uppercase">
+                Learner
+              </span>
+              <span className="font-medium text-white truncate block text-[10px] sm:text-xs">
+                {studentName}
+              </span>
             </div>
           </div>
 
           <div className="flex items-center gap-2">
             <FileText size={14} className="text-cyan-400 shrink-0" />
             <div className="min-w-0">
-              <span className="text-gray-500 block text-[9px] uppercase">Cert ID</span>
-              <span className="font-mono font-medium text-cyan-300 truncate block text-[10px] sm:text-xs">{certificateId}</span>
+              <span className="text-gray-500 block text-[9px] uppercase">
+                Cert ID
+              </span>
+              <span className="font-mono font-medium text-cyan-300 truncate block text-[10px] sm:text-xs">
+                {certificateId}
+              </span>
             </div>
           </div>
 
           <div className="flex items-center gap-2">
             <Calendar size={14} className="text-cyan-400 shrink-0" />
             <div>
-              <span className="text-gray-500 block text-[9px] uppercase">Issue Date</span>
-              <span className="font-medium text-white block text-[10px] sm:text-xs">{formattedDate}</span>
+              <span className="text-gray-500 block text-[9px] uppercase">
+                Issue Date
+              </span>
+              <span className="font-medium text-white block text-[10px] sm:text-xs">
+                {formattedDate}
+              </span>
             </div>
           </div>
 
           <div className="flex items-center gap-2">
             <Sparkles size={14} className="text-emerald-400 shrink-0" />
             <div>
-              <span className="text-gray-500 block text-[9px] uppercase">Score</span>
+              <span className="text-gray-500 block text-[9px] uppercase">
+                Score
+              </span>
               <span className="font-bold text-emerald-400 block text-[10px] sm:text-xs">
                 {score} / {totalQuestions} · Issued
               </span>

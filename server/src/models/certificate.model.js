@@ -9,6 +9,11 @@ const certificateSchema = new mongoose.Schema(
       index: true,
     },
 
+    tid: {
+      type: String,
+      index: true,
+    },
+
     // Name entered by student during certificate payment
     studentName: {
       type: String,
@@ -38,12 +43,6 @@ const certificateSchema = new mongoose.Schema(
       type: String,
       required: true,
       unique: true,
-      index: true,
-    },
-
-    skiliumId: {
-      type: String,
-      required: true,
       index: true,
     },
 

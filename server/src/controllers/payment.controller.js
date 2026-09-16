@@ -7,6 +7,7 @@ const Certificate = require("../models/certificate.model");
 const Assessment = require("../models/assessment.model");
 const Program = require("../models/program.model");
 const userModel = require("../models/user.model");
+const axios = require("axios");
 
 const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID,
@@ -266,14 +267,20 @@ const verifyPayment = async (req, res) => {
       email: payment.customerEmail,
     });
 
+    let shouldFetchTid = false;
+
     if (!student) {
       student = await userModel.create({
         fullName: payment.customerName,
         email: payment.customerEmail,
-        mobile: payment.customerMobile,
+        phone: payment.customerMobile,
         password: crypto.randomBytes(10).toString("hex"),
         termsAccepted: true,
       });
+
+      shouldFetchTid = true;
+    } else if (!student.tid) {
+      shouldFetchTid = true;
     }
 
     // ---------------------------------------------------------
@@ -335,10 +342,6 @@ const verifyPayment = async (req, res) => {
         `SKLM-${new Date().getFullYear()}-` +
         crypto.randomBytes(4).toString("hex").toUpperCase();
 
-      const skiliumId =
-        `SKILIUM-${new Date().getFullYear()}-` +
-        crypto.randomBytes(4).toString("hex").toUpperCase();
-
       const documentIdentifier =
         `DOC-${Date.now()}-` +
         crypto.randomBytes(3).toString("hex").toUpperCase();
@@ -356,8 +359,6 @@ const verifyPayment = async (req, res) => {
 
         certificateId,
 
-        skiliumId,
-
         documentIdentifier,
 
         score: assessment.score,
@@ -368,10 +369,72 @@ const verifyPayment = async (req, res) => {
       });
     }
 
+    const response = await axios.post(
+      process.env.TID_API_URL,
+      {
+        email: student.email,
+        name: student.fullName,
+        phone: student.phone,
+        parent_institute: "SKILIUM.IN",
+      },
+      {
+        timeout: 10000,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      },
+    );
+
+    console.log("TID API response:", response.data);
+
+    const tid = response.data?.TID;
+
+    if (!tid) {
+      console.error(`TID not received for ${email}`);
+      return;
+    }
+
+    await userModel.findByIdAndUpdate(
+      student._id,
+      {
+        $set: {
+          tid: tid,
+        },
+      },
+      {
+        new: true,
+      },
+    );
+
+    await Certificate.findByIdAndUpdate(
+      certificate._id,
+      {
+        $set: {
+          tid: tid,
+        },
+      },
+      {
+        new: true,
+      },
+    );
+
+    // let tid = "";
+    // if (shouldFetchTid) {
+    //   tid = await fetchAndUpdateTid(
+    //     student._id,
+    //     certificate._id,
+    //     student.email,
+    //     student.fullName,
+    //     student.phone,
+    //   ).catch((error) => {
+    //     console.error("Background TID update failed:", error);
+    //   });
+    // }
+
     // ---------------------------------------------------------
     // Success
     // ---------------------------------------------------------
-
+    // console.log(tid);
     return res.status(200).json({
       success: true,
 
@@ -389,13 +452,14 @@ const verifyPayment = async (req, res) => {
         certificate: {
           id: certificate._id,
           certificateId: certificate.certificateId,
-          skiliumId: certificate.skiliumId,
           documentIdentifier: certificate.documentIdentifier,
           studentName: certificate.studentName,
           programName: program.name,
           score: certificate.score,
           issueDate: certificate.issueDate,
           status: certificate.status,
+          tid: tid,
+          date: certificate.issueDate
         },
       },
     });
@@ -429,6 +493,68 @@ const getAllPayments = async (req, res) => {
       success: false,
       message: "Failed to fetch payments.",
     });
+  }
+};
+
+const fetchAndUpdateTid = async (studentId, certId, email, name, phone) => {
+  try {
+    const response = await axios.post(
+      process.env.TID_API_URL,
+      {
+        email: email,
+        name: name,
+        phone: phone,
+        parent_institute: "SKILIUM.IN",
+      },
+      {
+        timeout: 10000,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      },
+    );
+
+    console.log("TID API response:", response.data);
+
+    const tid = response.data?.TID;
+
+    if (!tid) {
+      console.error(`TID not received for ${email}`);
+      return;
+    }
+
+    await userModel.findByIdAndUpdate(
+      studentId,
+      {
+        $set: {
+          tid: tid,
+        },
+      },
+      {
+        new: true,
+      },
+    );
+
+    await Certificate.findByIdAndUpdate(
+      certId,
+      {
+        $set: {
+          tid: tid,
+        },
+      },
+      {
+        new: true,
+      },
+    );
+
+    console.log(`TID ${tid} saved for ${email}`);
+
+    return tid;
+  } catch (error) {
+    console.error(
+      `TID API error for ${email}:`,
+      error.response?.data || error.message,
+    );
   }
 };
 
