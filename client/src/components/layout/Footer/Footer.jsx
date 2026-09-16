@@ -1,6 +1,7 @@
 import { footerLinks } from "./footerData";
 import Container from "../../layout/Container";
 import { Mail, MapPin } from "lucide-react";
+import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -79,6 +80,26 @@ const Footer = () => {
               <Mail className="h-5 w-5" />
               info@skilium.com
             </a>
+
+            <div className="mt-5 flex gap-3">
+              <a
+                href="https://www.instagram.com/skiliumofficial/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="flex h-10 w-10 items-center justify-center rounded-lg border border-pink-500/30 bg-white/5 text-pink-400"              >
+                <FaInstagram className="h-5 w-5" />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/company/skilium-certifications/home/?viewAsMember=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="flex h-10 w-10 items-center justify-center rounded-lg border border-blue-500/30 bg-white/5 text-blue-400"              >
+                <FaLinkedinIn className="h-5 w-5" />
+              </a>
+            </div>
 
             <div className="mt-8 rounded-2xl border border-cyan-500/20 bg-cyan-500/5 p-5">
               <p className="text-sm leading-7 text-gray-300">
