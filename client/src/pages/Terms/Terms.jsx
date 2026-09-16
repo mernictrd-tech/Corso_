@@ -90,7 +90,7 @@ const Terms = () => {
               </h2>
               <p>
                 If you have any questions regarding this Privacy Policy, please
-                contact us at <strong>info@skilium.com</strong>.
+                contact us at <strong>info@skilium.in</strong>.
               </p>
             </div>
           </div>

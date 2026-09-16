@@ -357,7 +357,7 @@ const CertificateCard = ({
                 <span className="text-gray-400">Final Score</span>
                 <span className="inline-flex items-center gap-1 font-bold text-emerald-400">
                   <Sparkles size={14} />
-                  {score}% (Passed)
+                  {score * 10}% (Passed)
                 </span>
               </div>
 

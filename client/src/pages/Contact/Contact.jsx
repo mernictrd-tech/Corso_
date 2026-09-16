@@ -273,7 +273,7 @@ const Contact = () => {
                     <p className="text-sm text-gray-500">Email</p>
 
                     <p className="mt-1 text-gray-200">
-                      info@skilium.com
+                      info@skilium.in
                     </p>
                   </div>
                 </div>

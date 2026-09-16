@@ -9,6 +9,11 @@ const Program = require("../models/program.model");
 const userModel = require("../models/user.model");
 const axios = require("axios");
 
+const {
+  sendCertificateEmail,
+} = require("../services/certificateEmail.service");
+const { saveCertificatePNG } = require("../services/certificate.service");
+
 const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID,
   key_secret: process.env.RAZORPAY_KEY_SECRET,
@@ -401,9 +406,7 @@ const verifyPayment = async (req, res) => {
           tid: tid,
         },
       },
-      {
-        new: true,
-      },
+      { returnDocument: "after" },
     );
 
     await Certificate.findByIdAndUpdate(
@@ -413,9 +416,7 @@ const verifyPayment = async (req, res) => {
           tid: tid,
         },
       },
-      {
-        new: true,
-      },
+      { returnDocument: "after" },
     );
 
     // let tid = "";
@@ -434,6 +435,33 @@ const verifyPayment = async (req, res) => {
     // ---------------------------------------------------------
     // Success
     // ---------------------------------------------------------
+
+    const generatedCertificate = await saveCertificatePNG({
+      _id: certificate._id,
+      certificateId: certificate.certificateId,
+      studentName: student.fullName,
+      tid: student.tid,
+      programName: program.name,
+      issueDate: certificate.issueDate,
+      documentIdentifier: certificate.documentIdentifier,
+    });
+
+    void sendCertificateEmail({
+      email: student.email,
+      studentName: student.fullName,
+      programName: program.name,
+      tid: student.tid,
+      score: assessment.score * 10,
+      certificateId: certificate.certificateId,
+      certificateFilePath: generatedCertificate.filePath,
+    })
+      .then((result) => {
+        console.log("Certificate email sent:", result.messageId);
+      })
+      .catch((error) => {
+        console.error("Certificate email failed:", error);
+      });
+
     // console.log(tid);
     return res.status(200).json({
       success: true,
@@ -459,7 +487,7 @@ const verifyPayment = async (req, res) => {
           issueDate: certificate.issueDate,
           status: certificate.status,
           tid: tid,
-          date: certificate.issueDate
+          date: certificate.issueDate,
         },
       },
     });
@@ -530,9 +558,7 @@ const fetchAndUpdateTid = async (studentId, certId, email, name, phone) => {
           tid: tid,
         },
       },
-      {
-        new: true,
-      },
+      { returnDocument: "after" },
     );
 
     await Certificate.findByIdAndUpdate(
@@ -542,9 +568,7 @@ const fetchAndUpdateTid = async (studentId, certId, email, name, phone) => {
           tid: tid,
         },
       },
-      {
-        new: true,
-      },
+      { returnDocument: "after" },
     );
 
     console.log(`TID ${tid} saved for ${email}`);

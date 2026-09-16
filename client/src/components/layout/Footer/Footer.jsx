@@ -74,11 +74,11 @@ const Footer = () => {
             </h3>
 
             <a
-              href="mailto:info@skilium.com"
+              href="mailto:info@skilium.in"
               className="flex items-center gap-3 text-gray-400 transition hover:text-cyan-400"
             >
               <Mail className="h-5 w-5" />
-              info@skilium.com
+              info@skilium.in
             </a>
 
             <div className="mt-5 flex gap-3">
