@@ -1,0 +1,3792 @@
+[
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What is cloud computing?",
+    "options": [
+      "A method of storing files only on local computers",
+      "The delivery of computing services over the internet",
+      "A programming language for web applications",
+      "A type of computer hardware"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "Which of the following is a major benefit of cloud computing?",
+    "options": [
+      "On-demand access to computing resources",
+      "Mandatory physical server ownership",
+      "Fixed hardware capacity",
+      "No remote access"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "Which cloud service model provides virtual machines, storage, and networking?",
+    "options": [
+      "SaaS",
+      "PaaS",
+      "IaaS",
+      "DaaS"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What does SaaS stand for?",
+    "options": [
+      "Storage as a Service",
+      "Software as a Service",
+      "Security as a System",
+      "Server as a Software"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "Which service model provides a platform for developing and deploying applications?",
+    "options": [
+      "PaaS",
+      "IaaS",
+      "SaaS",
+      "DaaS"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What is a public cloud?",
+    "options": [
+      "A cloud used by only one organization",
+      "A cloud hosted on a personal computer",
+      "A cloud environment offered to multiple customers",
+      "A cloud without internet connectivity"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What is a private cloud?",
+    "options": [
+      "A cloud environment dedicated to a single organization",
+      "A free public website",
+      "A cloud used only for gaming",
+      "A cloud without virtual machines"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What is a hybrid cloud?",
+    "options": [
+      "A cloud containing only storage services",
+      "A cloud without networking",
+      "A cloud used only for development",
+      "A combination of public and private cloud environments"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "Which concept allows resources to automatically increase or decrease based on demand?",
+    "options": [
+      "Elasticity",
+      "Encryption",
+      "Authentication",
+      "Virtualization"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What is virtualization?",
+    "options": [
+      "Encrypting a database",
+      "Creating virtual versions of computing resources",
+      "Connecting computers using Bluetooth",
+      "Removing software from a server"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What manages virtual machines on a physical host?",
+    "options": [
+      "Compiler",
+      "Browser",
+      "Hypervisor",
+      "Firewall"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What does scalability mean in cloud computing?",
+    "options": [
+      "The ability to adjust resources according to workload requirements",
+      "Deleting all cloud resources",
+      "Encrypting passwords",
+      "Using only one server"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "Which pricing approach helps reduce large upfront infrastructure costs?",
+    "options": [
+      "Fixed annual hardware purchase",
+      "Manual billing",
+      "Pay-as-you-go pricing",
+      "Offline billing"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What is a cloud region?",
+    "options": [
+      "A type of virtual machine",
+      "A geographic area containing cloud infrastructure",
+      "A user account",
+      "A software license"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What is an availability zone?",
+    "options": [
+      "A programming language",
+      "A database engine",
+      "An isolated infrastructure location within a cloud region",
+      "A user account"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "Which storage type is commonly used for storing objects such as images and videos?",
+    "options": [
+      "Object storage",
+      "CPU storage",
+      "Register storage",
+      "Cache storage"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What is cloud migration?",
+    "options": [
+      "Installing software on a laptop",
+      "Moving workloads, applications, or data to the cloud",
+      "Creating a local printer",
+      "Removing network connectivity"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What is fault tolerance?",
+    "options": [
+      "The ability to continue operating despite certain failures",
+      "Deleting failed servers",
+      "Compressing files",
+      "Writing source code"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "Which concept focuses on keeping applications available with minimal downtime?",
+    "options": [
+      "Data compression",
+      "Source control",
+      "Code formatting",
+      "High availability"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What is serverless computing?",
+    "options": [
+      "Running applications without any servers existing",
+      "Using only physical servers",
+      "A model where the provider manages servers while developers focus on application code",
+      "Running applications without databases"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "Which model gives customers the most control over operating systems and virtual infrastructure?",
+    "options": [
+      "IaaS",
+      "SaaS",
+      "PaaS",
+      "FaaS"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What is a cloud workload?",
+    "options": [
+      "A physical keyboard",
+      "A network cable",
+      "A database password",
+      "An application, service, or task running in a cloud environment"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "Which technique protects cloud data by converting it into an unreadable form for unauthorized users?",
+    "options": [
+      "Encryption",
+      "Compression",
+      "Virtualization",
+      "Caching"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What is cloud monitoring used for?",
+    "options": [
+      "Designing logos",
+      "Tracking performance, availability, and resource usage",
+      "Writing documents",
+      "Editing videos"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "Which factor commonly affects cloud service cost?",
+    "options": [
+      "Monitor size",
+      "Keyboard type",
+      "Resource consumption",
+      "Mouse sensitivity"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What is Infrastructure as Code?",
+    "options": [
+      "Managing infrastructure using machine-readable configuration or code",
+      "Building servers manually",
+      "Designing websites",
+      "Writing only mobile applications"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "Which feature allows cloud users to provision resources whenever required?",
+    "options": [
+      "Manual hardware installation",
+      "On-demand self-service",
+      "Fixed capacity",
+      "Offline processing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "What is disaster recovery?",
+    "options": [
+      "A method of designing websites",
+      "A process of creating passwords",
+      "A method of writing source code",
+      "A process of restoring systems and data after a disruptive event"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "Which technology enables multiple virtual machines to run on one physical server?",
+    "options": [
+      "Virtualization",
+      "Encryption",
+      "Load balancing",
+      "DNS"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Computing Fundamentals",
+    "question": "Which approach combines cloud resources with on-premises infrastructure?",
+    "options": [
+      "Public-only computing",
+      "Hybrid cloud",
+      "Local-only computing",
+      "Serverless-only computing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What does AWS stand for?",
+    "options": [
+      "Amazon Web Services",
+      "Advanced Web Systems",
+      "Amazon Web Solutions",
+      "Automated Web Services"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service provides virtual servers?",
+    "options": [
+      "Amazon S3",
+      "Amazon EC2",
+      "Amazon RDS",
+      "Amazon Route 53"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What is Amazon S3 primarily used for?",
+    "options": [
+      "Object storage",
+      "Running virtual machines",
+      "Managing DNS",
+      "Managing user identities"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service provides managed relational databases?",
+    "options": [
+      "Amazon S3",
+      "Amazon EC2",
+      "Amazon RDS",
+      "Amazon CloudFront"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service provides DNS management?",
+    "options": [
+      "Amazon S3",
+      "Amazon EBS",
+      "Amazon EC2",
+      "Amazon Route 53"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What is an AWS Region?",
+    "options": [
+      "A geographic area containing AWS infrastructure",
+      "An EC2 instance type",
+      "An IAM user",
+      "A database engine"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What is an Availability Zone in AWS?",
+    "options": [
+      "An AWS account",
+      "An isolated location within an AWS Region",
+      "A programming language",
+      "An S3 bucket"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service manages users, groups, roles, and permissions?",
+    "options": [
+      "Amazon S3",
+      "Amazon EC2",
+      "AWS IAM",
+      "Amazon CloudFront"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What does IAM stand for?",
+    "options": [
+      "Infrastructure Access Management",
+      "Internet Application Manager",
+      "Internal AWS Monitoring",
+      "Identity and Access Management"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service provides a global content delivery network?",
+    "options": [
+      "Amazon CloudFront",
+      "Amazon RDS",
+      "Amazon EBS",
+      "AWS IAM"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What is an S3 bucket?",
+    "options": [
+      "A virtual machine",
+      "A database table",
+      "A container for storing objects",
+      "A network firewall"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service is a managed NoSQL database?",
+    "options": [
+      "Amazon DynamoDB",
+      "Amazon RDS",
+      "Amazon EC2",
+      "Amazon S3"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service runs code without requiring users to manage servers?",
+    "options": [
+      "Amazon EC2",
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What is AWS Lambda commonly used for?",
+    "options": [
+      "Running event-driven code",
+      "Creating physical servers",
+      "Managing desktop applications",
+      "Replacing network cables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service provides block storage for EC2?",
+    "options": [
+      "Amazon S3",
+      "Amazon Route 53",
+      "Amazon EBS",
+      "Amazon CloudFront"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What is Amazon VPC used for?",
+    "options": [
+      "Creating an isolated virtual network",
+      "Storing objects",
+      "Running SQL queries",
+      "Managing passwords"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service distributes incoming application traffic?",
+    "options": [
+      "Amazon S3",
+      "Elastic Load Balancing",
+      "AWS IAM",
+      "Amazon EBS"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What is Amazon CloudWatch primarily used for?",
+    "options": [
+      "Creating S3 buckets",
+      "Managing DNS domains",
+      "Monitoring AWS resources and applications",
+      "Creating IAM users"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service provides a managed message queue?",
+    "options": [
+      "Amazon SQS",
+      "Amazon EC2",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What does Amazon SNS primarily provide?",
+    "options": [
+      "Virtual machines",
+      "Object storage",
+      "Relational databases",
+      "Pub/sub messaging and notifications"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service is used to manage encryption keys?",
+    "options": [
+      "AWS KMS",
+      "Amazon EC2",
+      "Amazon S3",
+      "Amazon Route 53"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What is AWS Auto Scaling used for?",
+    "options": [
+      "Deleting all resources",
+      "Automatically adjusting resources based on demand",
+      "Creating passwords",
+      "Replacing databases"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service is used to store container images?",
+    "options": [
+      "Amazon RDS",
+      "Amazon Route 53",
+      "Amazon ECR",
+      "AWS IAM"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What is Amazon ECS?",
+    "options": [
+      "A managed container orchestration service",
+      "A DNS service",
+      "A database service",
+      "An object storage service"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service provides APIs for applications and can work with Lambda?",
+    "options": [
+      "Amazon S3",
+      "Amazon EBS",
+      "Amazon Route 53",
+      "Amazon API Gateway"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What does the AWS shared responsibility model describe?",
+    "options": [
+      "How AWS and customers share security responsibilities",
+      "How customers build AWS data centers",
+      "How AWS manages customer passwords",
+      "How cloud resources are physically transported"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service supports relational database engines such as MySQL and PostgreSQL?",
+    "options": [
+      "Amazon S3",
+      "Amazon DynamoDB",
+      "Amazon RDS",
+      "Amazon CloudFront"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What is AWS Elastic Beanstalk designed to simplify?",
+    "options": [
+      "Application deployment and management",
+      "Physical server manufacturing",
+      "Graphic design",
+      "Email writing"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "Which AWS service records API activity for auditing?",
+    "options": [
+      "Amazon S3",
+      "AWS CloudTrail",
+      "Amazon EC2",
+      "Amazon EBS"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "AWS Fundamentals",
+    "question": "What is an EC2 instance?",
+    "options": [
+      "An S3 storage bucket",
+      "An IAM user",
+      "A DNS record",
+      "A virtual server running in Amazon EC2"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What is Microsoft Azure?",
+    "options": [
+      "A cloud computing platform provided by Microsoft",
+      "A desktop-only operating system",
+      "A database programming language",
+      "A graphic design tool"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure service provides scalable virtual machines?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure Virtual Machines",
+      "Azure DNS",
+      "Azure DevOps"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure service provides object storage?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure Virtual Machines",
+      "Azure Functions",
+      "Azure DNS"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What is an Azure Resource Group?",
+    "options": [
+      "A physical data center",
+      "A database engine",
+      "A logical container for managing related Azure resources",
+      "A programming language"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure service provides serverless compute?",
+    "options": [
+      "Azure Functions",
+      "Azure Blob Storage",
+      "Azure DNS",
+      "Azure Files"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What is Azure Virtual Network used for?",
+    "options": [
+      "Creating private networking environments",
+      "Creating graphic designs",
+      "Managing email accounts",
+      "Storing images only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure service provides a managed relational database?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure DNS",
+      "Azure Monitor",
+      "Azure SQL Database"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What is Azure Active Directory currently called?",
+    "options": [
+      "Microsoft Entra ID",
+      "Azure SQL",
+      "Azure Monitor",
+      "Azure Storage"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What is Microsoft Entra ID primarily used for?",
+    "options": [
+      "Object storage",
+      "Identity and access management",
+      "Virtual machine hosting",
+      "Application monitoring"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure service is used for monitoring resources and applications?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure Virtual Network",
+      "Azure Monitor",
+      "Azure DNS"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What is an Azure region?",
+    "options": [
+      "A geographic area containing Azure datacenters",
+      "A type of database",
+      "A user account",
+      "A virtual machine image"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What is an Azure subscription?",
+    "options": [
+      "A virtual machine",
+      "A storage file",
+      "A DNS record",
+      "A billing and access boundary for Azure resources"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure service provides application delivery and global routing capabilities?",
+    "options": [
+      "Azure Front Door",
+      "Azure SQL Database",
+      "Azure Files",
+      "Azure Functions"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure service stores secrets, keys, and certificates?",
+    "options": [
+      "Azure Monitor",
+      "Azure DNS",
+      "Azure Key Vault",
+      "Azure Files"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What is Azure App Service primarily used for?",
+    "options": [
+      "Creating physical servers",
+      "Hosting web applications and APIs",
+      "Editing images",
+      "Managing printers"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure service provides managed Kubernetes?",
+    "options": [
+      "Azure Kubernetes Service",
+      "Azure Functions",
+      "Azure Blob Storage",
+      "Azure SQL Database"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What does AKS stand for?",
+    "options": [
+      "Azure Key Storage",
+      "Azure Kernel System",
+      "Azure Kubernetes Service",
+      "Azure Knowledge Service"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure service provides a managed NoSQL database?",
+    "options": [
+      "Azure SQL Database",
+      "Azure Files",
+      "Azure DNS",
+      "Azure Cosmos DB"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What is Azure Load Balancer used for?",
+    "options": [
+      "Distributing network traffic across backend resources",
+      "Storing objects",
+      "Managing identities",
+      "Creating database tables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure service provides DNS hosting?",
+    "options": [
+      "Azure Functions",
+      "Azure DNS",
+      "Azure Monitor",
+      "Azure Key Vault"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What is an Azure Storage Account used for?",
+    "options": [
+      "Providing cloud storage services",
+      "Creating identities only",
+      "Managing source code only",
+      "Monitoring CPU temperature"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure storage service provides managed file shares?",
+    "options": [
+      "Azure Functions",
+      "Azure DNS",
+      "Azure Monitor",
+      "Azure Files"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What is Azure DevOps used for?",
+    "options": [
+      "Only storing images",
+      "Managing physical computers",
+      "Planning, developing, testing, and delivering software",
+      "Creating DNS records only"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure service helps protect applications against DDoS attacks?",
+    "options": [
+      "Azure DDoS Protection",
+      "Azure Files",
+      "Azure SQL Database",
+      "Azure DNS"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What is Azure Policy used for?",
+    "options": [
+      "Creating virtual machines only",
+      "Enforcing organizational rules and compliance requirements",
+      "Storing application files",
+      "Sending email notifications only"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure service provides queues and topics for messaging?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure Monitor",
+      "Azure Service Bus",
+      "Azure Virtual Machines"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What is Azure Backup used for?",
+    "options": [
+      "Creating user interfaces",
+      "Managing DNS records",
+      "Compiling applications",
+      "Backing up data and workloads"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure service provides centralized management of Azure resources?",
+    "options": [
+      "Azure Resource Manager",
+      "Azure Blob Storage",
+      "Azure DNS",
+      "Azure Files"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "What is Azure Cost Management used for?",
+    "options": [
+      "Creating virtual machines",
+      "Monitoring and optimizing cloud spending",
+      "Storing database records",
+      "Managing DNS zones"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Microsoft Azure Fundamentals",
+    "question": "Which Azure feature allows resources to be categorized using metadata?",
+    "options": [
+      "Regions",
+      "Subscriptions",
+      "Tags",
+      "Availability Zones"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is DevOps?",
+    "options": [
+      "A programming language",
+      "A database technology",
+      "A combination of development and operations practices",
+      "A cloud storage service"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is one of the main goals of DevOps?",
+    "options": [
+      "Faster and more reliable software delivery",
+      "Eliminating all testing",
+      "Avoiding automation",
+      "Using only manual deployments"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "Which practice involves developers frequently integrating code into a shared repository?",
+    "options": [
+      "Continuous Deployment",
+      "Continuous Integration",
+      "Infrastructure Monitoring",
+      "Manual Testing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What does CI stand for in DevOps?",
+    "options": [
+      "Cloud Infrastructure",
+      "Code Inspection",
+      "Continuous Integration",
+      "Central Integration"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What does CD commonly represent in a DevOps pipeline?",
+    "options": [
+      "Continuous Delivery or Continuous Deployment",
+      "Code Development",
+      "Cloud Database",
+      "Central Deployment"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "Which practice automates the process of releasing software to production?",
+    "options": [
+      "Code Review",
+      "Continuous Deployment",
+      "Manual Testing",
+      "Documentation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is a DevOps pipeline?",
+    "options": [
+      "A physical network cable",
+      "A database schema",
+      "An automated workflow for building, testing, and delivering software",
+      "A programming language"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "Which tool is commonly used for source code version control?",
+    "options": [
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "Jenkins"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is version control used for?",
+    "options": [
+      "Hosting databases",
+      "Tracking changes to source code and files",
+      "Monitoring CPU temperature",
+      "Creating cloud regions"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "Which Git command creates a local copy of a remote repository?",
+    "options": [
+      "git push",
+      "git commit",
+      "git clone",
+      "git merge"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "Which Git command uploads local commits to a remote repository?",
+    "options": [
+      "git push",
+      "git pull",
+      "git clone",
+      "git status"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "Which Git command downloads and integrates changes from a remote repository?",
+    "options": [
+      "git commit",
+      "git pull",
+      "git init",
+      "git branch"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is Infrastructure as Code?",
+    "options": [
+      "Managing infrastructure through code or configuration files",
+      "Manually installing servers",
+      "Writing only frontend code",
+      "Creating physical cables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "Which tool is commonly associated with Infrastructure as Code?",
+    "options": [
+      "Figma",
+      "Terraform",
+      "Photoshop",
+      "Postman"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is configuration management?",
+    "options": [
+      "Designing user interfaces",
+      "Managing databases only",
+      "Maintaining systems and software configurations consistently",
+      "Creating network cables"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "Which of the following is a configuration management tool?",
+    "options": [
+      "Ansible",
+      "React",
+      "MongoDB",
+      "Figma"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "Why is automated testing important in DevOps?",
+    "options": [
+      "It removes the need for source code",
+      "It helps detect defects quickly and consistently",
+      "It prevents version control",
+      "It replaces all developers"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is Continuous Delivery?",
+    "options": [
+      "A process of manually deploying software once a year",
+      "A database backup method",
+      "A practice of keeping software ready for reliable release",
+      "A cloud storage technology"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is monitoring in DevOps?",
+    "options": [
+      "Tracking application and infrastructure health and performance",
+      "Writing source code",
+      "Creating user interfaces",
+      "Managing employee attendance"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is logging?",
+    "options": [
+      "Deleting system information",
+      "Recording events and activities generated by applications or systems",
+      "Creating virtual machines",
+      "Encrypting all files"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is the purpose of a rollback?",
+    "options": [
+      "To increase server memory",
+      "To delete source code",
+      "To return a system to a previous stable version",
+      "To create a new programming language"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "Which DevOps principle encourages development and operations teams to work together?",
+    "options": [
+      "Collaboration",
+      "Isolation",
+      "Manual processing",
+      "Hardware dependency"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is automation in DevOps?",
+    "options": [
+      "Performing every deployment manually",
+      "Using tools and scripts to perform repetitive tasks automatically",
+      "Avoiding testing",
+      "Removing source control"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "Which metric measures the time taken to restore service after a failure?",
+    "options": [
+      "Deployment frequency",
+      "Change failure rate",
+      "Mean Time to Recovery",
+      "Code coverage"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is a build in software development?",
+    "options": [
+      "A process that converts source code into a deployable or executable form",
+      "A database backup",
+      "A cloud region",
+      "A network protocol"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is deployment?",
+    "options": [
+      "Deleting application code",
+      "Making an application available in a target environment",
+      "Creating a database schema",
+      "Writing documentation only"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "Which practice helps DevOps teams detect problems in production quickly?",
+    "options": [
+      "Monitoring and alerting",
+      "Manual documentation",
+      "Removing logs",
+      "Disabling testing"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is a container in DevOps?",
+    "options": [
+      "A physical server",
+      "A package containing an application and its required dependencies",
+      "A database table",
+      "A network switch"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "Which approach helps teams release small changes frequently?",
+    "options": [
+      "Frequent integration and automated delivery",
+      "Annual deployment",
+      "Manual testing only",
+      "Avoiding version control"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "DevOps Fundamentals",
+    "question": "What is the purpose of a CI/CD pipeline?",
+    "options": [
+      "To replace source code",
+      "To automate stages of software build, testing, and delivery",
+      "To manage employee records",
+      "To design application interfaces"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "What is Docker?",
+    "options": [
+      "A containerization platform",
+      "A database system",
+      "A programming language",
+      "A cloud provider"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "What is a Docker container?",
+    "options": [
+      "A physical server",
+      "A lightweight isolated environment for running an application",
+      "A cloud region",
+      "A database table"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "What is a Docker image?",
+    "options": [
+      "A running container",
+      "A physical disk",
+      "A read-only template used to create containers",
+      "A network device"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Which command is commonly used to run a Docker container?",
+    "options": [
+      "docker build",
+      "docker pull",
+      "docker stop",
+      "docker run"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Which command creates a Docker image from a Dockerfile?",
+    "options": [
+      "docker build",
+      "docker run",
+      "docker exec",
+      "docker stop"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "What is a Dockerfile?",
+    "options": [
+      "A container registry",
+      "A text file containing instructions to build a Docker image",
+      "A running container",
+      "A database configuration"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Which Docker command lists available local images?",
+    "options": [
+      "docker ps",
+      "docker run",
+      "docker images",
+      "docker exec"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Which Docker command lists running containers?",
+    "options": [
+      "docker ps",
+      "docker images",
+      "docker build",
+      "docker pull"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Which command downloads an image from a registry?",
+    "options": [
+      "docker build",
+      "docker pull",
+      "docker start",
+      "docker inspect"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "What is Docker Hub?",
+    "options": [
+      "A Docker container",
+      "A Docker command",
+      "A registry for sharing and storing container images",
+      "A Linux kernel"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "What is a container registry?",
+    "options": [
+      "A service used to store and distribute container images",
+      "A tool for editing source code",
+      "A physical server",
+      "A database engine"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Which Dockerfile instruction specifies the base image?",
+    "options": [
+      "RUN",
+      "FROM",
+      "COPY",
+      "CMD"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Which Dockerfile instruction copies files from the build context into the image?",
+    "options": [
+      "FROM",
+      "RUN",
+      "COPY",
+      "EXPOSE"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Which Dockerfile instruction can specify the default command for a container?",
+    "options": [
+      "CMD",
+      "FROM",
+      "COPY",
+      "WORKDIR"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "What is Docker Compose used for?",
+    "options": [
+      "Creating operating systems",
+      "Defining and running multi-container applications",
+      "Managing Git branches",
+      "Creating cloud regions"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "What is a Docker volume used for?",
+    "options": [
+      "Building images",
+      "Creating networks",
+      "Persisting data outside the container's writable layer",
+      "Managing Git commits"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Why are Docker containers considered portable?",
+    "options": [
+      "They package applications with their dependencies in a consistent environment",
+      "They require the same physical server everywhere",
+      "They only run on one operating system",
+      "They do not use dependencies"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Which command stops a running Docker container?",
+    "options": [
+      "docker build",
+      "docker stop",
+      "docker pull",
+      "docker images"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Which command removes a Docker container?",
+    "options": [
+      "docker build",
+      "docker start",
+      "docker rm",
+      "docker pull"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "What is port mapping in Docker?",
+    "options": [
+      "Connecting a host port to a container port",
+      "Deleting a container",
+      "Creating an image",
+      "Copying a Git repository"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Which command can display information about a Docker container?",
+    "options": [
+      "docker pull",
+      "docker inspect",
+      "docker build",
+      "docker images"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "What is a Docker network used for?",
+    "options": [
+      "Building images",
+      "Managing image versions",
+      "Enabling communication between containers",
+      "Creating Git branches"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Which command can execute a command inside a running container?",
+    "options": [
+      "docker exec",
+      "docker build",
+      "docker pull",
+      "docker images"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "What is the purpose of a .dockerignore file?",
+    "options": [
+      "To define Docker networks",
+      "To exclude specified files and directories from the build context",
+      "To start containers",
+      "To store passwords"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "What does container isolation provide?",
+    "options": [
+      "Separate execution environments for applications",
+      "Unlimited CPU resources",
+      "Automatic database backups",
+      "Physical server ownership"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "What is a container image tag commonly used for?",
+    "options": [
+      "Identifying a particular version or variant of an image",
+      "Creating a physical server",
+      "Deleting containers",
+      "Managing DNS records"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Which component is responsible for running Docker containers?",
+    "options": [
+      "Docker Engine",
+      "Git",
+      "MongoDB",
+      "Terraform"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "What is the main difference between a Docker image and a container?",
+    "options": [
+      "An image is a template, while a container is a running instance of that image",
+      "An image is always running, while a container is always stopped",
+      "They are exactly the same",
+      "A container cannot be created from an image"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Which command shows logs produced by a container?",
+    "options": [
+      "docker logs",
+      "docker images",
+      "docker build",
+      "docker pull"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Docker Fundamentals",
+    "question": "Why should Docker images be kept small?",
+    "options": [
+      "To reduce transfer time, storage usage, and build time",
+      "To prevent containers from running",
+      "To remove application dependencies",
+      "To disable networking"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is Kubernetes?",
+    "options": [
+      "A container orchestration platform",
+      "A database system",
+      "A programming language",
+      "A code editor"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is the main purpose of Kubernetes?",
+    "options": [
+      "Designing websites",
+      "Automating deployment, scaling, and management of containers",
+      "Creating databases",
+      "Writing JavaScript code"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is a Pod in Kubernetes?",
+    "options": [
+      "A physical server",
+      "A container registry",
+      "The smallest deployable unit in Kubernetes",
+      "A database"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What normally runs inside a Kubernetes Pod?",
+    "options": [
+      "One or more containers",
+      "Only databases",
+      "Only virtual machines",
+      "Only network switches"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is a Kubernetes Node?",
+    "options": [
+      "A configuration file",
+      "A worker machine that runs Kubernetes workloads",
+      "A container image",
+      "A database table"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is a Kubernetes Cluster?",
+    "options": [
+      "A single container",
+      "A Docker image",
+      "A group of nodes managed together by Kubernetes",
+      "A database schema"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "Which Kubernetes object is commonly used to manage replicated Pods?",
+    "options": [
+      "Deployment",
+      "Service",
+      "ConfigMap",
+      "Secret"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is a Kubernetes Service used for?",
+    "options": [
+      "Building container images",
+      "Providing stable network access to a set of Pods",
+      "Creating Git repositories",
+      "Storing Dockerfiles"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "Which Kubernetes object stores non-sensitive configuration data?",
+    "options": [
+      "Secret",
+      "Pod",
+      "ConfigMap",
+      "Node"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "Which Kubernetes object is intended for storing sensitive configuration values?",
+    "options": [
+      "Secret",
+      "Service",
+      "Deployment",
+      "Namespace"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is kubectl?",
+    "options": [
+      "A container image",
+      "The command-line tool for interacting with Kubernetes clusters",
+      "A database",
+      "A cloud provider"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "Which command lists Pods in Kubernetes?",
+    "options": [
+      "kubectl create",
+      "kubectl apply",
+      "kubectl get pods",
+      "kubectl delete"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "Which command applies a Kubernetes configuration file?",
+    "options": [
+      "kubectl apply",
+      "kubectl logs",
+      "kubectl get",
+      "kubectl describe"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is a Namespace in Kubernetes?",
+    "options": [
+      "A container image",
+      "A logical way to isolate and organize resources within a cluster",
+      "A physical server",
+      "A network cable"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What does Kubernetes self-healing commonly mean?",
+    "options": [
+      "Automatically repairing physical servers",
+      "Automatically writing application code",
+      "Replacing or restarting failed workloads according to the desired state",
+      "Creating new programming languages"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is scaling in Kubernetes?",
+    "options": [
+      "Changing the number of application replicas or resources to meet demand",
+      "Deleting all Pods",
+      "Changing source code",
+      "Removing networking"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "Which Kubernetes feature can automatically adjust the number of Pods based on resource usage?",
+    "options": [
+      "ConfigMap",
+      "Horizontal Pod Autoscaler",
+      "Secret",
+      "Namespace"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is a ReplicaSet used for?",
+    "options": [
+      "Managing DNS records",
+      "Storing secrets",
+      "Maintaining a specified number of Pod replicas",
+      "Building Docker images"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is the purpose of a Kubernetes Deployment?",
+    "options": [
+      "Managing application releases and maintaining desired Pod replicas",
+      "Storing passwords",
+      "Creating Docker registries",
+      "Managing Git commits"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "Which service type can expose a Kubernetes application externally using a cloud provider's load balancer?",
+    "options": [
+      "ClusterIP",
+      "LoadBalancer",
+      "ConfigMap",
+      "Secret"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is the default Kubernetes Service type for internal cluster access?",
+    "options": [
+      "LoadBalancer",
+      "NodePort",
+      "ClusterIP",
+      "ExternalName"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is Ingress used for?",
+    "options": [
+      "Managing external HTTP and HTTPS access to services",
+      "Creating container images",
+      "Storing secrets",
+      "Managing Git repositories"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is the desired state in Kubernetes?",
+    "options": [
+      "The current number of failed Pods",
+      "The configuration that describes how the system should operate",
+      "The physical state of a server",
+      "The number of Git commits"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "Which file format is commonly used to define Kubernetes resources?",
+    "options": [
+      "CSV",
+      "TXT",
+      "YAML",
+      "MP3"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What does the Kubernetes control plane manage?",
+    "options": [
+      "The overall state and orchestration of the cluster",
+      "Only application source code",
+      "Only Docker images",
+      "Only database records"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "Which Kubernetes component schedules Pods onto suitable nodes?",
+    "options": [
+      "kubelet",
+      "kube-scheduler",
+      "kube-proxy",
+      "CoreDNS"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "Which component runs on each Kubernetes node and manages containers?",
+    "options": [
+      "kube-apiserver",
+      "kube-scheduler",
+      "kubelet",
+      "etcd"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "What is etcd used for in Kubernetes?",
+    "options": [
+      "Storing cluster state and configuration data",
+      "Building Docker images",
+      "Serving web pages",
+      "Managing Git branches"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "Which command displays detailed information about a Kubernetes resource?",
+    "options": [
+      "kubectl get",
+      "kubectl describe",
+      "kubectl run",
+      "kubectl apply"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Kubernetes Fundamentals",
+    "question": "Which command is commonly used to view logs from a Pod?",
+    "options": [
+      "kubectl apply",
+      "kubectl create",
+      "kubectl logs",
+      "kubectl scale"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What is Google Cloud?",
+    "options": [
+      "A cloud computing platform provided by Google",
+      "A database management system",
+      "A desktop operating system",
+      "A programming language"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "Which Google Cloud service provides virtual machines?",
+    "options": [
+      "Cloud Storage",
+      "Compute Engine",
+      "BigQuery",
+      "Cloud DNS"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "Which service is used for object storage in Google Cloud?",
+    "options": [
+      "Cloud SQL",
+      "Compute Engine",
+      "Cloud Storage",
+      "Cloud Functions"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What is BigQuery primarily used for?",
+    "options": [
+      "Virtual machine management",
+      "Container orchestration",
+      "DNS management",
+      "Large-scale data analytics"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What is a Google Cloud project?",
+    "options": [
+      "A logical container for cloud resources",
+      "A physical data center",
+      "A virtual machine",
+      "A database table"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "Which service provides managed relational databases in Google Cloud?",
+    "options": [
+      "Cloud Storage",
+      "Cloud SQL",
+      "Cloud CDN",
+      "Cloud Functions"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What does IAM stand for?",
+    "options": [
+      "Internet Access Management",
+      "Infrastructure Application Manager",
+      "Identity and Access Management",
+      "Internal Account Management"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "Which service is Google Cloud's managed Kubernetes platform?",
+    "options": [
+      "Cloud Storage",
+      "Cloud Run",
+      "Compute Engine",
+      "Google Kubernetes Engine"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What is a Google Cloud region?",
+    "options": [
+      "A geographic location containing cloud resources",
+      "A type of database",
+      "A user account",
+      "A storage bucket"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What is a zone in Google Cloud?",
+    "options": [
+      "A billing account",
+      "A deployment area within a region",
+      "A programming language",
+      "A database service"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "Which service provides serverless functions?",
+    "options": [
+      "BigQuery",
+      "Cloud Storage",
+      "Cloud Functions",
+      "Cloud DNS"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What is Pub/Sub mainly used for?",
+    "options": [
+      "Creating virtual machines",
+      "Managing databases",
+      "Storing files",
+      "Asynchronous messaging between applications"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "Which service is used to monitor Google Cloud resources?",
+    "options": [
+      "Cloud Monitoring",
+      "Cloud Storage",
+      "Cloud SQL",
+      "Cloud DNS"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What is Cloud CDN used for?",
+    "options": [
+      "Managing user identities",
+      "Caching content closer to users",
+      "Creating databases",
+      "Running virtual machines"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "Which service is designed for data warehousing?",
+    "options": [
+      "Cloud Run",
+      "Cloud DNS",
+      "BigQuery",
+      "Cloud Functions"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What is Google Cloud Console?",
+    "options": [
+      "A command-line shell",
+      "A database engine",
+      "A container runtime",
+      "A web interface for managing Google Cloud resources"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What is Google Cloud SDK?",
+    "options": [
+      "A collection of command-line tools for Google Cloud",
+      "A database service",
+      "A storage protocol",
+      "A virtual machine"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "Which service provides managed DNS?",
+    "options": [
+      "Cloud SQL",
+      "Cloud DNS",
+      "Cloud Storage",
+      "BigQuery"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What is Cloud Load Balancing used for?",
+    "options": [
+      "Creating database backups",
+      "Encrypting files",
+      "Distributing network traffic across resources",
+      "Managing user passwords"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "Which service helps automate application builds?",
+    "options": [
+      "Cloud DNS",
+      "Cloud Storage",
+      "Cloud SQL",
+      "Cloud Build"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What is the purpose of IAM roles?",
+    "options": [
+      "To define permissions for users and services",
+      "To store videos",
+      "To create regions",
+      "To balance traffic"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "Which service runs containerized applications without requiring server management?",
+    "options": [
+      "BigQuery",
+      "Cloud Run",
+      "Cloud SQL",
+      "Cloud DNS"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What is Cloud Run primarily designed to run?",
+    "options": [
+      "Physical servers",
+      "SQL queries",
+      "Containerized applications",
+      "DNS zones"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What does autoscaling do?",
+    "options": [
+      "Deletes unused projects",
+      "Creates user accounts",
+      "Encrypts databases",
+      "Automatically adjusts resources according to demand"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "Which Google Cloud service supports machine learning workflows?",
+    "options": [
+      "Vertex AI",
+      "Cloud DNS",
+      "Cloud Storage",
+      "Cloud SQL"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What does Google Cloud Billing help organizations track?",
+    "options": [
+      "Source code changes",
+      "Cloud usage and costs",
+      "Container logs only",
+      "DNS records"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "Which service is used for centralized logging?",
+    "options": [
+      "Cloud Storage",
+      "Cloud Run",
+      "Cloud Logging",
+      "Cloud SQL"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What is a service account?",
+    "options": [
+      "A billing profile",
+      "A storage bucket",
+      "A virtual network",
+      "An identity used by applications or workloads"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "Where are objects such as images commonly stored?",
+    "options": [
+      "Cloud Storage",
+      "Cloud SQL",
+      "BigQuery",
+      "Cloud DNS"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Google Cloud Fundamentals",
+    "question": "What is a major benefit of managed cloud services?",
+    "options": [
+      "They eliminate the need for internet access",
+      "They reduce infrastructure management effort",
+      "They remove all security responsibilities",
+      "They require physical server ownership"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What does CI stand for?",
+    "options": [
+      "Continuous Integration",
+      "Cloud Infrastructure",
+      "Code Installation",
+      "Central Interface"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What does CD commonly mean in CI/CD?",
+    "options": [
+      "Code Development",
+      "Continuous Delivery",
+      "Cloud Deployment",
+      "Central Database"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is the main goal of Continuous Integration?",
+    "options": [
+      "Avoid testing",
+      "Deploy software manually",
+      "Integrate and test code changes frequently",
+      "Remove version control"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "Which activity commonly occurs during a CI build?",
+    "options": [
+      "Deleting source code",
+      "Disabling tests",
+      "Creating employee accounts",
+      "Compiling or packaging the application"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is a CI/CD pipeline?",
+    "options": [
+      "A sequence of automated steps used to build, test, and deliver software",
+      "A physical network connection",
+      "A database table",
+      "A programming language"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "Why are automated tests useful in CI/CD?",
+    "options": [
+      "They remove the need for developers",
+      "They detect defects early",
+      "They prevent all deployments",
+      "They replace source control"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is Continuous Delivery?",
+    "options": [
+      "Manually copying files to every server",
+      "Avoiding production releases",
+      "Keeping software ready for deployment through automated processes",
+      "Removing automated testing"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is Continuous Deployment?",
+    "options": [
+      "Testing only on developer machines",
+      "Manually approving every code change",
+      "Deploying only once per year",
+      "Automatically releasing validated changes to production"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "Which tool is commonly used for CI/CD automation?",
+    "options": [
+      "Jenkins",
+      "Figma",
+      "Photoshop",
+      "MongoDB Compass"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is a build artifact?",
+    "options": [
+      "A developer password",
+      "A generated output used in later pipeline stages",
+      "A cloud region",
+      "A Git user"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is a pipeline stage?",
+    "options": [
+      "A physical server",
+      "A database",
+      "A logical phase of a pipeline",
+      "A programming language"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "Which event commonly triggers a CI pipeline?",
+    "options": [
+      "Opening a browser",
+      "Pushing code to a repository",
+      "Changing screen brightness",
+      "Starting a calculator"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is rollback?",
+    "options": [
+      "Creating a new branch",
+      "Building an application",
+      "Returning to a previous stable version",
+      "Deleting all deployment history"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is a deployment strategy?",
+    "options": [
+      "A database design",
+      "A coding language",
+      "A source control command",
+      "A planned method for releasing software"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is blue-green deployment?",
+    "options": [
+      "Using two environments to switch between application versions",
+      "Deploying without testing",
+      "Deleting the previous version immediately",
+      "Using two programming languages"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is canary deployment?",
+    "options": [
+      "Deploying to all users immediately",
+      "Releasing a new version to a small group first",
+      "Removing the production environment",
+      "Skipping automated tests"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is a quality gate?",
+    "options": [
+      "A physical security gate",
+      "A source code repository",
+      "A condition that must pass before proceeding",
+      "A database server"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "Why is fast feedback important in CI?",
+    "options": [
+      "It increases manual work",
+      "It delays debugging",
+      "It prevents testing",
+      "It helps developers identify problems quickly"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "Why is source control important for CI/CD?",
+    "options": [
+      "It tracks changes to source code",
+      "It replaces testing",
+      "It creates physical servers",
+      "It disables deployments"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "Which platform provides Git-based CI/CD features?",
+    "options": [
+      "Figma",
+      "GitLab",
+      "Photoshop",
+      "Notepad"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is GitHub Actions?",
+    "options": [
+      "A database",
+      "A container runtime",
+      "A workflow automation and CI/CD service",
+      "A cloud storage system"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What does a failed pipeline indicate?",
+    "options": [
+      "The code is always correct",
+      "Deployment is always successful",
+      "Testing is unnecessary",
+      "One or more pipeline steps did not complete successfully"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "Why are pipeline logs useful?",
+    "options": [
+      "They help diagnose build and deployment problems",
+      "They replace source code",
+      "They create user accounts",
+      "They remove failed builds"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What does pipeline automation mainly reduce?",
+    "options": [
+      "Application reliability",
+      "Repetitive manual tasks",
+      "Testing coverage",
+      "Version control"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is deployment approval?",
+    "options": [
+      "A Git commit",
+      "A build artifact",
+      "Authorization required before a deployment",
+      "A database query"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is a major benefit of CI/CD?",
+    "options": [
+      "It eliminates all bugs",
+      "It removes version control",
+      "It requires more manual deployment",
+      "It enables faster and more consistent software delivery"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "Which practice improves CI/CD reliability?",
+    "options": [
+      "Keeping pipelines version-controlled and tested",
+      "Ignoring failed builds",
+      "Deploying untested code",
+      "Removing automated tests"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is automated deployment?",
+    "options": [
+      "Manually copying files",
+      "Using automation to release software to an environment",
+      "Deleting application builds",
+      "Writing code without testing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What is a deployment pipeline designed to accomplish?",
+    "options": [
+      "Manage employee records",
+      "Store database backups only",
+      "Automate software delivery from code to deployment",
+      "Replace application development"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "CI/CD Fundamentals",
+    "question": "What should happen when an important automated test fails?",
+    "options": [
+      "Deploy immediately",
+      "Ignore the failure",
+      "Delete the repository",
+      "The pipeline should normally stop or prevent promotion"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is cloud security?",
+    "options": [
+      "Protecting cloud systems, applications, and data",
+      "Only installing antivirus software",
+      "Designing websites",
+      "Managing office hardware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What does least privilege mean?",
+    "options": [
+      "Giving everyone administrator access",
+      "Giving users only the permissions they need",
+      "Disabling authentication",
+      "Sharing passwords"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is multi-factor authentication?",
+    "options": [
+      "Using multiple usernames",
+      "Using only a password",
+      "Using multiple verification factors",
+      "Sharing one account"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is encryption?",
+    "options": [
+      "Deleting data",
+      "Compressing files",
+      "Creating user accounts",
+      "Transforming data into a protected form"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What does encryption at rest protect?",
+    "options": [
+      "Stored data",
+      "Only network cables",
+      "Only usernames",
+      "Only source code comments"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What does encryption in transit protect?",
+    "options": [
+      "Deleted data",
+      "Data while it is being transmitted",
+      "Only physical servers",
+      "Unused user accounts"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is IAM mainly responsible for?",
+    "options": [
+      "Data compression",
+      "Database indexing",
+      "Managing identities and access permissions",
+      "Network cable management"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is a firewall mainly used for?",
+    "options": [
+      "Creating databases",
+      "Writing application code",
+      "Managing backups",
+      "Controlling network traffic"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "Why should cloud resources be monitored?",
+    "options": [
+      "To detect suspicious activity and security issues",
+      "To disable logging",
+      "To remove authentication",
+      "To increase unauthorized access"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "Which is an example of a strong password practice?",
+    "options": [
+      "Using the user's name",
+      "Using a long and unique password",
+      "Sharing the password with coworkers",
+      "Using a common short password"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is phishing?",
+    "options": [
+      "A backup method",
+      "A storage service",
+      "A social engineering attack that tricks users",
+      "A network protocol"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is a data breach?",
+    "options": [
+      "A successful deployment",
+      "A routine backup",
+      "A database query",
+      "Unauthorized access to or exposure of data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "Why are regular backups important?",
+    "options": [
+      "They help recover data after loss or an incident",
+      "They eliminate authentication",
+      "They prevent every cyberattack",
+      "They remove the need for encryption"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is a vulnerability?",
+    "options": [
+      "A successful backup",
+      "A weakness that could be exploited",
+      "A secure password",
+      "A network connection"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is a security patch?",
+    "options": [
+      "A user account",
+      "A billing report",
+      "An update that fixes security vulnerabilities",
+      "A database record"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is network segmentation?",
+    "options": [
+      "Combining all networks",
+      "Deleting network devices",
+      "Removing firewalls",
+      "Dividing a network into separate security zones"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is a security audit?",
+    "options": [
+      "A systematic review of security controls",
+      "A database migration",
+      "A software installation",
+      "A pricing plan"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is security logging?",
+    "options": [
+      "Deleting system events",
+      "Recording system and user activities",
+      "Creating passwords",
+      "Removing monitoring"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What does an access control policy define?",
+    "options": [
+      "Database size",
+      "Network speed",
+      "Who can access which resources",
+      "Application screen design"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "Why should administrator accounts be protected carefully?",
+    "options": [
+      "They cannot access resources",
+      "They are used only for backups",
+      "They do not need authentication",
+      "They generally have powerful permissions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is a security incident?",
+    "options": [
+      "An event that may compromise system security",
+      "A normal successful login",
+      "A routine backup",
+      "A software build"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is incident response?",
+    "options": [
+      "A method for designing websites",
+      "The process of identifying and handling security incidents",
+      "A database indexing method",
+      "A billing process"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is data loss prevention?",
+    "options": [
+      "A database language",
+      "A storage pricing model",
+      "Practices and tools used to prevent unauthorized data exposure",
+      "A programming framework"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "Why should credentials not be hard-coded in source code?",
+    "options": [
+      "It improves performance",
+      "It automatically encrypts credentials",
+      "It makes applications smaller",
+      "Exposed source code could reveal the credentials"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is secret management?",
+    "options": [
+      "Securely storing and controlling sensitive credentials and keys",
+      "Publishing API keys",
+      "Removing authentication",
+      "Creating public passwords"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is a denial-of-service attack?",
+    "options": [
+      "A backup operation",
+      "An attack intended to make a service unavailable",
+      "A software update",
+      "An authentication method"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is the shared responsibility model?",
+    "options": [
+      "Customers manage every physical data center",
+      "Cloud providers have no security responsibilities",
+      "Security responsibilities are divided between provider and customer",
+      "Customers have no security responsibilities"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "Which practice improves cloud account security?",
+    "options": [
+      "Sharing administrator passwords",
+      "Giving every user full access",
+      "Disabling security logs",
+      "Using MFA and least-privilege access"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "What is the main purpose of cloud security controls?",
+    "options": [
+      "To protect cloud resources and data from threats",
+      "To increase unauthorized access",
+      "To disable monitoring",
+      "To remove backups"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cloud Computing & DevOps",
+    "program": "Cloud Security Fundamentals",
+    "question": "Why is regular access review important?",
+    "options": [
+      "It increases unnecessary permissions",
+      "It helps identify and remove unnecessary access",
+      "It disables authentication",
+      "It removes security policies"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  }
+
+]

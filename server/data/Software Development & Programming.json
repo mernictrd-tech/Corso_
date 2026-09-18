@@ -1,0 +1,3782 @@
+[
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which keyword is used to define a class in C++?",
+    "options": [
+      "class",
+      "define",
+      "object",
+      "struct"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which symbol is used to end a statement in C++?",
+    "options": [
+      ":",
+      ".",
+      ";",
+      ","
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which data type is commonly used to store whole numbers in C++?",
+    "options": [
+      "float",
+      "char",
+      "string",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which operator is used for equality comparison in C++?",
+    "options": [
+      "==",
+      "=",
+      "!=",
+      "<="
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which function is the entry point of a C++ program?",
+    "options": [
+      "start()",
+      "main()",
+      "run()",
+      "execute()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which keyword is used to allocate memory dynamically in C++?",
+    "options": [
+      "malloc",
+      "create",
+      "new",
+      "dynamic"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which concept allows a class to acquire properties of another class?",
+    "options": [
+      "Inheritance",
+      "Encapsulation",
+      "Compilation",
+      "Iteration"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which feature allows multiple functions to have the same name with different parameters?",
+    "options": [
+      "Inheritance",
+      "Function overloading",
+      "Abstraction",
+      "Encapsulation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "What does STL stand for in C++?",
+    "options": [
+      "Standard Template Library",
+      "Simple Type Language",
+      "System Template Logic",
+      "Standard Testing Language"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which STL container stores elements in a dynamic array?",
+    "options": [
+      "map",
+      "set",
+      "vector",
+      "queue"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which keyword is used to prevent a variable from being modified?",
+    "options": [
+      "fixed",
+      "static",
+      "readonly",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which operator is used to access members through a pointer to an object?",
+    "options": [
+      "->",
+      ".",
+      "::",
+      "*"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which special function is automatically called when an object is created?",
+    "options": [
+      "Destructor",
+      "Constructor",
+      "Operator",
+      "Iterator"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which special function is called when an object is destroyed?",
+    "options": [
+      "Constructor",
+      "Main function",
+      "Destructor",
+      "Friend function"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which access specifier makes class members accessible from outside the class?",
+    "options": [
+      "private",
+      "protected",
+      "internal",
+      "public"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which keyword is used to define a constant expression at compile time?",
+    "options": [
+      "constexpr",
+      "constant",
+      "fixed",
+      "compile"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which operator is used for scope resolution in C++?",
+    "options": [
+      "->",
+      "::",
+      ".",
+      "&&"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which keyword is used to declare a virtual function?",
+    "options": [
+      "dynamic",
+      "override",
+      "virtual",
+      "abstract"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which OOP concept hides implementation details from the user?",
+    "options": [
+      "Abstraction",
+      "Inheritance",
+      "Overloading",
+      "Iteration"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which header is commonly used for cout and cin?",
+    "options": [
+      "string",
+      "iostream",
+      "vector",
+      "fstream"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which object is commonly used to display output in C++?",
+    "options": [
+      "cin",
+      "print",
+      "cout",
+      "output"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which object is commonly used to receive input from the user?",
+    "options": [
+      "cout",
+      "input",
+      "scan",
+      "cin"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "What is a pointer in C++?",
+    "options": [
+      "A variable that stores a memory address",
+      "A function that returns an integer",
+      "A class without methods",
+      "A type of loop"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which operator is used to obtain the address of a variable?",
+    "options": [
+      "*",
+      "&",
+      "#",
+      "@"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which operator is used to dereference a pointer?",
+    "options": [
+      "&",
+      "%",
+      "*",
+      "->"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which STL container stores key-value pairs?",
+    "options": [
+      "vector",
+      "stack",
+      "queue",
+      "map"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which keyword indicates that a derived class function overrides a base class function?",
+    "options": [
+      "override",
+      "extends",
+      "inherits",
+      "replace"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "What is encapsulation in C++?",
+    "options": [
+      "Creating multiple programs",
+      "Bundling data and methods together while controlling access",
+      "Converting code into machine language",
+      "Repeating a block of code"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which container follows the Last-In-First-Out principle?",
+    "options": [
+      "queue",
+      "vector",
+      "stack",
+      "map"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C++ Programming",
+    "question": "Which container follows the First-In-First-Out principle?",
+    "options": [
+      "stack",
+      "set",
+      "vector",
+      "queue"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is a variable in programming?",
+    "options": [
+      "A named storage location for data",
+      "A programming language",
+      "A computer device",
+      "A type of compiler"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "Which programming construct is commonly used to make decisions?",
+    "options": [
+      "Loop",
+      "Conditional statement",
+      "Comment",
+      "Variable"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "Which loop is generally suitable when the number of iterations is known?",
+    "options": [
+      "while loop",
+      "do-while loop",
+      "for loop",
+      "recursive loop"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is the purpose of a function?",
+    "options": [
+      "To store only text",
+      "To create hardware",
+      "To delete variables",
+      "To group reusable instructions for a specific task"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is an algorithm?",
+    "options": [
+      "A step-by-step procedure for solving a problem",
+      "A programming editor",
+      "A computer network",
+      "A database table"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "Which data type is commonly used for true or false values?",
+    "options": [
+      "String",
+      "Boolean",
+      "Integer",
+      "Character"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What does debugging mean?",
+    "options": [
+      "Writing documentation",
+      "Installing software",
+      "Finding and fixing errors in a program",
+      "Creating a database"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "Which operator is commonly used for addition?",
+    "options": [
+      "-",
+      "*",
+      "/",
+      "+"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is a loop used for?",
+    "options": [
+      "Repeating a set of instructions",
+      "Defining a database",
+      "Creating a variable only",
+      "Compiling hardware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is an array primarily used for?",
+    "options": [
+      "Connecting computers",
+      "Storing multiple related values",
+      "Compiling code",
+      "Displaying errors"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is a syntax error?",
+    "options": [
+      "An error caused by slow hardware",
+      "An error in network communication",
+      "An error caused by violating the rules of a programming language",
+      "An error caused by insufficient storage"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is the main purpose of comments in source code?",
+    "options": [
+      "To execute code faster",
+      "To create variables",
+      "To replace functions",
+      "To explain code for developers"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "Which data structure commonly stores elements in a linear sequence?",
+    "options": [
+      "Array",
+      "Tree",
+      "Graph",
+      "Database"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What does a compiler generally do?",
+    "options": [
+      "Deletes source code",
+      "Translates source code into a form that can be executed",
+      "Creates computer hardware",
+      "Manages internet connections"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is recursion?",
+    "options": [
+      "Using multiple variables",
+      "Creating a database",
+      "A function calling itself",
+      "Repeating comments"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "Which operation gives the remainder after division?",
+    "options": [
+      "+",
+      "/",
+      "*",
+      "%"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is pseudocode?",
+    "options": [
+      "An informal way to describe an algorithm using structured language",
+      "A database query",
+      "A compiled program",
+      "A hardware specification"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "Which statement is used to execute one block when a condition is true and another when it is false?",
+    "options": [
+      "for",
+      "if-else",
+      "while",
+      "switch-only"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is an infinite loop?",
+    "options": [
+      "A loop that runs exactly once",
+      "A loop that cannot compile",
+      "A loop that continues without reaching its terminating condition",
+      "A loop that contains no variables"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is the purpose of a return statement in a function?",
+    "options": [
+      "To start a loop",
+      "To create a class",
+      "To declare a variable",
+      "To send a value back from the function"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "Which concept refers to hiding unnecessary implementation details?",
+    "options": [
+      "Abstraction",
+      "Iteration",
+      "Compilation",
+      "Casting"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is type casting?",
+    "options": [
+      "Deleting a data type",
+      "Converting a value from one data type to another",
+      "Creating a loop",
+      "Calling a function"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "Which data structure follows the Last-In-First-Out principle?",
+    "options": [
+      "Queue",
+      "Array",
+      "Stack",
+      "Graph"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "Which data structure follows the First-In-First-Out principle?",
+    "options": [
+      "Stack",
+      "Tree",
+      "Set",
+      "Queue"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is a logical error?",
+    "options": [
+      "A program runs but produces an incorrect result",
+      "A missing computer",
+      "A hardware failure only",
+      "A compiler installation issue"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "Which operator represents logical AND in many programming languages?",
+    "options": [
+      "||",
+      "&&",
+      "!",
+      "=="
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is modular programming?",
+    "options": [
+      "Writing all code in one large function",
+      "Avoiding functions completely",
+      "Dividing a program into smaller manageable modules",
+      "Using only one variable"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What does DRY generally mean in software development?",
+    "options": [
+      "Develop Rapidly Yourself",
+      "Data Runs Yearly",
+      "Design Repeatedly Yourself",
+      "Don't Repeat Yourself"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "What is a parameter in a function?",
+    "options": [
+      "A value or variable accepted by a function as input",
+      "A compiler error",
+      "A database record",
+      "A type of loop"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Programming Fundamentals",
+    "question": "Which approach solves a problem by breaking it into smaller subproblems?",
+    "options": [
+      "Random execution",
+      "Divide and conquer",
+      "Manual compilation",
+      "Code deletion"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which keyword is used to define a function in Python?",
+    "options": [
+      "function",
+      "define",
+      "def",
+      "func"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which symbol is used to create a comment in Python?",
+    "options": [
+      "#",
+      "//",
+      "/*",
+      "--"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which data type is used to store an ordered, mutable collection in Python?",
+    "options": [
+      "tuple",
+      "list",
+      "set",
+      "string"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which function is used to display output in Python?",
+    "options": [
+      "display()",
+      "write()",
+      "show()",
+      "print()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which function is commonly used to receive input from a user?",
+    "options": [
+      "input()",
+      "read()",
+      "scan()",
+      "get()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which collection stores key-value pairs in Python?",
+    "options": [
+      "list",
+      "dictionary",
+      "tuple",
+      "set"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which keyword is used to create a class in Python?",
+    "options": [
+      "object",
+      "struct",
+      "class",
+      "define"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which keyword is used for conditional branching in Python?",
+    "options": [
+      "when",
+      "condition",
+      "check",
+      "if"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which loop is commonly used to iterate over items in a sequence?",
+    "options": [
+      "for",
+      "repeat",
+      "iterate",
+      "loop"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which keyword is used to begin exception handling in Python?",
+    "options": [
+      "catch",
+      "try",
+      "handle",
+      "error"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which keyword handles an exception after a try block?",
+    "options": [
+      "except",
+      "error",
+      "catch",
+      "handle"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which Python data type is immutable?",
+    "options": [
+      "list",
+      "dictionary",
+      "tuple",
+      "set"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which operator is used for exponentiation in Python?",
+    "options": [
+      "^",
+      "**",
+      "//",
+      "%%"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which operator performs floor division in Python?",
+    "options": [
+      "//",
+      "/",
+      "%",
+      "**"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "What does len() return when applied to a sequence?",
+    "options": [
+      "The data type",
+      "The last element",
+      "The number of elements",
+      "The memory address"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which keyword is used to import a module in Python?",
+    "options": [
+      "include",
+      "using",
+      "require",
+      "import"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which method adds an element to the end of a Python list?",
+    "options": [
+      "append()",
+      "add()",
+      "insertEnd()",
+      "push()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which method removes and returns the last item from a list by default?",
+    "options": [
+      "remove()",
+      "pop()",
+      "delete()",
+      "discard()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "What is indentation used for in Python?",
+    "options": [
+      "Naming variables",
+      "Importing modules",
+      "Defining code blocks",
+      "Creating comments"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which value represents the absence of a value in Python?",
+    "options": [
+      "empty",
+      "undefined",
+      "void",
+      "None"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which built-in function returns the largest item in an iterable?",
+    "options": [
+      "max()",
+      "large()",
+      "highest()",
+      "top()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which built-in function returns the smallest item in an iterable?",
+    "options": [
+      "small()",
+      "min()",
+      "lowest()",
+      "least()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which function converts a value into an integer when possible?",
+    "options": [
+      "number()",
+      "integer()",
+      "int()",
+      "toInt()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which function converts a value into a floating-point number?",
+    "options": [
+      "decimal()",
+      "number()",
+      "floatValue()",
+      "float()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "What is a lambda function in Python?",
+    "options": [
+      "A small anonymous function",
+      "A database function",
+      "A class constructor",
+      "A file handler"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which keyword is used to return a value from a Python function?",
+    "options": [
+      "send",
+      "return",
+      "output",
+      "yield-value"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which syntax creates a set containing the values 1, 2, and 3?",
+    "options": [
+      "[1, 2, 3]",
+      "(1, 2, 3)",
+      "{1, 2, 3}",
+      "<1, 2, 3>"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which method can be used to get a value from a dictionary using a key?",
+    "options": [
+      "fetch()",
+      "find()",
+      "value()",
+      "get()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which keyword is used to produce values from a generator?",
+    "options": [
+      "yield",
+      "generate",
+      "produce",
+      "nextValue"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Python Programming",
+    "question": "Which library is commonly used in Python for numerical computing with arrays?",
+    "options": [
+      "Requests",
+      "NumPy",
+      "Flask",
+      "BeautifulSoup"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which keyword is used to define a class in Java?",
+    "options": [
+      "class",
+      "define",
+      "struct",
+      "object"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which method is the entry point of a Java application?",
+    "options": [
+      "start()",
+      "run()",
+      "main()",
+      "execute()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which keyword is used to create an object in Java?",
+    "options": [
+      "create",
+      "new",
+      "object",
+      "instance"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which data type is used to store a whole number in Java?",
+    "options": [
+      "double",
+      "char",
+      "boolean",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": [
+      "extends",
+      "inherits",
+      "implements",
+      "super"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which keyword is used when a class implements an interface?",
+    "options": [
+      "extends",
+      "interface",
+      "implements",
+      "inherits"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which keyword refers to the current object in Java?",
+    "options": [
+      "self",
+      "this",
+      "current",
+      "object"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which keyword is used to refer to the parent class?",
+    "options": [
+      "parent",
+      "base",
+      "this",
+      "super"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which concept allows the same method name with different parameters?",
+    "options": [
+      "Method overloading",
+      "Inheritance",
+      "Encapsulation",
+      "Abstraction"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which concept allows a subclass to provide its own implementation of a parent method?",
+    "options": [
+      "Overloading",
+      "Compilation",
+      "Method overriding",
+      "Casting"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which access modifier provides the widest access?",
+    "options": [
+      "private",
+      "public",
+      "protected",
+      "default"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which access modifier restricts access to the same class?",
+    "options": [
+      "public",
+      "protected",
+      "default",
+      "private"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which keyword is used to prevent a class from being inherited?",
+    "options": [
+      "final",
+      "static",
+      "const",
+      "sealed"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which keyword is used to declare a constant variable in Java?",
+    "options": [
+      "constant",
+      "const",
+      "final",
+      "static"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which collection does not allow duplicate elements?",
+    "options": [
+      "List",
+      "Set",
+      "ArrayList",
+      "Vector"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which collection stores elements as key-value pairs?",
+    "options": [
+      "Set",
+      "List",
+      "Queue",
+      "Map"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which interface is commonly implemented by ArrayList?",
+    "options": [
+      "List",
+      "Set",
+      "Map",
+      "Queue"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which block is used to handle an exception?",
+    "options": [
+      "handle",
+      "catch",
+      "error",
+      "exception"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which block executes whether or not an exception occurs?",
+    "options": [
+      "catch",
+      "throw",
+      "finally",
+      "error"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which keyword is used to explicitly throw an exception?",
+    "options": [
+      "throws",
+      "exception",
+      "catch",
+      "throw"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which keyword declares that a method may throw exceptions?",
+    "options": [
+      "throws",
+      "throw",
+      "exception",
+      "catch"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which feature automatically manages unused objects in Java?",
+    "options": [
+      "Destructor",
+      "Garbage collection",
+      "Memory deletion",
+      "Pointer management"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "What does JVM stand for?",
+    "options": [
+      "Java Variable Machine",
+      "Java Virtual Memory",
+      "Java Virtual Machine",
+      "Java Verified Machine"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "What does JDK stand for?",
+    "options": [
+      "Java Development Kernel",
+      "Java Deployment Kit",
+      "Java Debugging Kit",
+      "Java Development Kit"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which command is commonly used to compile a Java source file?",
+    "options": [
+      "javac",
+      "java",
+      "compile",
+      "jcompile"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which command is commonly used to run a compiled Java class?",
+    "options": [
+      "javac",
+      "java",
+      "runjava",
+      "jrun"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which primitive type stores a single character?",
+    "options": [
+      "String",
+      "text",
+      "char",
+      "character"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which primitive type stores true or false values?",
+    "options": [
+      "int",
+      "BooleanObject",
+      "bit",
+      "boolean"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which keyword is used to define an interface?",
+    "options": [
+      "interface",
+      "implements",
+      "abstract",
+      "contract"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Java Programming",
+    "question": "Which OOP principle combines data and methods within a class?",
+    "options": [
+      "Inheritance",
+      "Encapsulation",
+      "Polymorphism",
+      "Compilation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which keyword can be used to declare a block-scoped variable that can be reassigned?",
+    "options": [
+      "var",
+      "const",
+      "let",
+      "define"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which keyword declares a block-scoped variable that cannot be reassigned?",
+    "options": [
+      "let",
+      "var",
+      "static",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which function is commonly used to display a message in the browser console?",
+    "options": [
+      "console.log()",
+      "print.console()",
+      "log.console()",
+      "display()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which operator checks equality without type conversion?",
+    "options": [
+      "==",
+      "===",
+      "=",
+      "!="
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which method adds an element to the end of an array?",
+    "options": [
+      "add()",
+      "insert()",
+      "push()",
+      "append()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which method removes the last element from an array?",
+    "options": [
+      "removeLast()",
+      "delete()",
+      "shift()",
+      "pop()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which method adds an element to the beginning of an array?",
+    "options": [
+      "unshift()",
+      "prepend()",
+      "start()",
+      "addFirst()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which method removes the first element from an array?",
+    "options": [
+      "removeFirst()",
+      "shift()",
+      "pop()",
+      "deleteFirst()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which value represents an intentional absence of a value in JavaScript?",
+    "options": [
+      "undefined",
+      "empty",
+      "null",
+      "voidValue"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which value indicates that a variable has been declared but not assigned a value?",
+    "options": [
+      "null",
+      "empty",
+      "void",
+      "undefined"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which syntax is used for an arrow function?",
+    "options": [
+      "() => {}",
+      "function => {}",
+      "arrow() {}",
+      "=> function()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which method creates a new array by transforming each element?",
+    "options": [
+      "forEach()",
+      "map()",
+      "change()",
+      "transformArray()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which method creates a new array containing elements that pass a condition?",
+    "options": [
+      "map()",
+      "select()",
+      "filter()",
+      "where()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which method reduces an array to a single value?",
+    "options": [
+      "combine()",
+      "collect()",
+      "single()",
+      "reduce()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which keyword is used to declare an asynchronous function?",
+    "options": [
+      "async",
+      "await",
+      "promise",
+      "defer"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which keyword is used inside an async function to wait for a Promise?",
+    "options": [
+      "wait",
+      "await",
+      "pause",
+      "asyncWait"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "What does JSON stand for?",
+    "options": [
+      "Java Source Object Notation",
+      "JavaScript Online Network",
+      "JavaScript Object Notation",
+      "Java Structured Object Name"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which method converts a JavaScript object into a JSON string?",
+    "options": [
+      "JSON.parse()",
+      "JSON.convert()",
+      "JSON.object()",
+      "JSON.stringify()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which method converts a JSON string into a JavaScript object?",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.object()",
+      "JSON.convert()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which operator is used to combine strings in JavaScript?",
+    "options": [
+      "*",
+      "+",
+      "&",
+      "#"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which syntax is used for template literals?",
+    "options": [
+      "Single quotes",
+      "Double quotes",
+      "Backticks",
+      "Parentheses"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which keyword refers to the current execution context in a regular object method?",
+    "options": [
+      "self",
+      "current",
+      "object",
+      "this"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which statement is used to make a decision based on a condition?",
+    "options": [
+      "if",
+      "loop",
+      "switchOnly",
+      "condition"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which loop is commonly used when iterating over the values of an iterable?",
+    "options": [
+      "for-in",
+      "for-of",
+      "foreach-loop",
+      "iterate"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which object represents the eventual completion or failure of an asynchronous operation?",
+    "options": [
+      "Callback",
+      "Event",
+      "Promise",
+      "Timer"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which method is commonly used to execute code after a Promise is fulfilled?",
+    "options": [
+      "success()",
+      "done()",
+      "resolve()",
+      "then()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which method can be used to find the first array element that satisfies a condition?",
+    "options": [
+      "find()",
+      "search()",
+      "first()",
+      "locate()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which feature allows values to be extracted from arrays or objects into variables?",
+    "options": [
+      "Spreading",
+      "Destructuring",
+      "Casting",
+      "Wrapping"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which syntax is commonly used to copy or merge iterable elements into another array?",
+    "options": [
+      "Rest syntax only",
+      "Object syntax",
+      "Spread syntax",
+      "Merge syntax"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "JavaScript Fundamentals",
+    "question": "Which method schedules a function to run after a specified delay?",
+    "options": [
+      "delayRun()",
+      "wait()",
+      "schedule()",
+      "setTimeout()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which function is the entry point of a C program?",
+    "options": [
+      "main()",
+      "start()",
+      "run()",
+      "execute()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which header file is commonly used for printf() and scanf()?",
+    "options": [
+      "string.h",
+      "stdio.h",
+      "stdlib.h",
+      "math.h"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which data type is commonly used to store whole numbers in C?",
+    "options": [
+      "float",
+      "char",
+      "int",
+      "double"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which format specifier is commonly used to print an integer using printf()?",
+    "options": [
+      "%f",
+      "%c",
+      "%s",
+      "%d"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which symbol is used to terminate a statement in C?",
+    "options": [
+      ";",
+      ":",
+      ".",
+      ","
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which operator is used to obtain the address of a variable?",
+    "options": [
+      "*",
+      "&",
+      "#",
+      "@"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which operator is used to dereference a pointer?",
+    "options": [
+      "&",
+      "%",
+      "*",
+      "->"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which keyword is used to define a constant variable in C?",
+    "options": [
+      "fixed",
+      "constant",
+      "readonly",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which loop is commonly used when the number of iterations is known?",
+    "options": [
+      "for",
+      "while",
+      "do-while",
+      "repeat"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which statement immediately exits a loop?",
+    "options": [
+      "stop",
+      "break",
+      "exitLoop",
+      "terminate"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which statement skips the remaining code in the current loop iteration?",
+    "options": [
+      "skip",
+      "next",
+      "continue",
+      "pass"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which keyword is used to return a value from a function?",
+    "options": [
+      "send",
+      "output",
+      "give",
+      "return"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which data structure stores multiple values of the same type in contiguous memory?",
+    "options": [
+      "Array",
+      "Structure",
+      "Pointer",
+      "Function"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which keyword is used to define a structure in C?",
+    "options": [
+      "record",
+      "struct",
+      "structure",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which function is commonly used to allocate memory dynamically?",
+    "options": [
+      "alloc()",
+      "create()",
+      "malloc()",
+      "new()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which function is used to release dynamically allocated memory?",
+    "options": [
+      "delete()",
+      "remove()",
+      "clear()",
+      "free()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which header file contains malloc() and free()?",
+    "options": [
+      "stdlib.h",
+      "stdio.h",
+      "string.h",
+      "memory.h"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which function is used to compare two strings in C?",
+    "options": [
+      "compare()",
+      "strcmp()",
+      "strcompare()",
+      "equals()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which header file contains common string handling functions?",
+    "options": [
+      "stdio.h",
+      "stdlib.h",
+      "string.h",
+      "ctype.h"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which character marks the end of a C string?",
+    "options": [
+      "\\n",
+      "\\r",
+      "\\0",
+      "\\t"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "What does a pointer store?",
+    "options": [
+      "A memory address",
+      "Only a character",
+      "Only a function name",
+      "A file extension"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which operator is used for logical AND in C?",
+    "options": [
+      "||",
+      "&&",
+      "&",
+      "AND"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which operator is used for logical OR in C?",
+    "options": [
+      "|",
+      "OR",
+      "||",
+      "&&"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which operator represents logical NOT in C?",
+    "options": [
+      "~",
+      "!=",
+      "NOT",
+      "!"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which keyword is used to define an enumeration in C?",
+    "options": [
+      "enum",
+      "enumeration",
+      "list",
+      "constset"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which storage class preserves a local variable's value between function calls?",
+    "options": [
+      "auto",
+      "static",
+      "register",
+      "extern"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which keyword indicates that a variable may be modified by something outside the normal program flow?",
+    "options": [
+      "external",
+      "dynamic",
+      "volatile",
+      "mutable"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which preprocessor directive is used to include a header file?",
+    "options": [
+      "#define",
+      "#header",
+      "#import",
+      "#include"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which operator is used to access a structure member through a structure variable?",
+    "options": [
+      ".",
+      "->",
+      "::",
+      "*"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "C Programming",
+    "question": "Which operator is used to access a structure member through a pointer?",
+    "options": [
+      ".",
+      "->",
+      "::",
+      "&"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What is an object in object-oriented programming?",
+    "options": [
+      "An instance of a class",
+      "A database table",
+      "A compiler instruction",
+      "A type of loop"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What is a class primarily used for?",
+    "options": [
+      "Storing files",
+      "Defining the structure and behavior of objects",
+      "Connecting to the internet",
+      "Managing operating system processes"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "Which OOP concept combines data and methods within a single unit?",
+    "options": [
+      "Inheritance",
+      "Polymorphism",
+      "Encapsulation",
+      "Compilation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What does inheritance allow a class to do?",
+    "options": [
+      "Create database tables",
+      "Acquire properties and behavior from another class",
+      "Delete another class",
+      "Prevent object creation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What is polymorphism in OOP?",
+    "options": [
+      "Ability of objects to take different forms",
+      "Ability to store only numbers",
+      "Ability to hide all classes",
+      "Ability to create databases"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "Which concept is mainly concerned with hiding internal implementation details?",
+    "options": [
+      "Inheritance",
+      "Abstraction",
+      "Compilation",
+      "Iteration"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "Which access modifier generally restricts direct access to members within the class?",
+    "options": [
+      "public",
+      "protected",
+      "private",
+      "global"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What is a constructor?",
+    "options": [
+      "A method used to initialize an object",
+      "A method used only to delete files",
+      "A database command",
+      "A loop statement"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "Which OOP principle helps reduce code duplication by reusing existing class behavior?",
+    "options": [
+      "Encapsulation",
+      "Inheritance",
+      "Abstraction",
+      "Overloading"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What is method overloading?",
+    "options": [
+      "Using multiple methods with the same name but different parameter lists",
+      "Deleting an inherited method",
+      "Using methods without a class",
+      "Calling a method from another application"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What is method overriding?",
+    "options": [
+      "Creating a new variable",
+      "Replacing an inherited method implementation in a subclass",
+      "Removing a class",
+      "Changing a database schema"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "Which relationship represents an 'is-a' relationship?",
+    "options": [
+      "Inheritance",
+      "Composition",
+      "Aggregation",
+      "Association only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "Which relationship commonly represents a 'has-a' relationship?",
+    "options": [
+      "Inheritance",
+      "Composition",
+      "Overriding",
+      "Polymorphism"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What is abstraction used for?",
+    "options": [
+      "Showing only relevant details while hiding unnecessary complexity",
+      "Making every class public",
+      "Removing all methods",
+      "Creating duplicate objects"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What does encapsulation help protect?",
+    "options": [
+      "Source code files from compilation",
+      "Object data and its implementation details",
+      "Internet connections",
+      "Operating system drivers"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "Which OOP concept allows the same interface to represent different implementations?",
+    "options": [
+      "Inheritance",
+      "Encapsulation",
+      "Polymorphism",
+      "Instantiation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What is instantiation?",
+    "options": [
+      "Creating an object from a class",
+      "Deleting a class",
+      "Compiling an operating system",
+      "Creating a database"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "Which principle encourages programming to a general interface rather than a concrete implementation?",
+    "options": [
+      "Abstraction",
+      "Encapsulation",
+      "Inheritance",
+      "Iteration"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What is an interface generally used to define?",
+    "options": [
+      "A database connection",
+      "A contract of methods or behavior that implementing classes should provide",
+      "A computer's memory",
+      "A file storage format"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What is a superclass?",
+    "options": [
+      "A class whose properties or behavior can be inherited by another class",
+      "An object with no methods",
+      "A database record",
+      "A private variable"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What is a subclass?",
+    "options": [
+      "A class that inherits from another class",
+      "A class that cannot contain methods",
+      "A database table",
+      "A programming language"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "Which concept allows an object to contain another object as one of its members?",
+    "options": [
+      "Composition",
+      "Compilation",
+      "Overloading",
+      "Casting"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What is a static member generally associated with?",
+    "options": [
+      "A specific object only",
+      "The class rather than an individual object",
+      "The operating system",
+      "A database server"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "Which OOP feature is useful when different classes provide their own implementation of the same operation?",
+    "options": [
+      "Polymorphism",
+      "Encapsulation",
+      "Instantiation",
+      "Serialization"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What is an abstract class?",
+    "options": [
+      "A class that cannot generally be instantiated directly",
+      "A class containing only variables",
+      "A class that cannot have methods",
+      "A class used only for databases"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "Which principle improves maintainability by keeping an object's internal state controlled through methods?",
+    "options": [
+      "Inheritance",
+      "Encapsulation",
+      "Polymorphism",
+      "Recursion"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What does coupling describe in software design?",
+    "options": [
+      "The level of dependency between modules or classes",
+      "The number of variables in a program",
+      "The size of a database",
+      "The speed of a compiler"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What does high cohesion generally mean?",
+    "options": [
+      "A class has unrelated responsibilities",
+      "A class focuses on closely related responsibilities",
+      "A program has no objects",
+      "All classes are inherited"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "Which approach generally favors composing objects instead of relying heavily on inheritance?",
+    "options": [
+      "Composition",
+      "Recursion",
+      "Compilation",
+      "Overloading"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Object-Oriented Programming",
+    "question": "What is the main purpose of a destructor in languages that support deterministic destruction?",
+    "options": [
+      "To initialize an object",
+      "To perform cleanup when an object is destroyed",
+      "To create a subclass",
+      "To overload a method"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is the software development life cycle (SDLC)?",
+    "options": [
+      "A process used to plan, develop, test, deploy, and maintain software",
+      "A programming language",
+      "A database management tool",
+      "A hardware manufacturing process"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "Which SDLC phase focuses on understanding what users and stakeholders need?",
+    "options": [
+      "Deployment",
+      "Requirements analysis",
+      "Maintenance",
+      "Testing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is a functional requirement?",
+    "options": [
+      "A requirement describing what the system should do",
+      "A requirement describing server hardware only",
+      "A requirement about employee attendance",
+      "A requirement for software licensing only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is a non-functional requirement?",
+    "options": [
+      "A requirement describing a specific business function",
+      "A requirement related to qualities such as performance, security, or usability",
+      "A requirement for writing comments",
+      "A requirement for creating variables"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is the primary purpose of software testing?",
+    "options": [
+      "To identify defects and verify that software behaves as expected",
+      "To increase the number of source files",
+      "To replace requirements gathering",
+      "To eliminate documentation"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is unit testing?",
+    "options": [
+      "Testing the entire production environment",
+      "Testing individual units or components of software",
+      "Testing only network cables",
+      "Testing employee performance"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is integration testing?",
+    "options": [
+      "Testing interactions between combined modules or components",
+      "Testing only one variable",
+      "Testing the user interface design only",
+      "Testing hardware manufacturing"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is system testing?",
+    "options": [
+      "Testing individual functions only",
+      "Testing the complete integrated software system",
+      "Testing source code formatting",
+      "Testing only database passwords"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is a software bug?",
+    "options": [
+      "A defect or error that causes software to behave incorrectly",
+      "A software license",
+      "A design document",
+      "A deployment server"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is debugging?",
+    "options": [
+      "Creating new hardware",
+      "Finding and fixing defects in software",
+      "Writing project requirements",
+      "Installing an operating system"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is software deployment?",
+    "options": [
+      "Making software available in a target environment for use",
+      "Writing the first line of code",
+      "Deleting source code",
+      "Creating a project requirement"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is software maintenance?",
+    "options": [
+      "Changing or updating software after deployment",
+      "Only designing the initial interface",
+      "Creating a programming language",
+      "Removing all tests"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "Which development model follows a sequential approach with distinct phases?",
+    "options": [
+      "Agile",
+      "Waterfall",
+      "Kanban",
+      "Scrum"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is Agile development mainly focused on?",
+    "options": [
+      "Rigidly completing all requirements before feedback",
+      "Iterative development, collaboration, and responding to change",
+      "Avoiding customer involvement",
+      "Eliminating testing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is a software prototype?",
+    "options": [
+      "An early model used to explore or validate ideas",
+      "A final production database",
+      "A compiler error",
+      "A version control command"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "Why is documentation important in software development?",
+    "options": [
+      "It helps communicate system information and supports maintenance",
+      "It prevents software from being tested",
+      "It replaces source code",
+      "It makes applications run automatically"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is code review?",
+    "options": [
+      "A process of examining source code to identify issues and improve quality",
+      "A process of deleting old projects",
+      "A method of creating databases",
+      "A hardware testing procedure"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What does software scalability refer to?",
+    "options": [
+      "The ability of software to handle increased workload or users effectively",
+      "The number of comments in source code",
+      "The color of an interface",
+      "The number of developers in a team"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is software reliability?",
+    "options": [
+      "The ability of software to perform consistently without failure under specified conditions",
+      "The speed of writing code",
+      "The number of files in a project",
+      "The visual design of a website"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is an API?",
+    "options": [
+      "A set of rules or interfaces that allows software systems to communicate",
+      "A type of operating system",
+      "A programming editor",
+      "A hardware component"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is a database used for in most software applications?",
+    "options": [
+      "Storing and managing structured data",
+      "Compiling JavaScript",
+      "Designing logos",
+      "Testing network cables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is a software architecture?",
+    "options": [
+      "The high-level structure and organization of a software system",
+      "A programming variable",
+      "A testing script only",
+      "A user password"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is modularity in software design?",
+    "options": [
+      "Dividing software into smaller, manageable components",
+      "Writing all code in one function",
+      "Removing all dependencies",
+      "Avoiding reusable code"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is refactoring?",
+    "options": [
+      "Improving internal code structure without changing its intended behavior",
+      "Adding random features",
+      "Deleting all tests",
+      "Changing the operating system"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is technical debt?",
+    "options": [
+      "The future cost caused by choosing quick or imperfect technical solutions",
+      "Money borrowed to purchase computers",
+      "A software subscription",
+      "A database transaction"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is continuous integration (CI)?",
+    "options": [
+      "Frequently integrating code changes into a shared codebase with automated checks",
+      "Deploying software only once",
+      "Avoiding automated testing",
+      "Writing code without version control"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is continuous delivery primarily intended to achieve?",
+    "options": [
+      "Keep software in a releasable state through automated processes",
+      "Prevent all deployments",
+      "Remove source control",
+      "Eliminate testing"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "Why are coding standards used?",
+    "options": [
+      "To promote consistent, readable, and maintainable code",
+      "To prevent developers from testing code",
+      "To replace software architecture",
+      "To increase application errors"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is the purpose of a software release?",
+    "options": [
+      "To make a particular version of software available to users or a target environment",
+      "To delete the project repository",
+      "To remove all documentation",
+      "To disable application features"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Software Development Fundamentals",
+    "question": "What is risk management in software development?",
+    "options": [
+      "Identifying, analyzing, and addressing potential project or technical risks",
+      "Writing code without requirements",
+      "Avoiding all communication",
+      "Deleting project plans"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "What is Git?",
+    "options": [
+      "A distributed version control system",
+      "A database management system",
+      "A programming language",
+      "A web browser"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "What is the main purpose of version control?",
+    "options": [
+      "To track changes to files and support collaboration",
+      "To compile source code",
+      "To design user interfaces",
+      "To manage computer hardware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which command initializes a new Git repository?",
+    "options": [
+      "git start",
+      "git init",
+      "git create",
+      "git new"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which command shows the current state of the working directory?",
+    "options": [
+      "git status",
+      "git state",
+      "git check",
+      "git info"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which command stages a file for the next commit?",
+    "options": [
+      "git stage-file",
+      "git add",
+      "git commit-file",
+      "git prepare"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which command records staged changes in the local repository?",
+    "options": [
+      "git save",
+      "git record",
+      "git commit",
+      "git store"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which command is commonly used to view commit history?",
+    "options": [
+      "git history",
+      "git log",
+      "git commits",
+      "git timeline"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "What is a Git branch?",
+    "options": [
+      "An independent line of development",
+      "A database table",
+      "A compiler",
+      "A backup drive"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which command creates a new branch?",
+    "options": [
+      "git branch branch-name",
+      "git new-branch branch-name",
+      "git create branch-name",
+      "git make branch-name"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which command switches to another branch in Git?",
+    "options": [
+      "git move",
+      "git switch",
+      "git transfer",
+      "git change"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "What does merging branches do?",
+    "options": [
+      "Combines changes from one branch into another",
+      "Deletes the entire repository",
+      "Creates a new programming language",
+      "Removes all commits"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "What is a merge conflict?",
+    "options": [
+      "A situation where Git cannot automatically combine conflicting changes",
+      "A failed internet connection",
+      "A deleted repository",
+      "A missing compiler"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which command downloads changes from a remote repository and integrates them into the current branch?",
+    "options": [
+      "git fetch",
+      "git pull",
+      "git download",
+      "git receive"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which command uploads local commits to a remote repository?",
+    "options": [
+      "git upload",
+      "git send",
+      "git push",
+      "git publish"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "What is a remote repository?",
+    "options": [
+      "A repository hosted separately from the local development environment",
+      "A local temporary file",
+      "A programming editor",
+      "A compiler cache"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which command copies a remote repository to a local machine?",
+    "options": [
+      "git copy",
+      "git clone",
+      "git download",
+      "git mirror"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "What is a Git commit?",
+    "options": [
+      "A snapshot of staged changes recorded in the repository",
+      "A remote server",
+      "A branch name",
+      "A configuration file"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "What is the staging area in Git?",
+    "options": [
+      "An area where selected changes are prepared before committing",
+      "A remote hosting service",
+      "A backup server",
+      "A compiler workspace"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which file is commonly used to specify files Git should ignore?",
+    "options": [
+      ".gitignore",
+      ".gitfiles",
+      ".ignoregit",
+      "git.ignore"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "What does git diff commonly show?",
+    "options": [
+      "Changes between different states of files",
+      "The list of installed applications",
+      "The operating system version",
+      "Remote server hardware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "What does git fetch do?",
+    "options": [
+      "Downloads remote changes without automatically merging them into the current branch",
+      "Deletes remote branches",
+      "Creates a local repository",
+      "Commits local changes"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "What is HEAD in Git?",
+    "options": [
+      "A reference to the currently checked-out commit or branch position",
+      "The repository owner",
+      "A remote server",
+      "A configuration file"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which command can be used to rename the current branch?",
+    "options": [
+      "git branch -m new-name",
+      "git rename new-name",
+      "git branch -r new-name",
+      "git change-branch new-name"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "What is a tag in Git commonly used for?",
+    "options": [
+      "Marking a specific point such as a release",
+      "Storing passwords",
+      "Creating database tables",
+      "Starting a development server"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which command creates a lightweight Git tag?",
+    "options": [
+      "git tag version-name",
+      "git create-tag version-name",
+      "git mark version-name",
+      "git release-tag version-name"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "What is GitHub commonly used for?",
+    "options": [
+      "Hosting Git repositories and supporting collaboration",
+      "Compiling C++ programs only",
+      "Managing computer memory",
+      "Designing hardware circuits"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "What is a pull request?",
+    "options": [
+      "A request to review and merge changes into another branch",
+      "A command to delete a repository",
+      "A request to install Git",
+      "A method of downloading an operating system"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Why are meaningful commit messages important?",
+    "options": [
+      "They help explain the purpose of changes in project history",
+      "They increase processor speed",
+      "They replace source code",
+      "They prevent all merge conflicts"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which command can undo the most recent commit by creating a new commit that reverses its changes?",
+    "options": [
+      "git reset",
+      "git revert",
+      "git undo",
+      "git rollback-commit"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Software Development & Programming",
+    "program": "Git & Version Control",
+    "question": "Which Git command is used to create a new branch and switch to it immediately?",
+    "options": [
+      "git branch new-branch",
+      "git checkout -b new-branch",
+      "git switch-branch new-branch",
+      "git create new-branch"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  }
+]

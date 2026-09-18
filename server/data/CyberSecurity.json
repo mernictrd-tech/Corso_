@@ -1,0 +1,3782 @@
+[
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is cybersecurity?",
+    "options": [
+      "A method of creating databases",
+      "The practice of protecting systems, networks, and data from digital threats",
+      "A type of computer hardware",
+      "The process of designing websites"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "Which three principles form the CIA triad?",
+    "options": [
+      "Cloud, Identity, Authentication",
+      "Control, Internet, Access",
+      "Communication, Inspection, Authorization",
+      "Confidentiality, Integrity, Availability"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What does confidentiality mean in cybersecurity?",
+    "options": [
+      "Information is accessible only to authorized parties",
+      "All data is stored publicly",
+      "Data can never be changed",
+      "Data is always available"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What does integrity protect?",
+    "options": [
+      "User identity",
+      "Network speed",
+      "The accuracy and trustworthiness of data",
+      "System availability"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What does availability mean?",
+    "options": [
+      "Only administrators can access systems",
+      "Authorized users can access systems and data when needed",
+      "All data is public",
+      "Passwords are never changed"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is a threat?",
+    "options": [
+      "A software update",
+      "A potential cause of harm to a system or organization",
+      "A backup copy",
+      "A security policy"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is a vulnerability?",
+    "options": [
+      "A user account",
+      "A backup strategy",
+      "A security control",
+      "A weakness that could be exploited"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is risk in cybersecurity?",
+    "options": [
+      "A network protocol",
+      "The potential for a threat to exploit a vulnerability and cause harm",
+      "A password policy",
+      "A type of firewall"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is malware?",
+    "options": [
+      "A secure network",
+      "An encryption standard",
+      "Malicious software designed to harm or misuse systems",
+      "A backup system"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "Which malware type can replicate itself and spread between systems?",
+    "options": [
+      "Worm",
+      "Firewall",
+      "Spyware",
+      "Adware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is ransomware?",
+    "options": [
+      "A security certificate",
+      "A network monitoring tool",
+      "Malware that typically blocks access to data or systems and demands payment",
+      "A password manager"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is phishing?",
+    "options": [
+      "A network monitoring technique",
+      "A type of database",
+      "A method of encrypting files",
+      "A social engineering technique used to trick people into revealing information"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is social engineering?",
+    "options": [
+      "Manipulating people into taking actions or revealing information",
+      "Creating operating systems",
+      "Building network hardware",
+      "Encrypting databases"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is authentication?",
+    "options": [
+      "Monitoring network traffic",
+      "Verifying the identity of a user or system",
+      "Giving a user permissions",
+      "Encrypting a hard drive"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is authorization?",
+    "options": [
+      "Determining what an authenticated user is allowed to access",
+      "Detecting malware",
+      "Verifying a password",
+      "Encrypting data"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is multi-factor authentication?",
+    "options": [
+      "Using multiple usernames",
+      "Using multiple passwords",
+      "Using two or more different authentication factors",
+      "Sharing one account between users"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "Which is an example of something you know for authentication?",
+    "options": [
+      "A security token",
+      "A password",
+      "A face scan",
+      "A fingerprint"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "Which is an example of biometric authentication?",
+    "options": [
+      "Fingerprint",
+      "Security question",
+      "Password",
+      "PIN"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is encryption?",
+    "options": [
+      "Copying information to another server",
+      "Converting readable data into protected encoded data",
+      "Compressing information",
+      "Deleting information"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is decryption?",
+    "options": [
+      "Creating a firewall",
+      "Creating a password",
+      "Converting encrypted data back into readable form",
+      "Deleting encrypted data"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is hashing?",
+    "options": [
+      "A process that transforms data into a fixed-length value",
+      "A type of firewall",
+      "A method of sending emails",
+      "A network cable"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is the purpose of a digital signature?",
+    "options": [
+      "To create backups",
+      "To help verify authenticity and integrity of digital information",
+      "To delete files",
+      "To increase network speed"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is a security policy?",
+    "options": [
+      "A hardware component",
+      "A programming language",
+      "A set of rules and guidelines for protecting organizational resources",
+      "A database"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is a firewall?",
+    "options": [
+      "A security control that filters network traffic based on rules",
+      "A data backup tool",
+      "A password manager",
+      "A malware scanner only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "Why are software updates important for security?",
+    "options": [
+      "They disable authentication",
+      "They can fix known vulnerabilities and security issues",
+      "They make all systems public",
+      "They always remove user accounts"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is a security patch?",
+    "options": [
+      "A backup server",
+      "A type of network cable",
+      "An update that addresses a security vulnerability",
+      "A new user account"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is a security incident?",
+    "options": [
+      "A routine backup",
+      "An event that may compromise security",
+      "A successful software installation",
+      "A normal login"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is incident response?",
+    "options": [
+      "The process of preparing for, detecting, responding to, and recovering from security incidents",
+      "A database management technique",
+      "A way to increase storage",
+      "A method for designing websites"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "Why are backups important for cybersecurity?",
+    "options": [
+      "They prevent every malware infection",
+      "They can help restore data after accidental loss or security incidents",
+      "They eliminate all cyber threats",
+      "They replace authentication"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cybersecurity Fundamentals",
+    "question": "What is the principle of least privilege?",
+    "options": [
+      "Sharing accounts between employees",
+      "Giving users only the permissions necessary for their tasks",
+      "Removing all access controls",
+      "Giving every user administrator access"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is network security?",
+    "options": [
+      "Managing office documents",
+      "Protecting networks, devices, and data from unauthorized access and attacks",
+      "Creating databases",
+      "Designing websites"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is a firewall used for?",
+    "options": [
+      "Creating databases",
+      "Filtering network traffic according to security rules",
+      "Compressing files",
+      "Storing passwords"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What does IDS stand for?",
+    "options": [
+      "Information Delivery Service",
+      "Intrusion Detection System",
+      "Internal Defense System",
+      "Internet Data Service"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What does an IDS primarily do?",
+    "options": [
+      "Detects and alerts on potentially suspicious network activity",
+      "Creates user accounts",
+      "Blocks every internet connection",
+      "Encrypts all stored data"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What does IPS stand for?",
+    "options": [
+      "Internal Processing System",
+      "Internet Protection Service",
+      "Intrusion Prevention System",
+      "Information Privacy Service"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is the main difference between IDS and IPS?",
+    "options": [
+      "IDS manages users while IPS manages databases",
+      "IDS detects activity while IPS can also take preventive action",
+      "IDS encrypts data while IPS decrypts it",
+      "IDS stores data while IPS deletes data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is a VPN?",
+    "options": [
+      "A physical firewall",
+      "A technology that creates an encrypted connection over a network",
+      "A database server",
+      "A type of malware"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is network segmentation?",
+    "options": [
+      "Disabling firewalls",
+      "Removing all network devices",
+      "Dividing a network into separate segments to improve control and security",
+      "Combining all networks into one"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is a secure protocol?",
+    "options": [
+      "A protocol that requires no network",
+      "A protocol used only for gaming",
+      "A protocol that provides security protections such as encryption or authentication",
+      "A protocol that disables security"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "Which protocol is commonly used to securely access websites?",
+    "options": [
+      "Telnet",
+      "HTTP",
+      "HTTPS",
+      "FTP"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is DNS?",
+    "options": [
+      "A system that translates domain names into IP addresses",
+      "A type of antivirus software",
+      "A file encryption method",
+      "A firewall technology"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is a DDoS attack?",
+    "options": [
+      "A database backup",
+      "An attack that attempts to overwhelm a service with large amounts of traffic",
+      "A password recovery process",
+      "An attack that encrypts only one file"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is network access control?",
+    "options": [
+      "Creating websites",
+      "Increasing internet speed",
+      "Controlling which users or devices can access network resources",
+      "Compressing network files"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is a proxy server?",
+    "options": [
+      "A physical network cable",
+      "A password hashing algorithm",
+      "An intermediary between clients and other network services",
+      "A type of database"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is a network port?",
+    "options": [
+      "A logical endpoint used by network services",
+      "A password",
+      "A database record",
+      "A physical monitor connection only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "Why should unnecessary network ports be restricted?",
+    "options": [
+      "To reduce the potential attack surface",
+      "To increase the number of vulnerabilities",
+      "To disable encryption",
+      "To make all services publicly accessible"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is Wi-Fi encryption used for?",
+    "options": [
+      "Managing printers",
+      "Protecting wireless network communications",
+      "Creating databases",
+      "Increasing monitor resolution"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "Which is generally considered a stronger modern Wi-Fi security standard?",
+    "options": [
+      "No encryption",
+      "WPA3",
+      "Open Wi-Fi",
+      "WEP"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is a secure network architecture designed to do?",
+    "options": [
+      "Separate and protect network resources according to security requirements",
+      "Disable network monitoring",
+      "Remove all access controls",
+      "Allow unrestricted access"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is TLS commonly used for?",
+    "options": [
+      "Compressing images",
+      "Protecting data exchanged over networks",
+      "Creating physical networks",
+      "Managing database tables"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is a network monitoring system used for?",
+    "options": [
+      "Replacing firewalls",
+      "Deleting logs",
+      "Observing network performance and activity",
+      "Creating user passwords"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is an IP address?",
+    "options": [
+      "A security policy",
+      "A numerical address used to identify a device or network interface",
+      "A password",
+      "A type of malware"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is a MAC address?",
+    "options": [
+      "A password hash",
+      "A website address",
+      "A hardware-level network interface address",
+      "A database identifier"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is a secure remote access solution intended to provide?",
+    "options": [
+      "Controlled and protected access to internal resources",
+      "Anonymous administration",
+      "Unencrypted communication",
+      "Public access to every resource"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is zero trust?",
+    "options": [
+      "A network without monitoring",
+      "A security approach that continuously verifies access instead of automatically trusting users or devices",
+      "A policy of trusting every device",
+      "A method of disabling authentication"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is a security rule in a firewall?",
+    "options": [
+      "A user profile",
+      "A software license",
+      "A condition that determines whether specific network traffic is allowed or blocked",
+      "A database record"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "Why is network segmentation useful?",
+    "options": [
+      "It removes the need for authentication",
+      "It makes every device publicly accessible",
+      "It can limit the spread of threats between network areas",
+      "It eliminates all vulnerabilities"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is secure network configuration?",
+    "options": [
+      "Allowing unnecessary services",
+      "Configuring network devices according to security best practices",
+      "Using default passwords everywhere",
+      "Disabling all security controls"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "Why should network devices be updated regularly?",
+    "options": [
+      "Updates disable all encryption",
+      "Updates can address known vulnerabilities and improve security",
+      "Updates make passwords public",
+      "Updates always remove network access"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Network Security",
+    "question": "What is network traffic analysis?",
+    "options": [
+      "Creating websites",
+      "Changing user passwords",
+      "Examining network communications to identify performance or security issues",
+      "Deleting network traffic"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is ethical hacking?",
+    "options": [
+      "Stealing confidential information",
+      "Unauthorized access to systems",
+      "Authorized security testing performed to identify and help fix vulnerabilities",
+      "Disabling public services"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is the most important requirement before conducting a security test?",
+    "options": [
+      "Sharing test credentials publicly",
+      "Obtaining proper authorization and defining the scope",
+      "Using public tools",
+      "Disabling security controls"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is a vulnerability assessment?",
+    "options": [
+      "A process of identifying and evaluating security weaknesses",
+      "A method of deleting system logs",
+      "A method of stealing credentials",
+      "A process of creating malware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is penetration testing?",
+    "options": [
+      "Monitoring employee attendance",
+      "An authorized security test that attempts to validate whether vulnerabilities can be exploited",
+      "Creating user accounts",
+      "Installing office software"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is reconnaissance in security testing?",
+    "options": [
+      "Changing user passwords",
+      "Collecting information about a target within the authorized scope",
+      "Installing ransomware",
+      "Deleting system data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is vulnerability scanning?",
+    "options": [
+      "A method of creating user accounts",
+      "A process of encrypting every file",
+      "Using security tools to identify potentially vulnerable systems or services",
+      "A method for designing websites"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is the purpose of security testing?",
+    "options": [
+      "To bypass organizational policies",
+      "To identify weaknesses so they can be addressed",
+      "To steal data",
+      "To cause permanent damage"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is the scope of a penetration test?",
+    "options": [
+      "Only personal devices",
+      "Any system selected by the tester",
+      "Every system on the internet",
+      "The systems, applications, and activities that are explicitly authorized for testing"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is responsible disclosure?",
+    "options": [
+      "Ignoring vulnerabilities",
+      "Reporting discovered vulnerabilities through an appropriate and agreed process",
+      "Selling vulnerabilities secretly",
+      "Publishing sensitive details immediately"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is the primary purpose of ethical hacking?",
+    "options": [
+      "To identify and help fix security vulnerabilities with authorization",
+      "To steal confidential information",
+      "To damage computer systems",
+      "To gain unauthorized access to networks"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is a security finding?",
+    "options": [
+      "A physical server",
+      "A network cable",
+      "An identified security issue or observation from a security assessment",
+      "A database password"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is vulnerability severity?",
+    "options": [
+      "The speed of an internet connection",
+      "An assessment of how serious the potential impact of a vulnerability is",
+      "The number of employees",
+      "The size of a database"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "Why is documentation important during security testing?",
+    "options": [
+      "It provides a clear record of testing activities and findings",
+      "It makes vulnerabilities permanent",
+      "It removes the need for authorization",
+      "It allows testers to hide findings"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is threat modeling?",
+    "options": [
+      "A database backup method",
+      "A structured process for identifying threats and potential attack paths",
+      "A method of creating passwords",
+      "A tool for compressing files"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is an attack surface?",
+    "options": [
+      "A password database",
+      "The collection of possible entry points that could be targeted",
+      "A physical server room",
+      "A type of antivirus"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is the purpose of a security baseline?",
+    "options": [
+      "To disable monitoring",
+      "To define a minimum expected level of secure configuration",
+      "To remove all security controls",
+      "To make every system different"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is a false positive in security testing?",
+    "options": [
+      "A security patch",
+      "A reported issue that turns out not to be a real vulnerability",
+      "A confirmed vulnerability",
+      "A system with no security issues"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is a false negative?",
+    "options": [
+      "A security patch",
+      "A real security issue that was not detected by the assessment",
+      "A successful security test",
+      "A confirmed vulnerability"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is a security testing report?",
+    "options": [
+      "A firewall configuration",
+      "A malware sample",
+      "A document describing testing scope, findings, evidence, impact, and recommendations",
+      "A password file"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What should a tester do after discovering a critical vulnerability?",
+    "options": [
+      "Delete all evidence",
+      "Follow the agreed reporting and escalation process",
+      "Publish sensitive details immediately",
+      "Ignore it"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is ethical hacking primarily intended to improve?",
+    "options": [
+      "System disruption",
+      "The security posture of systems and organizations",
+      "Data theft",
+      "Unauthorized access"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is a security control?",
+    "options": [
+      "A database table",
+      "A safeguard designed to reduce security risks",
+      "A network cable",
+      "A programming language"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is vulnerability remediation?",
+    "options": [
+      "Ignoring a security finding",
+      "Taking steps to fix or reduce the risk associated with a vulnerability",
+      "Publishing a vulnerability",
+      "Finding a vulnerability only"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is security hardening?",
+    "options": [
+      "Reducing unnecessary functionality and strengthening system security",
+      "Making systems publicly accessible",
+      "Adding unnecessary services",
+      "Disabling authentication"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "Why should ethical hackers follow rules of engagement?",
+    "options": [
+      "To remove all security controls",
+      "To define authorized activities, limits, timing, and responsibilities",
+      "To gain unrestricted access",
+      "To avoid documenting findings"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is the main purpose of a vulnerability scanner?",
+    "options": [
+      "To disable security monitoring",
+      "To identify potential security weaknesses",
+      "To steal confidential data",
+      "To permanently damage systems"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "Why should security testing be performed in an authorized environment?",
+    "options": [
+      "To hide vulnerabilities",
+      "To ensure testing is permitted and does not improperly affect systems or users",
+      "To remove accountability",
+      "To bypass legal requirements"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is the difference between vulnerability assessment and penetration testing?",
+    "options": [
+      "Penetration testing never requires authorization",
+      "Vulnerability assessment identifies weaknesses, while penetration testing validates selected weaknesses through authorized testing",
+      "Vulnerability assessment only protects networks",
+      "They are always exactly identical"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is the best ethical approach when a test could affect production systems?",
+    "options": [
+      "Follow the approved scope and use appropriate safeguards to minimize impact",
+      "Disable all monitoring",
+      "Proceed without informing anyone",
+      "Ignore the possible impact"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Ethical Hacking Fundamentals",
+    "question": "What is the ultimate goal of an ethical hacking assessment?",
+    "options": [
+      "Steal confidential information",
+      "Help identify and reduce security weaknesses before they can cause harm",
+      "Gain permanent unauthorized access",
+      "Disrupt services"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is the primary purpose of a Security Operations Center (SOC)?",
+    "options": [
+      "To design company logos",
+      "To monitor, detect, analyze, and respond to security threats",
+      "To manage employee payroll",
+      "To develop marketing campaigns"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What does SIEM commonly stand for?",
+    "options": [
+      "Security Information and Event Management",
+      "Secure Internet Event Management",
+      "Security Infrastructure Endpoint Monitor",
+      "System Internet Encryption Module"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is the main role of a SOC analyst?",
+    "options": [
+      "Manage office equipment",
+      "Create product advertisements",
+      "Investigate and respond to security alerts",
+      "Design application interfaces"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is a security alert?",
+    "options": [
+      "A network configuration document",
+      "A routine employee notification",
+      "A scheduled software update",
+      "A notification indicating potentially suspicious or malicious activity"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is log analysis used for in a SOC?",
+    "options": [
+      "To create presentations",
+      "To identify suspicious patterns and security events",
+      "To increase monitor brightness",
+      "To manage office attendance"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What does an EDR solution primarily monitor?",
+    "options": [
+      "Employee salaries",
+      "Internet service billing",
+      "Endpoints such as computers and servers",
+      "Physical building access"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is alert triage?",
+    "options": [
+      "Prioritizing and evaluating alerts based on risk",
+      "Creating new user accounts",
+      "Deleting all security logs",
+      "Replacing network hardware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is a false positive in security monitoring?",
+    "options": [
+      "A critical system failure",
+      "A confirmed security breach",
+      "A successful malware infection",
+      "An alert that appears suspicious but is actually benign"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "Why is time synchronization important for security monitoring?",
+    "options": [
+      "It increases storage capacity",
+      "It helps correlate events accurately across systems",
+      "It removes the need for authentication",
+      "It improves keyboard performance"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is a security incident?",
+    "options": [
+      "A routine backup operation",
+      "A normal login by an authorized employee",
+      "An event that may compromise the confidentiality, integrity, or availability of systems or data",
+      "Any planned software installation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is threat detection?",
+    "options": [
+      "Identifying potentially malicious activity",
+      "Creating employee reports",
+      "Removing old computers",
+      "Designing websites"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is an escalation in SOC operations?",
+    "options": [
+      "Ignoring low-priority events",
+      "Deleting evidence",
+      "Closing every alert immediately",
+      "Passing a security issue to a higher-level analyst or response team"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is the purpose of a security dashboard?",
+    "options": [
+      "To disable security alerts",
+      "To provide a visual overview of security events and metrics",
+      "To replace all security controls",
+      "To store employee passwords"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What does IOC commonly mean in cybersecurity?",
+    "options": [
+      "Information Output Channel",
+      "Internet Operations Center",
+      "Indicator of Compromise",
+      "Internal Operating Configuration"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "Which activity is an example of security event correlation?",
+    "options": [
+      "Connecting related events from multiple systems to identify suspicious activity",
+      "Deleting unused applications",
+      "Changing a monitor's resolution",
+      "Printing a document"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is a playbook in SOC operations?",
+    "options": [
+      "A hardware inventory",
+      "A network cable diagram",
+      "A list of employee salaries",
+      "A documented set of steps for handling a specific security situation"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "Why should security logs be retained?",
+    "options": [
+      "To eliminate the need for monitoring",
+      "For investigation, auditing, and incident analysis",
+      "To replace antivirus software",
+      "To increase internet speed"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is a high-severity alert?",
+    "options": [
+      "A software license reminder",
+      "A printer status message",
+      "An alert indicating potentially significant security risk",
+      "A routine system notification"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is threat hunting?",
+    "options": [
+      "Proactively searching systems and data for signs of malicious activity",
+      "Replacing expired certificates",
+      "Searching for new office locations",
+      "Reviewing employee attendance"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "Why is documentation important during security investigations?",
+    "options": [
+      "It automatically removes malware",
+      "It prevents security tools from working",
+      "It reduces the need for monitoring",
+      "It creates a reliable record of findings and actions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is a SOC metric?",
+    "options": [
+      "A type of malware",
+      "A measurement used to evaluate security operations",
+      "A password format",
+      "A network cable"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What does MTTR commonly measure?",
+    "options": [
+      "Managed Traffic Transfer Ratio",
+      "Minimum Threat Testing Requirement",
+      "Mean Time to Respond or Recover",
+      "Maximum Threat Tracking Rate"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is an incident ticket used for?",
+    "options": [
+      "Tracking the investigation and resolution of a security issue",
+      "Ordering computer equipment",
+      "Managing employee vacations",
+      "Creating marketing campaigns"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is a detection rule?",
+    "options": [
+      "A network cable diagram",
+      "A defined condition used to identify potentially suspicious activity",
+      "A policy for employee promotions",
+      "A rule for physical building access"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is the benefit of automation in a SOC?",
+    "options": [
+      "It prevents all cyberattacks",
+      "It guarantees that every alert is malicious",
+      "It can reduce repetitive manual tasks and speed up response",
+      "It removes the need for security analysts"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is SOAR primarily designed to support?",
+    "options": [
+      "Security orchestration, automation, and response",
+      "Database storage",
+      "Graphic design",
+      "Software licensing"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is baseline behavior in security monitoring?",
+    "options": [
+      "A list of known malware",
+      "A backup encryption key",
+      "The most dangerous network activity",
+      "A representation of normal system or user activity used for comparison"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "Why should SOC alerts be prioritized?",
+    "options": [
+      "To remove the need for investigation",
+      "To ensure the most important threats receive attention first",
+      "To make reports longer",
+      "To reduce the number of employees"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is continuous monitoring?",
+    "options": [
+      "Checking security once per year",
+      "Removing all system logs",
+      "Ongoing observation of systems and security activity",
+      "Disabling network alerts"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Security Operations Center Fundamentals",
+    "question": "What is the primary goal of a SOC incident investigation?",
+    "options": [
+      "Determine what happened, assess impact, and support appropriate response",
+      "Improve website design",
+      "Increase system storage",
+      "Create user accounts"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is cloud security primarily concerned with?",
+    "options": [
+      "Managing office furniture",
+      "Designing physical buildings",
+      "Increasing screen resolution",
+      "Protecting cloud systems, applications, identities, and data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is the shared responsibility model?",
+    "options": [
+      "Security responsibilities are divided between the cloud provider and customer",
+      "Only users are responsible for physical data centers",
+      "The cloud provider is always responsible for everything",
+      "Customers have no security responsibilities"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is IAM in cloud security?",
+    "options": [
+      "Internal Application Management",
+      "Identity and Access Management",
+      "Infrastructure Access Module",
+      "Internet Application Monitoring"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is the principle of least privilege?",
+    "options": [
+      "Allowing access to all cloud resources",
+      "Disabling authentication",
+      "Giving users only the permissions they need to perform their tasks",
+      "Giving every user administrator access"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "Why is encryption important for cloud data?",
+    "options": [
+      "It helps protect data from unauthorized access",
+      "It guarantees that applications have no vulnerabilities",
+      "It eliminates the need for backups",
+      "It makes passwords unnecessary"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is a cloud security group commonly used for?",
+    "options": [
+      "Managing software licenses",
+      "Creating graphic designs",
+      "Controlling network traffic to and from cloud resources",
+      "Managing employee salaries"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is multi-factor authentication?",
+    "options": [
+      "Using one password on multiple systems",
+      "Using two or more different authentication factors",
+      "Using multiple usernames",
+      "Sharing authentication credentials with administrators"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is a cloud misconfiguration?",
+    "options": [
+      "An incorrect or insecure cloud setting that can create security risk",
+      "A valid user login",
+      "A scheduled software update",
+      "A properly configured backup"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "Why should cloud storage permissions be reviewed regularly?",
+    "options": [
+      "To remove all users",
+      "To increase CPU speed",
+      "To disable encryption",
+      "To prevent unnecessary or unauthorized data access"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is a cloud audit log?",
+    "options": [
+      "A type of antivirus",
+      "A record of actions and activities performed within cloud services",
+      "A list of employee holidays",
+      "A physical security camera"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is a secrets manager used for?",
+    "options": [
+      "Monitoring CPU temperature",
+      "Managing website colors",
+      "Securely storing and managing sensitive credentials and secrets",
+      "Creating presentations"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "Why are cloud backups important?",
+    "options": [
+      "They help recover data after accidental loss or security incidents",
+      "They remove the need for access control",
+      "They prevent users from logging in",
+      "They eliminate all cyber risks"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is data classification?",
+    "options": [
+      "Moving all data to public storage",
+      "Deleting old data automatically",
+      "Categorizing data according to its sensitivity and protection requirements",
+      "Compressing every file"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is a workload in cloud computing?",
+    "options": [
+      "A type of password",
+      "An application, service, or set of resources running in the cloud",
+      "An employee's daily schedule",
+      "A physical security guard"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What does CSPM generally help organizations do?",
+    "options": [
+      "Create social media accounts",
+      "Manage employee attendance",
+      "Identify and manage cloud security configuration risks",
+      "Design application logos"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is a zero-trust approach based on?",
+    "options": [
+      "Removing identity verification",
+      "Continuously verifying access rather than automatically trusting users or devices",
+      "Trusting every internal user automatically",
+      "Allowing unrestricted network access"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "Why should cloud credentials be rotated?",
+    "options": [
+      "To reduce the risk associated with exposed or long-lived credentials",
+      "To make applications public",
+      "To increase storage capacity",
+      "To disable monitoring"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is network segmentation in a cloud environment?",
+    "options": [
+      "Giving every workload public access",
+      "Combining every system into one network",
+      "Separating network resources to limit access and reduce security impact",
+      "Deleting network controls"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is a cloud-native security control?",
+    "options": [
+      "A security feature or control designed for cloud environments",
+      "A traditional printer driver",
+      "A physical office lock",
+      "A paper-based security checklist"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "Why should public exposure of cloud resources be minimized?",
+    "options": [
+      "It increases application size",
+      "It reduces opportunities for unauthorized access",
+      "It disables encryption",
+      "It improves employee attendance"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is cloud workload protection?",
+    "options": [
+      "Protecting applications, virtual machines, containers, and other cloud workloads",
+      "Managing employee benefits",
+      "Designing physical servers",
+      "Creating marketing documents"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is an access policy?",
+    "options": [
+      "A backup file format",
+      "A list of software advertisements",
+      "A set of rules defining who or what can access resources",
+      "A hardware repair guide"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is the purpose of cloud security monitoring?",
+    "options": [
+      "To identify suspicious activity and security changes",
+      "To improve graphic design",
+      "To eliminate user authentication",
+      "To remove all logs"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is data loss prevention (DLP) designed to help prevent?",
+    "options": [
+      "Application interface changes",
+      "Unauthorized exposure or transfer of sensitive data",
+      "Hardware overheating",
+      "Slow internet connections"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "Why is identity security especially important in cloud environments?",
+    "options": [
+      "It removes the need for encryption",
+      "It prevents all software bugs",
+      "Identity often controls access to many cloud resources",
+      "Cloud systems do not use authentication"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is a secure baseline?",
+    "options": [
+      "A type of cloud storage",
+      "A collection of employee passwords",
+      "A list of public IP addresses",
+      "A defined set of secure configuration standards used as a reference"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is container security concerned with?",
+    "options": [
+      "Protecting container images, runtimes, workloads, and related infrastructure",
+      "Managing employee payroll",
+      "Office building security",
+      "Printer configuration"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What is the main benefit of centralized cloud logging?",
+    "options": [
+      "It guarantees zero incidents",
+      "It makes security events easier to collect, search, and investigate",
+      "It prevents every configuration mistake",
+      "It removes the need for security policies"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "What should organizations do when a cloud security vulnerability is identified?",
+    "options": [
+      "Disable all monitoring",
+      "Make the resource public",
+      "Assess the risk and apply appropriate remediation",
+      "Ignore it if the system is online"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cloud Security",
+    "question": "Which practice strengthens cloud account security?",
+    "options": [
+      "Using one password for every account",
+      "Disabling audit logging",
+      "Sharing administrator credentials",
+      "Using MFA and limiting privileged access"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is cyber threat intelligence?",
+    "options": [
+      "Information analyzed to understand and respond to cyber threats",
+      "A physical access card",
+      "A type of computer hardware",
+      "A software development language"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is an Indicator of Compromise (IOC)?",
+    "options": [
+      "A software license",
+      "A piece of evidence that may indicate malicious activity or compromise",
+      "A business performance metric",
+      "A cloud billing report"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What does TTP stand for in threat intelligence?",
+    "options": [
+      "Technical Threat Protocol",
+      "Trusted Technology Process",
+      "Tactics, Techniques, and Procedures",
+      "Threat Tracking Platform"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is the main purpose of threat intelligence analysis?",
+    "options": [
+      "To replace all security controls",
+      "To increase storage capacity",
+      "To design websites",
+      "To turn threat information into useful insights for security decisions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is strategic threat intelligence primarily intended to support?",
+    "options": [
+      "Long-term security and business decision-making",
+      "Creating user passwords",
+      "Changing desktop wallpapers",
+      "Managing printer queues"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is tactical threat intelligence focused on?",
+    "options": [
+      "Hardware purchasing",
+      "Understanding adversary tactics, techniques, and procedures",
+      "Office building maintenance",
+      "Employee vacation planning"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is operational threat intelligence generally concerned with?",
+    "options": [
+      "Software licensing",
+      "Information about specific ongoing or planned threat activities",
+      "Employee recruitment",
+      "Graphic design trends"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is a threat actor?",
+    "options": [
+      "A type of firewall",
+      "A security policy document",
+      "An individual or group that conducts malicious cyber activity",
+      "A network monitoring tool"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is threat intelligence enrichment?",
+    "options": [
+      "Adding useful context and additional information to raw threat data",
+      "Removing security logs",
+      "Deleting all threat indicators",
+      "Encrypting every email"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is attribution in threat intelligence?",
+    "options": [
+      "Configuring a printer",
+      "Creating user accounts",
+      "Determining the cost of hardware",
+      "Assessing who may be responsible for a cyber activity"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is threat intelligence sharing?",
+    "options": [
+      "Removing all security controls",
+      "Sharing employee passwords",
+      "Exchanging relevant threat information among trusted parties",
+      "Publishing confidential customer data"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is the MITRE ATT&CK framework used for?",
+    "options": [
+      "Creating encryption keys",
+      "Understanding and categorizing adversary behaviors and techniques",
+      "Managing cloud billing",
+      "Designing databases"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is a threat feed?",
+    "options": [
+      "A source providing threat-related indicators or intelligence",
+      "A software installation wizard",
+      "A network cable",
+      "A database backup"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is the purpose of IOC confidence scoring?",
+    "options": [
+      "To determine employee performance",
+      "To encrypt threat reports",
+      "To indicate how reliable or trustworthy an indicator is considered",
+      "To increase network speed"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is threat intelligence collection?",
+    "options": [
+      "Replacing application servers",
+      "Gathering relevant information from appropriate sources about threats and threat actors",
+      "Disabling endpoint protection",
+      "Deleting network logs"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is the intelligence lifecycle?",
+    "options": [
+      "A password expiration process",
+      "A hardware replacement cycle",
+      "A software deployment method",
+      "A process involving planning, collection, processing, analysis, and dissemination of intelligence"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is a threat report?",
+    "options": [
+      "A documented analysis of relevant cyber threats and findings",
+      "A network configuration backup",
+      "A list of office supplies",
+      "A software license agreement"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "Why should threat intelligence be relevant to an organization?",
+    "options": [
+      "To make all systems public",
+      "To ensure intelligence supports meaningful security decisions and actions",
+      "To eliminate the need for security teams",
+      "To replace incident response"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is a threat actor profile?",
+    "options": [
+      "A firewall configuration",
+      "A cloud storage policy",
+      "A structured description of a threat actor's characteristics, behaviors, and capabilities",
+      "A list of employee names"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is a vulnerability in threat intelligence context?",
+    "options": [
+      "A weakness that could potentially be exploited to cause harm",
+      "A user training session",
+      "A backup server",
+      "A security camera"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is threat prioritization?",
+    "options": [
+      "Giving every threat the same priority",
+      "Ranking threats based on factors such as likelihood, impact, and relevance",
+      "Deleting low-risk systems",
+      "Ignoring intelligence sources"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is an intelligence requirement?",
+    "options": [
+      "A type of malware",
+      "A specific question or information need that intelligence should address",
+      "A firewall rule",
+      "A cloud storage setting"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "Why should threat intelligence sources be evaluated?",
+    "options": [
+      "To determine their reliability, relevance, and potential bias",
+      "To make every indicator trusted",
+      "To prevent incident reporting",
+      "To eliminate all security monitoring"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is the difference between raw threat data and intelligence?",
+    "options": [
+      "Threat data cannot contain indicators",
+      "There is no difference",
+      "Intelligence is analyzed and contextualized information that supports decisions",
+      "Raw data is always more accurate"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is an adversary technique?",
+    "options": [
+      "A company policy",
+      "A type of encryption algorithm",
+      "A backup strategy",
+      "A method or behavior used by an adversary to achieve an objective"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "How can threat intelligence support a SOC?",
+    "options": [
+      "By providing context and indicators that can improve detection and investigation",
+      "By eliminating security alerts",
+      "By replacing all SOC analysts",
+      "By preventing every possible incident"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is threat intelligence dissemination?",
+    "options": [
+      "Changing user passwords",
+      "Delivering analyzed intelligence to the people or teams who need it",
+      "Disabling threat feeds",
+      "Deleting intelligence after collection"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is the value of historical threat intelligence?",
+    "options": [
+      "It removes the need for current monitoring",
+      "It makes all systems automatically secure",
+      "It helps identify patterns, trends, and recurring threat behaviors",
+      "It guarantees future attacks cannot happen"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "Which factor is useful when assessing the relevance of a threat?",
+    "options": [
+      "The color of the security dashboard",
+      "The size of the office",
+      "The number of employees in the company",
+      "Whether the threat targets technologies or assets used by the organization"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Cyber Threat Intelligence",
+    "question": "What is the main goal of using threat intelligence?",
+    "options": [
+      "To improve an organization's ability to anticipate, detect, and respond to threats",
+      "To make security reports longer",
+      "To collect the largest possible amount of data",
+      "To eliminate cybersecurity teams"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is the primary goal of incident response?",
+    "options": [
+      "Increase the number of security alerts",
+      "Replace all network infrastructure",
+      "Effectively manage and minimize the impact of security incidents",
+      "Disable all user accounts permanently"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "Which phase of incident response focuses on identifying whether suspicious activity is actually an incident?",
+    "options": [
+      "Detection and analysis",
+      "Recovery",
+      "Lessons learned",
+      "Asset disposal"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What does incident containment aim to achieve?",
+    "options": [
+      "Increase attacker privileges",
+      "Prevent an incident from spreading or causing additional damage",
+      "Delete all historical logs",
+      "Publish incident details immediately"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "Why is incident identification important?",
+    "options": [
+      "It eliminates the need for documentation",
+      "It guarantees that no future attacks occur",
+      "It replaces security monitoring",
+      "It helps determine the nature and scope of a security event"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "Which activity is commonly performed during incident analysis?",
+    "options": [
+      "Examining logs and available evidence",
+      "Removing all security controls",
+      "Ignoring affected systems",
+      "Deleting incident tickets"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is eradication in incident response?",
+    "options": [
+      "Creating new user accounts",
+      "Increasing network exposure",
+      "Removing the root cause or malicious components of an incident",
+      "Publishing confidential evidence"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is the purpose of incident recovery?",
+    "options": [
+      "Restore affected systems and operations safely",
+      "Preserve the attacker's access",
+      "Disable backups",
+      "Remove all monitoring tools"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "Why should incident response actions be documented?",
+    "options": [
+      "To make incidents harder to investigate",
+      "To avoid communicating with stakeholders",
+      "To eliminate the need for evidence",
+      "To maintain a record of actions, findings, and decisions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is incident severity used for?",
+    "options": [
+      "Choosing employee salaries",
+      "Determining the priority and potential impact of an incident",
+      "Replacing authentication systems",
+      "Measuring internet speed"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is an incident response playbook?",
+    "options": [
+      "A list of unrelated software licenses",
+      "A database backup",
+      "A structured set of recommended actions for handling a type of incident",
+      "A list of employee passwords"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is the purpose of preserving digital evidence?",
+    "options": [
+      "To support investigation and potential forensic analysis",
+      "To hide security incidents",
+      "To reduce storage capacity",
+      "To disable monitoring"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What does escalation mean during incident response?",
+    "options": [
+      "Deleting the incident record",
+      "Ignoring a critical alert",
+      "Turning off all systems without assessment",
+      "Passing an incident to personnel with the appropriate authority or expertise"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "Why are backups important during recovery?",
+    "options": [
+      "They increase attacker privileges",
+      "They can help restore systems or data to a known good state",
+      "They replace incident analysis",
+      "They prevent all types of incidents"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is a security incident ticket used for?",
+    "options": [
+      "Recording and tracking incident-related information and actions",
+      "Encrypting every network packet",
+      "Replacing a firewall",
+      "Creating employee identities"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is the purpose of a lessons-learned review?",
+    "options": [
+      "To assign blame automatically",
+      "To remove security policies",
+      "To identify improvements based on the incident",
+      "To prevent documentation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is a false positive in incident detection?",
+    "options": [
+      "A confirmed security breach",
+      "An alert that indicates malicious activity when no actual threat is present",
+      "A successful recovery",
+      "A verified vulnerability"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "Why should incident response teams prioritize incidents?",
+    "options": [
+      "To focus resources on the most significant risks first",
+      "To delay every investigation",
+      "To eliminate security monitoring",
+      "To make all incidents equal"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is forensic analysis intended to support?",
+    "options": [
+      "Network advertising",
+      "Software licensing",
+      "User interface design",
+      "Detailed examination of evidence to understand an incident"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is a containment strategy designed to limit?",
+    "options": [
+      "Security awareness",
+      "Potential damage and spread of an incident",
+      "System availability",
+      "Incident documentation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "Why is communication important during a security incident?",
+    "options": [
+      "It ensures relevant stakeholders receive appropriate information",
+      "It guarantees attackers stop immediately",
+      "It removes the need for containment",
+      "It replaces technical investigation"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What does mean time to respond generally measure?",
+    "options": [
+      "The amount of storage used by logs",
+      "The number of users in an organization",
+      "The time taken to begin responding to a detected incident",
+      "The number of vulnerabilities in an application"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What should an organization do after restoring an affected system?",
+    "options": [
+      "Immediately remove all monitoring",
+      "Verify that the system is secure and functioning as expected",
+      "Delete all recovery records",
+      "Give attackers additional access"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is a root cause analysis intended to identify?",
+    "options": [
+      "The underlying reason an incident occurred",
+      "The fastest internet connection",
+      "The employee with the highest salary",
+      "The oldest computer in the organization"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "Why should incident response procedures be tested periodically?",
+    "options": [
+      "To remove the need for trained personnel",
+      "To guarantee zero incidents",
+      "To increase false positives",
+      "To identify weaknesses and improve readiness"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is an incident response team primarily responsible for?",
+    "options": [
+      "Managing and coordinating the response to security incidents",
+      "Designing company logos",
+      "Managing employee benefits",
+      "Creating marketing campaigns"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "Which information can help determine incident scope?",
+    "options": [
+      "Office decoration plans",
+      "Affected systems, accounts, data, and time periods",
+      "Employee vacation preferences",
+      "Printer colors"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is the main purpose of incident classification?",
+    "options": [
+      "To increase storage costs",
+      "To eliminate security policies",
+      "To categorize incidents consistently for appropriate handling",
+      "To replace security awareness training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "Why should recovery be performed carefully after an incident?",
+    "options": [
+      "To avoid reintroducing vulnerabilities or malicious activity",
+      "To make systems permanently unavailable",
+      "To remove all backups",
+      "To prevent system verification"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "What is chain of custody related to?",
+    "options": [
+      "Employee scheduling",
+      "Tracking the handling of evidence",
+      "Network bandwidth",
+      "Application licensing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Incident Response",
+    "question": "Which practice can improve future incident response?",
+    "options": [
+      "Ignoring previous incidents",
+      "Removing all playbooks",
+      "Avoiding incident metrics",
+      "Updating procedures based on lessons learned"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is the primary goal of data privacy?",
+    "options": [
+      "Collecting unlimited personal information",
+      "Protecting how personal information is collected, used, and shared",
+      "Making all data public",
+      "Removing access controls"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is personal data?",
+    "options": [
+      "Information that can relate to an identified or identifiable individual",
+      "Only publicly available company logos",
+      "Only encrypted files",
+      "Information that has no relationship to people"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What does data minimization mean?",
+    "options": [
+      "Deleting every database",
+      "Collecting and retaining only data that is necessary for a legitimate purpose",
+      "Making data available to everyone",
+      "Collecting as much information as possible"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "Why is encryption useful for protecting sensitive data?",
+    "options": [
+      "It guarantees data can never be lost",
+      "It automatically removes malware",
+      "It can make data unreadable to unauthorized parties without the appropriate key",
+      "It eliminates the need for access controls"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is data classification used for?",
+    "options": [
+      "Determining appropriate handling and protection requirements",
+      "Increasing the number of unnecessary records",
+      "Removing authentication",
+      "Publishing confidential information"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is access control intended to accomplish?",
+    "options": [
+      "Give every user identical privileges",
+      "Limit access to authorized users and activities",
+      "Make confidential data public",
+      "Disable authentication"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What does data retention refer to?",
+    "options": [
+      "How long data is stored before it is appropriately deleted or disposed of",
+      "How quickly data travels across a network",
+      "How many employees access a system",
+      "How often passwords are displayed"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "Why should unnecessary personal data be securely deleted?",
+    "options": [
+      "To increase exposure",
+      "To create more attack opportunities",
+      "To reduce privacy and security risks associated with retaining unnecessary data",
+      "To make compliance impossible"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is consent in a privacy context?",
+    "options": [
+      "An automatic approval for every possible use of data",
+      "A user's agreement to a specified processing activity when consent is the applicable legal basis",
+      "A replacement for security controls",
+      "A method for encrypting databases"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is a privacy policy generally intended to explain?",
+    "options": [
+      "How an organization handles personal information",
+      "How to bypass authentication",
+      "How to disable backups",
+      "How to exploit vulnerabilities"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is anonymization intended to do?",
+    "options": [
+      "Increase the amount of identifiable information",
+      "Make all records public",
+      "Remove or alter identifying information so individuals are no longer reasonably identifiable",
+      "Create stronger passwords"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is pseudonymization?",
+    "options": [
+      "A technique that replaces direct identifiers with substitutes while additional information may still enable re-identification",
+      "Permanent deletion of all data",
+      "Publishing personal information",
+      "Removing every security control"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "Why is multi-factor authentication valuable for protecting sensitive information?",
+    "options": [
+      "It eliminates all privacy obligations",
+      "It adds additional verification factors beyond a password",
+      "It makes passwords unnecessary in every situation",
+      "It makes data public"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is a data breach?",
+    "options": [
+      "A routine software update",
+      "A normal database backup",
+      "A confirmed or suspected compromise involving unauthorized access, disclosure, loss, or alteration of protected data",
+      "A scheduled system maintenance task"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "Why should organizations limit access to personal data?",
+    "options": [
+      "To reduce the chance of unauthorized access or misuse",
+      "To make data harder for authorized users to process",
+      "To eliminate encryption",
+      "To increase unnecessary collection"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is privacy by design?",
+    "options": [
+      "Adding privacy controls only after a breach",
+      "Ignoring privacy during system development",
+      "Publishing all collected data",
+      "Considering privacy protections throughout the design and development of systems"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is the purpose of a data processing record?",
+    "options": [
+      "To document relevant information about how personal data is processed",
+      "To disable access control",
+      "To store employee passwords",
+      "To eliminate data governance"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What does least privilege mean in data protection?",
+    "options": [
+      "Every employee receives administrator access",
+      "Users receive only the access necessary for their responsibilities",
+      "Users can access all personal data",
+      "Access controls are optional"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is a data subject generally?",
+    "options": [
+      "A person to whom personal data relates",
+      "A type of encryption key",
+      "A network firewall",
+      "A database server"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "Why is secure data disposal important?",
+    "options": [
+      "It increases the number of retained records",
+      "It prevents all future breaches",
+      "It helps prevent discarded data from being improperly accessed or recovered",
+      "It eliminates the need for classification"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is data governance concerned with?",
+    "options": [
+      "Managing how data is controlled, used, protected, and maintained",
+      "Only increasing storage capacity",
+      "Removing organizational policies",
+      "Disabling audit logs"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is a privacy impact assessment commonly used for?",
+    "options": [
+      "Testing internet speed",
+      "Evaluating potential privacy risks associated with processing personal information",
+      "Creating user passwords",
+      "Replacing a security firewall"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "Why should organizations train employees on privacy practices?",
+    "options": [
+      "Employees can play an important role in preventing inappropriate handling or disclosure of personal data",
+      "Training makes encryption unnecessary",
+      "Training removes legal responsibilities",
+      "Employees should have unlimited data access"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is the purpose of audit logs in data protection?",
+    "options": [
+      "To increase unauthorized access",
+      "To provide records of relevant activities that can support monitoring and investigation",
+      "To replace access control",
+      "To automatically anonymize every record"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What does secure data transmission aim to protect against?",
+    "options": [
+      "Unauthorized interception or alteration while data is being transmitted",
+      "Legitimate data processing",
+      "Normal system backups",
+      "Approved user access"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "Why is vendor privacy assessment useful?",
+    "options": [
+      "It guarantees that a vendor can never experience an incident",
+      "It helps evaluate whether third parties handle personal data appropriately",
+      "It eliminates contractual requirements",
+      "It makes data classification unnecessary"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "Which practice best supports responsible handling of sensitive personal information?",
+    "options": [
+      "Sharing it broadly for convenience",
+      "Keeping it forever",
+      "Applying appropriate access, security, retention, and privacy controls",
+      "Removing all records of processing"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is transparency in data privacy?",
+    "options": [
+      "Hiding all processing activities",
+      "Providing understandable information about relevant data processing practices",
+      "Giving everyone access to personal data",
+      "Avoiding privacy notices"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "Why should organizations review stored personal data periodically?",
+    "options": [
+      "To identify unnecessary data and ensure retention remains appropriate",
+      "To increase the amount of sensitive information",
+      "To disable data classification",
+      "To make all data public"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Data Privacy & Protection",
+    "question": "What is the principle of purpose limitation concerned with?",
+    "options": [
+      "Using personal data for unlimited purposes",
+      "Collecting data without a defined reason",
+      "Using personal data only for specified and appropriate purposes",
+      "Avoiding documentation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is the primary goal of application security?",
+    "options": [
+      "Make applications more vulnerable",
+      "Protect applications and their data from security threats",
+      "Remove authentication from applications",
+      "Increase unnecessary permissions"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is input validation?",
+    "options": [
+      "Checking that input conforms to expected rules before processing it",
+      "Allowing every input without inspection",
+      "Disabling error handling",
+      "Removing application logs"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "Why is output encoding important?",
+    "options": [
+      "It increases user privileges",
+      "It disables authentication",
+      "It helps prevent untrusted data from being interpreted as executable content in certain contexts",
+      "It removes the need for testing"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is SQL injection?",
+    "options": [
+      "A method of encrypting database backups",
+      "A database performance feature",
+      "A technique for compressing SQL queries",
+      "A vulnerability where untrusted input can improperly influence database queries"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "Which practice helps reduce SQL injection risk?",
+    "options": [
+      "Using parameterized queries",
+      "Trusting all user input",
+      "Displaying database errors to everyone",
+      "Giving applications unnecessary database privileges"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is authentication?",
+    "options": [
+      "Determining what resources a user may access",
+      "Verifying the identity of a user or system",
+      "Encrypting every database",
+      "Removing user accounts"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is authorization?",
+    "options": [
+      "Determining what an authenticated user or system is permitted to do",
+      "Verifying a password format",
+      "Encrypting network traffic",
+      "Scanning source code"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is cross-site scripting (XSS)?",
+    "options": [
+      "A backup mechanism",
+      "A database replication technique",
+      "A vulnerability involving the execution of untrusted script content in a user's browser",
+      "A network routing protocol"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "Why should applications use secure session management?",
+    "options": [
+      "To make sessions available to unauthorized users",
+      "To reduce the risk of session-related attacks and unauthorized account access",
+      "To eliminate authentication",
+      "To store passwords in URLs"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is the principle of least privilege in application security?",
+    "options": [
+      "Granting users and components only the permissions they need",
+      "Giving every component administrator access",
+      "Allowing anonymous access everywhere",
+      "Removing authorization checks"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "Why should sensitive information not be stored in application source code?",
+    "options": [
+      "Source code should always be public",
+      "It can expose credentials or secrets to unauthorized parties",
+      "It improves password security",
+      "It prevents version control"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is secure coding?",
+    "options": [
+      "Writing software with practices designed to reduce security vulnerabilities",
+      "Writing code without testing",
+      "Disabling all error handling",
+      "Avoiding code reviews"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is dependency management important for?",
+    "options": [
+      "Increasing the number of outdated components",
+      "Ignoring third-party software risks",
+      "Tracking and maintaining third-party components, including their security updates",
+      "Removing software inventories"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is a vulnerability in an application?",
+    "options": [
+      "A weakness that could be exploited to compromise security",
+      "A successful backup",
+      "A normal user request",
+      "A software license"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is dynamic application security testing (DAST)?",
+    "options": [
+      "Reviewing employee contracts",
+      "Analyzing source code without running the application",
+      "Testing a running application for security weaknesses",
+      "Encrypting source repositories"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "Why are code reviews useful for application security?",
+    "options": [
+      "They can help identify insecure coding practices and vulnerabilities",
+      "They guarantee that software has no vulnerabilities",
+      "They remove the need for testing",
+      "They make authentication unnecessary"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is secure password storage intended to prevent?",
+    "options": [
+      "Users from changing passwords",
+      "Easy recovery of passwords by unauthorized parties",
+      "Authentication of legitimate users",
+      "Use of password managers"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "Which approach is appropriate for storing user passwords?",
+    "options": [
+      "Plaintext storage",
+      "Reversible encryption with a shared application password",
+      "Secure password hashing with appropriate salts and algorithms",
+      "Storing passwords in browser URLs"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is an API security concern?",
+    "options": [
+      "Improper authorization can allow users to access resources they should not access",
+      "APIs never process sensitive information",
+      "APIs do not require authentication in any situation",
+      "API security only concerns hardware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is error handling important for?",
+    "options": [
+      "Exposing internal system details to users",
+      "Preventing useful security information from being unnecessarily disclosed through errors",
+      "Disabling application monitoring",
+      "Removing logging entirely"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is security logging used for?",
+    "options": [
+      "Supporting monitoring, troubleshooting, investigation, and detection of suspicious activity",
+      "Replacing authentication",
+      "Making all application data public",
+      "Removing auditability"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "Why should security testing be integrated into the software development lifecycle?",
+    "options": [
+      "To postpone all security work until after release",
+      "To identify and address security issues earlier in development",
+      "To eliminate the need for secure coding",
+      "To prevent developers from testing applications"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is a security requirement?",
+    "options": [
+      "A requirement describing how a system should protect assets or information",
+      "A marketing slogan",
+      "A database backup",
+      "An employee attendance record"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "Why is patch management important for applications?",
+    "options": [
+      "It increases known vulnerabilities",
+      "It helps address known security weaknesses in software components",
+      "It prevents all future attacks",
+      "It eliminates the need for vulnerability assessment"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is threat modeling used for?",
+    "options": [
+      "Identifying potential threats and designing controls to reduce associated risks",
+      "Creating user interface colors",
+      "Replacing application testing",
+      "Increasing application privileges"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What does defense in depth mean in application security?",
+    "options": [
+      "Using a single security control for every threat",
+      "Removing redundant protections",
+      "Using multiple layers of security controls to reduce overall risk",
+      "Allowing unrestricted access"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "Why should applications protect sensitive data both at rest and in transit?",
+    "options": [
+      "Different stages of data handling can expose data to different security risks",
+      "Encryption is only useful for backups",
+      "Data in transit is never at risk",
+      "Data at rest cannot be compromised"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is dependency vulnerability scanning intended to identify?",
+    "options": [
+      "Employee performance issues",
+      "Known security vulnerabilities in third-party software components",
+      "Network cable failures",
+      "UI design inconsistencies"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "Why should authorization checks be performed on the server side?",
+    "options": [
+      "Client-side checks alone can potentially be bypassed",
+      "Servers cannot enforce permissions",
+      "Client applications are always trusted",
+      "Authorization is only needed for databases"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Cybersecurity",
+    "program": "Application Security",
+    "question": "What is the purpose of a secure software development lifecycle?",
+    "options": [
+      "To avoid security requirements",
+      "To integrate security activities throughout software development",
+      "To eliminate testing",
+      "To delay vulnerability remediation indefinitely"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  }
+]

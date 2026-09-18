@@ -1,0 +1,3783 @@
+[
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "What does HTML stand for?",
+    "options": [
+      "HyperText Markup Language",
+      "HighText Machine Language",
+      "Hyperlink Text Management Language",
+      "Home Tool Markup Language"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<url>"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which HTML element is used for the largest heading?",
+    "options": [
+      "<heading>",
+      "<head>",
+      "<h6>",
+      "<h1>"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which HTML tag is used to insert an image?",
+    "options": [
+      "<picture>",
+      "<src>",
+      "<img>",
+      "<image>"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which attribute specifies the destination of a hyperlink?",
+    "options": [
+      "href",
+      "src",
+      "link",
+      "target-url"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which HTML element is used to create an unordered list?",
+    "options": [
+      "<ol>",
+      "<list>",
+      "<ul>",
+      "<li>"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which tag defines a table row in HTML?",
+    "options": [
+      "<td>",
+      "<tr>",
+      "<th>",
+      "<row>"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which HTML element is commonly used to collect user input?",
+    "options": [
+      "<input>",
+      "<collect>",
+      "<data>",
+      "<user>"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "What is the purpose of the alt attribute in an image element?",
+    "options": [
+      "To change image size",
+      "To add a border",
+      "To specify image color",
+      "To provide alternative text"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which HTML tag is used to create a paragraph?",
+    "options": [
+      "<text>",
+      "<paragraph>",
+      "<p>",
+      "<para>"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Computer Style Syntax",
+      "Creative Styling System",
+      "Cascading Syntax System"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS property is used to change text color?",
+    "options": [
+      "font-color",
+      "text-color",
+      "color",
+      "foreground"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS property is used to change the background color?",
+    "options": [
+      "background-color",
+      "bg-color",
+      "background-style",
+      "color-background"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS property controls the size of text?",
+    "options": [
+      "text-size",
+      "font-size",
+      "size",
+      "font-style"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS property is used to make text bold?",
+    "options": [
+      "font-weight",
+      "text-bold",
+      "font-style",
+      "bold-text"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS property is used to add space inside an element's border?",
+    "options": [
+      "margin",
+      "spacing",
+      "padding",
+      "border-space"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS property is used to add space outside an element's border?",
+    "options": [
+      "padding",
+      "margin",
+      "outside-space",
+      "gap-space"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS selector targets an element with a specific class?",
+    "options": [
+      "#class",
+      ".class",
+      "*class",
+      "@class"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS selector targets an element with a specific id?",
+    "options": [
+      ".id",
+      "*id",
+      "#id",
+      "@id"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS display value is commonly used to create a flexible layout?",
+    "options": [
+      "block",
+      "inline",
+      "table",
+      "flex"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS property is used to control the direction of flex items?",
+    "options": [
+      "flex-direction",
+      "direction-flex",
+      "flex-flow-direction",
+      "item-direction"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS property is used to align flex items along the main axis?",
+    "options": [
+      "align-items",
+      "justify-content",
+      "text-align",
+      "main-align"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS property is used to align flex items along the cross axis?",
+    "options": [
+      "align-items",
+      "justify-items",
+      "cross-align",
+      "flex-align"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS unit is relative to the root element's font size?",
+    "options": [
+      "em",
+      "px",
+      "rem",
+      "%"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS feature is commonly used to create responsive designs based on screen width?",
+    "options": [
+      "Media queries",
+      "CSS variables",
+      "Pseudo-elements",
+      "CSS animations"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which HTML5 element represents the main content of a document?",
+    "options": [
+      "<content>",
+      "<main>",
+      "<section-main>",
+      "<body-main>"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which semantic HTML element is generally used for navigation links?",
+    "options": [
+      "<navigate>",
+      "<links>",
+      "<nav>",
+      "<navigation>"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS property controls whether content overflows an element's box?",
+    "options": [
+      "overflow",
+      "content-flow",
+      "box-overflow",
+      "display-overflow"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS property is used to create rounded corners?",
+    "options": [
+      "corner-radius",
+      "border-round",
+      "radius",
+      "border-radius"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "HTML & CSS Fundamentals",
+    "question": "Which CSS property can be used to add a shadow around an element?",
+    "options": [
+      "element-shadow",
+      "box-shadow",
+      "shadow-box",
+      "border-shadow"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which keyword is used to declare a block-scoped variable that can be reassigned?",
+    "options": [
+      "let",
+      "const",
+      "var",
+      "define"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which keyword is used to declare a constant variable?",
+    "options": [
+      "constant",
+      "let",
+      "static",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which method converts a JSON string into a JavaScript object?",
+    "options": [
+      "JSON.parse()",
+      "JSON.convert()",
+      "JSON.object()",
+      "JSON.decode()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which method converts a JavaScript object into a JSON string?",
+    "options": [
+      "JSON.toString()",
+      "JSON.stringify()",
+      "JSON.encode()",
+      "JSON.parse()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which operator checks both value and type equality?",
+    "options": [
+      "==",
+      "=",
+      "===",
+      "!=="
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which method adds an element to the end of an array?",
+    "options": [
+      "push()",
+      "append()",
+      "add()",
+      "insert()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which method removes the last element from an array?",
+    "options": [
+      "removeLast()",
+      "delete()",
+      "shift()",
+      "pop()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which method creates a new array by transforming each element?",
+    "options": [
+      "forEach()",
+      "map()",
+      "filter()",
+      "reduce()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which method creates a new array containing elements that pass a condition?",
+    "options": [
+      "map()",
+      "reduce()",
+      "filter()",
+      "findAll()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which method executes a function for every element in an array without creating a new array?",
+    "options": [
+      "forEach()",
+      "map()",
+      "filter()",
+      "every()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which keyword is used to define a function that can use await?",
+    "options": [
+      "promise",
+      "async",
+      "await",
+      "defer"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which keyword pauses execution inside an async function until a Promise settles?",
+    "options": [
+      "pause",
+      "wait",
+      "await",
+      "async"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which browser API is commonly used to select an element by its ID?",
+    "options": [
+      "document.getElementById()",
+      "document.selectId()",
+      "window.getElement()",
+      "document.findId()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which keyword is used to declare a block-scoped variable in JavaScript?",
+    "options": [
+      "var",
+      "let",
+      "define",
+      "declare"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which method is commonly used to attach an event handler to an element?",
+    "options": [
+      "addEvent()",
+      "onEvent()",
+      "attachEventHandler()",
+      "addEventListener()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "What type of value does typeof null return in JavaScript?",
+    "options": [
+      "null",
+      "object",
+      "undefined",
+      "empty"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which value represents a variable that has been declared but not assigned a value?",
+    "options": [
+      "null",
+      "false",
+      "undefined",
+      "NaN"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which operator is used for logical AND?",
+    "options": [
+      "&&",
+      "||",
+      "!",
+      "&"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which operator is used for logical OR?",
+    "options": [
+      "&&",
+      "|",
+      "!",
+      "||"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which function is used to convert a string into an integer?",
+    "options": [
+      "NumberString()",
+      "parseInt()",
+      "toInteger()",
+      "parseNumber()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which function can convert a numeric string into a floating-point number?",
+    "options": [
+      "parseFloat()",
+      "parseDecimal()",
+      "float()",
+      "toFloatNumber()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which object provides methods for working with dates and times?",
+    "options": [
+      "Time",
+      "Calendar",
+      "Date",
+      "Clock"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which method returns the number of elements in an array?",
+    "options": [
+      "size()",
+      "length",
+      "count()",
+      "items()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "What is a Promise primarily used for?",
+    "options": [
+      "Handling asynchronous operations",
+      "Creating CSS styles",
+      "Declaring variables",
+      "Defining HTML elements"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which Promise method is used to handle a successful result?",
+    "options": [
+      "catch()",
+      "finally()",
+      "resolve()",
+      "then()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which Promise method is commonly used to handle errors?",
+    "options": [
+      "error()",
+      "catch()",
+      "rejectError()",
+      "handle()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which syntax is used to create an arrow function?",
+    "options": [
+      "=>",
+      "->",
+      "<-",
+      "::"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which keyword refers to the current object context in many JavaScript functions?",
+    "options": [
+      "self",
+      "current",
+      "this",
+      "object"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which browser storage mechanism stores key-value data with no automatic expiration?",
+    "options": [
+      "sessionStorage",
+      "localStorage",
+      "cookieSession",
+      "memoryStorage"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "JavaScript for Web Development",
+    "question": "Which JavaScript method can be used to delay execution of a function?",
+    "options": [
+      "delay()",
+      "wait()",
+      "setDelay()",
+      "setTimeout()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "What is React primarily used for?",
+    "options": [
+      "Building user interfaces",
+      "Managing databases",
+      "Creating operating systems",
+      "Writing SQL queries"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "What is a React component?",
+    "options": [
+      "A database table",
+      "A reusable UI building block",
+      "A CSS file",
+      "A server process"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Which syntax is commonly used to write JavaScript expressions inside JSX?",
+    "options": [
+      "[]",
+      "()",
+      "{}",
+      "<>"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "What are props in React?",
+    "options": [
+      "CSS classes",
+      "Database records",
+      "Browser events",
+      "Data passed from a parent component"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Which React Hook is used to manage state in a functional component?",
+    "options": [
+      "useState",
+      "useData",
+      "useValue",
+      "useComponent"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Which Hook is commonly used for side effects in React?",
+    "options": [
+      "useEffect",
+      "useSideEffect",
+      "useAction",
+      "useProcess"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Why is the key prop used when rendering lists in React?",
+    "options": [
+      "To style list items",
+      "To uniquely identify list elements",
+      "To create API calls",
+      "To store component state"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Which method is commonly used to render a list from an array in JSX?",
+    "options": [
+      "forLoop()",
+      "renderList()",
+      "map()",
+      "list()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "What is JSX?",
+    "options": [
+      "A database language",
+      "A CSS framework",
+      "A Node.js package",
+      "A syntax extension for JavaScript"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Which command is commonly used to create a React project with Vite?",
+    "options": [
+      "npm create vite@latest",
+      "npm create react-app",
+      "react new project",
+      "vite create-react"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "What is the purpose of conditional rendering in React?",
+    "options": [
+      "To conditionally display UI elements",
+      "To create database tables",
+      "To compile CSS",
+      "To install packages"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "What happens when a React component's state changes?",
+    "options": [
+      "The browser closes",
+      "The database resets",
+      "React schedules a re-render",
+      "The component is permanently deleted"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Which Hook can be used to access a DOM element or store a mutable value?",
+    "options": [
+      "useDOM",
+      "useElement",
+      "useValue",
+      "useRef"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "What is the purpose of React Fragment?",
+    "options": [
+      "To group elements without adding an extra DOM element",
+      "To create API endpoints",
+      "To manage CSS files",
+      "To store global data"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Which syntax can be used for a React Fragment?",
+    "options": [
+      "<fragment></fragment>",
+      "<></>",
+      "<group></group>",
+      "<react-fragment></react-fragment>"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "What is lifting state up in React?",
+    "options": [
+      "Moving state to a common parent component",
+      "Deleting component state",
+      "Moving state to CSS",
+      "Saving state in a database"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Which React Hook is useful for memoizing an expensive calculation?",
+    "options": [
+      "useCallback",
+      "useMemo",
+      "useCalculation",
+      "useOptimize"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Which Hook is used to memoize a callback function?",
+    "options": [
+      "useMemo",
+      "useCallback",
+      "useFunction",
+      "useHandler"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "What is the virtual DOM?",
+    "options": [
+      "A browser database",
+      "A CSS rendering engine",
+      "An in-memory representation of the UI",
+      "A server-side database"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Which file commonly contains the main application component in a simple React project?",
+    "options": [
+      "App.jsx",
+      "Main.css",
+      "index.json",
+      "server.js"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "What is the purpose of event handlers in React?",
+    "options": [
+      "To respond to user interactions",
+      "To define database schemas",
+      "To install dependencies",
+      "To configure the server"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Which event is commonly used to detect a button click in React?",
+    "options": [
+      "onPress",
+      "clickEvent",
+      "onClick",
+      "buttonClick"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Which event is commonly used when the value of an input changes?",
+    "options": [
+      "onInputChange",
+      "onChange",
+      "onUpdate",
+      "onValue"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "What is a controlled component in React?",
+    "options": [
+      "A component whose form data is controlled by React state",
+      "A component controlled only by CSS",
+      "A component without any props",
+      "A component that cannot receive events"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "What is the main purpose of React Router?",
+    "options": [
+      "Managing databases",
+      "Handling navigation between views or routes",
+      "Styling components",
+      "Creating API servers"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Which React Hook can be used to access context values?",
+    "options": [
+      "useContext",
+      "useGlobal",
+      "useProvider",
+      "useDataContext"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "What is React Context commonly used for?",
+    "options": [
+      "Sharing data across components without passing props through every level",
+      "Creating SQL queries",
+      "Compiling JavaScript",
+      "Creating CSS animations"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "What is a reusable component?",
+    "options": [
+      "A component designed to be used in multiple places",
+      "A component that can only render once",
+      "A database object",
+      "A CSS variable"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Which Hook is commonly used to perform an API request after a component renders?",
+    "options": [
+      "useFetch",
+      "useAPI",
+      "useEffect",
+      "useRequest"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "React.js Fundamentals",
+    "question": "Why should state generally not be mutated directly in React?",
+    "options": [
+      "Direct mutation can prevent React from properly detecting updates",
+      "React does not support JavaScript objects",
+      "State can only contain strings",
+      "Mutation automatically deletes the component"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "What is Node.js?",
+    "options": [
+      "A JavaScript runtime built on Chrome's V8 engine",
+      "A CSS framework",
+      "A database management system",
+      "A frontend-only library"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which JavaScript engine is used by Node.js?",
+    "options": [
+      "SpiderMonkey",
+      "V8",
+      "JavaScriptCore",
+      "Chakra"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which command checks the installed Node.js version?",
+    "options": [
+      "node-version",
+      "node check",
+      "node -v",
+      "npm node"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which file commonly stores Node.js project metadata and dependencies?",
+    "options": [
+      "config.json",
+      "node.config",
+      "package.js",
+      "package.json"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which command initializes a Node.js project with default settings?",
+    "options": [
+      "npm init -y",
+      "node init",
+      "npm start",
+      "node create"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "What does npm stand for?",
+    "options": [
+      "Node Package Manager",
+      "New Project Manager",
+      "Node Programming Module",
+      "Network Package Manager"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which command installs a package locally in a Node.js project?",
+    "options": [
+      "node install package",
+      "npm add-package",
+      "npm install package-name",
+      "install npm package"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which built-in Node.js module is used for working with files?",
+    "options": [
+      "file",
+      "fs",
+      "files",
+      "pathfile"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which Node.js module provides utilities for working with file and directory paths?",
+    "options": [
+      "path",
+      "directory",
+      "urlpath",
+      "file-path"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which Node.js module is used to create an HTTP server?",
+    "options": [
+      "server",
+      "http",
+      "web",
+      "network"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which function is used to create an HTTP server in Node.js?",
+    "options": [
+      "http.createServer()",
+      "http.makeServer()",
+      "http.startServer()",
+      "http.newServer()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which object is commonly used to read command-line arguments in Node.js?",
+    "options": [
+      "process.args",
+      "console.args",
+      "process.argv",
+      "node.argvs"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "What is the purpose of the process object in Node.js?",
+    "options": [
+      "To interact with the current Node.js process",
+      "To create CSS styles",
+      "To manage MongoDB collections",
+      "To render React components"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which method is used to read a file asynchronously with the fs module?",
+    "options": [
+      "fs.read()",
+      "fs.openFile()",
+      "fs.getFile()",
+      "fs.readFile()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "What is the main benefit of asynchronous operations in Node.js?",
+    "options": [
+      "They prevent all errors",
+      "They allow other work while waiting for operations",
+      "They remove the need for callbacks",
+      "They make JavaScript strongly typed"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which module system uses require() and module.exports?",
+    "options": [
+      "CommonJS",
+      "ES Modules",
+      "AMD",
+      "UMD"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which syntax is commonly used to import an ES module in Node.js?",
+    "options": [
+      "require module",
+      "include",
+      "import",
+      "load"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "What is the purpose of module.exports?",
+    "options": [
+      "To start the server",
+      "To expose values from a module",
+      "To install packages",
+      "To delete a module"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which package is commonly used to automatically restart a Node.js application during development?",
+    "options": [
+      "nodemon",
+      "nodewatch",
+      "restart-node",
+      "devnode"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "What is an environment variable commonly used for?",
+    "options": [
+      "Styling HTML",
+      "Storing configuration values",
+      "Creating React components",
+      "Formatting CSS"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which package is commonly used to load variables from a .env file?",
+    "options": [
+      "environment",
+      "env-loader",
+      "dotenv",
+      "config-env"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which object provides access to environment variables in Node.js?",
+    "options": [
+      "process.env",
+      "node.env",
+      "environment.vars",
+      "system.envs"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "What is the event loop responsible for in Node.js?",
+    "options": [
+      "Creating HTML",
+      "Managing asynchronous operations",
+      "Compiling CSS",
+      "Creating database schemas"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which object is used to emit and listen for custom events in Node.js?",
+    "options": [
+      "EventEmitter",
+      "EventManager",
+      "NodeEvents",
+      "EmitterHandler"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which Node.js module provides the EventEmitter class?",
+    "options": [
+      "events",
+      "event",
+      "emit",
+      "listeners"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "What is a callback function?",
+    "options": [
+      "A function passed to another function to be called later",
+      "A database query",
+      "A CSS selector",
+      "A package manager"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which method can be used to schedule a function after a delay?",
+    "options": [
+      "setDelay()",
+      "setTimeout()",
+      "delayFunction()",
+      "waitFor()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "What does JSON.parse() do?",
+    "options": [
+      "Converts an object to JSON",
+      "Converts JSON text into a JavaScript value",
+      "Creates a server",
+      "Reads a file"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "Which command runs a Node.js file named server.js?",
+    "options": [
+      "npm server.js",
+      "run server.js",
+      "node server.js",
+      "start node server.js"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Node.js Fundamentals",
+    "question": "What is a stream in Node.js?",
+    "options": [
+      "A way to process data incrementally",
+      "A database collection",
+      "A CSS layout system",
+      "A React component"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "What is Express.js?",
+    "options": [
+      "A Node.js web application framework",
+      "A frontend CSS library",
+      "A database engine",
+      "A JavaScript compiler"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which command installs Express in a Node.js project?",
+    "options": [
+      "node install express",
+      "npm install express",
+      "express install npm",
+      "npm express add"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which function creates an Express application?",
+    "options": [
+      "express.create()",
+      "express.server()",
+      "express()",
+      "createExpressApp()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which method starts an Express server listening on a port?",
+    "options": [
+      "run()",
+      "start()",
+      "listen()",
+      "serve()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which HTTP method is commonly used to retrieve data?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which HTTP method is commonly used to create new data?",
+    "options": [
+      "GET",
+      "POST",
+      "PATCH",
+      "HEAD"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which HTTP method is commonly used to completely replace an existing resource?",
+    "options": [
+      "PATCH",
+      "POST",
+      "PUT",
+      "GET"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which HTTP method is commonly used to remove a resource?",
+    "options": [
+      "REMOVE",
+      "DELETE",
+      "DROP",
+      "CLEAR"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "What is middleware in Express?",
+    "options": [
+      "A function that has access to the request, response, and next function",
+      "A database table",
+      "A frontend component",
+      "A CSS property"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which function is used to pass control to the next middleware?",
+    "options": [
+      "continue()",
+      "next()",
+      "forward()",
+      "pass()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which middleware parses incoming JSON request bodies?",
+    "options": [
+      "express.json()",
+      "express.body()",
+      "express.parseJSON()",
+      "express.requestJSON()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which object contains values sent through URL query parameters?",
+    "options": [
+      "req.body",
+      "req.params",
+      "req.query",
+      "req.urlParams"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Where are route parameters such as /users/:id accessed?",
+    "options": [
+      "req.params",
+      "req.query",
+      "req.body",
+      "req.routeData"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Where is JSON data from a POST request commonly accessed when express.json() is used?",
+    "options": [
+      "req.data",
+      "req.body",
+      "req.json",
+      "req.payload"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which Express method defines a GET route?",
+    "options": [
+      "app.fetch()",
+      "app.request()",
+      "app.get()",
+      "app.routeGet()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which Express method defines a POST route?",
+    "options": [
+      "app.post()",
+      "app.create()",
+      "app.send()",
+      "app.addPost()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which method sends a JSON response from an Express route?",
+    "options": [
+      "res.sendJSON()",
+      "res.json()",
+      "res.returnJSON()",
+      "res.data()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which method sends a general HTTP response in Express?",
+    "options": [
+      "res.send()",
+      "res.response()",
+      "res.return()",
+      "res.output()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which method can set the HTTP status code in an Express response?",
+    "options": [
+      "res.code()",
+      "res.status()",
+      "res.httpStatus()",
+      "res.setCode()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "What is the purpose of express.Router()?",
+    "options": [
+      "To create modular route handlers",
+      "To connect to MongoDB",
+      "To render React components",
+      "To create CSS styles"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which method mounts middleware or a router at a specified path?",
+    "options": [
+      "app.mount()",
+      "app.use()",
+      "app.attach()",
+      "app.router()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which status code indicates a successful HTTP request?",
+    "options": [
+      "200",
+      "301",
+      "404",
+      "500"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which status code means that the requested resource was not found?",
+    "options": [
+      "200",
+      "201",
+      "404",
+      "500"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which status code generally indicates a server-side error?",
+    "options": [
+      "400",
+      "401",
+      "404",
+      "500"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "What is CORS used for?",
+    "options": [
+      "Managing database indexes",
+      "Controlling cross-origin HTTP requests",
+      "Compressing JavaScript",
+      "Creating routes automatically"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which npm package is commonly used to enable CORS in Express?",
+    "options": [
+      "cors",
+      "express-cors-handler",
+      "cross-origin",
+      "http-cors"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "What is error-handling middleware commonly identified by?",
+    "options": [
+      "Two parameters",
+      "Three parameters",
+      "Four parameters",
+      "Five parameters"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which Express method can serve static files?",
+    "options": [
+      "express.static()",
+      "express.files()",
+      "express.serve()",
+      "express.public()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "Which HTTP status code is commonly used when a new resource is successfully created?",
+    "options": [
+      "200",
+      "201",
+      "204",
+      "302"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Express.js Fundamentals",
+    "question": "What is REST commonly used for?",
+    "options": [
+      "Designing web APIs around resources and HTTP methods",
+      "Designing CSS animations",
+      "Creating JavaScript variables",
+      "Managing operating systems"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "What does MERN stand for?",
+    "options": [
+      "MongoDB, Express.js, React, Node.js",
+      "MySQL, Express, React, Next.js",
+      "MongoDB, Ember, React, Node.js",
+      "MariaDB, Express, Redux, Node.js"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which component of MERN is primarily used for the frontend UI?",
+    "options": [
+      "MongoDB",
+      "React",
+      "Express",
+      "Node.js"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which MERN technology is the database?",
+    "options": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which technology provides the backend web framework in MERN?",
+    "options": [
+      "MongoDB",
+      "React",
+      "Node.js",
+      "Express.js"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which technology provides the JavaScript runtime for a MERN backend?",
+    "options": [
+      "Node.js",
+      "React",
+      "MongoDB",
+      "Express"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "What is MongoDB?",
+    "options": [
+      "A relational database",
+      "A NoSQL document database",
+      "A frontend library",
+      "A web server"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "What format is commonly used to represent documents exchanged between a MERN frontend and backend?",
+    "options": [
+      "XML",
+      "CSV",
+      "JSON",
+      "YAML"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which library can React applications commonly use to make HTTP requests?",
+    "options": [
+      "Axios",
+      "Express",
+      "Mongoose",
+      "Nodemon"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which package is commonly used to work with MongoDB from Node.js?",
+    "options": [
+      "ReactDB",
+      "Mongoose",
+      "MongoReact",
+      "ExpressDB"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "What is an API in a MERN application?",
+    "options": [
+      "A mechanism for communication between application components",
+      "A CSS file",
+      "A React hook",
+      "A database index"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which layer is responsible for displaying the user interface in a typical MERN application?",
+    "options": [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.js"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which layer usually handles HTTP routes in a MERN backend?",
+    "options": [
+      "React",
+      "MongoDB",
+      "Express",
+      "CSS"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "What is the purpose of a MongoDB collection?",
+    "options": [
+      "To group related documents",
+      "To store React components",
+      "To define CSS rules",
+      "To create API routes"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "What is a MongoDB document?",
+    "options": [
+      "A CSS stylesheet",
+      "A record stored in a collection",
+      "A React component",
+      "An Express route"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which HTTP method is normally used to retrieve data from a MERN API?",
+    "options": [
+      "GET",
+      "POST",
+      "DELETE",
+      "PATCH"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which HTTP method is commonly used to send new data to a MERN API?",
+    "options": [
+      "GET",
+      "POST",
+      "HEAD",
+      "OPTIONS"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which technology is commonly used to define MongoDB schemas in a MERN backend?",
+    "options": [
+      "Mongoose",
+      "React",
+      "Axios",
+      "Vite"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "What is the purpose of environment variables in a MERN project?",
+    "options": [
+      "To style React components",
+      "To store configuration such as database URLs and secrets",
+      "To create MongoDB collections automatically",
+      "To replace JavaScript"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which file commonly stores environment variables during local development?",
+    "options": [
+      ".env",
+      "config.html",
+      "variables.js",
+      "environment.json"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "What is the purpose of CORS in a MERN application?",
+    "options": [
+      "To allow or restrict cross-origin requests",
+      "To create MongoDB databases",
+      "To compile React",
+      "To encrypt passwords automatically"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which HTTP status code commonly indicates a successful request?",
+    "options": [
+      "404",
+      "500",
+      "200",
+      "401"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which HTTP status code commonly indicates that authentication is required or has failed?",
+    "options": [
+      "201",
+      "401",
+      "204",
+      "304"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "What is the purpose of authentication in a MERN application?",
+    "options": [
+      "To verify the identity of a user",
+      "To style the login page",
+      "To create MongoDB indexes",
+      "To compile React code"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "What is JWT commonly used for in MERN applications?",
+    "options": [
+      "Styling components",
+      "User authentication and authorization",
+      "Database indexing",
+      "Image compression"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Where is application business logic commonly implemented in a well-structured MERN backend?",
+    "options": [
+      "Only inside React components",
+      "Only inside MongoDB",
+      "In backend services/controllers",
+      "Inside CSS files"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which tool is commonly used to bundle and develop modern React applications?",
+    "options": [
+      "Vite",
+      "MongoDB",
+      "Mongoose",
+      "Express"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "What is the role of the frontend in a MERN application?",
+    "options": [
+      "Manage the database directly",
+      "Provide the user interface and interact with APIs",
+      "Run MongoDB queries on the server",
+      "Replace the backend"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "What is the role of the backend in a MERN application?",
+    "options": [
+      "Handle business logic, APIs, authentication, and database operations",
+      "Only display HTML",
+      "Only apply CSS",
+      "Only render images"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "Which architecture separates routes, controllers, services, and models?",
+    "options": [
+      "Layered backend architecture",
+      "CSS architecture",
+      "HTML architecture",
+      "Browser architecture"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "MERN Stack Development",
+    "question": "What is the purpose of API endpoints in a MERN application?",
+    "options": [
+      "To define points through which clients communicate with the backend",
+      "To define CSS colors",
+      "To create React hooks",
+      "To store images permanently"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "What does REST stand for?",
+    "options": [
+      "Remote Execution Service Technology",
+      "Representational State Transfer",
+      "Resource Execution State Transfer",
+      "Representational Server Technology"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which HTTP method is generally used to retrieve a resource?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which HTTP method is commonly used to create a new resource?",
+    "options": [
+      "GET",
+      "DELETE",
+      "POST",
+      "HEAD"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which HTTP method is commonly used to completely update a resource?",
+    "options": [
+      "PATCH",
+      "POST",
+      "GET",
+      "PUT"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which HTTP method is commonly used for partial updates?",
+    "options": [
+      "PATCH",
+      "PUT",
+      "POST",
+      "OPTIONS"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which HTTP method is used to delete a resource?",
+    "options": [
+      "REMOVE",
+      "DELETE",
+      "DROP",
+      "CLEAR"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which status code indicates a successful request?",
+    "options": [
+      "404",
+      "500",
+      "200",
+      "401"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which status code indicates that a resource was successfully created?",
+    "options": [
+      "200",
+      "204",
+      "202",
+      "201"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which status code indicates that a requested resource was not found?",
+    "options": [
+      "404",
+      "400",
+      "401",
+      "500"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which status code generally represents an internal server error?",
+    "options": [
+      "403",
+      "500",
+      "404",
+      "201"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "What is an API endpoint?",
+    "options": [
+      "A database table",
+      "A CSS selector",
+      "A specific URL through which an API resource can be accessed",
+      "A JavaScript variable"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which format is commonly used for REST API request and response data?",
+    "options": [
+      "JSON",
+      "EXE",
+      "CSS",
+      "PNG"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "What is the purpose of HTTP headers?",
+    "options": [
+      "To define database tables",
+      "To carry additional information about an HTTP request or response",
+      "To create HTML elements",
+      "To replace URL paths"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Where is authentication information commonly sent in an HTTP request?",
+    "options": [
+      "Authorization header",
+      "HTML title",
+      "CSS file",
+      "Database schema"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which header is commonly used to indicate the media type of request data?",
+    "options": [
+      "Accept-Encoding",
+      "Content-Type",
+      "Host-Type",
+      "Request-Type"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "What does a stateless REST API mean?",
+    "options": [
+      "The server does not store client session state between requests",
+      "The API cannot store data",
+      "The API cannot use HTTP",
+      "The client cannot send data"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which URL is an example of a resource-oriented REST endpoint?",
+    "options": [
+      "/getAllUsers",
+      "/users",
+      "/executeUsers",
+      "/runUserQuery"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "What is the purpose of query parameters in an API URL?",
+    "options": [
+      "To provide optional filtering, sorting, or pagination information",
+      "To define CSS styles",
+      "To create database tables",
+      "To replace HTTP methods"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "What is a path parameter commonly used for?",
+    "options": [
+      "Specifying a specific resource identifier",
+      "Defining CSS properties",
+      "Setting HTTP headers",
+      "Storing passwords"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which status code is commonly returned when authentication is required?",
+    "options": [
+      "201",
+      "204",
+      "401",
+      "301"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which status code indicates that the server understood the request but refuses to authorize it?",
+    "options": [
+      "400",
+      "403",
+      "404",
+      "409"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which status code commonly indicates invalid client request data?",
+    "options": [
+      "400",
+      "200",
+      "201",
+      "500"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "What is pagination used for in an API?",
+    "options": [
+      "Encrypting requests",
+      "Returning large datasets in smaller portions",
+      "Changing HTTP methods",
+      "Creating authentication tokens"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "What is API authentication used for?",
+    "options": [
+      "Verifying the identity of a client or user",
+      "Formatting JSON",
+      "Creating HTML pages",
+      "Sorting database records"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "What is API authorization used for?",
+    "options": [
+      "Checking whether an authenticated user has permission to perform an action",
+      "Converting JSON to HTML",
+      "Creating API URLs",
+      "Starting a server"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Which tool is commonly used to manually test REST APIs?",
+    "options": [
+      "Figma",
+      "Postman",
+      "Photoshop",
+      "Excel"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "What is rate limiting used for in an API?",
+    "options": [
+      "Limiting the number of requests a client can make within a period",
+      "Increasing image resolution",
+      "Changing database schemas",
+      "Creating frontend components"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "What is CORS related to?",
+    "options": [
+      "Database indexing",
+      "Cross-origin browser requests",
+      "Password hashing",
+      "API version numbering"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "Why should an API validate incoming data?",
+    "options": [
+      "To ensure data meets expected rules before processing",
+      "To increase CSS performance",
+      "To remove HTTP methods",
+      "To avoid using JSON"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "REST API Development",
+    "question": "What is the main purpose of API documentation?",
+    "options": [
+      "To explain available endpoints, parameters, requests, and responses",
+      "To replace the backend",
+      "To create database backups",
+      "To style the API"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "What is frontend development primarily concerned with?",
+    "options": [
+      "Creating the user-facing part of a web application",
+      "Managing database servers",
+      "Configuring network routers",
+      "Managing server hardware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which three technologies form the basic foundation of web frontend development?",
+    "options": [
+      "Python, Java, SQL",
+      "HTML, CSS, JavaScript",
+      "MongoDB, Express, Node.js",
+      "PHP, MySQL, Java"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "What is responsive web design?",
+    "options": [
+      "Design that adapts to different screen sizes",
+      "Design that only works on desktops",
+      "Design without CSS",
+      "Design that requires a database"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which CSS feature is commonly used to create responsive layouts?",
+    "options": [
+      "Media queries",
+      "Variables only",
+      "Animations only",
+      "Comments"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which layout system is designed for one-dimensional layouts?",
+    "options": [
+      "CSS Grid",
+      "Flexbox",
+      "Tables",
+      "Float-only layouts"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which CSS layout system is especially useful for two-dimensional layouts?",
+    "options": [
+      "Flexbox",
+      "Inline-block",
+      "CSS Grid",
+      "Positioning"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which HTML element is used to define the main content of a page?",
+    "options": [
+      "<main>",
+      "<content>",
+      "<primary>",
+      "<page>"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Why are semantic HTML elements useful?",
+    "options": [
+      "They improve structure, accessibility, and meaning",
+      "They automatically create databases",
+      "They replace JavaScript",
+      "They prevent all CSS errors"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which CSS property controls the space inside an element's border?",
+    "options": [
+      "margin",
+      "padding",
+      "spacing",
+      "inside-space"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "padding",
+      "gap",
+      "margin",
+      "outside"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which unit is relative to the root element's font size?",
+    "options": [
+      "px",
+      "em",
+      "vh",
+      "rem"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which CSS property changes the text color?",
+    "options": [
+      "color",
+      "font-color",
+      "text-color",
+      "foreground-color"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which CSS property is used to control the size of text?",
+    "options": [
+      "text-size",
+      "font-size",
+      "size",
+      "font-scale"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "What is accessibility in frontend development?",
+    "options": [
+      "Making websites usable by people with different abilities",
+      "Making websites work only on mobile",
+      "Using only JavaScript",
+      "Removing all images"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which HTML attribute provides alternative text for images?",
+    "options": [
+      "title",
+      "alt",
+      "text",
+      "description"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "What is a breakpoint in responsive design?",
+    "options": [
+      "A screen width at which layout styles change",
+      "A JavaScript error",
+      "A database limit",
+      "A browser plugin"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which CSS property can make an element's corners rounded?",
+    "options": [
+      "corner-style",
+      "border-radius",
+      "round-border",
+      "radius-border"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "What does DOM stand for?",
+    "options": [
+      "Document Object Model",
+      "Data Object Management",
+      "Document Oriented Module",
+      "Dynamic Object Model"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "What does JavaScript commonly provide to a frontend application?",
+    "options": [
+      "Interactivity and dynamic behavior",
+      "Database hardware",
+      "Operating system drivers",
+      "Network cables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which JavaScript method selects an element by its ID?",
+    "options": [
+      "document.findId()",
+      "document.getElementById()",
+      "document.selectId()",
+      "window.getId()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "What is lazy loading used for?",
+    "options": [
+      "Loading resources when they are needed",
+      "Deleting unused files",
+      "Blocking all network requests",
+      "Removing CSS"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "What is code splitting?",
+    "options": [
+      "Dividing application code into smaller chunks that can be loaded when needed",
+      "Removing JavaScript",
+      "Splitting HTML tags",
+      "Creating multiple databases"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which tool is commonly used to inspect frontend elements and debug JavaScript in a browser?",
+    "options": [
+      "MongoDB Compass",
+      "Browser Developer Tools",
+      "Excel",
+      "Git Bash only"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "What is the purpose of browser caching?",
+    "options": [
+      "To store resources temporarily for faster subsequent access",
+      "To create database tables",
+      "To compile React",
+      "To validate passwords"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which format is commonly returned by APIs and consumed by frontend applications?",
+    "options": [
+      "JSON",
+      "PSD",
+      "EXE",
+      "DLL"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "What is a frontend framework or library used for?",
+    "options": [
+      "Helping developers build and organize interactive user interfaces",
+      "Replacing the operating system",
+      "Managing physical servers",
+      "Creating database hardware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Which CSS property can control how an element behaves when its content exceeds its box?",
+    "options": [
+      "overflow",
+      "content-size",
+      "box-content",
+      "exceed"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "What is cross-browser compatibility?",
+    "options": [
+      "Ensuring a website works consistently across supported browsers",
+      "Using multiple databases",
+      "Using only one CSS file",
+      "Removing JavaScript"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "What is the purpose of form validation on the frontend?",
+    "options": [
+      "To check user input before submission",
+      "To create database indexes",
+      "To replace backend validation",
+      "To disable HTTP requests"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Frontend Development",
+    "question": "Why should frontend applications also consider performance optimization?",
+    "options": [
+      "To improve loading speed and user experience",
+      "To remove all API calls",
+      "To prevent users from accessing the page",
+      "To replace the backend"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What does full stack web development involve?",
+    "options": [
+      "Only frontend development",
+      "Only database administration",
+      "Development of both frontend and backend parts of an application",
+      "Only UI design"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "Which layer is responsible for the user interface in a full stack application?",
+    "options": [
+      "Frontend",
+      "Database",
+      "Server hardware",
+      "Network layer"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "Which layer usually contains business logic and API endpoints?",
+    "options": [
+      "Frontend",
+      "Backend",
+      "Browser cache",
+      "CSS layer"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is the primary role of a database in a web application?",
+    "options": [
+      "Store and manage application data",
+      "Render CSS",
+      "Handle browser clicks",
+      "Create HTML automatically"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "How does a frontend typically communicate with a backend?",
+    "options": [
+      "Through API requests",
+      "Through CSS selectors",
+      "Through image files only",
+      "Through browser themes"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "Which protocol is commonly used for communication between frontend and backend applications?",
+    "options": [
+      "FTP only",
+      "HTTP/HTTPS",
+      "SMTP only",
+      "SSH only"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is CRUD?",
+    "options": [
+      "Create, Read, Update, Delete",
+      "Connect, Run, Upload, Download",
+      "Create, Render, Use, Deploy",
+      "Compile, Read, Update, Debug"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "Which operation represents reading data in CRUD?",
+    "options": [
+      "Create",
+      "Read",
+      "Update",
+      "Delete"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "Which operation represents removing data in CRUD?",
+    "options": [
+      "Create",
+      "Read",
+      "Update",
+      "Delete"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is authentication?",
+    "options": [
+      "Verifying the identity of a user",
+      "Changing CSS styles",
+      "Creating a database table",
+      "Compressing images"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is authorization?",
+    "options": [
+      "Creating a user account",
+      "Determining what an authenticated user is allowed to access",
+      "Encrypting every image",
+      "Rendering a webpage"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "Why should passwords generally be hashed before storage?",
+    "options": [
+      "To avoid storing passwords as plain text",
+      "To make CSS faster",
+      "To create API routes",
+      "To improve image quality"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "Which type of database can store data as JSON-like documents?",
+    "options": [
+      "Document database",
+      "Spreadsheet",
+      "CSS database",
+      "Image database"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is an ORM or ODM commonly used for?",
+    "options": [
+      "Helping applications interact with databases using application-level models",
+      "Creating CSS animations",
+      "Rendering HTML",
+      "Managing browser tabs"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is deployment?",
+    "options": [
+      "Making an application available in a target environment for users",
+      "Writing HTML tags",
+      "Creating a local variable",
+      "Deleting source code"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is an environment variable commonly used for?",
+    "options": [
+      "Storing configuration values such as URLs and secrets",
+      "Creating CSS classes",
+      "Replacing JavaScript",
+      "Rendering database tables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "Why should secrets such as database passwords not be hardcoded in source code?",
+    "options": [
+      "They may be exposed through source code or version control",
+      "They make HTML invalid",
+      "They prevent CSS from loading",
+      "They disable JavaScript"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is Git commonly used for in full stack development?",
+    "options": [
+      "Version control",
+      "Database hosting",
+      "Image editing",
+      "Browser rendering"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is the purpose of a package manager such as npm?",
+    "options": [
+      "Managing project dependencies and scripts",
+      "Creating database schemas automatically",
+      "Designing UI mockups",
+      "Hosting websites directly"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is middleware commonly used for in a backend application?",
+    "options": [
+      "Processing requests before they reach route handlers",
+      "Creating CSS animations",
+      "Designing logos",
+      "Managing browser bookmarks"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "Why is input validation important in a full stack application?",
+    "options": [
+      "It helps ensure incoming data is valid and safe to process",
+      "It replaces authentication",
+      "It removes the need for a database",
+      "It automatically deploys the application"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is an API used for in a full stack application?",
+    "options": [
+      "Connecting frontend functionality with backend services",
+      "Styling HTML elements",
+      "Replacing the database",
+      "Creating operating system drivers"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "Which format is commonly used for API data exchange?",
+    "options": [
+      "JSON",
+      "PSD",
+      "MP3",
+      "EXE"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is error handling used for?",
+    "options": [
+      "Managing unexpected conditions and returning appropriate responses",
+      "Removing all application errors permanently",
+      "Creating CSS variables",
+      "Replacing database backups"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is logging used for in backend applications?",
+    "options": [
+      "Recording useful information about application behavior and errors",
+      "Creating frontend components",
+      "Replacing authentication",
+      "Designing webpages"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is scalability in web application development?",
+    "options": [
+      "The ability of an application to handle increased workload effectively",
+      "The ability to change CSS colors",
+      "The ability to create HTML headings",
+      "The ability to remove API endpoints"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is testing used for in software development?",
+    "options": [
+      "Verifying that application functionality works as expected",
+      "Replacing source code",
+      "Creating database passwords",
+      "Designing UI colors"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is CI/CD commonly associated with?",
+    "options": [
+      "Automating software integration, testing, and delivery processes",
+      "Creating HTML tables",
+      "Editing images",
+      "Managing browser history"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "Why is HTTPS important for web applications?",
+    "options": [
+      "It helps encrypt data transmitted between client and server",
+      "It replaces JavaScript",
+      "It creates database collections",
+      "It makes CSS responsive automatically"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Web Development",
+    "program": "Full Stack Web Development",
+    "question": "What is the role of a web server in a full stack application?",
+    "options": [
+      "It receives and responds to client requests",
+      "It only designs the frontend",
+      "It only stores CSS files",
+      "It replaces the database"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  }
+]

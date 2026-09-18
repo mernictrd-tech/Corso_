@@ -13,6 +13,7 @@ const {
   sendCertificateEmail,
 } = require("../services/certificateEmail.service");
 const { saveCertificatePNG } = require("../services/certificate.service");
+const { sendEmail } = require("../services/ses.service");
 
 const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID,
@@ -273,16 +274,20 @@ const verifyPayment = async (req, res) => {
     });
 
     let shouldFetchTid = false;
+    let isNewStudent = false;
+    let temporaryPassword = null;
 
     if (!student) {
+      temporaryPassword = crypto.randomBytes(10).toString("hex");
+
       student = await userModel.create({
         fullName: payment.customerName,
         email: payment.customerEmail,
         phone: payment.customerMobile,
-        password: crypto.randomBytes(10).toString("hex"),
+        password: temporaryPassword,
         termsAccepted: true,
       });
-
+      isNewStudent = true;
       shouldFetchTid = true;
     } else if (!student.tid) {
       shouldFetchTid = true;
@@ -399,7 +404,7 @@ const verifyPayment = async (req, res) => {
       return;
     }
 
-    await userModel.findByIdAndUpdate(
+    student = await userModel.findByIdAndUpdate(
       student._id,
       {
         $set: {
@@ -408,6 +413,7 @@ const verifyPayment = async (req, res) => {
       },
       { returnDocument: "after" },
     );
+    console.log(student);
 
     await Certificate.findByIdAndUpdate(
       certificate._id,
@@ -461,6 +467,20 @@ const verifyPayment = async (req, res) => {
       .catch((error) => {
         console.error("Certificate email failed:", error);
       });
+
+    if (isNewStudent && temporaryPassword) {
+      void sendCredentialEmail({
+        email: student.email,
+        studentName: student.fullName,
+        password: temporaryPassword,
+      })
+        .then((result) => {
+          console.log("Credential email sent:", result.messageId);
+        })
+        .catch((error) => {
+          console.error("Credential email failed:", error);
+        });
+    }
 
     // console.log(tid);
     return res.status(200).json({
@@ -524,62 +544,198 @@ const getAllPayments = async (req, res) => {
   }
 };
 
-const fetchAndUpdateTid = async (studentId, certId, email, name, phone) => {
-  try {
-    const response = await axios.post(
-      process.env.TID_API_URL,
-      {
-        email: email,
-        name: name,
-        phone: phone,
-        parent_institute: "SKILIUM.IN",
-      },
-      {
-        timeout: 10000,
-        headers: {
-          "Content-Type": "application/json",
-        },
-      },
-    );
+const sendCredentialEmail = async ({ email, studentName, password }) => {
+  const subject = "Your Skilium Account Credentials";
 
-    console.log("TID API response:", response.data);
+  const html = `
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Your Skilium Account Credentials</title>
+    </head>
 
-    const tid = response.data?.TID;
+    <body style="
+      margin: 0;
+      padding: 0;
+      background: #f4f7fb;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1e293b;
+    ">
+      <div style="
+        max-width: 650px;
+        margin: 30px auto;
+        background: #ffffff;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid #e2e8f0;
+      ">
 
-    if (!tid) {
-      console.error(`TID not received for ${email}`);
-      return;
-    }
+        <!-- Header -->
+        <div style="
+          padding: 28px;
+          text-align: center;
+          background: #07111f;
+        ">
+          <img
+            src="https://skilium.in/assets/skilium-logo-without-bg-DARK.png"
+            alt="Skilium"
+            width="150"
+            style="
+              display: block;
+              width: 150px;
+              max-width: 100%;
+              height: auto;
+              margin: 0 auto;
+              border: 0;
+            "
+          />
+        </div>
 
-    await userModel.findByIdAndUpdate(
-      studentId,
-      {
-        $set: {
-          tid: tid,
-        },
-      },
-      { returnDocument: "after" },
-    );
+        <!-- Main Content -->
+        <div style="padding: 35px 30px;">
 
-    await Certificate.findByIdAndUpdate(
-      certId,
-      {
-        $set: {
-          tid: tid,
-        },
-      },
-      { returnDocument: "after" },
-    );
+          <h2 style="
+            margin-top: 0;
+            color: #0f172a;
+          ">
+            Welcome to Skilium, ${studentName}!
+          </h2>
 
-    console.log(`TID ${tid} saved for ${email}`);
+          <p style="
+            font-size: 16px;
+            line-height: 1.7;
+            color: #475569;
+          ">
+            Your Skilium account has been created successfully.
+            You can now use your account to access your certification
+            information and other available services.
+          </p>
 
-    return tid;
-  } catch (error) {
-    console.error(
-      `TID API error for ${email}:`,
-      error.response?.data || error.message,
-    );
-  }
+          <!-- Account Credentials -->
+          <div style="
+            margin: 25px 0;
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 10px;
+            border: 1px solid #e2e8f0;
+          ">
+
+            <p style="
+              margin: 8px 0;
+              font-size: 15px;
+              color: #334155;
+            ">
+              <strong>Email:</strong>
+              ${email}
+            </p>
+
+            <p style="
+              margin: 8px 0;
+              font-size: 15px;
+              color: #334155;
+            ">
+              <strong>Password:</strong>
+              ${password}
+            </p>
+
+          </div>
+
+          <p style="
+            font-size: 15px;
+            line-height: 1.7;
+            color: #475569;
+          ">
+            Please use the credentials above to log in to your Skilium
+            account.
+          </p>
+
+          <!-- Login Button -->
+          <div style="
+            text-align: center;
+            margin: 30px 0;
+          ">
+            <a
+              href="https://skilium.in/"
+              style="
+                display: inline-block;
+                padding: 13px 24px;
+                background: #06b6d4;
+                color: #ffffff;
+                text-decoration: none;
+                border-radius: 8px;
+                font-weight: bold;
+              "
+            >
+              Login to Skilium
+            </a>
+          </div>
+
+          <!-- Security Notice -->
+          <div style="
+            margin: 25px 0;
+            padding: 16px 18px;
+            background: #f8fafc;
+            border-radius: 10px;
+            border: 1px solid #e2e8f0;
+          ">
+
+            <p style="
+              margin: 0;
+              font-size: 14px;
+              line-height: 1.6;
+              color: #475569;
+            ">
+              <strong style="color: #0f172a;">
+                Security Notice
+              </strong>
+              <br />
+              For your security, please change your password after
+              logging in for the first time. Do not share your login
+              credentials with anyone.
+            </p>
+
+          </div>
+
+          <p style="
+            font-size: 13px;
+            color: #64748b;
+            line-height: 1.6;
+          ">
+            If you did not expect this account to be created, please
+            contact the Skilium support team.
+          </p>
+
+        </div>
+
+        <!-- Footer -->
+        <div style="
+          padding: 20px 30px;
+          background: #f8fafc;
+          border-top: 1px solid #e2e8f0;
+          text-align: center;
+        ">
+          <p style="
+            margin: 0;
+            font-size: 12px;
+            color: #64748b;
+          ">
+            This is an automated email from Skilium.
+            Please do not reply to this email.
+          </p>
+        </div>
+
+      </div>
+    </body>
+  </html>
+`;
+
+  return sendEmail({
+    to: email,
+    subject,
+    html,
+  });
 };
 
 /*

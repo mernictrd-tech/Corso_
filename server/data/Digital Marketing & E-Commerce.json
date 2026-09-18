@@ -1,0 +1,3782 @@
+[
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is digital marketing?",
+    "options": [
+      "Marketing only through newspapers",
+      "Marketing products or services through digital channels",
+      "Managing computer hardware",
+      "Selling products only in physical stores"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "Which of the following is a digital marketing channel?",
+    "options": [
+      "Social media",
+      "Printed brochure",
+      "Billboard",
+      "Newspaper"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is a target audience?",
+    "options": [
+      "A company's employees",
+      "All internet users",
+      "The specific group a campaign aims to reach",
+      "Only existing customers"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is a marketing conversion?",
+    "options": [
+      "Creating a website",
+      "Getting a page view",
+      "Opening a social media account",
+      "A user completing a desired action"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is a buyer persona?",
+    "options": [
+      "A fictional representation of an ideal customer",
+      "A type of advertisement",
+      "A company financial report",
+      "A website security tool"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What does CTA stand for in digital marketing?",
+    "options": [
+      "Customer Tracking Analysis",
+      "Content Traffic Application",
+      "Call To Action",
+      "Campaign Target Audience"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "Which is an example of a call-to-action?",
+    "options": [
+      "Website logo",
+      "Buy Now",
+      "Company address",
+      "Page footer"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is brand awareness?",
+    "options": [
+      "The number of products a company sells",
+      "The number of employees in a company",
+      "The amount spent on advertising",
+      "The extent to which people recognize or remember a brand"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What does CPC mean?",
+    "options": [
+      "Customer Purchase Cost",
+      "Campaign Performance Count",
+      "Cost Per Click",
+      "Content Promotion Channel"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What does CPM commonly mean in advertising?",
+    "options": [
+      "Customer Promotion Method",
+      "Cost Per Thousand Impressions",
+      "Campaign Performance Management",
+      "Content Per Marketing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "Which metric measures the percentage of users who click an advertisement after seeing it?",
+    "options": [
+      "Bounce Rate",
+      "Conversion Rate",
+      "Engagement Rate",
+      "Click-Through Rate"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is a landing page?",
+    "options": [
+      "A dedicated page designed for a marketing campaign or action",
+      "A database table",
+      "A website server",
+      "A social media account"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is inbound marketing?",
+    "options": [
+      "Marketing only through television",
+      "Marketing based only on cold calls",
+      "Attracting customers through useful content and experiences",
+      "Selling only through physical stores"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is customer engagement?",
+    "options": [
+      "Only purchasing a product",
+      "Interaction between customers and a brand",
+      "Only visiting a website",
+      "Managing customer databases"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "Which is an example of owned media?",
+    "options": [
+      "A newspaper article",
+      "A customer's review",
+      "A competitor's website",
+      "A company's official website"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is paid media?",
+    "options": [
+      "Media exposure gained through customer recommendations",
+      "Content published on a company's own website",
+      "Advertising space or promotion that a business pays for",
+      "Organic search traffic"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is earned media?",
+    "options": [
+      "Publicity or mentions gained without directly paying for the placement",
+      "A company's website",
+      "Paid search advertisements",
+      "Email newsletters"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is remarketing?",
+    "options": [
+      "Creating a new brand",
+      "Showing marketing messages to people who previously interacted with a business",
+      "Deleting old advertisements",
+      "Marketing only through email"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What does a marketing funnel represent?",
+    "options": [
+      "The stages a customer may move through toward conversion",
+      "A company's database structure",
+      "The process of creating a website",
+      "A method for storing customer passwords"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "Which stage of a marketing funnel focuses on making potential customers aware of a brand?",
+    "options": [
+      "Purchase",
+      "Retention",
+      "Awareness",
+      "Loyalty"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is conversion rate?",
+    "options": [
+      "Total number of visitors",
+      "Percentage of users who complete a desired action",
+      "Total advertising cost",
+      "Number of website pages"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is A/B testing?",
+    "options": [
+      "Comparing two versions of a marketing element",
+      "Creating two websites for different companies",
+      "Testing two operating systems",
+      "Comparing two databases"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is a KPI?",
+    "options": [
+      "A type of advertising platform",
+      "A website development language",
+      "A measurable value used to evaluate progress toward an objective",
+      "A customer database"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What does ROI stand for?",
+    "options": [
+      "Rate of Internet Interaction",
+      "Return on Investment",
+      "Revenue of Online Impressions",
+      "Reach of Internet"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "Which factor should be considered when selecting a digital marketing channel?",
+    "options": [
+      "Target audience and marketing objective",
+      "Computer brand",
+      "Office furniture",
+      "Keyboard type"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is personalization in digital marketing?",
+    "options": [
+      "Sending the same message to every user",
+      "Removing customer information",
+      "Tailoring messages or experiences to users or audience segments",
+      "Using only offline advertisements"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "Which metric measures the percentage of visitors who leave after viewing only one page?",
+    "options": [
+      "CTR",
+      "ROAS",
+      "CPC",
+      "Bounce Rate"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is digital customer experience?",
+    "options": [
+      "The overall experience a customer has when interacting with a brand through digital channels",
+      "Only the physical shopping experience",
+      "A company's internal database",
+      "The process of designing computer hardware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "Why is audience segmentation useful?",
+    "options": [
+      "It removes the need for marketing research",
+      "It allows marketers to create more relevant messages for different groups",
+      "It guarantees every user will purchase",
+      "It eliminates advertising costs"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Fundamentals",
+    "question": "What is a digital marketing campaign?",
+    "options": [
+      "A database maintenance task",
+      "A website hosting service",
+      "A planned set of marketing activities designed to achieve specific goals",
+      "A computer security system"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What does SEO stand for?",
+    "options": [
+      "Search Engine Optimization",
+      "Social Engagement Operation",
+      "Search Experience Organization",
+      "Site Engagement Output"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is the main goal of SEO?",
+    "options": [
+      "Increase paid advertising costs",
+      "Improve a website's visibility in organic search results",
+      "Create social media accounts",
+      "Reduce website content"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is an organic search result?",
+    "options": [
+      "A result generated only through paid advertising",
+      "A result shown because of a social media post",
+      "A non-paid result displayed by a search engine",
+      "A result manually created by website owners"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is a keyword in SEO?",
+    "options": [
+      "A website password",
+      "A database field",
+      "A social media account",
+      "A word or phrase users enter into a search engine"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is on-page SEO?",
+    "options": [
+      "Optimizing elements within a website for search visibility",
+      "Running television advertisements",
+      "Managing external servers",
+      "Buying social media followers"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "Which is an example of an on-page SEO element?",
+    "options": [
+      "Television commercial",
+      "Title tag",
+      "Printed brochure",
+      "Office location"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is off-page SEO mainly concerned with?",
+    "options": [
+      "Changing website fonts",
+      "Editing HTML headings",
+      "Activities outside a website that can influence its search visibility",
+      "Changing computer hardware"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is a backlink?",
+    "options": [
+      "A broken website link",
+      "A link used only in email",
+      "A link from a website to its own homepage",
+      "A link from another website pointing to your website"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is a search engine crawler?",
+    "options": [
+      "A program that discovers and analyzes web pages",
+      "A tool for creating advertisements",
+      "A website database administrator",
+      "A social media user"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is search engine indexing?",
+    "options": [
+      "Deleting pages from a website",
+      "Storing and organizing discovered web pages for retrieval",
+      "Buying keywords",
+      "Creating social media posts"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is a meta description?",
+    "options": [
+      "A database password",
+      "A website hosting plan",
+      "A short description that may appear in search results",
+      "A social media username"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is the purpose of an SEO-friendly URL?",
+    "options": [
+      "To hide website content",
+      "To increase server memory",
+      "To replace website navigation",
+      "To make the URL understandable and relevant"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is keyword research?",
+    "options": [
+      "Finding search terms relevant to a target audience",
+      "Changing a domain name",
+      "Creating database indexes",
+      "Designing social media logos"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is keyword stuffing?",
+    "options": [
+      "Using keywords naturally",
+      "Excessively using keywords to manipulate search rankings",
+      "Removing all keywords",
+      "Using keywords only in advertisements"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is internal linking?",
+    "options": [
+      "Links between different external websites",
+      "Links from advertisements",
+      "Links between pages within the same website",
+      "Links between social media accounts"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is mobile SEO?",
+    "options": [
+      "SEO for mobile phone manufacturers",
+      "SEO performed only through mobile advertisements",
+      "SEO that removes desktop pages",
+      "Optimizing a website for mobile users and search visibility"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "Why is page speed important for SEO?",
+    "options": [
+      "It can affect user experience and search performance",
+      "It changes the website domain",
+      "It removes the need for content",
+      "It guarantees the top ranking"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is alt text used for?",
+    "options": [
+      "Increasing image file size",
+      "Providing a text description of an image",
+      "Hiding images",
+      "Creating video advertisements"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is a sitemap?",
+    "options": [
+      "A list of social media followers",
+      "A database backup",
+      "A file or structure that provides information about pages on a website",
+      "A paid advertising campaign"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is robots.txt commonly used for?",
+    "options": [
+      "Creating website content",
+      "Improving image resolution",
+      "Managing advertisements",
+      "Providing crawling instructions to search engine bots"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is local SEO?",
+    "options": [
+      "Optimizing an online presence for location-based searches",
+      "SEO for computer networks",
+      "SEO used only for international websites",
+      "Optimizing database queries"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is a long-tail keyword?",
+    "options": [
+      "A keyword containing one letter",
+      "A specific search phrase usually containing several words",
+      "A keyword that cannot be searched",
+      "A keyword used only in advertisements"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is search intent?",
+    "options": [
+      "The speed of a search engine",
+      "The number of search engine servers",
+      "The reason or goal behind a user's search query",
+      "The website hosting provider"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "Which search intent is associated with finding a specific website or brand?",
+    "options": [
+      "Transactional",
+      "Informational",
+      "Commercial",
+      "Navigational"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "Which search intent usually involves looking for information?",
+    "options": [
+      "Informational",
+      "Navigational",
+      "Transactional",
+      "Commercial"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "Which search intent is most closely associated with completing a purchase or action?",
+    "options": [
+      "Navigational",
+      "Transactional",
+      "Informational",
+      "Research"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is an SEO audit?",
+    "options": [
+      "A paid advertising campaign",
+      "A database security test",
+      "An evaluation of a website's SEO health and improvement opportunities",
+      "A social media design process"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What does a canonical URL indicate?",
+    "options": [
+      "The website's social profile",
+      "The website's advertising budget",
+      "The number of page visitors",
+      "The preferred version of a page when similar URLs exist"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "Why is high-quality content important for SEO?",
+    "options": [
+      "It can satisfy user search intent and provide useful information",
+      "It guarantees paid advertisements",
+      "It removes the need for keywords",
+      "It prevents search engines from crawling pages"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Search Engine Optimization",
+    "question": "What is technical SEO?",
+    "options": [
+      "Creating television advertisements",
+      "Improving technical aspects of a website that affect crawling, indexing, and performance",
+      "Buying social media followers",
+      "Writing printed brochures"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is social media marketing?",
+    "options": [
+      "Managing computer networks",
+      "Selling products only in physical stores",
+      "Using social platforms to promote brands, products, services, or content",
+      "Designing operating systems"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "Which is a social media platform?",
+    "options": [
+      "Instagram",
+      "MySQL",
+      "Apache",
+      "Linux Kernel"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is a social media content calendar?",
+    "options": [
+      "A customer password database",
+      "A plan for organizing and scheduling social media content",
+      "A website hosting package",
+      "A database index"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is organic social media reach?",
+    "options": [
+      "Reach generated through paid advertising",
+      "The number of followers purchased",
+      "The number of employees using social media",
+      "The number of people who see content without paid promotion"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is social media engagement?",
+    "options": [
+      "Interactions such as likes, comments, shares, and saves",
+      "Only the number of followers",
+      "Only paid advertisements",
+      "Website hosting activity"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is influencer marketing?",
+    "options": [
+      "Marketing only through search engines",
+      "Working with influential individuals to promote products or messages",
+      "Managing a company's database",
+      "Marketing without an audience"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is a hashtag commonly used for?",
+    "options": [
+      "Encrypting messages",
+      "Creating database tables",
+      "Grouping or identifying content around a topic",
+      "Increasing internet speed"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is a social media campaign?",
+    "options": [
+      "A database migration",
+      "A computer repair process",
+      "A website hosting package",
+      "A planned set of activities designed to achieve a marketing goal on social platforms"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "Which metric measures how many people were exposed to social media content?",
+    "options": [
+      "Reach",
+      "Conversion",
+      "Bounce Rate",
+      "CPC"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What do social media impressions generally represent?",
+    "options": [
+      "Products sold",
+      "The number of times content was displayed",
+      "Employees managing an account",
+      "Customers who purchased something"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is a social media profile bio?",
+    "options": [
+      "A database record",
+      "A paid advertisement",
+      "A short description of an account or person",
+      "A website sitemap"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "Why is audience targeting important in social media marketing?",
+    "options": [
+      "It removes the need for content",
+      "It guarantees every user will purchase",
+      "It increases computer memory",
+      "It helps deliver content or advertisements to relevant users"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is paid social advertising?",
+    "options": [
+      "Paying a social platform to distribute advertisements to selected audiences",
+      "Posting content without promotion",
+      "Sending private messages to friends",
+      "Creating a free company profile"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is social listening?",
+    "options": [
+      "Listening to music on social media",
+      "Monitoring online conversations and mentions related to a brand or topic",
+      "Creating audio advertisements",
+      "Monitoring only employee messages"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is user-generated content?",
+    "options": [
+      "Content created only by a marketing team",
+      "Content automatically generated by search engines",
+      "Content created and shared by customers or other users",
+      "Content created only by advertising software"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "Which content format is commonly used on social media?",
+    "options": [
+      "Database schema",
+      "Server log",
+      "Programming variable",
+      "Short-form video"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is a social media call-to-action?",
+    "options": [
+      "A prompt asking users to take a specific action",
+      "A server error",
+      "A database command",
+      "A website hosting service"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is community management?",
+    "options": [
+      "Managing website server hardware",
+      "Building relationships and interacting with a brand's online community",
+      "Creating database tables",
+      "Managing computer operating systems"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is social media sentiment analysis?",
+    "options": [
+      "Counting followers",
+      "Measuring website speed",
+      "Analyzing whether online mentions are positive, negative, or neutral",
+      "Calculating advertising costs"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "Why should a brand maintain a consistent voice on social media?",
+    "options": [
+      "To reduce internet bandwidth",
+      "To prevent users from commenting",
+      "To eliminate visual content",
+      "To create a recognizable and consistent brand identity"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is an engagement rate?",
+    "options": [
+      "A measure of interactions relative to an audience or reach",
+      "The total number of employees",
+      "The number of advertisements purchased",
+      "The amount of website storage"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is a social media content strategy?",
+    "options": [
+      "A database security plan",
+      "A plan defining content goals, audiences, formats, and publishing approach",
+      "A computer hardware upgrade",
+      "A website hosting configuration"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is social media retargeting?",
+    "options": [
+      "Deleting previous advertisements",
+      "Creating a new social media platform",
+      "Showing advertisements to users who previously interacted with a business",
+      "Posting content without an audience"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "Which action can help increase meaningful social media engagement?",
+    "options": [
+      "Ignoring audience comments",
+      "Posting unrelated content repeatedly",
+      "Removing all calls-to-action",
+      "Responding to relevant comments and encouraging discussion"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "Why should social media performance be analyzed regularly?",
+    "options": [
+      "To identify what is working and improve future campaigns",
+      "To increase database tables",
+      "To change the company domain",
+      "To disable audience interaction"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is cross-platform social media marketing?",
+    "options": [
+      "Using only one social media account",
+      "Using multiple social platforms as part of a coordinated strategy",
+      "Managing multiple database servers",
+      "Advertising without a target audience"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is a social media metric?",
+    "options": [
+      "A computer hardware component",
+      "A database password",
+      "A measurable value used to evaluate social media performance",
+      "A web hosting protocol"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is social media analytics?",
+    "options": [
+      "A method for repairing computers",
+      "A type of database",
+      "A website hosting service",
+      "The process of collecting and analyzing social media performance data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is a social media content plan?",
+    "options": [
+      "A structured plan for what content to publish, when, and for whom",
+      "A database backup",
+      "A computer security certificate",
+      "A website server configuration"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Social Media Marketing",
+    "question": "What is the purpose of monitoring competitor activity on social media?",
+    "options": [
+      "To copy every competitor post",
+      "To understand market activity and identify useful opportunities",
+      "To access competitor passwords",
+      "To delete competitor accounts"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "What is the main purpose of content marketing?",
+    "options": [
+      "To create valuable content for a target audience",
+      "To increase server storage",
+      "To replace website hosting",
+      "To manage employee payroll"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Which of these is an example of content marketing?",
+    "options": [
+      "Changing a domain name",
+      "Installing an operating system",
+      "Buying computer hardware",
+      "Publishing an educational blog article"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "What should content marketing primarily focus on?",
+    "options": [
+      "Random advertisements",
+      "Technical server settings",
+      "Audience needs and interests",
+      "Database administration"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Which format is commonly used for content marketing?",
+    "options": [
+      "Blog posts",
+      "BIOS firmware",
+      "Network cables",
+      "System drivers"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Why is a content calendar useful?",
+    "options": [
+      "It repairs broken links",
+      "It replaces analytics software",
+      "It organizes planned content",
+      "It increases computer RAM"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "What is evergreen content?",
+    "options": [
+      "Content that is always about green products",
+      "Content that remains useful for a long period",
+      "Content that is deleted every day",
+      "Content visible only to employees"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "What does a target audience represent?",
+    "options": [
+      "All internet users",
+      "Only company employees",
+      "Website hosting providers",
+      "A specific group of people a business wants to reach"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Which content format is especially useful for visual storytelling?",
+    "options": [
+      "Database tables",
+      "Infographics",
+      "Source code",
+      "Server logs"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "What is the purpose of a content brief?",
+    "options": [
+      "To configure a web server",
+      "To install a browser",
+      "To guide the creation of specific content",
+      "To manage domain registration"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Which metric can help measure content engagement?",
+    "options": [
+      "Time spent on a page",
+      "Monitor size",
+      "Keyboard type",
+      "Computer processor speed"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "What is a call to action (CTA)?",
+    "options": [
+      "A website backup",
+      "A database command",
+      "A prompt encouraging users to take an action",
+      "A programming language"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Which approach helps create relevant content?",
+    "options": [
+      "Ignoring customers",
+      "Understanding audience problems",
+      "Publishing without a plan",
+      "Avoiding research"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "What is storytelling in content marketing used for?",
+    "options": [
+      "Building an emotional and memorable connection",
+      "Increasing hard disk capacity",
+      "Changing website hosting",
+      "Managing source code"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Which platform can be used to distribute video content?",
+    "options": [
+      "File Explorer",
+      "YouTube",
+      "Calculator",
+      "Task Manager"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "What is content distribution?",
+    "options": [
+      "Deleting old content",
+      "Designing computer hardware",
+      "Changing a website password",
+      "Sharing content through suitable channels"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Which is an important part of content strategy?",
+    "options": [
+      "Printer installation",
+      "Operating system updates",
+      "Computer assembly",
+      "Audience research"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "What does content repurposing mean?",
+    "options": [
+      "Deleting published content",
+      "Using existing content in a new format",
+      "Changing the company address",
+      "Removing website analytics"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Why should content have a clear objective?",
+    "options": [
+      "To ensure the content supports a marketing goal",
+      "To make the file larger",
+      "To reduce internet speed",
+      "To remove the target audience"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Which content type can provide detailed educational information?",
+    "options": [
+      "Whitepaper",
+      "Keyboard shortcut",
+      "Screen driver",
+      "Network cable"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "What is user-generated content?",
+    "options": [
+      "Content created only by company managers",
+      "Content created by customers or users",
+      "Content generated by operating systems",
+      "Content stored only on servers"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Which factor can improve the readability of online content?",
+    "options": [
+      "Using long unbroken paragraphs",
+      "Removing all headings",
+      "Using only technical terms",
+      "Using headings and short paragraphs"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "What is content personalization?",
+    "options": [
+      "Creating content based on audience characteristics or behavior",
+      "Deleting audience information",
+      "Using the same message for everyone",
+      "Removing customer preferences"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Which channel is commonly used for distributing written content?",
+    "options": [
+      "Printer driver",
+      "Company blog",
+      "Computer BIOS",
+      "Local file system"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "What is content performance analysis?",
+    "options": [
+      "Checking computer temperature",
+      "Testing network cables",
+      "Evaluating how content performs against goals",
+      "Changing website colors"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Which element can make a blog article more useful?",
+    "options": [
+      "Relevant examples",
+      "Random keywords",
+      "Unrelated advertisements",
+      "Broken links"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "What is a content audit?",
+    "options": [
+      "A computer security scan",
+      "A domain purchase",
+      "A systematic review of existing content",
+      "A website hosting upgrade"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Why is consistency important in content marketing?",
+    "options": [
+      "It removes the need for customers",
+      "It reduces website functionality",
+      "It helps maintain a recognizable communication style",
+      "It prevents content distribution"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Which is a useful content marketing goal?",
+    "options": [
+      "Generating qualified leads",
+      "Reducing monitor brightness",
+      "Changing computer hardware",
+      "Deleting website pages"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "What does audience engagement indicate?",
+    "options": [
+      "How fast a computer starts",
+      "How users interact with content",
+      "How much storage a website uses",
+      "How many employees a company has"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Content Marketing",
+    "question": "Which practice can help improve future content?",
+    "options": [
+      "Using performance data to make improvements",
+      "Ignoring analytics",
+      "Publishing without reviewing results",
+      "Removing audience feedback"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is Google Ads primarily used for?",
+    "options": [
+      "Paid online advertising",
+      "Database management",
+      "Operating system development",
+      "Video editing"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is a Google Ads campaign?",
+    "options": [
+      "A computer backup",
+      "A structured set of advertising activities",
+      "A website programming language",
+      "A hosting server"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What does CPC stand for?",
+    "options": [
+      "Campaign Performance Code",
+      "Customer Promotion Channel",
+      "Cost Per Click",
+      "Content Publishing Cost"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is a keyword in Google Ads?",
+    "options": [
+      "A word or phrase used to match ads with searches",
+      "A website password",
+      "A server address",
+      "A graphic design file"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What does CTR measure?",
+    "options": [
+      "Total website storage",
+      "Customer tax rate",
+      "Campaign tracking record",
+      "Click-through rate"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is an ad group?",
+    "options": [
+      "A group of computer users",
+      "A group of web pages",
+      "A collection of related ads and keywords",
+      "A website hosting plan"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is an ad budget used for?",
+    "options": [
+      "Controlling planned advertising spend",
+      "Creating a computer operating system",
+      "Managing employee salaries",
+      "Storing website images"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is a landing page?",
+    "options": [
+      "A page used only for website administration",
+      "A webpage users reach after clicking an advertisement",
+      "A server configuration file",
+      "A database backup page"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What does conversion mean in advertising?",
+    "options": [
+      "Changing a website domain",
+      "Installing analytics software",
+      "A desired action completed by a user",
+      "Increasing computer memory"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "Which is an example of a conversion?",
+    "options": [
+      "Opening a computer folder",
+      "Completing a purchase",
+      "Changing screen brightness",
+      "Restarting a server"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is ad relevance?",
+    "options": [
+      "The size of an advertisement file",
+      "How closely an ad matches a user's search or intent",
+      "The speed of a website server",
+      "The number of computer processors"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is Quality Score related to?",
+    "options": [
+      "Computer hardware quality",
+      "Website hosting speed only",
+      "The quality and relevance of keywords and ads",
+      "Email delivery speed"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "Why are negative keywords useful?",
+    "options": [
+      "They help prevent ads from showing for unwanted searches",
+      "They increase computer storage",
+      "They create website backups",
+      "They remove all campaign keywords"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is ad scheduling?",
+    "options": [
+      "Writing advertisement text",
+      "Creating a database",
+      "Changing the website domain",
+      "Choosing when ads should run"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is geographic targeting?",
+    "options": [
+      "Targeting users based on their browser",
+      "Targeting users based on computer type",
+      "Targeting ads to selected locations",
+      "Targeting only website administrators"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "Which metric measures the percentage of ad clicks that result in conversions?",
+    "options": [
+      "Bounce count",
+      "Impression rate",
+      "Keyword length",
+      "Conversion rate"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is an impression?",
+    "options": [
+      "A completed purchase",
+      "An instance of an ad being displayed",
+      "A customer complaint",
+      "A website password"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What does ROAS help advertisers understand?",
+    "options": [
+      "Website loading speed",
+      "Number of website pages",
+      "Revenue generated compared with advertising spend",
+      "Number of employees"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is audience targeting?",
+    "options": [
+      "Selecting specific groups of users for advertising",
+      "Choosing computer hardware",
+      "Selecting a website theme",
+      "Managing server files"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is remarketing?",
+    "options": [
+      "Changing an advertisement logo",
+      "Removing old campaigns",
+      "Creating a new domain",
+      "Showing ads to people who previously interacted with a business"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is the primary purpose of Google Ads?",
+    "options": [
+      "To create database tables",
+      "To display paid advertisements to reach potential customers",
+      "To design mobile applications",
+      "To manage computer networks"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What does CPC stand for in Google Ads?",
+    "options": [
+      "Cost Per Click",
+      "Campaign Performance Control",
+      "Customer Promotion Cost",
+      "Click Performance Campaign"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "Why should advertisers track conversions?",
+    "options": [
+      "To increase monitor size",
+      "To change website colors",
+      "To understand whether campaigns achieve desired actions",
+      "To reduce computer memory"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is a responsive search ad designed to do?",
+    "options": [
+      "Adapt combinations of headlines and descriptions to users",
+      "Repair a website automatically",
+      "Manage database tables",
+      "Replace web hosting"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is bid management?",
+    "options": [
+      "Managing website passwords",
+      "Writing blog articles",
+      "Creating social media accounts",
+      "Controlling how much an advertiser is willing to bid"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What is search intent?",
+    "options": [
+      "The speed of a search engine",
+      "The design of a search page",
+      "The reason or purpose behind a user's search",
+      "The number of search results"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "Which practice can improve a Google Ads campaign?",
+    "options": [
+      "Testing and optimizing ads regularly",
+      "Ignoring campaign data",
+      "Using unrelated keywords",
+      "Removing conversion tracking"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "Why is keyword research important for search advertising?",
+    "options": [
+      "It increases computer memory",
+      "It helps identify terms potential customers search for",
+      "It changes the website hosting provider",
+      "It creates email accounts"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What can a high CTR generally indicate?",
+    "options": [
+      "The website has no visitors",
+      "The ad has no impressions",
+      "Users find the ad appealing or relevant enough to click",
+      "The campaign has no keywords"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Google Ads Fundamentals",
+    "question": "What should a good landing page provide?",
+    "options": [
+      "Only unrelated images",
+      "Relevant information matching the advertisement",
+      "A blank screen",
+      "Random website links"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is email marketing?",
+    "options": [
+      "Marketing products or information through email",
+      "Managing computer hardware",
+      "Building database servers",
+      "Creating operating systems"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is an email subscriber?",
+    "options": [
+      "A website administrator",
+      "A person who has agreed to receive emails",
+      "A hosting provider",
+      "A search engine"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is an email subject line?",
+    "options": [
+      "The sender's password",
+      "The email server address",
+      "The short title shown for an email",
+      "The email database"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is email segmentation?",
+    "options": [
+      "Deleting all subscribers",
+      "Sending every email to random users",
+      "Dividing subscribers into groups based on relevant characteristics",
+      "Changing an email password"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What does an open rate measure?",
+    "options": [
+      "Number of emails written",
+      "Percentage of delivered emails that are opened",
+      "Number of email addresses created",
+      "Email server storage"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What does CTR in email marketing measure?",
+    "options": [
+      "Email server speed",
+      "Number of subscribers",
+      "Percentage of recipients who click links in an email",
+      "Number of email templates"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is an email call to action?",
+    "options": [
+      "An email password",
+      "A server configuration",
+      "A database table",
+      "A prompt encouraging the reader to take a specific action"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "Why is personalization useful in email marketing?",
+    "options": [
+      "It increases server storage",
+      "It can make messages more relevant to recipients",
+      "It removes the need for subscribers",
+      "It prevents email delivery"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is an automated email?",
+    "options": [
+      "An email written by a computer manufacturer",
+      "An email that is always sent manually",
+      "An email sent automatically based on a defined trigger or schedule",
+      "An email that cannot contain links"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is a welcome email?",
+    "options": [
+      "An email commonly sent to a new subscriber or customer",
+      "An email used to reset a computer",
+      "An email sent only to employees",
+      "An email containing server logs"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What does email deliverability refer to?",
+    "options": [
+      "How attractive an email design is",
+      "The ability of emails to successfully reach recipients' inboxes",
+      "The number of images in an email",
+      "The size of an email template"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "Why should businesses maintain a clean email list?",
+    "options": [
+      "To increase email file size",
+      "To remove all active customers",
+      "To improve list quality and reduce invalid addresses",
+      "To stop subscribers from opening emails"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is a bounce email?",
+    "options": [
+      "An email that could not be delivered",
+      "An email with a successful conversion",
+      "An email opened multiple times",
+      "An email sent to the company owner"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is an unsubscribe link?",
+    "options": [
+      "A link to the company's homepage",
+      "A link to download an operating system",
+      "A link to access server settings",
+      "A link that allows recipients to stop receiving emails"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is A/B testing in email marketing?",
+    "options": [
+      "Testing two computer systems",
+      "Testing two email servers",
+      "Testing email passwords",
+      "Comparing different versions of an email to see which performs better"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "Which element is commonly tested in an email A/B test?",
+    "options": [
+      "Subject line",
+      "Computer processor",
+      "Database password",
+      "Server hardware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is an email campaign?",
+    "options": [
+      "A computer security program",
+      "A website database",
+      "A hosting configuration",
+      "A planned series or set of marketing emails"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is a drip campaign?",
+    "options": [
+      "A campaign that sends every email manually",
+      "A campaign used only for advertisements on television",
+      "A sequence of automated emails sent over time",
+      "A campaign that deletes email contacts"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "Why is mobile-friendly email design important?",
+    "options": [
+      "Many people read emails on mobile devices",
+      "It increases computer RAM",
+      "It removes email links",
+      "It prevents emails from being delivered"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is an email template?",
+    "options": [
+      "A database backup",
+      "A reusable email design or structure",
+      "A web server",
+      "A computer driver"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "Which metric can indicate email engagement?",
+    "options": [
+      "Hard disk capacity",
+      "Processor speed",
+      "Click-through rate",
+      "Screen resolution"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is a transactional email?",
+    "options": [
+      "A random promotional poster",
+      "An email triggered by a user's action or transaction",
+      "A computer operating system",
+      "A social media advertisement"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "Why should promotional emails have relevant content?",
+    "options": [
+      "To make emails longer",
+      "To provide value and improve recipient engagement",
+      "To increase server storage",
+      "To remove the unsubscribe option"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is the primary purpose of email marketing?",
+    "options": [
+      "To communicate with and engage customers through email",
+      "To design computer hardware",
+      "To manage operating systems",
+      "To create database schemas"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is an email open rate?",
+    "options": [
+      "The number of emails sent",
+      "The percentage of delivered emails that are opened",
+      "The number of unsubscribed users",
+      "The total size of an email"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "Which practice can help improve email engagement?",
+    "options": [
+      "Sending the same email repeatedly",
+      "Using irrelevant subject lines",
+      "Personalizing email content for the audience",
+      "Removing all call-to-action buttons"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is email personalization based on?",
+    "options": [
+      "Computer brand only",
+      "Internet speed only",
+      "Information or behavior related to the recipient",
+      "Monitor resolution"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What can a high unsubscribe rate indicate?",
+    "options": [
+      "Recipients may find the emails irrelevant or excessive",
+      "The computer has more RAM",
+      "The website has more storage",
+      "The email server has a larger screen"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "What is an email marketing list?",
+    "options": [
+      "A list of computer programs",
+      "A list of server files",
+      "A list of website themes",
+      "A collection of email contacts used for communication"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Email Marketing",
+    "question": "Why should email marketers monitor campaign results?",
+    "options": [
+      "To increase monitor size",
+      "To change computer hardware",
+      "To identify what is working and improve future campaigns",
+      "To remove all subscribers"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is e-commerce?",
+    "options": [
+      "Buying and selling goods or services online",
+      "Managing computer hardware",
+      "Creating operating systems",
+      "Designing network cables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "Which is an example of an e-commerce\ntransaction?",
+    "options": [
+      "Installing a printer",
+      "Creating a local folder",
+      "Updating a computer driver",
+      "Buying online"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is an online marketplace?",
+    "options": [
+      "A database management system",
+      "A computer repair tool",
+      "A website hosting service",
+      "A platform with multiple sellers"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is a shopping cart used for?",
+    "options": [
+      "Sending emails",
+      "Managing website code",
+      "Tracking computer hardware",
+      "Storing selected products"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is checkout in e-commerce?",
+    "options": [
+      "Installing a browser",
+      "Completing a purchase",
+      "Changing a product image",
+      "Creating a social media account"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "Which is commonly required during online\ncheckout?",
+    "options": [
+      "Operating system license",
+      "Printer configuration",
+      "Payment and delivery info",
+      "Computer processor details"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is a payment gateway?",
+    "options": [
+      "A social media platform",
+      "Processes online payments",
+      "A website image editor",
+      "A content management tool"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What does B2C stand for?",
+    "options": [
+      "Business to Channel",
+      "Business to Consumer",
+      "Browser to Customer",
+      "Business to Computer"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What does B2B e-commerce involve?",
+    "options": [
+      "Buying computer hardware",
+      "Selling only through social media",
+      "Selling only to individual consumers",
+      "Transactions between businesses"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "Why is product information important in an\nonline store?",
+    "options": [
+      "Helps customers understand",
+      "It replaces payment gateways",
+      "It increases computer memory",
+      "It manages website hosting"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is an e-commerce platform?",
+    "options": [
+      "A network cable",
+      "Software for online stores",
+      "A graphic card",
+      "A computer operating system"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is inventory management?",
+    "options": [
+      "Designing logos",
+      "Creating advertisements",
+      "Managing social media comments",
+      "Tracking available products"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is an order confirmation?",
+    "options": [
+      "A server configuration",
+      "A product advertisement",
+      "A website password",
+      "A message confirming order"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is digital payment?",
+    "options": [
+      "Payment made by postal mail",
+      "Payment made only with physical cash",
+      "Payment made through computer hardware",
+      "Electronic payment methods"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "Why is website security important for\ne-commerce?",
+    "options": [
+      "To reduce product prices",
+      "To create product images",
+      "To increase screen resolution",
+      "To protect customer data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is a product catalog?",
+    "options": [
+      "A payment password",
+      "A server backup",
+      "A collection of products",
+      "A list of computer programs"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is order fulfillment?",
+    "options": [
+      "Managing social media accounts",
+      "Writing product advertisements",
+      "Creating website banners",
+      "Processing and delivering orders"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is a return policy?",
+    "options": [
+      "Rules for returning products",
+      "A policy about website hosting",
+      "Rules for creating social media posts",
+      "A policy about advertising budgets"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is customer experience in\ne-commerce?",
+    "options": [
+      "The size of a website database",
+      "The overall customer experience",
+      "The number of company employees",
+      "The speed of a computer processor"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is an e-commerce conversion?",
+    "options": [
+      "A desired action",
+      "A website redesign",
+      "A product image",
+      "A hosting configuration"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is a product review?",
+    "options": [
+      "Customer feedback",
+      "A payment gateway",
+      "A website hosting service",
+      "A computer configuration"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is product pricing in\ne-commerce?",
+    "options": [
+      "Managing website code",
+      "Setting the product price",
+      "Creating customer passwords",
+      "Managing computer hardware"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is an online payment method?",
+    "options": [
+      "Computer memory",
+      "Website hosting",
+      "A digital way to pay",
+      "Product photography"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "Why are customer reviews useful?",
+    "options": [
+      "Help purchase decisions",
+      "They increase computer speed",
+      "They replace product descriptions",
+      "They manage payment gateways"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is mobile commerce?",
+    "options": [
+      "Buying via mobile devices",
+      "Selling computer hardware",
+      "Managing desktop applications",
+      "Creating mobile phone components"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is an abandoned cart?",
+    "options": [
+      "A completed purchase",
+      "Cart without purchase",
+      "A deleted product catalog",
+      "A payment confirmation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is an e-commerce business model?",
+    "options": [
+      "A website color scheme",
+      "A computer operating system",
+      "How business earns value",
+      "A product image format"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is dropshipping?",
+    "options": [
+      "A website design method",
+      "A digital payment system",
+      "A type of email campaign",
+      "Seller has no inventory"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "What is customer support in\ne-commerce?",
+    "options": [
+      "Helping customers",
+      "Creating computer drivers",
+      "Managing website servers",
+      "Designing product packaging"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "E-Commerce Fundamentals",
+    "question": "Which factor can improve an online store's\ncustomer experience?",
+    "options": [
+      "Complex checkout process",
+      "Hidden product information",
+      "Easy navigation",
+      "Slow website performance"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is digital marketing analytics?",
+    "options": [
+      "Analyzing marketing data",
+      "The process of designing computer hardware",
+      "A method of building servers",
+      "A type of programming language"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is a KPI?",
+    "options": [
+      "A type of website",
+      "Key performance indicator",
+      "A payment method",
+      "A programming framework"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What does conversion rate measure?",
+    "options": [
+      "Website storage",
+      "Number of employees",
+      "Users completing action",
+      "Number of website images"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is website traffic?",
+    "options": [
+      "Number of website visits",
+      "The amount of computer RAM",
+      "The size of a website logo",
+      "The number of database tables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is bounce rate?",
+    "options": [
+      "The percentage of users who leave after viewing only one page",
+      "The number of completed purchases",
+      "The number of email subscribers",
+      "The amount spent on advertising"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is attribution in digital\nmarketing?",
+    "options": [
+      "Crediting touchpoints",
+      "Creating a website",
+      "Designing advertisements",
+      "Managing computer networks"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is a marketing dashboard?",
+    "options": [
+      "Visual display of metrics",
+      "A payment gateway",
+      "A website server",
+      "A database password"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "Why is data segmentation useful?",
+    "options": [
+      "It increases computer memory",
+      "Analyze groups separately",
+      "It removes website visitors",
+      "It changes the domain name"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is customer acquisition cost?",
+    "options": [
+      "The price of a website domain",
+      "The cost of website hosting",
+      "Cost to acquire customer",
+      "The cost of designing a logo"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What does ROI stand for?",
+    "options": [
+      "Rate of Internet",
+      "Revenue of Interaction",
+      "Return on Investment",
+      "Result of Information"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is cohort analysis?",
+    "options": [
+      "Analyzing computer performance",
+      "Analyzing user groups",
+      "Analyzing website colors",
+      "Analyzing product images"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What does average order value\nmeasure?",
+    "options": [
+      "Number of website visits",
+      "Number of customers",
+      "Average spend per order",
+      "Number of advertisements"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is a traffic source?",
+    "options": [
+      "A website password",
+      "Channel bringing visitors",
+      "A computer processor",
+      "A product category"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is organic traffic?",
+    "options": [
+      "Traffic from paid advertisements",
+      "Unpaid search traffic",
+      "Traffic generated by employees only",
+      "Traffic from offline stores"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is paid traffic?",
+    "options": [
+      "Traffic from direct visits",
+      "Traffic from unpaid search",
+      "Paid advertising traffic",
+      "Traffic from internal employees"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "Why are analytics goals important?",
+    "options": [
+      "Define actions to measure",
+      "They increase server storage",
+      "They change website colors",
+      "They remove customer data"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is a funnel in digital\nmarketing?",
+    "options": [
+      "A website design tool",
+      "Stages toward conversion",
+      "A computer security system",
+      "A payment method"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is customer lifetime value?",
+    "options": [
+      "The number of website pages",
+      "The time a customer spends online",
+      "Estimated customer value",
+      "The cost of creating an advertisement"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is a landing page conversion?",
+    "options": [
+      "A change in website hosting",
+      "A database update",
+      "Visitor completes action",
+      "A new domain registration"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is data visualization?",
+    "options": [
+      "Storing data on a server",
+      "Charts or graphs",
+      "Deleting old data",
+      "Changing database passwords"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is a metric?",
+    "options": [
+      "A type of advertisement",
+      "A website template",
+      "Measurable performance value",
+      "A payment gateway"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What can analytics help marketers\nidentify?",
+    "options": [
+      "Performing campaigns",
+      "Computer processor type",
+      "Printer configuration",
+      "Operating system version"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is A/B testing?",
+    "options": [
+      "Testing two computer systems",
+      "Testing internet cables",
+      "Checking database storage",
+      "Comparing two versions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "Why is historical data useful?",
+    "options": [
+      "It increases website speed",
+      "It removes current data",
+      "Identify trends over time",
+      "It changes product prices automatically"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is a marketing report?",
+    "options": [
+      "A website password",
+      "A computer driver",
+      "A product image",
+      "Summary of performance"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What does engagement measure?",
+    "options": [
+      "Website hosting cost",
+      "User interaction",
+      "Computer memory",
+      "Number of employees"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is trend analysis?",
+    "options": [
+      "Creating advertisements",
+      "Managing customer passwords",
+      "Studying data changes",
+      "Designing website pages"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is campaign performance\nanalysis?",
+    "options": [
+      "Installing marketing software",
+      "Creating computer hardware",
+      "Changing website hosting",
+      "Evaluating campaign goals"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "What is a data-driven marketing\ndecision?",
+    "options": [
+      "A decision based only on personal opinion",
+      "Data-supported decision",
+      "A decision made without information",
+      "A decision based only on website design"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Digital Marketing Analytics",
+    "question": "Why should marketers compare KPIs over time?",
+    "options": [
+      "Understand performance",
+      "To increase computer speed",
+      "To change website colors",
+      "To remove old customers"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is a brand?",
+    "options": [
+      "A business identity",
+      "A website hosting plan",
+      "A computer application",
+      "A payment method"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is brand positioning?",
+    "options": [
+      "Perception vs competitors",
+      "The physical location of a company",
+      "The size of a company logo",
+      "The number of employees"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is brand awareness?",
+    "options": [
+      "The amount spent on advertising",
+      "Brand recognition",
+      "The number of products in stock",
+      "The size of a company's website"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is a brand identity?",
+    "options": [
+      "A payment gateway",
+      "A customer database",
+      "Visual and verbal elements",
+      "A website hosting service"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is a brand logo?",
+    "options": [
+      "A visual symbol",
+      "A customer support system",
+      "A payment method",
+      "A product inventory"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "Why is brand consistency important?",
+    "options": [
+      "It removes the need for customers",
+      "It increases computer memory",
+      "It replaces marketing analytics",
+      "Consistent brand experience"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is brand loyalty?",
+    "options": [
+      "A customer's preference for a website design",
+      "A customer's interest in computer hardware",
+      "Repeated brand preference",
+      "A customer's ability to create advertisements"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is a brand promise?",
+    "options": [
+      "Value brand commits to",
+      "A company's server address",
+      "A product inventory list",
+      "A website password"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is a target market?",
+    "options": [
+      "Specific customer group",
+      "All internet users",
+      "Only company employees",
+      "A group of competitors"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is brand differentiation?",
+    "options": [
+      "Reducing website traffic",
+      "How brand differs",
+      "Changing the company password",
+      "Removing product information"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is brand equity?",
+    "options": [
+      "The physical value of a company's office",
+      "The number of products a company sells",
+      "Value from brand recognition",
+      "The cost of website hosting"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is a brand message?",
+    "options": [
+      "Main idea communicated",
+      "A computer error message",
+      "A server notification",
+      "A payment confirmation"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is a brand voice?",
+    "options": [
+      "The sound of a company advertisement",
+      "The volume of a video",
+      "The number of social media posts",
+      "Consistent communication style"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is a brand tagline?",
+    "options": [
+      "A product serial number",
+      "A website address",
+      "Short phrase for brand",
+      "A customer database"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "Why is customer perception important for a\nbrand?",
+    "options": [
+      "Influences customer response",
+      "It increases server capacity",
+      "It changes website coding",
+      "It manages product inventory"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is visual branding?",
+    "options": [
+      "Managing website databases",
+      "Creating payment systems",
+      "Managing customer passwords",
+      "Using visuals for brand"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is co-branding?",
+    "options": [
+      "A method of website development",
+      "A customer loyalty program",
+      "Marketing partnership",
+      "A method of product storage"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is brand reputation?",
+    "options": [
+      "Overall brand perception",
+      "The number of products in stock",
+      "The company's website speed",
+      "The number of advertisements published"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What can strengthen brand trust?",
+    "options": [
+      "Inconsistent communication",
+      "Quality and honesty",
+      "Hiding product information",
+      "Ignoring customer feedback"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is brand storytelling?",
+    "options": [
+      "Writing computer code",
+      "Creating database records",
+      "Stories for brand values",
+      "Managing online payments"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is a brand guideline?",
+    "options": [
+      "Rules for brand usage",
+      "A payment receipt",
+      "A customer database",
+      "A product shipping label"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is brand extension?",
+    "options": [
+      "Reducing the number of products",
+      "Changing a company's domain",
+      "Removing an existing brand",
+      "Brand for new category"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "Why is a unique value proposition\nimportant?",
+    "options": [
+      "It increases website storage",
+      "It changes the company's logo automatically",
+      "Why choose the brand",
+      "It removes competitors from the market"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is brand recognition?",
+    "options": [
+      "Identifying brand cues",
+      "The number of website visitors",
+      "The amount of money spent on hosting",
+      "The number of employees"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is brand\nrepositioning?",
+    "options": [
+      "Changing a product's inventory level",
+      "Changing a website password",
+      "Changing a company's server",
+      "Changing market position"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is emotional branding?",
+    "options": [
+      "Using computer-generated emotions",
+      "Creating emotional connections",
+      "Sending only emotional emails",
+      "Using emotional words in database records"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is brand consistency across social\nmedia?",
+    "options": [
+      "Using consistent messaging and visuals",
+      "Posting completely different messages",
+      "Removing the brand logo",
+      "Using unrelated images"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is a brand ambassador?",
+    "options": [
+      "A person who manages website servers",
+      "A person who represents a brand",
+      "A person who manages product inventory",
+      "A person who develops payment software"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "How can customer feedback help brand marketing?",
+    "options": [
+      "Insights to improve products",
+      "It increases computer speed",
+      "It replaces the company website",
+      "It removes the need for marketing"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Digital Marketing & E-Commerce",
+    "program": "Brand Marketing",
+    "question": "What is a strong brand usually able to\ncreate?",
+    "options": [
+      "Recognition and trust",
+      "Only website traffic",
+      "Only product inventory",
+      "Only computer storage"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  }
+]

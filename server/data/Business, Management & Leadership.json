@@ -1,0 +1,3793 @@
+[
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is the primary purpose of business management?",
+    "options": [
+      "To coordinate resources and activities to achieve organizational goals",
+      "To create computer hardware",
+      "To eliminate all business risks",
+      "To replace every employee with technology"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "Which activity is part of the planning function of management?",
+    "options": [
+      "Recruiting customers",
+      "Setting objectives and determining how to achieve them",
+      "Preparing invoices only",
+      "Closing the organization"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What does organizational structure define?",
+    "options": [
+      "Only employee salaries",
+      "Only company products",
+      "How roles, responsibilities, and authority are arranged",
+      "The organization's advertising budget"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "Why is decision-making important in business management?",
+    "options": [
+      "It removes the need for planning",
+      "It helps organizations choose suitable actions to achieve objectives",
+      "It guarantees that every decision will succeed",
+      "It eliminates organizational responsibilities"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is a business objective?",
+    "options": [
+      "A specific result an organization aims to achieve",
+      "A company's office building",
+      "A type of employee benefit",
+      "A method of storing files"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "Which resource includes employees and their skills?",
+    "options": [
+      "Financial resources",
+      "Physical resources",
+      "Human resources",
+      "Technical infrastructure"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is delegation?",
+    "options": [
+      "Assigning tasks and authority to another person",
+      "Removing all employees from a project",
+      "Creating a new company",
+      "Reducing product prices"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is the purpose of performance measurement?",
+    "options": [
+      "To increase office space",
+      "To assess progress against defined objectives",
+      "To eliminate business planning",
+      "To replace organizational policies"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What does coordination help achieve?",
+    "options": [
+      "Alignment among people, activities, and resources",
+      "Complete removal of teamwork",
+      "Higher employee turnover",
+      "Elimination of business objectives"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is a standard operating procedure?",
+    "options": [
+      "A financial report",
+      "A customer complaint",
+      "A documented method for performing a routine activity",
+      "A marketing campaign"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "Why do managers monitor business activities?",
+    "options": [
+      "To identify deviations and take corrective action",
+      "To avoid all communication",
+      "To stop employees from working",
+      "To remove business objectives"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is organizational culture?",
+    "options": [
+      "The company's physical location",
+      "Shared values, beliefs, and behaviors within an organization",
+      "The company's accounting software",
+      "The number of products sold"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is resource allocation?",
+    "options": [
+      "Distributing available resources among activities or priorities",
+      "Removing resources from a company",
+      "Hiring only managers",
+      "Changing the company logo"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "Which function involves guiding employees toward organizational goals?",
+    "options": [
+      "Auditing",
+      "Leading",
+      "Accounting",
+      "Purchasing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is a key benefit of setting measurable goals?",
+    "options": [
+      "Progress can be objectively evaluated",
+      "Employees no longer need guidance",
+      "Business risks disappear",
+      "Planning becomes unnecessary"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is a business process?",
+    "options": [
+      "A company advertisement",
+      "A sequence of activities that produces a business outcome",
+      "An employee contract",
+      "A company building"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is span of control?",
+    "options": [
+      "The number of employees directly supervised by a manager",
+      "The total number of products sold",
+      "The amount of company revenue",
+      "The length of a business plan"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "Why is budgeting useful to a business?",
+    "options": [
+      "It helps plan and control the use of financial resources",
+      "It removes the need for employees",
+      "It guarantees higher sales",
+      "It eliminates competition"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is productivity?",
+    "options": [
+      "The number of employees in an organization",
+      "The amount of output produced relative to resources used",
+      "The total office area",
+      "The company's annual meeting"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What does accountability mean in management?",
+    "options": [
+      "Being responsible for results and actions",
+      "Avoiding all decisions",
+      "Delegating every responsibility",
+      "Ignoring business results"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is benchmarking?",
+    "options": [
+      "Comparing performance or practices against a reference standard",
+      "Hiring new employees",
+      "Creating a company logo",
+      "Reducing office hours"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "Why are policies created in organizations?",
+    "options": [
+      "To provide consistent guidelines for decisions and actions",
+      "To eliminate communication",
+      "To prevent all organizational changes",
+      "To replace business objectives"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is organizational efficiency?",
+    "options": [
+      "Hiring more employees regardless of need",
+      "Achieving desired outputs while minimizing unnecessary resource use",
+      "Increasing expenses without measuring results",
+      "Reducing all business activities"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is management control?",
+    "options": [
+      "Monitoring performance and taking action when necessary",
+      "Stopping employees from making decisions",
+      "Removing organizational goals",
+      "Changing the company name"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is a stakeholder?",
+    "options": [
+      "Only a company's owner",
+      "A person or group affected by or interested in an organization",
+      "Only a company's customer",
+      "A type of financial document"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "Why is teamwork important in business?",
+    "options": [
+      "It enables people to combine skills and work toward shared goals",
+      "It eliminates individual responsibility",
+      "It prevents communication",
+      "It removes the need for management"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is a key purpose of an organizational chart?",
+    "options": [
+      "To show reporting relationships and roles",
+      "To calculate employee salaries",
+      "To advertise products",
+      "To record customer complaints"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is continuous improvement?",
+    "options": [
+      "An ongoing effort to improve processes and performance",
+      "Stopping all business processes",
+      "Avoiding employee feedback",
+      "Changing products every day without analysis"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "What is business risk?",
+    "options": [
+      "The possibility that an event may negatively affect business objectives",
+      "A guaranteed business profit",
+      "A company's organizational chart",
+      "A standard operating procedure"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Management Fundamentals",
+    "question": "Why should managers use data in decision-making?",
+    "options": [
+      "It provides evidence for evaluating alternatives",
+      "It guarantees every decision will succeed",
+      "It removes the need for managers",
+      "It prevents organizational planning"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is a project?",
+    "options": [
+      "A permanent operational activity",
+      "A temporary effort undertaken to create a unique product, service, or result",
+      "A company's annual budget",
+      "A routine daily task"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is the main purpose of project planning?",
+    "options": [
+      "To define how the project will be executed and controlled",
+      "To remove project stakeholders",
+      "To avoid documentation",
+      "To guarantee zero changes"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is project scope?",
+    "options": [
+      "The project team salary",
+      "The defined work and boundaries of a project",
+      "The company revenue",
+      "The number of meetings"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is a project milestone?",
+    "options": [
+      "A significant point or event in a project schedule",
+      "A project employee",
+      "A type of project expense",
+      "A customer complaint"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is a project deliverable?",
+    "options": [
+      "A measurable output produced by a project",
+      "A project meeting",
+      "A project risk",
+      "A project manager"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "Who is a project stakeholder?",
+    "options": [
+      "Only the project manager",
+      "Only the customer",
+      "A person or organization that can affect or be affected by the project",
+      "Only the development team"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is a Work Breakdown Structure?",
+    "options": [
+      "A financial statement",
+      "A hierarchical decomposition of project work",
+      "A customer database",
+      "A risk report"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "Why is a project schedule created?",
+    "options": [
+      "To plan when project activities should occur",
+      "To remove project requirements",
+      "To calculate employee bonuses",
+      "To eliminate project risks"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is a project constraint?",
+    "options": [
+      "A project achievement",
+      "A limitation such as time, cost, scope, or resources",
+      "A project document",
+      "A team celebration"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is a risk register?",
+    "options": [
+      "A document used to record and track project risks",
+      "A list of employee salaries",
+      "A project invoice",
+      "A customer feedback form"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is scope creep?",
+    "options": [
+      "Reducing project requirements",
+      "Uncontrolled expansion of project scope",
+      "Completing a project early",
+      "Reducing project cost"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is a Gantt chart commonly used for?",
+    "options": [
+      "Visualizing project activities and their timing",
+      "Managing employee salaries",
+      "Writing project contracts",
+      "Recording customer complaints"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is a project baseline?",
+    "options": [
+      "An approved reference used to compare actual project performance",
+      "A project employee list",
+      "A customer database",
+      "A project communication channel"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is project monitoring?",
+    "options": [
+      "Tracking project progress and performance against the plan",
+      "Creating new company policies",
+      "Hiring project employees",
+      "Closing the project immediately"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is a change request?",
+    "options": [
+      "A formal proposal to modify an approved project element",
+      "A project completion certificate",
+      "A project budget",
+      "A team meeting"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "Why is stakeholder communication important?",
+    "options": [
+      "It keeps relevant stakeholders informed and aligned",
+      "It eliminates project documentation",
+      "It prevents project planning",
+      "It guarantees project success"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is a project dependency?",
+    "options": [
+      "A project celebration",
+      "A relationship in which one activity relies on another",
+      "A project budget",
+      "A project risk"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is critical path analysis used for?",
+    "options": [
+      "Identifying activities that determine the minimum project duration",
+      "Selecting project employees",
+      "Preparing financial statements",
+      "Writing customer emails"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is project cost management?",
+    "options": [
+      "Planning, estimating, budgeting, and controlling project costs",
+      "Managing project communication only",
+      "Creating project designs",
+      "Hiring project stakeholders"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is quality management in a project?",
+    "options": [
+      "Ensuring deliverables meet defined requirements and standards",
+      "Reducing the number of project members",
+      "Increasing project duration",
+      "Avoiding project testing"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is a project charter?",
+    "options": [
+      "A document that formally authorizes a project",
+      "A list of project expenses",
+      "A customer survey",
+      "A project invoice"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is resource management?",
+    "options": [
+      "Planning and controlling the people, equipment, and other resources needed",
+      "Managing only project documents",
+      "Managing only project risks",
+      "Creating marketing campaigns"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is project closure?",
+    "options": [
+      "The formal completion and finalization of project activities",
+      "The beginning of project planning",
+      "The creation of project requirements",
+      "The recruitment of a project team"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "Why are lessons learned documented?",
+    "options": [
+      "To improve future project performance",
+      "To increase project scope",
+      "To remove project stakeholders",
+      "To avoid project reviews"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is issue management?",
+    "options": [
+      "Identifying, tracking, and resolving problems affecting a project",
+      "Creating project advertisements",
+      "Hiring customers",
+      "Setting employee salaries"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is a project assumption?",
+    "options": [
+      "A condition considered true for planning purposes",
+      "A completed project deliverable",
+      "A project expense",
+      "A project employee"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is a project estimate?",
+    "options": [
+      "An approximation of the resources, time, or cost required",
+      "A project completion certificate",
+      "A stakeholder list",
+      "A project meeting agenda"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is project governance?",
+    "options": [
+      "The framework used to direct and oversee a project",
+      "A project software tool",
+      "A project invoice",
+      "A customer survey"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "What is schedule variance?",
+    "options": [
+      "The difference between planned and actual schedule performance",
+      "The total project budget",
+      "The number of project employees",
+      "The project quality standard"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Project Management Fundamentals",
+    "question": "Why is project documentation important?",
+    "options": [
+      "It provides a reliable record of plans, decisions, and results",
+      "It eliminates project communication",
+      "It prevents changes to all projects",
+      "It replaces project management"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is Agile project management?",
+    "options": [
+      "An approach focused on iterative delivery, collaboration, and responding to change",
+      "A method that avoids customer feedback",
+      "A process for creating financial reports",
+      "A fixed approach where plans cannot change"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is Scrum?",
+    "options": [
+      "A database management system",
+      "An Agile framework for developing and delivering products iteratively",
+      "A financial planning method",
+      "A programming language"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is a sprint?",
+    "options": [
+      "A fixed period during which a team works toward a usable increment",
+      "A project budget",
+      "A customer interview",
+      "A business contract"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is the Product Backlog?",
+    "options": [
+      "An ordered list of work and product requirements",
+      "A list of employee salaries",
+      "A project financial report",
+      "A customer database"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "Who is responsible for maximizing product value in Scrum?",
+    "options": [
+      "Scrum Master",
+      "Product Owner",
+      "Customer Support Manager",
+      "Project Accountant"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is the role of the Scrum Master?",
+    "options": [
+      "Managing company finances",
+      "Facilitating Scrum and helping remove impediments",
+      "Writing every software requirement",
+      "Approving employee salaries"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "Who develops the product increment in Scrum?",
+    "options": [
+      "The Developers",
+      "The customers",
+      "The finance department",
+      "The Product Owner alone"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is a Daily Scrum?",
+    "options": [
+      "A long monthly planning meeting",
+      "A short event for Developers to inspect progress and plan the next work",
+      "A customer sales meeting",
+      "A financial review"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is a Sprint Review?",
+    "options": [
+      "An event to inspect the increment and discuss future adaptations",
+      "A performance review of employees",
+      "A financial audit",
+      "A recruitment meeting"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+  "category": "Business, Management & Leadership",
+  "program": "Agile Project Management",
+  "question": "What is the main purpose of a Sprint Review in Agile?",
+  "options": [
+    "To assign annual performance ratings",
+    "To inspect the completed work and gather stakeholder feedback",
+    "To create the company's yearly budget",
+    "To finalize all project requirements permanently"
+  ],
+  "correctAnswer": 1,
+  "marks": 1,
+  "isActive": true
+},
+
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is a Sprint Retrospective?",
+    "options": [
+      "A meeting where the team identifies ways to improve its work",
+      "A customer sales presentation",
+      "A budget approval meeting",
+      "A product launch event"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is an increment?",
+    "options": [
+      "A usable, verified addition to the product",
+      "A project invoice",
+      "A team member",
+      "A customer complaint"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What does iterative development mean?",
+    "options": [
+      "Developing a product through repeated cycles of work and feedback",
+      "Completing everything before receiving feedback",
+      "Avoiding customer involvement",
+      "Following a plan without changes"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is an Agile user story?",
+    "options": [
+      "A short description of a user need or desired outcome",
+      "A technical server document",
+      "A financial report",
+      "A project invoice"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is backlog refinement?",
+    "options": [
+      "The ongoing activity of clarifying and preparing backlog items",
+      "Deleting all backlog items",
+      "Closing the project",
+      "Preparing employee salaries"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is a Definition of Done?",
+    "options": [
+      "Shared criteria that determine when work is complete",
+      "A list of project expenses",
+      "A customer contract",
+      "A project schedule"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is velocity commonly used for in Agile teams?",
+    "options": [
+      "Understanding how much work a team typically completes per iteration",
+      "Calculating employee salaries",
+      "Measuring company revenue",
+      "Creating customer invoices"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What does an Agile team value highly?",
+    "options": [
+      "Collaboration and adaptation",
+      "Avoiding all feedback",
+      "Fixed plans without change",
+      "Individual work only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "Why are short iterations useful?",
+    "options": [
+      "They enable frequent feedback and adjustment",
+      "They eliminate testing",
+      "They prevent customer involvement",
+      "They make requirements permanent"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is an impediment?",
+    "options": [
+      "Something that prevents or slows the team from making progress",
+      "A completed feature",
+      "A project celebration",
+      "A product requirement"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is Kanban?",
+    "options": [
+      "A method for managing workflow by visualizing work and limiting work in progress",
+      "A programming language",
+      "A financial accounting system",
+      "A database"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is a Kanban board used for?",
+    "options": [
+      "Visualizing the status and flow of work",
+      "Managing company payroll",
+      "Creating customer invoices",
+      "Writing business contracts"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is work in progress?",
+    "options": [
+      "Work that has started but is not yet completed",
+      "Work that has never been planned",
+      "Completed customer orders",
+      "A project budget"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "Why limit work in progress?",
+    "options": [
+      "To reduce multitasking and improve workflow",
+      "To increase unfinished work",
+      "To prevent collaboration",
+      "To remove customer feedback"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is customer feedback used for in Agile?",
+    "options": [
+      "To guide product improvements and priorities",
+      "To replace all developers",
+      "To eliminate product testing",
+      "To prevent changes"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is empirical process control?",
+    "options": [
+      "Making decisions based on observation, inspection, and adaptation",
+      "Following assumptions without inspection",
+      "Avoiding measurement",
+      "Using only historical documents"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What does transparency mean in Scrum?",
+    "options": [
+      "Making important work and information visible to relevant participants",
+      "Hiding project progress",
+      "Sharing passwords with everyone",
+      "Avoiding documentation"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is adaptation in Agile?",
+    "options": [
+      "Changing plans or practices based on new information",
+      "Never changing the original plan",
+      "Removing all requirements",
+      "Stopping product development"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is an MVP?",
+    "options": [
+      "A minimum version of a product that can provide value and learning",
+      "A complete final product with every feature",
+      "A financial report",
+      "A project management role"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Agile Project Management",
+    "question": "What is a key benefit of Agile delivery?",
+    "options": [
+      "Frequent delivery and the ability to respond to changing needs",
+      "Avoiding all customer feedback",
+      "Preventing changes after planning",
+      "Completing all work before testing"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is the primary purpose of business analysis?",
+    "options": [
+      "To identify business needs and recommend suitable solutions",
+      "To prepare employee attendance reports",
+      "To design office buildings",
+      "To manage payroll processing"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "Who is considered a stakeholder in business analysis?",
+    "options": [
+      "Only the business analyst",
+      "A person or group affected by or interested in the solution",
+      "Only the project manager",
+      "Only the development team"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is a business requirement?",
+    "options": [
+      "A technical coding standard",
+      "An employee's personal preference",
+      "A need or objective that the business wants to achieve",
+      "A company's office policy"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "Which technique is commonly used to collect requirements from stakeholders?",
+    "options": [
+      "Database backup",
+      "Software deployment",
+      "Code compilation",
+      "Interviews"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is requirements elicitation?",
+    "options": [
+      "The process of discovering and understanding stakeholder needs",
+      "The process of deleting project documents",
+      "The process of testing software only",
+      "The process of hiring employees"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is a functional requirement?",
+    "options": [
+      "A description of project cost",
+      "A description of what a system should do",
+      "A description of employee benefits",
+      "A description of company culture"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "Which is an example of a non-functional requirement?",
+    "options": [
+      "The user can create an account",
+      "The user can reset a password",
+      "The application should respond within two seconds",
+      "The user can submit an order"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is a use case?",
+    "options": [
+      "A financial statement",
+      "A project budget",
+      "A business contract",
+      "A description of how a user interacts with a system to achieve a goal"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What does a process flow diagram represent?",
+    "options": [
+      "The sequence of activities in a process",
+      "Employee salaries",
+      "Company profits",
+      "Customer demographics"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is gap analysis?",
+    "options": [
+      "Comparing employee salaries",
+      "Comparing the current state with the desired future state",
+      "Comparing product colors",
+      "Comparing office locations"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "Why is requirements prioritization important?",
+    "options": [
+      "It removes all requirements",
+      "It prevents stakeholder participation",
+      "It helps determine which requirements provide the most value",
+      "It guarantees that no changes will occur"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is a business process?",
+    "options": [
+      "A random set of employee activities",
+      "A company's marketing slogan",
+      "A customer complaint",
+      "A sequence of activities performed to achieve a business outcome"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is root cause analysis used for?",
+    "options": [
+      "Identifying the underlying cause of a problem",
+      "Increasing office expenses",
+      "Creating employee schedules",
+      "Selecting company colors"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is a stakeholder map?",
+    "options": [
+      "A map of company offices",
+      "A visual representation of stakeholders and their relationships or influence",
+      "A map of customer locations",
+      "A financial report"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is acceptance criteria?",
+    "options": [
+      "A list of employee responsibilities",
+      "A project budget",
+      "Conditions that must be satisfied for a requirement to be accepted",
+      "A list of company policies"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "Which tool can be used to visualize business processes?",
+    "options": [
+      "Calculator",
+      "Text editor",
+      "Email client",
+      "Flowchart"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is requirements validation?",
+    "options": [
+      "Checking whether requirements are correct, complete, and aligned with business needs",
+      "Deleting requirements",
+      "Writing source code",
+      "Hiring business analysts"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is a business case?",
+    "options": [
+      "A customer support ticket",
+      "A document explaining the justification, benefits, costs, and risks of an initiative",
+      "A software license",
+      "An employee handbook"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What does MoSCoW prioritization include?",
+    "options": [
+      "Manage, Operate, Solve, Control",
+      "Measure, Observe, Study, Work",
+      "Must have, Should have, Could have, Won't have",
+      "Monitor, Schedule, Coordinate, Write"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is a requirement traceability matrix used for?",
+    "options": [
+      "Tracking employee attendance",
+      "Tracking project expenses",
+      "Tracking customer payments",
+      "Tracking requirements through development and testing"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is a feasibility study?",
+    "options": [
+      "An assessment of whether a proposed solution is practical and achievable",
+      "A company advertising plan",
+      "An employee performance report",
+      "A product invoice"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "Why is stakeholder communication important?",
+    "options": [
+      "It removes the need for documentation",
+      "It helps ensure that stakeholder expectations and requirements are understood",
+      "It prevents project collaboration",
+      "It eliminates all business risks"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is solution evaluation?",
+    "options": [
+      "Selecting employee benefits",
+      "Preparing invoices",
+      "Assessing whether a solution meets business needs and delivers value",
+      "Creating a company logo"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is a user story commonly used to describe?",
+    "options": [
+      "A company's annual revenue",
+      "A project team hierarchy",
+      "A database structure",
+      "A user's need or desired functionality from the user's perspective"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is brainstorming?",
+    "options": [
+      "A technique for generating ideas and possible solutions",
+      "A method of financial auditing",
+      "A software testing method",
+      "A payroll process"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is business process improvement?",
+    "options": [
+      "Increasing process complexity",
+      "Improving existing processes to increase efficiency, quality, or value",
+      "Removing all business processes",
+      "Avoiding performance measurement"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "Which skill is especially important for a business analyst?",
+    "options": [
+      "Graphic illustration only",
+      "Hardware repair only",
+      "Analytical and communication skills",
+      "Accounting certification only"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is change impact analysis?",
+    "options": [
+      "Measuring employee attendance",
+      "Calculating sales tax",
+      "Evaluating customer satisfaction only",
+      "Assessing how a proposed change may affect systems, processes, people, or requirements"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is the purpose of documenting requirements?",
+    "options": [
+      "To create a shared reference for what the solution needs to provide",
+      "To prevent stakeholder feedback",
+      "To replace all testing activities",
+      "To increase project delays"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Analysis Fundamentals",
+    "question": "What is a solution requirement?",
+    "options": [
+      "A company's legal policy",
+      "A requirement describing capabilities or qualities needed in a solution",
+      "An employee's career goal",
+      "A marketing slogan"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is strategic management?",
+    "options": [
+      "Managing daily attendance",
+      "Preparing invoices",
+      "Formulating, implementing, and evaluating strategies to achieve organizational goals",
+      "Managing office equipment"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is a mission statement?",
+    "options": [
+      "A description of an employee's duties",
+      "A company's financial statement",
+      "A list of customer complaints",
+      "A statement explaining an organization's fundamental purpose"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is a vision statement?",
+    "options": [
+      "A description of the organization's desired future state",
+      "A record of daily sales",
+      "A list of company expenses",
+      "A description of employee attendance"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "Which tool analyzes strengths, weaknesses, opportunities, and threats?",
+    "options": [
+      "PESTLE",
+      "SWOT",
+      "Gantt chart",
+      "Balance sheet"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "Which of the following is an external factor in strategic analysis?",
+    "options": [
+      "Employee skills",
+      "Company culture",
+      "Government regulations",
+      "Internal processes"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What does competitive strategy focus on?",
+    "options": [
+      "Managing employee leave",
+      "Preparing tax returns",
+      "Reducing office space",
+      "How an organization competes successfully in its market"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is a competitive advantage?",
+    "options": [
+      "A capability or position that allows a company to outperform competitors",
+      "A temporary employee benefit",
+      "A company expense",
+      "A customer complaint"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is strategic planning?",
+    "options": [
+      "Planning employee holidays",
+      "Defining goals and determining how to achieve them over the long term",
+      "Planning daily lunch schedules",
+      "Managing office supplies"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What does PESTLE analysis examine?",
+    "options": [
+      "Only financial performance",
+      "Only employee performance",
+      "Political, Economic, Social, Technological, Legal, and Environmental factors",
+      "Only customer behavior"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is a strategic objective?",
+    "options": [
+      "A daily administrative task",
+      "An employee complaint",
+      "A short-term personal activity",
+      "A specific long-term result an organization aims to achieve"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is market penetration?",
+    "options": [
+      "Entering an unrelated industry",
+      "Increasing sales of existing products in an existing market",
+      "Closing an existing market",
+      "Selling products only to employees"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is cost leadership strategy?",
+    "options": [
+      "Offering the most expensive products",
+      "Avoiding operational efficiency",
+      "Seeking to become a low-cost producer in the industry",
+      "Reducing customer service"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is differentiation strategy?",
+    "options": [
+      "Selling identical products only",
+      "Avoiding innovation",
+      "Reducing product features",
+      "Creating offerings perceived as unique or distinctive"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is benchmarking?",
+    "options": [
+      "Comparing performance or practices against recognized standards or competitors",
+      "Preparing employee contracts",
+      "Calculating salaries",
+      "Managing customer complaints"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "Why is environmental scanning important?",
+    "options": [
+      "It eliminates all competition",
+      "It helps identify external trends, opportunities, and threats",
+      "It replaces business planning",
+      "It prevents organizational change"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is strategy implementation?",
+    "options": [
+      "Writing a company mission only",
+      "Analyzing competitors only",
+      "Putting strategic plans into action",
+      "Creating employee attendance records"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is strategic control?",
+    "options": [
+      "Managing office furniture",
+      "Controlling employee lunch breaks",
+      "Monitoring customer phone calls",
+      "Monitoring strategy execution and taking corrective action when needed"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is a core competency?",
+    "options": [
+      "A key organizational capability that provides value and can create competitive advantage",
+      "An employee attendance rule",
+      "A temporary business expense",
+      "A customer complaint"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is a strategic alliance?",
+    "options": [
+      "An employee promotion",
+      "A cooperative arrangement between organizations to pursue shared objectives",
+      "A customer refund",
+      "A government tax"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is vertical integration?",
+    "options": [
+      "Expanding into unrelated markets",
+      "Reducing product quality",
+      "Expanding into different stages of the supply or value chain",
+      "Closing distribution channels"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is horizontal integration?",
+    "options": [
+      "Hiring more employees",
+      "Reducing production",
+      "Entering a completely unrelated industry",
+      "Combining with or acquiring a business operating at the same stage of the industry"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is a value chain?",
+    "options": [
+      "A series of activities through which a company creates value for customers",
+      "A list of company employees",
+      "A customer database",
+      "A financial statement"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "Why should strategic objectives be measurable?",
+    "options": [
+      "To increase paperwork",
+      "To make progress and performance easier to evaluate",
+      "To prevent accountability",
+      "To eliminate planning"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is scenario planning?",
+    "options": [
+      "Creating employee schedules",
+      "Calculating current revenue",
+      "Developing possible future scenarios to prepare for uncertainty",
+      "Writing customer invoices"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is a market leader?",
+    "options": [
+      "A company with the smallest market share",
+      "A company that avoids competition",
+      "A newly established company",
+      "A company that holds a leading position in its market"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is strategic flexibility?",
+    "options": [
+      "The ability to adapt strategy when circumstances change",
+      "The ability to avoid all decisions",
+      "The ability to maintain outdated processes",
+      "The ability to eliminate competition"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is a long-term strategy?",
+    "options": [
+      "A plan focused only on today's activities",
+      "A plan designed to guide the organization toward future objectives",
+      "A daily employee schedule",
+      "A short customer promotion"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is strategic decision-making?",
+    "options": [
+      "Making routine administrative decisions",
+      "Selecting office equipment",
+      "Making important choices that influence the organization's long-term direction",
+      "Approving employee leave"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "Why should organizations review their strategies regularly?",
+    "options": [
+      "To avoid measuring performance",
+      "To eliminate organizational goals",
+      "To prevent innovation",
+      "To ensure strategies remain relevant as conditions change"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Strategic Management",
+    "question": "What is strategic alignment?",
+    "options": [
+      "Ensuring organizational activities and resources support strategic objectives",
+      "Increasing employee workload without goals",
+      "Reducing communication between departments",
+      "Avoiding organizational planning"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is leadership?",
+    "options": [
+      "Managing financial statements",
+      "Influencing and guiding people toward shared goals",
+      "Preparing invoices",
+      "Managing office supplies"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "Which quality is important for an effective leader?",
+    "options": [
+      "Avoiding responsibility",
+      "Ignoring employees",
+      "Integrity",
+      "Poor communication"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is a leadership vision?",
+    "options": [
+      "A list of employee salaries",
+      "A record of past expenses",
+      "A customer complaint",
+      "A clear picture of a desired future state"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is delegation?",
+    "options": [
+      "Assigning responsibilities and authority to others while retaining accountability",
+      "Avoiding all responsibilities",
+      "Removing employees from a team",
+      "Doing every task personally"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "Which leadership style involves making decisions with significant employee input?",
+    "options": [
+      "Autocratic",
+      "Democratic",
+      "Bureaucratic",
+      "Directive"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is emotional intelligence?",
+    "options": [
+      "The ability to calculate budgets",
+      "The ability to operate machines",
+      "The ability to understand and manage emotions",
+      "The ability to write reports"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is transformational leadership?",
+    "options": [
+      "Leadership based only on rules",
+      "Leadership that avoids organizational change",
+      "Leadership focused only on financial control",
+      "Leadership that inspires people to achieve significant change and growth"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is active listening?",
+    "options": [
+      "Giving full attention and seeking to understand the speaker",
+      "Interrupting frequently",
+      "Ignoring non-verbal signals",
+      "Preparing a response without listening"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "Why is trust important in leadership?",
+    "options": [
+      "It prevents teamwork",
+      "It supports credibility, collaboration, and effective relationships",
+      "It removes accountability",
+      "It reduces communication"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is servant leadership?",
+    "options": [
+      "A style based entirely on authority",
+      "A style focused only on organizational profits",
+      "A leadership approach focused on supporting and developing team members",
+      "A method of avoiding decisions"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is constructive feedback?",
+    "options": [
+      "Feedback intended to help improve performance in a useful and respectful way",
+      "Personal criticism without evidence",
+      "Ignoring performance problems",
+      "Publicly embarrassing an employee"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is team motivation?",
+    "options": [
+      "Reducing employee involvement",
+      "Encouraging team members to work toward goals with commitment and energy",
+      "Avoiding recognition",
+      "Increasing unnecessary supervision"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is leadership accountability?",
+    "options": [
+      "Blaming team members",
+      "Avoiding difficult decisions",
+      "Taking responsibility for decisions, actions, and outcomes",
+      "Delegating every responsibility"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is coaching in leadership?",
+    "options": [
+      "Giving employees financial penalties",
+      "Completing every task for employees",
+      "Avoiding employee development",
+      "Helping individuals improve skills, performance, and potential"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is a leader's role during organizational change?",
+    "options": [
+      "Communicating the change and helping people adapt to it",
+      "Ignoring employee concerns",
+      "Preventing all communication",
+      "Avoiding decision-making"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is conflict management?",
+    "options": [
+      "Avoiding every disagreement",
+      "Addressing disagreements constructively to reach workable outcomes",
+      "Creating competition within teams",
+      "Ignoring employee concerns"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is leadership adaptability?",
+    "options": [
+      "Maintaining the same approach in every situation",
+      "Avoiding new ideas",
+      "Adjusting leadership approaches based on changing situations and needs",
+      "Ignoring team feedback"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "Why is recognition important for employees?",
+    "options": [
+      "It reduces motivation",
+      "It eliminates responsibility",
+      "It prevents teamwork",
+      "It can reinforce positive performance and increase motivation"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is situational leadership?",
+    "options": [
+      "Adapting leadership behavior to the needs and readiness of team members",
+      "Using only one leadership style",
+      "Avoiding employee development",
+      "Delegating all decisions"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is team empowerment?",
+    "options": [
+      "Removing employee authority",
+      "Giving team members appropriate authority, resources, and confidence to act",
+      "Increasing unnecessary supervision",
+      "Preventing independent decisions"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is ethical leadership?",
+    "options": [
+      "Leadership based on personal gain",
+      "Leadership that avoids accountability",
+      "Leadership based on fairness, integrity, and responsible decision-making",
+      "Leadership based only on authority"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is a leadership style?",
+    "options": [
+      "A company's financial policy",
+      "An employee's job title",
+      "A method of calculating performance",
+      "A leader's typical approach to guiding and influencing people"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "Why should leaders communicate goals clearly?",
+    "options": [
+      "To help employees understand expectations and work toward common objectives",
+      "To increase confusion",
+      "To prevent collaboration",
+      "To avoid accountability"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is self-awareness in leadership?",
+    "options": [
+      "Understanding only other people's behavior",
+      "Recognizing one's own emotions, strengths, weaknesses, and behaviors",
+      "Avoiding personal feedback",
+      "Ignoring weaknesses"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is a common benefit of effective teamwork?",
+    "options": [
+      "Reduced communication",
+      "Less accountability",
+      "Better collaboration and problem-solving",
+      "Increased workplace conflict"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What does effective delegation help a leader achieve?",
+    "options": [
+      "Complete control over every task",
+      "Less employee development",
+      "More unnecessary supervision",
+      "Better use of team skills and leadership time"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is a leadership role model?",
+    "options": [
+      "A leader whose behavior demonstrates values and practices others can learn from",
+      "An employee who avoids responsibility",
+      "A person who never accepts feedback",
+      "A manager who ignores team needs"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "Why is continuous learning important for leaders?",
+    "options": [
+      "It prevents innovation",
+      "It helps leaders adapt, improve skills, and respond to changing challenges",
+      "It removes the need for teamwork",
+      "It guarantees that mistakes never happen"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is inclusive leadership?",
+    "options": [
+      "Allowing only senior employees to participate",
+      "Avoiding diverse opinions",
+      "Creating an environment where different people and perspectives are valued and included",
+      "Making decisions without consultation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Leadership Fundamentals",
+    "question": "What is effective decision-making?",
+    "options": [
+      "Making decisions without information",
+      "Avoiding difficult choices",
+      "Always choosing the fastest option",
+      "Evaluating relevant information and selecting an appropriate course of action"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is the primary goal of operations management?",
+    "options": [
+      "To increase advertising expenditure",
+      "To manage only employee salaries",
+      "To efficiently transform resources into goods or services",
+      "To eliminate all business risks"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What does capacity planning help an organization determine?",
+    "options": [
+      "How much production capacity is required to meet demand",
+      "Which employees should receive promotions",
+      "How to design a company logo",
+      "Which social media platform to use"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is inventory?",
+    "options": [
+      "A company's annual profit",
+      "The stock of materials, products, or goods held by a business",
+      "A list of employee benefits",
+      "A marketing campaign"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is a key purpose of quality management?",
+    "options": [
+      "To reduce customer interaction",
+      "To increase paperwork",
+      "To avoid measuring performance",
+      "To ensure products or services meet required standards"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What does Just-in-Time inventory aim to achieve?",
+    "options": [
+      "Keeping maximum inventory at all times",
+      "Receiving materials when they are needed for production",
+      "Stopping production during busy periods",
+      "Increasing warehouse space requirements"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is a supply chain?",
+    "options": [
+      "A network involved in sourcing, producing, and delivering goods or services",
+      "A list of company employees",
+      "A financial reporting method",
+      "A customer feedback form"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What does productivity generally measure?",
+    "options": [
+      "Employee attendance only",
+      "Number of meetings held",
+      "The relationship between output and resources used",
+      "Total advertising spending"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is a bottleneck in an operation?",
+    "options": [
+      "A process that significantly limits overall workflow or output",
+      "A successful marketing campaign",
+      "A type of employee benefit",
+      "A financial investment"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is process improvement?",
+    "options": [
+      "Adding unnecessary steps to a process",
+      "Avoiding customer feedback",
+      "Reducing employee responsibilities",
+      "Making processes more efficient, effective, or reliable"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is forecasting used for in operations?",
+    "options": [
+      "Predicting future demand or business conditions",
+      "Creating employee passwords",
+      "Selecting office furniture",
+      "Writing legal contracts"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is a standard operating procedure (SOP)?",
+    "options": [
+      "A sales promotion plan",
+      "A documented set of steps for performing a task consistently",
+      "A customer complaint",
+      "A financial statement"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is preventive maintenance?",
+    "options": [
+      "Repairing equipment only after it fails",
+      "Replacing all equipment every month",
+      "Regular maintenance performed to prevent failures",
+      "Stopping all production permanently"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is the main purpose of a production schedule?",
+    "options": [
+      "To determine when and what should be produced",
+      "To calculate employee taxes",
+      "To design product advertisements",
+      "To select company directors"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is lean management focused on?",
+    "options": [
+      "Increasing unnecessary inventory",
+      "Adding more approval steps",
+      "Maximizing paperwork",
+      "Reducing waste while improving customer value"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "Which of the following is an example of operational waste?",
+    "options": [
+      "Producing goods that customers do not need",
+      "Meeting customer requirements",
+      "Maintaining required quality",
+      "Using resources efficiently"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What does quality control primarily involve?",
+    "options": [
+      "Creating advertisements",
+      "Checking outputs against quality requirements",
+      "Hiring senior managers",
+      "Preparing tax returns"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is demand planning?",
+    "options": [
+      "Planning employee vacations",
+      "Designing office layouts",
+      "Estimating future customer demand to support business decisions",
+      "Preparing company policies"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is a key benefit of automation in operations?",
+    "options": [
+      "It always eliminates all employees",
+      "It can improve consistency and efficiency",
+      "It guarantees higher prices",
+      "It removes the need for planning"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What does logistics primarily deal with?",
+    "options": [
+      "Movement and storage of goods and related information",
+      "Employee recruitment only",
+      "Product advertising only",
+      "Shareholder voting"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is throughput?",
+    "options": [
+      "The number of employees hired",
+      "The total office area",
+      "The amount of work or output completed by a process in a given period",
+      "The annual marketing budget"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "Why is supplier management important?",
+    "options": [
+      "It helps ensure reliable supply, quality, and cost performance",
+      "It eliminates customer service",
+      "It prevents production planning",
+      "It guarantees zero competition"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is cycle time?",
+    "options": [
+      "The number of customers in a database",
+      "The time required to complete one process cycle or unit",
+      "The time spent on annual reviews",
+      "The duration of a marketing campaign"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is total quality management (TQM)?",
+    "options": [
+      "A financial investment strategy",
+      "A method of reducing employee training",
+      "An approach focused on organization-wide continuous quality improvement",
+      "A system used only by sales teams"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "Why are key performance indicators (KPIs) used in operations?",
+    "options": [
+      "To measure important aspects of operational performance",
+      "To replace all employees",
+      "To avoid setting goals",
+      "To increase paperwork without purpose"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is resource allocation?",
+    "options": [
+      "Removing all available resources",
+      "Assigning available resources to activities or priorities",
+      "Changing the company name",
+      "Creating customer advertisements"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What does service operations management focus on?",
+    "options": [
+      "Only manufacturing physical products",
+      "Only financial investments",
+      "Managing processes involved in delivering services effectively",
+      "Eliminating customer interaction"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is continuous improvement?",
+    "options": [
+      "Making ongoing incremental improvements to processes and performance",
+      "Changing the business every day without analysis",
+      "Stopping quality measurement",
+      "Avoiding employee suggestions"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is warehouse management concerned with?",
+    "options": [
+      "Managing employee interviews",
+      "Managing the storage, movement, and organization of inventory",
+      "Writing advertisements",
+      "Preparing shareholder reports only"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is an operations strategy?",
+    "options": [
+      "A plan for aligning operational capabilities with business objectives",
+      "A personal career plan",
+      "A customer complaint procedure",
+      "A social media calendar"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Operations Management",
+    "question": "What is utilization in operations?",
+    "options": [
+      "The number of customers contacted",
+      "The percentage of available capacity that is being used",
+      "The amount spent on advertising",
+      "The number of employees promoted"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is the primary purpose of business communication?",
+    "options": [
+      "To create confusion",
+      "To avoid sharing information",
+      "To exchange information clearly to achieve business objectives",
+      "To increase the number of meetings"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is active listening?",
+    "options": [
+      "Paying attention and responding thoughtfully to the speaker",
+      "Waiting only for your turn to speak",
+      "Ignoring non-verbal signals",
+      "Interrupting frequently"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "Which is an example of non-verbal communication?",
+    "options": [
+      "Writing a report",
+      "Body language",
+      "Sending an email",
+      "Preparing a presentation document"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What makes a business message effective?",
+    "options": [
+      "Using unnecessary technical words",
+      "Making the message as long as possible",
+      "Avoiding a clear purpose",
+      "Being clear, concise, and relevant"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is the purpose of an email subject line?",
+    "options": [
+      "To summarize the purpose of the email briefly",
+      "To replace the entire email",
+      "To include unrelated information",
+      "To make the email difficult to understand"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "Which communication channel is usually appropriate for a formal business announcement?",
+    "options": [
+      "An informal personal chat",
+      "A formal email or official communication channel",
+      "A random social media comment",
+      "An anonymous message"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What does clarity in communication mean?",
+    "options": [
+      "Using complicated language",
+      "Providing incomplete information",
+      "Expressing ideas in a way that is easy to understand",
+      "Avoiding specific details"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is feedback in communication?",
+    "options": [
+      "A response that indicates how a message was received or understood",
+      "A type of financial report",
+      "A method of employee recruitment",
+      "A marketing budget"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "Why is audience awareness important?",
+    "options": [
+      "It helps tailor the message to the audience's needs and understanding",
+      "It allows the speaker to ignore the audience",
+      "It removes the need for preparation",
+      "It makes every message identical"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is an important feature of professional writing?",
+    "options": [
+      "Frequent spelling mistakes",
+      "Clear structure and appropriate language",
+      "Unrelated information",
+      "Excessive slang"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is upward communication?",
+    "options": [
+      "Communication from managers to employees",
+      "Communication between customers",
+      "Communication from employees to higher-level management",
+      "Communication between competitors"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is downward communication?",
+    "options": [
+      "Communication from management to employees",
+      "Communication from customers to suppliers",
+      "Communication between competitors",
+      "Communication among unrelated organizations"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is horizontal communication?",
+    "options": [
+      "Communication between an employee and a customer",
+      "Communication between people or teams at similar organizational levels",
+      "Communication from the CEO to shareholders",
+      "Communication between different companies only"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is the purpose of a business presentation?",
+    "options": [
+      "To communicate information or ideas effectively to an audience",
+      "To avoid audience questions",
+      "To increase meeting duration",
+      "To hide important information"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "Which is a common barrier to effective communication?",
+    "options": [
+      "Clear language",
+      "Active listening",
+      "Noise or misunderstanding",
+      "Relevant information"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "Why should business emails be concise?",
+    "options": [
+      "To make them less professional",
+      "To help readers understand the key information quickly",
+      "To remove all important details",
+      "To avoid having a subject line"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is assertive communication?",
+    "options": [
+      "Expressing ideas and needs clearly while respecting others",
+      "Ignoring other people's opinions",
+      "Avoiding communication completely",
+      "Using aggressive language"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is empathy in communication?",
+    "options": [
+      "Speaking without listening",
+      "Understanding and considering another person's perspective or feelings",
+      "Avoiding difficult conversations",
+      "Always agreeing with others"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What should meeting agendas normally include?",
+    "options": [
+      "Only employee birthdays",
+      "Unrelated personal information",
+      "Topics or objectives to be discussed",
+      "Confidential passwords"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is the purpose of meeting minutes?",
+    "options": [
+      "To record important discussions, decisions, and actions",
+      "To replace the meeting",
+      "To advertise products",
+      "To calculate salaries"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is persuasive communication?",
+    "options": [
+      "Communication intended to influence attitudes, decisions, or actions",
+      "Communication without a purpose",
+      "Communication that avoids evidence",
+      "Communication used only for greetings"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "Why is proofreading important in business writing?",
+    "options": [
+      "It makes documents longer",
+      "It helps identify errors before the message is sent or published",
+      "It removes the need for clear writing",
+      "It guarantees customer approval"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is communication etiquette?",
+    "options": [
+      "Ignoring professional standards",
+      "Using respectful and appropriate communication behavior",
+      "Sending messages at any time without consideration",
+      "Avoiding responses"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is the role of tone in business communication?",
+    "options": [
+      "It has no effect on how a message is perceived",
+      "It determines the financial value of a product",
+      "It can influence how the receiver interprets the message",
+      "It replaces the need for facts"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is a communication feedback loop?",
+    "options": [
+      "A process where the receiver responds and helps confirm understanding",
+      "A method for calculating profit",
+      "A system for hiring employees",
+      "A type of marketing advertisement"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "Which practice improves virtual meetings?",
+    "options": [
+      "Joining without preparation",
+      "Keeping the microphone on throughout regardless of noise",
+      "Avoiding agendas",
+      "Using a clear agenda and appropriate meeting etiquette"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is cross-cultural communication?",
+    "options": [
+      "Communication only within one department",
+      "Communication between people from different cultural backgrounds",
+      "Communication without language",
+      "Communication between machines only"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "Why is confidentiality important in business communication?",
+    "options": [
+      "It protects sensitive or restricted information from unauthorized disclosure",
+      "It encourages sharing passwords publicly",
+      "It eliminates all business communication",
+      "It makes information less accurate"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is an executive summary?",
+    "options": [
+      "A detailed employee attendance sheet",
+      "A short overview of the key points of a longer report or proposal",
+      "A customer complaint form",
+      "A list of office equipment"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Business Communication",
+    "question": "What is constructive feedback?",
+    "options": [
+      "Feedback intended only to criticize",
+      "Feedback that avoids specific examples",
+      "Feedback that provides useful observations and suggestions for improvement",
+      "Feedback that ignores performance"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "Who is an entrepreneur?",
+    "options": [
+      "A person who creates and manages a business opportunity while taking calculated risks",
+      "A person who only works as an employee",
+      "A person who avoids all business decisions",
+      "A person who manages only government offices"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is a business opportunity?",
+    "options": [
+      "A guaranteed source of profit",
+      "A situation where a business can potentially create value by solving a customer need",
+      "An employee attendance record",
+      "A company expense report"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is a business model?",
+    "options": [
+      "A company's employee handbook",
+      "A building design",
+      "A framework explaining how a business creates, delivers, and captures value",
+      "A list of competitors only"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is a target market?",
+    "options": [
+      "All businesses in an industry",
+      "A company's employees",
+      "Only existing shareholders",
+      "The specific group of customers a business aims to serve"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is a value proposition?",
+    "options": [
+      "A clear statement of the value or benefit a product provides to customers",
+      "A company's tax document",
+      "A list of employee salaries",
+      "A record of office expenses"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is market research?",
+    "options": [
+      "Researching only employee performance",
+      "Collecting information about customers, competitors, and market conditions",
+      "Preparing tax returns",
+      "Designing office furniture"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is a startup?",
+    "options": [
+      "A mature organization with no growth plans",
+      "A government department",
+      "A newly established business typically seeking a viable and scalable model",
+      "A temporary employee team"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is an MVP in entrepreneurship?",
+    "options": [
+      "A Minimum Viable Product designed to test a business idea with basic functionality",
+      "A Maximum Value Price",
+      "A Monthly Vendor Payment",
+      "A Market Verification Policy"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "Why do entrepreneurs validate business ideas?",
+    "options": [
+      "To avoid talking to customers",
+      "To determine whether the idea addresses a real customer need",
+      "To guarantee immediate profits",
+      "To eliminate all competition"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is bootstrapping?",
+    "options": [
+      "Raising money only from large corporations",
+      "Closing a business quickly",
+      "Building a business using primarily the founder's own resources and internally generated funds",
+      "Buying a competitor"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is an angel investor?",
+    "options": [
+      "A customer who receives a discount",
+      "A government employee",
+      "A supplier providing raw materials",
+      "An individual who invests personal funds in an early-stage business"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is venture capital?",
+    "options": [
+      "Investment provided to businesses with high growth potential",
+      "A type of employee salary",
+      "A customer loyalty program",
+      "A business registration document"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is a revenue model?",
+    "options": [
+      "A plan describing how a business generates income",
+      "A method for hiring employees",
+      "A customer complaint process",
+      "A workplace safety policy"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is customer segmentation?",
+    "options": [
+      "Removing customers from a database",
+      "Dividing a broad market into groups with similar characteristics or needs",
+      "Increasing product prices for everyone",
+      "Selecting company employees"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is a competitive advantage?",
+    "options": [
+      "A temporary employee benefit",
+      "A business expense",
+      "A factor that helps a company perform better than competitors",
+      "A legal requirement for every company"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is a business plan?",
+    "options": [
+      "A document outlining a business's goals, strategy, market, operations, and financial expectations",
+      "A list of employee holidays",
+      "A customer feedback message",
+      "A product instruction manual"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is a cash flow statement used to understand?",
+    "options": [
+      "Employee productivity only",
+      "The movement of cash into and out of a business",
+      "Customer satisfaction only",
+      "Product design quality"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is break-even point?",
+    "options": [
+      "The point where total revenue equals total costs",
+      "The point where sales are zero",
+      "The point where employees stop working",
+      "The point where inventory is maximum"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is a scalable business model?",
+    "options": [
+      "A model that cannot grow",
+      "A model where growth can occur without costs increasing at the same rate",
+      "A model that serves only one customer",
+      "A model with no revenue"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is innovation in entrepreneurship?",
+    "options": [
+      "Repeating existing methods without change",
+      "Avoiding customer needs",
+      "Creating or improving products, services, processes, or business models",
+      "Reducing all business activities"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "Why is customer feedback valuable for entrepreneurs?",
+    "options": [
+      "It can reveal customer needs and areas for product or service improvement",
+      "It guarantees that every product will succeed",
+      "It eliminates the need for research",
+      "It replaces financial planning"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is a pivot in a startup?",
+    "options": [
+      "Closing the company immediately",
+      "Changing a significant part of the business strategy based on learning or market feedback",
+      "Hiring every available candidate",
+      "Increasing office rent"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is entrepreneurial risk?",
+    "options": [
+      "The possibility of unfavorable outcomes resulting from business decisions or uncertainty",
+      "A guaranteed business profit",
+      "A fixed employee salary",
+      "A standard operating procedure"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is networking useful for entrepreneurs?",
+    "options": [
+      "Avoiding potential partners",
+      "Building relationships that may provide knowledge, customers, resources, or opportunities",
+      "Eliminating market research",
+      "Replacing all employees"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is a unique selling proposition (USP)?",
+    "options": [
+      "A company's employee policy",
+      "A tax calculation",
+      "A distinctive benefit or feature that differentiates an offering from competitors",
+      "A supplier contract"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is a startup incubator?",
+    "options": [
+      "A program or organization that supports early-stage businesses with resources and guidance",
+      "A type of bank account",
+      "A government tax form",
+      "A product packaging method"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is a startup accelerator?",
+    "options": [
+      "A program designed to help startups grow through mentoring, resources, and sometimes investment",
+      "A system for reducing employee salaries",
+      "A type of accounting software",
+      "A customer complaint platform"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is social entrepreneurship?",
+    "options": [
+      "Starting a business only for entertainment",
+      "Using entrepreneurial approaches to address social or environmental problems",
+      "Avoiding financial sustainability",
+      "Running a business without customers"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "Why is financial planning important for a new business?",
+    "options": [
+      "It helps estimate funding needs, costs, revenue, and financial sustainability",
+      "It guarantees no expenses",
+      "It removes the need for customers",
+      "It prevents business growth"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Business, Management & Leadership",
+    "program": "Entrepreneurship Fundamentals",
+    "question": "What is bootstrapping most closely associated with?",
+    "options": [
+      "Using external investors for every expense",
+      "Using personal funds and business-generated revenue to grow the business",
+      "Selling the business before launch",
+      "Avoiding revenue generation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  }
+]

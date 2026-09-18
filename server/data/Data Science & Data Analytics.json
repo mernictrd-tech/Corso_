@@ -1,0 +1,3783 @@
+[
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is the primary purpose of data analytics?",
+    "options": [
+      "To extract useful insights from data",
+      "To design computer hardware",
+      "To create operating systems",
+      "To replace databases"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is raw data?",
+    "options": [
+      "Data that has already been analyzed",
+      "Data collected before processing or analysis",
+      "Only graphical information",
+      "Data stored only in databases"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "Which activity is commonly performed during data preprocessing?",
+    "options": [
+      "Creating a programming language",
+      "Designing computer hardware",
+      "Cleaning and transforming data",
+      "Replacing the database server"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is structured data?",
+    "options": [
+      "Data stored without any organization",
+      "Only image and video data",
+      "Data that cannot be analyzed",
+      "Data organized in a defined format such as rows and columns"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "Which of the following is an example of categorical data?",
+    "options": [
+      "Product category",
+      "Customer age",
+      "Monthly revenue",
+      "Temperature"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is quantitative data?",
+    "options": [
+      "Data containing only descriptions",
+      "Data represented using numerical values",
+      "Data containing only images",
+      "Data without measurable values"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What does data validation help ensure?",
+    "options": [
+      "All data is deleted",
+      "Charts use the same color",
+      "Data meets defined rules and requirements",
+      "Databases contain no tables"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is descriptive analytics?",
+    "options": [
+      "It predicts future events only",
+      "It automatically changes business policies",
+      "It collects hardware information",
+      "It explains what has happened in the data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is predictive analytics?",
+    "options": [
+      "Analyzing historical data to estimate future outcomes",
+      "Deleting historical records",
+      "Creating database tables",
+      "Formatting spreadsheets"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is prescriptive analytics?",
+    "options": [
+      "It only stores raw data",
+      "It suggests possible actions based on analytical results",
+      "It removes duplicate records",
+      "It creates programming languages"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is an outlier?",
+    "options": [
+      "The most common value",
+      "A duplicate record",
+      "A value that is unusually different from other observations",
+      "A missing column"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What does the mean represent?",
+    "options": [
+      "The middle value after sorting",
+      "The most frequent value",
+      "The largest value only",
+      "The average of numerical values"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is the median?",
+    "options": [
+      "The middle value in an ordered dataset",
+      "The average of all values",
+      "The most frequent value",
+      "The smallest value"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is the mode?",
+    "options": [
+      "The average value",
+      "The most frequently occurring value",
+      "The middle value",
+      "The largest value"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What does data aggregation involve?",
+    "options": [
+      "Deleting all records",
+      "Encrypting every column",
+      "Combining data into summaries or groups",
+      "Converting data into software code"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is data segmentation?",
+    "options": [
+      "Deleting unwanted databases",
+      "Changing programming languages",
+      "Encrypting a database",
+      "Dividing data into meaningful groups"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "Why are duplicate records often removed during data cleaning?",
+    "options": [
+      "To reduce inaccurate or repeated information",
+      "To increase duplicate entries",
+      "To change numerical values",
+      "To create new variables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is a missing value?",
+    "options": [
+      "A value that appears twice",
+      "A data field without an available value",
+      "The largest value in a dataset",
+      "A calculated average"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What does correlation measure?",
+    "options": [
+      "The number of rows in a table",
+      "The size of a database",
+      "The strength and direction of association between variables",
+      "The number of missing values only"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is a dataset?",
+    "options": [
+      "A programming language",
+      "A computer processor",
+      "A visualization tool only",
+      "A collection of related data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is data transformation?",
+    "options": [
+      "Converting data into a suitable format for analysis",
+      "Deleting all collected data",
+      "Replacing analytics with programming",
+      "Creating physical hardware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is a KPI?",
+    "options": [
+      "A type of database",
+      "A Key Performance Indicator used to measure important performance",
+      "A programming language",
+      "A file compression method"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is exploratory data analysis?",
+    "options": [
+      "Deleting all unusual values",
+      "Building computer hardware",
+      "Examining data to discover patterns, relationships, and anomalies",
+      "Writing operating system code"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "Why is data accuracy important?",
+    "options": [
+      "It makes data larger",
+      "It eliminates the need for analysis",
+      "It guarantees future predictions",
+      "Accurate data improves the reliability of analytical results"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is data sampling?",
+    "options": [
+      "Selecting a subset of data from a larger population",
+      "Deleting the entire dataset",
+      "Sorting only text values",
+      "Converting data into images"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is a dashboard?",
+    "options": [
+      "A database backup",
+      "A visual interface that presents important data and metrics",
+      "A programming compiler",
+      "A data encryption algorithm"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is a data-driven decision?",
+    "options": [
+      "A decision based only on assumptions",
+      "A decision made by software without data",
+      "A decision supported by analyzed data and evidence",
+      "A decision based only on design"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "Which activity is part of data preprocessing?",
+    "options": [
+      "Designing computer processors",
+      "Writing operating system drivers",
+      "Installing a web browser",
+      "Cleaning and transforming data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "What is the purpose of data interpretation?",
+    "options": [
+      "To understand and explain the meaning of analytical results",
+      "To delete source data",
+      "To increase file size",
+      "To replace data collection"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Analytics Fundamentals",
+    "question": "Which type of analytics focuses on explaining why something happened?",
+    "options": [
+      "Descriptive analytics",
+      "Diagnostic analytics",
+      "Predictive analytics",
+      "Prescriptive analytics"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which Python library is widely used for working with tabular data?",
+    "options": [
+      "Flask",
+      "Django",
+      "Pandas",
+      "Tkinter"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which Python library is commonly used for numerical computing?",
+    "options": [
+      "Requests",
+      "BeautifulSoup",
+      "Django",
+      "NumPy"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "What is a Pandas DataFrame?",
+    "options": [
+      "A two-dimensional labeled data structure",
+      "A Python compiler",
+      "A web server",
+      "A database engine"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which function is commonly used to read a CSV file with Pandas?",
+    "options": [
+      "pd.open_csv()",
+      "pd.read_csv()",
+      "pd.load_file()",
+      "pd.csv_read()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which method displays the first few rows of a DataFrame?",
+    "options": [
+      "start()",
+      "firstRows()",
+      "head()",
+      "top()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which method provides summary statistics for numerical columns?",
+    "options": [
+      "summary()",
+      "stats()",
+      "details()",
+      "describe()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which Pandas method can identify missing values?",
+    "options": [
+      "isnull()",
+      "missing()",
+      "emptyValues()",
+      "findnull()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which method removes rows containing missing values?",
+    "options": [
+      "removeNull()",
+      "dropna()",
+      "deleteNA()",
+      "clearMissing()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which method can replace missing values in Pandas?",
+    "options": [
+      "replaceNull()",
+      "setMissing()",
+      "fillna()",
+      "fillEmpty()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "What does DataFrame.shape return?",
+    "options": [
+      "Only column names",
+      "Only data types",
+      "The average of all values",
+      "The number of rows and columns"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which library is commonly used to create plots in Python?",
+    "options": [
+      "Matplotlib",
+      "Django",
+      "Flask",
+      "Pygame"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which Pandas operation combines DataFrames based on related columns?",
+    "options": [
+      "combineRows()",
+      "merge()",
+      "joinData()",
+      "appendTable()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "What does groupby() commonly help with?",
+    "options": [
+      "Installing Python packages",
+      "Creating web pages",
+      "Grouping data for aggregate analysis",
+      "Compiling Python code"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "What is Boolean indexing in Pandas used for?",
+    "options": [
+      "Installing libraries",
+      "Creating classes",
+      "Formatting strings",
+      "Selecting rows based on conditions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "What does df.columns provide?",
+    "options": [
+      "The column labels of a DataFrame",
+      "The row values only",
+      "The number of missing values",
+      "The DataFrame average"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "What does df.dtypes show?",
+    "options": [
+      "Only duplicate rows",
+      "The data type of each column",
+      "Only column values",
+      "The database connection"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "What is NumPy mainly designed for?",
+    "options": [
+      "Web application routing",
+      "HTML rendering",
+      "Database administration",
+      "Numerical and array-based computation"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which Pandas method sorts rows by column values?",
+    "options": [
+      "sort_values()",
+      "order_data()",
+      "arrange_rows()",
+      "sort_rows()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "What is a Series in Pandas?",
+    "options": [
+      "A two-dimensional database",
+      "A one-dimensional labeled array",
+      "A Python package manager",
+      "A visualization dashboard"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which method identifies duplicated rows in Pandas?",
+    "options": [
+      "duplicatesOnly()",
+      "findDuplicates()",
+      "duplicated()",
+      "checkDuplicateRows()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which Pandas method removes duplicate rows?",
+    "options": [
+      "remove_duplicates()",
+      "delete_duplicates()",
+      "clear_duplicates()",
+      "drop_duplicates()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "What does value_counts() generally return?",
+    "options": [
+      "The frequency of unique values",
+      "The number of columns only",
+      "The average of every column",
+      "The database schema"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which method calculates the average of numeric values in Pandas?",
+    "options": [
+      "averageValue()",
+      "mean()",
+      "avgData()",
+      "calculateMeanValue()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which Python structure stores key-value pairs?",
+    "options": [
+      "Tuple",
+      "Set",
+      "Dictionary",
+      "String"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Why is Python popular for data analysis?",
+    "options": [
+      "It can only be used for databases",
+      "It does not support numerical calculations",
+      "It is exclusively a web design language",
+      "It provides powerful libraries and simple syntax for data tasks"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which library is commonly used for scientific computing with Python?",
+    "options": [
+      "SciPy",
+      "Flask",
+      "Selenium",
+      "Tkinter"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "What is data visualization in Python used for?",
+    "options": [
+      "Encrypting files",
+      "Representing data graphically to make patterns easier to understand",
+      "Creating operating systems",
+      "Replacing databases"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which Pandas method can be used to export a DataFrame to CSV?",
+    "options": [
+      "save_csv()",
+      "export_csv()",
+      "to_csv()",
+      "write_csv()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "Which method can return the number of non-missing values in each column?",
+    "options": [
+      "countRows()",
+      "valid_count()",
+      "nonNullCount()",
+      "count()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Python for Data Analysis",
+    "question": "What does the Pandas info() method provide?",
+    "options": [
+      "Information about columns, data types, and non-null values",
+      "Only the first row",
+      "Only numerical averages",
+      "Only duplicate records"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "What does SQL stand for?",
+    "options": [
+      "Simple Query Logic",
+      "Structured Query Language",
+      "System Query Language",
+      "Structured Question Language"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which SQL statement retrieves data from a table?",
+    "options": [
+      "GET",
+      "FETCHDATA",
+      "SELECT",
+      "READ"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which clause filters rows based on a condition?",
+    "options": [
+      "FILTER",
+      "WHEN",
+      "CHECK",
+      "WHERE"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which clause sorts query results?",
+    "options": [
+      "ORDER BY",
+      "SORT BY",
+      "ARRANGE BY",
+      "GROUP SORT"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which keyword removes duplicate results?",
+    "options": [
+      "UNIQUEONLY",
+      "DISTINCT",
+      "REMOVE",
+      "NODUPLICATES"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which function counts rows?",
+    "options": [
+      "TOTAL()",
+      "ROWS()",
+      "COUNT()",
+      "NUMBER()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which function calculates the average of numeric values?",
+    "options": [
+      "MEAN()",
+      "AVERAGE_VALUE()",
+      "MID()",
+      "AVG()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which function returns the largest value?",
+    "options": [
+      "MAX()",
+      "LARGEST()",
+      "HIGH()",
+      "TOPVALUE()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which function returns the smallest value?",
+    "options": [
+      "SMALLEST()",
+      "MIN()",
+      "LOW()",
+      "BOTTOMVALUE()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which clause groups rows with the same values?",
+    "options": [
+      "CLUSTER BY",
+      "COLLECT BY",
+      "GROUP BY",
+      "COMBINE BY"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which clause filters grouped results?",
+    "options": [
+      "GROUP WHERE",
+      "FILTER GROUP",
+      "AFTER WHERE",
+      "HAVING"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "What is a primary key?",
+    "options": [
+      "A column or set of columns that uniquely identifies each row",
+      "A column containing only duplicate values",
+      "A column used only for sorting",
+      "A temporary query result"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "What is a foreign key?",
+    "options": [
+      "A password for the database",
+      "A column that references a key in another table",
+      "A duplicate primary key",
+      "A temporary table name"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which JOIN returns matching rows from both tables?",
+    "options": [
+      "MATCH JOIN",
+      "COMMON JOIN",
+      "INNER JOIN",
+      "EQUAL JOIN ONLY"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which JOIN returns all rows from the left table and matching rows from the right table?",
+    "options": [
+      "RIGHT JOIN",
+      "INNER JOIN",
+      "FULL JOIN ONLY",
+      "LEFT JOIN"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which operator is commonly used for pattern matching?",
+    "options": [
+      "LIKE",
+      "MATCHES",
+      "PATTERN",
+      "SEARCH"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which wildcard represents any sequence of characters with LIKE?",
+    "options": [
+      "_",
+      "%",
+      "*",
+      "#"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which wildcard represents a single character with LIKE?",
+    "options": [
+      "%",
+      "*",
+      "_",
+      "?"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which operator checks whether a value falls within a specified range?",
+    "options": [
+      "RANGE",
+      "WITHIN",
+      "LIMITED",
+      "BETWEEN"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which operator checks whether a value matches any value in a list?",
+    "options": [
+      "IN",
+      "MATCH",
+      "ANYLIST",
+      "WITHINLIST"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "How is a NULL value generally checked in SQL?",
+    "options": [
+      "= NULL",
+      "IS NULL",
+      "NULL = TRUE",
+      "CHECK NULL"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which command adds a new row to a table?",
+    "options": [
+      "ADD ROW",
+      "CREATE ROW",
+      "INSERT",
+      "APPEND DATA"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which command modifies existing records?",
+    "options": [
+      "MODIFY ROW",
+      "CHANGE DATA",
+      "ALTER RECORD",
+      "UPDATE"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which command removes records from a table?",
+    "options": [
+      "DELETE",
+      "REMOVE ROW",
+      "DROP ROW",
+      "CLEAR DATA"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "What does a SQL view represent?",
+    "options": [
+      "A physical backup file",
+      "A virtual table based on a query",
+      "A database password",
+      "A programming variable"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "What is normalization primarily used for?",
+    "options": [
+      "Increasing duplicate data",
+      "Creating charts",
+      "Reducing data redundancy and improving data organization",
+      "Speeding up internet connections"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "What does ORDER BY salary DESC do?",
+    "options": [
+      "Sorts salary values from lowest to highest",
+      "Groups salaries",
+      "Deletes salary values",
+      "Sorts salary values from highest to lowest"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "What is a subquery?",
+    "options": [
+      "A query nested inside another SQL query",
+      "A database backup",
+      "A table column",
+      "A type of database server"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Why are aggregate functions useful in data analytics?",
+    "options": [
+      "They delete duplicate tables",
+      "They summarize multiple rows into meaningful results",
+      "They create programming languages",
+      "They prevent database connections"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "SQL for Data Analytics",
+    "question": "Which SQL keyword is commonly used to limit the number of returned rows?",
+    "options": [
+      "RESTRICT",
+      "TOPONLY",
+      "LIMIT",
+      "ROWSMAX"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which Excel feature is commonly used to summarize a large dataset by categories?",
+    "options": [
+      "Data Validation",
+      "PivotTable",
+      "Page Layout",
+      "Spell Check"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which function returns the average of a range of numbers?",
+    "options": [
+      "SUM()",
+      "COUNT()",
+      "MAX()",
+      "AVERAGE()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which function returns the largest value in a range?",
+    "options": [
+      "MAX()",
+      "MIN()",
+      "LARGECOUNT()",
+      "TOPVALUE()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which Excel feature displays only records that meet selected criteria?",
+    "options": [
+      "Freeze Panes",
+      "Sort",
+      "Filter",
+      "Merge Cells"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which function returns the smallest value from a range?",
+    "options": [
+      "MIN()",
+      "SMALLVALUE()",
+      "LOW()",
+      "BOTTOM()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which function counts cells containing numbers?",
+    "options": [
+      "COUNTA()",
+      "COUNTBLANK()",
+      "COUNT()",
+      "NUMBERCOUNT()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which feature automatically formats cells according to specified rules?",
+    "options": [
+      "Goal Seek",
+      "Conditional Formatting",
+      "Data Validation",
+      "Text to Columns"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which Excel function can look up a value and return a corresponding result?",
+    "options": [
+      "SEARCH()",
+      "FIND()",
+      "LOOKVALUE()",
+      "XLOOKUP()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "What is the main purpose of sorting data?",
+    "options": [
+      "To arrange records in a specified order",
+      "To remove formulas",
+      "To hide worksheets",
+      "To create charts"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which Excel feature separates data from one column into multiple columns?",
+    "options": [
+      "Flash Fill",
+      "Text to Columns",
+      "Goal Seek",
+      "Solver"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which function adds numerical values?",
+    "options": [
+      "ADD()",
+      "TOTAL()",
+      "PLUS()",
+      "SUM()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "What happens to a relative reference when a formula is copied?",
+    "options": [
+      "It becomes text",
+      "It is deleted",
+      "It adjusts according to the new cell location",
+      "It always remains unchanged"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which symbol is used to create an absolute cell reference?",
+    "options": [
+      "#",
+      "$",
+      "%",
+      "@"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which function counts non-empty cells?",
+    "options": [
+      "COUNT()",
+      "COUNTBLANK()",
+      "COUNTA()",
+      "COUNTALL()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which function counts cells that satisfy a specified condition?",
+    "options": [
+      "COUNTIF()",
+      "COUNTWHEN()",
+      "IFCOUNT()",
+      "COUNTCONDITION()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which function returns different results depending on whether a condition is true or false?",
+    "options": [
+      "CHECK()",
+      "WHEN()",
+      "CONDITION()",
+      "IF()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "What is the purpose of Data Validation?",
+    "options": [
+      "To restrict the type of data entered into a cell",
+      "To create PivotTables",
+      "To delete duplicate worksheets",
+      "To change chart types"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which feature keeps selected rows or columns visible while scrolling?",
+    "options": [
+      "Split Cells",
+      "Freeze Panes",
+      "Lock Workbook",
+      "Page Break"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which chart is generally suitable for comparing values among categories?",
+    "options": [
+      "Pie chart",
+      "Scatter chart",
+      "Column chart",
+      "Surface chart"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which chart is commonly used to display trends over time?",
+    "options": [
+      "Pie chart",
+      "Doughnut chart",
+      "Radar chart",
+      "Line chart"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "What is the main purpose of removing duplicate records?",
+    "options": [
+      "To eliminate repeated entries",
+      "To increase the dataset size",
+      "To create new formulas",
+      "To change the workbook format"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which function combines text from multiple cells?",
+    "options": [
+      "MERGETEXT()",
+      "TEXTJOIN()",
+      "COMBINE()",
+      "JOINCELLS()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which feature provides interactive buttons for filtering PivotTable data?",
+    "options": [
+      "Timeline",
+      "Name Box",
+      "Slicer",
+      "Formula Bar"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "What is a PivotChart?",
+    "options": [
+      "A chart used only for printing",
+      "A static image",
+      "A chart without source data",
+      "A chart linked to PivotTable data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which function adds values based on a condition?",
+    "options": [
+      "SUMIF()",
+      "IFSUM()",
+      "SUMWHEN()",
+      "CONDITIONSUM()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "What is a named range?",
+    "options": [
+      "A worksheet name",
+      "A meaningful name assigned to a cell or range",
+      "A chart title",
+      "A workbook password"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which Excel tool determines an input value needed to reach a target result?",
+    "options": [
+      "Solver",
+      "Data Validation",
+      "Goal Seek",
+      "Flash Fill"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which function counts blank cells?",
+    "options": [
+      "BLANKCOUNT()",
+      "EMPTYCOUNT()",
+      "COUNTEMPTY()",
+      "COUNTBLANK()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "What is the main purpose of formulas in Excel?",
+    "options": [
+      "To perform calculations using data",
+      "To install Excel",
+      "To create hardware",
+      "To delete worksheets"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Excel for Data Analysis",
+    "question": "Which feature is especially useful for grouping and summarizing large datasets?",
+    "options": [
+      "Spell Check",
+      "PivotTable",
+      "Page Setup",
+      "WordArt"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What is Microsoft Power BI primarily used for?",
+    "options": [
+      "Video editing",
+      "Operating system development",
+      "Data analysis and visualization",
+      "Hardware testing"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "Which application is commonly used to create Power BI reports?",
+    "options": [
+      "Power BI Desktop",
+      "Power BI Compiler",
+      "Power BI Server OS",
+      "Power BI Writer"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What is Power Query mainly used for?",
+    "options": [
+      "Creating presentations",
+      "Managing users",
+      "Designing websites",
+      "Cleaning and transforming data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What is DAX in Power BI?",
+    "options": [
+      "A database engine",
+      "A formula language used for calculations",
+      "A visualization theme",
+      "A file format"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What is a Power BI dashboard?",
+    "options": [
+      "A database backup",
+      "A source code repository",
+      "A single-page collection of visual tiles",
+      "A programming environment"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "Which statement about Power BI data sources is correct?",
+    "options": [
+      "It supports only Excel",
+      "It supports only SQL Server",
+      "It cannot connect to online sources",
+      "It can connect to many files, databases, and online sources"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What is a measure in Power BI?",
+    "options": [
+      "A DAX calculation evaluated based on report context",
+      "A physical measurement",
+      "A database connection",
+      "A report page"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What is a calculated column?",
+    "options": [
+      "A report title",
+      "A column whose values are calculated using an expression",
+      "A dashboard filter",
+      "A database password"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What does a Power BI report generally contain?",
+    "options": [
+      "Only database tables",
+      "Only text",
+      "Pages containing visualizations and report elements",
+      "Only source code"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What does data modeling involve?",
+    "options": [
+      "Editing images",
+      "Creating presentations",
+      "Changing report colors",
+      "Defining tables, relationships, and calculations"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "Why are relationships created between tables?",
+    "options": [
+      "To connect related data across tables",
+      "To change report fonts",
+      "To compress files",
+      "To create dashboard backgrounds"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "Which visual is commonly used to show a trend over time?",
+    "options": [
+      "Card",
+      "Line chart",
+      "Gauge",
+      "Pie chart"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What does a slicer provide?",
+    "options": [
+      "A database connection",
+      "A file backup",
+      "An interactive way to filter data",
+      "A DAX compiler"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What is drill-down used for?",
+    "options": [
+      "Deleting data",
+      "Changing report colors",
+      "Publishing a report",
+      "Moving from summarized information to more detailed levels"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What does a KPI visual usually communicate?",
+    "options": [
+      "Performance against a target",
+      "Database structure",
+      "Source code",
+      "File size"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What is Power BI Service?",
+    "options": [
+      "A desktop spreadsheet",
+      "A cloud-based platform for sharing and managing Power BI content",
+      "A database engine",
+      "A programming language"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "Why is refreshing a dataset important?",
+    "options": [
+      "It deletes old reports",
+      "It changes visual colors",
+      "It retrieves updated data from connected sources",
+      "It removes calculations"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What is a visual in Power BI?",
+    "options": [
+      "A database table",
+      "A network connection",
+      "A source code file",
+      "A graphical representation of data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "Which visual is useful for displaying one important numeric value?",
+    "options": [
+      "Card",
+      "Map",
+      "Scatter chart",
+      "Area chart"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What is a semantic model?",
+    "options": [
+      "A report background",
+      "A structured representation of data, relationships, calculations, and metadata",
+      "A Power BI password",
+      "A chart color scheme"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "Which Power Query operation can remove unwanted columns?",
+    "options": [
+      "Delete Visual",
+      "Clear Model",
+      "Remove Columns",
+      "Drop Report"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What is an applied step in Power Query?",
+    "options": [
+      "A report title",
+      "A dashboard tile",
+      "A DAX measure",
+      "A transformation applied to the data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "Which language is used by Power Query for data transformation?",
+    "options": [
+      "M",
+      "DAX",
+      "Java",
+      "C#"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What does a filter do in Power BI?",
+    "options": [
+      "Deletes source data",
+      "Restricts the data displayed according to selected conditions",
+      "Creates an operating system",
+      "Changes the database server"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What is row-level security used for?",
+    "options": [
+      "Changing chart colors",
+      "Creating report titles",
+      "Controlling which rows of data users can access",
+      "Compressing images"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "Which visual is commonly used to compare categories?",
+    "options": [
+      "Card",
+      "Gauge",
+      "Map",
+      "Bar chart"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What is a bookmark used for?",
+    "options": [
+      "Saving a particular state of a report page",
+      "Creating a database",
+      "Writing DAX",
+      "Deleting visuals"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What happens when a Power BI report is published?",
+    "options": [
+      "It becomes an Excel file",
+      "It can be made available through Power BI Service",
+      "Its data is automatically deleted",
+      "It is converted into source code"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "Which DAX function calculates the sum of a column?",
+    "options": [
+      "TOTAL()",
+      "ADDALL()",
+      "SUM()",
+      "SUMVALUE()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Power BI Fundamentals",
+    "question": "What is a major benefit of interactive Power BI reports?",
+    "options": [
+      "They prevent filtering",
+      "They only display static images",
+      "They remove the need for data",
+      "They allow users to explore data through filters and visuals"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What is the primary purpose of data visualization?",
+    "options": [
+      "To communicate patterns and insights visually",
+      "To replace databases",
+      "To encrypt datasets",
+      "To create operating systems"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "Which chart is commonly used to show changes over time?",
+    "options": [
+      "Pie chart",
+      "Line chart",
+      "Treemap",
+      "Radar chart"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "Which chart is useful for comparing values across categories?",
+    "options": [
+      "Scatter plot",
+      "Area chart",
+      "Bar chart",
+      "Box plot"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "Which chart is commonly used to display the distribution of numerical data?",
+    "options": [
+      "Pie chart",
+      "Gauge",
+      "Line chart",
+      "Histogram"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What does a scatter plot primarily show?",
+    "options": [
+      "The relationship between two numerical variables",
+      "Only category names",
+      "A single total",
+      "Database structure"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What is a dashboard?",
+    "options": [
+      "A raw database table",
+      "A visual collection of important metrics and charts",
+      "A programming language",
+      "A file compression tool"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "Why is visual hierarchy important?",
+    "options": [
+      "It increases database size",
+      "It removes the need for labels",
+      "It helps viewers identify important information more easily",
+      "It prevents data analysis"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What does a heatmap commonly use to represent values?",
+    "options": [
+      "Text size only",
+      "Database relationships",
+      "Programming symbols",
+      "Color intensity"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What is the purpose of a chart title?",
+    "options": [
+      "To explain what the visualization represents",
+      "To hide the data",
+      "To increase the dataset size",
+      "To remove the legend"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "Which visualization is often used to show parts of a whole?",
+    "options": [
+      "Scatter plot",
+      "Pie chart",
+      "Histogram",
+      "Box plot"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What does a box plot help summarize?",
+    "options": [
+      "Only text data",
+      "Database relationships",
+      "Distribution, median, quartiles, and potential outliers",
+      "Programming errors"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What is a chart legend used for?",
+    "options": [
+      "Sorting records",
+      "Calculating averages",
+      "Removing outliers",
+      "Explaining categories or data series"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What is a categorical variable?",
+    "options": [
+      "A variable representing groups or labels",
+      "A variable containing only continuous measurements",
+      "A chart type",
+      "A database connection"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What is the purpose of an axis in a chart?",
+    "options": [
+      "To store the dataset",
+      "To provide a reference for values or categories",
+      "To encrypt the data",
+      "To create a file extension"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What does a trend line help identify?",
+    "options": [
+      "Database passwords",
+      "Missing columns",
+      "The general direction or pattern in data",
+      "File storage locations"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "Which visualization is useful for examining the relationship between two numerical variables?",
+    "options": [
+      "Pie chart",
+      "Donut chart",
+      "Column chart",
+      "Scatter plot"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What is a time-series visualization?",
+    "options": [
+      "A visualization showing observations across time",
+      "A visualization containing only categories",
+      "A database schema",
+      "A chart without axes"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "Why should unnecessary chart elements be avoided?",
+    "options": [
+      "They always improve accuracy",
+      "They can create clutter and reduce readability",
+      "They increase the number of records",
+      "They prevent calculations"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What is a bar chart most appropriate for?",
+    "options": [
+      "Showing database architecture",
+      "Showing only continuous distributions",
+      "Comparing quantities across categories",
+      "Displaying programming syntax"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What does a KPI visualization typically display?",
+    "options": [
+      "Source code",
+      "Database relationships",
+      "Raw text",
+      "A key performance metric, often compared with a target"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What is color encoding?",
+    "options": [
+      "Using color to represent categories, values, or patterns",
+      "Changing database structure",
+      "Encrypting chart data",
+      "Removing numerical values"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "Which visualization is suitable for geographic data?",
+    "options": [
+      "Histogram",
+      "Box plot",
+      "Map",
+      "Pie chart"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What do data labels provide?",
+    "options": [
+      "Database security",
+      "Automatic data cleaning",
+      "Additional storage",
+      "Context about individual values or categories"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What is a treemap useful for?",
+    "options": [
+      "Displaying hierarchical data using nested rectangles",
+      "Displaying only time-series data",
+      "Calculating averages",
+      "Editing source code"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "Why is consistency important when designing visualizations?",
+    "options": [
+      "It increases database storage",
+      "It makes visual information easier to understand and compare",
+      "It automatically cleans data",
+      "It removes all outliers"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "Which chart can be useful for showing cumulative values over time?",
+    "options": [
+      "Pie chart",
+      "Scatter plot",
+      "Area chart",
+      "Box plot"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What is data storytelling?",
+    "options": [
+      "Writing programming documentation",
+      "Creating database tables",
+      "Deleting unnecessary records",
+      "Combining data, visuals, and narrative to communicate insights"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "Why is choosing the appropriate chart type important?",
+    "options": [
+      "It helps communicate the intended data relationship clearly",
+      "It increases dataset size",
+      "It eliminates the need for analysis",
+      "It guarantees a business result"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "What is a data label?",
+    "options": [
+      "A database password",
+      "Text that identifies a value or category in a visualization",
+      "A programming variable",
+      "A file extension"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Data Visualization",
+    "question": "Which practice helps prevent misleading visual comparisons?",
+    "options": [
+      "Using as many colors as possible",
+      "Removing all labels",
+      "Using appropriate scales and axes",
+      "Hiding the source data"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is the primary goal of Business Intelligence?",
+    "options": [
+      "To develop mobile applications",
+      "To replace all business employees",
+      "To support better decision-making using data",
+      "To design computer hardware"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What does BI typically transform into useful business information?",
+    "options": [
+      "Raw data",
+      "Source code",
+      "Hardware signals",
+      "Operating systems"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is a BI dashboard?",
+    "options": [
+      "A database backup",
+      "A programming environment",
+      "A network configuration",
+      "A visual display of important business metrics"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is a data warehouse?",
+    "options": [
+      "A system designed to store and analyze integrated historical data",
+      "A source code editor",
+      "A web browser",
+      "A network device"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What does ETL stand for?",
+    "options": [
+      "Evaluate, Test, Load",
+      "Extract, Transform, Load",
+      "Execute, Transfer, Link",
+      "Extract, Test, Launch"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "Which process combines data from different sources into a common analytical environment?",
+    "options": [
+      "Data integration",
+      "Data deletion",
+      "Data encryption",
+      "Data compression"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is a KPI?",
+    "options": [
+      "Key Programming Interface",
+      "Knowledge Processing Input",
+      "Key Performance Indicator",
+      "Kernel Performance Index"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What does OLAP support?",
+    "options": [
+      "Operating system installation",
+      "Multidimensional analysis of business data",
+      "Website development",
+      "Hardware testing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "Which type of analysis focuses on what happened in the past?",
+    "options": [
+      "Descriptive analysis",
+      "Prescriptive analysis",
+      "Predictive analysis",
+      "Experimental analysis"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is predictive analytics used for?",
+    "options": [
+      "Deleting historical data",
+      "Designing database schemas",
+      "Predicting possible future outcomes using data",
+      "Formatting spreadsheets"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is prescriptive analytics concerned with?",
+    "options": [
+      "What happened",
+      "What data was deleted",
+      "How data was stored",
+      "What actions could be taken based on analysis"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is a data mart?",
+    "options": [
+      "A specialized subset of data designed for a particular business area",
+      "A programming language",
+      "A network protocol",
+      "A web server"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is a dashboard filter used for?",
+    "options": [
+      "Deleting source data",
+      "Restricting the information displayed according to selected criteria",
+      "Creating operating systems",
+      "Changing database passwords"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "Why is data quality important in BI?",
+    "options": [
+      "It increases screen resolution",
+      "It makes reports more colorful",
+      "Poor-quality data can lead to unreliable business insights",
+      "It removes the need for dashboards"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is a dimension in analytical data models?",
+    "options": [
+      "A hardware component",
+      "A programming function",
+      "A database password",
+      "A descriptive attribute used to analyze measures"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is a fact table generally used to store?",
+    "options": [
+      "Business events and measurable values",
+      "Only employee passwords",
+      "Application source code",
+      "Chart formatting rules"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "Which component commonly provides data visualization in BI systems?",
+    "options": [
+      "Compiler",
+      "Dashboard",
+      "Firewall",
+      "Operating system"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What does drill-down allow users to do?",
+    "options": [
+      "Delete records",
+      "Change database engines",
+      "Move from summarized information to more detailed information",
+      "Install software"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is self-service BI?",
+    "options": [
+      "BI that requires no data",
+      "BI used only by programmers",
+      "BI without visualization",
+      "BI that allows business users to perform analysis with limited technical assistance"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is data governance?",
+    "options": [
+      "A framework for managing data quality, security, ownership, and usage",
+      "A programming language",
+      "A chart type",
+      "A spreadsheet formula"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is a business metric?",
+    "options": [
+      "A programming variable",
+      "A measurable value used to monitor business performance",
+      "A database table",
+      "A network protocol"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "Which analysis helps explain why an event occurred?",
+    "options": [
+      "Descriptive analysis",
+      "Prescriptive analysis",
+      "Diagnostic analysis",
+      "Predictive analysis"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is a report in a BI system?",
+    "options": [
+      "A hardware device",
+      "A database server",
+      "A programming compiler",
+      "A structured presentation of analyzed information"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "Why are historical data important for BI?",
+    "options": [
+      "They help identify trends and patterns over time",
+      "They eliminate the need for analysis",
+      "They increase computer memory",
+      "They replace all current data"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is data visualization in BI mainly intended to do?",
+    "options": [
+      "Encrypt business records",
+      "Make patterns and trends easier to understand",
+      "Replace databases",
+      "Remove historical information"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is a data source?",
+    "options": [
+      "A chart title",
+      "A report filter",
+      "A location or system from which data is obtained",
+      "A business KPI"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "Which factor can affect the reliability of BI results?",
+    "options": [
+      "Screen size",
+      "Font selection",
+      "Keyboard type",
+      "Accuracy and completeness of source data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is real-time BI designed to provide?",
+    "options": [
+      "Insights based on data that is updated with little delay",
+      "Only yearly reports",
+      "Offline source code",
+      "Static printed reports"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "What is the purpose of BI alerts?",
+    "options": [
+      "To create database tables",
+      "To notify users when defined conditions or thresholds are reached",
+      "To delete reports",
+      "To change passwords"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Business Intelligence",
+    "question": "Which outcome can BI support?",
+    "options": [
+      "Automatic hardware replacement",
+      "Elimination of all business risks",
+      "Evidence-based business decisions",
+      "Removal of all databases"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is the mean of a dataset?",
+    "options": [
+      "The middle value after sorting",
+      "The most frequent value",
+      "The difference between maximum and minimum",
+      "The sum of values divided by the number of values"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is the median?",
+    "options": [
+      "The middle value when data is ordered",
+      "The average of all values",
+      "The largest value",
+      "The smallest value"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is the mode?",
+    "options": [
+      "The average value",
+      "The most frequently occurring value",
+      "The middle value",
+      "The range of the data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What does the range measure?",
+    "options": [
+      "Average frequency",
+      "Central tendency",
+      "The difference between the maximum and minimum values",
+      "The probability of an event"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What does standard deviation measure?",
+    "options": [
+      "The number of observations",
+      "The most common value",
+      "The median",
+      "The spread of values around the mean"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is variance?",
+    "options": [
+      "A measure related to the average squared deviation from the mean",
+      "The most frequent observation",
+      "The middle observation",
+      "The total number of records"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is a population in statistics?",
+    "options": [
+      "Only the selected sample",
+      "The complete group being studied",
+      "Only missing observations",
+      "A single measurement"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is a sample?",
+    "options": [
+      "The entire population",
+      "A statistical formula",
+      "A subset selected from a population",
+      "A probability distribution"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What does correlation measure?",
+    "options": [
+      "The exact cause of an event",
+      "The sample size",
+      "The median of a dataset",
+      "The strength and direction of association between variables"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What does a correlation coefficient close to +1 generally indicate?",
+    "options": [
+      "A strong positive linear relationship",
+      "No relationship",
+      "A strong negative relationship",
+      "A random dataset"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What does a correlation coefficient close to -1 generally indicate?",
+    "options": [
+      "No variation",
+      "A strong negative linear relationship",
+      "A strong positive relationship",
+      "Perfect randomness"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What does a correlation close to zero generally suggest?",
+    "options": [
+      "Perfect positive association",
+      "Perfect negative association",
+      "Little or no linear association",
+      "Identical variables"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is probability?",
+    "options": [
+      "A measure of data size",
+      "A method for calculating the mean",
+      "A measure of spread",
+      "A numerical measure of the likelihood of an event"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is a normal distribution?",
+    "options": [
+      "A symmetric distribution commonly shaped like a bell",
+      "A distribution with only one observation",
+      "A distribution containing no mean",
+      "A distribution with no variance"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is a z-score?",
+    "options": [
+      "A measure of sample size",
+      "A value indicating how many standard deviations an observation is from the mean",
+      "The maximum value",
+      "The median of the population"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is an outlier?",
+    "options": [
+      "The average value",
+      "The most common value",
+      "An observation that is unusually distant from other observations",
+      "The middle observation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is hypothesis testing used for?",
+    "options": [
+      "Creating charts",
+      "Sorting data",
+      "Removing all missing values",
+      "Evaluating evidence about a statistical claim"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is the null hypothesis?",
+    "options": [
+      "A default statement about a population parameter that is tested",
+      "The final result of every experiment",
+      "A visualization method",
+      "A measure of variance"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "Which measure of central tendency is most affected by extreme values?",
+    "options": [
+      "Median",
+      "Mode",
+      "Mean",
+      "Quartile"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What does a p-value help assess?",
+    "options": [
+      "The size of the dataset",
+      "Evidence against the null hypothesis under the assumed model",
+      "The exact population mean",
+      "The number of variables"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is a confidence interval?",
+    "options": [
+      "A chart showing categories",
+      "A measure of correlation",
+      "An interval used to estimate a population parameter with a stated confidence level",
+      "A database range"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is statistical significance?",
+    "options": [
+      "A guarantee that a result is practically important",
+      "A measure of data storage",
+      "A method for sorting observations",
+      "Evidence that an observed result is unlikely under a specified null hypothesis"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is sampling bias?",
+    "options": [
+      "Systematic error caused by the way a sample is selected",
+      "Random variation in every dataset",
+      "A type of chart",
+      "A measure of standard deviation"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is simple random sampling?",
+    "options": [
+      "Selecting only the largest values",
+      "Giving members of the population a known and typically equal chance of selection",
+      "Selecting only volunteers",
+      "Selecting observations by convenience"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is a categorical variable?",
+    "options": [
+      "A variable containing only decimal values",
+      "A variable representing continuous measurements",
+      "A variable representing groups or categories",
+      "A statistical test"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is a continuous variable?",
+    "options": [
+      "A variable containing only labels",
+      "A variable containing categories only",
+      "A variable with only whole-number identifiers",
+      "A variable that can take values across a continuous range"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is the interquartile range?",
+    "options": [
+      "The difference between the third and first quartiles",
+      "The difference between maximum and minimum",
+      "The average of all values",
+      "The most frequent value"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What does the first quartile represent?",
+    "options": [
+      "The largest observation",
+      "A value below which approximately 25% of observations fall",
+      "The average observation",
+      "The most frequent observation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is skewness used to describe?",
+    "options": [
+      "The sample size",
+      "The probability of an event",
+      "The asymmetry of a distribution",
+      "The number of variables"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Statistics for Data Science",
+    "question": "What is the purpose of descriptive statistics?",
+    "options": [
+      "To predict every future observation",
+      "To replace the dataset",
+      "To create database schemas",
+      "To summarize and describe observed data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is advanced data analytics primarily concerned with?",
+    "options": [
+      "Using sophisticated methods to extract deeper insights from complex data",
+      "Creating only basic spreadsheets",
+      "Replacing all databases",
+      "Designing computer hardware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is predictive modeling?",
+    "options": [
+      "A method for deleting historical data",
+      "Using data to build models that estimate future or unknown outcomes",
+      "A database backup technique",
+      "A chart formatting method"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is feature engineering?",
+    "options": [
+      "Designing application interfaces",
+      "Creating database servers",
+      "Creating or transforming variables to improve analytical models",
+      "Removing all observations"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is cross-validation commonly used for?",
+    "options": [
+      "Increasing the number of columns",
+      "Cleaning text formatting",
+      "Creating dashboards",
+      "Evaluating how well a model generalizes to unseen data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is overfitting?",
+    "options": [
+      "When a model learns training data too closely and performs poorly on unseen data",
+      "When a dataset has too few columns",
+      "When data is stored in a database",
+      "When a chart contains too many labels"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is underfitting?",
+    "options": [
+      "A model with excessive complexity",
+      "A model that is too simple to capture important patterns in the data",
+      "A dataset with duplicate rows",
+      "A chart with missing labels"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "Why is a train-test split used?",
+    "options": [
+      "To increase database size",
+      "To remove all outliers",
+      "To evaluate model performance on data not used for training",
+      "To create visualization themes"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What does model accuracy measure in a classification problem?",
+    "options": [
+      "The number of features",
+      "The dataset storage size",
+      "The number of training rows",
+      "The proportion of correctly classified observations"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is precision in classification?",
+    "options": [
+      "The proportion of predicted positives that are actually positive",
+      "The proportion of actual positives detected",
+      "The total number of observations",
+      "The average numerical error"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is recall?",
+    "options": [
+      "The percentage of all predictions that are correct",
+      "The proportion of actual positives correctly identified",
+      "The number of negative observations",
+      "The average of all features"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is a confusion matrix?",
+    "options": [
+      "A data cleaning technique",
+      "A regression formula",
+      "A table summarizing classification predictions against actual classes",
+      "A database schema"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is regression analysis commonly used for?",
+    "options": [
+      "Creating categorical labels only",
+      "Removing duplicate records",
+      "Sorting data alphabetically",
+      "Modeling relationships and predicting numerical outcomes"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is clustering?",
+    "options": [
+      "Grouping observations based on similarity",
+      "Predicting a predefined class",
+      "Calculating a single average",
+      "Removing all variables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is anomaly detection?",
+    "options": [
+      "Creating dashboards",
+      "Identifying observations that differ substantially from expected patterns",
+      "Calculating only the mean",
+      "Sorting records by name"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is dimensionality reduction?",
+    "options": [
+      "Increasing the number of variables",
+      "Adding duplicate observations",
+      "Reducing the number of features while preserving useful information",
+      "Removing the target variable from every model"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is Principal Component Analysis commonly used for?",
+    "options": [
+      "Database administration",
+      "Web development",
+      "Data entry",
+      "Reducing dimensionality while capturing major variation in the data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is time-series analysis?",
+    "options": [
+      "Analysis of observations collected over time",
+      "Analysis of only categorical variables",
+      "Database normalization",
+      "Image compression"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is forecasting?",
+    "options": [
+      "Deleting historical records",
+      "Estimating future values based on historical and relevant information",
+      "Changing chart colors",
+      "Creating database relationships"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is A/B testing?",
+    "options": [
+      "A database migration technique",
+      "A data visualization method",
+      "An experiment comparing two variants to measure differences in outcomes",
+      "A method for removing duplicates"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is a control group in an experiment?",
+    "options": [
+      "The group receiving every new treatment",
+      "The group with the largest sample size",
+      "The group used only for visualization",
+      "A comparison group that does not receive the experimental treatment"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is causal analysis concerned with?",
+    "options": [
+      "Understanding whether changes in one factor produce changes in another",
+      "Only describing historical data",
+      "Creating charts",
+      "Sorting observations"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "Why is normalization sometimes applied before modeling?",
+    "options": [
+      "To increase the number of observations",
+      "To put numerical features on comparable scales",
+      "To remove the target variable",
+      "To convert all data into text"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is data imputation?",
+    "options": [
+      "Data visualization",
+      "Feature deletion",
+      "Replacing missing values using an appropriate method",
+      "Database indexing"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is model interpretability?",
+    "options": [
+      "The number of rows in a dataset",
+      "The storage capacity of a model",
+      "The speed of data collection",
+      "The ability to understand how a model produces its predictions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is feature selection?",
+    "options": [
+      "Choosing relevant input variables for an analytical model",
+      "Selecting database servers",
+      "Creating dashboard colors",
+      "Deleting all categorical variables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is ensemble learning?",
+    "options": [
+      "Using a single variable for prediction",
+      "Combining multiple models to improve predictive performance",
+      "Removing all training data",
+      "Creating a single visualization"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is a recommendation system designed to do?",
+    "options": [
+      "Store raw data only",
+      "Detect database errors",
+      "Suggest items or actions based on user or item information",
+      "Convert text into source code"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is sentiment analysis?",
+    "options": [
+      "A method for calculating variance",
+      "A database optimization technique",
+      "A forecasting algorithm",
+      "Analyzing text to determine expressed sentiment or opinion"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "Why is data leakage a problem in predictive modeling?",
+    "options": [
+      "It can allow information unavailable at prediction time to influence the model",
+      "It always increases dataset quality",
+      "It removes all features",
+      "It guarantees better generalization"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Data Science & Data Analytics",
+    "program": "Advanced Data Analytics",
+    "question": "What is model drift?",
+    "options": [
+      "A change in chart formatting",
+      "A decline in model performance as the underlying data or relationships change",
+      "A database backup process",
+      "A method for increasing sample size"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  }
+ 
+]

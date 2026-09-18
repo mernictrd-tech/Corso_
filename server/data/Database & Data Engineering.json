@@ -1,0 +1,3784 @@
+[
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is the primary purpose of a database?",
+    "options": [
+      "To compile application code",
+      "To control network hardware",
+      "To store, organize, and manage data",
+      "To design user interfaces"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "Which database object commonly stores related records in a relational database?",
+    "options": [
+      "Table",
+      "Index",
+      "Transaction",
+      "View"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What does a row in a relational table usually represent?",
+    "options": [
+      "A relationship",
+      "A single record",
+      "An index entry",
+      "A database schema"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What does a column in a relational table usually represent?",
+    "options": [
+      "A transaction",
+      "An attribute of records",
+      "A database server",
+      "A backup file"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is a primary key used for?",
+    "options": [
+      "Sorting all rows alphabetically",
+      "Creating backups",
+      "Uniquely identifying each row",
+      "Encrypting the database"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is a foreign key used for?",
+    "options": [
+      "Compressing table data",
+      "Referencing a key in another table",
+      "Sorting a result",
+      "Deleting duplicate rows"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What does a one-to-many relationship mean?",
+    "options": [
+      "One record can relate to many records",
+      "Many records can relate to only one column",
+      "Every record must relate to exactly one record",
+      "Two tables must contain identical rows"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is a schema in database terminology?",
+    "options": [
+      "A backup device",
+      "A logical structure that defines database objects",
+      "A physical network cable",
+      "A temporary password"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is a DBMS?",
+    "options": [
+      "A web browser",
+      "A text editor",
+      "A compiler",
+      "Software for creating and managing databases"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "Which model organizes data into tables with relationships?",
+    "options": [
+      "Network routing model",
+      "Relational model",
+      "Hierarchical file model",
+      "Image processing model"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is data integrity?",
+    "options": [
+      "Program execution speed",
+      "Accuracy and consistency of stored data",
+      "Network bandwidth",
+      "Screen resolution"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "Which constraint prevents duplicate values in a key column?",
+    "options": [
+      "UNIQUE",
+      "ORDER",
+      "CHECKSUM",
+      "DEFAULT"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is a database index mainly used for?",
+    "options": [
+      "Removing all constraints",
+      "Increasing monitor resolution",
+      "Changing file names",
+      "Improving data retrieval speed"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is a view?",
+    "options": [
+      "A database server",
+      "A physical backup",
+      "A virtual table based on a query",
+      "A transaction log"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is a transaction?",
+    "options": [
+      "A database column",
+      "A screen layout",
+      "A logical unit of database operations",
+      "A network packet"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What does atomicity mean in ACID?",
+    "options": [
+      "A transaction always runs twice",
+      "Every row must be indexed",
+      "Only SELECT statements are allowed",
+      "A transaction is treated as an all-or-nothing unit"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What does consistency mean in ACID?",
+    "options": [
+      "A transaction preserves defined data rules",
+      "A transaction ignores constraints",
+      "A transaction always runs alone",
+      "A transaction deletes all indexes"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What does isolation mean in ACID?",
+    "options": [
+      "All users are disconnected",
+      "Every transaction is converted to a backup",
+      "Only one table may exist",
+      "Concurrent transactions are kept from improperly interfering"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What does durability mean in ACID?",
+    "options": [
+      "All data is deleted after commit",
+      "Indexes are automatically removed",
+      "Committed changes persist",
+      "Uncommitted data is always permanent"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "Why are relationships used in relational databases?",
+    "options": [
+      "To remove every constraint",
+      "To prevent all queries",
+      "To replace all columns",
+      "To connect related data across tables"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is a composite key?",
+    "options": [
+      "A key made from multiple columns",
+      "A view with no query",
+      "A temporary table",
+      "A key containing only NULL"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is a candidate key?",
+    "options": [
+      "A minimal set of attributes that can uniquely identify a row",
+      "A set of duplicate rows",
+      "A table containing only indexes",
+      "A database backup"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is a database constraint?",
+    "options": [
+      "A network address",
+      "A query result",
+      "A rule that restricts allowed data",
+      "A graphical interface"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What does NULL generally indicate in a database?",
+    "options": [
+      "A missing or unknown value",
+      "A value that is always zero",
+      "A duplicate primary key",
+      "An empty database"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is normalization intended to reduce?",
+    "options": [
+      "User interface errors",
+      "Network latency",
+      "CPU overheating",
+      "Data redundancy and update anomalies"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is a backup?",
+    "options": [
+      "A database constraint",
+      "A temporary alias",
+      "A query plan",
+      "A copy of data used for recovery"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "Why should database backups be tested?",
+    "options": [
+      "To remove old queries",
+      "To verify that data can actually be restored",
+      "To increase the number of tables",
+      "To disable constraints"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is referential integrity?",
+    "options": [
+      "Consistency of references between related tables",
+      "Sorting consistency",
+      "Screen consistency",
+      "File compression"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "What is a database instance?",
+    "options": [
+      "The database software license",
+      "A table's column name",
+      "The data stored in a database at a particular time",
+      "A network protocol"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Fundamentals",
+    "question": "Which database object can present selected data without storing a separate copy of the rows?",
+    "options": [
+      "Backup file",
+      "Trigger",
+      "View",
+      "Stored procedure"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which SQL statement retrieves data from a table?",
+    "options": [
+      "DELETE",
+      "SELECT",
+      "UPDATE",
+      "INSERT"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which clause specifies the table to read from?",
+    "options": [
+      "WHERE",
+      "ORDER BY",
+      "GROUP BY",
+      "FROM"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which clause filters rows before grouping?",
+    "options": [
+      "VALUES",
+      "WHERE",
+      "HAVING",
+      "FROM"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which keyword removes duplicate rows from a result?",
+    "options": [
+      "ONLY",
+      "REMOVE",
+      "UNIQUE TABLE",
+      "DISTINCT"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which clause sorts query results?",
+    "options": [
+      "GROUP BY",
+      "WHERE",
+      "FROM",
+      "ORDER BY"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which keyword specifies ascending sort order?",
+    "options": [
+      "ASC",
+      "SORTED",
+      "DESC",
+      "UP"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which clause groups rows for aggregate calculations?",
+    "options": [
+      "FROM",
+      "ORDER BY",
+      "GROUP BY",
+      "WHERE"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which clause filters groups after aggregation?",
+    "options": [
+      "HAVING",
+      "VALUES",
+      "FROM",
+      "WHERE"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which function counts rows or values?",
+    "options": [
+      "COUNT",
+      "AVG",
+      "MAX",
+      "SUM"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which function returns the total of numeric values?",
+    "options": [
+      "MIN",
+      "AVG",
+      "COUNT",
+      "SUM"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which function calculates the average of numeric values?",
+    "options": [
+      "SUM",
+      "AVG",
+      "COUNT",
+      "MAX"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which function returns the smallest value?",
+    "options": [
+      "AVG",
+      "MAX",
+      "SUM",
+      "MIN"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which function returns the largest value?",
+    "options": [
+      "MIN",
+      "COUNT",
+      "AVG",
+      "MAX"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which statement adds new rows?",
+    "options": [
+      "UPDATE",
+      "DELETE",
+      "INSERT",
+      "SELECT"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which statement changes existing rows?",
+    "options": [
+      "INSERT",
+      "SELECT",
+      "UPDATE",
+      "DELETE"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which statement removes rows?",
+    "options": [
+      "DELETE",
+      "SELECT",
+      "INSERT",
+      "UPDATE"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which statement creates a new table?",
+    "options": [
+      "CREATE INDEX",
+      "ALTER TABLE",
+      "CREATE TABLE",
+      "SELECT TABLE"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which statement changes the structure of an existing table?",
+    "options": [
+      "INSERT TABLE",
+      "DROP TABLE",
+      "ALTER TABLE",
+      "SELECT TABLE"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which statement removes a table and its definition?",
+    "options": [
+      "DROP TABLE",
+      "DELETE ROW",
+      "ALTER TABLE",
+      "REMOVE COLUMN"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which operator tests whether a value is within a range?",
+    "options": [
+      "IS NULL",
+      "IN",
+      "BETWEEN",
+      "LIKE"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which operator matches a value against a list of values?",
+    "options": [
+      "IN",
+      "EXISTS ONLY",
+      "BETWEEN",
+      "LIKE"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which operator is commonly used for pattern matching?",
+    "options": [
+      "MATCH",
+      "LIKE",
+      "BETWEEN",
+      "IN"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which logical operator requires both conditions to be true?",
+    "options": [
+      "EITHER",
+      "AND",
+      "NOT",
+      "OR"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Which logical operator requires at least one condition to be true?",
+    "options": [
+      "BOTH",
+      "ONLY",
+      "OR",
+      "AND"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "How do you test for a NULL value in SQL?",
+    "options": [
+      "HAS NULL",
+      "IS NULL",
+      "NULL = TRUE",
+      "= NULL"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "What does an INNER JOIN return?",
+    "options": [
+      "All rows from both tables",
+      "All rows from the left table",
+      "Only unmatched rows",
+      "Rows with matching values in both joined tables"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "What does a LEFT JOIN preserve?",
+    "options": [
+      "Only matching right rows",
+      "All rows from the left table",
+      "All rows from the right table",
+      "Only unmatched left rows"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Why is a WHERE clause useful in a SELECT query?",
+    "options": [
+      "To sort columns automatically",
+      "To define a database",
+      "To create a table",
+      "To restrict which rows are returned"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "Why is an alias used in SQL?",
+    "options": [
+      "To permanently rename a database",
+      "To give a temporary name to a table or column",
+      "To encrypt a column",
+      "To delete a column"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "SQL Fundamentals",
+    "question": "What is the purpose of a JOIN?",
+    "options": [
+      "To combine related data from multiple tables",
+      "To delete multiple tables",
+      "To sort one column",
+      "To create a backup"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is a subquery?",
+    "options": [
+      "A transaction log",
+      "A query nested inside another SQL statement",
+      "A database backup",
+      "A table constraint"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is a correlated subquery?",
+    "options": [
+      "A query with no SELECT",
+      "A subquery that refers to values from the outer query",
+      "A subquery that never runs",
+      "A backup query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is a CTE?",
+    "options": [
+      "An index definition",
+      "A named temporary result defined with WITH",
+      "A permanent table",
+      "A transaction"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is a recursive CTE useful for?",
+    "options": [
+      "Querying hierarchical or recursive data",
+      "Sorting one column",
+      "Deleting indexes",
+      "Formatting dates"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What does ROW_NUMBER() provide?",
+    "options": [
+      "A total of all rows",
+      "A duplicated rank only",
+      "A unique sequential number within a window",
+      "A random identifier"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What does RANK() do when values tie?",
+    "options": [
+      "Never assigns rank 1",
+      "Removes tied rows",
+      "Always assigns unique ranks",
+      "Assigns the same rank and leaves gaps after ties"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What does DENSE_RANK() do when values tie?",
+    "options": [
+      "Assigns the same rank without gaps",
+      "Assigns random numbers",
+      "Leaves gaps after every tie",
+      "Rejects tied values"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What does LAG() access?",
+    "options": [
+      "A database schema",
+      "A value from a preceding row",
+      "A value from a later query only",
+      "A value from the next table"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What does LEAD() access?",
+    "options": [
+      "A table definition",
+      "A query plan",
+      "A value from the previous row",
+      "A value from a following row"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What does PARTITION BY do in a window function?",
+    "options": [
+      "Deletes groups",
+      "Sorts the database permanently",
+      "Creates physical tables",
+      "Divides rows into groups for window calculations"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "How do window functions differ from GROUP BY?",
+    "options": [
+      "They always delete duplicate rows",
+      "They can only work without ORDER BY",
+      "They can calculate across related rows without collapsing them",
+      "They replace every table"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is a window frame?",
+    "options": [
+      "A database backup set",
+      "The subset of rows considered for a window calculation",
+      "A schema definition",
+      "A list of table names"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is UNION used for?",
+    "options": [
+      "Combining tables by foreign key",
+      "Combining compatible result sets and removing duplicates",
+      "Updating duplicate rows",
+      "Creating an index"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is UNION ALL used for?",
+    "options": [
+      "Combining compatible result sets while retaining duplicates",
+      "Joining tables by primary key",
+      "Removing all duplicates",
+      "Deleting matching rows"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What does COALESCE return?",
+    "options": [
+      "The first numeric expression",
+      "Always NULL",
+      "The first non-NULL expression",
+      "The last expression only"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is an execution plan?",
+    "options": [
+      "A backup schedule",
+      "A table's business meaning",
+      "The strategy a database uses to execute a query",
+      "A user's password"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What does EXPLAIN commonly provide?",
+    "options": [
+      "Information about how a query is planned or executed",
+      "Only the query result rows",
+      "A table's business description",
+      "The database password"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "Why can an index improve a query?",
+    "options": [
+      "It always increases table size tenfold",
+      "It prevents all inserts",
+      "It deletes unused rows",
+      "It can reduce the work needed to locate matching rows"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "Why can too many indexes hurt write performance?",
+    "options": [
+      "Indexes also need to be maintained during data changes",
+      "Indexes are never updated",
+      "Indexes cannot be read",
+      "Indexes always remove constraints"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is a derived table?",
+    "options": [
+      "A subquery used as a table in the FROM clause",
+      "A window frame",
+      "A database connection",
+      "A table backup"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is a scalar subquery?",
+    "options": [
+      "A query that must return zero rows",
+      "A query returning many unrelated tables",
+      "A subquery expected to return a single value",
+      "A transaction with no data"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "Why might a CTE improve complex SQL?",
+    "options": [
+      "It automatically fixes all data errors",
+      "It can make query logic easier to structure and read",
+      "It permanently stores every intermediate result",
+      "It removes the need for SQL syntax"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is a common use of ROW_NUMBER()?",
+    "options": [
+      "Creating a new database",
+      "Sorting without returning rows",
+      "Selecting the top or first row within each group",
+      "Deleting every row in each group"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is a common use of LAG()?",
+    "options": [
+      "Creating a table",
+      "Comparing a row with a previous row",
+      "Defining a foreign key",
+      "Removing duplicates globally"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is a common use of LEAD()?",
+    "options": [
+      "Creating an index",
+      "Deleting future rows",
+      "Backing up a database",
+      "Comparing a row with a following row"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "Why is filtering early sometimes beneficial for performance?",
+    "options": [
+      "It disables the optimizer",
+      "It forces every row to be scanned twice",
+      "It guarantees zero execution time",
+      "It can reduce the number of rows processed by later operations"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What can a query optimizer do?",
+    "options": [
+      "Change the meaning of a query",
+      "Delete all indexes",
+      "Rename every table",
+      "Choose an efficient execution strategy"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "Why can functions on indexed columns affect index usage?",
+    "options": [
+      "They may prevent the optimizer from using the index efficiently",
+      "They guarantee faster writes",
+      "They remove all rows",
+      "They always create new tables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is a window aggregate?",
+    "options": [
+      "A backup of aggregate values",
+      "An aggregate calculated over a window while retaining individual rows",
+      "A constraint that blocks aggregation",
+      "A join that removes all rows"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Advanced SQL",
+    "question": "What is the main goal of SQL query optimization?",
+    "options": [
+      "To increase the number of queries",
+      "To change query results",
+      "To remove all database constraints",
+      "To reduce resource usage and execution time while preserving results"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which statement is used to create a new database in MySQL?",
+    "options": [
+      "CREATE DATABASE",
+      "NEW DATABASE",
+      "BUILD DATABASE",
+      "MAKE DATABASE"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which SQL statement retrieves data from a MySQL table?",
+    "options": [
+      "INSERT",
+      "DELETE",
+      "UPDATE",
+      "SELECT"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which MySQL data type is commonly used to store variable-length text?",
+    "options": [
+      "INT",
+      "DATE",
+      "BOOLEAN",
+      "VARCHAR"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which statement adds a new row to a MySQL table?",
+    "options": [
+      "CREATE ROW",
+      "ADD ROW",
+      "APPEND TABLE",
+      "INSERT INTO"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which MySQL statement modifies existing records?",
+    "options": [
+      "MODIFY DATA",
+      "ALTER",
+      "UPDATE",
+      "CHANGE ROW"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which statement removes selected rows from a MySQL table?",
+    "options": [
+      "DROP ROW",
+      "REMOVE",
+      "CLEAR ROW",
+      "DELETE"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which statement changes the structure of an existing MySQL table?",
+    "options": [
+      "ALTER TABLE",
+      "CHANGE DATABASE",
+      "UPDATE TABLE",
+      "MODIFY DATABASE"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "What is the purpose of a primary key in a MySQL table?",
+    "options": [
+      "To allow duplicate row identifiers",
+      "To automatically sort every column",
+      "To store large files",
+      "To uniquely identify rows"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "What is a foreign key used for in MySQL?",
+    "options": [
+      "To encrypt table data",
+      "To rename a database",
+      "To connect related records between tables",
+      "To increase column width"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which MySQL feature can automatically generate sequential numeric values for a column?",
+    "options": [
+      "SEQUENCE_ID",
+      "AUTO_INCREMENT",
+      "GENERATE_ID",
+      "AUTO_NUMBER"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which constraint prevents a column from containing NULL values?",
+    "options": [
+      "DEFAULT",
+      "NOT NULL",
+      "CHECK",
+      "UNIQUE"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which constraint prevents duplicate values in a column?",
+    "options": [
+      "DEFAULT",
+      "CHECK",
+      "UNIQUE",
+      "NOT NULL"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "What is the main purpose of an index in MySQL?",
+    "options": [
+      "To improve lookup and query performance",
+      "To delete unused rows",
+      "To store database backups",
+      "To replace primary keys"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which command is commonly used to see the databases available to a MySQL user?",
+    "options": [
+      "GET DATABASES",
+      "SHOW DATABASES",
+      "LIST DATABASES",
+      "DISPLAY DATABASES"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which command displays the tables in the currently selected MySQL database?",
+    "options": [
+      "GET TABLES",
+      "DISPLAY TABLES",
+      "LIST TABLES",
+      "SHOW TABLES"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which MySQL statement selects a database for subsequent operations?",
+    "options": [
+      "ACCESS database_name",
+      "OPEN database_name",
+      "USE database_name",
+      "SELECT DATABASE database_name"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which command can display the structure of a MySQL table?",
+    "options": [
+      "DESCRIBE table_name",
+      "SHOW STRUCTURE table_name",
+      "VIEW TABLE table_name",
+      "STRUCTURE table_name"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which statement permanently removes a table definition and its data?",
+    "options": [
+      "CLEAR TABLE",
+      "DELETE TABLE",
+      "DROP TABLE",
+      "REMOVE TABLE"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which MySQL statement removes an entire database?",
+    "options": [
+      "REMOVE DATABASE",
+      "DROP DATABASE",
+      "CLEAR DATABASE",
+      "DELETE DATABASE"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which clause filters rows in a MySQL SELECT query?",
+    "options": [
+      "GROUP BY",
+      "HAVING",
+      "ORDER BY",
+      "WHERE"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which clause sorts the results of a MySQL query?",
+    "options": [
+      "SORT BY",
+      "ARRANGE BY",
+      "GROUP BY",
+      "ORDER BY"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which aggregate function returns the number of rows?",
+    "options": [
+      "NUMBER()",
+      "COUNT()",
+      "SUM()",
+      "TOTAL()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which MySQL command can be used to inspect the indexes defined on a table?",
+    "options": [
+      "SHOW INDEX",
+      "DISPLAY KEYS",
+      "GET INDEX",
+      "LIST INDEXES ONLY"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "What does COMMIT do in a MySQL transaction?",
+    "options": [
+      "Permanently saves the transaction's changes",
+      "Deletes the transaction log",
+      "Creates a new database",
+      "Cancels all changes"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "What does ROLLBACK generally do in a MySQL transaction?",
+    "options": [
+      "Creates a backup",
+      "Reverses uncommitted changes",
+      "Adds a foreign key",
+      "Creates a new table"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which MySQL data type is designed to store calendar dates?",
+    "options": [
+      "YEAR",
+      "DATE",
+      "CHAR",
+      "TIME"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which MySQL data type can store both date and time values?",
+    "options": [
+      "DATE",
+      "DATETIME",
+      "VARCHAR",
+      "YEAR"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "What is a database user privilege?",
+    "options": [
+      "A permission controlling what a user can do",
+      "A query result",
+      "A type of database table",
+      "A method of compressing data"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Why are backups important for MySQL databases?",
+    "options": [
+      "They eliminate the need for indexes",
+      "They allow recovery after data loss or failure",
+      "They prevent all SQL errors",
+      "They automatically normalize tables"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MySQL Fundamentals",
+    "question": "Which MySQL operation is most appropriate for adding a new column to an existing table?",
+    "options": [
+      "ALTER TABLE ... ADD COLUMN",
+      "UPDATE TABLE ... NEW COLUMN",
+      "INSERT COLUMN",
+      "CREATE COLUMN"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "What is PostgreSQL?",
+    "options": [
+      "A programming language",
+      "A relational database management system",
+      "A web browser",
+      "A spreadsheet application"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which command creates a database in PostgreSQL?",
+    "options": [
+      "CREATE DATABASE",
+      "NEW DATABASE",
+      "MAKE DATABASE",
+      "BUILD DATABASE"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which SQL statement retrieves rows in PostgreSQL?",
+    "options": [
+      "UPDATE",
+      "SELECT",
+      "INSERT",
+      "DELETE"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which PostgreSQL command-line tool is commonly used to interact with PostgreSQL databases?",
+    "options": [
+      "mysql",
+      "mongo",
+      "psql",
+      "sqlcmd"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which statement modifies existing PostgreSQL rows?",
+    "options": [
+      "ALTER",
+      "CHANGE",
+      "UPDATE",
+      "MODIFY ROW"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which statement removes rows from a PostgreSQL table?",
+    "options": [
+      "REMOVE",
+      "DELETE",
+      "CLEAR",
+      "DROP ROW"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which PostgreSQL command changes a table's structure?",
+    "options": [
+      "ALTER TABLE",
+      "UPDATE TABLE",
+      "CHANGE TABLE",
+      "MODIFY TABLE"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which PostgreSQL feature provides automatically generated values for an identity column?",
+    "options": [
+      "AUTO NUMBER",
+      "GENERATE KEY",
+      "GENERATED AS IDENTITY",
+      "AUTO VALUE"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "What is a sequence in PostgreSQL?",
+    "options": [
+      "A database backup",
+      "A database object that generates numeric values",
+      "A type of foreign key",
+      "A query result"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which constraint ensures that a column cannot contain NULL?",
+    "options": [
+      "UNIQUE",
+      "CHECK",
+      "NOT NULL",
+      "DEFAULT"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which PostgreSQL clause filters rows?",
+    "options": [
+      "HAVING",
+      "WHERE",
+      "ORDER BY",
+      "GROUP BY"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which clause sorts PostgreSQL query results?",
+    "options": [
+      "ORDER BY",
+      "SORT",
+      "ARRANGE BY",
+      "GROUP BY"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which PostgreSQL object can store a saved query that behaves like a virtual table?",
+    "options": [
+      "Sequence",
+      "View",
+      "Index",
+      "Role"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "What is the main purpose of an index in PostgreSQL?",
+    "options": [
+      "To improve data retrieval performance",
+      "To replace all foreign keys",
+      "To store backups",
+      "To prevent all updates"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which command can show the structure of a table in the psql client?",
+    "options": [
+      "\\table",
+      "\\describe",
+      "\\d",
+      "\\structure"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which PostgreSQL statement starts an explicit transaction?",
+    "options": [
+      "OPEN TRANSACTION",
+      "BEGIN",
+      "START QUERY",
+      "CREATE TRANSACTION"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which command permanently applies changes made in a transaction?",
+    "options": [
+      "SAVE",
+      "APPLY",
+      "COMMIT",
+      "CONFIRM"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which command cancels uncommitted transaction changes?",
+    "options": [
+      "ROLLBACK",
+      "CANCEL DATA",
+      "UNDO TABLE",
+      "REVERSE DATABASE"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which PostgreSQL data type is appropriate for storing whole numbers?",
+    "options": [
+      "TEXT",
+      "INTEGER",
+      "DATE",
+      "JSONB"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "What is a PostgreSQL role commonly used for?",
+    "options": [
+      "Managing users and permissions",
+      "Sorting query results",
+      "Creating table rows",
+      "Compressing indexes"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which PostgreSQL feature is especially useful for storing and querying structured JSON-like data?",
+    "options": [
+      "JSONB",
+      "CHAR",
+      "SERIAL",
+      "MONEY"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "What is the main difference between a database and a schema in PostgreSQL?",
+    "options": [
+      "A schema can contain database objects, while a database can contain schemas",
+      "A database can contain only one row",
+      "A schema is always a backup file",
+      "There is no distinction between them"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which PostgreSQL command can list databases in the psql client?",
+    "options": [
+      "\\d",
+      "\\dt",
+      "\\l",
+      "\\listdb"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "What is the purpose of a CHECK constraint?",
+    "options": [
+      "To require a condition to be true for inserted or updated data",
+      "To automatically create backups",
+      "To sort rows",
+      "To create a foreign key automatically"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which PostgreSQL command is commonly used to grant permissions to a role?",
+    "options": [
+      "ALLOW",
+      "PERMIT",
+      "GRANT",
+      "AUTHORIZE"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which PostgreSQL statement removes a table?",
+    "options": [
+      "DELETE TABLE",
+      "DROP TABLE",
+      "REMOVE TABLE",
+      "CLEAR TABLE"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which PostgreSQL command-line utility is commonly used to back up a database in a custom or SQL archive format?",
+    "options": [
+      "pg_dump",
+      "pg_backup",
+      "psql_dump",
+      "postgres_copy"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which operation combines rows from related PostgreSQL tables based on a join condition?",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "JOIN",
+      "DISTINCT"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "Which PostgreSQL data type is commonly used for arbitrary-length text?",
+    "options": [
+      "TEXT",
+      "INT",
+      "DATE",
+      "BOOLEAN"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "PostgreSQL Fundamentals",
+    "question": "What is the purpose of a database transaction?",
+    "options": [
+      "To group related operations into a logical unit of work",
+      "To permanently disable constraints",
+      "To create only read-only tables",
+      "To replace database schemas"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "What type of database is MongoDB?",
+    "options": [
+      "Relational database",
+      "Document-oriented NoSQL database",
+      "Spreadsheet database",
+      "Graph-only database"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "What is the basic unit of data stored in a MongoDB collection?",
+    "options": [
+      "Document",
+      "Table",
+      "Row",
+      "Worksheet"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "What format is MongoDB's native document storage based on?",
+    "options": [
+      "CSV",
+      "XML",
+      "BSON",
+      "HTML"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "What is a collection in MongoDB?",
+    "options": [
+      "A group of MongoDB documents",
+      "An index entry",
+      "A database server",
+      "A single field"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which method inserts one document into a MongoDB collection?",
+    "options": [
+      "createOne()",
+      "insertOne()",
+      "saveDocument()",
+      "addOne()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which MongoDB method retrieves documents matching a query?",
+    "options": [
+      "queryAll()",
+      "getRows()",
+      "select()",
+      "find()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which method updates a single matching MongoDB document?",
+    "options": [
+      "editOne()",
+      "changeOne()",
+      "modifyOne()",
+      "updateOne()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which method deletes one matching document?",
+    "options": [
+      "deleteOne()",
+      "eraseOne()",
+      "removeOneRow()",
+      "dropOne()"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which field commonly serves as the unique identifier for a MongoDB document?",
+    "options": [
+      "key",
+      "idNumber",
+      "documentId",
+      "_id"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "What is ObjectId?",
+    "options": [
+      "A database backup format",
+      "An aggregation stage",
+      "A MongoDB data type commonly used for unique document identifiers",
+      "A collection name"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which MongoDB operator tests whether a field is equal to a specified value?",
+    "options": [
+      "$match",
+      "$equals",
+      "$same",
+      "$eq"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which MongoDB query operator checks whether a value is greater than a specified value?",
+    "options": [
+      "$greater",
+      "$more",
+      "$above",
+      "$gt"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which MongoDB operator matches documents where a field's value is contained in an array of specified values?",
+    "options": [
+      "$contains",
+      "$has",
+      "$in",
+      "$inside"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "What is the main purpose of an index in MongoDB?",
+    "options": [
+      "To improve query performance",
+      "To create backups",
+      "To remove all duplicate fields",
+      "To convert documents into tables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which method can create an index on a MongoDB collection?",
+    "options": [
+      "makeIndex()",
+      "buildIndex()",
+      "addIndex()",
+      "createIndex()"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "What is an aggregation pipeline?",
+    "options": [
+      "A database backup mechanism",
+      "A sequence of stages that processes documents",
+      "A collection of indexes only",
+      "A network connection"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which aggregation stage filters documents based on specified conditions?",
+    "options": [
+      "$match",
+      "$filter",
+      "$select",
+      "$where"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which aggregation stage groups documents by a specified expression?",
+    "options": [
+      "$cluster",
+      "$combine",
+      "$group",
+      "$collect"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which aggregation stage can sort documents?",
+    "options": [
+      "$sequence",
+      "$sort",
+      "$order",
+      "$arrange"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "What is an embedded document?",
+    "options": [
+      "A document stored in a backup file",
+      "A document stored only in an index",
+      "A document stored inside another document",
+      "A document stored outside MongoDB"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "When can embedding documents be useful?",
+    "options": [
+      "When related data is commonly accessed together",
+      "When indexes are forbidden",
+      "When documents cannot contain nested data",
+      "When every document must be stored in a separate database"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "What is a reference in MongoDB data modeling?",
+    "options": [
+      "A link from one document to related data stored separately",
+      "A type of aggregation stage",
+      "A query sorting method",
+      "A backup copy of a collection"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "What does schema flexibility generally mean in MongoDB?",
+    "options": [
+      "Documents cannot contain nested fields",
+      "Every field must be predefined in a table",
+      "Every collection must have identical fields",
+      "Documents in a collection can have different field structures"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which MongoDB operator is commonly used to set a field to a new value during an update?",
+    "options": [
+      "$set",
+      "$replace",
+      "$change",
+      "$assign"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which MongoDB operator removes a field from a document?",
+    "options": [
+      "$remove",
+      "$unset",
+      "$dropField",
+      "$deleteField"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which MongoDB method can return only a limited number of matching documents?",
+    "options": [
+      "countLimit()",
+      "limit()",
+      "restrict()",
+      "cap()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which method can sort the documents returned by a MongoDB query?",
+    "options": [
+      "sequence()",
+      "sort()",
+      "arrange()",
+      "order()"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "What is the purpose of the $project aggregation stage?",
+    "options": [
+      "To create a database user",
+      "To build an index automatically",
+      "To control which fields are included or computed in the output documents",
+      "To delete an entire collection"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Which MongoDB operation is most appropriate for processing documents through multiple transformation stages?",
+    "options": [
+      "lookupOnly()",
+      "process()",
+      "aggregate()",
+      "find()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "MongoDB Fundamentals",
+    "question": "Why should indexes be chosen carefully in MongoDB?",
+    "options": [
+      "Indexes make documents relational",
+      "Indexes prevent all queries",
+      "Indexes eliminate the need for collections",
+      "Indexes can improve reads but also require storage and maintenance"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is the primary purpose of database normalization?",
+    "options": [
+      "To reduce data redundancy",
+      "To increase duplicate data",
+      "To remove all relationships",
+      "To slow down queries"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "Which normal form requires atomic values in each column?",
+    "options": [
+      "Second Normal Form",
+      "First Normal Form",
+      "Third Normal Form",
+      "Fourth Normal Form"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What does a primary key uniquely identify?",
+    "options": [
+      "A database",
+      "A column type",
+      "A row in a table",
+      "A database server"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "Which key is used to create a relationship between two tables?",
+    "options": [
+      "Candidate key",
+      "Primary key",
+      "Composite key",
+      "Foreign key"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is a schema in a database?",
+    "options": [
+      "A logical structure that defines database objects",
+      "A backup file",
+      "A network connection",
+      "A database password"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "Which relationship occurs when one record in one table relates to many records in another table?",
+    "options": [
+      "One-to-one",
+      "One-to-many",
+      "Many-to-one only",
+      "Many-to-none"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is a composite key?",
+    "options": [
+      "A key stored outside the database",
+      "A key with no columns",
+      "A key made up of multiple columns",
+      "A key used only for passwords"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is the purpose of a foreign key constraint?",
+    "options": [
+      "To encrypt data",
+      "To delete every table",
+      "To increase storage size",
+      "To maintain referential integrity"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "Which normal form removes partial dependency on a composite key?",
+    "options": [
+      "Second Normal Form",
+      "First Normal Form",
+      "Third Normal Form",
+      "Fifth Normal Form"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "Which normal form focuses on removing transitive dependencies?",
+    "options": [
+      "First Normal Form",
+      "Third Normal Form",
+      "Second Normal Form",
+      "Zero Normal Form"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is an entity in database modeling?",
+    "options": [
+      "A SQL keyword",
+      "A database index",
+      "A real-world object or concept represented in the database",
+      "A backup process"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is an attribute in an entity model?",
+    "options": [
+      "A database server",
+      "A table relationship",
+      "A database connection",
+      "A property that describes an entity"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What does ERD stand for?",
+    "options": [
+      "Entity Relationship Diagram",
+      "External Record Database",
+      "Entity Retrieval Data",
+      "Extended Relational Definition"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "Which symbol is commonly used to represent an entity in a traditional ER diagram?",
+    "options": [
+      "Circle",
+      "Rectangle",
+      "Triangle",
+      "Arrow"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is denormalization?",
+    "options": [
+      "Deleting a database",
+      "Removing all indexes",
+      "Intentionally adding redundancy to improve certain query performance",
+      "Converting SQL to HTML"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "Which database object can improve the speed of data retrieval?",
+    "options": [
+      "Trigger",
+      "View",
+      "Constraint",
+      "Index"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is a candidate key?",
+    "options": [
+      "A column or set of columns that can uniquely identify a row",
+      "A column that always contains duplicate values",
+      "A table without a primary key",
+      "A database backup"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is a surrogate key?",
+    "options": [
+      "A natural business identifier",
+      "An artificially generated identifier",
+      "A foreign database",
+      "A password for a table"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "Which constraint prevents NULL values in a column?",
+    "options": [
+      "UNIQUE",
+      "DEFAULT",
+      "NOT NULL",
+      "FOREIGN KEY"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "Which constraint ensures that values in a column are not duplicated?",
+    "options": [
+      "CHECK",
+      "DEFAULT",
+      "NOT NULL",
+      "UNIQUE"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is a many-to-many relationship?",
+    "options": [
+      "Multiple records in each related table can be associated with multiple records in the other table",
+      "Only one record exists in each table",
+      "A table has no relationships",
+      "A relationship between databases only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "How is a many-to-many relationship commonly implemented in a relational database?",
+    "options": [
+      "Using only one column",
+      "Using a junction table",
+      "Using a database password",
+      "Using a backup table"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is referential integrity?",
+    "options": [
+      "A method for compressing data",
+      "A method for encrypting passwords",
+      "Ensuring relationships between related tables remain valid",
+      "A method for deleting indexes"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is a natural key?",
+    "options": [
+      "A randomly generated number",
+      "A temporary database ID",
+      "A system-generated timestamp",
+      "A real-world attribute used to identify a record"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "Which design approach organizes data into related tables to reduce redundancy?",
+    "options": [
+      "Normalization",
+      "Fragmentation",
+      "Replication",
+      "Caching"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is cardinality in database relationships?",
+    "options": [
+      "The size of a database file",
+      "The number of relationships between instances of entities",
+      "The number of database servers",
+      "The amount of memory used"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "Which relationship describes one record associated with exactly one record?",
+    "options": [
+      "One-to-many",
+      "Many-to-many",
+      "One-to-one",
+      "Many-to-one"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is a database constraint?",
+    "options": [
+      "A visualization tool",
+      "A query editor",
+      "A backup mechanism",
+      "A rule that restricts valid data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "Which constraint can enforce a condition on values stored in a column?",
+    "options": [
+      "CHECK",
+      "INDEX",
+      "VIEW",
+      "TRIGGER"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Database Design",
+    "question": "What is the main purpose of a database schema design?",
+    "options": [
+      "To increase duplicate records",
+      "To define tables, fields, relationships, and constraints",
+      "To install an operating system",
+      "To manage network cables"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is the primary role of a data engineer?",
+    "options": [
+      "Designing logos",
+      "Building systems for collecting, processing, and storing data",
+      "Managing office hardware",
+      "Creating video animations"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is a data pipeline?",
+    "options": [
+      "A physical cable",
+      "A database password",
+      "A series of processes that move and transform data",
+      "A user interface"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What does ETL stand for?",
+    "options": [
+      "Extract, Transform, Load",
+      "Evaluate, Transfer, Link",
+      "Extract, Test, Launch",
+      "Encode, Transform, List"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "In ETL, what happens during the Extract stage?",
+    "options": [
+      "Data is deleted",
+      "Data is collected from source systems",
+      "Data is visualized",
+      "Data is encrypted only"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is data transformation?",
+    "options": [
+      "Deleting source systems",
+      "Creating user accounts",
+      "Converting or modifying data into a required format",
+      "Installing a database server"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What happens during the Load stage of ETL?",
+    "options": [
+      "Source data is collected",
+      "Data is analyzed manually",
+      "Data is converted to images",
+      "Transformed data is stored in a target system"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is batch processing?",
+    "options": [
+      "Processing data in groups at scheduled or defined intervals",
+      "Processing only one character",
+      "Processing data without storage",
+      "Processing only images"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is stream processing?",
+    "options": [
+      "Processing archived files once a year",
+      "Processing data continuously as it arrives",
+      "Deleting incoming data",
+      "Processing only database schemas"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is a data lake?",
+    "options": [
+      "A relational table",
+      "A database index",
+      "A storage repository that can hold large amounts of raw and processed data",
+      "A network switch"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is data quality?",
+    "options": [
+      "The amount of disk space",
+      "The speed of a processor",
+      "The number of database users",
+      "The degree to which data is accurate, complete, consistent, and reliable"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is data ingestion?",
+    "options": [
+      "The process of bringing data into a storage or processing system",
+      "The process of deleting data",
+      "The process of designing a website",
+      "The process of creating passwords"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is an API commonly used for in data engineering?",
+    "options": [
+      "Designing database logos",
+      "Accessing or exchanging data between systems",
+      "Formatting computer screens",
+      "Installing operating systems"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is a data source?",
+    "options": [
+      "A visualization chart",
+      "A database index",
+      "A system or location from which data originates",
+      "A programming language"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "Which format is commonly used for exchanging structured data?",
+    "options": [
+      "JPEG",
+      "MP3",
+      "PNG",
+      "JSON"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is schema-on-read?",
+    "options": [
+      "Applying structure to data when it is read",
+      "Applying a schema before data is stored",
+      "Deleting schema information",
+      "Encrypting database tables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is schema-on-write?",
+    "options": [
+      "Applying structure only after analysis",
+      "Applying a predefined structure before or during data storage",
+      "Removing all metadata",
+      "Reading data without a schema"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is data orchestration?",
+    "options": [
+      "Creating graphics",
+      "Encrypting every file",
+      "Managing and coordinating data workflows and tasks",
+      "Designing database tables only"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is Apache Airflow commonly used for?",
+    "options": [
+      "Video editing",
+      "Graphic design",
+      "Operating system installation",
+      "Workflow orchestration and scheduling"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is data cleansing?",
+    "options": [
+      "Identifying and correcting inaccurate, incomplete, or inconsistent data",
+      "Creating duplicate records",
+      "Deleting an entire database",
+      "Installing data servers"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is a data warehouse primarily designed for?",
+    "options": [
+      "Gaming",
+      "Analytics and reporting",
+      "Video rendering",
+      "Operating system management"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What does ELT stand for?",
+    "options": [
+      "Evaluate, Load, Transform",
+      "Extract, Link, Test",
+      "Extract, Load, Transform",
+      "Encode, Load, Transfer"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is metadata?",
+    "options": [
+      "Duplicate data",
+      "Encrypted data",
+      "Deleted data",
+      "Data that describes other data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is data partitioning?",
+    "options": [
+      "Dividing data into smaller logical or physical sections",
+      "Deleting all data",
+      "Encrypting a database",
+      "Converting SQL to HTML"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is data replication?",
+    "options": [
+      "Removing duplicate records",
+      "Maintaining copies of data in multiple locations",
+      "Converting data to JSON",
+      "Creating database schemas"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "Why is logging important in data pipelines?",
+    "options": [
+      "It increases screen brightness",
+      "It creates user interfaces",
+      "It helps monitor execution and troubleshoot failures",
+      "It removes data automatically"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is fault tolerance in a data processing system?",
+    "options": [
+      "The ability to increase font size",
+      "The ability to remove all backups",
+      "The ability to stop all processing",
+      "The ability to continue operating despite certain failures"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is incremental data loading?",
+    "options": [
+      "Loading only new or changed data instead of the entire dataset",
+      "Deleting old data before every load",
+      "Loading data without validation",
+      "Loading only metadata"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is data lineage?",
+    "options": [
+      "A method for compressing files",
+      "Tracking the origin, movement, and transformation of data",
+      "A type of database index",
+      "A method for creating passwords"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "What is the purpose of data validation in a pipeline?",
+    "options": [
+      "To create animations",
+      "To increase duplicate records",
+      "To verify that incoming or processed data meets expected rules",
+      "To remove database relationships"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Engineering Fundamentals",
+    "question": "Which characteristic is important for a scalable data pipeline?",
+    "options": [
+      "It should process only one record",
+      "It should avoid automation",
+      "It should require manual execution for every task",
+      "It should handle increasing data volume efficiently"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What is the primary purpose of a data warehouse?",
+    "options": [
+      "To support analytics and reporting",
+      "To run video games",
+      "To manage operating system files",
+      "To store application passwords only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "Which type of data is commonly stored in a data warehouse?",
+    "options": [
+      "Only temporary data",
+      "Historical and integrated business data",
+      "Only operating system files",
+      "Only image files"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What does ETL stand for in data warehousing?",
+    "options": [
+      "Evaluate, Transfer, Load",
+      "Encode, Transform, Link",
+      "Extract, Transform, Load",
+      "Extract, Test, Launch"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What is a fact table?",
+    "options": [
+      "A table containing only database users",
+      "A table storing system passwords",
+      "A table containing only metadata",
+      "A table that stores measurable business events or facts"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What is a dimension table?",
+    "options": [
+      "A table that provides descriptive context for facts",
+      "A table that stores database backups",
+      "A table that stores server logs only",
+      "A table containing encrypted passwords"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "Which schema contains a central fact table connected directly to dimension tables?",
+    "options": [
+      "Snowflake schema",
+      "Star schema",
+      "Network schema",
+      "Hierarchical schema"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What is a snowflake schema?",
+    "options": [
+      "A schema with no dimensions",
+      "A schema used only for transactions",
+      "A dimensional model where dimension tables are further normalized",
+      "A schema used for operating systems"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What is a measure in a data warehouse?",
+    "options": [
+      "A database username",
+      "A table relationship",
+      "A schema name",
+      "A numeric value that can be analyzed or aggregated"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "Which is an example of a measure?",
+    "options": [
+      "Sales amount",
+      "Customer name",
+      "Product category",
+      "Customer city"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "Which is an example of a dimension?",
+    "options": [
+      "Total revenue",
+      "Customer",
+      "Quantity sold",
+      "Profit amount"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What is a data mart?",
+    "options": [
+      "A database backup",
+      "A programming language",
+      "A subject-oriented subset of data designed for a specific business area",
+      "A network server"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What does OLAP stand for?",
+    "options": [
+      "Online Logical Application Process",
+      "Operational Level Analysis Program",
+      "Online Loading and Processing",
+      "Online Analytical Processing"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What does OLTP primarily support?",
+    "options": [
+      "Day-to-day transactional operations",
+      "Historical reporting only",
+      "Data visualization only",
+      "Machine learning training only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "Which workload is commonly associated with OLAP systems?",
+    "options": [
+      "High-volume transaction entry",
+      "Complex analytical queries",
+      "Operating system installation",
+      "Real-time gaming"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What is a slowly changing dimension?",
+    "options": [
+      "A dimension that is always empty",
+      "A dimension that cannot contain text",
+      "A dimension whose attribute values change over time",
+      "A dimension used only for backups"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "Which Slowly Changing Dimension type commonly overwrites the existing value?",
+    "options": [
+      "Type 2",
+      "Type 3",
+      "Type 4",
+      "Type 1"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "Which Slowly Changing Dimension type generally preserves historical records by creating a new row?",
+    "options": [
+      "Type 2",
+      "Type 1",
+      "Type 0",
+      "Type 4 only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What is a surrogate key commonly used for in a dimensional model?",
+    "options": [
+      "To store passwords",
+      "To uniquely identify dimension records",
+      "To encrypt fact tables",
+      "To replace all measures"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What is a grain in a fact table?",
+    "options": [
+      "The database server size",
+      "The number of dimensions",
+      "The level of detail represented by each fact row",
+      "The number of database users"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "Why is defining the grain of a fact table important?",
+    "options": [
+      "It determines the operating system",
+      "It removes all dimensions",
+      "It creates database passwords",
+      "It establishes what each row represents"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What is a conformed dimension?",
+    "options": [
+      "A dimension shared consistently across multiple fact tables or business processes",
+      "A dimension containing only temporary data",
+      "A dimension used only for backups",
+      "A dimension without any attributes"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What is an aggregate in a data warehouse?",
+    "options": [
+      "A database password",
+      "A summarized value calculated from detailed data",
+      "A raw data source",
+      "A database schema"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "Which SQL function can be used to calculate the total of numeric values?",
+    "options": [
+      "COUNT",
+      "AVG",
+      "SUM",
+      "MAX"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What is a staging area in a data warehouse process?",
+    "options": [
+      "A reporting dashboard",
+      "A final presentation layer",
+      "A database security layer",
+      "A temporary area where source data can be prepared before loading"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What is the purpose of an ETL process in a data warehouse?",
+    "options": [
+      "To extract, transform, and load data into the warehouse",
+      "To create operating systems",
+      "To design web pages",
+      "To delete historical data"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What is historical data in a data warehouse?",
+    "options": [
+      "Only today's transactions",
+      "Data retained from previous periods for analysis",
+      "Temporary cache data",
+      "Data stored only in application memory"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "Which characteristic describes a subject-oriented data warehouse?",
+    "options": [
+      "It organizes data around operating system processes",
+      "It stores only unstructured images",
+      "It organizes data around major business subjects such as customers or sales",
+      "It contains only temporary records"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "What does an integrated data warehouse mean?",
+    "options": [
+      "It contains only one source",
+      "It stores data without transformations",
+      "It contains only real-time transactions",
+      "It combines data from multiple sources into a consistent format"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "Which operation in OLAP moves from summarized data to more detailed data?",
+    "options": [
+      "Drill-down",
+      "Roll-up",
+      "Slice",
+      "Delete"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Database & Data Engineering",
+    "program": "Data Warehousing Fundamentals",
+    "question": "Which OLAP operation summarizes data from a lower level to a higher level?",
+    "options": [
+      "Drill-down",
+      "Roll-up",
+      "Join",
+      "Insert"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  }
+
+]

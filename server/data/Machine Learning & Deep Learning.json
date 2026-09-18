@@ -1,0 +1,3782 @@
+[
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is the primary goal of machine learning?",
+    "options": [
+      "To design computer hardware",
+      "To build systems that learn from data and improve with experience",
+      "To replace all human decision-making",
+      "To manage customer databases only"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "Which type of learning uses labeled training data?",
+    "options": [
+      "Unsupervised learning",
+      "Reinforcement learning",
+      "Random learning",
+      "Supervised learning"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is a feature in machine learning?",
+    "options": [
+      "A type of computer monitor",
+      "A programming language",
+      "A measurable property or characteristic used as input",
+      "A database vendor"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is the purpose of a training dataset?",
+    "options": [
+      "To store customer invoices",
+      "To teach the model patterns and relationships",
+      "To replace the testing dataset",
+      "To design user interfaces"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What does a machine learning model produce when given new input?",
+    "options": [
+      "A hardware upgrade",
+      "A database schema",
+      "A network cable",
+      "A prediction or output"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "Which of the following is an example of a regression problem?",
+    "options": [
+      "Predicting whether an email is spam",
+      "Clustering customers into groups",
+      "Predicting a continuous value such as house price",
+      "Reducing image dimensions"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is overfitting in machine learning?",
+    "options": [
+      "When a model is too simple to learn anything",
+      "When a dataset is too large",
+      "When a model performs well on training data but poorly on new data",
+      "When a model uses too little memory"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is the purpose of a test dataset?",
+    "options": [
+      "To train the model parameters",
+      "To replace the training dataset",
+      "To design algorithms",
+      "To evaluate the model's performance on unseen data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "Which of the following best describes unsupervised learning?",
+    "options": [
+      "Learning from labeled examples",
+      "Learning by receiving rewards",
+      "Learning without labeled outputs to find patterns",
+      "Learning by copying human behavior"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is a label in supervised learning?",
+    "options": [
+      "The input feature",
+      "The known output or target value",
+      "A type of algorithm",
+      "A hardware component"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What does model generalization refer to?",
+    "options": [
+      "The model's ability to memorize training data",
+      "The number of layers in a network",
+      "The model's ability to perform well on new, unseen data",
+      "The size of the dataset"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "Which of the following is a common machine learning algorithm?",
+    "options": [
+      "Web browser",
+      "Operating system",
+      "Decision tree",
+      "Printer driver"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is the purpose of splitting data into training and testing sets?",
+    "options": [
+      "To reduce storage costs",
+      "To evaluate how well the model generalizes",
+      "To increase the number of features",
+      "To replace the need for algorithms"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is underfitting in machine learning?",
+    "options": [
+      "When a model is too complex",
+      "When a model trains too quickly",
+      "When a model is too simple to capture the underlying pattern",
+      "When a model uses too many features"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "Which of the following is a classification problem?",
+    "options": [
+      "Predicting temperature in degrees",
+      "Predicting stock price",
+      "Predicting distance in kilometers",
+      "Predicting whether a customer will churn"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is a hyperparameter?",
+    "options": [
+      "A parameter learned during training",
+      "A type of dataset",
+      "A setting configured before training begins",
+      "A hardware specification"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is the role of a loss function?",
+    "options": [
+      "To store training data",
+      "To visualize the dataset",
+      "To measure how far predictions are from actual values",
+      "To increase model complexity"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "Which learning paradigm learns through interaction with an environment?",
+    "options": [
+      "Supervised learning",
+      "Unsupervised learning",
+      "Batch learning only",
+      "Reinforcement learning"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is feature engineering?",
+    "options": [
+      "Designing computer cases",
+      "Writing operating system code",
+      "Creating and selecting useful input variables for a model",
+      "Managing network routers"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is the purpose of cross-validation?",
+    "options": [
+      "To train a model faster",
+      "To assess model performance more reliably across data splits",
+      "To reduce the number of features",
+      "To replace the loss function"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What does a confusion matrix summarize?",
+    "options": [
+      "Hardware usage statistics",
+      "Database normalization steps",
+      "Model performance for classification tasks",
+      "Network latency measurements"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "Which of the following is a continuous target variable?",
+    "options": [
+      "Spam or not spam",
+      "Cat or dog",
+      "Red or blue",
+      "House price"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is the bias-variance tradeoff?",
+    "options": [
+      "A tradeoff between storage and speed",
+      "A balance between model simplicity and flexibility",
+      "A tradeoff between training and testing",
+      "A tradeoff between hardware and software"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is a common reason for using regularization?",
+    "options": [
+      "To increase training time",
+      "To remove all features",
+      "To reduce overfitting",
+      "To replace the loss function"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "Which of the following is an example of a model?",
+    "options": [
+      "Web server",
+      "Linear regression",
+      "Keyboard",
+      "Monitor"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What does training a model involve?",
+    "options": [
+      "Designing hardware components",
+      "Writing user manuals",
+      "Managing customer accounts",
+      "Adjusting model parameters to minimize error"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is the purpose of a validation set?",
+    "options": [
+      "To train the final model only",
+      "To tune hyperparameters and monitor training",
+      "To replace the test set",
+      "To store backup data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "Which of the following is a type of machine learning task?",
+    "options": [
+      "Compilation",
+      "Routing",
+      "Regression",
+      "Printing"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What is the main advantage of machine learning over traditional programming?",
+    "options": [
+      "It always requires less data",
+      "It eliminates the need for testing",
+      "It can learn patterns from data without explicit rules",
+      "It uses no computation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning Fundamentals",
+    "question": "What does a learning curve typically show?",
+    "options": [
+      "Hardware temperature over time",
+      "Network bandwidth usage",
+      "Database size growth",
+      "Model performance as training data or iterations increase"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What distinguishes supervised learning from other paradigms?",
+    "options": [
+      "It requires no data",
+      "It uses labeled training examples",
+      "It only works with images",
+      "It uses no algorithms"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "Which of the following is a regression algorithm?",
+    "options": [
+      "Logistic regression",
+      "K-means",
+      "Linear regression",
+      "Principal component analysis"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is logistic regression commonly used for?",
+    "options": [
+      "Clustering",
+      "Dimensionality reduction",
+      "Image compression",
+      "Binary classification"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is a decision boundary?",
+    "options": [
+      "A limit on dataset size",
+      "A line or surface separating classes in a classification model",
+      "A type of hardware",
+      "A software license"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "Which algorithm builds a tree-like model of decisions?",
+    "options": [
+      "K-means",
+      "PCA",
+      "Autoencoder",
+      "Decision tree"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is the purpose of a support vector machine?",
+    "options": [
+      "To cluster unlabeled data",
+      "To reduce dimensionality",
+      "To find a hyperplane that separates classes",
+      "To generate text"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is a common evaluation metric for regression?",
+    "options": [
+      "Accuracy",
+      "Precision",
+      "Recall",
+      "Mean squared error"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What does a classification model predict?",
+    "options": [
+      "A continuous value",
+      "A cluster center",
+      "A discrete class label",
+      "A reduced feature set"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is the k-nearest neighbors algorithm based on?",
+    "options": [
+      "Random guessing",
+      "Distance to nearest labeled examples",
+      "Gradient descent only",
+      "Matrix factorization"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is a common problem with decision trees?",
+    "options": [
+      "They cannot handle categorical data",
+      "They require no training",
+      "They tend to overfit if not pruned",
+      "They only work for regression"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "Which metric is commonly used for imbalanced classification?",
+    "options": [
+      "Mean absolute error",
+      "R-squared",
+      "Precision and recall",
+      "Root mean squared error"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is the purpose of a confusion matrix?",
+    "options": [
+      "To train a model",
+      "To reduce dimensionality",
+      "To summarize classification results",
+      "To generate images"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is ensemble learning?",
+    "options": [
+      "Using a single model only",
+      "Combining multiple models to improve performance",
+      "Removing all features",
+      "Clustering unlabeled data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "Which of the following is an ensemble method?",
+    "options": [
+      "Linear regression",
+      "K-means",
+      "PCA",
+      "Random forest"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is supervised learning?",
+    "options": [
+      "A machine learning approach that learns from labeled training data",
+      "A method that uses no training data",
+      "A technique used only for data storage",
+      "A method for designing database schemas"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "Which of the following is a supervised learning task?",
+    "options": [
+      "Grouping customers without labels",
+      "Predicting house prices using labeled historical data",
+      "Reducing the number of features without target values",
+      "Finding hidden patterns in unlabeled data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What does gradient boosting do?",
+    "options": [
+      "Clusters data into groups",
+      "Reduces feature dimensions",
+      "Builds models sequentially to correct previous errors",
+      "Generates random data"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is a hyperplane in support vector machines?",
+    "options": [
+      "A type of neural network layer",
+      "A clustering center",
+      "A decision boundary separating classes",
+      "A loss function"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is the purpose of a kernel in SVM?",
+    "options": [
+      "To reduce training time only",
+      "To map data into a higher-dimensional space",
+      "To generate labels",
+      "To cluster data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is the difference between classification and regression?",
+    "options": [
+      "Classification uses no data; regression uses data",
+      "Classification is unsupervised; regression is supervised",
+      "Classification predicts categories; regression predicts continuous values",
+      "Classification is only for images; regression is only for text"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is a common loss function for classification?",
+    "options": [
+      "Mean squared error",
+      "Mean absolute error",
+      "R-squared",
+      "Cross-entropy loss"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What does the term 'training error' refer to?",
+    "options": [
+      "Error on the test dataset",
+      "Error in data collection",
+      "Error on the training dataset",
+      "Error in model deployment"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is the purpose of feature scaling?",
+    "options": [
+      "To remove all features",
+      "To bring features to a similar range",
+      "To increase the number of features",
+      "To replace labels"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is a common issue with logistic regression?",
+    "options": [
+      "It cannot handle binary classification",
+      "It requires no training data",
+      "It assumes a linear decision boundary",
+      "It only works for regression"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is the purpose of a validation curve?",
+    "options": [
+      "To display hardware performance",
+      "To plot network traffic",
+      "To show database schema",
+      "To show model performance across hyperparameter values"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is a common advantage of random forests over single decision trees?",
+    "options": [
+      "Faster training always",
+      "No need for data",
+      "Reduced overfitting",
+      "No hyperparameters"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What does the term 'class imbalance' refer to?",
+    "options": [
+      "Equal distribution of classes",
+      "Too many features",
+      "Unequal distribution of classes in a dataset",
+      "Too few samples"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "Which technique can help with class imbalance?",
+    "options": [
+      "Removing all data",
+      "Ignoring the problem",
+      "Using only accuracy",
+      "Resampling or class weighting"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is the main goal of supervised learning?",
+    "options": [
+      "To cluster unlabeled data",
+      "To reduce dimensions",
+      "To learn a mapping from inputs to outputs using labeled data",
+      "To generate random data"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Supervised Learning",
+    "question": "What is a common metric for binary classification?",
+    "options": [
+      "Mean squared error",
+      "Area under the ROC curve",
+      "R-squared",
+      "Silhouette score"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the main characteristic of unsupervised learning?",
+    "options": [
+      "It uses labeled data",
+      "It requires no data",
+      "It only works with images",
+      "It finds patterns in unlabeled data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "Which of the following is a clustering algorithm?",
+    "options": [
+      "Linear regression",
+      "Logistic regression",
+      "K-means",
+      "Random forest"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the goal of clustering?",
+    "options": [
+      "To predict continuous values",
+      "To group similar data points together",
+      "To classify labeled data",
+      "To reduce training time"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What does PCA stand for?",
+    "options": [
+      "Predictive Clustering Algorithm",
+      "Primary Classification Approach",
+      "Pattern Correlation Analysis",
+      "Principal Component Analysis"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the purpose of dimensionality reduction?",
+    "options": [
+      "To increase the number of features",
+      "To reduce the number of features while preserving important information",
+      "To remove all data",
+      "To generate labels"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is a common challenge in k-means clustering?",
+    "options": [
+      "Handling labeled data",
+      "Predicting continuous values",
+      "Choosing the number of clusters",
+      "Using too few features"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the silhouette score used for?",
+    "options": [
+      "Measuring regression error",
+      "Training neural networks",
+      "Evaluating clustering quality",
+      "Generating text"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "Which algorithm is hierarchical clustering?",
+    "options": [
+      "Linear regression",
+      "Logistic regression",
+      "Agglomerative clustering",
+      "Random forest"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is anomaly detection?",
+    "options": [
+      "Clustering all data",
+      "Identifying unusual data points",
+      "Predicting continuous values",
+      "Reducing dimensions"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the purpose of t-SNE?",
+    "options": [
+      "Training deep neural networks",
+      "Classifying labeled data",
+      "Visualizing high-dimensional data in lower dimensions",
+      "Generating images"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What does DBSCAN stand for?",
+    "options": [
+      "Data-Based Supervised Clustering Algorithm Network",
+      "Density-Based Spatial Clustering of Applications with Noise",
+      "Distributed Batch Scaling and Clustering",
+      "Dynamic Binary Segmentation and Classification"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is a key advantage of DBSCAN over k-means?",
+    "options": [
+      "It always runs faster",
+      "It requires no parameters",
+      "It can find arbitrarily shaped clusters and handle noise",
+      "It only works for regression"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the elbow method used for?",
+    "options": [
+      "Training neural networks",
+      "Choosing the number of clusters in k-means",
+      "Reducing dimensions",
+      "Generating labels"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is association rule learning?",
+    "options": [
+      "Clustering data points",
+      "Finding interesting relationships between variables in large datasets",
+      "Predicting continuous values",
+      "Reducing dimensions"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the purpose of an autoencoder?",
+    "options": [
+      "To classify labeled data",
+      "To learn compressed representations of data",
+      "To predict continuous values",
+      "To generate random noise"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the difference between PCA and t-SNE?",
+    "options": [
+      "PCA is nonlinear; t-SNE is linear",
+      "PCA is linear; t-SNE is nonlinear and often used for visualization",
+      "Both are only for clustering",
+      "Both are only for regression"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is a common application of clustering?",
+    "options": [
+      "Predicting house prices",
+      "Classifying emails",
+      "Customer segmentation",
+      "Training neural networks"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the main characteristic of unsupervised learning?",
+    "options": [
+      "It learns from labeled data",
+      "It requires a predefined target variable",
+      "It learns patterns from unlabeled data",
+      "It is used only for regression"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "Which of the following is a common unsupervised learning algorithm?",
+    "options": [
+      "K-Means Clustering",
+      "Linear Regression",
+      "Logistic Regression",
+      "Decision Tree Classification"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the purpose of a dendrogram?",
+    "options": [
+      "To train neural networks",
+      "To predict continuous values",
+      "To visualize hierarchical clustering results",
+      "To reduce dimensions"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is Gaussian Mixture Model?",
+    "options": [
+      "A type of neural network",
+      "A probabilistic model for clustering assuming data from multiple Gaussian distributions",
+      "A regression algorithm",
+      "A dimensionality reduction technique"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the main difference between soft and hard clustering?",
+    "options": [
+      "Soft clustering is faster",
+      "Soft clustering assigns probabilities; hard clustering assigns each point to one cluster",
+      "Hard clustering uses no data",
+      "Soft clustering requires labels"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is a common use of anomaly detection?",
+    "options": [
+      "Predicting house prices",
+      "Fraud detection",
+      "Classifying emails",
+      "Training neural networks"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the purpose of manifold learning?",
+    "options": [
+      "To train neural networks",
+      "To uncover low-dimensional structure in high-dimensional data",
+      "To classify labeled data",
+      "To generate images"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is a common evaluation metric for clustering?",
+    "options": [
+      "Accuracy",
+      "Mean squared error",
+      "Silhouette score",
+      "R-squared"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the purpose of feature extraction in unsupervised learning?",
+    "options": [
+      "To remove all features",
+      "To derive new informative features from raw data",
+      "To generate labels",
+      "To train neural networks"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the main goal of unsupervised learning?",
+    "options": [
+      "To predict labels",
+      "To minimize training error",
+      "To discover hidden patterns or structure in unlabeled data",
+      "To generate random data"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "Which of the following is a dimensionality reduction technique?",
+    "options": [
+      "Logistic regression",
+      "Random forest",
+      "PCA",
+      "SVM"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the purpose of a latent variable in unsupervised learning?",
+    "options": [
+      "To label data",
+      "To train neural networks",
+      "To represent unobserved factors that influence data",
+      "To reduce training time"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Unsupervised Learning",
+    "question": "What is the difference between clustering and classification?",
+    "options": [
+      "Clustering is supervised; classification is unsupervised",
+      "Clustering is unsupervised; classification is supervised",
+      "Both are supervised",
+      "Both are unsupervised"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is the primary goal of natural language processing?",
+    "options": [
+      "To design computer hardware",
+      "To manage databases",
+      "To enable computers to understand and generate human language",
+      "To route network traffic"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is tokenization in NLP?",
+    "options": [
+      "A method for data storage",
+      "Splitting text into smaller units such as words or subwords",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is a common NLP task?",
+    "options": [
+      "Image compression",
+      "Sentiment analysis",
+      "Network routing",
+      "Database normalization"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is named entity recognition?",
+    "options": [
+      "A method for data storage",
+      "Identifying entities such as names and locations in text",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is a word embedding?",
+    "options": [
+      "A type of database",
+      "A dense vector representation of words capturing semantic meaning",
+      "A hardware component",
+      "A network protocol"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is the purpose of stop word removal?",
+    "options": [
+      "To add more words to text",
+      "To translate text",
+      "To remove common words that add little meaning",
+      "To generate images"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is stemming?",
+    "options": [
+      "A method for data storage",
+      "Reducing words to their root form",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is lemmatization?",
+    "options": [
+      "A method for data storage",
+      "Reducing words to their dictionary form using linguistic analysis",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is a common model for sequence-to-sequence tasks?",
+    "options": [
+      "SQL",
+      "HTTP",
+      "Transformer",
+      "TCP"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is attention in NLP?",
+    "options": [
+      "A method for data storage",
+      "A mechanism that weighs the importance of different words in a sequence",
+      "A type of neural network layer",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is a language model?",
+    "options": [
+      "A type of database",
+      "A model that predicts the probability of sequences of words",
+      "A hardware component",
+      "A network protocol"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is the purpose of part-of-speech tagging?",
+    "options": [
+      "To translate text",
+      "To assign grammatical categories to words",
+      "To generate images",
+      "To compress data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is a common NLP library in Python?",
+    "options": [
+      "NumPy",
+      "Pandas",
+      "NLTK",
+      "Matplotlib"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is text classification?",
+    "options": [
+      "Generating text",
+      "Translating text",
+      "Assigning predefined categories to text",
+      "Compressing text"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is machine translation?",
+    "options": [
+      "A method for data storage",
+      "Automatically translating text from one language to another",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is a common challenge in NLP?",
+    "options": [
+      "Too little data",
+      "Too few words",
+      "Ambiguity and context dependence of language",
+      "Too simple grammar"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is a bag-of-words model?",
+    "options": [
+      "A type of neural network",
+      "A representation of text as a set of word frequencies ignoring order",
+      "A database query",
+      "A hardware component"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is TF-IDF?",
+    "options": [
+      "A type of neural network",
+      "A numerical statistic reflecting word importance in a document",
+      "A database query",
+      "A hardware component"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is a common evaluation metric for machine translation?",
+    "options": [
+      "Accuracy",
+      "Mean squared error",
+      "BLEU score",
+      "R-squared"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is coreference resolution?",
+    "options": [
+      "A method for data storage",
+      "Determining which words refer to the same entity",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is a common use of NLP in business?",
+    "options": [
+      "Database normalization",
+      "Network routing",
+      "Chatbots and customer support automation",
+      "Operating system design"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is the purpose of padding in NLP?",
+    "options": [
+      "To remove all words",
+      "To make sequences the same length for batch processing",
+      "To translate text",
+      "To generate images"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is a common pretrained language model?",
+    "options": [
+      "SQL",
+      "HTTP",
+      "BERT",
+      "TCP"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is fine-tuning in NLP?",
+    "options": [
+      "A method for data storage",
+      "Adapting a pretrained model to a specific task",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is the purpose of an attention mask?",
+    "options": [
+      "To remove all words",
+      "To indicate which tokens should be attended to",
+      "To translate text",
+      "To generate images"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is a common NLP preprocessing step?",
+    "options": [
+      "Training a neural network",
+      "Lowercasing and removing punctuation",
+      "Generating images",
+      "Compressing data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is the difference between stemming and lemmatization?",
+    "options": [
+      "Stemming is slower",
+      "Stemming cuts words; lemmatization uses linguistic knowledge",
+      "Lemmatization is always faster",
+      "Both are identical"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is a common NLP application in healthcare?",
+    "options": [
+      "Database normalization",
+      "Extracting information from clinical notes",
+      "Network routing",
+      "Operating system design"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is a common NLP application in finance?",
+    "options": [
+      "Database normalization",
+      "Sentiment analysis of financial news",
+      "Network routing",
+      "Operating system design"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Natural Language Processing",
+    "question": "What is the main goal of NLP?",
+    "options": [
+      "To design computer hardware",
+      "To enable machines to process and understand human language",
+      "To manage databases",
+      "To route network traffic"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is the primary goal of computer vision?",
+    "options": [
+      "To design computer hardware",
+      "To manage databases",
+      "To enable computers to interpret and analyze visual information",
+      "To route network traffic"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is an image classification task?",
+    "options": [
+      "Detecting objects in an image",
+      "Assigning a label to an entire image",
+      "Segmenting an image",
+      "Generating an image"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is object detection?",
+    "options": [
+      "Assigning a single label to an image",
+      "Locating and classifying objects within an image",
+      "Generating an image",
+      "Compressing an image"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is semantic segmentation?",
+    "options": [
+      "Detecting objects with bounding boxes",
+      "Classifying each pixel in an image into a category",
+      "Generating an image",
+      "Compressing an image"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a convolutional layer used for in vision?",
+    "options": [
+      "Storing data",
+      "Extracting spatial features from images",
+      "Managing databases",
+      "Routing network traffic"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a common dataset for image classification?",
+    "options": [
+      "SQL",
+      "HTTP",
+      "ImageNet",
+      "TCP"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is data augmentation in computer vision?",
+    "options": [
+      "A method for data storage",
+      "Applying transformations like rotation and flipping to increase training data",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a common architecture for image classification?",
+    "options": [
+      "SQL",
+      "HTTP",
+      "ResNet",
+      "TCP"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is transfer learning in computer vision?",
+    "options": [
+      "A method for data storage",
+      "Using a pretrained model and fine-tuning it for a new task",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a bounding box?",
+    "options": [
+      "A type of neural network",
+      "A rectangle that surrounds a detected object in an image",
+      "A database query",
+      "A hardware component"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is the purpose of a pooling layer in CNNs?",
+    "options": [
+      "To increase image resolution",
+      "To reduce spatial dimensions and computational load",
+      "To generate labels",
+      "To store data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a common evaluation metric for object detection?",
+    "options": [
+      "Accuracy",
+      "Mean squared error",
+      "Intersection over Union",
+      "R-squared"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a common application of computer vision?",
+    "options": [
+      "Database normalization",
+      "Facial recognition",
+      "Network routing",
+      "Operating system design"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is image generation?",
+    "options": [
+      "Classifying images",
+      "Creating new images using models like GANs",
+      "Detecting objects",
+      "Segmenting images"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a common challenge in computer vision?",
+    "options": [
+      "Too little data",
+      "Too few pixels",
+      "Variations in lighting, scale, and viewpoint",
+      "Too simple images"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is optical character recognition?",
+    "options": [
+      "Detecting objects",
+      "Converting images of text into machine-readable text",
+      "Segmenting images",
+      "Generating images"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a common use of computer vision in healthcare?",
+    "options": [
+      "Database normalization",
+      "Analyzing medical images",
+      "Network routing",
+      "Operating system design"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a common use of computer vision in autonomous vehicles?",
+    "options": [
+      "Database normalization",
+      "Detecting pedestrians and other vehicles",
+      "Network routing",
+      "Operating system design"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is the purpose of a convolutional filter?",
+    "options": [
+      "To store data",
+      "To detect specific patterns or features in an image",
+      "To manage databases",
+      "To route network traffic"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a common activation function in CNNs?",
+    "options": [
+      "SQL",
+      "HTTP",
+      "ReLU",
+      "TCP"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is image segmentation?",
+    "options": [
+      "Classifying an image",
+      "Partitioning an image into meaningful regions",
+      "Detecting objects",
+      "Generating images"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a common framework for computer vision?",
+    "options": [
+      "SQL",
+      "HTTP",
+      "OpenCV",
+      "TCP"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is the purpose of a feature map in CNNs?",
+    "options": [
+      "To store data",
+      "To represent the output of a convolutional layer",
+      "To manage databases",
+      "To route network traffic"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a common loss function for image segmentation?",
+    "options": [
+      "Mean squared error",
+      "Cross-entropy loss",
+      "Mean absolute error",
+      "R-squared"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a common data augmentation technique for images?",
+    "options": [
+      "SQL",
+      "HTTP",
+      "Random cropping",
+      "TCP"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is the purpose of a fully connected layer in a CNN?",
+    "options": [
+      "To extract spatial features",
+      "To perform classification based on extracted features",
+      "To reduce dimensions",
+      "To store data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a common application of computer vision in retail?",
+    "options": [
+      "Database normalization",
+      "Automated checkout and inventory tracking",
+      "Network routing",
+      "Operating system design"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is the difference between classification and detection?",
+    "options": [
+      "Classification is unsupervised; detection is supervised",
+      "Classification labels an image; detection locates and labels objects",
+      "Classification is only for text; detection is for images",
+      "Both are identical"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is a common metric for image classification?",
+    "options": [
+      "Mean squared error",
+      "Top-5 accuracy",
+      "R-squared",
+      "Silhouette score"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Computer Vision",
+    "question": "What is the main goal of computer vision?",
+    "options": [
+      "To design computer hardware",
+      "To enable computers to interpret and analyze visual information",
+      "To manage databases",
+      "To route network traffic"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a neural network?",
+    "options": [
+      "A computing system inspired by biological neural networks",
+      "A type of database",
+      "A programming language",
+      "A hardware component"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a neuron in a neural network?",
+    "options": [
+      "A type of computer monitor",
+      "A database table",
+      "A basic computational unit that processes inputs and produces an output",
+      "A network cable"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is an activation function?",
+    "options": [
+      "A function that stores data",
+      "A function that introduces nonlinearity into a neural network",
+      "A function that designs hardware",
+      "A function that manages databases"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is backpropagation?",
+    "options": [
+      "A method for data storage",
+      "A technique for image compression",
+      "A type of database query",
+      "An algorithm for training neural networks by propagating errors backward"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a convolutional neural network commonly used for?",
+    "options": [
+      "Database management",
+      "Text editing",
+      "Image recognition",
+      "Network routing"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a recurrent neural network designed to handle?",
+    "options": [
+      "Image data only",
+      "Sequential data",
+      "Database queries",
+      "Network traffic"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a loss function in deep learning?",
+    "options": [
+      "A method for storing data",
+      "A type of activation function",
+      "A hardware component",
+      "A measure of how well the network's predictions match the target"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is gradient descent?",
+    "options": [
+      "An optimization algorithm that updates weights to minimize loss",
+      "A method for data storage",
+      "A type of neural network layer",
+      "A database query"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a deep neural network?",
+    "options": [
+      "A network with no layers",
+      "A network with only one layer",
+      "A network with no neurons",
+      "A neural network with many layers"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is dropout in neural networks?",
+    "options": [
+      "A method for data storage",
+      "A type of activation function",
+      "A regularization technique that randomly drops units during training",
+      "A hardware component"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is batch normalization?",
+    "options": [
+      "A technique to normalize inputs to each layer to improve training",
+      "A method for data storage",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a common activation function?",
+    "options": [
+      "SQL",
+      "HTTP",
+      "ReLU",
+      "TCP"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is transfer learning?",
+    "options": [
+      "A method for data storage",
+      "A type of neural network layer",
+      "Using a pre-trained model and fine-tuning it for a new task",
+      "A database query"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a generative adversarial network?",
+    "options": [
+      "A type of database",
+      "A programming language",
+      "A hardware component",
+      "A framework with a generator and discriminator competing"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a transformer architecture known for?",
+    "options": [
+      "Image compression",
+      "Attention mechanisms for sequence modeling",
+      "Database management",
+      "Network routing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is an embedding in deep learning?",
+    "options": [
+      "A dense vector representation of discrete data",
+      "A type of database",
+      "A hardware component",
+      "A network protocol"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is the vanishing gradient problem?",
+    "options": [
+      "A method for data storage",
+      "A type of activation function",
+      "Gradients become very small during backpropagation in deep networks",
+      "A database query"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a common optimizer in deep learning?",
+    "options": [
+      "SQL",
+      "Adam",
+      "HTTP",
+      "TCP"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a fully connected layer?",
+    "options": [
+      "A layer with no connections",
+      "A layer with only one neuron",
+      "A layer that only processes images",
+      "A layer where each neuron connects to every neuron in the previous layer"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is data augmentation?",
+    "options": [
+      "A method for data storage",
+      "A type of neural network",
+      "Creating modified versions of training data to improve generalization",
+      "A database query"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a common application of deep learning?",
+    "options": [
+      "Database normalization",
+      "Network routing",
+      "Image and speech recognition",
+      "Operating system design"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is the purpose of a pooling layer?",
+    "options": [
+      "To train neural networks",
+      "To reduce spatial dimensions in convolutional networks",
+      "To generate labels",
+      "To store data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a residual connection?",
+    "options": [
+      "A skip connection that helps train very deep networks",
+      "A method for data storage",
+      "A type of activation function",
+      "A database query"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is the role of weights in a neural network?",
+    "options": [
+      "Fixed values that never change",
+      "Hardware components",
+      "Database tables",
+      "Parameters that are adjusted during training"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a common challenge in deep learning?",
+    "options": [
+      "Having too few parameters",
+      "Being too simple",
+      "Requiring large amounts of data and computation",
+      "Not needing any training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is fine-tuning?",
+    "options": [
+      "A method for data storage",
+      "Further training a pre-trained model on a specific task",
+      "A type of activation function",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a common loss function for classification in deep learning?",
+    "options": [
+      "Mean squared error",
+      "Mean absolute error",
+      "Cross-entropy loss",
+      "R-squared"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is the purpose of an epoch in training?",
+    "options": [
+      "One complete pass through the training dataset",
+      "A type of neural network",
+      "A database query",
+      "A hardware component"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is a common regularization technique in deep learning?",
+    "options": [
+      "SQL",
+      "HTTP",
+      "TCP",
+      "Dropout"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Deep Learning Fundamentals",
+    "question": "What is the main advantage of deep learning over traditional machine learning?",
+    "options": [
+      "It requires no data",
+      "It can automatically learn hierarchical features from raw data",
+      "It always trains faster",
+      "It uses no computation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is the purpose of model evaluation?",
+    "options": [
+      "To train a model",
+      "To deploy a model",
+      "To assess how well a model performs on data",
+      "To collect data"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is accuracy?",
+    "options": [
+      "The proportion of incorrect predictions",
+      "The training time",
+      "The proportion of correct predictions",
+      "The model size"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is precision?",
+    "options": [
+      "The proportion of true positives among predicted positives",
+      "The proportion of true positives among actual positives",
+      "The proportion of correct predictions",
+      "The training time"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is recall?",
+    "options": [
+      "The proportion of true positives among predicted positives",
+      "The proportion of correct predictions",
+      "The training time",
+      "The proportion of true positives among actual positives"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is the F1 score?",
+    "options": [
+      "The arithmetic mean of precision and recall",
+      "The harmonic mean of precision and recall",
+      "The sum of precision and recall",
+      "The product of precision and recall"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is a ROC curve?",
+    "options": [
+      "A plot of training error against epochs",
+      "A plot of accuracy against time",
+      "A plot of true positive rate against false positive rate",
+      "A plot of loss against learning rate"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What does AUC stand for?",
+    "options": [
+      "Average Unit Cost",
+      "Automated User Classification",
+      "Accuracy Under Curve",
+      "Area Under the ROC Curve"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is cross-validation?",
+    "options": [
+      "A method for data storage",
+      "A technique for assessing model performance across multiple data splits",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is hyperparameter tuning?",
+    "options": [
+      "Training a model",
+      "Searching for the best hyperparameter values for a model",
+      "Deploying a model",
+      "Collecting data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is grid search?",
+    "options": [
+      "A method for data storage",
+      "An exhaustive search over a specified hyperparameter grid",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is random search?",
+    "options": [
+      "An exhaustive search",
+      "Randomly sampling hyperparameter combinations",
+      "A method for data storage",
+      "A type of neural network"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is regularization?",
+    "options": [
+      "A method for data storage",
+      "A type of neural network",
+      "A technique to reduce overfitting by penalizing complexity",
+      "A database query"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is L1 regularization?",
+    "options": [
+      "A penalty on the squared value of weights",
+      "A method for data storage",
+      "A type of neural network",
+      "A penalty on the absolute value of weights"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is L2 regularization?",
+    "options": [
+      "A penalty on the absolute value of weights",
+      "A penalty on the squared value of weights",
+      "A method for data storage",
+      "A type of neural network"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is early stopping?",
+    "options": [
+      "Stopping data collection",
+      "Stopping model deployment",
+      "Stopping training when validation performance stops improving",
+      "Stopping feature engineering"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is learning rate?",
+    "options": [
+      "A hyperparameter controlling the step size in optimization",
+      "A method for data storage",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is a learning rate schedule?",
+    "options": [
+      "A method for data storage",
+      "A type of neural network",
+      "A method for adjusting the learning rate during training",
+      "A database query"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is batch size?",
+    "options": [
+      "A method for data storage",
+      "The number of samples processed before updating model parameters",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is stochastic gradient descent?",
+    "options": [
+      "A method for data storage",
+      "A type of neural network",
+      "A database query",
+      "An optimization algorithm that updates parameters using small batches"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is a confusion matrix used for?",
+    "options": [
+      "Training a model",
+      "Deploying a model",
+      "Summarizing classification results",
+      "Collecting data"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is mean squared error?",
+    "options": [
+      "The average of absolute differences",
+      "The average of squared differences between predicted and actual values",
+      "The proportion of correct predictions",
+      "The training time"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is mean absolute error?",
+    "options": [
+      "The average of squared differences",
+      "The proportion of correct predictions",
+      "The average of absolute differences between predicted and actual values",
+      "The training time"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is R-squared?",
+    "options": [
+      "A statistical measure of how well a regression model fits the data",
+      "The proportion of correct predictions",
+      "The training time",
+      "The model size"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is a holdout set?",
+    "options": [
+      "A method for data storage",
+      "A type of neural network",
+      "A portion of data held back from training for evaluation",
+      "A database query"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is model selection?",
+    "options": [
+      "Training a model",
+      "Deploying a model",
+      "Choosing the best model among candidates based on evaluation",
+      "Collecting data"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is a learning curve used for?",
+    "options": [
+      "Storing data",
+      "Diagnosing model performance as data or training increases",
+      "Managing databases",
+      "Routing network traffic"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is a validation curve used for?",
+    "options": [
+      "Storing data",
+      "Managing databases",
+      "Evaluating model performance across hyperparameter values",
+      "Routing network traffic"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is feature selection?",
+    "options": [
+      "A method for data storage",
+      "A type of neural network",
+      "Choosing a subset of relevant features for model training",
+      "A database query"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is the purpose of model optimization?",
+    "options": [
+      "To store data",
+      "To manage databases",
+      "To improve model performance and efficiency",
+      "To route network traffic"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Model Evaluation & Optimization",
+    "question": "What is the main goal of model evaluation and optimization?",
+    "options": [
+      "To store data",
+      "To build models that generalize well and perform reliably",
+      "To manage databases",
+      "To route network traffic"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "Which Python library is commonly used for machine learning?",
+    "options": [
+      "SQL",
+      "HTTP",
+      "scikit-learn",
+      "TCP"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "Which Python library is commonly used for data manipulation?",
+    "options": [
+      "SQL",
+      "pandas",
+      "HTTP",
+      "TCP"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "Which Python library is commonly used for numerical computing?",
+    "options": [
+      "NumPy",
+      "SQL",
+      "HTTP",
+      "TCP"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of train_test_split in scikit-learn?",
+    "options": [
+      "To train a model",
+      "To evaluate a model",
+      "To split data into training and testing sets",
+      "To deploy a model"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of fit method in scikit-learn?",
+    "options": [
+      "To predict on new data",
+      "To train a model on data",
+      "To evaluate a model",
+      "To deploy a model"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of predict method in scikit-learn?",
+    "options": [
+      "To train a model",
+      "To evaluate a model",
+      "To deploy a model",
+      "To generate predictions on new data"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of score method in scikit-learn?",
+    "options": [
+      "To train a model",
+      "To predict on new data",
+      "To evaluate model performance",
+      "To deploy a model"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is a pandas DataFrame?",
+    "options": [
+      "A type of neural network",
+      "A database query",
+      "A two-dimensional labeled data structure",
+      "A hardware component"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of matplotlib?",
+    "options": [
+      "To train machine learning models",
+      "To create data visualizations",
+      "To manage databases",
+      "To route network traffic"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of seaborn?",
+    "options": [
+      "To train machine learning models",
+      "To manage databases",
+      "To create statistical data visualizations",
+      "To route network traffic"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is a common way to load a dataset in pandas?",
+    "options": [
+      "read_csv",
+      "SQL",
+      "HTTP",
+      "TCP"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of StandardScaler in scikit-learn?",
+    "options": [
+      "To train a model",
+      "To standardize features by removing the mean and scaling to unit variance",
+      "To evaluate a model",
+      "To deploy a model"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of LabelEncoder in scikit-learn?",
+    "options": [
+      "To train a model",
+      "To evaluate a model",
+      "To encode categorical labels as integers",
+      "To deploy a model"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of OneHotEncoder in scikit-learn?",
+    "options": [
+      "To train a model",
+      "To evaluate a model",
+      "To deploy a model",
+      "To encode categorical features as binary vectors"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of a pipeline in scikit-learn?",
+    "options": [
+      "To chain multiple processing steps and a model",
+      "To train a model",
+      "To evaluate a model",
+      "To deploy a model"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of cross_val_score in scikit-learn?",
+    "options": [
+      "To train a model",
+      "To predict on new data",
+      "To evaluate a model using cross-validation",
+      "To deploy a model"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of GridSearchCV in scikit-learn?",
+    "options": [
+      "To train a model",
+      "To perform hyperparameter tuning using cross-validation",
+      "To predict on new data",
+      "To deploy a model"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of a confusion matrix in scikit-learn?",
+    "options": [
+      "To train a model",
+      "To predict on new data",
+      "To deploy a model",
+      "To evaluate classification results"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of classification_report in scikit-learn?",
+    "options": [
+      "To train a model",
+      "To generate a summary of classification metrics",
+      "To predict on new data",
+      "To deploy a model"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of train_test_split random_state parameter?",
+    "options": [
+      "To train a model",
+      "To evaluate a model",
+      "To ensure reproducibility of the split",
+      "To deploy a model"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of numpy array?",
+    "options": [
+      "To train machine learning models",
+      "To store and manipulate numerical data efficiently",
+      "To manage databases",
+      "To route network traffic"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of a Jupyter Notebook?",
+    "options": [
+      "To train machine learning models only",
+      "To manage databases",
+      "To interactively write and run code with visualizations",
+      "To route network traffic"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of pickle in Python?",
+    "options": [
+      "To train machine learning models",
+      "To manage databases",
+      "To route network traffic",
+      "To serialize and deserialize Python objects"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of joblib in Python?",
+    "options": [
+      "To efficiently serialize large numpy arrays",
+      "To train machine learning models",
+      "To manage databases",
+      "To route network traffic"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of a requirements file in a Python project?",
+    "options": [
+      "To train machine learning models",
+      "To list project dependencies",
+      "To manage databases",
+      "To route network traffic"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of virtual environment in Python?",
+    "options": [
+      "To train machine learning models",
+      "To manage databases",
+      "To isolate project dependencies",
+      "To route network traffic"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of a Python script?",
+    "options": [
+      "To train machine learning models only",
+      "To manage databases",
+      "To route network traffic",
+      "To automate tasks and run code"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of list comprehension in Python?",
+    "options": [
+      "To create lists concisely",
+      "To train machine learning models",
+      "To manage databases",
+      "To route network traffic"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the purpose of lambda function in Python?",
+    "options": [
+      "To train machine learning models",
+      "To create small anonymous functions",
+      "To manage databases",
+      "To route network traffic"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Machine Learning with Python",
+    "question": "What is the main advantage of using Python for machine learning?",
+    "options": [
+      "It requires no programming knowledge",
+      "It always runs faster than other languages",
+      "It has a rich ecosystem of libraries and tools",
+      "It uses no memory"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is the first step in an applied machine learning project?",
+    "options": [
+      "Training a model",
+      "Deploying a model",
+      "Collecting data",
+      "Defining the problem and objectives"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "Why is data quality important in applied machine learning?",
+    "options": [
+      "Poor data quality leads to unreliable models",
+      "It reduces training time",
+      "It increases model complexity",
+      "It eliminates the need for evaluation"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is exploratory data analysis?",
+    "options": [
+      "Training a model",
+      "Analyzing data to understand patterns and characteristics",
+      "Deploying a model",
+      "Collecting data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is feature engineering in applied machine learning?",
+    "options": [
+      "Training a model",
+      "Deploying a model",
+      "Creating useful input features from raw data",
+      "Collecting data"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is the purpose of a baseline model?",
+    "options": [
+      "To train a complex model",
+      "To deploy a model",
+      "To collect data",
+      "To provide a simple benchmark for comparison"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is model deployment?",
+    "options": [
+      "Making a trained model available for use in production",
+      "Training a model",
+      "Evaluating a model",
+      "Collecting data"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is model monitoring?",
+    "options": [
+      "Training a model",
+      "Tracking model performance over time in production",
+      "Evaluating a model",
+      "Collecting data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is data leakage?",
+    "options": [
+      "A method for data storage",
+      "A type of neural network",
+      "When information from the target leaks into the training features",
+      "A database query"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "Why is splitting data into train and test sets important?",
+    "options": [
+      "To train a model",
+      "To deploy a model",
+      "To collect data",
+      "To evaluate model generalization"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is a common approach to handle missing data?",
+    "options": [
+      "Imputation or removal of missing values",
+      "Training a model",
+      "Deploying a model",
+      "Collecting data"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is the purpose of feature scaling in applied machine learning?",
+    "options": [
+      "To train a model",
+      "To bring features to a similar range",
+      "To deploy a model",
+      "To collect data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is a common business application of machine learning?",
+    "options": [
+      "Database normalization",
+      "Network routing",
+      "Customer churn prediction",
+      "Operating system design"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is A/B testing in applied machine learning?",
+    "options": [
+      "Training a model",
+      "Deploying a model",
+      "Collecting data",
+      "Comparing two model versions or strategies"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is the purpose of a model card?",
+    "options": [
+      "To document a model's intended use, performance, and limitations",
+      "To train a model",
+      "To deploy a model",
+      "To collect data"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is ethical consideration in applied machine learning?",
+    "options": [
+      "Training a model",
+      "Ensuring fairness, privacy, and transparency in models",
+      "Deploying a model",
+      "Collecting data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is bias in machine learning?",
+    "options": [
+      "A method for data storage",
+      "A type of neural network",
+      "Systematic error that leads to unfair outcomes",
+      "A database query"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "Why is interpretability important in applied machine learning?",
+    "options": [
+      "It reduces training time",
+      "It increases model complexity",
+      "It eliminates the need for evaluation",
+      "It helps stakeholders understand and trust model decisions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is a common challenge in deploying machine learning models?",
+    "options": [
+      "Maintaining performance as data changes over time",
+      "Training a model",
+      "Collecting data",
+      "Evaluating a model"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is MLOps?",
+    "options": [
+      "A method for data storage",
+      "Practices for deploying and maintaining machine learning models in production",
+      "A type of neural network",
+      "A database query"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is the purpose of a data pipeline?",
+    "options": [
+      "To train a model",
+      "To deploy a model",
+      "To automate the flow of data from source to model",
+      "To collect data"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is the role of domain knowledge in applied machine learning?",
+    "options": [
+      "It replaces the need for data",
+      "It eliminates the need for evaluation",
+      "It reduces model complexity",
+      "It helps frame problems and interpret results"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is the purpose of a proof of concept in applied machine learning?",
+    "options": [
+      "To test feasibility before full implementation",
+      "To train a final model",
+      "To deploy a model",
+      "To collect data"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is a common way to communicate model results to stakeholders?",
+    "options": [
+      "Raw code only",
+      "Clear visualizations and summaries",
+      "Technical jargon without explanation",
+      "Complex equations only"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is the purpose of a post-mortem analysis after a model deployment?",
+    "options": [
+      "To train a model",
+      "To collect data",
+      "To review what worked and what could improve",
+      "To evaluate a model"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is the main goal of applied machine learning?",
+    "options": [
+      "To design computer hardware",
+      "To manage databases",
+      "To route network traffic",
+      "To solve real-world problems using machine learning"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is a common metric for business impact of a machine learning model?",
+    "options": [
+      "Return on investment",
+      "Mean squared error",
+      "R-squared",
+      "Silhouette score"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "Why is collaboration between data scientists and domain experts important?",
+    "options": [
+      "It reduces training time",
+      "It helps align technical solutions with business needs",
+      "It increases model complexity",
+      "It eliminates the need for evaluation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is the purpose of a machine learning project plan?",
+    "options": [
+      "To train a model",
+      "To deploy a model",
+      "To outline goals, tasks, and timelines",
+      "To collect data"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is the main benefit of applied machine learning in business?",
+    "options": [
+      "Database normalization",
+      "Network routing",
+      "Operating system design",
+      "Data-driven decision making and automation"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "program": "Applied Machine Learning",
+    "question": "What is the main goal of applied machine learning?",
+    "options": [
+      "To design database schemas",
+      "To apply machine learning techniques to solve real-world problems",
+      "To create operating systems",
+      "To manage computer hardware"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  }
+]

@@ -1,0 +1,3783 @@
+[
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Which HR activity commonly involves reviewing an employee's work results against expectations?",
+    "options": [
+      "Payroll processing",
+      "Recruitment sourcing",
+      "Performance management",
+      "Inventory management"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is the main objective of talent acquisition?",
+    "options": [
+      "To manage office furniture",
+      "To identify and hire suitable people for organizational needs",
+      "To calculate product costs",
+      "To prepare customer invoices"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "What is the primary purpose of performance management?",
+    "options": [
+      "To eliminate employee feedback",
+      "To replace recruitment activities",
+      "To manage product inventory",
+      "To align employee performance with organizational goals"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What is employee retention concerned with?",
+    "options": [
+      "Keeping valuable employees with the organization",
+      "Increasing the number of office buildings",
+      "Reducing all employee responsibilities",
+      "Changing the organization's logo"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Which type of goal is generally easier to evaluate because it has a clearly defined outcome?",
+    "options": [
+      "A vague goal",
+      "An informal preference",
+      "A measurable goal",
+      "An undocumented expectation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is candidate sourcing?",
+    "options": [
+      "Calculating employee salaries",
+      "Finding potential candidates for job opportunities",
+      "Conducting payroll audits",
+      "Writing employee policies"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What is the main purpose of human resource management?",
+    "options": [
+      "To design products for customers",
+      "To focus only on company financial reporting",
+      "To replace all managers with automated systems",
+      "To manage an organization's people and support organizational goals"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Why is regular feedback useful in performance management?",
+    "options": [
+      "It helps employees understand strengths and areas for improvement",
+      "It removes the need for goals",
+      "It guarantees promotion",
+      "It replaces all forms of training"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "Which interview format uses a consistent set of questions for candidates?",
+    "options": [
+      "Unplanned interview",
+      "Customer interview",
+      "Structured interview",
+      "Informal discussion only"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Which process generally occurs when an employee leaves an organization?",
+    "options": [
+      "Onboarding",
+      "Offboarding",
+      "Sourcing",
+      "Job advertising"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "What is a performance appraisal primarily used for?",
+    "options": [
+      "To recruit customers",
+      "To manage office supplies",
+      "To create product advertisements",
+      "To formally assess an employee's performance"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is a candidate shortlist?",
+    "options": [
+      "A selected group of candidates who meet initial requirements",
+      "A list of company customers",
+      "A list of payroll deductions",
+      "A list of rejected employees"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Why are HR policies important in an organization?",
+    "options": [
+      "They eliminate the need for employees",
+      "They focus only on marketing activities",
+      "They provide consistent guidelines for workplace practices",
+      "They guarantee that every employee receives the same job"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Which action best supports an employee who is struggling to meet a performance goal?",
+    "options": [
+      "Ignore the issue",
+      "Remove the employee's responsibilities immediately",
+      "Cancel the performance goal",
+      "Discuss the gap and identify appropriate support or development"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is an employee referral?",
+    "options": [
+      "A recommendation of a potential candidate by an existing employee",
+      "A payroll correction",
+      "A performance warning",
+      "A customer complaint"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Which document commonly describes an employee's duties and responsibilities?",
+    "options": [
+      "Financial statement",
+      "Job description",
+      "Purchase order",
+      "Sales invoice"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "What is the purpose of setting performance goals?",
+    "options": [
+      "To prevent employees from receiving feedback",
+      "To replace organizational objectives",
+      "To establish clear expectations for desired results",
+      "To eliminate development opportunities"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is the purpose of a job description during recruitment?",
+    "options": [
+      "To determine the company's annual profit",
+      "To explain the role's responsibilities and requirements",
+      "To record employee attendance",
+      "To replace the interview process"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What is a grievance in the workplace?",
+    "options": [
+      "A payroll tax category",
+      "A formal or informal concern raised by an employee",
+      "A recruitment advertisement",
+      "A customer order"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "What does a performance improvement plan generally provide?",
+    "options": [
+      "A framework for addressing performance gaps and defining improvement expectations",
+      "A list of customer purchases",
+      "A replacement for an employment contract",
+      "A method for advertising job vacancies"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "Why should interview questions be relevant to the position?",
+    "options": [
+      "To make interviews longer",
+      "To avoid evaluating candidates",
+      "To replace the job description",
+      "To assess capabilities related to the job"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What does compensation generally refer to?",
+    "options": [
+      "Office building maintenance",
+      "Customer service procedures",
+      "Rewards and payments provided to employees for their work",
+      "Employee training materials only"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Which practice can make performance evaluations more objective?",
+    "options": [
+      "Using defined performance criteria",
+      "Relying only on personal opinions",
+      "Avoiding documented evidence",
+      "Changing expectations after evaluation"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What does an applicant tracking system help recruiters do?",
+    "options": [
+      "Manage product inventory",
+      "Organize and track candidates through recruitment stages",
+      "Prepare customer invoices",
+      "Control office access"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What is a key responsibility of an HR department?",
+    "options": [
+      "Manufacturing every company product",
+      "Managing customer purchases",
+      "Setting stock market prices",
+      "Supporting employees and administering HR processes"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "How can managers make feedback more useful?",
+    "options": [
+      "By avoiding specific examples",
+      "By providing timely and specific observations",
+      "By discussing unrelated personal matters",
+      "By giving feedback only when an employee leaves"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What should a recruiter primarily compare when evaluating applicants?",
+    "options": [
+      "Their preferred office color",
+      "Their personal shopping habits",
+      "Their qualifications against job requirements",
+      "Their preferred lunch time"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Why is confidentiality important when handling employee information?",
+    "options": [
+      "It helps protect sensitive employee information",
+      "It increases advertising reach",
+      "It eliminates employee feedback",
+      "It reduces the need for training"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Which approach best connects individual performance with organizational strategy?",
+    "options": [
+      "Setting goals unrelated to business priorities",
+      "Avoiding communication about organizational objectives",
+      "Using only informal expectations",
+      "Aligning individual goals with organizational objectives"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "Why is a clear job posting useful?",
+    "options": [
+      "It helps attract candidates who understand the role and its requirements",
+      "It guarantees every applicant will be hired",
+      "It eliminates the need for candidate evaluation",
+      "It replaces employee onboarding"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What is employee engagement generally associated with?",
+    "options": [
+      "The number of products stored in a warehouse",
+      "The amount of office equipment purchased",
+      "An employee's involvement, commitment, and connection to their work",
+      "The number of customer invoices issued"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "What is a development goal designed to address?",
+    "options": [
+      "Customer billing procedures",
+      "An employee's growth in skills or capabilities",
+      "Warehouse inventory levels",
+      "Office building maintenance"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is employer branding concerned with?",
+    "options": [
+      "How products are packaged",
+      "How customer invoices are printed",
+      "How warehouse equipment is maintained",
+      "How an organization is perceived as a place to work"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What does workforce planning help an organization determine?",
+    "options": [
+      "Future staffing needs and required capabilities",
+      "The color of office furniture",
+      "The design of customer advertisements",
+      "The location of every customer"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Why should performance expectations be communicated clearly?",
+    "options": [
+      "To prevent employees from understanding their responsibilities",
+      "To make performance measurement impossible",
+      "To help employees understand what successful performance looks like",
+      "To eliminate the need for management"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "Which practice can improve consistency in interviews?",
+    "options": [
+      "Selecting candidates without assessment",
+      "Using structured evaluation criteria",
+      "Asking unrelated questions to every candidate",
+      "Ignoring the job requirements"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Which activity can help identify future leaders within an organization?",
+    "options": [
+      "Invoice processing",
+      "Product labeling",
+      "Customer surveying",
+      "Succession planning"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "What is the purpose of a one-on-one performance discussion?",
+    "options": [
+      "To discuss progress, challenges, expectations, and support",
+      "To replace all organizational policies",
+      "To process customer orders",
+      "To calculate company revenue"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is an offer letter generally intended to communicate?",
+    "options": [
+      "Product manufacturing instructions",
+      "Customer service procedures",
+      "Key terms of an employment offer",
+      "Office maintenance rules only"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What is the purpose of an employee handbook?",
+    "options": [
+      "To provide employees with important workplace information and policies",
+      "To record customer purchases",
+      "To replace all employment contracts",
+      "To advertise products to customers"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "What should a manager do when an employee exceeds an important performance target?",
+    "options": [
+      "Ignore the result",
+      "Document the achievement and provide appropriate recognition or feedback",
+      "Lower the employee's future goals without discussion",
+      "Stop all future performance discussions"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "Which stage generally follows successful candidate assessment?",
+    "options": [
+      "Sourcing",
+      "Workforce forecasting",
+      "Hiring decision",
+      "Job analysis"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Which measure can help HR understand employee turnover?",
+    "options": [
+      "Employee turnover rate",
+      "Customer conversion rate",
+      "Product defect rate",
+      "Customer response time"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Which behavior is most appropriate when receiving constructive performance feedback?",
+    "options": [
+      "Immediately dismissing the feedback",
+      "Avoiding future discussions",
+      "Changing the subject",
+      "Listening carefully and discussing how to improve"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is the purpose of candidate screening?",
+    "options": [
+      "Reviewing candidates against relevant job criteria",
+      "Training every applicant before selection",
+      "Processing the selected employee's payroll",
+      "Conducting customer satisfaction surveys"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Which method can help a manager identify whether an employee needs additional development?",
+    "options": [
+      "Reviewing performance results and observed skill gaps",
+      "Changing the employee's job title without discussion",
+      "Ignoring performance information",
+      "Reviewing only customer invoices"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Which HR process helps determine whether an organization has enough employees with the required skills?",
+    "options": [
+      "Payroll processing",
+      "Workforce planning",
+      "Employee offboarding",
+      "Exit interviewing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is the main purpose of a screening interview?",
+    "options": [
+      "To finalize payroll deductions",
+      "To conduct employee training",
+      "To determine whether a candidate meets basic role requirements",
+      "To complete the employee's annual appraisal"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What is the purpose of an exit interview?",
+    "options": [
+      "To collect feedback from an employee leaving the organization",
+      "To advertise a new product",
+      "To calculate customer revenue",
+      "To conduct the employee's first-day orientation"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Which situation is an example of a performance gap?",
+    "options": [
+      "An employee attending a team meeting",
+      "An employee taking approved leave",
+      "An employee completing assigned work on time",
+      "An employee consistently missing an agreed performance target"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "Why are job requirements important when selecting candidates?",
+    "options": [
+      "They help assess whether candidates have relevant qualifications and capabilities",
+      "They guarantee that every applicant will be selected",
+      "They remove the need for interviews",
+      "They determine customer pricing"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Which activity is most closely associated with employee onboarding?",
+    "options": [
+      "Closing the organization's financial accounts",
+      "Introducing the employee to workplace procedures and responsibilities",
+      "Preparing customer invoices",
+      "Conducting product quality testing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is the purpose of reference checking when used in recruitment?",
+    "options": [
+      "To determine office working hours",
+      "To calculate the company's profit",
+      "To verify relevant information about a candidate's background or experience",
+      "To replace all candidate interviews"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Which is an example of a useful performance indicator?",
+    "options": [
+      "Number of office chairs",
+      "Employee's preferred lunch",
+      "Color of the employee's workspace",
+      "Percentage of assigned tasks completed by the agreed deadline"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What is the purpose of a code of conduct?",
+    "options": [
+      "To outline expected standards of workplace behavior",
+      "To determine product prices",
+      "To replace every HR process",
+      "To record customer transactions"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "Which approach is most appropriate when comparing candidates for the same position?",
+    "options": [
+      "Use unrelated personal preferences",
+      "Apply consistent job-related evaluation criteria",
+      "Select the first applicant automatically",
+      "Ignore the stated job requirements"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "What is the benefit of documenting performance discussions?",
+    "options": [
+      "It prevents employees from asking questions",
+      "It eliminates the need for feedback",
+      "It provides a record of expectations, discussions, and agreed actions",
+      "It guarantees a promotion"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Which HR activity focuses on preparing employees for greater responsibilities in the future?",
+    "options": [
+      "Career development",
+      "Customer billing",
+      "Product distribution",
+      "Inventory control"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is the purpose of a structured interview scorecard?",
+    "options": [
+      "To calculate employee salaries",
+      "To organize candidate evaluations against defined criteria",
+      "To manage employee attendance",
+      "To record customer complaints"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "What should a manager consider when setting an employee's performance target?",
+    "options": [
+      "Only the employee's personal hobbies",
+      "Only the number of people in the office",
+      "The employee's role, organizational objectives, and measurable expectations",
+      "Only the company's advertising budget"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What does HR compliance generally involve?",
+    "options": [
+      "Following applicable employment laws, regulations, and organizational policies",
+      "Increasing product advertising",
+      "Managing customer loyalty programs",
+      "Designing office furniture"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "Why is timely communication with candidates important during recruitment?",
+    "options": [
+      "It removes the need for candidate assessment",
+      "It supports a clear and professional hiring experience",
+      "It guarantees that candidates accept every offer",
+      "It eliminates job requirements"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Which type of feedback focuses on specific behavior and its impact?",
+    "options": [
+      "General criticism",
+      "Unrelated personal comments",
+      "Constructive feedback",
+      "Anonymous advertising"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "Which recruitment metric can indicate how quickly vacancies are being filled?",
+    "options": [
+      "Employee engagement score",
+      "Training completion rate",
+      "Time to fill",
+      "Annual leave balance"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "What is calibration in performance management commonly intended to support?",
+    "options": [
+      "Consistent evaluation standards across teams or managers",
+      "Replacing all employee goals",
+      "Changing payroll systems",
+      "Eliminating performance reviews"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Which practice can help HR identify reasons employees leave an organization?",
+    "options": [
+      "Product packaging",
+      "Exit interviews and turnover analysis",
+      "Customer billing",
+      "Inventory counting"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What does time to hire generally measure?",
+    "options": [
+      "The time an employee spends in training",
+      "The duration of an employee's annual leave",
+      "The time associated with moving a candidate through the hiring process",
+      "The number of hours worked by customers"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Which action best supports continuous performance improvement?",
+    "options": [
+      "Waiting several years before discussing performance",
+      "Avoiding employee development discussions",
+      "Changing goals without informing employees",
+      "Using regular feedback, goal reviews, and development actions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What is the purpose of HR analytics?",
+    "options": [
+      "To use workforce data to support HR decisions and identify trends",
+      "To replace all HR employees",
+      "To manage customer orders",
+      "To design marketing campaigns only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "Which recruitment method involves actively approaching potential candidates who may not have applied?",
+    "options": [
+      "Payroll processing",
+      "Employee onboarding",
+      "Direct sourcing",
+      "Performance appraisal"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Why should performance goals be reviewed periodically?",
+    "options": [
+      "To ensure goals remain relevant as priorities or circumstances change",
+      "To prevent employees from understanding expectations",
+      "To remove all measurable targets",
+      "To avoid discussing progress"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Which HR function is most closely related to designing employee benefit programs?",
+    "options": [
+      "Talent sourcing",
+      "Compensation and benefits",
+      "Customer relationship management",
+      "Product development"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is a competency-based interview designed to assess?",
+    "options": [
+      "The candidate's preferred workplace decoration",
+      "The candidate's personal shopping habits",
+      "Behaviors and capabilities relevant to successful job performance",
+      "The organization's customer sales figures"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "What is the purpose of recognizing strong employee performance?",
+    "options": [
+      "To acknowledge contributions and reinforce desired performance",
+      "To eliminate future goals",
+      "To replace employee training",
+      "To prevent employees from receiving feedback"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Which activity is an example of HR administration?",
+    "options": [
+      "Designing advertisements",
+      "Maintaining employee records",
+      "Developing customer products",
+      "Managing warehouse deliveries"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is the main purpose of a recruitment interview?",
+    "options": [
+      "To calculate company taxes",
+      "To replace the job description",
+      "To evaluate a candidate's suitability for the position",
+      "To determine customer satisfaction"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Which statement best describes a SMART performance goal?",
+    "options": [
+      "It is specific, measurable, achievable, relevant, and time-bound",
+      "It is based only on personal preference",
+      "It contains no deadline or measurable result",
+      "It changes every day without documentation"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What is the purpose of employee orientation?",
+    "options": [
+      "To evaluate customer purchases",
+      "To introduce new employees to the organization, workplace, and basic expectations",
+      "To calculate product margins",
+      "To replace recruitment activities"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "Which factor should generally be considered when deciding whether to move a candidate forward?",
+    "options": [
+      "The candidate's favorite food",
+      "The color of the candidate's clothing",
+      "Evidence that the candidate meets relevant job criteria",
+      "The candidate's preferred office furniture"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "What is the role of employee self-assessment in performance management?",
+    "options": [
+      "It can encourage employees to reflect on their achievements and development needs",
+      "It automatically determines salary for every employee",
+      "It replaces the manager's responsibilities completely",
+      "It eliminates the need for performance goals"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Why is job analysis useful to HR?",
+    "options": [
+      "It determines customer purchasing behavior",
+      "It helps identify job duties, responsibilities, and required capabilities",
+      "It replaces all employee training",
+      "It manages company inventory"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is candidate experience?",
+    "options": [
+      "The employee's performance after five years",
+      "The company's customer service strategy",
+      "How a candidate perceives and experiences the recruitment process",
+      "The organization's payroll procedure"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Which approach is most appropriate when an employee's performance problem is caused by a lack of required skills?",
+    "options": [
+      "Provide relevant coaching or training",
+      "Ignore the problem",
+      "Remove all performance expectations",
+      "Change the employee's personal information"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What does employee lifecycle management generally cover?",
+    "options": [
+      "Only the employee's first day",
+      "Key stages from joining an organization through development and departure",
+      "Only payroll processing",
+      "Only recruitment advertising"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "Why should recruiters maintain accurate candidate records?",
+    "options": [
+      "To increase product prices",
+      "To replace interviewers",
+      "To support organized hiring decisions and recruitment tracking",
+      "To manage customer inventory"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "What is the main purpose of a performance review meeting?",
+    "options": [
+      "To discuss performance, progress, achievements, challenges, and future expectations",
+      "To process customer payments",
+      "To replace organizational strategy",
+      "To manage office inventory"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "Which practice can support a positive organizational culture?",
+    "options": [
+      "Ignoring employee concerns",
+      "Encouraging respectful behavior and clear communication",
+      "Changing policies without communication",
+      "Avoiding employee development"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Talent Acquisition Fundamentals",
+    "question": "What is internal recruitment?",
+    "options": [
+      "Hiring only customers",
+      "Recruiting candidates exclusively from unrelated companies",
+      "Filling a vacancy with a suitable existing employee when appropriate",
+      "Hiring without reviewing qualifications"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Performance Management",
+    "question": "Which factor can make a performance goal difficult to evaluate?",
+    "options": [
+      "A clearly defined deadline",
+      "A measurable outcome",
+      "A documented target",
+      "Vague wording without a clear measure of success"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Human Resource Management",
+    "question": "What is succession planning primarily concerned with?",
+    "options": [
+      "Preparing for future leadership and critical-role needs",
+      "Managing customer payments",
+      "Designing product packaging",
+      "Reducing the number of workplace policies"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is the primary purpose of learning and development in an organization?",
+    "options": [
+      "To manage customer billing processes",
+      "To improve employee knowledge, skills, and capabilities",
+      "To replace all recruitment activities",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "Which activity is an example of employee training?",
+    "options": [
+      "Preparing customer invoices",
+      "Managing warehouse inventory",
+      "Conducting a workshop on effective communication",
+      "Designing product advertisements"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is a training needs analysis used for?",
+    "options": [
+      "To calculate company profits",
+      "To design customer loyalty programs",
+      "To manage office furniture",
+      "To identify gaps between required and current employee skills"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "Which learning method involves employees learning while performing actual job tasks?",
+    "options": [
+      "On-the-job training",
+      "Customer billing",
+      "Product manufacturing",
+      "Inventory counting"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is the purpose of a learning objective?",
+    "options": [
+      "To determine customer pricing",
+      "To replace employee contracts",
+      "To define what learners should know or be able to do after training",
+      "To manage company advertising"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "Which approach is most appropriate for evaluating training effectiveness?",
+    "options": [
+      "Ignoring employee feedback",
+      "Assessing learning and its application to the job",
+      "Reviewing only customer invoices",
+      "Changing training content without evaluation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is blended learning?",
+    "options": [
+      "A method that uses only textbooks",
+      "A method that eliminates all instructor involvement",
+      "A method that focuses only on customer service",
+      "A combination of online and face-to-face learning methods"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "Why is employee development important for retention?",
+    "options": [
+      "It eliminates the need for performance reviews",
+      "It guarantees that employees never leave",
+      "It shows employees that the organization invests in their growth",
+      "It replaces all compensation programs"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is a learning management system used for?",
+    "options": [
+      "To manage customer orders",
+      "To deliver, track, and manage training and development activities",
+      "To calculate product costs",
+      "To design office layouts"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "Which factor can motivate employees to participate in learning activities?",
+    "options": [
+      "Mandatory training with no purpose",
+      "Relevant content and clear career development opportunities",
+      "Irrelevant topics",
+      "No recognition of learning"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is the purpose of onboarding training?",
+    "options": [
+      "To replace all future training",
+      "To calculate company taxes",
+      "To design customer advertisements",
+      "To help new employees understand their role, workplace, and expectations"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "Which is an example of informal learning?",
+    "options": [
+      "Attending a formal certification program",
+      "Completing a structured online course",
+      "Learning through day-to-day work experiences and interactions",
+      "Participating in a scheduled workshop"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is a competency framework used for in learning and development?",
+    "options": [
+      "To manage customer relationships",
+      "To define the skills and behaviors required for effective performance",
+      "To design product packaging",
+      "To calculate employee salaries"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "Why should training content be relevant to an employee's role?",
+    "options": [
+      "It makes training longer",
+      "It eliminates the need for practice",
+      "It replaces performance management",
+      "It helps employees apply learning directly to their work"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is coaching in the context of employee development?",
+    "options": [
+      "A method for calculating payroll",
+      "A development approach that helps employees improve through guidance and feedback",
+      "A process for managing customer complaints",
+      "A technique for product manufacturing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is the main purpose of a mentorship program?",
+    "options": [
+      "To replace all formal training",
+      "To manage customer accounts",
+      "To calculate company revenue",
+      "To connect less experienced employees with experienced individuals for guidance"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "Which is a benefit of continuous learning for an organization?",
+    "options": [
+      "It eliminates the need for recruitment",
+      "It helps the organization adapt to changing skills and business needs",
+      "It guarantees that every employee gets promoted",
+      "It removes the need for performance feedback"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is the purpose of a training evaluation form?",
+    "options": [
+      "To collect feedback on the quality and usefulness of training",
+      "To record customer purchases",
+      "To calculate employee salaries",
+      "To design marketing materials"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "Which factor should be considered when designing a training program?",
+    "options": [
+      "Only the cost of the training venue",
+      "Only the trainer's personal preferences",
+      "The audience, learning objectives, and available resources",
+      "Only the length of the training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is a learning path?",
+    "options": [
+      "A method for calculating employee benefits",
+      "A process for managing customer orders",
+      "A structured sequence of learning activities designed to build skills over time",
+      "A technique for inventory control"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "Why is reinforcement important after training?",
+    "options": [
+      "It eliminates the need for future training",
+      "It replaces performance reviews",
+      "It guarantees that employees will never make mistakes",
+      "It helps employees retain and apply what they learned"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is the purpose of a skills gap analysis?",
+    "options": [
+      "To manage office supplies",
+      "To identify the difference between current and required employee skills",
+      "To design customer advertisements",
+      "To calculate company taxes"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "Which is an example of a development activity?",
+    "options": [
+      "Attending a leadership development program",
+      "Processing payroll",
+      "Managing customer invoices",
+      "Counting inventory"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is the main benefit of e-learning?",
+    "options": [
+      "It eliminates the need for any training content",
+      "It replaces all employee communication",
+      "It can provide flexible access to training content",
+      "It guarantees that employees will complete all training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "Why should learning and development be aligned with organizational goals?",
+    "options": [
+      "It eliminates the need for employee feedback",
+      "It replaces all performance management activities",
+      "It guarantees that every employee gets promoted",
+      "It helps ensure training supports the organization's strategic priorities"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is a training matrix used for?",
+    "options": [
+      "To track employee training requirements and completion status",
+      "To manage customer orders",
+      "To calculate product costs",
+      "To design office furniture"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "Which practice can help employees apply new skills on the job?",
+    "options": [
+      "Ignoring newly learned skills",
+      "Providing opportunities to practice and receive feedback",
+      "Removing all job responsibilities",
+      "Eliminating performance discussions"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is the purpose of a personal development plan?",
+    "options": [
+      "To replace the employee's job description",
+      "To calculate company revenue",
+      "To manage customer accounts",
+      "To outline an employee's learning and growth objectives and actions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "Which factor can affect an employee's readiness to learn?",
+    "options": [
+      "The color of the training room",
+      "Motivation, prior knowledge, and available support",
+      "The number of office chairs",
+      "The company's advertising budget"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Learning & Development",
+    "question": "What is the main purpose of knowledge sharing within an organization?",
+    "options": [
+      "To replace all formal training",
+      "To manage customer relationships",
+      "To spread useful expertise and reduce dependence on single individuals",
+      "To design product packaging"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is the primary purpose of payroll processing?",
+    "options": [
+      "To manage customer orders",
+      "To design product advertisements",
+      "To accurately calculate and pay employee compensation",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Which item is typically included in gross pay?",
+    "options": [
+      "Only net pay",
+      "Wages or salary before deductions",
+      "Only tax deductions",
+      "Only employer contributions"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is net pay?",
+    "options": [
+      "The total amount before deductions",
+      "The amount paid only in taxes",
+      "The employer's total payroll cost",
+      "The amount an employee receives after deductions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Which is an example of a payroll deduction?",
+    "options": [
+      "Income tax withheld from an employee's pay",
+      "Employee training hours",
+      "Customer invoice amount",
+      "Product sales revenue"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Why is accurate payroll record-keeping important?",
+    "options": [
+      "It increases product prices",
+      "It supports compliance and correct payment of employees",
+      "It replaces employee training",
+      "It manages customer orders"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is the purpose of a payslip?",
+    "options": [
+      "To manage customer invoices",
+      "To design company advertisements",
+      "To calculate product costs",
+      "To provide employees with a record of their earnings and deductions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Which factor can affect an employee's payroll amount?",
+    "options": [
+      "The color of the office walls",
+      "The number of customer complaints",
+      "Hours worked, pay rate, and applicable deductions",
+      "The company's advertising budget"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is payroll compliance concerned with?",
+    "options": [
+      "Following applicable laws and regulations related to employee pay",
+      "Managing customer relationships",
+      "Designing product packaging",
+      "Conducting employee training"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Which is an example of a statutory deduction?",
+    "options": [
+      "A voluntary employee savings contribution",
+      "A company social event fee",
+      "A deduction required by law, such as income tax",
+      "A customer service charge"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is the purpose of a payroll register?",
+    "options": [
+      "To summarize payroll information for a pay period",
+      "To manage customer orders",
+      "To design office layouts",
+      "To calculate product prices"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is overtime pay generally associated with?",
+    "options": [
+      "Regular working hours only",
+      "Customer service hours",
+      "Hours worked beyond standard working hours as defined by policy or law",
+      "Product manufacturing time"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Why should payroll deadlines be met?",
+    "options": [
+      "To manage customer orders",
+      "To design product advertisements",
+      "To conduct employee training",
+      "To ensure employees are paid accurately and on time"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is the purpose of a payroll system?",
+    "options": [
+      "To manage customer complaints",
+      "To manage the calculation, processing, and distribution of employee pay",
+      "To design company products",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Which is an example of a voluntary deduction?",
+    "options": [
+      "Income tax",
+      "An employee contribution to a retirement plan",
+      "A statutory social security contribution",
+      "A required court order deduction"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is the purpose of payroll reconciliation?",
+    "options": [
+      "To manage customer accounts",
+      "To design product packaging",
+      "To verify that payroll records and payments are accurate and consistent",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Why is confidentiality important in payroll?",
+    "options": [
+      "It increases product prices",
+      "It replaces employee training",
+      "It protects sensitive employee compensation information",
+      "It manages customer orders"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is a pay period?",
+    "options": [
+      "The recurring timeframe for which employees are paid",
+      "The time an employee spends on leave",
+      "The time spent on customer service",
+      "The duration of a training program"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Which document may be used to record employee working hours?",
+    "options": [
+      "A customer invoice",
+      "A timesheet or time tracking record",
+      "A product catalog",
+      "A marketing brochure"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is the purpose of a payroll audit?",
+    "options": [
+      "To manage customer orders",
+      "To design product advertisements",
+      "To review payroll processes and records for accuracy and compliance",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Which factor should be considered when calculating payroll?",
+    "options": [
+      "Only the employee's preferred lunch time",
+      "Only the company's advertising budget",
+      "Only the number of office chairs",
+      "Applicable pay rates, hours, deductions, and legal requirements"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is the purpose of a payroll calendar?",
+    "options": [
+      "To manage customer meetings",
+      "To schedule payroll processing and payment dates",
+      "To design product packaging",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Why is it important to verify employee bank details for payroll?",
+    "options": [
+      "To manage customer orders",
+      "To design product advertisements",
+      "To conduct employee training",
+      "To ensure salary payments are sent to the correct account"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is the purpose of a payroll deduction authorization?",
+    "options": [
+      "To document an employee's consent for certain voluntary deductions",
+      "To manage customer complaints",
+      "To design company products",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Which is an example of employer payroll cost?",
+    "options": [
+      "Employee's personal income tax",
+      "Customer invoice amount",
+      "Employer contributions to social security or insurance",
+      "Product sales revenue"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is the purpose of payroll reporting?",
+    "options": [
+      "To manage customer orders",
+      "To design product packaging",
+      "To provide information required for compliance and financial management",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Why should payroll errors be corrected promptly?",
+    "options": [
+      "To manage customer complaints",
+      "To design product advertisements",
+      "To ensure employees are paid correctly and maintain trust",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is the purpose of a final settlement payment?",
+    "options": [
+      "To manage customer orders",
+      "To pay an employee outstanding amounts when employment ends",
+      "To design product packaging",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Which practice helps ensure payroll accuracy?",
+    "options": [
+      "Ignoring employee records",
+      "Changing payroll rules without documentation",
+      "Avoiding any payroll verification",
+      "Reviewing payroll data and using consistent calculation methods"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "What is the main purpose of payroll documentation?",
+    "options": [
+      "To manage customer orders",
+      "To maintain records that support accurate and compliant payroll processing",
+      "To design product advertisements",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Payroll Fundamentals",
+    "question": "Which is a key responsibility of a payroll administrator?",
+    "options": [
+      "Managing customer relationships",
+      "Designing product packaging",
+      "Processing payroll accurately and within required timeframes",
+      "Conducting employee training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is the main purpose of employee relations?",
+    "options": [
+      "To maintain positive and productive relationships between employees and the organization",
+      "To manage customer orders",
+      "To design product advertisements",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Which practice can help maintain positive employee relations?",
+    "options": [
+      "Ignoring employee concerns",
+      "Encouraging open communication and fair treatment",
+      "Avoiding all workplace communication",
+      "Changing policies without notice"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is a grievance procedure used for?",
+    "options": [
+      "To manage customer orders",
+      "To design product packaging",
+      "To provide a structured way for employees to raise workplace concerns",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Why is fair treatment important in employee relations?",
+    "options": [
+      "It eliminates the need for policies",
+      "It guarantees that employees never disagree",
+      "It replaces performance management",
+      "It helps build trust and maintain a positive work environment"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is the purpose of a workplace investigation?",
+    "options": [
+      "To gather facts and determine appropriate action regarding a workplace issue",
+      "To manage customer accounts",
+      "To design product advertisements",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Which behavior can contribute to a respectful workplace?",
+    "options": [
+      "Ignoring colleagues' concerns",
+      "Listening to others and communicating professionally",
+      "Using inappropriate language",
+      "Excluding team members deliberately"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is the purpose of employee recognition?",
+    "options": [
+      "To replace all performance reviews",
+      "To manage customer orders",
+      "To acknowledge and reinforce positive contributions and behavior",
+      "To design product packaging"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Why should employee concerns be addressed promptly?",
+    "options": [
+      "It eliminates the need for policies",
+      "It guarantees that no further issues will arise",
+      "It replaces performance management",
+      "It helps prevent escalation and maintains trust"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is mediation in the context of employee relations?",
+    "options": [
+      "A process where a neutral party helps resolve a workplace dispute",
+      "A method for calculating payroll",
+      "A technique for product manufacturing",
+      "A process for customer billing"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Which factor can contribute to workplace conflict?",
+    "options": [
+      "Clear policies and open communication",
+      "Unclear expectations and poor communication",
+      "Respectful behavior",
+      "Fair treatment"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is the purpose of a code of conduct?",
+    "options": [
+      "To manage customer orders",
+      "To design product packaging",
+      "To outline expected standards of workplace behavior",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Why is confidentiality important when handling employee relations matters?",
+    "options": [
+      "It increases product prices",
+      "It replaces employee training",
+      "It manages customer orders",
+      "It protects the privacy and dignity of the individuals involved"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is the purpose of an employee assistance program?",
+    "options": [
+      "To provide employees with support for personal or work-related challenges",
+      "To manage customer accounts",
+      "To design product advertisements",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Which approach can help resolve a disagreement between employees?",
+    "options": [
+      "Ignoring the disagreement",
+      "Encouraging respectful dialogue and finding a mutually acceptable solution",
+      "Taking sides without hearing both parties",
+      "Escalating immediately without discussion"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is the purpose of an employee survey?",
+    "options": [
+      "To manage customer orders",
+      "To design product packaging",
+      "To gather feedback about employee experiences and workplace issues",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Why is consistency important in applying workplace policies?",
+    "options": [
+      "It eliminates the need for policies",
+      "It guarantees that no employee will ever disagree",
+      "It replaces performance management",
+      "It helps ensure fair and predictable treatment of employees"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is the purpose of a disciplinary procedure?",
+    "options": [
+      "To provide a structured approach for addressing misconduct or policy violations",
+      "To manage customer orders",
+      "To design product advertisements",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Which is an example of positive employee relations practice?",
+    "options": [
+      "Ignoring employee feedback",
+      "Regularly communicating with employees and addressing their concerns",
+      "Changing policies without notice",
+      "Avoiding all workplace discussions"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is the purpose of a workplace grievance policy?",
+    "options": [
+      "To manage customer orders",
+      "To design product packaging",
+      "To define how employee concerns will be raised and resolved",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Why should managers document employee relations discussions?",
+    "options": [
+      "To replace all employee communication",
+      "To manage customer accounts",
+      "To design product advertisements",
+      "To maintain accurate records of concerns, actions, and outcomes"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is the purpose of an exit interview in employee relations?",
+    "options": [
+      "To gather feedback from departing employees about their experience",
+      "To manage customer orders",
+      "To design product packaging",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Which factor can help build employee trust in management?",
+    "options": [
+      "Ignoring employee concerns",
+      "Transparent communication and consistent follow-through",
+      "Changing policies without explanation",
+      "Avoiding difficult conversations"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is the purpose of a team-building activity?",
+    "options": [
+      "To replace all performance reviews",
+      "To manage customer orders",
+      "To improve collaboration and relationships among team members",
+      "To design product advertisements"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Why is it important to address workplace bullying promptly?",
+    "options": [
+      "It eliminates the need for policies",
+      "It guarantees that no further issues will arise",
+      "It replaces performance management",
+      "It protects employee well-being and maintains a safe work environment"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is the purpose of a non-retaliation policy?",
+    "options": [
+      "To protect employees who raise concerns in good faith from retaliation",
+      "To manage customer orders",
+      "To design product packaging",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Which practice can support a positive workplace culture?",
+    "options": [
+      "Ignoring employee concerns",
+      "Encouraging respect, inclusion, and open communication",
+      "Avoiding all workplace discussions",
+      "Changing policies without notice"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is the purpose of a workplace conflict resolution process?",
+    "options": [
+      "To manage customer accounts",
+      "To design product advertisements",
+      "To provide a structured way to address and resolve disagreements",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Why should employee relations practices be aligned with organizational values?",
+    "options": [
+      "It eliminates the need for policies",
+      "It guarantees that no employee will ever disagree",
+      "It replaces performance management",
+      "It helps ensure consistent and principled treatment of employees"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "What is the main goal of employee relations?",
+    "options": [
+      "To foster a positive, fair, and productive work environment",
+      "To manage customer orders",
+      "To design product packaging",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Employee Relations",
+    "question": "Which action is most appropriate when an employee raises a concern?",
+    "options": [
+      "Ignore the concern",
+      "Listen carefully and follow the appropriate policy or procedure",
+      "Dismiss the employee's perspective",
+      "Delay action indefinitely"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "What is the primary purpose of professional communication in the workplace?",
+    "options": [
+      "To manage customer orders",
+      "To design product packaging",
+      "To calculate company taxes",
+      "To exchange information clearly and appropriately to achieve work goals"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Which is an example of professional written communication?",
+    "options": [
+      "A casual text message with slang",
+      "A formal business email to a colleague",
+      "A handwritten note with unclear abbreviations",
+      "An informal social media post"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Why is active listening important in workplace communication?",
+    "options": [
+      "It allows the listener to interrupt frequently",
+      "It eliminates the need for feedback",
+      "It replaces all written communication",
+      "It helps the listener fully understand the speaker's message"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "What is the purpose of a meeting agenda?",
+    "options": [
+      "To replace all verbal communication",
+      "To provide a structured plan for topics to be discussed",
+      "To manage customer complaints",
+      "To design product advertisements"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Which factor can improve clarity in professional communication?",
+    "options": [
+      "Using complex jargon with no explanation",
+      "Using simple and direct language",
+      "Providing irrelevant details",
+      "Avoiding any structure"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "What is the purpose of feedback in communication?",
+    "options": [
+      "To replace all future conversations",
+      "To manage customer accounts",
+      "To confirm understanding and improve the communication process",
+      "To design product packaging"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Which is an appropriate way to begin a formal business email?",
+    "options": [
+      "An unrelated personal story",
+      "A command without context",
+      "A slang expression",
+      "A clear and respectful greeting"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "What does non-verbal communication include?",
+    "options": [
+      "Body language, facial expressions, and tone of voice",
+      "Only written words",
+      "Only spoken words",
+      "Only formal documents"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Why should professional communication be adapted to the audience?",
+    "options": [
+      "All audiences require identical communication",
+      "Audience adaptation is unnecessary",
+      "Different audiences have different needs and levels of familiarity with the topic",
+      "It eliminates the need for clarity"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "What is the purpose of a presentation in the workplace?",
+    "options": [
+      "To replace all written reports",
+      "To convey information or ideas to an audience effectively",
+      "To manage customer orders",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Which practice can help reduce misunderstandings in communication?",
+    "options": [
+      "Assuming the listener understands",
+      "Asking clarifying questions",
+      "Avoiding all questions",
+      "Using ambiguous language"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "What is the purpose of a communication channel?",
+    "options": [
+      "A method for calculating payroll",
+      "The medium through which a message is sent",
+      "A technique for product manufacturing",
+      "A process for customer billing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Which is an example of assertive communication?",
+    "options": [
+      "Aggressively demanding compliance",
+      "Expressing needs and opinions respectfully while considering others",
+      "Passively avoiding all conflict",
+      "Ignoring others' perspectives"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Why is tone important in professional communication?",
+    "options": [
+      "It has no impact on communication",
+      "It replaces all written content",
+      "It affects how the message is received and interpreted",
+      "It eliminates the need for clarity"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "What is the purpose of a progress report?",
+    "options": [
+      "To replace all meetings",
+      "To update stakeholders on the status of work or a project",
+      "To manage customer orders",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Which behavior demonstrates professionalism during a meeting?",
+    "options": [
+      "Interrupting others frequently",
+      "Using a phone for unrelated activities",
+      "Arriving on time and being prepared",
+      "Ignoring the agenda"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "What is the purpose of summarizing in communication?",
+    "options": [
+      "To replace all detailed discussion",
+      "To confirm key points and ensure shared understanding",
+      "To manage customer accounts",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Why should professional communication be respectful?",
+    "options": [
+      "It eliminates the need for policies",
+      "It guarantees that no one will disagree",
+      "It helps maintain positive working relationships",
+      "It replaces all performance management"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "What is the purpose of an email subject line?",
+    "options": [
+      "To briefly indicate the topic of the email",
+      "To replace the email body",
+      "To manage customer orders",
+      "To design product advertisements"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Which is an appropriate response when receiving constructive feedback?",
+    "options": [
+      "Immediately dismissing the feedback",
+      "Listening carefully and considering how to improve",
+      "Avoiding future discussions",
+      "Changing the subject"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "What is the purpose of a communication plan?",
+    "options": [
+      "To replace all verbal communication",
+      "To outline how, when, and to whom information will be communicated",
+      "To manage customer accounts",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Why is it important to proofread professional documents?",
+    "options": [
+      "To make documents longer",
+      "To identify and correct errors before sharing",
+      "To replace all editing",
+      "To manage customer complaints"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "What is the purpose of a follow-up message after a meeting?",
+    "options": [
+      "To replace the meeting itself",
+      "To manage customer orders",
+      "To confirm decisions and agreed actions",
+      "To design product packaging"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Which factor can create barriers to effective communication?",
+    "options": [
+      "Active listening",
+      "Clear and simple language",
+      "Noise, distractions, or unclear language",
+      "Respectful tone"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "What is the purpose of cross-cultural communication awareness?",
+    "options": [
+      "To replace all workplace policies",
+      "To communicate effectively with people from different cultural backgrounds",
+      "To manage customer accounts",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Why should professional communication be concise?",
+    "options": [
+      "It eliminates the need for clarity",
+      "It replaces all detailed explanations",
+      "It helps the audience quickly understand the key message",
+      "It guarantees that no one will misunderstand"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "What is the purpose of a verbal presentation rehearsal?",
+    "options": [
+      "To replace the actual presentation",
+      "To manage customer orders",
+      "To practice and improve delivery before the actual presentation",
+      "To design product packaging"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Which is an example of an open-ended question in communication?",
+    "options": [
+      "A question that can only be answered yes or no",
+      "A question that encourages a detailed response",
+      "A question with no purpose",
+      "A question that discourages discussion"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "Why is clarity important in written instructions?",
+    "options": [
+      "It makes instructions longer",
+      "It replaces all verbal communication",
+      "It reduces the risk of misunderstanding and errors",
+      "It eliminates the need for feedback"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Professional Communication",
+    "question": "What is the main goal of professional communication?",
+    "options": [
+      "To manage customer orders",
+      "To design product packaging",
+      "To conduct employee training",
+      "To exchange information effectively and maintain positive working relationships"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is the primary purpose of time management?",
+    "options": [
+      "To manage customer orders",
+      "To use time effectively to achieve goals and priorities",
+      "To design product packaging",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "Which practice can help improve personal productivity?",
+    "options": [
+      "Working on every task at once",
+      "Setting clear priorities and focusing on important tasks",
+      "Avoiding all planning",
+      "Ignoring deadlines"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is a to-do list used for?",
+    "options": [
+      "To replace all calendars",
+      "To manage customer accounts",
+      "To record tasks that need to be completed",
+      "To design product advertisements"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "Why is prioritization important in time management?",
+    "options": [
+      "It eliminates the need for planning",
+      "It guarantees that all tasks will be completed",
+      "It replaces all deadlines",
+      "It helps focus on tasks that matter most"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is time blocking?",
+    "options": [
+      "Scheduling specific blocks of time for particular tasks",
+      "A method for calculating payroll",
+      "A technique for product manufacturing",
+      "A process for customer billing"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "Which factor can reduce productivity?",
+    "options": [
+      "Clear goals and focused work",
+      "Effective planning",
+      "Frequent distractions and unclear priorities",
+      "Regular breaks"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is the purpose of a calendar in time management?",
+    "options": [
+      "To replace all to-do lists",
+      "To schedule appointments, deadlines, and tasks",
+      "To manage customer orders",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What does the Pareto principle suggest about productivity?",
+    "options": [
+      "All tasks require equal effort",
+      "Only 20 percent of tasks matter",
+      "Roughly 80 percent of results often come from 20 percent of efforts",
+      "Time management is unnecessary"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "Why are regular breaks important for productivity?",
+    "options": [
+      "They replace all work tasks",
+      "They help maintain focus and reduce fatigue",
+      "They eliminate the need for planning",
+      "They guarantee that all goals will be met"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is procrastination?",
+    "options": [
+      "Completing tasks ahead of schedule",
+      "Planning tasks effectively",
+      "Delaying tasks that should be completed",
+      "Delegating tasks appropriately"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "Which technique can help overcome procrastination?",
+    "options": [
+      "Avoiding all planning",
+      "Breaking large tasks into smaller, manageable steps",
+      "Ignoring deadlines",
+      "Working without any breaks"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is delegation in the context of productivity?",
+    "options": [
+      "Completing every task personally",
+      "Ignoring team members",
+      "Assigning appropriate tasks to others to improve efficiency",
+      "Avoiding all responsibility"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is the purpose of setting deadlines?",
+    "options": [
+      "To replace all planning",
+      "To create a clear timeframe for completing tasks",
+      "To manage customer accounts",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "Which is an example of a time waster?",
+    "options": [
+      "Focused work on a priority task",
+      "Excessive unplanned social media browsing",
+      "Planning the day ahead",
+      "Taking a scheduled break"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is the purpose of an Eisenhower matrix?",
+    "options": [
+      "To calculate payroll",
+      "To prioritize tasks by urgency and importance",
+      "To design product advertisements",
+      "To conduct employee training"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "Why is it useful to review daily accomplishments?",
+    "options": [
+      "It replaces all future planning",
+      "It guarantees that all tasks will be completed",
+      "It helps identify progress and adjust plans for improvement",
+      "It eliminates the need for goals"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is multitasking generally associated with?",
+    "options": [
+      "Reduced efficiency when switching between tasks",
+      "Improved focus on every task",
+      "Guaranteed higher productivity",
+      "Elimination of all distractions"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+  "category": "Human Resources & Professional Skills",
+  "program": "Time Management & Productivity",
+  "question": "Which practice is most effective for managing time and improving productivity?",
+  "options": [
+    "Multitasking on every task",
+    "Avoiding deadlines",
+    "Prioritizing tasks based on importance and urgency",
+    "Starting tasks without a plan"
+  ],
+  "correctAnswer": 2,
+  "marks": 1,
+  "isActive": true
+},
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "Which practice can help reduce distractions at work?",
+    "options": [
+      "Keeping all communication channels open at all times",
+      "Working in a noisy environment",
+      "Turning off unnecessary notifications",
+      "Allowing constant interruptions"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is the purpose of goal setting in time management?",
+    "options": [
+      "To replace all planning",
+      "To provide direction and focus for effort",
+      "To manage customer accounts",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "Why is it important to say no to some requests?",
+    "options": [
+      "It eliminates the need for teamwork",
+      "It guarantees that no one will ask for help",
+      "It helps protect time for high-priority responsibilities",
+      "It replaces all communication"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is a productivity system used for?",
+    "options": [
+      "To replace all work responsibilities",
+      "To manage customer orders",
+      "To organize tasks, time, and resources effectively",
+      "To design product advertisements"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "Which factor can improve focus during work?",
+    "options": [
+      "Constantly switching between tasks",
+      "Working on one priority task at a time",
+      "Allowing frequent interruptions",
+      "Avoiding all planning"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is the purpose of estimating task duration?",
+    "options": [
+      "To replace all deadlines",
+      "To manage customer accounts",
+      "To plan time realistically and manage expectations",
+      "To design product packaging"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "Why is reflection important for productivity improvement?",
+    "options": [
+      "It replaces all future planning",
+      "It guarantees that all goals will be met",
+      "It helps identify what works and what needs adjustment",
+      "It eliminates the need for feedback"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is the purpose of a daily plan?",
+    "options": [
+      "To replace all weekly planning",
+      "To manage customer orders",
+      "To outline tasks and priorities for the day",
+      "To design product advertisements"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "Which habit can support long-term productivity?",
+    "options": [
+      "Ignoring changing priorities",
+      "Avoiding all planning",
+      "Reviewing and adjusting priorities regularly",
+      "Working without breaks"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is the purpose of a productivity journal?",
+    "options": [
+      "To replace all calendars",
+      "To manage customer accounts",
+      "To record tasks, time use, and reflections for improvement",
+      "To design product packaging"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "Why should tasks be reviewed for importance before urgency?",
+    "options": [
+      "Urgent tasks are always more important",
+      "Importance is irrelevant to productivity",
+      "Important tasks contribute most to goals even if not urgent",
+      "Urgency should always be ignored"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Time Management & Productivity",
+    "question": "What is the main benefit of effective time management?",
+    "options": [
+      "Elimination of all work tasks",
+      "Guaranteed promotion",
+      "Replacement of all planning",
+      "Better achievement of goals with reduced stress"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "What is the primary purpose of critical thinking?",
+    "options": [
+      "To accept all information without question",
+      "To analyze information objectively and make reasoned judgments",
+      "To manage customer orders",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Which step is typically first in a structured problem-solving process?",
+    "options": [
+      "Implementing a solution immediately",
+      "Identifying and defining the problem",
+      "Ignoring the problem",
+      "Blaming others"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Why is it important to gather relevant information before deciding?",
+    "options": [
+      "It replaces all analysis",
+      "It guarantees that no mistakes will occur",
+      "It supports more informed and effective decisions",
+      "It eliminates the need for critical thinking"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "What is an assumption in critical thinking?",
+    "options": [
+      "A proven fact",
+      "A final decision",
+      "Something accepted as true without proof",
+      "A type of evidence"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Which practice can help evaluate the credibility of a source?",
+    "options": [
+      "Accepting the source without question",
+      "Ignoring the source's date",
+      "Checking the author's expertise and evidence",
+      "Relying only on personal opinion"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "What is the purpose of brainstorming in problem solving?",
+    "options": [
+      "To select the first idea without discussion",
+      "To generate a range of possible ideas or solutions",
+      "To replace all analysis",
+      "To manage customer accounts"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Why should potential solutions be evaluated against criteria?",
+    "options": [
+      "It replaces all problem identification",
+      "It guarantees that the first solution is best",
+      "It helps determine which solution is most appropriate",
+      "It eliminates the need for evidence"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "What is a root cause analysis used for?",
+    "options": [
+      "To replace all solutions",
+      "To identify the underlying reason for a problem",
+      "To manage customer orders",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Which is an example of a cognitive bias?",
+    "options": [
+      "Objective analysis of all evidence",
+      "Considering multiple perspectives",
+      "Confirmation bias, which favors information that supports existing beliefs",
+      "Testing assumptions"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Why is it useful to consider multiple perspectives?",
+    "options": [
+      "It replaces all decision-making",
+      "It guarantees that everyone will agree",
+      "It helps produce more balanced and informed conclusions",
+      "It eliminates the need for evidence"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "What is the purpose of asking probing questions?",
+    "options": [
+      "To replace all analysis",
+      "To explore issues more deeply and clarify understanding",
+      "To manage customer accounts",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Which is a characteristic of a well-reasoned argument?",
+    "options": [
+      "Emotional appeals without evidence",
+      "Unrelated personal attacks",
+      "Contradictory statements",
+      "Clear claims supported by relevant evidence"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "What is the purpose of testing a hypothesis?",
+    "options": [
+      "To determine whether it is supported by evidence",
+      "To replace all problem-solving steps",
+      "To manage customer orders",
+      "To design product packaging"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Why is it important to distinguish between facts and opinions?",
+    "options": [
+      "Facts and opinions are always the same",
+      "Opinions are always more reliable than facts",
+      "Facts can be verified while opinions reflect personal views",
+      "Facts are never useful in decision-making"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "What is a decision matrix used for?",
+    "options": [
+      "To replace all brainstorming",
+      "To manage customer accounts",
+      "To compare options against weighted criteria",
+      "To design product packaging"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Which action can help avoid jumping to conclusions?",
+    "options": [
+      "Relying only on first impressions",
+      "Gathering sufficient evidence before deciding",
+      "Ignoring alternative explanations",
+      "Making decisions without analysis"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "What is the purpose of a pros and cons list?",
+    "options": [
+      "To replace all analysis",
+      "To manage customer orders",
+      "To weigh the advantages and disadvantages of an option",
+      "To design product packaging"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Why is reflection important after implementing a solution?",
+    "options": [
+      "It replaces all future problem solving",
+      "It guarantees that no further problems will occur",
+      "It helps assess whether the solution worked and what could improve",
+      "It eliminates the need for evaluation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Which is an example of a logical fallacy?",
+    "options": [
+      "Presenting relevant evidence",
+      "Attacking the person instead of the argument",
+      "Considering counterarguments",
+      "Testing assumptions"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "What is the purpose of defining a problem clearly?",
+    "options": [
+      "To replace all solutions",
+      "To ensure efforts address the actual issue",
+      "To manage customer accounts",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Why is creativity useful in problem solving?",
+    "options": [
+      "It replaces all logical analysis",
+      "It guarantees that all problems will be solved",
+      "It can generate novel solutions that are not immediately obvious",
+      "It eliminates the need for evaluation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "What is the purpose of a contingency plan?",
+    "options": [
+      "To replace the original plan",
+      "To manage customer orders",
+      "To prepare for potential risks or alternative outcomes",
+      "To design product packaging"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Which practice can help improve critical thinking skills?",
+    "options": [
+      "Accepting all information without question",
+      "Avoiding all analysis",
+      "Questioning assumptions and seeking evidence",
+      "Relying only on intuition"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "What is the purpose of evaluating the consequences of a decision?",
+    "options": [
+      "To replace all decision-making",
+      "To understand the potential impact before committing to action",
+      "To manage customer accounts",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Why is it important to avoid emotional reasoning?",
+    "options": [
+      "Emotions always lead to correct decisions",
+      "Emotions replace the need for evidence",
+      "Emotions can distort objective analysis of facts",
+      "Emotions should always dictate conclusions"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "What is a key benefit of structured problem solving?",
+    "options": [
+      "It replaces all creativity",
+      "It guarantees that no problems will occur",
+      "It provides a systematic approach to reach effective solutions",
+      "It eliminates the need for evaluation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Which action is part of implementing a chosen solution?",
+    "options": [
+      "Ignoring the solution",
+      "Planning and executing the steps required to apply the solution",
+      "Replacing all analysis",
+      "Managing customer accounts"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Why should problem-solving efforts be reviewed against the original goal?",
+    "options": [
+      "To replace all future planning",
+      "To guarantee that no further issues will arise",
+      "To determine whether the solution achieved the intended outcome",
+      "To eliminate the need for feedback"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "What is the purpose of considering constraints in problem solving?",
+    "options": [
+      "To replace all creativity",
+      "To identify limitations that may affect possible solutions",
+      "To manage customer accounts",
+      "To design product packaging"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Human Resources & Professional Skills",
+    "program": "Critical Thinking & Problem Solving",
+    "question": "Which is a characteristic of an effective problem solver?",
+    "options": [
+      "Ignoring all evidence",
+      "Refusing to consider alternatives",
+      "Being open to new information and willing to adjust conclusions",
+      "Relying only on assumptions"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  }
+]

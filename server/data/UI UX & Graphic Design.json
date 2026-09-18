@@ -1,0 +1,3794 @@
+[
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What does UX primarily focus on?",
+    "options": [
+      "The user's overall experience with a product",
+      "Writing database queries",
+      "Managing server hardware",
+      "Creating programming languages"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What does UI stand for?",
+    "options": [
+      "User Integration",
+      "User Interface",
+      "Universal Interaction",
+      "User Information"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "Which principle helps users understand the importance of different elements on a screen?",
+    "options": [
+      "Randomization",
+      "Compression",
+      "Visual hierarchy",
+      "Data encryption"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What is usability mainly concerned with?",
+    "options": [
+      "The number of developers on a project",
+      "The size of the database",
+      "The programming language used",
+      "How easily users can accomplish tasks"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "Which of the following is an example of a UI element?",
+    "options": [
+      "Button",
+      "Server",
+      "Database",
+      "API"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "Why is consistency important in interface design?",
+    "options": [
+      "It increases code complexity",
+      "It helps users learn and predict interface behavior",
+      "It removes the need for testing",
+      "It makes every page visually different"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What is a persona in UX design?",
+    "options": [
+      "A database schema",
+      "A programming framework",
+      "A fictional representation of a target user",
+      "A visual effect"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What is user-centered design?",
+    "options": [
+      "Designing only for developers",
+      "Designing without user feedback",
+      "Designing only based on business goals",
+      "Designing around users' needs and behaviors"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "Which activity is commonly performed during UX design?",
+    "options": [
+      "User testing",
+      "Server installation",
+      "Database backup",
+      "Network configuration"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What does accessibility in UI design aim to achieve?",
+    "options": [
+      "More complex navigation",
+      "Usability for people with different abilities",
+      "Higher server performance",
+      "Larger database storage"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What is feedback in an interface?",
+    "options": [
+      "A database operation",
+      "A coding standard",
+      "A response that informs users about an action or system state",
+      "A type of server"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "Which concept describes how easily a new user can understand an interface?",
+    "options": [
+      "Scalability",
+      "Encryption",
+      "Deployment",
+      "Learnability"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What is an affordance in interface design?",
+    "options": [
+      "A visual or functional clue about how an element can be used",
+      "A database table",
+      "A programming error",
+      "A network protocol"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What is a design system?",
+    "options": [
+      "A collection of unrelated images",
+      "A structured set of reusable design components and guidelines",
+      "A programming language",
+      "A database management tool"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "Why are empty spaces used in UI design?",
+    "options": [
+      "To increase file size",
+      "To hide broken elements",
+      "To improve readability and visual organization",
+      "To reduce accessibility"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What is responsive design?",
+    "options": [
+      "Design that only works on desktops",
+      "Design that uses only large images",
+      "Design that avoids mobile devices",
+      "Design that adapts to different screen sizes and devices"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What is a call-to-action button?",
+    "options": [
+      "An element that encourages a user to perform a specific action",
+      "A database control",
+      "A server monitoring tool",
+      "A type of typography"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "Which factor is most important when choosing text colors for accessibility?",
+    "options": [
+      "Animation speed",
+      "Sufficient color contrast",
+      "Number of fonts",
+      "Image resolution"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What is a user flow?",
+    "options": [
+      "A software installation process",
+      "A database relationship",
+      "The sequence of steps a user follows to complete a task",
+      "A coding workflow"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What is the purpose of usability testing?",
+    "options": [
+      "To test server hardware",
+      "To increase the number of features",
+      "To eliminate all visual design",
+      "To identify problems users experience while using a product"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "Which design principle groups related elements together?",
+    "options": [
+      "Proximity",
+      "Encryption",
+      "Compression",
+      "Iteration"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What is visual hierarchy used for?",
+    "options": [
+      "Writing application logic",
+      "Guiding users' attention through the interface",
+      "Managing server requests",
+      "Storing user data"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What does iteration mean in UX design?",
+    "options": [
+      "Finishing the design without testing",
+      "Removing user research",
+      "Repeatedly improving a design based on feedback and findings",
+      "Creating only one version"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "Which is an example of microcopy?",
+    "options": [
+      "Database documentation",
+      "Programming comments",
+      "Server logs",
+      "Text on buttons, labels, and error messages"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What should a good error message generally provide?",
+    "options": [
+      "A clear explanation and guidance for resolving the problem",
+      "Only a technical error code",
+      "No information",
+      "An unrelated warning"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What is cognitive load?",
+    "options": [
+      "The amount of storage on a device",
+      "The mental effort required to process information or complete a task",
+      "The number of colors in a design",
+      "The speed of a processor"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "Which approach reduces unnecessary complexity for users?",
+    "options": [
+      "Adding more options to every screen",
+      "Using unfamiliar symbols everywhere",
+      "Keeping interactions simple and focused",
+      "Removing all navigation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What is information architecture?",
+    "options": [
+      "The visual styling of buttons only",
+      "The process of writing application code",
+      "The process of creating illustrations",
+      "The organization and structure of information in a product"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "Which practice helps determine whether a design meets user needs?",
+    "options": [
+      "User testing",
+      "Increasing font sizes randomly",
+      "Removing navigation",
+      "Ignoring feedback"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UI/UX Fundamentals",
+    "question": "What is the main benefit of a clear navigation structure?",
+    "options": [
+      "It increases development cost",
+      "It helps users find information and move through the product",
+      "It removes the need for content",
+      "It prevents responsive design"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is Figma primarily used for?",
+    "options": [
+      "Database management",
+      "Video compression",
+      "Interface design and prototyping",
+      "Operating system development"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is a Frame in Figma?",
+    "options": [
+      "A database record",
+      "A type of programming function",
+      "A browser extension",
+      "A container used to organize design elements"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "Which feature allows designers to create reusable UI elements in Figma?",
+    "options": [
+      "Components",
+      "Comments",
+      "Version history",
+      "Pages"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is Auto Layout used for?",
+    "options": [
+      "Deleting layers",
+      "Creating flexible layouts that adjust when content changes",
+      "Exporting videos",
+      "Managing passwords"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What does the Prototype feature in Figma allow designers to create?",
+    "options": [
+      "Database schemas",
+      "Programming APIs",
+      "Interactive flows between screens",
+      "Operating systems"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is a component variant useful for?",
+    "options": [
+      "Deleting all components",
+      "Changing the file format",
+      "Creating database backups",
+      "Managing different states or versions of a component"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is a layer in Figma?",
+    "options": [
+      "An individual design object or element in the document",
+      "A network connection",
+      "A database table",
+      "A programming package"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "Which feature helps multiple designers work on the same Figma file?",
+    "options": [
+      "Image compression",
+      "Real-time collaboration",
+      "Offline rendering",
+      "Code compilation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is a Figma plugin?",
+    "options": [
+      "A replacement operating system",
+      "A database engine",
+      "An extension that adds functionality to Figma",
+      "A hardware device"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "Which panel is commonly used to inspect properties of selected objects?",
+    "options": [
+      "Terminal panel",
+      "Database panel",
+      "Network panel",
+      "Design panel"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is the purpose of Figma's Share feature?",
+    "options": [
+      "To provide access to a design file for collaboration or review",
+      "To compile JavaScript",
+      "To create databases",
+      "To install an operating system"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What does an instance represent in Figma?",
+    "options": [
+      "A deleted object",
+      "A new Figma account",
+      "A reusable copy of a component",
+      "A page without layers"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "Which tool is commonly used to create rectangles and other basic shapes?",
+    "options": [
+      "Hand tool",
+      "Comment tool",
+      "Prototype tool",
+      "Shape tools"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is the purpose of Figma's Assets panel?",
+    "options": [
+      "To access reusable components and assets",
+      "To manage operating system files",
+      "To configure network settings",
+      "To write JavaScript"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is a prototype connection used for?",
+    "options": [
+      "Connecting databases",
+      "Defining how one screen or object leads to another interaction",
+      "Installing plugins",
+      "Exporting images"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What does the Lock feature do to a layer?",
+    "options": [
+      "Deletes the layer",
+      "Exports the layer",
+      "Prevents accidental editing of the layer",
+      "Changes the layer color"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "Why are component properties useful?",
+    "options": [
+      "They remove all component instances",
+      "They convert designs into databases",
+      "They prevent component reuse",
+      "They allow components to be customized while remaining reusable"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "Which Figma feature can be used to leave feedback directly on a design?",
+    "options": [
+      "Comments",
+      "Variables",
+      "Auto Layout",
+      "Constraints"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is the purpose of constraints in Figma?",
+    "options": [
+      "To delete unused layers",
+      "To control how an object behaves when its parent frame is resized",
+      "To create user accounts",
+      "To export videos"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What can Figma variables store?",
+    "options": [
+      "Only images",
+      "Only comments",
+      "Reusable values such as colors, numbers, strings, or booleans",
+      "Only fonts"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "Which action is useful for creating consistent spacing in a design?",
+    "options": [
+      "Random resizing",
+      "Deleting frames",
+      "Changing every element manually",
+      "Using Auto Layout and consistent spacing values"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is the purpose of grouping objects in Figma?",
+    "options": [
+      "To organize multiple objects so they can be handled together",
+      "To convert them into code",
+      "To remove their properties",
+      "To create a database"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "Which export format is commonly used for scalable vector graphics?",
+    "options": [
+      "JPG",
+      "SVG",
+      "MP4",
+      "TXT"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is the main advantage of using reusable components?",
+    "options": [
+      "They make designs impossible to edit",
+      "They remove all design systems",
+      "They improve consistency and speed up design work",
+      "They prevent collaboration"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is a page in a Figma file?",
+    "options": [
+      "A browser window",
+      "A plugin",
+      "A database record",
+      "A workspace used to organize frames and design content"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "Which feature can help create different themes such as light and dark mode?",
+    "options": [
+      "Variables",
+      "Comments",
+      "Crop tool",
+      "Ruler"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is the purpose of version history?",
+    "options": [
+      "To create animations automatically",
+      "To view and restore earlier versions of a file",
+      "To generate passwords",
+      "To remove all collaborators"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What does prototyping help designers evaluate?",
+    "options": [
+      "Server memory",
+      "Database indexes",
+      "User interactions and navigation flows",
+      "Programming language performance"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "Which feature helps align objects precisely on a canvas?",
+    "options": [
+      "Comments",
+      "Plugins",
+      "Version history",
+      "Alignment tools"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Figma Fundamentals",
+    "question": "What is the main purpose of naming layers clearly?",
+    "options": [
+      "To make the file easier to understand and maintain",
+      "To increase image resolution",
+      "To disable collaboration",
+      "To reduce screen size"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is the primary purpose of user research?",
+    "options": [
+      "To write application code",
+      "To understand users' needs, behaviors, and problems",
+      "To create database tables",
+      "To increase server capacity"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "Which method involves directly asking users questions about their experiences?",
+    "options": [
+      "A/B deployment",
+      "Database analysis",
+      "User interviews",
+      "Code review"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is a research hypothesis?",
+    "options": [
+      "A finalized design",
+      "A database query",
+      "A programming requirement",
+      "A testable assumption or prediction about users or a problem"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "Which research method typically collects responses from many participants using structured questions?",
+    "options": [
+      "Survey",
+      "Wireframe",
+      "Prototype",
+      "Usability inspection"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is qualitative research mainly used to understand?",
+    "options": [
+      "Only numerical performance",
+      "Users' thoughts, motivations, and experiences",
+      "Server response times",
+      "Database size"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What does quantitative research primarily provide?",
+    "options": [
+      "Only personal opinions",
+      "Only visual designs",
+      "Numerical or measurable data",
+      "Only interview transcripts"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is a usability test?",
+    "options": [
+      "A test of database security",
+      "A test of programming syntax",
+      "A test of server hardware",
+      "A study where users perform tasks to evaluate a product's usability"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "Why should researchers avoid leading questions?",
+    "options": [
+      "They can influence participants' answers and introduce bias",
+      "They make interviews shorter",
+      "They increase server performance",
+      "They improve database storage"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is a target user?",
+    "options": [
+      "A software developer",
+      "A person who represents the intended audience for a product",
+      "A database administrator",
+      "A graphic file"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is an affinity diagram commonly used for?",
+    "options": [
+      "Writing code",
+      "Designing logos",
+      "Grouping related research findings and observations",
+      "Testing network speed"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is research bias?",
+    "options": [
+      "A type of prototype",
+      "A design component",
+      "A user persona",
+      "A systematic influence that can distort research results"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is contextual inquiry?",
+    "options": [
+      "Observing and interviewing users in the context where they perform tasks",
+      "Creating a database",
+      "Testing a server",
+      "Designing a logo"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is a screener survey used for?",
+    "options": [
+      "Creating UI components",
+      "Identifying participants who meet research criteria",
+      "Testing application code",
+      "Creating animations"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is an open-ended question?",
+    "options": [
+      "A question with only Yes or No",
+      "A question with one predefined answer",
+      "A question that allows participants to answer in their own words",
+      "A question about database structure"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is the purpose of recruiting representative participants?",
+    "options": [
+      "To reduce the number of questions",
+      "To make the interface colorful",
+      "To increase development speed",
+      "To ensure research reflects the intended user population"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is an empathy map used to capture?",
+    "options": [
+      "What users say, think, do, and feel",
+      "Database relationships",
+      "Programming dependencies",
+      "Server configurations"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is a research insight?",
+    "options": [
+      "A random assumption",
+      "A meaningful finding that helps explain user behavior or needs",
+      "A visual effect",
+      "A programming error"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What does observation help researchers understand?",
+    "options": [
+      "Only what users claim to do",
+      "Only technical requirements",
+      "How users actually behave in a situation",
+      "Only brand preferences"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is a research participant?",
+    "options": [
+      "A UI component",
+      "A database record",
+      "A software framework",
+      "A person who takes part in a research study"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is secondary research?",
+    "options": [
+      "Research based on existing sources and previously collected information",
+      "Research performed only through prototypes",
+      "Research with no data",
+      "Research performed only by developers"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "Which is an example of secondary research?",
+    "options": [
+      "Conducting a new interview",
+      "Reviewing existing industry reports",
+      "Watching a participant complete a new task",
+      "Running a new usability test"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is a user journey map?",
+    "options": [
+      "A map of server locations",
+      "A database relationship diagram",
+      "A representation of the user's stages, actions, thoughts, and experiences",
+      "A programming flowchart"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "Why is it useful to record research sessions with participant consent?",
+    "options": [
+      "To increase application speed",
+      "To replace all analysis",
+      "To improve database performance",
+      "To allow researchers to review details accurately later"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is triangulation in research?",
+    "options": [
+      "Using multiple research methods or data sources to strengthen findings",
+      "Creating three UI screens",
+      "Using three colors in a design",
+      "Testing three programming languages"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is a pain point?",
+    "options": [
+      "A visual design pattern",
+      "A problem or frustration experienced by a user",
+      "A database field",
+      "A software library"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is the purpose of analyzing interview transcripts?",
+    "options": [
+      "To create server configurations",
+      "To write application code",
+      "To identify patterns, themes, and meaningful findings",
+      "To increase screen resolution"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What does informed consent mean in user research?",
+    "options": [
+      "Participants must design the product",
+      "Researchers can hide the purpose of the study",
+      "Participants must provide technical skills",
+      "Participants understand the study and agree to take part"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "Which metric can help measure task success in usability testing?",
+    "options": [
+      "Task completion rate",
+      "Number of design colors",
+      "Font family count",
+      "Number of database tables"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "What is a research objective?",
+    "options": [
+      "A final UI design",
+      "A clear statement of what the research aims to learn",
+      "A programming requirement",
+      "A database constraint"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "User Research Fundamentals",
+    "question": "Why should researchers ask follow-up questions during interviews?",
+    "options": [
+      "To make the interview confusing",
+      "To avoid learning about user behavior",
+      "To explore important responses in greater depth",
+      "To replace all research objectives"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What is the primary purpose of a wireframe?",
+    "options": [
+      "To define the basic structure and layout of a page",
+      "To write application code",
+      "To create database tables",
+      "To configure a web server"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "Which type of wireframe usually contains minimal visual styling?",
+    "options": [
+      "High-fidelity wireframe",
+      "Low-fidelity wireframe",
+      "Animated prototype",
+      "Visual identity"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What is a prototype mainly used to represent?",
+    "options": [
+      "Database relationships",
+      "Server architecture",
+      "How users can interact with a product",
+      "Programming syntax"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What does a high-fidelity prototype usually include?",
+    "options": [
+      "Only rough sketches",
+      "Only text labels",
+      "No interactions",
+      "More detailed visuals and interactions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "Why are wireframes created early in the design process?",
+    "options": [
+      "To explore layout and structure before detailed visual design",
+      "To replace user research",
+      "To finalize the programming language",
+      "To configure hosting"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "Which element can be represented in a wireframe?",
+    "options": [
+      "Database indexes",
+      "Navigation structure",
+      "Server configuration",
+      "Programming variables"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What is an interactive prototype?",
+    "options": [
+      "A static image",
+      "A database model",
+      "A clickable representation of a product flow",
+      "A source-code repository"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What should a wireframe primarily communicate?",
+    "options": [
+      "Final brand colors",
+      "Final photography",
+      "Server performance",
+      "Content placement and page structure"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What is a user flow useful for when creating a prototype?",
+    "options": [
+      "Showing the sequence of steps users take",
+      "Choosing a programming framework",
+      "Managing database records",
+      "Selecting server hardware"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What is a clickable hotspot in a prototype?",
+    "options": [
+      "A database field",
+      "An interactive area that triggers an action",
+      "A color palette",
+      "A typography scale"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "Which activity can be performed using a prototype before development?",
+    "options": [
+      "Database migration",
+      "Server deployment",
+      "Testing navigation and interactions",
+      "Writing backend APIs"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What is the benefit of testing a prototype with users?",
+    "options": [
+      "It guarantees perfect code",
+      "It eliminates all design decisions",
+      "It removes the need for research",
+      "It can reveal usability issues before development"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "Which item is commonly shown as a placeholder in a wireframe?",
+    "options": [
+      "Image or content area",
+      "Database connection",
+      "API endpoint",
+      "Server log"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What is the purpose of annotations in wireframes?",
+    "options": [
+      "To add database queries",
+      "To explain interactions or design decisions",
+      "To compress images",
+      "To configure hosting"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "Which approach is generally better when beginning a new interface layout?",
+    "options": [
+      "Start with final animations",
+      "Start with production code",
+      "Start with structure and user flow",
+      "Start with complex illustrations"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What is a storyboard in UX commonly used to show?",
+    "options": [
+      "Database architecture",
+      "Code dependencies",
+      "Server requests",
+      "A sequence of user actions or situations"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "Why should wireframes avoid unnecessary visual decoration?",
+    "options": [
+      "To keep focus on structure and functionality",
+      "To make development impossible",
+      "To reduce user testing",
+      "To remove navigation"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What does prototype fidelity describe?",
+    "options": [
+      "The number of designers involved",
+      "The level of detail and realism in a prototype",
+      "The amount of database storage",
+      "The coding language used"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "Which prototype is most useful for quickly exploring multiple layout ideas?",
+    "options": [
+      "Production application",
+      "Fully coded application",
+      "Low-fidelity prototype",
+      "Final marketing website"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What is the purpose of a navigation prototype?",
+    "options": [
+      "To test server speed",
+      "To create database schemas",
+      "To generate source code",
+      "To evaluate how users move between screens"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What is rapid prototyping?",
+    "options": [
+      "Quickly creating and testing design ideas",
+      "Deploying a production server",
+      "Writing a large codebase",
+      "Creating database backups"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "Which factor should be considered when designing a mobile wireframe?",
+    "options": [
+      "Desktop-only navigation",
+      "Limited screen space and touch interaction",
+      "Server memory",
+      "Database indexing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What is a screen state?",
+    "options": [
+      "A server status",
+      "A database condition",
+      "A particular visual or interactive condition of a screen",
+      "A programming language"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "Why might designers create multiple versions of a wireframe?",
+    "options": [
+      "To increase file size",
+      "To avoid feedback",
+      "To duplicate errors",
+      "To compare different design solutions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "Which tool can be used to create digital wireframes and prototypes?",
+    "options": [
+      "Figma",
+      "Database server",
+      "Command prompt",
+      "Compiler"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What does a transition in a prototype describe?",
+    "options": [
+      "A database update",
+      "The visual or interactive change between states",
+      "A programming error",
+      "A file backup"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "Which design artifact usually comes before a detailed visual mockup?",
+    "options": [
+      "Production build",
+      "Final advertisement",
+      "Wireframe",
+      "Server configuration"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What is a mockup?",
+    "options": [
+      "A database diagram",
+      "A server configuration",
+      "A code testing environment",
+      "A detailed static representation of a design"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What is the main difference between a wireframe and a prototype?",
+    "options": [
+      "A prototype can demonstrate interactions while a wireframe mainly shows structure",
+      "A wireframe always contains code",
+      "A prototype cannot contain screens",
+      "A wireframe is always animated"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Wireframing & Prototyping",
+    "question": "What should designers do after discovering a usability issue in a prototype?",
+    "options": [
+      "Ignore it",
+      "Refine the design and test again",
+      "Delete the prototype",
+      "Stop user research"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is the main goal of UX design?",
+    "options": [
+      "To maximize the number of screens",
+      "To make software technically complex",
+      "To create useful, usable, and satisfying user experiences",
+      "To reduce user interaction"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "Which concept is central to user-centered design?",
+    "options": [
+      "Ignoring users",
+      "Designing only for business owners",
+      "Avoiding research",
+      "Understanding and addressing user needs"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is usability?",
+    "options": [
+      "How effectively and easily users can accomplish goals",
+      "The number of developers",
+      "The amount of source code",
+      "The size of a database"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is information architecture concerned with?",
+    "options": [
+      "Server configuration",
+      "Organizing and structuring information",
+      "Programming syntax",
+      "Image compression"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is a heuristic evaluation?",
+    "options": [
+      "A coding test",
+      "A database test",
+      "An expert review of an interface using usability principles",
+      "A server performance test"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "Which usability principle encourages keeping users informed about system status?",
+    "options": [
+      "Visual decoration",
+      "Hidden navigation",
+      "Random interaction",
+      "Visibility of system status"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is a user journey?",
+    "options": [
+      "The sequence of experiences a user has while interacting with a product or service",
+      "A programming workflow",
+      "A database structure",
+      "A server deployment process"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "Why is feedback important in UX?",
+    "options": [
+      "It makes interfaces more complex",
+      "It helps users understand the result of their actions",
+      "It removes the need for navigation",
+      "It increases database size"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is a mental model?",
+    "options": [
+      "A database diagram",
+      "A coding pattern",
+      "A user's internal understanding of how something works",
+      "A visual color palette"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is discoverability in UX?",
+    "options": [
+      "The ability to hide features",
+      "The speed of a server",
+      "The size of an interface",
+      "How easily users can find available actions or features"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "Which UX practice helps identify problems before final development?",
+    "options": [
+      "Usability testing",
+      "Ignoring users",
+      "Removing prototypes",
+      "Skipping research"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is a task flow?",
+    "options": [
+      "A server request",
+      "A sequence of actions needed to complete a specific task",
+      "A database table",
+      "A color system"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What does progressive disclosure mean?",
+    "options": [
+      "Showing every option at once",
+      "Removing important information",
+      "Showing information and options gradually as needed",
+      "Hiding all navigation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is the purpose of a UX persona?",
+    "options": [
+      "To represent important characteristics and needs of a target user group",
+      "To define server architecture",
+      "To replace all user research",
+      "To create database relationships"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is a pain point in UX?",
+    "options": [
+      "A visual style",
+      "A problem or frustration experienced by users",
+      "A database error",
+      "A programming framework"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What does affordance communicate?",
+    "options": [
+      "The server location",
+      "The database size",
+      "How an object can potentially be interacted with",
+      "The programming language"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is error prevention?",
+    "options": [
+      "Showing more error messages",
+      "Removing validation",
+      "Making errors difficult to understand",
+      "Designing interactions that reduce the chance of user mistakes"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is consistency in UX design?",
+    "options": [
+      "Using similar patterns and behaviors for similar situations",
+      "Changing navigation on every page",
+      "Using random controls",
+      "Avoiding reusable patterns"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is cognitive load?",
+    "options": [
+      "The number of database fields",
+      "The mental effort required to process information",
+      "The number of screens",
+      "The amount of server memory"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "Which method is useful for comparing two design versions?",
+    "options": [
+      "Wireframing",
+      "Affinity mapping",
+      "A/B testing",
+      "Storyboarding"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is a usability goal?",
+    "options": [
+      "A target for database size",
+      "A programming milestone",
+      "A visual decoration",
+      "A measurable objective related to ease and effectiveness of use"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "Which is an example of an accessibility consideration?",
+    "options": [
+      "Providing keyboard-accessible interactions",
+      "Using very low color contrast",
+      "Removing labels",
+      "Making controls extremely small"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is a design constraint?",
+    "options": [
+      "An unnecessary decoration",
+      "A limitation or requirement that affects a design solution",
+      "A type of database",
+      "A user password"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is the purpose of card sorting?",
+    "options": [
+      "To test server performance",
+      "To create color palettes",
+      "To understand how users categorize and organize information",
+      "To write application code"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What does learnability mean?",
+    "options": [
+      "How quickly a server responds",
+      "How many features a product contains",
+      "How much code is required",
+      "How easily new users can learn to use a product"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is a UX requirement?",
+    "options": [
+      "A condition describing how a product should support user needs or behavior",
+      "A database backup",
+      "A server address",
+      "A programming variable"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "Why is iteration important in UX design?",
+    "options": [
+      "It prevents testing",
+      "It allows designs to improve through feedback and evaluation",
+      "It eliminates user involvement",
+      "It guarantees no changes will be required"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is a touch target?",
+    "options": [
+      "A database field",
+      "A design document",
+      "An interactive area intended to be tapped on a touch device",
+      "A server endpoint"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "Which factor can improve form usability?",
+    "options": [
+      "Using unclear labels",
+      "Removing feedback",
+      "Adding unnecessary fields",
+      "Using clear labels and helpful validation"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "UX Design Fundamentals",
+    "question": "What is the purpose of UX metrics?",
+    "options": [
+      "To evaluate aspects of user experience using measurable data",
+      "To replace all user research",
+      "To configure servers",
+      "To create programming frameworks"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is graphic design primarily concerned with?",
+    "options": [
+      "Managing databases",
+      "Communicating ideas through visual elements",
+      "Writing backend code",
+      "Configuring networks"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "Which principle refers to the distribution of visual weight in a composition?",
+    "options": [
+      "Typography",
+      "Contrast",
+      "Balance",
+      "Resolution"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is typography?",
+    "options": [
+      "The process of compressing images",
+      "The process of creating databases",
+      "A type of illustration",
+      "The art and practice of arranging type"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What does contrast help create in a design?",
+    "options": [
+      "Visual distinction and emphasis",
+      "Database relationships",
+      "Server connections",
+      "Code dependencies"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is alignment used for?",
+    "options": [
+      "Increasing image file size",
+      "Creating visual order and organization",
+      "Changing programming syntax",
+      "Managing databases"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is white space?",
+    "options": [
+      "Only white-colored backgrounds",
+      "Unused database storage",
+      "Intentional empty space around or between design elements",
+      "A type of font"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+  "category": "UI/UX & Graphic Design",
+  "program": "Graphic Design Fundamentals",
+  "question": "Which principle of design helps create a sense of balance between visual elements?",
+  "options": [
+    "Alignment",
+    "Contrast",
+    "Balance",
+    "Typography"
+  ],
+  "correctAnswer": 2,
+  "marks": 1,
+  "isActive": true
+},
+
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is visual hierarchy?",
+    "options": [
+      "A programming structure",
+      "A database structure",
+      "A file organization method",
+      "The arrangement of elements to guide the viewer's attention"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "Which color model is commonly used for digital screens?",
+    "options": [
+      "RGB",
+      "CMYK",
+      "Pantone only",
+      "Grayscale only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "Which color model is commonly used for professional print production?",
+    "options": [
+      "RGB",
+      "CMYK",
+      "HSL only",
+      "HEX only"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is a complementary color scheme?",
+    "options": [
+      "Colors next to each other on the color wheel",
+      "Only shades of gray",
+      "Colors positioned opposite each other on the color wheel",
+      "A single color with different sizes"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is a sans-serif typeface?",
+    "options": [
+      "A typeface with decorative scripts",
+      "A typeface used only for logos",
+      "A typeface with very thick borders",
+      "A typeface without small finishing strokes on letter ends"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is kerning?",
+    "options": [
+      "Adjusting the space between individual letter pairs",
+      "Adjusting image brightness",
+      "Changing page dimensions",
+      "Creating color palettes"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is leading in typography?",
+    "options": [
+      "The width of a letter",
+      "The vertical space between lines of text",
+      "The color of text",
+      "The weight of an image"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is a grid system used for?",
+    "options": [
+      "Creating animations",
+      "Managing databases",
+      "Organizing elements consistently within a layout",
+      "Writing HTML code"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What does repetition help achieve in graphic design?",
+    "options": [
+      "Random layouts",
+      "Lower image quality",
+      "Less consistency",
+      "Consistency and visual unity"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is proximity in design?",
+    "options": [
+      "Placing related elements near each other",
+      "Making every element the same size",
+      "Using only one color",
+      "Removing all spacing"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is a visual focal point?",
+    "options": [
+      "A database connection",
+      "An area designed to attract primary attention",
+      "A programming function",
+      "A file format"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "Which element can strongly influence the mood of a design?",
+    "options": [
+      "Database size",
+      "Server speed",
+      "Color",
+      "Programming language"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is scale in graphic design?",
+    "options": [
+      "A type of font",
+      "The brightness of a color",
+      "The file format of an image",
+      "The relative size of an element compared with others"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is an icon?",
+    "options": [
+      "A visual symbol representing an object, action, or concept",
+      "A database record",
+      "A programming variable",
+      "A server configuration"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "Which format is generally suitable for photographs on the web?",
+    "options": [
+      "SVG only",
+      "JPEG",
+      "TXT",
+      "HTML"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "Which format is commonly useful for scalable vector graphics?",
+    "options": [
+      "JPG",
+      "MP4",
+      "SVG",
+      "TXT"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What does image resolution describe?",
+    "options": [
+      "The number of fonts in a design",
+      "The number of colors in a palette",
+      "The number of pages in a document",
+      "The amount of visual detail represented by an image"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is a monochromatic color scheme?",
+    "options": [
+      "A scheme based on variations of one color",
+      "A scheme using only complementary colors",
+      "A scheme using every color equally",
+      "A scheme using only black and white"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is typography hierarchy used for?",
+    "options": [
+      "Compressing text",
+      "Showing differences in importance among text elements",
+      "Creating database structures",
+      "Managing image files"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What does balance in a composition help create?",
+    "options": [
+      "More database storage",
+      "Faster code execution",
+      "Visual stability and organization",
+      "Higher image compression"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "What is a design composition?",
+    "options": [
+      "A programming algorithm",
+      "A database schema",
+      "A server architecture",
+      "The arrangement of visual elements within a design"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "Why is consistency important in graphic design?",
+    "options": [
+      "It creates a unified and recognizable visual experience",
+      "It makes every design element random",
+      "It removes visual hierarchy",
+      "It prevents the use of typography"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Graphic Design Fundamentals",
+    "question": "Which principle helps create a relationship between related visual elements?",
+    "options": [
+      "Compression",
+      "Proximity",
+      "Encryption",
+      "Deployment"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is the primary purpose of a brand identity?",
+    "options": [
+      "To create a consistent visual and emotional representation of a brand",
+      "To manage database records",
+      "To write application code",
+      "To configure a web server"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is a logo?",
+    "options": [
+      "A marketing database",
+      "A visual mark that identifies a brand",
+      "A programming component",
+      "A user research method"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What does a color palette define in a brand identity?",
+    "options": [
+      "The website's database structure",
+      "The programming language",
+      "The set of colors consistently associated with the brand",
+      "The number of employees in a company"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is brand typography?",
+    "options": [
+      "A method for compressing images",
+      "A type of marketing research",
+      "A database formatting system",
+      "The selected typefaces and typographic rules used consistently by a brand"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is brand consistency?",
+    "options": [
+      "Maintaining a recognizable style and message across brand touchpoints",
+      "Changing the logo on every page",
+      "Using random colors",
+      "Avoiding design guidelines"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is a brand guideline?",
+    "options": [
+      "A database document",
+      "A document describing how brand elements should be used",
+      "A programming framework",
+      "A server configuration file"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is a brand's visual language?",
+    "options": [
+      "A programming language",
+      "A database query language",
+      "A collection of visual elements and styles that communicate the brand",
+      "A spoken communication method"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What does brand positioning describe?",
+    "options": [
+      "The physical position of a logo",
+      "The size of a website",
+      "The location of a company office",
+      "How a brand is intended to be perceived relative to competitors"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "Why is a consistent logo important?",
+    "options": [
+      "It helps people recognize the brand",
+      "It improves database performance",
+      "It reduces server memory",
+      "It replaces all marketing content"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is a brand color's psychological role?",
+    "options": [
+      "It determines programming behavior",
+      "It can influence perceptions and emotional associations",
+      "It controls website loading speed",
+      "It manages user accounts"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is a wordmark?",
+    "options": [
+      "A type of illustration",
+      "A database label",
+      "A logo primarily consisting of the brand name in stylized type",
+      "A photography technique"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is a brand's tone of voice?",
+    "options": [
+      "The volume of an advertisement",
+      "The sound used in a video",
+      "The font size used in a logo",
+      "The characteristic way a brand communicates through language"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is a mood board used for in branding?",
+    "options": [
+      "To collect visual references that communicate a desired style or mood",
+      "To manage customer databases",
+      "To write website code",
+      "To configure hosting"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is a brand archetype?",
+    "options": [
+      "A type of font",
+      "A recognizable personality pattern used to shape brand character",
+      "A database model",
+      "A logo file format"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is visual identity made up of?",
+    "options": [
+      "Only a company's website",
+      "Only its logo",
+      "Elements such as logo, colors, typography, imagery, and graphic style",
+      "Only its marketing slogans"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "Why should a logo work in different sizes?",
+    "options": [
+      "To increase database storage",
+      "To make the brand harder to recognize",
+      "To avoid using the logo online",
+      "To maintain clarity across different applications and formats"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is a primary brand color?",
+    "options": [
+      "A main color used consistently as part of a brand's visual identity",
+      "A temporary background color",
+      "A color selected randomly for each design",
+      "A color used only in photographs"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is a secondary brand color?",
+    "options": [
+      "A color that replaces the logo",
+      "A supporting color used alongside the primary palette",
+      "A color that cannot be used digitally",
+      "A color used only for printing errors"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What does a brand identity system help designers achieve?",
+    "options": [
+      "Faster server responses",
+      "Database security",
+      "Consistent application of brand elements",
+      "Automatic content writing"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is a tagline?",
+    "options": [
+      "A database field",
+      "A programming function",
+      "A design grid",
+      "A short phrase associated with a brand or campaign"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "Why is whitespace important around a logo?",
+    "options": [
+      "It protects the logo's visibility and visual impact",
+      "It changes the brand name",
+      "It reduces brand recognition",
+      "It adds unnecessary information"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is brand recognition?",
+    "options": [
+      "The ability to create databases",
+      "The ability of people to identify a brand from its distinctive elements",
+      "The ability to write code",
+      "The ability to increase image resolution"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is a responsive logo?",
+    "options": [
+      "A logo that responds to user clicks",
+      "A logo stored in a database",
+      "A logo system designed to adapt across different sizes and contexts",
+      "A logo used only on mobile devices"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "Which element can contribute strongly to brand recognition?",
+    "options": [
+      "Database structure",
+      "Programming syntax",
+      "Server hardware",
+      "Distinctive visual elements"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is brand differentiation?",
+    "options": [
+      "Making a brand visually or strategically distinct from competitors",
+      "Making all brands look identical",
+      "Removing brand guidelines",
+      "Using random typography"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is a brand asset?",
+    "options": [
+      "A software error",
+      "A reusable element associated with a brand, such as a logo or icon",
+      "A database password",
+      "A server component"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is the purpose of a logo usage guideline?",
+    "options": [
+      "To determine employee salaries",
+      "To create database records",
+      "To define acceptable ways to display the logo",
+      "To control website hosting"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is brand personality?",
+    "options": [
+      "The physical location of a brand",
+      "The number of employees in a company",
+      "The technical architecture of a website",
+      "The human-like characteristics associated with a brand"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "Why should brand typography be used consistently?",
+    "options": [
+      "It strengthens visual recognition and brand consistency",
+      "It improves database performance",
+      "It eliminates the need for a logo",
+      "It prevents digital design"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Branding & Visual Identity",
+    "question": "What is the purpose of a visual identity audit?",
+    "options": [
+      "To test programming code",
+      "To evaluate whether brand visuals are consistent and effective",
+      "To increase server capacity",
+      "To create database relationships"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is the primary goal of Design Thinking?",
+    "options": [
+      "To increase software complexity",
+      "To avoid user feedback",
+      "To solve problems by focusing on people's needs",
+      "To eliminate experimentation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "Which stage of Design Thinking focuses on understanding users?",
+    "options": [
+      "Prototype",
+      "Test",
+      "Define",
+      "Empathize"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What happens during the Define stage?",
+    "options": [
+      "User research findings are synthesized into a clear problem statement",
+      "The final product is launched",
+      "Database tables are created",
+      "Marketing materials are printed"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is the purpose of the Ideate stage?",
+    "options": [
+      "To finalize one solution immediately",
+      "To generate a range of possible solutions",
+      "To write production code",
+      "To conduct server testing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is prototyping in Design Thinking?",
+    "options": [
+      "Creating the final product immediately",
+      "Writing complete backend code",
+      "Creating representations of ideas that can be explored and tested",
+      "Removing unsuccessful ideas without testing"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is the purpose of the Test stage?",
+    "options": [
+      "To stop collecting feedback",
+      "To finalize the brand identity",
+      "To avoid changing the prototype",
+      "To evaluate solutions with users and learn from feedback"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What does empathy mean in Design Thinking?",
+    "options": [
+      "Understanding users' perspectives, needs, and experiences",
+      "Choosing colors randomly",
+      "Writing application code",
+      "Ignoring user behavior"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is brainstorming?",
+    "options": [
+      "A method for testing databases",
+      "A technique for generating many ideas",
+      "A method for compressing images",
+      "A server deployment process"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "Why is iteration important in Design Thinking?",
+    "options": [
+      "It prevents experimentation",
+      "It guarantees the first idea is used",
+      "It allows solutions to improve based on learning and feedback",
+      "It removes users from the process"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is a problem statement?",
+    "options": [
+      "A final marketing slogan",
+      "A database record",
+      "A programming requirement",
+      "A clear description of the problem that needs to be solved"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "Which mindset encourages designers to learn from failure?",
+    "options": [
+      "Experimentation and iteration",
+      "Avoiding prototypes",
+      "Ignoring feedback",
+      "Following the first idea only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is divergent thinking?",
+    "options": [
+      "Selecting one final solution",
+      "Generating multiple possible ideas and approaches",
+      "Removing all alternatives",
+      "Finalizing the implementation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is convergent thinking?",
+    "options": [
+      "Generating unlimited ideas",
+      "Ignoring constraints",
+      "Narrowing options to identify promising solutions",
+      "Avoiding evaluation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is an empathy map used for?",
+    "options": [
+      "Creating server architecture",
+      "Designing database schemas",
+      "Writing application code",
+      "Understanding what users say, think, do, and feel"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "Why should ideas be tested with real users?",
+    "options": [
+      "To determine whether the solution addresses real user needs",
+      "To eliminate research",
+      "To prevent iteration",
+      "To avoid collecting feedback"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is a user journey map useful for?",
+    "options": [
+      "Managing source code",
+      "Visualizing a user's experience across different stages",
+      "Configuring a database",
+      "Creating a logo"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is a prototype's role in Design Thinking?",
+    "options": [
+      "It is always the final product",
+      "It replaces all research",
+      "It makes ideas tangible so they can be explored and tested",
+      "It prevents feedback"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "Which activity is most appropriate during the Empathize stage?",
+    "options": [
+      "Finalizing the user interface",
+      "Writing production code",
+      "Launching the product",
+      "Conducting interviews and observations"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is a How Might We question?",
+    "options": [
+      "A question framed to encourage possible solution ideas",
+      "A database query",
+      "A programming command",
+      "A final product requirement"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is co-creation?",
+    "options": [
+      "Designing without users",
+      "Creating solutions collaboratively with relevant stakeholders or users",
+      "Creating only technical documentation",
+      "Working without feedback"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is the benefit of creating low-fidelity prototypes?",
+    "options": [
+      "They are always production-ready",
+      "They eliminate user testing",
+      "They allow ideas to be explored quickly and inexpensively",
+      "They require more development time"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What should designers do when testing reveals a major problem?",
+    "options": [
+      "Ignore the finding",
+      "Launch the product immediately",
+      "Delete all research",
+      "Use the finding to refine or rethink the solution"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is human-centered design?",
+    "options": [
+      "An approach that places people's needs and experiences at the center of problem solving",
+      "A method focused only on technology",
+      "A database design method",
+      "A server management process"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "Why is reframing a problem useful?",
+    "options": [
+      "It makes research unnecessary",
+      "It can reveal new perspectives and possible solutions",
+      "It prevents ideation",
+      "It guarantees one fixed solution"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What does experimentation mean in Design Thinking?",
+    "options": [
+      "Avoiding uncertain ideas",
+      "Finalizing designs without testing",
+      "Trying ideas to learn what works and what does not",
+      "Ignoring user behavior"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "Which principle supports generating many ideas before selecting one?",
+    "options": [
+      "Early implementation",
+      "Immediate validation",
+      "Premature finalization",
+      "Divergent ideation"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is a design challenge?",
+    "options": [
+      "A problem or opportunity framed for creative problem solving",
+      "A programming bug",
+      "A database error",
+      "A server failure"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "Why is collaboration valuable in Design Thinking?",
+    "options": [
+      "It removes different perspectives",
+      "It brings diverse perspectives and knowledge into the process",
+      "It prevents experimentation",
+      "It eliminates user involvement"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is the main difference between ideation and prototyping?",
+    "options": [
+      "Ideation tests servers while prototyping tests databases",
+      "Ideation is only for developers",
+      "Ideation generates possible solutions, while prototyping makes selected ideas tangible",
+      "Prototyping happens before identifying a problem"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Design Thinking",
+    "question": "What is the final stage of Design Thinking commonly associated with?",
+    "options": [
+      "Creating the first idea",
+      "Avoiding feedback",
+      "Defining the problem",
+      "Testing solutions and learning from user feedback"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is Canva primarily used for?",
+    "options": [
+      "Creating visual designs and graphics",
+      "Managing databases",
+      "Writing backend applications",
+      "Configuring servers"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "Which type of content can be created using Canva?",
+    "options": [
+      "Database schemas",
+      "Social media graphics",
+      "Server configurations",
+      "Programming libraries"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is a Canva template?",
+    "options": [
+      "A programming framework",
+      "A database structure",
+      "A pre-designed layout that can be customized",
+      "A server component"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "Why are templates useful in Canva?",
+    "options": [
+      "They prevent customization",
+      "They require coding knowledge",
+      "They remove visual elements",
+      "They help users create designs quickly using predefined layouts"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is the purpose of Canva's text tools?",
+    "options": [
+      "To add and format text in a design",
+      "To manage databases",
+      "To create server APIs",
+      "To configure networks"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "Which feature helps users add visual resources to Canva designs?",
+    "options": [
+      "Terminal",
+      "Elements",
+      "Database",
+      "Compiler"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is the purpose of the Canva Elements section?",
+    "options": [
+      "To manage passwords",
+      "To write JavaScript",
+      "To access graphics, shapes, icons, and other design resources",
+      "To configure servers"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is a brand kit used for?",
+    "options": [
+      "Managing employee attendance",
+      "Creating database backups",
+      "Installing applications",
+      "Keeping brand assets such as colors, fonts, and logos organized for design use"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What should be considered when selecting a Canva template?",
+    "options": [
+      "Whether its layout and purpose match the intended content",
+      "The database size",
+      "The server operating system",
+      "The programming language"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "Which design principle is important when creating a Canva poster?",
+    "options": [
+      "Database normalization",
+      "Visual hierarchy",
+      "Server scaling",
+      "Code optimization"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "Why is alignment important in Canva designs?",
+    "options": [
+      "It increases file size",
+      "It changes the brand identity",
+      "It creates visual order and makes the layout easier to understand",
+      "It removes the need for typography"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is the purpose of resizing a Canva design?",
+    "options": [
+      "To change the programming language",
+      "To create database relationships",
+      "To increase server capacity",
+      "To adapt the design to different dimensions or formats"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "Which content is commonly designed in Canva for social media?",
+    "options": [
+      "Posts and stories",
+      "Database queries",
+      "Server logs",
+      "API documentation"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is the purpose of grouping elements in a design?",
+    "options": [
+      "To remove all elements",
+      "To move or manage related elements together",
+      "To prevent editing",
+      "To change the file type"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "Why should designers avoid overcrowding a Canva layout?",
+    "options": [
+      "It increases server usage",
+      "It reduces image resolution",
+      "It can make the design difficult to read and understand",
+      "It prevents exporting"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "Which export format is commonly suitable for a digital photograph?",
+    "options": [
+      "TXT",
+      "SVG only",
+      "MP3",
+      "JPG"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "Which format can be useful when transparency is required in a graphic?",
+    "options": [
+      "PNG",
+      "TXT",
+      "MP3",
+      "CSV"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is the purpose of Canva's Position tools?",
+    "options": [
+      "To create databases",
+      "To align and arrange elements within a design",
+      "To write code",
+      "To manage user accounts"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is transparency in a design element?",
+    "options": [
+      "The number of colors used",
+      "The size of the element",
+      "The degree to which the element allows the background to show through",
+      "The font family"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "Why is consistent typography useful in a Canva presentation?",
+    "options": [
+      "It makes every slide unrelated",
+      "It removes visual hierarchy",
+      "It prevents editing",
+      "It creates a cohesive and professional appearance"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is a presentation template used for?",
+    "options": [
+      "To provide a predefined structure for presentation slides",
+      "To manage databases",
+      "To configure servers",
+      "To write application code"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What does visual consistency mean in Canva?",
+    "options": [
+      "Using different styles on every page",
+      "Maintaining related colors, typography, spacing, and visual patterns",
+      "Using only photographs",
+      "Removing all design elements"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is the purpose of image cropping?",
+    "options": [
+      "To change the file into a database",
+      "To increase server speed",
+      "To remove unwanted portions and focus the composition",
+      "To write text automatically"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "Which factor is important when designing a social media post?",
+    "options": [
+      "Database indexing",
+      "Programming syntax",
+      "Server configuration",
+      "The platform's recommended dimensions and format"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is a text hierarchy in Canva?",
+    "options": [
+      "Using different text sizes or weights to show levels of importance",
+      "Using only one font size",
+      "Removing headings",
+      "Using random text placement"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is the purpose of duplicate functionality in Canva?",
+    "options": [
+      "To delete all designs",
+      "To quickly create a copy of an existing design or element",
+      "To change the operating system",
+      "To create a database"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "Why is contrast useful in Canva designs?",
+    "options": [
+      "It reduces readability",
+      "It makes all elements identical",
+      "It helps important elements stand out",
+      "It removes visual hierarchy"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is a Canva page?",
+    "options": [
+      "A database table",
+      "A server configuration",
+      "A programming file",
+      "An individual canvas or slide within a Canva design"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "What is the benefit of using a limited color palette in a design?",
+    "options": [
+      "It can create a more cohesive and organized visual appearance",
+      "It removes all visual hierarchy",
+      "It makes text unreadable",
+      "It prevents the use of images"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "UI/UX & Graphic Design",
+    "program": "Canva Design Fundamentals",
+    "question": "Why should designers check spelling before publishing a Canva design?",
+    "options": [
+      "To improve database performance",
+      "To avoid visible content errors and maintain professionalism",
+      "To increase image resolution",
+      "To change the file format"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  }
+]
