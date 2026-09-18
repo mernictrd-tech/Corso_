@@ -142,6 +142,10 @@
     },
     "courses": [
       {
+        "name": "C++ Programming",
+        "description": "Learn C++ programming including object-oriented programming, STL, classes, inheritance, and polymorphism."
+      },
+      {
         "name": "Programming Fundamentals",
         "description": "Learn fundamental programming concepts including variables, conditions, loops, functions, and problem solving."
       },
@@ -159,12 +163,7 @@
       },
       {
         "name": "C Programming",
-        "description": "Learn C programming fundamentals including data types, pointers, functions, arrays, and memory management."
-      },
-      {
-        "name": "C++ Programming",
-        "description": "Learn C++ programming including object-oriented programming, STL, classes, inheritance, and polymorphism."
-      },
+        "description": "Learn C programming fundamentals including data types, pointers, functions, arrays, and memory management."      },
       {
         "name": "Object-Oriented Programming",
         "description": "Understand object-oriented programming concepts such as classes, objects, inheritance, encapsulation, and polymorphism."
@@ -538,95 +537,6 @@
         "description": "Learn how to create professional graphics, presentations, social media content, and marketing materials using Canva."
       }
     ]
-  },
-  {
-    "name": "Emerging Technologies",
-    "pricing": {
-      "originalPrice": 999,
-      "sellingPrice": 599
-    },
-    "courses": [
-      {
-        "name": "Internet of Things Fundamentals",
-        "description": "Learn the fundamentals of IoT, connected devices, sensors, communication, and IoT applications."
-      },
-      {
-        "name": "Blockchain Fundamentals",
-        "description": "Understand blockchain concepts including distributed ledgers, blocks, consensus, and decentralized applications."
-      },
-      {
-        "name": "Robotics Fundamentals",
-        "description": "Learn the fundamentals of robotics including sensors, actuators, control systems, and robotic applications."
-      },
-      {
-        "name": "Internet of Things Security",
-        "description": "Learn security principles and practices for protecting IoT devices, networks, and connected systems."
-      },
-      {
-        "name": "Augmented & Virtual Reality",
-        "description": "Learn the fundamentals of AR and VR technologies, applications, and immersive experiences."
-      },
-      {
-        "name": "RPA Fundamentals",
-        "description": "Learn the fundamentals of Robotic Process Automation and how software bots automate repetitive tasks."
-      },
-      {
-        "name": "Semiconductor Fundamentals",
-        "description": "Learn fundamental semiconductor concepts, components, manufacturing, and applications."
-      },
-      {
-        "name": "Embedded Systems Fundamentals",
-        "description": "Learn the fundamentals of embedded systems, microcontrollers, hardware interfaces, and embedded programming."
-      },
-      {
-        "name": "Electric Vehicle Fundamentals",
-        "description": "Learn the fundamentals of electric vehicles, batteries, motors, charging systems, and EV technologies."
-      }
-    ]
-  },
-  {
-    "name": "IT Support, Networking & Infrastructure",
-    "pricing": {
-      "originalPrice": 699,
-      "sellingPrice": 349
-    },
-    "courses": [
-      {
-        "name": "IT Support Fundamentals",
-        "description": "Learn fundamental IT support concepts including troubleshooting, hardware, software, and user assistance."
-      },
-      {
-        "name": "Computer Fundamentals",
-        "description": "Learn fundamental computer concepts including hardware, software, operating systems, and basic troubleshooting."
-      },
-      {
-        "name": "Networking Fundamentals",
-        "description": "Learn fundamental networking concepts including protocols, devices, IP addressing, and network communication."
-      },
-      {
-        "name": "Windows Administration Fundamentals",
-        "description": "Learn the fundamentals of Windows system administration, configuration, users, permissions, and troubleshooting."
-      },
-      {
-        "name": "Linux Fundamentals",
-        "description": "Learn Linux fundamentals including commands, file systems, permissions, processes, and basic administration."
-      },
-      {
-        "name": "System Administration Fundamentals",
-        "description": "Learn the fundamentals of managing operating systems, servers, users, resources, and IT infrastructure."
-      },
-      {
-        "name": "Network Administration",
-        "description": "Learn how to configure, manage, monitor, and troubleshoot computer networks."
-      },
-      {
-        "name": "Technical Support Specialist",
-        "description": "Develop practical skills for diagnosing technical problems and providing effective IT support."
-      },
-      {
-        "name": "IT Infrastructure Fundamentals",
-        "description": "Learn the fundamentals of IT infrastructure including servers, networks, storage, systems, and enterprise technologies."
-      }
-    ]
   }
+ 
 ]
