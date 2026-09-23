@@ -10,83 +10,137 @@ const Terms = () => {
           </h1>
 
           <p className="mb-10 text-gray-400">
-            <strong>Last Updated:</strong> July 2026
+            <strong>Last Updated:</strong> September 2026
           </p>
 
           <div className="space-y-10 text-gray-300 leading-8">
             <div>
               <h2 className="mb-3 text-2xl font-semibold text-white">
-                1. Information We Collect
+                1. Acceptance of Terms
               </h2>
               <p>
-                Skilium collects information you provide while creating an account,
-                enrolling in courses, completing assessments, purchasing
-                certifications, or contacting our support team. This may include
-                your name, email address, phone number, educational background,
-                professional information, payment details, and account
-                credentials.
+                By accessing or using the Skilium platform, you agree to comply 
+                with these Terms & Conditions. If you do not agree with any part of these terms, 
+                please do not use our platform or services.
               </p>
             </div>
 
             <div>
               <h2 className="mb-3 text-2xl font-semibold text-white">
-                2. How We Use Your Information
+                2. Account Registration
               </h2>
               <p>
-                We use your information to provide learning services, conduct
-                assessments, issue certificates, improve our platform, process
-                payments, respond to support requests, send important updates,
-                and maintain the security of your account.
+                Users are responsible for providing accurate and complete information while 
+                creating an account. You are responsible for maintaining the confidentiality of 
+                your account credentials and for all activities carried out through your account.
               </p>
             </div>
 
             <div>
               <h2 className="mb-3 text-2xl font-semibold text-white">
-                3. Cookies & Analytics
+                3. Courses & Assessments
               </h2>
               <p>
-                Our website uses cookies and analytics tools to improve user
-                experience, understand website usage, remember preferences, and
-                enhance platform performance.
+                Skilium provides technical and non-technical courses, assessments, and 
+                learning resources. Users are expected to complete assessments independently 
+                and provide accurate information during registration and assessment processes.
               </p>
             </div>
 
             <div>
               <h2 className="mb-3 text-2xl font-semibold text-white">
-                4. Data Security
+                4. Certifications
               </h2>
               <p>
-                We implement appropriate technical and organizational security
-                measures to safeguard your personal information from unauthorized
-                access, disclosure, alteration, or destruction.
+                Certificates are issued based on the successful completion of applicable 
+                assessments and certification requirements. Skilium reserves the right to withhold, 
+                suspend, or revoke a certificate in cases of fraudulent activity, misuse, or violation 
+                of assessment guidelines.
               </p>
             </div>
 
             <div>
               <h2 className="mb-3 text-2xl font-semibold text-white">
-                5. Certificate Verification
+                5. Payments & Refunds
               </h2>
               <p>
-                Skilium certificates may be verified through a unique certificate
-                ID. Only information necessary for verification will be publicly
-                displayed.
+                Certain courses, assessments, and certification services may require payment. 
+                Users agree to provide accurate payment information and complete applicable payments 
+                before accessing paid services. Refunds, where applicable, will be governed by Skilium's 
+                refund and cancellation policy.
               </p>
             </div>
 
             <div>
               <h2 className="mb-3 text-2xl font-semibold text-white">
-                6. Changes to this Policy
+                6. User Conduct
               </h2>
               <p>
-                We may update this Privacy Policy periodically. Continued use of
-                the platform after changes indicates your acceptance of the
-                revised policy.
+                Users must not misuse the platform, attempt to gain unauthorized access, 
+                copy or distribute assessment content, impersonate another person, or engage in 
+                activities that may negatively affect the platform or other users.
               </p>
             </div>
 
             <div>
               <h2 className="mb-3 text-2xl font-semibold text-white">
-                7. Contact Us
+                7. Intellectual Property
+              </h2>
+              <p>
+                All content available on Skilium, including course materials, assessments, 
+                questions, designs, logos, text, graphics, and other resources, is the property 
+                of Skilium or its respective content providers and may not be copied, reproduced, 
+                or distributed without prior permission.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="mb-3 text-2xl font-semibold text-white">
+                8. Certificate Verification
+              </h2>
+              <p>
+                Skilium certificates may include a unique certificate ID or verification mechanism. 
+                Skilium may provide limited certificate-related information for verification purposes 
+                while maintaining appropriate privacy protections.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="mb-3 text-2xl font-semibold text-white">
+                9. Platform Availability
+              </h2>
+              <p>
+                Skilium strives to maintain reliable and secure platform services but does not 
+                guarantee uninterrupted or error-free access at all times. Maintenance, technical 
+                issues, or circumstances beyond our control may temporarily affect platform availability.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="mb-3 text-2xl font-semibold text-white">
+                10. Limitation of Liability
+              </h2>
+              <p>
+                Skilium provides learning, assessment, and certification services to support 
+                skill development and professional growth. However, certification does not guarantee 
+                employment, promotion, admission, or any specific career outcome.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="mb-3 text-2xl font-semibold text-white">
+                11. Changes to these Terms
+              </h2>
+              <p>
+                Skilium may update these Terms & Conditions from time to time to reflect 
+                changes in our services, policies, or applicable requirements. Continued 
+                use of the platform after changes are published constitutes acceptance of the updated terms.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="mb-3 text-2xl font-semibold text-white">
+                12. Contact Us
               </h2>
               <p>
                 If you have any questions regarding this Privacy Policy, please

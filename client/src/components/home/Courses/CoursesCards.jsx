@@ -26,7 +26,7 @@ const CoursesCards = () => {
 
             setError(
                 error.response?.data?.message ||
-                    "Failed to load courses."
+                "Failed to load courses."
             );
         } finally {
             setLoading(false);
@@ -113,7 +113,7 @@ const CoursesCards = () => {
                             type="text"
                             placeholder={
                                 activeCategoryName &&
-                                activeCategoryName !== "Courses"
+                                    activeCategoryName !== "Courses"
                                     ? `Search in ${activeCategoryName}...`
                                     : "Search courses..."
                             }
@@ -158,7 +158,7 @@ const CoursesCards = () => {
 
                         <span className="rounded-full border border-slate-700 bg-[#171D2B] px-3 py-1.5 text-xs font-medium text-gray-300 sm:px-4 sm:py-2 sm:text-sm">
                             <span className="mr-1.5 inline-block h-2 w-2 rounded-full bg-indigo-400 sm:mr-2 sm:h-2.5 sm:w-2.5" />
-                            Pass 50%+
+                            Pass 70%
                         </span>
                     </div>
                 </div>
@@ -177,7 +177,7 @@ const CoursesCards = () => {
 
                         {/* Desktop Categories */}
                         <div
-                            className="hidden max-h-[600px] overflow-y-auto pr-2 lg:block"
+                            className="hidden max-h-[960px]  pr-2 lg:block"
                             style={{
                                 scrollbarWidth: "thin",
                                 scrollbarColor:
@@ -193,12 +193,11 @@ const CoursesCards = () => {
                                                 category._id
                                             )
                                         }
-                                        className={`w-full rounded-2xl border px-5 py-4 text-left text-base font-semibold transition-all duration-200 ${
-                                            activeCategory ===
+                                        className={`w-full rounded-2xl border px-4 py-4.5 text-left text-base font-semibold transition-all duration-200 ${activeCategory ===
                                             category._id
-                                                ? "border-white bg-white text-[#111827]"
-                                                : "border-slate-700 bg-[#1A2030] text-gray-300 hover:border-slate-500 hover:bg-[#222938]"
-                                        }`}
+                                            ? "border-white bg-white text-[#111827]"
+                                            : "border-slate-700 bg-[#1A2030] text-gray-300 hover:border-slate-500 hover:bg-[#222938]"
+                                            }`}
                                     >
                                         {category.name}
                                     </button>
@@ -223,12 +222,11 @@ const CoursesCards = () => {
                                             category._id
                                         )
                                     }
-                                    className={`shrink-0 rounded-full border px-4 py-2.5 text-xs font-semibold transition-all duration-200 sm:px-5 sm:py-3 sm:text-sm ${
-                                        activeCategory ===
+                                    className={`shrink-0 rounded-full border px-4 py-2.5 text-xs font-semibold transition-all duration-200 sm:px-5 sm:py-3 sm:text-sm ${activeCategory ===
                                         category._id
-                                            ? "border-white bg-white text-[#111827]"
-                                            : "border-slate-700 bg-[#1A2030] text-gray-300"
-                                    }`}
+                                        ? "border-white bg-white text-[#111827]"
+                                        : "border-slate-700 bg-[#1A2030] text-gray-300"
+                                        }`}
                                 >
                                     {category.name}
                                 </button>
@@ -272,25 +270,24 @@ const CoursesCards = () => {
                         {!loading &&
                             !error &&
                             filteredPrograms.length > 0 && (
-                                <div className="grid grid-cols-2 gap-3 sm:gap-5 xl:grid-cols-3">
+                                <div className="max-h-[1040px] overflow-y-auto pr-2 pt-1 pb-4 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-slate-700">
 
-                                    {filteredPrograms.map(
-                                        (program) => (
+                                    <div className="grid grid-cols-2 items-stretch gap-3 sm:gap-5 xl:grid-cols-3">
+
+                                        {filteredPrograms.map((program) => (
                                             <div
                                                 key={program._id}
-                                                className="group min-w-0 overflow-hidden rounded-2xl border border-slate-800 bg-[#080D1B] transition-all duration-300 hover:-translate-y-1 hover:border-slate-600 sm:rounded-[28px]"
+                                                className="group flex min-w-0 h-full flex-col overflow-hidden rounded-2xl border border-slate-800 bg-[#080D1B] transition-all duration-300 hover:-translate-y-1 hover:border-slate-600 sm:rounded-[28px]"
                                             >
 
                                                 {/* ================= IMAGE ================= */}
 
-                                                <div className="relative aspect-[16/9] overflow-hidden bg-black">
+                                                <div className="relative aspect-[16/9] shrink-0 overflow-hidden bg-black">
 
                                                     {program.thumbnail ? (
                                                         <img
                                                             src={`${import.meta.env.VITE_API_BASE_URL_RESOURCE}${program.thumbnail}`}
-                                                            alt={
-                                                                program.name
-                                                            }
+                                                            alt={program.name}
                                                             className="h-full w-full object-contain transition duration-500 group-hover:scale-[1.02]"
                                                         />
                                                     ) : (
@@ -303,65 +300,53 @@ const CoursesCards = () => {
 
                                                 {/* ================= CONTENT ================= */}
 
-                                                <div className="p-3 sm:p-5">
+                                                <div className="flex flex-1 flex-col p-3 sm:p-5">
 
                                                     {/* Category */}
-                                                    <p className="mb-1 text-[10px] font-medium text-cyan-400 sm:mb-1.5 sm:text-sm">
-                                                        {
-                                                            program
-                                                                .category
-                                                                ?.name
-                                                        }
+                                                    <p className="mb-1 min-h-[16px] text-[10px] font-medium text-cyan-400 sm:mb-1.5 sm:min-h-[21px] sm:text-sm">
+                                                        {program.category?.name}
                                                     </p>
 
                                                     {/* Course Name */}
-                                                    <h3 className="line-clamp-2 text-sm font-bold leading-5 text-white sm:text-2xl sm:leading-normal">
-                                                        {
-                                                            program.name
-                                                        }
+                                                    <h3 className="min-h-[40px] text-sm font-bold leading-5 text-white sm:min-h-[58px] sm:text-[20px] sm:leading-normal">
+                                                        {program.name}
                                                     </h3>
 
                                                     {/* Description */}
-                                                    <p className="mt-1.5 line-clamp-2 text-[10px] leading-4 text-gray-400 sm:mt-2 sm:text-base sm:leading-5">
+                                                    <p className="mt-0.5 text-[10px] leading-4 text-gray-400 sm:mt-1 sm:text-base sm:leading-5">
                                                         {program.description ||
                                                             "No description available."}
                                                     </p>
 
                                                     {/* Price */}
-                                                    <div className="mt-2 flex min-w-0 flex-wrap items-center gap-1.5 sm:mt-3 sm:gap-3">
+                                                    <div className="mt-2 mb-5 flex min-w-0 flex-wrap items-center gap-1.5 sm:mt-3 sm:mb-6 sm:gap-3">
 
                                                         <span className="text-sm font-bold text-white sm:text-xl">
-                                                            ₹
-                                                            {
-                                                                program.sellingPrice
-                                                            }
+                                                            ₹{program.sellingPrice}
                                                         </span>
 
                                                         {program.originalPrice >
                                                             program.sellingPrice && (
-                                                            <span className="text-[9px] text-gray-500 line-through sm:text-sm">
-                                                                ₹
-                                                                {
-                                                                    program.originalPrice
-                                                                }
-                                                            </span>
-                                                        )}
+                                                                <span className="text-[9px] text-gray-500 line-through sm:text-sm">
+                                                                    ₹{program.originalPrice}
+                                                                </span>
+                                                            )}
 
                                                     </div>
 
                                                     {/* Start Button */}
                                                     <Link
                                                         to={`/course/${program.slug}`}
-                                                        className="mt-3 flex w-full items-center justify-center rounded-lg bg-cyan-500 px-2 py-2 text-[11px] font-semibold text-white transition-all duration-200 hover:bg-cyan-400 sm:mt-4 sm:rounded-xl sm:py-3.5 sm:text-lg"
+                                                        className="mt-auto flex w-full items-center justify-center rounded-lg bg-cyan-500 px-2 py-2 text-[11px] font-semibold text-white transition-all duration-200 hover:bg-cyan-400 sm:rounded-xl sm:py-3.5 sm:text-lg"
                                                     >
                                                         Start →
                                                     </Link>
 
                                                 </div>
                                             </div>
-                                        )
-                                    )}
+                                        ))}
 
+                                    </div>
                                 </div>
                             )}
 
