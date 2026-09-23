@@ -19,11 +19,19 @@ export const jobRoles = [
     title: "Cloud Engineer",
     description: "Prove your knowledge of modern cloud platforms and services.",
   },
+  {
+    title: "HR Resources",
+    description: "Build your knowledge of HR practices and people management.",
+  },
 ];
 
 export const audience = [
   "Freshers",
   "Career switchers",
   "Working professionals",
+  "Freelancers",
   "Internship seekers",
+  "Skill Developers",
+  "Certification Seekers",
+  "Learner"
 ];

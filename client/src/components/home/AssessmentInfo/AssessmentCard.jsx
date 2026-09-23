@@ -9,7 +9,7 @@ const AssessmentCard = () => {
       </h3>
 
       <div className="mt-4 flex flex-col gap-4 sm:flex-row sm:gap-5">
-        
+
         <div className="w-full rounded-2xl border border-white/10 bg-white/5 px-5 py-4 sm:w-[260px]">
           <p className="text-sm text-gray-400">Level</p>
           <h4 className="mt-1 text-lg font-semibold text-white">
@@ -20,7 +20,7 @@ const AssessmentCard = () => {
         <div className="w-full rounded-2xl border border-white/10 bg-white/5 px-5 py-4 sm:w-[320px]">
           <p className="text-sm text-gray-400">Category</p>
           <h4 className="mt-1 text-lg font-semibold text-white">
-            Technical Courses
+            Technical/Non-Technical Courses
           </h4>
         </div>
 
@@ -31,9 +31,14 @@ const AssessmentCard = () => {
       </h5>
 
       <p className="mt-4 text-[17px] leading-6 text-gray-300">
-        Skilium evaluates practical technical competencies through focused
-        assessments, helping learners earn recognized certifications that
-        strengthen their career prospects.
+        Skilium is a skill assessment and certification platform offering a diverse range of
+        technical and non-technical courses designed to support continuous learning and professional development.
+        Through focused assessments and structured learning opportunities, Skilium helps learners build relevant knowledge,
+        validate their skills, and earn recognized certifications. From technology and programming to business, management,
+        communication, and other professional domains, Skilium provides learners with opportunities to strengthen their capabilities
+        and demonstrate their expertise with confidence. Our assessments are designed to provide a structured way to evaluate knowledge and competency across different domains.
+        Whether you are a student, working professional, or an individual looking to upskill, Skilium offers flexible opportunities for continuous growth.
+        Through learning, assessment, and certification, Skilium aims to help learners build confidence and showcase their skills in today's competitive environment.
       </p>
 
       <a
