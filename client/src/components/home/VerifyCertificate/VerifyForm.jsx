@@ -113,7 +113,7 @@ const VerifyForm = () => {
               setCertificateId(e.target.value);
               if (error) setError("");
             }}
-            placeholder="Enter Certificate ID (e.g. CRSO-2026-XXXX)"
+            placeholder="Enter Certificate ID (e.g. SKLM-2026-XXXX)"
             className="h-14 sm:h-16 w-full rounded-2xl border border-white/10 bg-[#0F1323] px-5 sm:px-6 text-sm sm:text-base text-white placeholder:text-gray-500 outline-none transition focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400/50"
           />
 

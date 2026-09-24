@@ -20,7 +20,7 @@ import api from "../../services/api";
 import toast from "react-hot-toast";
 import ResultCard from "./ResultCard";
 
-const Assessment = ()  => {
+const Assessment = () => {
   const { courseId } = useParams();
   const navigate = useNavigate();
 
@@ -216,7 +216,7 @@ const Assessment = ()  => {
         if (!sessionResponse.data?.success) {
           throw new Error(
             sessionResponse.data?.message ||
-              "Unable to load assessment session.",
+            "Unable to load assessment session.",
           );
         }
 
@@ -240,7 +240,7 @@ const Assessment = ()  => {
         if (!questionResponse.data?.success) {
           throw new Error(
             questionResponse.data?.message ||
-              "Unable to load assessment questions.",
+            "Unable to load assessment questions.",
           );
         }
 
@@ -372,8 +372,8 @@ const Assessment = ()  => {
         if (mounted) {
           setError(
             err.response?.data?.message ||
-              err.message ||
-              "Unable to load assessment.",
+            err.message ||
+            "Unable to load assessment.",
           );
 
           setLoading(false);
@@ -616,8 +616,8 @@ const Assessment = ()  => {
 
         setError(
           err.response?.data?.message ||
-            err.message ||
-            "Unable to submit assessment.",
+          err.message ||
+          "Unable to submit assessment.",
         );
       } finally {
         setSubmitting(false);
@@ -1040,11 +1040,10 @@ const Assessment = ()  => {
 
           <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             <div
-              className={`flex items-center gap-1.5 sm:gap-2 rounded-xl border px-2.5 sm:px-3.5 py-1.5 text-xs sm:text-sm font-mono font-bold ${
-                isTimeRunningLow
+              className={`flex items-center gap-1.5 sm:gap-2 rounded-xl border px-2.5 sm:px-3.5 py-1.5 text-xs sm:text-sm font-mono font-bold ${isTimeRunningLow
                   ? "border-rose-500/40 bg-rose-500/10 text-rose-400 animate-pulse"
                   : "border-cyan-400/20 bg-cyan-400/10 text-cyan-300"
-              }`}
+                }`}
             >
               <Clock size={14} />
 
@@ -1112,20 +1111,18 @@ const Assessment = ()  => {
                       rounded-2xl border p-3.5 sm:p-4.5
                       transition-all duration-150
                       select-none
-                      ${
-                        isSelected
-                          ? "border-cyan-400 bg-cyan-950/40 text-white shadow-[0_0_25px_rgba(6,182,212,0.18)] ring-1 ring-cyan-400/50"
-                          : "border-white/[0.08] bg-slate-900/60 text-slate-300 hover:border-white/20 hover:bg-slate-800/70 hover:text-white"
-                      }
+                      ${isSelected
+                      ? "border-cyan-400 bg-cyan-950/40 text-white shadow-[0_0_25px_rgba(6,182,212,0.18)] ring-1 ring-cyan-400/50"
+                      : "border-white/[0.08] bg-slate-900/60 text-slate-300 hover:border-white/20 hover:bg-slate-800/70 hover:text-white"
+                    }
                     `}
                 >
                   <div className="flex items-center gap-3 sm:gap-4 pr-3 sm:pr-4 min-w-0">
                     <div
-                      className={`flex h-8 w-8 sm:h-9 sm:w-9 shrink-0 items-center justify-center rounded-xl text-xs sm:text-sm font-bold font-mono ${
-                        isSelected
+                      className={`flex h-8 w-8 sm:h-9 sm:w-9 shrink-0 items-center justify-center rounded-xl text-xs sm:text-sm font-bold font-mono ${isSelected
                           ? "bg-cyan-400 text-slate-950"
                           : "border border-white/10 bg-white/[0.04] text-slate-400"
-                      }`}
+                        }`}
                     >
                       {letter}
                     </div>
@@ -1136,11 +1133,10 @@ const Assessment = ()  => {
                   </div>
 
                   <div
-                    className={`flex h-5 w-5 sm:h-6 sm:w-6 shrink-0 items-center justify-center rounded-full border ${
-                      isSelected
+                    className={`flex h-5 w-5 sm:h-6 sm:w-6 shrink-0 items-center justify-center rounded-full border ${isSelected
                         ? "border-cyan-400 bg-cyan-400 text-slate-950"
                         : "border-white/20 bg-transparent"
-                    }`}
+                      }`}
                   >
                     {isSelected && <Check size={14} strokeWidth={3} />}
                   </div>
@@ -1253,7 +1249,7 @@ const Assessment = ()  => {
 
               <button
                 type="button"
-                onClick={() => navigate(`/course/${courseId}`)}
+                onClick={() => navigate("/", { replace: true })}
                 className="flex-1 rounded-xl bg-rose-500/20 border border-rose-500/30 py-2.5 text-sm font-semibold text-rose-300 cursor-pointer"
               >
                 Exit

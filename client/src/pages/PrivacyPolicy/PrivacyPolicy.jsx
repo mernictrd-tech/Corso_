@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
           </h1>
 
           <p className="mb-10 text-gray-400">
-            <strong>Last Updated:</strong> July 2026
+            <strong>Last Updated:</strong> September 2026
           </p>
 
           <div className="space-y-10 text-gray-300 leading-8">
@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
                 1. Information We Collect
               </h2>
               <p>
-                Sklium collects information you provide while creating an account,
+                Skilium collects information you provide while creating an account,
                 enrolling in courses, completing assessments, purchasing
                 certifications, or contacting our support team. This may include
                 your name, email address, phone number, educational background,

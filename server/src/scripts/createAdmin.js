@@ -17,7 +17,7 @@ const createAdmin = async () => {
 
     console.log("MongoDB Connected");
 
-    const email = "mernictrd@gmail.com";
+    const email = "mernictrd1@gmail.com";
 
     // Check existing admin
     const exists = await Admin.findOne({ email });
@@ -32,7 +32,7 @@ const createAdmin = async () => {
     const admin = await Admin.create({
       name: "Super Admin",
       email,
-      password: "admin@123",
+      password: "admin@1234",
       role: "admin",
       isActive: true,
     });
