@@ -1,217 +1,3 @@
-// import { useState } from "react";
-// import { useNavigate } from "react-router-dom";
-// import PaymentPopup from "./PaymentPopup";
-// import CertificateCard from "./CertificateCard";
-
-// const ResultCard = ({
-//   result,
-//   program,
-//   courseId,
-// }) => {
-//   const [showPayment, setShowPayment] = useState(false);
-//   const [certificate, setCertificate] = useState(null);
-
-//   const navigate = useNavigate();
-
-//   // ---------------------------------------------------------
-//   // Get score safely
-//   // ---------------------------------------------------------
-
-//   const score = Number(
-//     result?.score ?? 0
-//   );
-
-//   // ---------------------------------------------------------
-//   // Get total questions / marks safely
-//   // ---------------------------------------------------------
-
-//   const totalQuestions = Number(
-//     result?.totalQuestions ??
-//       result?.totalMarks ??
-//       result?.total ??
-//       0
-//   );
-
-//   // ---------------------------------------------------------
-//   // Get percentage
-//   // ---------------------------------------------------------
-
-//   let percentage = Number(
-//     result?.percentage
-//   );
-
-//   if (!Number.isFinite(percentage)) {
-//     percentage =
-//       totalQuestions > 0
-//         ? Math.round(
-//             (score / totalQuestions) * 100
-//           )
-//         : 0;
-//   }
-
-//   // Make sure percentage is valid
-//   if (!Number.isFinite(percentage)) {
-//     percentage = 0;
-//   }
-
-//   // ---------------------------------------------------------
-//   // Passed
-//   // ---------------------------------------------------------
-
-//   const passed =
-//     result?.passed !== undefined
-//       ? Boolean(result.passed)
-//       : percentage >= 70;
-
-//   // ---------------------------------------------------------
-//   // Retake
-//   // ---------------------------------------------------------
-
-//   const handleRetake = () => {
-//     navigate(`/assessment/${courseId}`);
-//   };
-
-//   // ---------------------------------------------------------
-//   // Certificate generated
-//   // ---------------------------------------------------------
-
-//   if (certificate) {
-//     return (
-//       <CertificateCard
-//         certificate={certificate}
-//       />
-//     );
-//   }
-
-//   // ---------------------------------------------------------
-//   // Result UI
-//   // ---------------------------------------------------------
-
-//   return (
-//     <div className="min-h-screen bg-[#070B1A] flex items-center justify-center p-6">
-
-//       <div className="max-w-3xl w-full rounded-3xl border border-white/10 bg-white/5 p-10 text-center">
-
-//         {passed ? (
-//           <>
-//             {/* SUCCESS */}
-
-//             <h1 className="text-4xl font-bold text-emerald-400">
-//               Congratulations
-//             </h1>
-
-//             <p className="mt-5 text-white text-xl">
-//               You have passed the assessment
-//             </p>
-
-//             {program?.name && (
-//               <p className="mt-3 text-gray-400">
-//                 {program.name}
-//               </p>
-//             )}
-
-//             <h2 className="mt-6 text-6xl font-bold text-white">
-//               {percentage}%
-//             </h2>
-
-//             <p className="mt-3 text-gray-400">
-//               Minimum passing score: 70%
-//             </p>
-
-//             {/* PAYMENT BUTTON */}
-
-//             {!showPayment && (
-//               <button
-//                 type="button"
-//                 onClick={() =>
-//                   setShowPayment(true)
-//                 }
-//                 className="
-//                   mt-8
-//                   w-full
-//                   rounded-xl
-//                   bg-gradient-to-r
-//                   from-cyan-400
-//                   to-emerald-400
-//                   py-4
-//                   font-bold
-//                   text-black
-//                   transition
-//                   hover:scale-[1.01]
-//                 "
-//               >
-//                 Pay ₹249 For Certificate
-//               </button>
-//             )}
-
-//             {/* PAYMENT POPUP */}
-
-//             {showPayment && (
-//               <PaymentPopup
-//                 assessmentId={
-//                   result?.assessmentId
-//                 }
-//                 programId={
-//                   courseId
-//                 }
-//                 programName={
-//                   program?.name
-//                 }
-//                 onClose={() =>
-//                   setShowPayment(false)
-//                 }
-//                 onCertificateGenerated={(
-//                   generatedCertificate
-//                 ) => {
-//                   setCertificate(
-//                     generatedCertificate
-//                   );
-
-//                   setShowPayment(false);
-//                 }}
-//               />
-//             )}
-//           </>
-//         ) : (
-//           <>
-//             {/* FAILED */}
-
-//             <h1 className="text-4xl font-bold text-red-400">
-//               Try Again
-//             </h1>
-
-//             <p className="mt-5 text-white text-lg">
-//               You need minimum 70% score to pass.
-//             </p>
-
-//             <h2 className="mt-6 text-6xl font-bold text-white">
-//               {percentage}%
-//             </h2>
-
-//             <button
-//               type="button"
-//               onClick={handleRetake}
-//               className="
-//                 mt-8
-//                 w-full
-//                 rounded-xl
-//                 bg-red-500
-//                 py-4
-//                 font-bold
-//                 text-white
-//                 hover:bg-red-600
-//               "
-//             >
-//               Retake Assessment
-//             </button>
-//           </>
-//         )}
-
-//       </div>
-//     </div>
-//   );
-// };
-
 // export default ResultCard;
 
 import { useState } from "react";
@@ -246,10 +32,7 @@ const ResultCard = ({ result, program, courseId }) => {
   // Get total questions / marks safely
   // ---------------------------------------------------------
   const totalQuestions = Number(
-    result?.totalQuestions ??
-      result?.totalMarks ??
-      result?.total ??
-      0
+    result?.totalQuestions ?? result?.totalMarks ?? result?.total ?? 0,
   );
 
   // ---------------------------------------------------------
@@ -259,22 +42,16 @@ const ResultCard = ({ result, program, courseId }) => {
 
   if (!Number.isFinite(percentage)) {
     percentage =
-      totalQuestions > 0
-        ? Math.round((score / totalQuestions) * 100)
-        : 0;
+      totalQuestions > 0 ? Math.round((score / totalQuestions) * 100) : 0;
   }
 
   if (!Number.isFinite(percentage)) {
     percentage = 0;
   }
-
-  // ---------------------------------------------------------
-  // Passed check (70% passing threshold)
-  // ---------------------------------------------------------
+console.log()
   const passed =
-    result?.passed !== undefined
-      ? Boolean(result.passed)
-      : percentage >= 70;
+    result?.passed !== undefined ? Boolean(result.passed) : percentage >= program.passingQuestions;
+
 
   // ---------------------------------------------------------
   // Retake
@@ -319,7 +96,10 @@ const ResultCard = ({ result, program, courseId }) => {
                 {/* Badge */}
                 <div className="flex items-center justify-between gap-2">
                   <div className="inline-flex items-center gap-2 rounded-full border border-emerald-400/40 bg-emerald-500/15 px-4 py-1.5 text-xs sm:text-sm font-bold text-emerald-400 shadow-inner">
-                    <Trophy size={16} className="text-emerald-400 animate-bounce" />
+                    <Trophy
+                      size={16}
+                      className="text-emerald-400 animate-bounce"
+                    />
                     <span>Assessment Passed</span>
                   </div>
                   <span className="text-xs font-semibold uppercase tracking-wider text-emerald-400/80 bg-emerald-950/50 border border-emerald-500/20 px-2.5 py-1 rounded-full">
@@ -337,7 +117,8 @@ const ResultCard = ({ result, program, courseId }) => {
                   <span className="font-semibold text-cyan-300">
                     {program?.name || "technical"}
                   </span>{" "}
-                  assessment. You are now eligible for your industry-recognized certificate.
+                  assessment. You are now eligible for your industry-recognized
+                  certificate.
                 </p>
 
                 {/* Score Display Circle */}
@@ -356,8 +137,13 @@ const ResultCard = ({ result, program, courseId }) => {
                   {totalQuestions > 0 && (
                     <p className="mt-4 text-xs sm:text-sm text-gray-300 font-medium text-center">
                       Correct Answers:{" "}
-                      <span className="text-emerald-400 font-bold">{score}</span> of{" "}
-                      <span className="text-white font-semibold">{totalQuestions}</span>{" "}
+                      <span className="text-emerald-400 font-bold">
+                        {score}
+                      </span>{" "}
+                      of{" "}
+                      <span className="text-white font-semibold">
+                        {totalQuestions}
+                      </span>{" "}
                       questions
                     </p>
                   )}
@@ -387,7 +173,9 @@ const ResultCard = ({ result, program, courseId }) => {
               {/* Optional Retake Link at the bottom */}
               {courseId && (
                 <div className="relative z-10 mt-6 pt-4 border-t border-white/10 flex items-center justify-between">
-                  <span className="text-xs text-gray-400">Want to practice again?</span>
+                  <span className="text-xs text-gray-400">
+                    Want to practice again?
+                  </span>
                   <button
                     type="button"
                     onClick={handleRetake}
@@ -419,7 +207,9 @@ const ResultCard = ({ result, program, courseId }) => {
                   </h2>
 
                   <p className="mt-2 text-xs sm:text-sm text-gray-300 leading-relaxed">
-                    Get your official Skilium certificate with a verifiable ID, permanent ledger verification, and downloadable high-res assets for your resume and LinkedIn.
+                    Get your official Skilium certificate with a verifiable ID,
+                    permanent ledger verification, and downloadable high-res
+                    assets for your resume and LinkedIn.
                   </p>
                 </div>
 
@@ -434,7 +224,10 @@ const ResultCard = ({ result, program, courseId }) => {
                     "One-click LinkedIn & resume shareable",
                     "Instant PNG & PDF high-resolution downloads",
                   ].map((feat, idx) => (
-                    <div key={idx} className="flex items-center gap-2.5 text-xs sm:text-sm text-gray-200">
+                    <div
+                      key={idx}
+                      className="flex items-center gap-2.5 text-xs sm:text-sm text-gray-200"
+                    >
                       <div className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400">
                         <Check size={12} />
                       </div>
@@ -452,21 +245,24 @@ const ResultCard = ({ result, program, courseId }) => {
                       </span>
                       <div className="mt-1 flex items-baseline gap-2">
                         <span className="text-3xl sm:text-4xl font-black text-white">
-                          ₹249
+                          ₹{program.sellingPrice}
                         </span>
-                        <span className="text-sm text-gray-400 line-through">₹999</span>
+                        <span className="text-sm text-gray-400 line-through">
+                          ₹{program.originalPrice}
+                        </span>
                       </div>
                     </div>
 
                     <span className="inline-block rounded-full bg-emerald-500/15 border border-emerald-400/30 px-3 py-1 text-xs text-emerald-400 font-semibold">
-                      75% Limited Discount
+                      {Math.round((program.sellingPrice / program.originalPrice) * 100)}% Limited Discount
                     </span>
                   </div>
 
                   {/* Fast Payment Methods Pill (Mobile Friendly) */}
                   <div className="mt-4 flex flex-wrap items-center justify-between gap-2 rounded-xl bg-white/5 px-3 py-2 border border-white/5 text-[11px] text-gray-300">
                     <span className="flex items-center gap-1.5 text-cyan-300 font-medium">
-                      <Zap size={13} className="fill-cyan-300" /> Fast UPI & Cards:
+                      <Zap size={13} className="fill-cyan-300" /> Fast UPI &
+                      Cards:
                     </span>
                     <span className="font-semibold text-white/90">
                       GPay • PhonePe • Paytm • UPI • Cards
@@ -497,7 +293,9 @@ const ResultCard = ({ result, program, courseId }) => {
               <div>
                 <div className="flex items-baseline gap-1.5">
                   <span className="text-xl font-black text-white">₹249</span>
-                  <span className="text-xs text-gray-400 line-through">₹999</span>
+                  <span className="text-xs text-gray-400 line-through">
+                    ₹999
+                  </span>
                 </div>
                 <span className="text-[10px] font-bold uppercase text-emerald-400">
                   ⚡ 75% OFF • Fast UPI
@@ -530,9 +328,7 @@ const ResultCard = ({ result, program, courseId }) => {
           )}
         </div>
       ) : (
-        /* =======================================================
-           FAILED / RETAKE STATE (SCORE < 70%)
-        ======================================================= */
+
         <div className="relative overflow-hidden rounded-3xl border border-rose-500/30 bg-gradient-to-b from-rose-950/30 via-slate-900 to-slate-950 p-8 sm:p-12 text-center shadow-[0_0_80px_rgba(244,63,94,0.1)]">
           <div className="relative z-10 max-w-xl mx-auto">
             {/* Status Icon */}
@@ -545,19 +341,33 @@ const ResultCard = ({ result, program, courseId }) => {
             </h1>
 
             <p className="mt-3 text-gray-300">
-              You scored <span className="font-bold text-rose-400">{percentage}%</span>. You need a minimum score of <span className="font-bold text-white">70%</span> to earn the verified certificate.
+              You scored{" "}
+              <span className="font-bold text-rose-400">{percentage}%</span>.
+              You need a minimum score of{" "}
+              <span className="font-bold text-white">
+                {program.passingQuestions/10 * 100}%
+              </span>{" "}
+              to earn the verified certificate.
             </p>
 
             {/* Score Pill */}
             <div className="my-8 inline-flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 px-6 py-4">
               <div className="text-left">
-                <span className="block text-xs uppercase text-gray-400">Your Score</span>
-                <span className="text-2xl font-bold text-rose-400">{percentage}%</span>
+                <span className="block text-xs uppercase text-gray-400">
+                  Your Score
+                </span>
+                <span className="text-2xl font-bold text-rose-400">
+                  {percentage}%
+                </span>
               </div>
               <div className="h-8 w-px bg-white/10" />
               <div className="text-left">
-                <span className="block text-xs uppercase text-gray-400">Required</span>
-                <span className="text-2xl font-bold text-emerald-400">70%</span>
+                <span className="block text-xs uppercase text-gray-400">
+                  Required
+                </span>
+                <span className="text-2xl font-bold text-emerald-400">
+                  {program.passingQuestions/10 * 100}%
+                </span>
               </div>
             </div>
 

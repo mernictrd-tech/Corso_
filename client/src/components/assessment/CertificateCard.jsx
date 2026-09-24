@@ -357,7 +357,7 @@ const CertificateCard = ({
                 <span className="text-gray-400">Final Score</span>
                 <span className="inline-flex items-center gap-1 font-bold text-emerald-400">
                   <Sparkles size={14} />
-                  {score * 10}% (Passed)
+                  {(score/program.totalQuestions) * 100}% (Passed)
                 </span>
               </div>
 
@@ -396,15 +396,6 @@ const CertificateCard = ({
                 <span className="flex items-center gap-1.5 text-gray-200">
                   <Calendar size={14} className="text-cyan-400" />
                   {formattedDate}
-                </span>
-              </div>
-
-              {/* Status */}
-              <div className="pt-3 flex items-center justify-between text-sm">
-                <span className="text-gray-400">Verification Status</span>
-                <span className="inline-flex items-center gap-1 rounded-md bg-emerald-500/10 px-2 py-0.5 text-xs font-semibold text-emerald-400 border border-emerald-500/20">
-                  <CheckCircle size={12} />
-                  Verified & Active
                 </span>
               </div>
             </div>
