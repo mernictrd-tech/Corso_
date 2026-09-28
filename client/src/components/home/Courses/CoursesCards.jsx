@@ -177,7 +177,7 @@ const CoursesCards = () => {
 
                         {/* Desktop Categories */}
                         <div
-                            className="hidden max-h-[960px]  pr-2 lg:block"
+                            className="hidden h-[880px] overflow-y-auto  pr-2 lg:block"
                             style={{
                                 scrollbarWidth: "thin",
                                 scrollbarColor:
@@ -188,7 +188,7 @@ const CoursesCards = () => {
                                 {categories.map((category) => (
                                     <button
                                         key={category._id}
-                                        onClick={() =>
+                                        onClick={() => 
                                             setActiveCategory(
                                                 category._id
                                             )
@@ -270,7 +270,7 @@ const CoursesCards = () => {
                         {!loading &&
                             !error &&
                             filteredPrograms.length > 0 && (
-                                <div className="max-h-[1040px] overflow-y-auto pr-2 pt-1 pb-4 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-slate-700">
+                                <div className="max-h-[880px] overflow-y-auto pr-2 pt-1 pb-4 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-slate-700">
 
                                     <div className="grid grid-cols-2 items-stretch gap-3 sm:gap-5 xl:grid-cols-3">
 
