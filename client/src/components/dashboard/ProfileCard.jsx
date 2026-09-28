@@ -11,10 +11,8 @@ const ProfileCard = ({ profile, onEdit, onLogout }) => {
 
   return (
     <div className="rounded-2xl border border-gray-800 bg-gray-900 p-4 sm:p-6 shadow-xl">
-
       {/* Profile Header */}
       <div className="flex items-start justify-between gap-3">
-
         {/* Avatar + Name */}
         <div className="flex items-center gap-3 min-w-0">
           {/* Avatar */}
@@ -22,6 +20,9 @@ const ProfileCard = ({ profile, onEdit, onLogout }) => {
             {profile?.avatar ? (
               <img
                 src={`${import.meta.env.VITE_API_BASE_URL_RESOURCE}${profile.avatar}`}
+                onError={(e) => {
+                  e.currentTarget.src = "/assets/no-img.jpg";
+                }}
                 alt={profile?.fullName || "Profile"}
                 className="h-full w-full object-cover"
               />

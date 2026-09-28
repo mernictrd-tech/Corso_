@@ -9,6 +9,7 @@ import Dashboard from "../pages/Dashboard";
 import Assessment from "../components/assessment/Assessment";
 import ProtectedRoute from "../components/auth/ProtectedRoute";
 import NotFound from "../pages/NotFound";
+import VerifyCertificate from "../components/layout/VerifyCertificate";
 
 const AppRoutes = () => {
   return (
@@ -24,6 +25,8 @@ const AppRoutes = () => {
         <Route path="/assessment/:courseId" element={<Assessment />} />
 
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+
+        <Route path="verify-certificate/:certificateId" element={<VerifyCertificate />} />
 
         <Route path="/terms-and-conditions" element={<Terms />} />
 

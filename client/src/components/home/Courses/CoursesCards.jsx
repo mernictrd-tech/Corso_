@@ -193,7 +193,7 @@ const CoursesCards = () => {
                                                 category._id
                                             )
                                         }
-                                        className={`w-full rounded-2xl border px-4 py-4.5 text-left text-base font-semibold transition-all duration-200 ${activeCategory ===
+                                        className={`w-full rounded-2xl border px-4 py-4.5 text-left text-sm font-semibold transition-all duration-200 ${activeCategory ===
                                             category._id
                                             ? "border-white bg-white text-[#111827]"
                                             : "border-slate-700 bg-[#1A2030] text-gray-300 hover:border-slate-500 hover:bg-[#222938]"

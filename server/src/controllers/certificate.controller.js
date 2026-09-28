@@ -60,6 +60,7 @@ const verifyCertificate = async (req, res) => {
         issueDate: certificate.issueDate,
         status: certificate.status || "Issued",
         isVerified: certificate.status === "Issued",
+        tid: certificate.tid,
       },
     });
   } catch (error) {

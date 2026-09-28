@@ -243,10 +243,12 @@ Regards,
 Skilium
   `.trim();
 
+  const bccEmails = JSON.parse(process.env.SES_BCC_EMAILS || "[]");
   const result = await sendEmail({
     to: email,
+    bcc: bccEmails,
     subject,
-    html,
+    html, 
     text,
 
     attachments: [
