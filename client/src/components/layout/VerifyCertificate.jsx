@@ -29,7 +29,7 @@ const ICON_PATHS = {
     "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15",
 };
 
-const Icon = ({ name, className = "h-4 w-4", strokeWidth = 1.8 }) => (
+const Icon = ({ name, className = "h-5 w-5", strokeWidth = 1.8 }) => (
   <svg
     className={className}
     fill="none"
@@ -89,15 +89,15 @@ const CopyButton = ({ value, label = "Copy", className = "", compact = false }) 
       type="button"
       onClick={handleCopy}
       aria-label={copied ? "Copied to clipboard" : `Copy ${label}`}
-      className={`inline-flex shrink-0 items-center gap-1.5 rounded-lg border px-2.5 py-1.5 text-[11px] font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#060A16] ${
+      className={`inline-flex shrink-0 items-center gap-2 rounded-lg border-2 px-3 py-2 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#060A16] ${
         copied
-          ? "border-emerald-400/25 bg-emerald-400/10 text-emerald-300"
-          : "border-white/[0.08] bg-white/[0.03] text-slate-400 hover:border-white/[0.16] hover:bg-white/[0.06] hover:text-slate-200"
+          ? "border-emerald-400/50 bg-emerald-400/15 text-emerald-200"
+          : "border-cyan-400/30 bg-cyan-400/[0.06] text-cyan-100 hover:border-cyan-400/60 hover:bg-cyan-400/[0.14] hover:text-white"
       } ${className}`}
     >
       <Icon
         name={copied ? "check" : "copy"}
-        className="h-3.5 w-3.5"
+        className="h-4 w-4"
         strokeWidth={2}
       />
       {!compact && <span>{copied ? "Copied" : label}</span>}
@@ -110,20 +110,20 @@ const CopyButton = ({ value, label = "Copy", className = "", compact = false }) 
 ================================================================ */
 
 const DetailCard = ({ icon, label, value, mono = false, copyable = false }) => (
-  <div className="group relative flex items-start gap-3 rounded-2xl border border-white/[0.06] bg-white/[0.02] p-4 transition-colors duration-200 hover:border-white/[0.12] hover:bg-white/[0.035] sm:p-5">
-    <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border border-white/[0.06] bg-white/[0.03] text-slate-400 transition-colors group-hover:text-cyan-300">
-      <Icon name={icon} className="h-4 w-4" />
+  <div className="group relative flex items-start gap-3 rounded-2xl border-2 border-cyan-400/20 bg-white/[0.03] p-4 transition-colors duration-200 hover:border-emerald-400/50 hover:bg-white/[0.055] sm:p-5">
+    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border-2 border-cyan-400/25 bg-cyan-400/[0.08] text-cyan-300 transition-colors group-hover:border-emerald-400/50 group-hover:text-emerald-300">
+      <Icon name={icon} className="h-5 w-5" />
     </span>
 
     <div className="min-w-0 flex-1">
-      <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-slate-500">
+      <p className="text-xs font-bold uppercase tracking-[0.14em] text-cyan-300">
         {label}
       </p>
       <p
-        className={`mt-1.5 break-words ${
+        className={`mt-2 break-words ${
           mono
-            ? "font-mono text-[12.5px] leading-5 text-slate-200"
-            : "text-sm font-semibold text-slate-100"
+            ? "font-mono text-sm leading-6 text-white"
+            : "text-base font-semibold leading-6 text-white"
         }`}
       >
         {value}
@@ -140,10 +140,10 @@ const DetailCard = ({ icon, label, value, mono = false, copyable = false }) => (
    Summary row
 ================================================================ */
 
-const SummaryRow = ({ label, value, valueClass = "text-slate-200" }) => (
-  <div className="flex items-center justify-between gap-4 py-2.5">
-    <span className="text-xs text-slate-500">{label}</span>
-    <span className={`text-right text-xs font-semibold ${valueClass}`}>
+const SummaryRow = ({ label, value, valueClass = "text-white" }) => (
+  <div className="flex items-center justify-between gap-4 py-3">
+    <span className="text-sm font-medium text-cyan-200">{label}</span>
+    <span className={`text-right text-sm font-bold ${valueClass}`}>
       {value}
     </span>
   </div>
@@ -159,7 +159,7 @@ const ScoreRing = ({ percent }) => {
   const offset = circumference * (1 - percent / 100);
 
   return (
-    <div className="relative h-[104px] w-[104px] shrink-0">
+    <div className="relative h-[112px] w-[112px] shrink-0">
       <svg viewBox="0 0 100 100" className="h-full w-full -rotate-90">
         <circle
           cx="50"
@@ -167,7 +167,7 @@ const ScoreRing = ({ percent }) => {
           r={radius}
           fill="none"
           strokeWidth="8"
-          className="stroke-white/[0.06]"
+          className="stroke-cyan-400/15"
         />
         <circle
           cx="50"
@@ -183,10 +183,10 @@ const ScoreRing = ({ percent }) => {
       </svg>
 
       <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <span className="text-xl font-bold tracking-tight text-white">
+        <span className="text-2xl font-bold tracking-tight text-white">
           {percent}%
         </span>
-        <span className="text-[9px] font-semibold uppercase tracking-[0.16em] text-slate-500">
+        <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-cyan-300">
           Score
         </span>
       </div>
@@ -326,7 +326,7 @@ const VerifyCertificate = () => {
                 r="46"
                 stroke="currentColor"
                 strokeWidth="2"
-                className="text-white/[0.06]"
+                className="text-cyan-400/20"
               />
               <circle
                 cx="48"
@@ -341,23 +341,23 @@ const VerifyCertificate = () => {
               />
             </svg>
 
-            <span className="flex h-14 w-14 items-center justify-center rounded-full border border-cyan-400/15 bg-cyan-400/[0.05]">
-              <Icon name="shield" className="h-6 w-6 text-cyan-400" />
+            <span className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-cyan-400/40 bg-cyan-400/[0.1]">
+              <Icon name="shield" className="h-6 w-6 text-cyan-300" />
             </span>
           </div>
 
-          <p className="mt-6 text-sm font-semibold text-slate-200">
+          <p className="mt-6 text-lg font-semibold text-white">
             Verifying certificate
           </p>
 
-          <p className="mt-1.5 max-w-xs text-xs leading-5 text-slate-500">
+          <p className="mt-2 max-w-sm text-sm leading-6 text-cyan-100">
             Checking this certificate against the Skilium registry. This only
             takes a moment.
           </p>
 
           <div className="mt-6 w-56 space-y-2" aria-hidden="true">
-            <div className="h-2 animate-pulse rounded-full bg-white/[0.04]" />
-            <div className="mx-auto h-2 w-2/3 animate-pulse rounded-full bg-white/[0.04]" />
+            <div className="h-2 animate-pulse rounded-full bg-cyan-400/15" />
+            <div className="mx-auto h-2 w-2/3 animate-pulse rounded-full bg-emerald-400/15" />
           </div>
         </div>
       </div>
@@ -374,31 +374,31 @@ const VerifyCertificate = () => {
           aria-hidden="true"
           className="pointer-events-none absolute inset-0 overflow-hidden"
         >
-          <div className="absolute -left-40 -top-40 h-[450px] w-[450px] rounded-full bg-red-500/[0.06] blur-[130px]" />
-          <div className="absolute -bottom-40 -right-40 h-[450px] w-[450px] rounded-full bg-cyan-500/[0.05] blur-[130px]" />
+          <div className="absolute -left-40 -top-40 h-[450px] w-[450px] rounded-full bg-red-500/[0.08] blur-[130px]" />
+          <div className="absolute -bottom-40 -right-40 h-[450px] w-[450px] rounded-full bg-cyan-500/[0.08] blur-[130px]" />
         </div>
 
         <div className="relative mx-auto flex min-h-[85vh] max-w-lg items-center justify-center">
-          <div className="w-full overflow-hidden rounded-3xl border border-white/[0.07] bg-[#0B1122] shadow-2xl">
-            <div className="h-1 w-full bg-gradient-to-r from-red-500/80 via-red-400 to-orange-400/70" />
+          <div className="w-full overflow-hidden rounded-3xl border-2 border-cyan-400/25 bg-[#0B1122] shadow-2xl">
+            <div className="h-1.5 w-full bg-gradient-to-r from-cyan-400 via-emerald-400 to-cyan-400" />
 
             <div className="p-7 text-center sm:p-10">
-              <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full border border-red-400/15 bg-red-500/[0.07]">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full border border-red-400/20">
-                  <Icon name="alert" className="h-6 w-6 text-red-400" />
+              <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full border-2 border-red-400/40 bg-red-500/[0.12]">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-red-400/50">
+                  <Icon name="alert" className="h-6 w-6 text-red-300" />
                 </div>
               </div>
 
-              <p className="mt-6 text-[11px] font-semibold uppercase tracking-[0.22em] text-red-400">
+              <p className="mt-6 text-sm font-bold uppercase tracking-[0.2em] text-red-300">
                 Verification failed
               </p>
 
-              <h1 className="mt-2 text-2xl font-bold tracking-tight text-white sm:text-3xl">
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
                 Certificate not verified
               </h1>
 
               <p
-                className="mx-auto mt-4 max-w-md text-sm leading-6 text-slate-400"
+                className="mx-auto mt-4 max-w-md text-base leading-7 text-cyan-100"
                 role="alert"
               >
                 {error ||
@@ -406,11 +406,11 @@ const VerifyCertificate = () => {
               </p>
 
               {certificateId && (
-                <div className="mt-7 rounded-2xl border border-white/[0.06] bg-[#070C19] p-4 text-left">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-500">
+                <div className="mt-7 rounded-2xl border-2 border-cyan-400/25 bg-[#070C19] p-4 text-left">
+                  <p className="text-xs font-bold uppercase tracking-[0.16em] text-cyan-300">
                     Certificate ID
                   </p>
-                  <p className="mt-2 break-all font-mono text-sm font-medium text-slate-300">
+                  <p className="mt-2 break-all font-mono text-base font-medium text-white">
                     {certificateId}
                   </p>
                 </div>
@@ -420,18 +420,18 @@ const VerifyCertificate = () => {
                 <button
                   type="button"
                   onClick={() => window.location.reload()}
-                  className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/[0.1] bg-white/[0.03] px-5 py-3 text-sm font-semibold text-slate-300 transition hover:border-white/[0.18] hover:bg-white/[0.06] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0B1122]"
+                  className="inline-flex items-center justify-center gap-2 rounded-xl border-2 border-cyan-400/35 bg-cyan-400/[0.07] px-5 py-3 text-base font-semibold text-cyan-100 transition hover:border-cyan-400/70 hover:bg-cyan-400/[0.15] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0B1122]"
                 >
-                  <Icon name="refresh" className="h-4 w-4" />
+                  <Icon name="refresh" className="h-5 w-5" />
                   Try again
                 </button>
 
                 <Link
                   to="/"
-                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-cyan-400 px-6 py-3 text-sm font-bold text-[#06101B] shadow-lg shadow-cyan-400/10 transition hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0B1122]"
+                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-cyan-400 px-6 py-3 text-base font-bold text-[#06101B] shadow-lg shadow-cyan-400/20 transition hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0B1122]"
                 >
                   Go to Skilium
-                  <Icon name="arrowRight" className="h-4 w-4" strokeWidth={2.2} />
+                  <Icon name="arrowRight" className="h-5 w-5" strokeWidth={2.2} />
                 </Link>
               </div>
             </div>
@@ -451,9 +451,9 @@ const VerifyCertificate = () => {
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 overflow-hidden"
       >
-        <div className="absolute left-1/2 top-[-220px] h-[520px] w-[820px] -translate-x-1/2 rounded-full bg-cyan-500/[0.07] blur-[150px]" />
-        <div className="absolute -left-40 bottom-[-220px] h-[460px] w-[460px] rounded-full bg-violet-500/[0.05] blur-[140px]" />
-        <div className="absolute -right-40 top-1/3 h-[420px] w-[420px] rounded-full bg-emerald-500/[0.045] blur-[140px]" />
+        <div className="absolute left-1/2 top-[-220px] h-[520px] w-[820px] -translate-x-1/2 rounded-full bg-cyan-500/[0.1] blur-[150px]" />
+        <div className="absolute -left-40 bottom-[-220px] h-[460px] w-[460px] rounded-full bg-emerald-500/[0.07] blur-[140px]" />
+        <div className="absolute -right-40 top-1/3 h-[420px] w-[420px] rounded-full bg-cyan-500/[0.07] blur-[140px]" />
       </div>
 
       <div className="relative mx-auto w-full max-w-6xl px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
@@ -468,16 +468,16 @@ const VerifyCertificate = () => {
             <img
               src="/assets/skilium-logo-without-bg-DARK.png"
               alt="Skilium"
-              className="h-9 w-auto transition-opacity group-hover:opacity-80"
+              className="h-10 w-auto transition-opacity group-hover:opacity-80"
             />
           </Link>
 
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/[0.08] bg-white/[0.03] px-3.5 py-2 backdrop-blur">
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400/50" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
+          <div className="inline-flex items-center gap-2.5 rounded-full border-2 border-emerald-400/35 bg-emerald-400/[0.08] px-4 py-2 backdrop-blur">
+            <span className="relative flex h-2.5 w-2.5">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400/60" />
+              <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400" />
             </span>
-            <span className="text-xs font-medium text-slate-300">
+            <span className="text-sm font-semibold text-emerald-100">
               Official Verification Portal
             </span>
           </div>
@@ -487,22 +487,22 @@ const VerifyCertificate = () => {
           {/* ====================================================
               Hero — verified certificate
           ==================================================== */}
-          <section className="relative overflow-hidden rounded-3xl border border-white/[0.08] bg-[#0A1020]/95 shadow-[0_25px_80px_rgba(0,0,0,0.4)] backdrop-blur-xl">
-            <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-emerald-400/70 to-transparent" />
+          <section className="relative overflow-hidden rounded-3xl border-2 border-emerald-400/30 bg-[#0A1020]/95 shadow-[0_25px_80px_rgba(0,0,0,0.4)] backdrop-blur-xl">
+            <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-cyan-400/40 via-emerald-400 to-cyan-400/40" />
 
             <div
               aria-hidden="true"
-              className="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-emerald-500/[0.08] blur-[90px]"
+              className="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-emerald-500/[0.12] blur-[90px]"
             />
 
             <div className="relative p-6 sm:p-8">
               <div className="flex items-start gap-4 sm:gap-5">
                 <div className="relative flex h-14 w-14 shrink-0 items-center justify-center sm:h-16 sm:w-16">
-                  <span className="absolute inset-0 rounded-2xl bg-emerald-400/10 blur-lg" />
-                  <span className="relative flex h-full w-full items-center justify-center rounded-2xl border border-emerald-400/25 bg-emerald-400/[0.08]">
+                  <span className="absolute inset-0 rounded-2xl bg-emerald-400/20 blur-lg" />
+                  <span className="relative flex h-full w-full items-center justify-center rounded-2xl border-2 border-emerald-400/50 bg-emerald-400/[0.14]">
                     <Icon
                       name="check"
-                      className="h-7 w-7 text-emerald-400 sm:h-8 sm:w-8"
+                      className="h-7 w-7 text-emerald-300 sm:h-8 sm:w-8"
                       strokeWidth={2.4}
                     />
                   </span>
@@ -510,22 +510,22 @@ const VerifyCertificate = () => {
 
                 <div className="min-w-0 flex-1">
                   <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
-                    <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-400/20 bg-emerald-400/[0.07] px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.16em] text-emerald-300">
-                      <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+                    <span className="inline-flex items-center gap-2 rounded-full border-2 border-emerald-400/45 bg-emerald-400/[0.14] px-3 py-1.5 text-xs font-bold uppercase tracking-[0.14em] text-emerald-200">
+                      <span className="h-2 w-2 rounded-full bg-emerald-400" />
                       Verified
                     </span>
-                    <span className="text-[10px] font-semibold uppercase tracking-[0.16em] text-slate-500">
+                    <span className="text-xs font-bold uppercase tracking-[0.14em] text-cyan-300">
                       Skilium Certificate Registry
                     </span>
                   </div>
 
-                  <h1 className="mt-3 break-words text-2xl font-bold tracking-tight text-white sm:text-[32px] sm:leading-tight">
+                  <h1 className="mt-3 break-words text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-tight">
                     {certificate.studentName || "Certificate holder"}
                   </h1>
 
-                  <p className="mt-2 text-sm leading-6 text-slate-400">
+                  <p className="mt-3 text-base leading-7 text-cyan-100">
                     Certificate issued for{" "}
-                    <span className="font-medium text-slate-200">
+                    <span className="font-semibold text-white">
                       {details.courseName}
                     </span>
                   </p>
@@ -533,12 +533,12 @@ const VerifyCertificate = () => {
               </div>
 
               {/* Certificate ID strip */}
-              <div className="mt-6 flex flex-col gap-3 rounded-2xl border border-white/[0.06] bg-[#070C19] p-4 sm:flex-row sm:items-center sm:justify-between">
+              <div className="mt-6 flex flex-col gap-3 rounded-2xl border-2 border-cyan-400/30 bg-[#070C19] p-4 sm:flex-row sm:items-center sm:justify-between">
                 <div className="min-w-0">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-500">
+                  <p className="text-xs font-bold uppercase tracking-[0.16em] text-cyan-300">
                     Certificate ID
                   </p>
-                  <p className="mt-1 break-all font-mono text-[13px] font-medium text-slate-200 sm:text-sm">
+                  <p className="mt-2 break-all font-mono text-base font-medium text-white sm:text-lg">
                     {certificate.certificateId || "—"}
                   </p>
                 </div>
@@ -557,13 +557,13 @@ const VerifyCertificate = () => {
           {/* ====================================================
               Two column body
           ==================================================== */}
-          <div className="mt-5 grid gap-5 lg:grid-cols-[minmax(0,1fr)_340px] lg:items-start">
+          <div className="mt-5 grid gap-5 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-start">
             {/* ---------------- Left column ---------------- */}
             <div className="space-y-5">
-              <section className="rounded-3xl border border-white/[0.07] bg-[#0A1020]/80 p-5 backdrop-blur sm:p-6">
-                <div className="mb-4 flex items-center gap-2">
-                  <Icon name="document" className="h-4 w-4 text-cyan-400" />
-                  <h2 className="text-sm font-semibold text-slate-200">
+              <section className="rounded-3xl border-2 border-cyan-400/25 bg-[#0A1020]/85 p-5 backdrop-blur sm:p-6">
+                <div className="mb-5 flex items-center gap-2.5">
+                  <Icon name="document" className="h-5 w-5 text-cyan-300" />
+                  <h2 className="text-lg font-bold text-white">
                     Certificate details
                   </h2>
                 </div>
@@ -600,19 +600,19 @@ const VerifyCertificate = () => {
               </section>
 
               {/* Trust note */}
-              <section className="flex items-start gap-3 rounded-2xl border border-white/[0.06] bg-white/[0.015] p-5">
-                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-emerald-400/15 bg-emerald-400/[0.05]">
+              <section className="flex items-start gap-4 rounded-2xl border-2 border-emerald-400/30 bg-emerald-400/[0.05] p-5">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border-2 border-emerald-400/40 bg-emerald-400/[0.1]">
                   <Icon
                     name="shield"
-                    className="h-4.5 w-4.5 text-emerald-400"
+                    className="h-5 w-5 text-emerald-300"
                   />
                 </span>
 
                 <div>
-                  <p className="text-xs font-semibold text-slate-200">
+                  <p className="text-base font-bold text-white">
                     Verified certificate record
                   </p>
-                  <p className="mt-1.5 text-[11px] leading-5 text-slate-500">
+                  <p className="mt-2 text-sm leading-6 text-emerald-100">
                     The information displayed above matches a certificate
                     officially issued through Skilium.
                   </p>
@@ -623,22 +623,22 @@ const VerifyCertificate = () => {
             {/* ---------------- Right column ---------------- */}
             <aside className="space-y-5 lg:sticky lg:top-8">
               {/* Verification summary */}
-              <section className="overflow-hidden rounded-3xl border border-white/[0.07] bg-[#0A1020]/80 backdrop-blur">
-                <div className="border-b border-white/[0.06] px-5 py-4">
-                  <div className="flex items-center gap-2">
-                    <Icon name="shield" className="h-4 w-4 text-cyan-400" />
-                    <h2 className="text-sm font-semibold text-slate-200">
+              <section className="overflow-hidden rounded-3xl border-2 border-cyan-400/25 bg-[#0A1020]/85 backdrop-blur">
+                <div className="border-b-2 border-cyan-400/20 px-5 py-4">
+                  <div className="flex items-center gap-2.5">
+                    <Icon name="shield" className="h-5 w-5 text-cyan-300" />
+                    <h2 className="text-lg font-bold text-white">
                       Verification summary
                     </h2>
                   </div>
                 </div>
 
-                <div className="divide-y divide-white/[0.05] px-5">
+                <div className="divide-y divide-cyan-400/15 px-5">
                   <SummaryRow
                     label="Status"
                     value={
-                      <span className="inline-flex items-center gap-1.5">
-                        <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+                      <span className="inline-flex items-center gap-2">
+                        <span className="h-2 w-2 rounded-full bg-emerald-400" />
                         <span className="text-emerald-300">
                           {certificate.status || "Authentic"}
                         </span>
@@ -653,15 +653,15 @@ const VerifyCertificate = () => {
                 </div>
 
                 {details.verifyUrl && (
-                  <div className="border-t border-white/[0.06] px-5 py-4">
+                  <div className="border-t-2 border-cyan-400/20 px-5 py-4">
                     <div className="flex items-center gap-2">
-                      <Icon name="link" className="h-3.5 w-3.5 text-slate-500" />
-                      <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-slate-500">
+                      <Icon name="link" className="h-4 w-4 text-cyan-300" />
+                      <p className="text-xs font-bold uppercase tracking-[0.14em] text-cyan-300">
                         Verification link
                       </p>
                     </div>
 
-                    <p className="mt-2 break-all font-mono text-[11px] leading-5 text-slate-500">
+                    <p className="mt-2 break-all font-mono text-sm leading-6 text-cyan-100">
                       {details.verifyUrl}
                     </p>
 
@@ -676,10 +676,10 @@ const VerifyCertificate = () => {
 
               {/* Score */}
               {details.hasScore && (
-                <section className="rounded-3xl border border-white/[0.07] bg-[#0A1020]/80 p-5 backdrop-blur">
-                  <div className="mb-4 flex items-center gap-2">
-                    <Icon name="chart" className="h-4 w-4 text-cyan-400" />
-                    <h2 className="text-sm font-semibold text-slate-200">
+                <section className="rounded-3xl border-2 border-emerald-400/30 bg-[#0A1020]/85 p-5 backdrop-blur">
+                  <div className="mb-5 flex items-center gap-2.5">
+                    <Icon name="chart" className="h-5 w-5 text-emerald-300" />
+                    <h2 className="text-lg font-bold text-white">
                       Assessment score
                     </h2>
                   </div>
@@ -688,12 +688,12 @@ const VerifyCertificate = () => {
                     <ScoreRing percent={details.scorePercent} />
 
                     <div className="min-w-0">
-                      <p className="text-sm font-semibold text-slate-100">
+                      <p className="text-base font-bold text-white">
                         {details.scorePercent >= 50
                           ? "Passed"
                           : "Completed"}
                       </p>
-                      <p className="mt-1 text-[11px] leading-5 text-slate-500">
+                      <p className="mt-2 text-sm leading-6 text-emerald-100">
                         Final assessment result recorded at the time of
                         issuance.
                       </p>
@@ -705,12 +705,12 @@ const VerifyCertificate = () => {
               {/* CTA */}
               <Link
                 to="/"
-                className="group flex w-full items-center justify-center gap-2 rounded-2xl bg-cyan-400 px-5 py-3.5 text-sm font-bold text-[#06101B] shadow-lg shadow-cyan-400/10 transition hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#060A16]"
+                className="group flex w-full items-center justify-center gap-2 rounded-2xl bg-cyan-400 px-5 py-4 text-base font-bold text-[#06101B] shadow-lg shadow-cyan-400/20 transition hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#060A16]"
               >
                 Visit Skilium
                 <Icon
                   name="arrowRight"
-                  className="h-4 w-4 transition-transform group-hover:translate-x-0.5"
+                  className="h-5 w-5 transition-transform group-hover:translate-x-0.5"
                   strokeWidth={2.2}
                 />
               </Link>
@@ -722,7 +722,7 @@ const VerifyCertificate = () => {
             Page footer
         ====================================================== */}
         <footer className="mx-auto mt-8 max-w-2xl pb-4 text-center">
-          <p className="text-[11px] leading-5 text-slate-600">
+          <p className="text-sm leading-6 text-cyan-200">
             Skilium is not able to verify certificates that have been altered,
             revoked, or issued outside of its registry.
           </p>

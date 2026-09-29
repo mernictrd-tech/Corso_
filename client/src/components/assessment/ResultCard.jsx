@@ -48,10 +48,11 @@ const ResultCard = ({ result, program, courseId }) => {
   if (!Number.isFinite(percentage)) {
     percentage = 0;
   }
-console.log()
+  console.log();
   const passed =
-    result?.passed !== undefined ? Boolean(result.passed) : percentage >= program.passingQuestions;
-
+    result?.passed !== undefined
+      ? Boolean(result.passed)
+      : percentage >= program.passingQuestions;
 
   // ---------------------------------------------------------
   // Retake
@@ -237,50 +238,58 @@ console.log()
                 </div>
 
                 {/* Pricing & CTA Card */}
-                <div className="rounded-2xl border border-cyan-400/20 bg-slate-950/60 p-5 sm:p-6 backdrop-blur-md">
-                  <div className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-white/10">
-                    <div>
-                      <span className="text-xs uppercase tracking-widest text-gray-400 block">
+                <div className="rounded-2xl border border-cyan-400/20 bg-slate-950/60 p-4 sm:p-6 backdrop-blur-md">
+                  {/* Price + Discount Badge */}
+                  <div className="flex flex-col gap-3 pb-4 border-b border-white/10 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between sm:gap-4">
+                    <div className="flex flex-col items-start">
+                      <span className="text-[11px] sm:text-xs uppercase tracking-widest text-gray-400 block">
                         Certification Fee
                       </span>
-                      <div className="mt-1 flex items-baseline gap-2">
-                        <span className="text-3xl sm:text-4xl font-black text-white">
+                      <div className="mt-1 flex flex-wrap items-baseline gap-x-2 gap-y-1">
+                        <span className="text-2xl xs:text-3xl sm:text-4xl font-black text-white leading-none">
                           ₹{program.sellingPrice}
                         </span>
-                        <span className="text-sm text-gray-400 line-through">
+                        <span className="text-xs sm:text-sm text-gray-400 line-through">
                           ₹{program.originalPrice}
                         </span>
                       </div>
                     </div>
 
-                    <span className="inline-block rounded-full bg-emerald-500/15 border border-emerald-400/30 px-3 py-1 text-xs text-emerald-400 font-semibold">
-                      {Math.round((program.sellingPrice / program.originalPrice) * 100)}% Limited Discount
+                    <span className="self-start sm:self-auto inline-block rounded-full bg-emerald-500/15 border border-emerald-400/30 px-3 py-1 text-[10px] sm:text-xs text-emerald-400 font-semibold whitespace-nowrap">
+                      {Math.round(
+                        (program.sellingPrice / program.originalPrice) * 100,
+                      )}
+                      % Limited Discount
                     </span>
                   </div>
 
-                  {/* Fast Payment Methods Pill (Mobile Friendly) */}
-                  <div className="mt-4 flex flex-wrap items-center justify-between gap-2 rounded-xl bg-white/5 px-3 py-2 border border-white/5 text-[11px] text-gray-300">
-                    <span className="flex items-center gap-1.5 text-cyan-300 font-medium">
-                      <Zap size={13} className="fill-cyan-300" /> Fast UPI &
-                      Cards:
+                  {/* Fast Payment Methods Pill */}
+                  <div className="mt-4 flex flex-col gap-2 rounded-xl bg-white/5 px-3 py-2.5 border border-white/5 text-[11px] text-gray-300 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between sm:gap-2 sm:text-[11px]">
+                    <span className="flex items-center gap-1.5 text-cyan-300 font-medium whitespace-nowrap">
+                      <Zap size={13} className="fill-cyan-300 shrink-0" />
+                      <span>Fast UPI & Cards:</span>
                     </span>
-                    <span className="font-semibold text-white/90">
+                    <span className="font-semibold text-white/90 text-[11px] leading-relaxed">
                       GPay • PhonePe • Paytm • UPI • Cards
                     </span>
                   </div>
 
+                  {/* Primary CTA */}
                   <button
                     type="button"
                     onClick={() => setShowPayment(true)}
-                    className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-400 py-3.5 sm:py-4 font-bold text-slate-950 transition-all hover:scale-[1.02] hover:shadow-[0_0_25px_rgba(0,255,255,0.4)] cursor-pointer text-sm sm:text-base"
+                    className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-400 px-3 py-3.5 sm:py-4 font-bold text-slate-950 transition-all hover:scale-[1.02] hover:shadow-[0_0_25px_rgba(0,255,255,0.4)] cursor-pointer text-sm sm:text-base text-center leading-tight"
                   >
-                    <Zap size={18} className="fill-slate-950" />
-                    <span>Pay ₹249 & Get Instant Certificate</span>
+                    <Zap size={18} className="fill-slate-950 shrink-0" />
+                    <span className="truncate">
+                      Pay ₹{program.sellingPrice} & Get Instant Certificate
+                    </span>
                   </button>
 
-                  <p className="mt-3 text-center text-[11px] text-gray-400 flex items-center justify-center gap-1.5">
-                    <ShieldCheck size={13} className="text-cyan-400" />
-                    Secure 1-tap checkout powered by Razorpay
+                  {/* Trust Line */}
+                  <p className="mt-3 text-center text-[10px] sm:text-[11px] text-gray-400 flex items-center justify-center gap-1.5 leading-relaxed">
+                    <ShieldCheck size={13} className="text-cyan-400 shrink-0" />
+                    <span>Secure 1-tap checkout powered by Razorpay</span>
                   </p>
                 </div>
               </div>
@@ -292,13 +301,19 @@ console.log()
             <div className="mx-auto flex max-w-md items-center justify-between gap-3">
               <div>
                 <div className="flex items-baseline gap-1.5">
-                  <span className="text-xl font-black text-white">₹249</span>
+                  <span className="text-xl font-black text-white">
+                    ₹{program.sellingPrice}
+                  </span>
                   <span className="text-xs text-gray-400 line-through">
-                    ₹999
+                    ₹{program.originalPrice}
                   </span>
                 </div>
                 <span className="text-[10px] font-bold uppercase text-emerald-400">
-                  ⚡ 75% OFF • Fast UPI
+                  ⚡{" "}
+                  {Math.round(
+                    (program.sellingPrice / program.originalPrice) * 100,
+                  )}
+                  % OFF • Fast UPI
                 </span>
               </div>
 
@@ -318,6 +333,7 @@ console.log()
             <PaymentPopup
               assessmentId={result?.assessmentId}
               programId={courseId}
+              program={program}
               programName={program?.name}
               onClose={() => setShowPayment(false)}
               onCertificateGenerated={(generatedCert) => {
@@ -328,7 +344,6 @@ console.log()
           )}
         </div>
       ) : (
-
         <div className="relative overflow-hidden rounded-3xl border border-rose-500/30 bg-gradient-to-b from-rose-950/30 via-slate-900 to-slate-950 p-8 sm:p-12 text-center shadow-[0_0_80px_rgba(244,63,94,0.1)]">
           <div className="relative z-10 max-w-xl mx-auto">
             {/* Status Icon */}
@@ -345,7 +360,7 @@ console.log()
               <span className="font-bold text-rose-400">{percentage}%</span>.
               You need a minimum score of{" "}
               <span className="font-bold text-white">
-                {program.passingQuestions/10 * 100}%
+                {(program.passingQuestions / 10) * 100}%
               </span>{" "}
               to earn the verified certificate.
             </p>
@@ -366,7 +381,7 @@ console.log()
                   Required
                 </span>
                 <span className="text-2xl font-bold text-emerald-400">
-                  {program.passingQuestions/10 * 100}%
+                  {(program.passingQuestions / 10) * 100}%
                 </span>
               </div>
             </div>
