@@ -83,7 +83,7 @@ const seedCategoriesPrograms = async () => {
           trim: true,
         });
 
-        if (courseName.toLowerCase() === "c++ programming") {
+        if (course.name.toLowerCase() === "c++ programming") {
           courseSlug = "cpp-programing";
         }
 
