@@ -3,44 +3,53 @@
     "name": "Artificial Intelligence & Generative AI",
     "pricing": {
       "originalPrice": 999,
-      "sellingPrice": 599
+      "sellingPrice": 399
     },
     "courses": [
       {
         "name": "AI Fundamentals",
-        "description": "Learn the fundamentals of Artificial Intelligence, including core concepts, applications, and real-world use cases."
+        "description": "Learn the fundamentals of Artificial Intelligence, including core concepts, applications, and real-world use cases.",
+        "thumbnail": "artificial-intelligence-generative-ai/ai-fundamentals.png"
       },
       {
         "name": "Generative AI Fundamentals",
-        "description": "Understand the fundamentals of Generative AI, including how AI models generate text, images, code, and other content."
+        "description": "Understand the fundamentals of Generative AI, including how AI models generate text, images, code, and other content.",
+        "thumbnail": "artificial-intelligence-generative-ai/generative-ai-fundamentals.png"
       },
       {
         "name": "Prompt Engineering",
-        "description": "Learn how to design effective prompts and interact efficiently with Generative AI models."
+        "description": "Learn how to design effective prompts and interact efficiently with Generative AI models.",
+        "thumbnail": "artificial-intelligence-generative-ai/prompt-engineering.png"
       },
       {
         "name": "Large Language Models",
-        "description": "Understand how Large Language Models work, their architecture, capabilities, limitations, and applications."
+        "description": "Understand how Large Language Models work, their architecture, capabilities, limitations, and applications.",
+        "thumbnail": "artificial-intelligence-generative-ai/large-language-models.png"
       },
       {
         "name": "Agentic AI Fundamentals",
-        "description": "Learn the fundamentals of AI agents, autonomous workflows, tool usage, and agent-based systems."
+        "description": "Learn the fundamentals of AI agents, autonomous workflows, tool usage, and agent-based systems.",
+        "thumbnail": "artificial-intelligence-generative-ai/agentic-ai-fundamentals.png"
       },
       {
         "name": "AI for Business",
-        "description": "Explore how Artificial Intelligence can be applied to improve business processes, decision-making, and productivity."
+        "description": "Explore how Artificial Intelligence can be applied to improve business processes, decision-making, and productivity.",
+        "thumbnail": "artificial-intelligence-generative-ai/ai-for-business.png"
       },
       {
         "name": "Responsible AI",
-        "description": "Understand ethical AI principles, fairness, transparency, privacy, safety, and responsible AI development."
+        "description": "Understand ethical AI principles, fairness, transparency, privacy, safety, and responsible AI development.",
+        "thumbnail": "artificial-intelligence-generative-ai/responsible-ai.png"
       },
       {
         "name": "AI Automation",
-        "description": "Learn how AI can automate repetitive tasks, workflows, and business processes."
+        "description": "Learn how AI can automate repetitive tasks, workflows, and business processes.",
+        "thumbnail": "artificial-intelligence-generative-ai/ai-automation.png"
       },
       {
         "name": "AI Productivity Tools",
-        "description": "Learn how to use modern AI-powered tools to improve productivity, research, communication, and daily work."
+        "description": "Learn how to use modern AI-powered tools to improve productivity, research, communication, and daily work.",
+        "thumbnail": "artificial-intelligence-generative-ai/ai-productivity-tools.png"
       }
     ]
   },
@@ -48,44 +57,53 @@
     "name": "Data Science & Data Analytics",
     "pricing": {
       "originalPrice": 899,
-      "sellingPrice": 499
+      "sellingPrice": 349
     },
     "courses": [
       {
         "name": "Data Analytics Fundamentals",
-        "description": "Learn the fundamentals of data analytics, including data collection, cleaning, analysis, and interpretation."
+        "description": "Learn the fundamentals of data analytics, including data collection, cleaning, analysis, and interpretation.",
+        "thumbnail": "data-science-data-analytics/data-analytics-fundamentals.png"
       },
       {
         "name": "Python for Data Analysis",
-        "description": "Learn how Python and popular libraries can be used for data cleaning, analysis, and visualization."
+        "description": "Learn how Python and popular libraries can be used for data cleaning, analysis, and visualization.",
+        "thumbnail": "data-science-data-analytics/python-for-data-analysis.png"
       },
       {
         "name": "SQL for Data Analytics",
-        "description": "Learn how to use SQL queries to retrieve, filter, transform, and analyze data."
+        "description": "Learn how to use SQL queries to retrieve, filter, transform, and analyze data.",
+        "thumbnail": "data-science-data-analytics/sql-for-data-analytics.png"
       },
       {
         "name": "Excel for Data Analysis",
-        "description": "Learn Excel features and techniques for organizing, analyzing, and visualizing data."
+        "description": "Learn Excel features and techniques for organizing, analyzing, and visualizing data.",
+        "thumbnail": "data-science-data-analytics/excel-for-data-analysis.png"
       },
       {
         "name": "Power BI Fundamentals",
-        "description": "Learn the fundamentals of Microsoft Power BI for creating reports, dashboards, and business insights."
+        "description": "Learn the fundamentals of Microsoft Power BI for creating reports, dashboards, and business insights.",
+        "thumbnail": "data-science-data-analytics/power-bi-fundamentals.png"
       },
       {
         "name": "Data Visualization",
-        "description": "Learn how to represent data effectively using charts, graphs, dashboards, and visualization techniques."
+        "description": "Learn how to represent data effectively using charts, graphs, dashboards, and visualization techniques.",
+        "thumbnail": "data-science-data-analytics/data-visualization.png"
       },
       {
         "name": "Business Intelligence",
-        "description": "Understand business intelligence concepts and how organizations use data to make informed decisions."
+        "description": "Understand business intelligence concepts and how organizations use data to make informed decisions.",
+        "thumbnail": "data-science-data-analytics/business-intelligence.png"
       },
       {
         "name": "Statistics for Data Science",
-        "description": "Learn essential statistical concepts required for data science and data-driven decision-making."
+        "description": "Learn essential statistical concepts required for data science and data-driven decision-making.",
+        "thumbnail": "data-science-data-analytics/statistics-for-data-science.png"
       },
       {
         "name": "Advanced Data Analytics",
-        "description": "Explore advanced analytical techniques for extracting meaningful insights from complex datasets."
+        "description": "Explore advanced analytical techniques for extracting meaningful insights from complex datasets.",
+        "thumbnail": "data-science-data-analytics/advanced-data-analytics.png"
       }
     ]
   },
@@ -93,44 +111,53 @@
     "name": "Machine Learning & Deep Learning",
     "pricing": {
       "originalPrice": 999,
-      "sellingPrice": 599
+      "sellingPrice": 349
     },
     "courses": [
       {
         "name": "Machine Learning Fundamentals",
-        "description": "Learn the fundamentals of machine learning, including algorithms, training, testing, and model prediction."
+        "description": "Learn the fundamentals of machine learning, including algorithms, training, testing, and model prediction.",
+        "thumbnail": "machine-learning-deep-learning/machine-learning-fundamentals.png"
       },
       {
         "name": "Supervised Learning",
-        "description": "Understand supervised learning techniques including regression, classification, and common algorithms."
+        "description": "Understand supervised learning techniques including regression, classification, and common algorithms.",
+        "thumbnail": "machine-learning-deep-learning/supervised-learning.png"
       },
       {
         "name": "Unsupervised Learning",
-        "description": "Learn clustering, dimensionality reduction, and other unsupervised machine learning techniques."
+        "description": "Learn clustering, dimensionality reduction, and other unsupervised machine learning techniques.",
+        "thumbnail": "machine-learning-deep-learning/unsupervised-learning.png"
       },
       {
         "name": "Deep Learning Fundamentals",
-        "description": "Understand neural networks, deep learning concepts, architectures, and applications."
+        "description": "Understand neural networks, deep learning concepts, architectures, and applications.",
+        "thumbnail": "machine-learning-deep-learning/deep-learning-fundamentals.png"
       },
       {
         "name": "Natural Language Processing",
-        "description": "Learn how machines process, understand, and generate human language."
+        "description": "Learn how machines process, understand, and generate human language.",
+        "thumbnail": "machine-learning-deep-learning/natural-language-processing.png"
       },
       {
         "name": "Computer Vision",
-        "description": "Learn how machine learning and deep learning techniques are used to analyze images and video."
+        "description": "Learn how machine learning and deep learning techniques are used to analyze images and video.",
+        "thumbnail": "machine-learning-deep-learning/computer-vision.png"
       },
       {
         "name": "Model Evaluation & Optimization",
-        "description": "Learn techniques for evaluating, improving, tuning, and optimizing machine learning models."
+        "description": "Learn techniques for evaluating, improving, tuning, and optimizing machine learning models.",
+        "thumbnail": "machine-learning-deep-learning/model-evaluation-optimization.png"
       },
       {
         "name": "Machine Learning with Python",
-        "description": "Learn how to implement machine learning algorithms and workflows using Python."
+        "description": "Learn how to implement machine learning algorithms and workflows using Python.",
+        "thumbnail": "machine-learning-deep-learning/machine-learning-with-python.png"
       },
       {
         "name": "Applied Machine Learning",
-        "description": "Apply machine learning concepts to real-world datasets and practical business problems."
+        "description": "Apply machine learning concepts to real-world datasets and practical business problems.",
+        "thumbnail": "machine-learning-deep-learning/applied-machine-learning.png"
       }
     ]
   },
@@ -143,38 +170,48 @@
     "courses": [
       {
         "name": "C++ Programming",
-        "description": "Learn C++ programming including object-oriented programming, STL, classes, inheritance, and polymorphism."
+        "description": "Learn C++ programming including object-oriented programming, STL, classes, inheritance, and polymorphism.",
+        "thumbnail": "software-development-programming/cpp-programming.png"
       },
       {
         "name": "Programming Fundamentals",
-        "description": "Learn fundamental programming concepts including variables, conditions, loops, functions, and problem solving."
+        "description": "Learn fundamental programming concepts including variables, conditions, loops, functions, and problem solving.",
+        "thumbnail": "software-development-programming/programming-fundamentals.png"
       },
       {
         "name": "Python Programming",
-        "description": "Learn Python programming from fundamentals to practical application development."
+        "description": "Learn Python programming from fundamentals to practical application development.",
+        "thumbnail": "software-development-programming/python-programming.png"
       },
       {
         "name": "Java Programming",
-        "description": "Learn Java programming concepts including syntax, object-oriented programming, collections, and exception handling."
+        "description": "Learn Java programming concepts including syntax, object-oriented programming, collections, and exception handling.",
+        "thumbnail": "software-development-programming/java-programming.png"
       },
       {
         "name": "JavaScript Fundamentals",
-        "description": "Learn modern JavaScript fundamentals including variables, functions, arrays, objects, ES6+, and asynchronous programming."
+        "description": "Learn modern JavaScript fundamentals including variables, functions, arrays, objects, ES6+, and asynchronous programming.",
+        "thumbnail": "software-development-programming/javascript-fundamentals.png"
       },
       {
         "name": "C Programming",
-        "description": "Learn C programming fundamentals including data types, pointers, functions, arrays, and memory management."      },
+        "description": "Learn C programming fundamentals including data types, pointers, functions, arrays, and memory management.",
+        "thumbnail": "software-development-programming/c-programming.png"
+      },
       {
         "name": "Object-Oriented Programming",
-        "description": "Understand object-oriented programming concepts such as classes, objects, inheritance, encapsulation, and polymorphism."
+        "description": "Understand object-oriented programming concepts such as classes, objects, inheritance, encapsulation, and polymorphism.",
+        "thumbnail": "software-development-programming/object-oriented-programming.png"
       },
       {
         "name": "Software Development Fundamentals",
-        "description": "Learn the fundamental concepts, practices, methodologies, and lifecycle of software development."
+        "description": "Learn the fundamental concepts, practices, methodologies, and lifecycle of software development.",
+        "thumbnail": "software-development-programming/software-development-fundamentals.png"
       },
       {
         "name": "Git & Version Control",
-        "description": "Learn Git and version control concepts for managing source code and collaborating with development teams."
+        "description": "Learn Git and version control concepts for managing source code and collaborating with development teams.",
+        "thumbnail": "software-development-programming/git-version-control.png"
       }
     ]
   },
@@ -187,39 +224,48 @@
     "courses": [
       {
         "name": "HTML & CSS Fundamentals",
-        "description": "Learn how to structure web pages with HTML and style responsive interfaces using CSS."
+        "description": "Learn how to structure web pages with HTML and style responsive interfaces using CSS.",
+        "thumbnail": "web-development/html-css-fundamentals.png"
       },
       {
         "name": "JavaScript for Web Development",
-        "description": "Learn how JavaScript is used to create interactive and dynamic web applications."
+        "description": "Learn how JavaScript is used to create interactive and dynamic web applications.",
+        "thumbnail": "web-development/javascript-for-web-development.png"
       },
       {
         "name": "React.js Fundamentals",
-        "description": "Learn React.js fundamentals including components, props, state, hooks, events, and application structure."
+        "description": "Learn React.js fundamentals including components, props, state, hooks, events, and application structure.",
+        "thumbnail": "web-development/react-js-fundamentals.png"
       },
       {
         "name": "Node.js Fundamentals",
-        "description": "Learn the fundamentals of Node.js for building scalable server-side JavaScript applications."
+        "description": "Learn the fundamentals of Node.js for building scalable server-side JavaScript applications.",
+        "thumbnail": "web-development/node-js-fundamentals.png"
       },
       {
         "name": "Express.js Fundamentals",
-        "description": "Learn how to build backend applications and REST APIs using Express.js."
+        "description": "Learn how to build backend applications and REST APIs using Express.js.",
+        "thumbnail": "web-development/express-js-fundamentals.png"
       },
       {
         "name": "MERN Stack Development",
-        "description": "Learn full-stack web development using MongoDB, Express.js, React.js, and Node.js."
+        "description": "Learn full-stack web development using MongoDB, Express.js, React.js, and Node.js.",
+        "thumbnail": "web-development/mern-stack-development.png"
       },
       {
         "name": "REST API Development",
-        "description": "Learn how to design, develop, test, and consume RESTful APIs."
+        "description": "Learn how to design, develop, test, and consume RESTful APIs.",
+        "thumbnail": "web-development/rest-api-development.png"
       },
       {
         "name": "Frontend Development",
-        "description": "Learn modern frontend development concepts for creating responsive and interactive web interfaces."
+        "description": "Learn modern frontend development concepts for creating responsive and interactive web interfaces.",
+        "thumbnail": "web-development/frontend-development.png"
       },
       {
         "name": "Full Stack Web Development",
-        "description": "Learn end-to-end web application development covering frontend, backend, APIs, databases, and deployment."
+        "description": "Learn end-to-end web application development covering frontend, backend, APIs, databases, and deployment.",
+        "thumbnail": "web-development/full-stack-web-development.png"
       }
     ]
   },
@@ -227,44 +273,53 @@
     "name": "Cloud Computing & DevOps",
     "pricing": {
       "originalPrice": 999,
-      "sellingPrice": 599
+      "sellingPrice": 299
     },
     "courses": [
       {
         "name": "Cloud Computing Fundamentals",
-        "description": "Learn the fundamentals of cloud computing, cloud services, deployment models, and cloud architecture."
+        "description": "Learn the fundamentals of cloud computing, cloud services, deployment models, and cloud architecture.",
+        "thumbnail": "cloud-computing-devops/cloud-computing-fundamentals.png"
       },
       {
         "name": "AWS Fundamentals",
-        "description": "Learn the fundamental concepts and services of Amazon Web Services."
+        "description": "Learn the fundamental concepts and services of Amazon Web Services.",
+        "thumbnail": "cloud-computing-devops/aws-fundamentals.png"
       },
       {
         "name": "Microsoft Azure Fundamentals",
-        "description": "Learn the fundamentals of Microsoft Azure cloud services and infrastructure."
+        "description": "Learn the fundamentals of Microsoft Azure cloud services and infrastructure.",
+        "thumbnail": "cloud-computing-devops/microsoft-azure-fundamentals.png"
       },
       {
         "name": "Google Cloud Fundamentals",
-        "description": "Learn the fundamentals of Google Cloud Platform and its core cloud services."
+        "description": "Learn the fundamentals of Google Cloud Platform and its core cloud services.",
+        "thumbnail": "cloud-computing-devops/google-cloud-fundamentals.png"
       },
       {
         "name": "DevOps Fundamentals",
-        "description": "Understand DevOps principles, practices, culture, automation, and continuous delivery."
+        "description": "Understand DevOps principles, practices, culture, automation, and continuous delivery.",
+        "thumbnail": "cloud-computing-devops/devops-fundamentals.png"
       },
       {
         "name": "Docker Fundamentals",
-        "description": "Learn containerization concepts and how to build, run, and manage applications using Docker."
+        "description": "Learn containerization concepts and how to build, run, and manage applications using Docker.",
+        "thumbnail": "cloud-computing-devops/docker-fundamentals.png"
       },
       {
         "name": "Kubernetes Fundamentals",
-        "description": "Learn Kubernetes fundamentals for deploying, managing, and scaling containerized applications."
+        "description": "Learn Kubernetes fundamentals for deploying, managing, and scaling containerized applications.",
+        "thumbnail": "cloud-computing-devops/kubernetes-fundamentals.png"
       },
       {
         "name": "CI/CD Fundamentals",
-        "description": "Learn continuous integration and continuous delivery concepts for automating software delivery pipelines."
+        "description": "Learn continuous integration and continuous delivery concepts for automating software delivery pipelines.",
+        "thumbnail": "cloud-computing-devops/ci-cd-fundamentals.png"
       },
       {
         "name": "Cloud Security Fundamentals",
-        "description": "Learn fundamental cloud security principles, practices, threats, and protection techniques."
+        "description": "Learn fundamental cloud security principles, practices, threats, and protection techniques.",
+        "thumbnail": "cloud-computing-devops/cloud-security-fundamentals.png"
       }
     ]
   },
@@ -272,44 +327,53 @@
     "name": "Cybersecurity",
     "pricing": {
       "originalPrice": 999,
-      "sellingPrice": 599
+      "sellingPrice": 349
     },
     "courses": [
       {
         "name": "Cybersecurity Fundamentals",
-        "description": "Learn fundamental cybersecurity concepts, threats, vulnerabilities, and security practices."
+        "description": "Learn fundamental cybersecurity concepts, threats, vulnerabilities, and security practices.",
+        "thumbnail": "cybersecurity/cybersecurity-fundamentals.png"
       },
       {
         "name": "Network Security",
-        "description": "Learn how networks are protected from attacks, unauthorized access, and security threats."
+        "description": "Learn how networks are protected from attacks, unauthorized access, and security threats.",
+        "thumbnail": "cybersecurity/network-security.png"
       },
       {
         "name": "Ethical Hacking Fundamentals",
-        "description": "Understand ethical hacking concepts, methodologies, security testing, and vulnerability assessment."
+        "description": "Understand ethical hacking concepts, methodologies, security testing, and vulnerability assessment.",
+        "thumbnail": "cybersecurity/ethical-hacking-fundamentals.png"
       },
       {
         "name": "Security Operations Center Fundamentals",
-        "description": "Learn the fundamentals of SOC operations, monitoring, detection, analysis, and incident handling."
+        "description": "Learn the fundamentals of SOC operations, monitoring, detection, analysis, and incident handling.",
+        "thumbnail": "cybersecurity/security-operations-center-fundamentals.png"
       },
       {
         "name": "Cloud Security",
-        "description": "Learn security principles and techniques for protecting cloud-based infrastructure and applications."
+        "description": "Learn security principles and techniques for protecting cloud-based infrastructure and applications.",
+        "thumbnail": "cybersecurity/cloud-security.png"
       },
       {
         "name": "Cyber Threat Intelligence",
-        "description": "Learn how organizations collect, analyze, and use threat intelligence to improve cybersecurity."
+        "description": "Learn how organizations collect, analyze, and use threat intelligence to improve cybersecurity.",
+        "thumbnail": "cybersecurity/cyber-threat-intelligence.png"
       },
       {
         "name": "Incident Response",
-        "description": "Learn how security incidents are detected, investigated, contained, and resolved."
+        "description": "Learn how security incidents are detected, investigated, contained, and resolved.",
+        "thumbnail": "cybersecurity/incident-response.png"
       },
       {
         "name": "Data Privacy & Protection",
-        "description": "Understand data privacy principles, protection practices, compliance, and responsible data handling."
+        "description": "Understand data privacy principles, protection practices, compliance, and responsible data handling.",
+        "thumbnail": "cybersecurity/data-privacy-protection.png"
       },
       {
         "name": "Application Security",
-        "description": "Learn fundamental application security practices for identifying and preventing software vulnerabilities."
+        "description": "Learn fundamental application security practices for identifying and preventing software vulnerabilities.",
+        "thumbnail": "cybersecurity/application-security.png"
       }
     ]
   },
@@ -317,44 +381,53 @@
     "name": "Database & Data Engineering",
     "pricing": {
       "originalPrice": 799,
-      "sellingPrice": 399
+      "sellingPrice": 299
     },
     "courses": [
       {
         "name": "Database Fundamentals",
-        "description": "Learn fundamental database concepts including data models, tables, relationships, and database management."
+        "description": "Learn fundamental database concepts including data models, tables, relationships, and database management.",
+        "thumbnail": "database-data-engineering/database-fundamentals.png"
       },
       {
         "name": "SQL Fundamentals",
-        "description": "Learn SQL basics including queries, filtering, sorting, grouping, joins, and data manipulation."
+        "description": "Learn SQL basics including queries, filtering, sorting, grouping, joins, and data manipulation.",
+        "thumbnail": "database-data-engineering/sql-fundamentals.png"
       },
       {
         "name": "Advanced SQL",
-        "description": "Learn advanced SQL concepts including subqueries, window functions, CTEs, optimization, and complex queries."
+        "description": "Learn advanced SQL concepts including subqueries, window functions, CTEs, optimization, and complex queries.",
+        "thumbnail": "database-data-engineering/advanced-sql.png"
       },
       {
         "name": "MySQL Fundamentals",
-        "description": "Learn the fundamentals of MySQL database management, queries, relationships, and database operations."
+        "description": "Learn the fundamentals of MySQL database management, queries, relationships, and database operations.",
+        "thumbnail": "database-data-engineering/mysql-fundamentals.png"
       },
       {
         "name": "PostgreSQL Fundamentals",
-        "description": "Learn PostgreSQL fundamentals including database creation, SQL queries, relationships, and advanced features."
+        "description": "Learn PostgreSQL fundamentals including database creation, SQL queries, relationships, and advanced features.",
+        "thumbnail": "database-data-engineering/postgresql-fundamentals.png"
       },
       {
         "name": "MongoDB Fundamentals",
-        "description": "Learn MongoDB concepts including documents, collections, queries, indexes, and aggregation."
+        "description": "Learn MongoDB concepts including documents, collections, queries, indexes, and aggregation.",
+        "thumbnail": "database-data-engineering/mongodb-fundamentals.png"
       },
       {
         "name": "Database Design",
-        "description": "Learn database design principles including normalization, relationships, schemas, and efficient data modeling."
+        "description": "Learn database design principles including normalization, relationships, schemas, and efficient data modeling.",
+        "thumbnail": "database-data-engineering/database-design.png"
       },
       {
         "name": "Data Engineering Fundamentals",
-        "description": "Learn the fundamentals of data pipelines, data processing, storage, transformation, and engineering workflows."
+        "description": "Learn the fundamentals of data pipelines, data processing, storage, transformation, and engineering workflows.",
+        "thumbnail": "database-data-engineering/data-engineering-fundamentals.png"
       },
       {
         "name": "Data Warehousing Fundamentals",
-        "description": "Understand data warehouse concepts, architecture, ETL processes, dimensional modeling, and analytics."
+        "description": "Understand data warehouse concepts, architecture, ETL processes, dimensional modeling, and analytics.",
+        "thumbnail": "database-data-engineering/data-warehousing-fundamentals.png"
       }
     ]
   },
@@ -367,39 +440,48 @@
     "courses": [
       {
         "name": "Digital Marketing Fundamentals",
-        "description": "Learn the fundamentals of digital marketing, online channels, campaigns, and digital customer engagement."
+        "description": "Learn the fundamentals of digital marketing, online channels, campaigns, and digital customer engagement.",
+        "thumbnail": "digital-marketing-e-commerce/digital-marketing-fundamentals.png"
       },
       {
         "name": "Search Engine Optimization",
-        "description": "Learn SEO techniques for improving website visibility, search rankings, and organic traffic."
+        "description": "Learn SEO techniques for improving website visibility, search rankings, and organic traffic.",
+        "thumbnail": "digital-marketing-e-commerce/search-engine-optimization.png"
       },
       {
         "name": "Social Media Marketing",
-        "description": "Learn how to create and manage effective social media marketing campaigns."
+        "description": "Learn how to create and manage effective social media marketing campaigns.",
+        "thumbnail": "digital-marketing-e-commerce/social-media-marketing.png"
       },
       {
         "name": "Content Marketing",
-        "description": "Learn how to plan, create, distribute, and measure valuable content for digital audiences."
+        "description": "Learn how to plan, create, distribute, and measure valuable content for digital audiences.",
+        "thumbnail": "digital-marketing-e-commerce/content-marketing.png"
       },
       {
         "name": "Google Ads Fundamentals",
-        "description": "Learn the fundamentals of paid advertising and campaign management using Google Ads."
+        "description": "Learn the fundamentals of paid advertising and campaign management using Google Ads.",
+        "thumbnail": "digital-marketing-e-commerce/google-ads-fundamentals.png"
       },
       {
         "name": "Email Marketing",
-        "description": "Learn how to create effective email campaigns, manage audiences, and measure email marketing performance."
+        "description": "Learn how to create effective email campaigns, manage audiences, and measure email marketing performance.",
+        "thumbnail": "digital-marketing-e-commerce/email-marketing.png"
       },
       {
         "name": "E-Commerce Fundamentals",
-        "description": "Learn the fundamentals of e-commerce business models, platforms, operations, and online selling."
+        "description": "Learn the fundamentals of e-commerce business models, platforms, operations, and online selling.",
+        "thumbnail": "digital-marketing-e-commerce/e-commerce-fundamentals.png"
       },
       {
         "name": "Digital Marketing Analytics",
-        "description": "Learn how to analyze digital marketing data and measure campaign performance."
+        "description": "Learn how to analyze digital marketing data and measure campaign performance.",
+        "thumbnail": "digital-marketing-e-commerce/digital-marketing-analytics.png"
       },
       {
         "name": "Brand Marketing",
-        "description": "Learn fundamental strategies for building, positioning, and promoting strong brands."
+        "description": "Learn fundamental strategies for building, positioning, and promoting strong brands.",
+        "thumbnail": "digital-marketing-e-commerce/brand-marketing.png"
       }
     ]
   },
@@ -412,39 +494,48 @@
     "courses": [
       {
         "name": "Business Management Fundamentals",
-        "description": "Learn the fundamentals of business management, planning, decision-making, and organizational operations."
+        "description": "Learn the fundamentals of business management, planning, decision-making, and organizational operations.",
+        "thumbnail": "business-management-leadership/business-management-fundamentals.png"
       },
       {
         "name": "Project Management Fundamentals",
-        "description": "Learn project management concepts including planning, execution, monitoring, and project delivery."
+        "description": "Learn project management concepts including planning, execution, monitoring, and project delivery.",
+        "thumbnail": "business-management-leadership/project-management-fundamentals.png"
       },
       {
         "name": "Agile Project Management",
-        "description": "Learn Agile principles, Scrum practices, iterative development, and Agile project management."
+        "description": "Learn Agile principles, Scrum practices, iterative development, and Agile project management.",
+        "thumbnail": "business-management-leadership/agile-project-management.png"
       },
       {
         "name": "Business Analysis Fundamentals",
-        "description": "Learn how business analysts identify requirements, analyze processes, and support business solutions."
+        "description": "Learn how business analysts identify requirements, analyze processes, and support business solutions.",
+        "thumbnail": "business-management-leadership/business-analysis-fundamentals.png"
       },
       {
         "name": "Strategic Management",
-        "description": "Learn strategic planning, competitive analysis, decision-making, and business strategy."
+        "description": "Learn strategic planning, competitive analysis, decision-making, and business strategy.",
+        "thumbnail": "business-management-leadership/strategic-management.png"
       },
       {
         "name": "Leadership Fundamentals",
-        "description": "Learn fundamental leadership principles, team management, motivation, and effective decision-making."
+        "description": "Learn fundamental leadership principles, team management, motivation, and effective decision-making.",
+        "thumbnail": "business-management-leadership/leadership-fundamentals.png"
       },
       {
         "name": "Operations Management",
-        "description": "Learn how organizations manage processes, resources, quality, and operational efficiency."
+        "description": "Learn how organizations manage processes, resources, quality, and operational efficiency.",
+        "thumbnail": "business-management-leadership/operations-management.png"
       },
       {
         "name": "Business Communication",
-        "description": "Develop effective communication skills for professional and business environments."
+        "description": "Develop effective communication skills for professional and business environments.",
+        "thumbnail": "business-management-leadership/business-communication.png"
       },
       {
         "name": "Entrepreneurship Fundamentals",
-        "description": "Learn the fundamentals of entrepreneurship, business ideas, planning, innovation, and startup development."
+        "description": "Learn the fundamentals of entrepreneurship, business ideas, planning, innovation, and startup development.",
+        "thumbnail": "business-management-leadership/entrepreneurship-fundamentals.png"
       }
     ]
   },
@@ -452,44 +543,53 @@
     "name": "Human Resources & Professional Skills",
     "pricing": {
       "originalPrice": 699,
-      "sellingPrice": 349
+      "sellingPrice": 399
     },
     "courses": [
       {
         "name": "Human Resource Management",
-        "description": "Learn the fundamentals of HR management, employee lifecycle, policies, and organizational practices."
+        "description": "Learn the fundamentals of HR management, employee lifecycle, policies, and organizational practices.",
+        "thumbnail": "human-resources-professional-skills/human-resource-management.png"
       },
       {
         "name": "Talent Acquisition Fundamentals",
-        "description": "Learn recruitment and talent acquisition processes including sourcing, screening, interviewing, and hiring."
+        "description": "Learn recruitment and talent acquisition processes including sourcing, screening, interviewing, and hiring.",
+        "thumbnail": "human-resources-professional-skills/talent-acquisition-fundamentals.png"
       },
       {
         "name": "Performance Management",
-        "description": "Learn how organizations manage employee performance, feedback, goals, and development."
+        "description": "Learn how organizations manage employee performance, feedback, goals, and development.",
+        "thumbnail": "human-resources-professional-skills/performance-management.png"
       },
       {
         "name": "Learning & Development",
-        "description": "Learn how organizations design and manage employee learning and professional development programs."
+        "description": "Learn how organizations design and manage employee learning and professional development programs.",
+        "thumbnail": "human-resources-professional-skills/learning-development.png"
       },
       {
         "name": "Payroll Fundamentals",
-        "description": "Learn the fundamentals of payroll processing, compensation, deductions, and employee payment management."
+        "description": "Learn the fundamentals of payroll processing, compensation, deductions, and employee payment management.",
+        "thumbnail": "human-resources-professional-skills/payroll-fundamentals.png"
       },
       {
         "name": "Employee Relations",
-        "description": "Learn fundamental practices for maintaining positive employee relationships and resolving workplace issues."
+        "description": "Learn fundamental practices for maintaining positive employee relationships and resolving workplace issues.",
+        "thumbnail": "human-resources-professional-skills/employee-relations.png"
       },
       {
         "name": "Professional Communication",
-        "description": "Develop professional communication skills for workplace conversations, emails, presentations, and collaboration."
+        "description": "Develop professional communication skills for workplace conversations, emails, presentations, and collaboration.",
+        "thumbnail": "human-resources-professional-skills/professional-communication.png"
       },
       {
         "name": "Time Management & Productivity",
-        "description": "Learn practical techniques for managing time, priorities, tasks, and personal productivity."
+        "description": "Learn practical techniques for managing time, priorities, tasks, and personal productivity.",
+        "thumbnail": "human-resources-professional-skills/time-management-productivity.png"
       },
       {
         "name": "Critical Thinking & Problem Solving",
-        "description": "Develop critical thinking and structured problem-solving skills for professional and everyday situations."
+        "description": "Develop critical thinking and structured problem-solving skills for professional and everyday situations.",
+        "thumbnail": "human-resources-professional-skills/critical-thinking-problem-solving.png"
       }
     ]
   },
@@ -502,41 +602,49 @@
     "courses": [
       {
         "name": "UI/UX Fundamentals",
-        "description": "Learn the fundamentals of user interface and user experience design."
+        "description": "Learn the fundamentals of user interface and user experience design.",
+        "thumbnail": "ui-ux-graphic-design/ui-ux-fundamentals.png"
       },
       {
         "name": "Figma Fundamentals",
-        "description": "Learn the fundamentals of Figma for designing interfaces, components, prototypes, and collaborative design projects."
+        "description": "Learn the fundamentals of Figma for designing interfaces, components, prototypes, and collaborative design projects.",
+        "thumbnail": "ui-ux-graphic-design/figma-fundamentals.png"
       },
       {
         "name": "User Research Fundamentals",
-        "description": "Learn user research methods for understanding user needs, behaviors, problems, and expectations."
+        "description": "Learn user research methods for understanding user needs, behaviors, problems, and expectations.",
+        "thumbnail": "ui-ux-graphic-design/user-research-fundamentals.png"
       },
       {
         "name": "Wireframing & Prototyping",
-        "description": "Learn how to create wireframes and interactive prototypes for digital products."
+        "description": "Learn how to create wireframes and interactive prototypes for digital products.",
+        "thumbnail": "ui-ux-graphic-design/wireframing-prototyping.png"
       },
       {
         "name": "UX Design Fundamentals",
-        "description": "Learn UX design principles, processes, usability, information architecture, and user-centered design."
+        "description": "Learn UX design principles, processes, usability, information architecture, and user-centered design.",
+        "thumbnail": "ui-ux-graphic-design/ux-design-fundamentals.png"
       },
       {
         "name": "Graphic Design Fundamentals",
-        "description": "Learn fundamental graphic design principles including composition, typography, color, and visual hierarchy."
+        "description": "Learn fundamental graphic design principles including composition, typography, color, and visual hierarchy.",
+        "thumbnail": "ui-ux-graphic-design/graphic-design-fundamentals.png"
       },
       {
         "name": "Branding & Visual Identity",
-        "description": "Learn how to develop strong brand identities using visual systems, typography, colors, and design principles."
+        "description": "Learn how to develop strong brand identities using visual systems, typography, colors, and design principles.",
+        "thumbnail": "ui-ux-graphic-design/branding-visual-identity.png"
       },
       {
         "name": "Design Thinking",
-        "description": "Learn the Design Thinking process for understanding users and developing innovative solutions."
+        "description": "Learn the Design Thinking process for understanding users and developing innovative solutions.",
+        "thumbnail": "ui-ux-graphic-design/design-thinking.png"
       },
       {
         "name": "Canva Design Fundamentals",
-        "description": "Learn how to create professional graphics, presentations, social media content, and marketing materials using Canva."
+        "description": "Learn how to create professional graphics, presentations, social media content, and marketing materials using Canva.",
+        "thumbnail": "ui-ux-graphic-design/canva-design-fundamentals.png"
       }
     ]
   }
- 
 ]

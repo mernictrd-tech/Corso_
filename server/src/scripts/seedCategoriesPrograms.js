@@ -124,6 +124,22 @@ const seedCategoriesPrograms = async () => {
           );
         }
 
+        // -----------------------------
+        // THUMBNAIL PATH
+        // -----------------------------
+
+        // Prefer explicit thumbnail from JSON.
+        // Fallback: auto-generate from category + course slug.
+        const categorySlug = slugify(categoryData.name.trim(), {
+          lower: true,
+          strict: true,
+          trim: true,
+        });
+
+        const thumbnail =
+          `/uploads/programs/${course.thumbnail}` ||
+          `/uploads/programs/${categorySlug}/${courseSlug}.png`;
+
         await Program.create({
           name: course.name.trim(),
 
@@ -137,7 +153,7 @@ const seedCategoriesPrograms = async () => {
 
           category: category._id,
 
-          thumbnail: "",
+          thumbnail: thumbnail,
 
           certificateDemo: "",
 
@@ -155,7 +171,7 @@ const seedCategoriesPrograms = async () => {
         programCount++;
 
         console.log(
-          `   ✅ Program created: ${course.name} | ₹${courseOriginalPrice} → ₹${courseSellingPrice}`
+          `   ✅ Program created: ${course.name} | ₹${courseOriginalPrice} → ₹${courseSellingPrice} | 🖼️ ${thumbnail}`
         );
       }
     }
