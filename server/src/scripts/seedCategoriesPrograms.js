@@ -11,10 +11,7 @@ const Program = require("../models/program.model");
 
 const MONGO_URI = process.env.MONGO_URI;
 
-const categoriesPath = path.join(
-  __dirname,
-  "../../data/categories.json"
-);
+const categoriesPath = path.join(__dirname, "../../data/categories.json");
 
 const seedCategoriesPrograms = async () => {
   try {
@@ -65,20 +62,16 @@ const seedCategoriesPrograms = async () => {
 
       const categoryPricing = categoryData.pricing || {};
 
-      const categoryOriginalPrice =
-        categoryPricing.originalPrice ?? 499;
+      const categoryOriginalPrice = categoryPricing.originalPrice ?? 499;
 
-      const categorySellingPrice =
-        categoryPricing.sellingPrice ?? 249;
+      const categorySellingPrice = categoryPricing.sellingPrice ?? 249;
 
       // -----------------------------
       // COURSES / PROGRAMS
       // -----------------------------
 
       if (!Array.isArray(categoryData.courses)) {
-        console.log(
-          `⚠️ No courses found for category: ${category.name}`
-        );
+        console.log(`⚠️ No courses found for category: ${category.name}`);
 
         continue;
       }
@@ -90,17 +83,16 @@ const seedCategoriesPrograms = async () => {
           trim: true,
         });
 
+        if (courseName.toLowerCase() === "c++ programming") {
+          courseSlug = "cpp-programing";
+        }
+
         const existingProgram = await Program.findOne({
-          $or: [
-            { name: course.name.trim() },
-            { slug: courseSlug },
-          ],
+          $or: [{ name: course.name.trim() }, { slug: courseSlug }],
         });
 
         if (existingProgram) {
-          console.log(
-            `   ⚠️ Program already exists: ${course.name}`
-          );
+          console.log(`   ⚠️ Program already exists: ${course.name}`);
 
           continue;
         }
@@ -110,17 +102,15 @@ const seedCategoriesPrograms = async () => {
         // -----------------------------
 
         const courseOriginalPrice =
-          course.pricing?.originalPrice ??
-          categoryOriginalPrice;
+          course.pricing?.originalPrice ?? categoryOriginalPrice;
 
         const courseSellingPrice =
-          course.pricing?.sellingPrice ??
-          categorySellingPrice;
+          course.pricing?.sellingPrice ?? categorySellingPrice;
 
         // Safety check
         if (courseSellingPrice > courseOriginalPrice) {
           throw new Error(
-            `Selling price cannot be greater than original price for: ${course.name}`
+            `Selling price cannot be greater than original price for: ${course.name}`,
           );
         }
 
@@ -147,7 +137,7 @@ const seedCategoriesPrograms = async () => {
 
           examDuration: 10,
 
-          passingQuestions: 6,
+          passingQuestions: 7,
 
           description: course.description || "",
 
@@ -171,7 +161,7 @@ const seedCategoriesPrograms = async () => {
         programCount++;
 
         console.log(
-          `   ✅ Program created: ${course.name} | ₹${courseOriginalPrice} → ₹${courseSellingPrice} | 🖼️ ${thumbnail}`
+          `   ✅ Program created: ${course.name} | ₹${courseOriginalPrice} → ₹${courseSellingPrice} | 🖼️ ${thumbnail}`,
         );
       }
     }
