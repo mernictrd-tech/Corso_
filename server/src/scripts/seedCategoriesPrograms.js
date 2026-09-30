@@ -77,7 +77,7 @@ const seedCategoriesPrograms = async () => {
       }
 
       for (const course of categoryData.courses) {
-        const courseSlug = slugify(course.name.trim(), {
+        let courseSlug = slugify(course.name.trim(), {
           lower: true,
           strict: true,
           trim: true,
