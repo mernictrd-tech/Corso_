@@ -395,8 +395,6 @@ const verifyPayment = async (req, res) => {
       },
     );
 
-    console.log("TID API response:", response.data);
-
     const tid = response.data?.TID;
 
     if (!tid) {

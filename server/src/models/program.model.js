@@ -99,7 +99,9 @@ programSchema.pre("save", function () {
     return;
   }
 
-  this.slug = slugify(this.name, {
+  const slugSource = this.name.replace(/c\+\+/gi, "cpp").trim();
+
+  this.slug = slugify(slugSource, {
     lower: true,
     strict: true,
     trim: true,

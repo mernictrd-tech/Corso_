@@ -77,15 +77,13 @@ const seedCategoriesPrograms = async () => {
       }
 
       for (const course of categoryData.courses) {
-        let courseSlug = slugify(course.name.trim(), {
+        const slugSource = course.name.replace(/c\+\+/gi, "cpp").trim();
+
+        let courseSlug = slugify(slugSource, {
           lower: true,
           strict: true,
           trim: true,
         });
-
-        if (course.name.toLowerCase() === "c++ programming") {
-          courseSlug = "cpp-programing";
-        }
 
         const existingProgram = await Program.findOne({
           $or: [{ name: course.name.trim() }, { slug: courseSlug }],

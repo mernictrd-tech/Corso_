@@ -18,8 +18,6 @@ const CoursesCards = () => {
 
             const response = await api.get("/program/list");
 
-            console.log("Programs API response:", response.data);
-
             setPrograms(response.data.data || []);
         } catch (error) {
             console.error("Failed to load courses:", error);
@@ -37,8 +35,6 @@ const CoursesCards = () => {
     const fetchCategories = async () => {
         try {
             const response = await api.get("/category/list");
-
-            console.log("Categories API response:", response.data);
 
             const categoryData = response.data.data || [];
 
