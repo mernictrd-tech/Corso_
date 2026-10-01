@@ -25,13 +25,15 @@ const topicIcons = [
 ];
 
 const SkillsCovered = ({ course }) => {
+  if (!course?.topics || course.topics.length === 0) {
+    return null;
+  }
+
   return (
     <section className="bg-[#070B1A] py-16 sm:py-20 lg:py-24">
       <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-
         {/* Heading */}
         <div className="mx-auto max-w-3xl text-center">
-
           <span className="inline-flex rounded-full border border-cyan-400/30 bg-cyan-400/10 px-3 py-1.5 text-xs font-semibold text-cyan-300 sm:px-4 sm:py-2 sm:text-sm">
             Skills Assessment
           </span>
@@ -49,12 +51,10 @@ const SkillsCovered = ({ course }) => {
             practical knowledge to ensure you're ready for real-world
             development challenges.
           </p>
-
         </div>
 
         {/* Skills Grid */}
         <div className="mt-10 grid gap-4 sm:mt-12 sm:gap-5 md:grid-cols-2 lg:grid-cols-3 xl:mt-16 xl:grid-cols-5">
-
           {course.topics.map((skill, index) => {
             const Icon = topicIcons[index % topicIcons.length];
 
@@ -76,12 +76,8 @@ const SkillsCovered = ({ course }) => {
                   sm:p-6
                 "
               >
-
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-500/20 to-emerald-500/20 sm:h-14 sm:w-14">
-                  <Icon
-                    size={24}
-                    className="text-cyan-400 sm:h-7 sm:w-7"
-                  />
+                  <Icon size={24} className="text-cyan-400 sm:h-7 sm:w-7" />
                 </div>
 
                 <h3 className="mt-5 text-base font-semibold leading-6 text-white sm:mt-6 sm:text-lg">
@@ -91,21 +87,16 @@ const SkillsCovered = ({ course }) => {
                 <p className="mt-2 text-sm leading-6 text-gray-400 sm:mt-3">
                   {skill.description}
                 </p>
-
               </div>
             );
           })}
-
         </div>
 
         {/* Bottom CTA */}
         <div className="mt-12 rounded-[28px] border border-cyan-400/20 bg-gradient-to-r from-cyan-500/10 via-transparent to-emerald-500/10 p-5 sm:mt-16 sm:rounded-3xl sm:p-8 lg:mt-20 lg:p-10">
-
           <div className="flex flex-col gap-7 lg:flex-row lg:items-center lg:justify-between lg:gap-8">
-
             {/* CTA Content */}
             <div>
-
               <h3 className="text-2xl font-bold leading-tight text-white sm:text-3xl">
                 Assessment Coverage
               </h3>
@@ -115,12 +106,10 @@ const SkillsCovered = ({ course }) => {
                 understanding of modern development concepts, coding practices,
                 and problem-solving abilities.
               </p>
-
             </div>
 
             {/* Stats */}
             <div className="grid w-full grid-cols-2 gap-3 sm:gap-4 lg:w-auto">
-
               <div className="rounded-xl border border-cyan-400/20 bg-cyan-500/10 px-3 py-4 text-center sm:px-6 sm:py-4">
                 <h4 className="text-2xl font-bold text-cyan-400">
                   {course.topics.length}
@@ -132,21 +121,15 @@ const SkillsCovered = ({ course }) => {
               </div>
 
               <div className="rounded-xl border border-emerald-400/20 bg-emerald-500/10 px-3 py-4 text-center sm:px-6 sm:py-4">
-                <h4 className="text-2xl font-bold text-emerald-400">
-                  100%
-                </h4>
+                <h4 className="text-2xl font-bold text-emerald-400">100%</h4>
 
                 <p className="mt-1 text-xs text-gray-400 sm:text-sm">
                   Practical Focus
                 </p>
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </div>
     </section>
   );
