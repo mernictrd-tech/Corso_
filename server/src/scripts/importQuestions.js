@@ -12,7 +12,7 @@ const MONGO_URI = process.env.MONGO_URI;
 
 const questionsPath = path.join(
   __dirname,
-  "../../data/Business, Management & Leadership.json"
+  "../../data/Artificial Intelligence & Generative AI.json"
 );
 
 // -----------------------------------------
