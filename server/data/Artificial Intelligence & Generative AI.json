@@ -1,0 +1,3782 @@
+[
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What is the primary goal of Artificial Intelligence?",
+        "options": [
+            "To enable machines to perform tasks that normally require human intelligence",
+            "To increase computer storage capacity",
+            "To replace computer networks",
+            "To manufacture physical hardware"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Which of the following is an example of AI used in everyday life?",
+        "options": [
+            "A standard USB cable",
+            "A recommendation system suggesting movies",
+            "A basic light switch",
+            "A mechanical ruler"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What is Machine Learning?",
+        "options": [
+            "A method for designing computer processors",
+            "A technique for manually programming every possible output",
+            "A field of AI where systems learn patterns from data",
+            "A method for increasing internet speed"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Which type of machine learning uses labeled training data?",
+        "options": [
+            "Unsupervised learning",
+            "Reinforcement learning",
+            "Self-supervised learning",
+            "Supervised learning"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What is the main purpose of training a machine learning model?",
+        "options": [
+            "To learn patterns from available data",
+            "To physically modify the computer",
+            "To increase monitor resolution",
+            "To remove the operating system"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Which of the following is commonly used for classification problems?",
+        "options": [
+            "Sorting files into folders manually",
+            "Predicting whether an email is spam or not spam",
+            "Increasing database storage",
+            "Compressing an image file"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What does NLP stand for in Artificial Intelligence?",
+        "options": [
+            "Network Learning Protocol",
+            "Neural Logic Processor",
+            "Natural Language Processing",
+            "Numeric Language Program"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Which AI technology focuses on understanding and processing human language?",
+        "options": [
+            "Computer graphics",
+            "Robotics",
+            "Computer networking",
+            "Natural Language Processing"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What is computer vision primarily concerned with?",
+        "options": [
+            "Helping computers understand images and visual information",
+            "Managing computer passwords",
+            "Increasing network bandwidth",
+            "Creating physical keyboards"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Which of the following is an example of supervised learning?",
+        "options": [
+            "Grouping customers without predefined categories",
+            "Training a model using labeled images of cats and dogs",
+            "Allowing an agent to learn through rewards only",
+            "Generating random numbers"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What is unsupervised learning mainly used for?",
+        "options": [
+            "Learning only from manually labeled examples",
+            "Following predefined instructions without data",
+            "Finding patterns or groups in unlabeled data",
+            "Replacing computer hardware"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Which concept allows an AI system to improve based on rewards and penalties?",
+        "options": [
+            "Supervised learning",
+            "Clustering",
+            "Regression",
+            "Reinforcement learning"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What is a dataset?",
+        "options": [
+            "A collection of data used for analysis or machine learning",
+            "A computer monitor",
+            "A programming language",
+            "A network cable"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Why is data quality important in machine learning?",
+        "options": [
+            "It determines the physical size of the computer",
+            "Poor-quality data can negatively affect model performance",
+            "It increases keyboard speed",
+            "It removes the need for testing"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What is overfitting in machine learning?",
+        "options": [
+            "When a model has too little training data",
+            "When a model cannot access a database",
+            "When a model learns training data too closely and performs poorly on new data",
+            "When a model is not trained at all"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What is the purpose of a test dataset?",
+        "options": [
+            "To train the model repeatedly",
+            "To store user passwords",
+            "To increase the number of features",
+            "To evaluate how well a trained model performs on unseen data"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Which of the following is an AI application in healthcare?",
+        "options": [
+            "Assisting with medical image analysis",
+            "Replacing all hospital buildings",
+            "Manufacturing hospital furniture",
+            "Increasing electricity voltage"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What is a neural network inspired by?",
+        "options": [
+            "Computer storage systems",
+            "The structure and functioning of biological neurons",
+            "Internet routers",
+            "Database tables"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Which component of a neural network receives input data?",
+        "options": [
+            "Output layer",
+            "Hidden layer",
+            "Input layer",
+            "Database layer"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What does an AI model generally learn during training?",
+        "options": [
+            "The physical dimensions of a computer",
+            "The user's keyboard layout",
+            "The operating system version",
+            "Patterns and relationships within the training data"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Which task is an example of regression?",
+        "options": [
+            "Predicting the price of a house",
+            "Identifying whether an email is spam",
+            "Grouping customers by behavior",
+            "Recognizing a handwritten digit"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What is inference in machine learning?",
+        "options": [
+            "Collecting raw data",
+            "Using a trained model to make predictions or decisions",
+            "Deleting training data",
+            "Building computer hardware"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Which of these is an example of natural language processing?",
+        "options": [
+            "Detecting a broken keyboard",
+            "Measuring CPU temperature",
+            "Analyzing the sentiment of customer reviews",
+            "Increasing hard-drive capacity"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Why are features important in machine learning?",
+        "options": [
+            "They determine the color of the interface",
+            "They control internet connectivity",
+            "They replace the training algorithm",
+            "They provide input characteristics that a model can use to make predictions"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What is AI ethics mainly concerned with?",
+        "options": [
+            "The responsible and fair development and use of AI systems",
+            "Increasing processor clock speed",
+            "Reducing monitor size",
+            "Designing computer cables"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Which issue can occur when training data contains strong biases?",
+        "options": [
+            "The computer automatically becomes faster",
+            "The AI system may produce biased outcomes",
+            "The model no longer requires training",
+            "The database becomes physically larger"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What is the purpose of model evaluation metrics?",
+        "options": [
+            "To increase data storage",
+            "To change the operating system",
+            "To measure how well a model performs",
+            "To create new hardware"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Which statement best describes Artificial General Intelligence?",
+        "options": [
+            "An AI system designed only for image classification",
+            "A database management system",
+            "A system used only for robotics",
+            "A hypothetical AI capable of performing a broad range of intellectual tasks"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "What is automation using AI primarily intended to do?",
+        "options": [
+            "Perform tasks or processes with limited human intervention",
+            "Increase the physical size of computers",
+            "Replace all forms of software",
+            "Eliminate the need for data"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Fundamentals",
+        "question": "Which factor can significantly affect the performance of an AI model?",
+        "options": [
+            "The color of the computer case",
+            "The quality and relevance of the training data",
+            "The size of the monitor",
+            "The type of keyboard used"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is the primary purpose of Generative AI?",
+        "options": [
+            "To manage computer hardware",
+            "To create new content based on learned patterns",
+            "To replace internet networks",
+            "To store files permanently"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "Which type of content can Generative AI create?",
+        "options": [
+            "Only spreadsheets",
+            "Only databases",
+            "Only audio",
+            "Text, images, code, audio, and other content"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What does a generative model learn from training data?",
+        "options": [
+            "Patterns and relationships that can be used to generate new content",
+            "Only file names",
+            "Computer hardware specifications",
+            "Internet connection settings"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+    "category": "Artificial Intelligence & Generative AI",
+    "program": "Generative AI Fundamentals",
+    "question": "What is the primary capability that distinguishes generative AI from traditional AI systems?",
+    "options": [
+      "It can create new content based on learned patterns",
+      "It only analyzes numerical data",
+      "It can operate without any training data",
+      "It only follows predefined decision rules"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "isActive": true
+  },
+  {
+    "category": "Artificial Intelligence & Generative AI",
+    "program": "Generative AI Fundamentals",
+    "question": "What role does a training dataset play in a generative AI model?",
+    "options": [
+      "It directly determines every response the model will generate",
+      "It helps the model learn patterns and relationships in the data",
+      "It removes the need for model training",
+      "It guarantees that the model will always generate factual information"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "isActive": true
+  },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is a Large Language Model primarily designed to process?",
+        "options": [
+            "Computer cables",
+            "Human language",
+            "Physical sensors only",
+            "Printer hardware"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is a prompt in Generative AI?",
+        "options": [
+            "A database backup",
+            "A hardware component",
+            "An input or instruction provided to an AI model",
+            "A computer virus"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What does text generation involve?",
+        "options": [
+            "Creating new text based on an input and learned patterns",
+            "Converting text into hardware",
+            "Deleting all text from a database",
+            "Increasing screen resolution"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is one common use of image generation models?",
+        "options": [
+            "Managing network cables",
+            "Creating images from textual descriptions",
+            "Repairing computer processors",
+            "Increasing database storage"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is hallucination in Generative AI?",
+        "options": [
+            "A hardware failure",
+            "A method for compressing images",
+            "When a model generates information that may be false or unsupported",
+            "A type of computer network"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is multimodal AI?",
+        "options": [
+            "AI that only processes numbers",
+            "AI that works without any input",
+            "AI that only generates source code",
+            "AI that can work with multiple types of data such as text, images, and audio"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is an AI-generated summary?",
+        "options": [
+            "A shorter representation of information created by an AI model",
+            "A computer hardware report",
+            "A database schema",
+            "A network configuration"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "Why should generated information sometimes be verified?",
+        "options": [
+            "AI models cannot process text",
+            "Generated responses can contain incorrect or outdated information",
+            "AI models never generate answers",
+            "Verification reduces computer memory"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "Which technology is commonly associated with modern Generative AI?",
+        "options": [
+            "Spreadsheet formulas",
+            "File compression",
+            "Transformer-based neural networks",
+            "Printer drivers"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is synthetic data?",
+        "options": [
+            "Data stored only on paper",
+            "Data collected exclusively from sensors",
+            "Data that cannot be processed by computers",
+            "Artificially generated data designed to resemble real-world data"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is one use of Generative AI in software development?",
+        "options": [
+            "Generating or explaining source code",
+            "Replacing computer processors",
+            "Increasing internet bandwidth",
+            "Manufacturing keyboards"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is fine-tuning in the context of AI models?",
+        "options": [
+            "Changing the monitor brightness",
+            "Further training a pretrained model on more specific data",
+            "Deleting the model parameters",
+            "Changing the computer operating system"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is a pretrained model?",
+        "options": [
+            "A model that has never seen data",
+            "A model used only for hardware testing",
+            "A model that has already been trained on a large dataset",
+            "A model without parameters"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "Which is a potential benefit of Generative AI?",
+        "options": [
+            "It always produces perfectly accurate information",
+            "It eliminates all human review",
+            "It requires no computing resources",
+            "It can help automate content creation and assist with creative tasks"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What does tokenization generally do in language models?",
+        "options": [
+            "Converts text into smaller units that a model can process",
+            "Converts text into physical files",
+            "Deletes punctuation permanently",
+            "Encrypts computer hardware"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is an AI chatbot?",
+        "options": [
+            "A database server",
+            "A software system that interacts with users using natural language",
+            "A computer motherboard",
+            "A file storage device"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is text-to-image generation?",
+        "options": [
+            "Converting an image into a spreadsheet",
+            "Converting code into a database",
+            "Generating an image based on a text description",
+            "Generating hardware from text"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "Why are GPUs commonly used for Generative AI?",
+        "options": [
+            "They are required for storing passwords",
+            "They replace all AI algorithms",
+            "They eliminate the need for datasets",
+            "They can efficiently perform large numbers of parallel computations"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is the context window of a language model?",
+        "options": [
+            "The amount of input and context the model can consider within a request",
+            "The physical size of the computer screen",
+            "The amount of hard-disk space available",
+            "The number of users connected to Wi-Fi"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "Which activity is an example of Generative AI in education?",
+        "options": [
+            "Replacing classroom furniture",
+            "Generating practice questions or explanations for learners",
+            "Increasing classroom electricity",
+            "Installing network cables"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is one limitation of Generative AI?",
+        "options": [
+            "It cannot generate any content",
+            "It can only work with hardware",
+            "Its outputs may contain inaccuracies or reflect biases in its data",
+            "It does not require computing resources"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is content generation with AI?",
+        "options": [
+            "Creating only physical products",
+            "Deleting information from databases",
+            "Replacing all human communication",
+            "Using AI models to produce new digital content"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "Which output can a coding-focused Generative AI model produce?",
+        "options": [
+            "Source code",
+            "Physical computer components",
+            "Electricity",
+            "Network cables"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "What is the role of human review in Generative AI workflows?",
+        "options": [
+            "To make the model unnecessary",
+            "To check, refine, and validate generated outputs when appropriate",
+            "To increase processor temperature",
+            "To remove all training data"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Generative AI Fundamentals",
+        "question": "Which statement best describes Generative AI?",
+        "options": [
+            "It only analyzes existing records",
+            "It is limited to computer vision",
+            "It can generate new content based on patterns learned during training",
+            "It is a type of computer hardware"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "What is prompt engineering?",
+        "options": [
+            "Designing and refining instructions to obtain useful outputs from AI models",
+            "Building computer processors",
+            "Managing network cables",
+            "Creating database hardware"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Why is specificity useful when writing a prompt?",
+        "options": [
+            "It increases the physical size of the AI model",
+            "It can make the desired task and output clearer to the model",
+            "It removes the need for input",
+            "It prevents the model from generating text"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "What is a zero-shot prompt?",
+        "options": [
+            "A prompt with no text",
+            "A prompt that always produces zero output",
+            "A prompt where the model is asked to perform a task without examples",
+            "A prompt used only for image generation"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "What is few-shot prompting?",
+        "options": [
+            "Using a prompt without instructions",
+            "Using only one-word prompts",
+            "Using prompts that contain no examples",
+            "Providing a small number of examples to guide the model's response"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Which prompt is generally more specific?",
+        "options": [
+            "Write a 100-word professional summary of this article for a business audience.",
+            "Tell me something.",
+            "Do it.",
+            "Explain."
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Why can providing context improve an AI response?",
+        "options": [
+            "It increases the model's hardware capacity",
+            "It gives the model relevant information about the task and desired result",
+            "It removes the need for instructions",
+            "It guarantees factual accuracy"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "What is a role prompt?",
+        "options": [
+            "A prompt that changes computer hardware",
+            "A prompt that deletes previous messages",
+            "A prompt that asks the model to respond from a particular professional or functional perspective",
+            "A prompt that disables language processing"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Which instruction is most useful when a specific output format is required?",
+        "options": [
+            "Answer however you want",
+            "Give me something useful",
+            "Do not follow any format",
+            "Return the answer as a JSON object with the specified fields"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "What is iterative prompting?",
+        "options": [
+            "Improving a prompt based on the output from previous attempts",
+            "Using no instructions at all",
+            "Deleting every previous prompt",
+            "Changing computer hardware after each request"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "What is a constraint in prompt engineering?",
+        "options": [
+            "A type of processor",
+            "A condition or limitation specifying how the response should be generated",
+            "A database server",
+            "A network protocol"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Which element can help define the intended audience of a response?",
+        "options": [
+            "Computer brand",
+            "Monitor size",
+            "Audience description",
+            "Internet speed"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Why might examples be included in a prompt?",
+        "options": [
+            "To increase file storage",
+            "To disable model generation",
+            "To replace the need for context",
+            "To demonstrate the desired pattern, style, or format"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Which prompt is better suited for generating a professional email?",
+        "options": [
+            "Write a polite and concise professional email requesting a meeting with a client.",
+            "Email.",
+            "Write anything.",
+            "Make something."
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "What does prompt refinement involve?",
+        "options": [
+            "Changing the computer's operating system",
+            "Modifying instructions to improve the relevance or quality of the output",
+            "Removing all context from a request",
+            "Deleting the AI model"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Which factor can influence the quality of an AI response?",
+        "options": [
+            "Keyboard color",
+            "Monitor resolution",
+            "Clarity of the prompt",
+            "Computer case size"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "What is an output format instruction?",
+        "options": [
+            "An instruction to change the model's hardware",
+            "A request to remove the user's input",
+            "A setting for internet bandwidth",
+            "An instruction specifying how the generated response should be structured"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Which approach can help when an AI response is too broad?",
+        "options": [
+            "Add specific requirements, context, and constraints",
+            "Remove all instructions",
+            "Use only a single punctuation mark",
+            "Provide unrelated information"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "What is a negative instruction in a prompt?",
+        "options": [
+            "An instruction that must always produce a negative answer",
+            "An instruction describing something the model should avoid doing",
+            "A prompt containing a negative number",
+            "A prompt used only for mathematics"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Why should ambiguous instructions generally be avoided?",
+        "options": [
+            "They make the computer physically slower",
+            "They increase monitor brightness",
+            "They can lead to outputs that do not match the intended requirement",
+            "They automatically delete the prompt"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "What does prompt chaining mean?",
+        "options": [
+            "Connecting multiple computers",
+            "Using a single word repeatedly",
+            "Deleting previous responses",
+            "Breaking a complex task into multiple prompts or sequential steps"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Which prompt is most appropriate for structured data extraction?",
+        "options": [
+            "Extract the person's name, email, and phone number and return them as JSON.",
+            "Tell me something about this.",
+            "Read this.",
+            "Do whatever you think is useful."
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "What is the purpose of specifying a word limit in a prompt?",
+        "options": [
+            "To change the model architecture",
+            "To control the approximate length of the generated response",
+            "To increase the computer's storage",
+            "To disable model reasoning"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "What can happen if a prompt contains conflicting instructions?",
+        "options": [
+            "The computer automatically restarts",
+            "The model gains additional memory",
+            "The output may be inconsistent or fail to satisfy the intended requirement",
+            "The internet connection becomes faster"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Why is it useful to separate context from instructions in a complex prompt?",
+        "options": [
+            "It reduces processor temperature",
+            "It changes the model's training data",
+            "It prevents the model from reading the prompt",
+            "It can make the task requirements easier to understand and follow"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Which is an example of a useful constraint for a business summary?",
+        "options": [
+            "Summarize the report in five bullet points for a non-technical manager.",
+            "Summarize it somehow.",
+            "Write whatever comes to mind.",
+            "Do not consider the report."
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "What is the main purpose of testing different prompts?",
+        "options": [
+            "To increase the physical size of the model",
+            "To identify instructions that produce more useful and consistent outputs",
+            "To remove all model parameters",
+            "To replace the training dataset"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Which practice can improve consistency when using AI for repeated tasks?",
+        "options": [
+            "Changing the task completely each time",
+            "Removing all output requirements",
+            "Using a standardized prompt template",
+            "Providing random unrelated examples"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Why should sensitive information be handled carefully in prompts?",
+        "options": [
+            "It makes the model physically larger",
+            "It always improves the response",
+            "It prevents all possible errors",
+            "Sensitive information may create privacy or security risks depending on the AI system and its data handling"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "What is the best general approach when an AI response does not meet the requirement?",
+        "options": [
+            "Review the output and refine the prompt with clearer instructions or context",
+            "Delete the entire AI system",
+            "Stop providing any instructions",
+            "Change the computer hardware"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Prompt Engineering",
+        "question": "Which statement best describes effective prompt engineering?",
+        "options": [
+            "It guarantees that every AI response will be correct",
+            "It uses clear instructions, context, examples, and constraints when appropriate to guide model output",
+            "It removes the need for human review",
+            "It only applies to image generation"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What does LLM stand for?",
+        "options": [
+            "Large Language Model",
+            "Logical Learning Machine",
+            "Language Logic Module",
+            "Large Learning Mechanism"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is the primary purpose of a Large Language Model?",
+        "options": [
+            "To manage computer hardware",
+            "To process and generate human language",
+            "To replace database servers",
+            "To control network routers"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What architecture is commonly associated with modern LLMs?",
+        "options": [
+            "Decision tree",
+            "Convolution-only architecture",
+            "Transformer",
+            "Relational database"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is tokenization in an LLM?",
+        "options": [
+            "Encrypting the model",
+            "Deleting unnecessary text",
+            "Converting text directly into images",
+            "Breaking text into smaller units called tokens"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What does a language model generally predict during text generation?",
+        "options": [
+            "The next likely token based on previous context",
+            "The physical location of the user",
+            "The computer's temperature",
+            "The size of the hard drive"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is a transformer primarily designed to handle efficiently?",
+        "options": [
+            "Physical sensors",
+            "Relationships between elements in sequential data",
+            "Computer power supplies",
+            "File storage devices"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is attention in transformer models?",
+        "options": [
+            "A method for increasing screen brightness",
+            "A database indexing technique",
+            "A mechanism for determining which parts of the input are relevant to each other",
+            "A method for compressing computer files"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is pretraining?",
+        "options": [
+            "Manually writing every possible answer",
+            "Testing the model without data",
+            "Deleting the model parameters",
+            "Training a model on a large dataset before adapting it to specific tasks"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is fine-tuning used for?",
+        "options": [
+            "Adapting a pretrained model to a particular task or dataset",
+            "Increasing monitor resolution",
+            "Replacing the operating system",
+            "Removing all training data"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is an embedding?",
+        "options": [
+            "A computer password",
+            "A numerical representation of information such as text",
+            "A physical storage device",
+            "A type of network cable"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "Why are embeddings useful?",
+        "options": [
+            "They increase internet speed",
+            "They replace databases",
+            "They can represent semantic relationships between pieces of information",
+            "They change computer hardware"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is a context window?",
+        "options": [
+            "The physical display area of a computer",
+            "The model's storage capacity",
+            "The number of users connected to the model",
+            "The amount of input context a model can consider within a request"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What can happen when an LLM receives insufficient context?",
+        "options": [
+            "The response may lack relevant information or context",
+            "The computer automatically shuts down",
+            "The model gains more training data",
+            "The model becomes a database"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is hallucination in an LLM?",
+        "options": [
+            "A hardware failure",
+            "Generation of information that may be incorrect or unsupported",
+            "A method for increasing token limits",
+            "A type of database"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What does temperature generally control in text generation?",
+        "options": [
+            "The processor temperature",
+            "The model's memory size",
+            "The randomness or variability of generated output",
+            "The number of training datasets"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is the purpose of a system instruction?",
+        "options": [
+            "To increase internet bandwidth",
+            "To change the model architecture",
+            "To delete previous conversations",
+            "To establish high-level behavior or instructions for the model"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is autoregressive generation?",
+        "options": [
+            "Generating each new token based on previously generated tokens",
+            "Generating all tokens without considering previous output",
+            "Generating only images",
+            "Generating database records"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "Why are GPUs commonly used for training LLMs?",
+        "options": [
+            "They store passwords automatically",
+            "They perform large numbers of parallel mathematical operations efficiently",
+            "They eliminate the need for training data",
+            "They replace language models"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is an LLM parameter?",
+        "options": [
+            "A user account",
+            "A database table",
+            "A learned numerical value used by the model",
+            "A computer monitor setting"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is model inference?",
+        "options": [
+            "Training a model from scratch",
+            "Collecting the training dataset",
+            "Deleting model parameters",
+            "Using a trained model to generate predictions or responses"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is retrieval-augmented generation commonly used for?",
+        "options": [
+            "Providing an LLM with relevant external information during generation",
+            "Increasing monitor size",
+            "Replacing the model's tokenizer",
+            "Removing all external information"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is the main benefit of using a vector database with an LLM?",
+        "options": [
+            "It increases CPU clock speed",
+            "It can store and retrieve embeddings for similarity-based search",
+            "It replaces the LLM",
+            "It removes the need for text data"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What does semantic similarity measure?",
+        "options": [
+            "File size similarity",
+            "Computer speed",
+            "How closely related the meanings of pieces of information are",
+            "Network bandwidth"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is prompt injection?",
+        "options": [
+            "A method for increasing model size",
+            "A technique for compressing prompts",
+            "A hardware upgrade",
+            "An attempt to manipulate an AI system through crafted instructions"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is model bias?",
+        "options": [
+            "Systematic patterns in model outputs that may disadvantage certain groups or perspectives",
+            "A faster GPU",
+            "A database backup",
+            "A larger context window"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "Why is evaluation important for LLM applications?",
+        "options": [
+            "It changes the physical hardware",
+            "It helps measure quality, accuracy, safety, and usefulness of outputs",
+            "It eliminates all hallucinations",
+            "It increases internet speed"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is multilingual capability in an LLM?",
+        "options": [
+            "The ability to store multiple files",
+            "The ability to run on multiple computers",
+            "The ability to understand or generate multiple human languages",
+            "The ability to create multiple databases"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is one important limitation of LLMs?",
+        "options": [
+            "They cannot process any text",
+            "They do not require computing resources",
+            "They always have access to real-time information",
+            "They can generate confident responses that contain factual errors"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "What is grounding in an LLM application?",
+        "options": [
+            "Connecting model responses to reliable and relevant source information",
+            "Reducing monitor brightness",
+            "Changing the model's hardware",
+            "Deleting training data"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Large Language Models",
+        "question": "Which task is an appropriate use of an LLM?",
+        "options": [
+            "Physically repairing a computer",
+            "Summarizing a document provided as input",
+            "Replacing an electrical circuit",
+            "Increasing RAM without hardware"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is an AI agent?",
+        "options": [
+            "A database table",
+            "A software system that can perceive information, make decisions, and take actions toward a goal",
+            "A computer monitor",
+            "A network cable"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What distinguishes an AI agent from a simple chatbot?",
+        "options": [
+            "An agent can potentially plan and perform actions using tools",
+            "An agent cannot process language",
+            "An agent only stores files",
+            "An agent must operate without any input"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is tool use in an AI agent?",
+        "options": [
+            "Changing the AI model hardware",
+            "Deleting the model",
+            "Allowing the agent to interact with external systems or functions",
+            "Increasing screen resolution"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is planning in an agentic system?",
+        "options": [
+            "Changing computer settings",
+            "Storing passwords",
+            "Creating database backups",
+            "Breaking a goal into steps that can be executed to achieve the desired outcome"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is an agent's goal?",
+        "options": [
+            "The desired outcome that guides the agent's actions",
+            "The model's physical size",
+            "The number of computer processors",
+            "The network address"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "Why do AI agents use tools?",
+        "options": [
+            "To reduce the model's language capability",
+            "To perform actions or access information that the model cannot directly provide",
+            "To replace the user interface",
+            "To eliminate all external systems"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "Which is an example of an agent tool?",
+        "options": [
+            "Computer monitor",
+            "Keyboard cable",
+            "A weather API",
+            "Printer paper"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is an agent loop?",
+        "options": [
+            "A database backup process",
+            "A network connection",
+            "A hardware testing cycle",
+            "A repeated process of reasoning, acting, observing results, and continuing toward a goal"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is memory in an AI agent?",
+        "options": [
+            "Information retained or retrieved to help the agent across steps or interactions",
+            "Computer RAM only",
+            "A physical storage drive",
+            "A network connection"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is an autonomous workflow?",
+        "options": [
+            "A workflow that always requires manual execution",
+            "A workflow where software can execute multiple steps with limited human intervention",
+            "A workflow that cannot use tools",
+            "A workflow without any defined goal"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "Why are permissions important for AI agents?",
+        "options": [
+            "They make the model larger",
+            "They increase token limits",
+            "They control which actions and resources an agent is allowed to access",
+            "They remove the need for monitoring"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is human-in-the-loop control?",
+        "options": [
+            "Removing humans from every process",
+            "Allowing the agent to make every decision without review",
+            "Using only manual processes",
+            "Including human review or approval at selected stages of an AI workflow"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is multi-agent collaboration?",
+        "options": [
+            "Multiple AI agents working together on a task or workflow",
+            "One agent running on multiple monitors",
+            "Multiple databases sharing storage",
+            "Multiple users editing a keyboard"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is an agent environment?",
+        "options": [
+            "The model's training dataset only",
+            "The external context and systems with which an agent interacts",
+            "A computer operating system",
+            "A physical office"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What can an agent use an API for?",
+        "options": [
+            "Changing its processor",
+            "Increasing monitor size",
+            "Accessing external services or data through defined interfaces",
+            "Removing its instructions"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is task decomposition?",
+        "options": [
+            "Deleting a task",
+            "Combining unrelated tasks",
+            "Removing all steps",
+            "Breaking a complex task into smaller manageable subtasks"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "Why should agent actions be monitored?",
+        "options": [
+            "To identify errors, unexpected behavior, or unsafe actions",
+            "To increase computer screen brightness",
+            "To eliminate all tools",
+            "To reduce the number of users"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is an action in an agent workflow?",
+        "options": [
+            "A training dataset",
+            "An operation performed by the agent or through one of its tools",
+            "A model parameter",
+            "A text token"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is observation in an agent loop?",
+        "options": [
+            "Deleting previous actions",
+            "Changing the agent's architecture",
+            "Receiving information about the result or current state after an action",
+            "Creating a new operating system"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is an important risk of giving an AI agent excessive permissions?",
+        "options": [
+            "The model becomes smaller",
+            "The model stops generating language",
+            "The agent cannot use tools",
+            "The agent may perform unintended or harmful actions"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is guardrail in an AI agent system?",
+        "options": [
+            "A rule or control designed to restrict unsafe or unwanted behavior",
+            "A computer cable",
+            "A model training dataset",
+            "A type of GPU"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "Why are stopping conditions useful in agent workflows?",
+        "options": [
+            "They increase the model's context window",
+            "They prevent an agent from continuing indefinitely when a task is complete or should stop",
+            "They remove the agent's goal",
+            "They eliminate the need for tools"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is tool selection?",
+        "options": [
+            "Selecting a computer monitor",
+            "Selecting a database",
+            "Choosing an appropriate external tool for a specific task",
+            "Choosing the model's training language"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "Which scenario is suitable for an AI agent?",
+        "options": [
+            "Physically repairing a broken keyboard",
+            "Replacing electrical wiring",
+            "Manufacturing a computer",
+            "Collecting information from approved sources and preparing a report"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is workflow orchestration?",
+        "options": [
+            "Coordinating multiple steps, tools, or agents to complete a process",
+            "Changing the model's processor",
+            "Deleting workflow steps",
+            "Increasing storage capacity"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "Why should an agent's tool inputs be validated?",
+        "options": [
+            "To increase token generation",
+            "To reduce the risk of invalid, unexpected, or unsafe actions",
+            "To remove all permissions",
+            "To change the model's language"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is feedback in an agent workflow?",
+        "options": [
+            "A computer component",
+            "A database format",
+            "Information about results that can be used to adjust subsequent actions",
+            "A network cable"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "Which principle is useful when designing agent permissions?",
+        "options": [
+            "Give unlimited access by default",
+            "Remove all security controls",
+            "Allow access to every available tool",
+            "Give the agent only the permissions necessary for its task"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is the role of reasoning in an agentic workflow?",
+        "options": [
+            "It can help determine what steps or actions are appropriate for achieving a goal",
+            "It replaces every external tool",
+            "It physically controls the computer",
+            "It removes the need for a goal"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Agentic AI Fundamentals",
+        "question": "What is a key difference between automation and agentic AI?",
+        "options": [
+            "Automation cannot use software",
+            "Agentic AI can dynamically decide or adapt actions toward a goal rather than only following fixed steps",
+            "Automation always requires an LLM",
+            "Agentic AI cannot use predefined workflows"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "How can AI support businesses?",
+        "options": [
+            "By eliminating every business process",
+            "By increasing physical office space",
+            "By improving automation, analysis, decision support, and productivity",
+            "By replacing all employees automatically"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "Which is an example of AI-powered customer service?",
+        "options": [
+            "A chatbot answering common customer questions",
+            "A manual filing cabinet",
+            "A paper invoice",
+            "A physical telephone cable"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "How can predictive analytics help a business?",
+        "options": [
+            "By replacing the company's database",
+            "By identifying patterns that can support forecasts and planning",
+            "By manufacturing hardware",
+            "By removing historical data"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "What is process automation?",
+        "options": [
+            "Manually repeating every task",
+            "Replacing all business employees",
+            "Using technology to execute defined business tasks with reduced manual effort",
+            "Removing all business workflows"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "Which business function can use AI for candidate screening?",
+        "options": [
+            "Facilities management only",
+            "Manufacturing hardware",
+            "Network installation",
+            "Human resources"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "How can AI help marketing teams?",
+        "options": [
+            "By assisting with content creation, customer analysis, and campaign insights",
+            "By replacing internet connectivity",
+            "By manufacturing advertising screens",
+            "By deleting customer data"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "What is personalization in business?",
+        "options": [
+            "Giving every customer exactly the same experience",
+            "Tailoring content, offers, or experiences based on relevant customer information",
+            "Removing customer preferences",
+            "Using no customer data"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "How can AI support fraud detection?",
+        "options": [
+            "By removing financial records",
+            "By replacing payment systems",
+            "By identifying unusual patterns or transactions",
+            "By increasing transaction fees"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "Why is data quality important for business AI applications?",
+        "options": [
+            "It increases office space",
+            "It removes the need for business decisions",
+            "It changes employee roles automatically",
+            "Poor-quality data can lead to unreliable analysis and AI outputs"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "What is AI-assisted decision support?",
+        "options": [
+            "Using AI-generated analysis or recommendations to help humans make decisions",
+            "Allowing AI to legally make every business decision",
+            "Removing managers from all processes",
+            "Replacing business records with AI"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "How can Generative AI improve business productivity?",
+        "options": [
+            "By eliminating the need for employees",
+            "By assisting with drafting, summarization, research, and routine content tasks",
+            "By replacing company networks",
+            "By removing business processes"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "What is customer sentiment analysis?",
+        "options": [
+            "Measuring customer age only",
+            "Counting customer accounts",
+            "Analyzing text or feedback to identify expressed attitudes or emotions",
+            "Deleting customer reviews"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "What should businesses consider before deploying an AI system?",
+        "options": [
+            "Only the system's interface color",
+            "Only the number of employees",
+            "Only the cost of electricity",
+            "Data privacy, security, accuracy, risks, compliance, and business value"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "What is return on investment in an AI project?",
+        "options": [
+            "A measure comparing the value or benefits gained with the investment made",
+            "The number of AI models created",
+            "The amount of computer memory used",
+            "The number of employees using AI"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "Which business activity can use demand forecasting?",
+        "options": [
+            "Office decoration",
+            "Inventory and supply planning",
+            "Computer assembly",
+            "Employee badge printing"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "How can AI help sales teams?",
+        "options": [
+            "By replacing all customers",
+            "By removing sales records",
+            "By identifying leads, summarizing customer information, and supporting sales analysis",
+            "By manufacturing products"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "What is an AI-powered recommendation system?",
+        "options": [
+            "A physical product catalog",
+            "A manual customer survey",
+            "A database backup system",
+            "A system that suggests relevant products, services, or content based on data"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "What is an AI use case?",
+        "options": [
+            "A specific business problem or process where AI can be applied",
+            "A type of computer processor",
+            "A network cable",
+            "A database password"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "Why should an organization identify a clear business problem before implementing AI?",
+        "options": [
+            "To increase model size",
+            "To ensure the AI solution addresses a meaningful business need",
+            "To eliminate all human decisions",
+            "To avoid collecting any requirements"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "What is human oversight in business AI?",
+        "options": [
+            "Allowing AI to operate without monitoring",
+            "Removing employees from the workflow",
+            "Having people review, supervise, or approve AI-supported decisions when appropriate",
+            "Disabling all AI features"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "Which is a potential risk of using AI for business decisions?",
+        "options": [
+            "AI always produces identical results",
+            "AI cannot process business data",
+            "AI eliminates all operational risks",
+            "Biased or inaccurate data can contribute to inappropriate decisions"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "What is predictive maintenance?",
+        "options": [
+            "Replacing every machine on a fixed date",
+            "Using data to predict potential equipment failures and plan maintenance",
+            "Stopping all equipment permanently",
+            "Manually inspecting every component every hour"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "How can AI support financial analysis?",
+        "options": [
+            "By physically printing currency",
+            "By replacing financial regulations",
+            "By analyzing financial data, identifying patterns, and supporting forecasts",
+            "By removing accounting records"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "What is an AI governance framework?",
+        "options": [
+            "A method for increasing CPU speed",
+            "A database design",
+            "A customer service chatbot",
+            "A set of policies, processes, and controls for responsible AI use"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "Why is employee training important when adopting AI?",
+        "options": [
+            "Employees need to understand how to use AI effectively and responsibly",
+            "It makes AI models physically larger",
+            "It removes the need for security policies",
+            "It guarantees that AI will never make errors"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "What is process optimization?",
+        "options": [
+            "Removing every business process",
+            "Improving a process to make it more efficient, effective, or reliable",
+            "Increasing the number of manual steps",
+            "Replacing all business data"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "Which metric can help evaluate an AI customer-service system?",
+        "options": [
+            "Office wall size",
+            "Number of keyboards",
+            "Resolution rate or customer satisfaction",
+            "Computer color"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "What is scalability in an AI business solution?",
+        "options": [
+            "Reducing the number of users",
+            "Making the system work only for one task",
+            "Removing automation",
+            "The ability of a solution to handle increased workload or users effectively"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "Which approach is useful when introducing AI into an organization?",
+        "options": [
+            "Start with a well-defined use case and measure its results",
+            "Deploy AI everywhere without testing",
+            "Ignore employee feedback",
+            "Remove all human oversight"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI for Business",
+        "question": "What is the role of AI in business intelligence?",
+        "options": [
+            "Replacing all company databases",
+            "Helping analyze business data and identify patterns or insights",
+            "Manufacturing computers",
+            "Removing reporting systems"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is the main goal of Responsible AI?",
+        "options": [
+            "To develop and use AI in a safe, fair, transparent, and accountable manner",
+            "To maximize the number of AI models",
+            "To remove human involvement from AI systems",
+            "To make every AI system fully autonomous"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What does fairness in AI generally mean?",
+        "options": [
+            "Every user receives exactly the same output",
+            "AI systems should avoid unjustified discrimination or unfair treatment",
+            "AI systems should never use data",
+            "AI systems should always make decisions without humans"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is AI bias?",
+        "options": [
+            "A type of computer hardware",
+            "A method of increasing model speed",
+            "A systematic tendency in data or model outputs that can produce unfair results",
+            "A method of encrypting AI models"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "Why is transparency important in AI systems?",
+        "options": [
+            "It makes AI systems physically smaller",
+            "It eliminates the need for testing",
+            "It guarantees that every prediction is correct",
+            "It can help people understand how an AI system is being used and what factors affect its outputs"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is explainability in AI?",
+        "options": [
+            "The ability to provide understandable reasons or information about how an AI system reaches an output",
+            "The ability to increase storage capacity",
+            "The ability to run without data",
+            "The ability to eliminate all human decisions"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is data privacy concerned with?",
+        "options": [
+            "Increasing the amount of data collected",
+            "Protecting personal or sensitive information and controlling how it is collected and used",
+            "Making databases publicly accessible",
+            "Removing all security controls"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is accountability in AI?",
+        "options": [
+            "Making AI systems responsible for their own legal decisions",
+            "Allowing AI to operate without supervision",
+            "Ensuring that appropriate people or organizations are responsible for AI systems and their impacts",
+            "Removing documentation from AI projects"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "Why is human oversight important for some AI systems?",
+        "options": [
+            "Humans make AI models larger",
+            "Human oversight removes all possible errors",
+            "It eliminates the need for AI testing",
+            "People can review, challenge, or intervene in AI-supported decisions when appropriate"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What can biased training data cause?",
+        "options": [
+            "It can cause an AI model to reproduce or amplify unfair patterns",
+            "It always improves model accuracy",
+            "It removes the need for evaluation",
+            "It prevents the model from processing data"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is data minimization?",
+        "options": [
+            "Collecting as much data as possible",
+            "Collecting only the data that is necessary for a specific purpose",
+            "Deleting all data immediately",
+            "Using data without any restrictions"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "Why should organizations document AI systems?",
+        "options": [
+            "To increase model size",
+            "To make the system more expensive",
+            "To support understanding, auditing, maintenance, and accountability",
+            "To eliminate the need for users"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is AI safety primarily concerned with?",
+        "options": [
+            "Increasing model output length",
+            "Reducing the number of users",
+            "Changing the model's programming language",
+            "Reducing the risk of harmful, unsafe, or unintended AI behavior"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is algorithmic discrimination?",
+        "options": [
+            "When an automated system produces unfair outcomes for people based on protected or otherwise inappropriate characteristics",
+            "When an algorithm processes data quickly",
+            "When a model uses a large dataset",
+            "When an AI system generates multiple outputs"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "Why should AI models be evaluated on diverse datasets?",
+        "options": [
+            "To increase the physical size of the model",
+            "To identify whether performance differs across relevant groups and scenarios",
+            "To remove the need for testing",
+            "To prevent the model from learning patterns"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is informed consent in data collection?",
+        "options": [
+            "Using data without informing anyone",
+            "Collecting unlimited information",
+            "Providing people with relevant information and obtaining appropriate agreement before collecting or using their data",
+            "Making all collected data public"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is model robustness?",
+        "options": [
+            "The number of parameters in a model",
+            "The amount of storage required by a model",
+            "The number of users accessing a model",
+            "The ability of a model to continue performing reliably under expected variations or disruptions"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "Why should AI-generated content sometimes be reviewed by humans?",
+        "options": [
+            "AI output can contain errors, bias, or inappropriate information",
+            "AI cannot generate any useful content",
+            "Human review always makes the model faster",
+            "AI systems cannot process language"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is privacy by design?",
+        "options": [
+            "Adding privacy controls only after deployment",
+            "Considering privacy protections throughout the design and development of a system",
+            "Avoiding all data processing",
+            "Publishing all user data"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is the purpose of an AI impact assessment?",
+        "options": [
+            "To measure the physical size of an AI model",
+            "To calculate computer memory",
+            "To identify potential effects, risks, and impacts of an AI system",
+            "To eliminate all AI applications"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "Which practice can help reduce unauthorized access to sensitive AI data?",
+        "options": [
+            "Making all data publicly available",
+            "Sharing passwords among employees",
+            "Removing authentication",
+            "Using appropriate access controls and authentication"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is fairness testing used for?",
+        "options": [
+            "To identify whether an AI system produces significantly different outcomes across relevant groups",
+            "To increase internet speed",
+            "To remove all model parameters",
+            "To measure computer storage"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "Why is security important in AI systems?",
+        "options": [
+            "It makes the model generate longer responses",
+            "AI systems can be targets for attacks, misuse, unauthorized access, or manipulation",
+            "It eliminates all model errors",
+            "It removes the need for data protection"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is auditability?",
+        "options": [
+            "The ability to make a model larger",
+            "The ability to remove logs",
+            "The ability to review records and processes related to an AI system",
+            "The ability to prevent all human access"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "Why is it important to communicate AI limitations to users?",
+        "options": [
+            "To make AI appear more powerful",
+            "To reduce the amount of training data",
+            "To remove user responsibility",
+            "To help users understand when AI outputs may be unreliable or require verification"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is responsible data governance?",
+        "options": [
+            "Managing data according to appropriate policies, security, privacy, quality, and access requirements",
+            "Allowing everyone unrestricted access",
+            "Deleting all historical records",
+            "Collecting data without a defined purpose"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What is one way to improve AI accountability?",
+        "options": [
+            "Avoiding documentation",
+            "Clearly defining responsibilities for development, deployment, monitoring, and oversight",
+            "Removing all human reviewers",
+            "Allowing anonymous changes to production systems"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "What does responsible deployment involve?",
+        "options": [
+            "Deploying immediately without testing",
+            "Removing all monitoring",
+            "Testing, monitoring, managing risks, and applying appropriate controls before and after deployment",
+            "Allowing unrestricted access to the system"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "Why should AI systems be monitored after deployment?",
+        "options": [
+            "Monitoring makes the model automatically perfect",
+            "Monitoring removes the need for security",
+            "Monitoring guarantees zero bias",
+            "Performance, data, usage patterns, and risks can change over time"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "Which principle supports giving users meaningful information about AI decisions?",
+        "options": [
+            "Transparency",
+            "Data duplication",
+            "Automation",
+            "Compression"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "Responsible AI",
+        "question": "Which statement best describes responsible AI?",
+        "options": [
+            "AI should always replace human decision-making",
+            "AI should be designed and used with attention to fairness, safety, privacy, transparency, and accountability",
+            "AI should never use data",
+            "AI should operate without monitoring"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is AI automation?",
+        "options": [
+            "Using AI to support or automate tasks and workflows that would otherwise require manual effort",
+            "Replacing every computer in an organization",
+            "Creating physical robots only",
+            "Removing all business processes"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is a workflow?",
+        "options": [
+            "A computer processor",
+            "A sequence of tasks or activities used to complete a process",
+            "A database password",
+            "A network device"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "Which task is suitable for AI automation?",
+        "options": [
+            "Physically repairing machinery",
+            "Replacing office furniture",
+            "Automatically classifying incoming support requests",
+            "Installing electrical wiring manually"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is an automation trigger?",
+        "options": [
+            "A database schema",
+            "A programming language",
+            "A type of AI model",
+            "An event or condition that starts an automated workflow"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is an automation action?",
+        "options": [
+            "A task performed by an automation workflow after a trigger or condition",
+            "A type of database",
+            "A model training dataset",
+            "A computer display setting"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "How can AI improve traditional automation?",
+        "options": [
+            "By removing all workflows",
+            "By handling tasks involving language, classification, prediction, or less-structured information",
+            "By eliminating software applications",
+            "By preventing systems from communicating"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is an API commonly used for in automation?",
+        "options": [
+            "Changing computer hardware",
+            "Increasing screen size",
+            "Allowing different software systems to communicate and exchange data",
+            "Replacing the operating system"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is event-driven automation?",
+        "options": [
+            "Automation that never responds to events",
+            "Automation performed only manually",
+            "Automation that runs only once",
+            "Automation that starts or changes behavior in response to defined events"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is document automation?",
+        "options": [
+            "Using software to create, process, classify, extract, or route documents automatically",
+            "Printing every document manually",
+            "Deleting all documents",
+            "Replacing document storage with hardware"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "How can AI help automate email processing?",
+        "options": [
+            "By physically delivering emails",
+            "By classifying, summarizing, extracting information, or drafting responses",
+            "By replacing email servers",
+            "By deleting every incoming message"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is robotic process automation?",
+        "options": [
+            "A method for training language models",
+            "A type of neural network",
+            "Software automation that can perform structured, repetitive tasks",
+            "A physical robot manufacturing process"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is a conditional step in an automation workflow?",
+        "options": [
+            "A step that always executes the same action",
+            "A step that deletes the workflow",
+            "A step that disables all automation",
+            "A step that performs different actions depending on whether a condition is met"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "Why is error handling important in automation?",
+        "options": [
+            "It helps workflows respond appropriately when something fails or produces an unexpected result",
+            "It increases the model's parameter count",
+            "It removes the need for testing",
+            "It guarantees that errors never occur"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is workflow orchestration?",
+        "options": [
+            "Deleting workflow steps",
+            "Coordinating multiple tasks, services, or systems within a workflow",
+            "Replacing all APIs",
+            "Removing automation triggers"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "Which process is generally a good candidate for automation?",
+        "options": [
+            "A process that changes completely every time",
+            "A process with no defined outcome",
+            "A repetitive process with clear rules and measurable outcomes",
+            "A process requiring unpredictable physical judgment at every step"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is human-in-the-loop automation?",
+        "options": [
+            "Automation without any people",
+            "Automation that only humans can execute",
+            "Manual processing without software",
+            "An automated workflow that includes human review or approval at selected points"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "How can AI automate customer support?",
+        "options": [
+            "By automatically answering common questions and routing more complex issues",
+            "By replacing the customer database",
+            "By removing all support channels",
+            "By preventing customers from contacting the company"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is data extraction automation?",
+        "options": [
+            "Manually copying information between documents",
+            "Automatically identifying and extracting relevant information from data sources",
+            "Deleting information from databases",
+            "Replacing structured data with paper"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "Why should automated workflows be tested before production use?",
+        "options": [
+            "Testing increases internet speed",
+            "Testing makes AI unnecessary",
+            "Testing helps identify errors, unexpected behavior, and incorrect outputs",
+            "Testing removes all workflow steps"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is workflow monitoring?",
+        "options": [
+            "Changing the workflow every minute",
+            "Deleting workflow logs",
+            "Removing all automation rules",
+            "Tracking workflow execution, failures, performance, and outcomes"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is the purpose of an automation log?",
+        "options": [
+            "To record relevant workflow events and execution details for monitoring or troubleshooting",
+            "To increase AI model accuracy automatically",
+            "To replace the database",
+            "To prevent every possible error"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is a webhook commonly used for?",
+        "options": [
+            "Training an AI model",
+            "Sending information automatically when a particular event occurs",
+            "Increasing computer memory",
+            "Replacing an API"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is scheduled automation?",
+        "options": [
+            "Automation that requires a person every time",
+            "Automation that only runs after a system failure",
+            "Automation that executes at predefined times or intervals",
+            "Automation that has no trigger"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "Which is an example of AI-powered workflow automation?",
+        "options": [
+            "Manually reading every customer email",
+            "Printing invoices by hand",
+            "Typing every customer record manually",
+            "Classifying customer emails with AI and automatically routing them to the appropriate team"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is an automation bottleneck?",
+        "options": [
+            "A step or resource that limits the overall speed or efficiency of a workflow",
+            "A successful automation result",
+            "A type of AI model",
+            "A database backup"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What should be considered when automating a business process?",
+        "options": [
+            "Only the appearance of the workflow",
+            "Process value, risks, data requirements, reliability, and expected benefits",
+            "Only the number of software tools",
+            "Only the speed of the computer"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is automation scalability?",
+        "options": [
+            "Reducing automation to one task",
+            "Removing all workflow steps",
+            "The ability of an automated process to handle increased workload effectively",
+            "Making every task manual"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "Why are access permissions important in AI automation?",
+        "options": [
+            "They increase the number of generated tokens",
+            "They make workflows run without software",
+            "They remove the need for authentication",
+            "They control which systems and data an automated process can access"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "What is process optimization before automation?",
+        "options": [
+            "Improving or simplifying a process before automating it",
+            "Automating every inefficient step without review",
+            "Removing the desired business outcome",
+            "Adding unnecessary manual steps"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Automation",
+        "question": "Which outcome can AI automation provide?",
+        "options": [
+            "Guaranteed elimination of every employee task",
+            "Reduced manual effort and faster handling of suitable repetitive processes",
+            "Complete elimination of business risk",
+            "Automatic accuracy in every situation"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "What is the primary purpose of AI productivity tools?",
+        "options": [
+            "To assist people in completing work more efficiently",
+            "To replace all workplace software",
+            "To eliminate every manual task",
+            "To increase computer hardware capacity"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "How can AI tools help with writing?",
+        "options": [
+            "By replacing the operating system",
+            "By drafting, rewriting, summarizing, or improving text",
+            "By physically printing documents",
+            "By increasing storage capacity"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "Which task can an AI productivity assistant help with?",
+        "options": [
+            "Physically repairing a laptop",
+            "Installing electrical wiring",
+            "Creating a first draft of a presentation outline",
+            "Replacing a computer battery"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "How can AI assist with meeting notes?",
+        "options": [
+            "By replacing the meeting software",
+            "By preventing participants from speaking",
+            "By deleting the meeting recording",
+            "By summarizing discussions, decisions, and action items when supported by the tool"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "How can AI help with email management?",
+        "options": [
+            "It can help draft, summarize, classify, or prioritize emails",
+            "It can physically deliver emails",
+            "It can replace the email server automatically",
+            "It can remove the need for communication"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "What is AI-assisted summarization?",
+        "options": [
+            "Deleting the original document",
+            "Using AI to produce a shorter representation of important information",
+            "Converting text into hardware",
+            "Removing all details from a document"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "How can AI support research?",
+        "options": [
+            "By guaranteeing every source is accurate",
+            "By replacing all academic databases",
+            "By helping organize information, summarize sources, and identify relevant topics",
+            "By removing the need to verify sources"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "Why should users verify AI-generated research information?",
+        "options": [
+            "AI cannot process research topics",
+            "Verification always makes research slower",
+            "AI tools cannot summarize information",
+            "AI-generated information may contain inaccuracies, outdated facts, or unsupported claims"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "How can AI help create presentations?",
+        "options": [
+            "It can help generate outlines, slide content, summaries, or speaker notes",
+            "It physically assembles presentation screens",
+            "It replaces presentation software completely",
+            "It automatically guarantees a successful presentation"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "What is AI-assisted brainstorming?",
+        "options": [
+            "Removing all human ideas",
+            "Using AI to generate and organize possible ideas for further human evaluation",
+            "Allowing AI to make final decisions automatically",
+            "Deleting unsuccessful ideas permanently"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "How can AI help programmers?",
+        "options": [
+            "By physically assembling computers",
+            "By replacing all software developers",
+            "By assisting with code generation, explanation, debugging, and documentation",
+            "By guaranteeing that generated code is secure"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "What is AI-assisted translation?",
+        "options": [
+            "Replacing human languages with programming languages",
+            "Deleting the source text",
+            "Converting every language into one fixed language",
+            "Using AI to translate text between languages"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "How can AI help with spreadsheets?",
+        "options": [
+            "It can help explain formulas, analyze data, or generate formula suggestions",
+            "It physically changes spreadsheet hardware",
+            "It removes all spreadsheet data",
+            "It replaces the computer keyboard"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "What is document summarization useful for?",
+        "options": [
+            "Increasing document file size",
+            "Quickly understanding the main points of lengthy documents",
+            "Removing important information intentionally",
+            "Replacing document security"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "Which task is suitable for an AI writing assistant?",
+        "options": [
+            "Repairing a printer",
+            "Replacing an office network",
+            "Rewriting a paragraph in a more professional tone",
+            "Installing computer hardware"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "What is an AI note-taking assistant?",
+        "options": [
+            "A physical notebook",
+            "A database backup system",
+            "A hardware recording device",
+            "A tool that can help capture, organize, or summarize notes using AI"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "How can AI help prioritize tasks?",
+        "options": [
+            "It can suggest priorities based on provided information and criteria",
+            "It automatically knows every user's personal priorities",
+            "It eliminates the need for deadlines",
+            "It replaces all project managers"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "What is an AI-powered search assistant?",
+        "options": [
+            "A physical search engine device",
+            "A tool that can help interpret queries and provide synthesized information",
+            "A replacement for the internet",
+            "A database storage unit"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "Why is prompt quality important when using productivity tools?",
+        "options": [
+            "It changes the computer processor",
+            "It increases internet bandwidth",
+            "Clear instructions can help produce more relevant and useful outputs",
+            "It guarantees that all outputs are correct"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "What should users consider before entering confidential company information into an AI tool?",
+        "options": [
+            "Only the tool's interface design",
+            "Only the response length",
+            "Only the model's name",
+            "The tool's privacy, security, data-use policies, and organizational requirements"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "What is AI-assisted content editing?",
+        "options": [
+            "Using AI to improve grammar, clarity, structure, tone, or readability",
+            "Replacing every human editor",
+            "Deleting all original content",
+            "Converting text into computer hardware"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "How can AI help with repetitive administrative work?",
+        "options": [
+            "By physically completing office work",
+            "By assisting with data entry, classification, drafting, and other repetitive tasks",
+            "By removing all business records",
+            "By replacing every employee"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "What is AI-assisted idea generation?",
+        "options": [
+            "Allowing AI to make final business decisions",
+            "Removing human creativity",
+            "Using AI to suggest possible ideas that humans can review and develop",
+            "Automatically publishing every generated idea"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "Which is a limitation of AI productivity tools?",
+        "options": [
+            "They cannot process any information",
+            "They are never useful for productivity",
+            "They cannot generate text",
+            "They may produce inaccurate or inappropriate outputs that require human review"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "What is the purpose of using templates with AI productivity tools?",
+        "options": [
+            "To make repeated tasks more consistent and easier to execute",
+            "To eliminate all customization",
+            "To prevent AI from generating content",
+            "To increase computer memory"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "How can AI assist with project planning?",
+        "options": [
+            "By physically managing the project team",
+            "By helping create task lists, timelines, summaries, or planning suggestions",
+            "By guaranteeing project success",
+            "By removing project requirements"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "Why should users review AI-generated business communications before sending them?",
+        "options": [
+            "AI cannot generate emails",
+            "Review always increases email length",
+            "The content may contain errors, inappropriate wording, or incorrect assumptions",
+            "AI tools cannot understand business language"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "What is AI-assisted knowledge management?",
+        "options": [
+            "Deleting organizational knowledge",
+            "Replacing every company document",
+            "Making all information public",
+            "Using AI to organize, search, summarize, or retrieve organizational information"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "Which practice can improve the usefulness of an AI productivity assistant?",
+        "options": [
+            "Providing clear goals, relevant context, and desired output format",
+            "Giving unrelated information",
+            "Removing all context",
+            "Using vague instructions for every task"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "isActive": true
+    },
+    {
+        "category": "Artificial Intelligence & Generative AI",
+        "program": "AI Productivity Tools",
+        "question": "What is a good general approach to using AI productivity tools?",
+        "options": [
+            "Accept every AI output without checking",
+            "Use AI as an assistant while reviewing and validating important outputs",
+            "Avoid providing any instructions",
+            "Allow AI to make every important decision automatically"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "isActive": true
+    }
+]
