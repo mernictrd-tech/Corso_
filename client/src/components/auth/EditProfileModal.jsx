@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { X, User, Mail, Save, Camera } from "lucide-react";
+import { X, User, Mail, Save, Camera, PhoneCall } from "lucide-react";
 import api from "../../services/api";
 import toast from "react-hot-toast";
 
@@ -20,6 +20,7 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
       setForm({
         name: profile.fullName || "",
         email: profile.email || "",
+        phone: profile.phone || "",
         profileImage: null,
       });
 
@@ -65,6 +66,20 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
     setPreview(imageUrl);
   };
 
+  const getImageUrl = (image) => {
+    if (!image) return "";
+
+    if (
+      image.startsWith("blob:") ||
+      image.startsWith("http://") ||
+      image.startsWith("https://")
+    ) {
+      return image;
+    }
+
+    return `${import.meta.env.VITE_API_BASE_URL_RESOURCE}${image}`;
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -101,6 +116,14 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
       return;
     }
 
+    // phone validation
+    const trimmedPhone = form.phone.trim();
+
+    if (!trimmedPhone) {
+      alert("Phone is required.");
+      return;
+    }
+
     try {
       setLoading(true);
 
@@ -108,6 +131,7 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
 
       formData.append("name", trimmedName);
       formData.append("email", trimmedEmail);
+      formData.append("phone", trimmedPhone);
 
       // Image is optional
       if (form.profileImage) {
@@ -164,7 +188,7 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
           <div className="relative">
             {preview ? (
               <img
-                src={`${import.meta.env.VITE_API_BASE_URL_RESOURCE}${preview}`}
+                src={getImageUrl(preview)}
                 alt="Profile"
                 className="h-24 w-24 rounded-full border-2 border-cyan-500 object-cover"
               />
@@ -240,6 +264,30 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
                 type="email"
                 name="email"
                 value={form.email}
+                onChange={handleChange}
+                required
+                className="w-full rounded-xl border border-gray-700 bg-gray-950 py-3 pl-10 pr-4 text-sm text-white outline-none transition placeholder:text-gray-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500"
+                placeholder="Enter your email"
+              />
+            </div>
+          </div>
+
+          {/* Phone */}
+          <div>
+            <label className="mb-2 block text-sm font-medium text-gray-300">
+              Phone
+            </label>
+
+            <div className="relative">
+              <PhoneCall
+                size={18}
+                className="absolute left-3 top-1/2 -translate-y-1/2 text-cyan-400"
+              />
+
+              <input
+                type="phone"
+                name="phone"
+                value={form.phone}
                 onChange={handleChange}
                 required
                 className="w-full rounded-xl border border-gray-700 bg-gray-950 py-3 pl-10 pr-4 text-sm text-white outline-none transition placeholder:text-gray-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500"

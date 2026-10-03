@@ -37,22 +37,18 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
     certificate?.programName ||
     certificate?.title ||
     certificate?.program ||
-    "React.js";
+    "Course Name";
 
   const certificateId =
-    certificate?.certificateId || certificate?.id || "CRS-2026-001";
+    certificate?.certificateId || certificate?.id || "SKLM-2026-001";
 
   const skiliumId =
     certificate?.skiliumId ||
-    `CRSO-${String(certificateId).replace(/[^a-zA-Z0-9]/g, "") || "2026"}`;
+    `${String(certificateId) || "2026"}`;
 
   const documentIdentifier =
-    certificate?.documentIdentifier ||
-    `DOC-${
-      String(certificate?._id || certificateId)
-        .slice(-8)
-        .toUpperCase() || "9842104"
-    }`;
+    certificate?.skiliumId ||
+    `${String(certificateId) || "2026"}`;
 
   const score = certificate?.score ?? certificate?.assessment?.score ?? 92;
 

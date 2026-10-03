@@ -447,7 +447,7 @@ const getAssessmentQuestions = async (req, res) => {
     const questions = await Question.find({
       _id: { $in: session.questionIds },
       isActive: true,
-    });
+    }).select("-correctAnswer -created_at -updated_at ");
 
     return res.status(200).json({
       success: true,

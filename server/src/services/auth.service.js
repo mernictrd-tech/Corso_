@@ -14,6 +14,7 @@ const registerUser = async (userData) => {
   const user = await User.create({
     fullName,
     email,
+    phone,
     password,
     termsAccepted,
   });

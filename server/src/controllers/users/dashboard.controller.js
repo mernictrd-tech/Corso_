@@ -23,7 +23,7 @@ const getProgramSuggestion = async (req, res) => {
 
 const updateProfile = async (req, res) => {
   try {
-    const { name, email } = req.body;
+    const { name, email, phone } = req.body;
 
     const trimmedName = name?.trim();
 
@@ -81,6 +81,7 @@ const updateProfile = async (req, res) => {
     const updateData = {
       fullName: trimmedName,
       email: trimmedEmail,
+      phone: phone
     };
 
     if (req.file) {

@@ -10,18 +10,15 @@ const ICON_PATHS = {
   shield:
     "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.291 9 11.622C17.176 19.291 21 14.591 21 9c0-1.042-.133-2.052-.382-3.016z",
   check: "M5 13l4 4L19 7",
-  copy:
-    "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2",
-  book:
-    "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
+  copy: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2",
+  book: "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
   document:
     "M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h6l4 4v12a2 2 0 01-2 2z",
   user: "M16 7a4 4 0 11-8 0 4 4 0 018 0zM5 21a7 7 0 0114 0",
   calendar:
     "M8 7V3m8 4V3M4 10h16M5 21h14a1 1 0 001-1V6a1 1 0 00-1-1H5a1 1 0 00-1 1v14a1 1 0 001 1z",
   chart: "M4 19V5m0 14h16M8 16v-4m4 4V8m4 8v-7",
-  link:
-    "M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1",
+  link: "M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1",
   alert:
     "M12 9v4m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z",
   arrowRight: "M13 7l5 5m0 0l-5 5m5-5H6",
@@ -38,11 +35,7 @@ const Icon = ({ name, className = "h-5 w-5", strokeWidth = 1.8 }) => (
     viewBox="0 0 24 24"
     aria-hidden="true"
   >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d={ICON_PATHS[name]}
-    />
+    <path strokeLinecap="round" strokeLinejoin="round" d={ICON_PATHS[name]} />
   </svg>
 );
 
@@ -50,7 +43,12 @@ const Icon = ({ name, className = "h-5 w-5", strokeWidth = 1.8 }) => (
    Copy button
 ================================================================ */
 
-const CopyButton = ({ value, label = "Copy", className = "", compact = false }) => {
+const CopyButton = ({
+  value,
+  label = "Copy",
+  className = "",
+  compact = false,
+}) => {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = useCallback(async () => {
@@ -220,9 +218,7 @@ const VerifyCertificate = () => {
         setLoading(true);
         setError("");
 
-        const response = await api.get(
-          `/certificate/verify/${certificateId}`
-        );
+        const response = await api.get(`/certificate/verify/${certificateId}`);
 
         if (cancelled) return;
 
@@ -230,14 +226,13 @@ const VerifyCertificate = () => {
           setCertificate(response.data.data);
         } else {
           setError(
-            response.data?.message || "Certificate could not be verified."
+            response.data?.message || "Certificate could not be verified.",
           );
         }
       } catch (err) {
         if (cancelled) return;
         setError(
-          err.response?.data?.message ||
-            "Certificate could not be verified."
+          err.response?.data?.message || "Certificate could not be verified.",
         );
       } finally {
         if (!cancelled) setLoading(false);
@@ -431,7 +426,11 @@ const VerifyCertificate = () => {
                   className="inline-flex items-center justify-center gap-2 rounded-xl bg-cyan-400 px-6 py-3 text-base font-bold text-[#06101B] shadow-lg shadow-cyan-400/20 transition hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0B1122]"
                 >
                   Go to Skilium
-                  <Icon name="arrowRight" className="h-5 w-5" strokeWidth={2.2} />
+                  <Icon
+                    name="arrowRight"
+                    className="h-5 w-5"
+                    strokeWidth={2.2}
+                  />
                 </Link>
               </div>
             </div>
@@ -575,19 +574,19 @@ const VerifyCertificate = () => {
                     value={details.courseName}
                   />
 
-                  <DetailCard
+                  {/* <DetailCard
                     icon="calendar"
                     label="Date of Issue"
                     value={details.issueDate}
-                  />
+                  /> */}
 
-                  <DetailCard
+                  {/* <DetailCard
                     icon="document"
                     label="Document Identifier"
                     value={certificate.documentIdentifier || "—"}
                     mono
                     copyable
-                  />
+                  /> */}
 
                   <DetailCard
                     icon="user"
@@ -602,10 +601,7 @@ const VerifyCertificate = () => {
               {/* Trust note */}
               <section className="flex items-start gap-4 rounded-2xl border-2 border-emerald-400/30 bg-emerald-400/[0.05] p-5">
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border-2 border-emerald-400/40 bg-emerald-400/[0.1]">
-                  <Icon
-                    name="shield"
-                    className="h-5 w-5 text-emerald-300"
-                  />
+                  <Icon name="shield" className="h-5 w-5 text-emerald-300" />
                 </span>
 
                 <div>
@@ -618,6 +614,19 @@ const VerifyCertificate = () => {
                   </p>
                 </div>
               </section>
+
+              {/* CTA */}
+              <Link
+                to="/"
+                className="group flex w-full items-center justify-center gap-2 rounded-2xl bg-cyan-400 px-5 py-4 text-base font-bold text-[#06101B] shadow-lg shadow-cyan-400/20 transition hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#060A16]"
+              >
+                Visit Skilium
+                <Icon
+                  name="arrowRight"
+                  className="h-5 w-5 transition-transform group-hover:translate-x-0.5"
+                  strokeWidth={2.2}
+                />
+              </Link>
             </div>
 
             {/* ---------------- Right column ---------------- */}
@@ -646,6 +655,7 @@ const VerifyCertificate = () => {
                     }
                   />
                   <SummaryRow label="Issuer" value="Skilium" />
+                  <SummaryRow label="Issue Date" value={details.issueDate} />
                   {/* <SummaryRow
                     label="Verified on"
                     value={verifiedOnLabel}
@@ -689,9 +699,7 @@ const VerifyCertificate = () => {
 
                     <div className="min-w-0">
                       <p className="text-base font-bold text-white">
-                        {details.scorePercent >= 50
-                          ? "Passed"
-                          : "Completed"}
+                        {details.scorePercent >= 50 ? "Passed" : "Completed"}
                       </p>
                       <p className="mt-2 text-sm leading-6 text-emerald-100">
                         Final assessment result recorded at the time of
@@ -701,19 +709,6 @@ const VerifyCertificate = () => {
                   </div>
                 </section>
               )}
-
-              {/* CTA */}
-              <Link
-                to="/"
-                className="group flex w-full items-center justify-center gap-2 rounded-2xl bg-cyan-400 px-5 py-4 text-base font-bold text-[#06101B] shadow-lg shadow-cyan-400/20 transition hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#060A16]"
-              >
-                Visit Skilium
-                <Icon
-                  name="arrowRight"
-                  className="h-5 w-5 transition-transform group-hover:translate-x-0.5"
-                  strokeWidth={2.2}
-                />
-              </Link>
             </aside>
           </div>
         </main>

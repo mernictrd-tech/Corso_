@@ -17,7 +17,14 @@ const SuggestedAssessments = () => {
     try {
       const res = await api.get("auth/programs/suggestion");
 
-      setPrograms(res.data?.data || []);
+      const programs = res.data?.data || [];
+
+      const randomPrograms = [...programs]
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 10);
+
+      setPrograms(randomPrograms);
+      
     } catch (err) {
       console.error("Failed to fetch suggested assessments:", err);
       setPrograms([]);

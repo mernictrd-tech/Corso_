@@ -61,16 +61,12 @@ const CertificateCard = ({
   // Skilium ID
   const skiliumId =
     certificate?.skiliumId ||
-    `SKLM-${String(certificateId).replace(/[^a-zA-Z0-9]/g, "") || "2026"}`;
+    `${String(certificateId) || "2026"}`;
 
   // Document Identifier
   const documentIdentifier =
-    certificate?.documentIdentifier ||
-    `DOC-${
-      String(certificate?._id || certificateId)
-        .slice(-8)
-        .toUpperCase() || "9842104"
-    }`;
+    certificate?.skiliumId ||
+        `${String(certificateId) || "2026"}`;;
 
   // Score
   const score = certificate?.score ?? certificate?.assessment?.score ?? 100;
@@ -383,12 +379,12 @@ const CertificateCard = ({
               </div>
 
               {/* Verification Doc */}
-              <div className="pt-3 flex items-center justify-between text-sm">
+              {/* <div className="pt-3 flex items-center justify-between text-sm">
                 <span className="text-gray-400">Document ID</span>
                 <span className="font-mono text-gray-300 text-xs sm:text-sm">
                   {documentIdentifier}
                 </span>
-              </div>
+              </div> */}
 
               {/* Issue Date */}
               <div className="pt-3 flex items-center justify-between text-sm">

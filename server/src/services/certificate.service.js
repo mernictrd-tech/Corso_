@@ -100,20 +100,19 @@ const normalizeCertificateData = (certificate = {}) => {
     certificate.user?.tid ||
     "TID";
 
-  const documentIdentifier =
-    certificate.documentIdentifier ||
-    `DOC-${
-      String(certificate._id || certificateId)
-        .slice(-8)
-        .toUpperCase() || "9842104"
-    }`;
+  // const documentIdentifier =
+  //   certificate.documentIdentifier ||
+  //   `DOC-${
+  //     String(certificate._id || certificateId)
+  //       .slice(-8)
+  //       .toUpperCase() || "9842104"
+  //   }`;
 
   const skiliumId =
     certificate.skiliumId ||
-    `SKLM-${String(certificateId).replace(
-      /[^a-zA-Z0-9]/g,
-      ""
-    )}`;
+    `${String(certificateId)}`;
+
+  const documentIdentifier = skiliumId
 
   const issueDate =
     certificate.issueDate ||
