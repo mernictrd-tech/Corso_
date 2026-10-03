@@ -345,10 +345,9 @@ const Dashboard = () => {
           </div>
 
           {/* ---------------- Stats ---------------- */}
-          <div className="mt-8">
-            {/* <StatsGrid stats={dashboardData.stats} /> */}
+          {/* <div className="mt-8">
             <StatsGrid cardStatus={cardStatus} />
-          </div>
+          </div> */}
 
           {/* Profile Section */}
           <div className="mt-8 grid gap-6 md:grid-cols-2 md:items-stretch">
