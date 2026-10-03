@@ -379,27 +379,44 @@ const verifyPayment = async (req, res) => {
       });
     }
 
-    const response = await axios.post(
-      process.env.TID_API_URL,
-      {
-        email: student.email,
-        name: student.fullName,
-        phone: student.phone,
-        parent_institute: "SKILIUM.IN",
-      },
-      {
-        timeout: 10000,
-        headers: {
-          "Content-Type": "application/json",
+    let tid;
+
+    try {
+      const response = await axios.post(
+        process.env.TID_API_URL,
+        {
+          email: student.email,
+          name: student.fullName,
+          phone: student.phone,
+          parent_institute: "SKILIUM.IN",
         },
-      },
-    );
+        {
+          timeout: 10000,
+          headers: {
+            "Content-Type": "application/json",
+          },
+        },
+      );
 
-    const tid = response.data?.TID;
+      tid = response.data?.TID;
 
-    if (!tid) {
-      console.error(`TID not received for ${email}`);
-      return;
+      if (!tid) {
+        throw new Error("TID API did not return TID");
+      }
+
+      console.log(`TID received from API: ${tid}`);
+    } catch (error) {
+      console.error(
+        `TID API failed for ${student.email}:`,
+        error.response?.data || error.message,
+      );
+
+      // Generate fallback temporary TID
+      const randomNumber = Math.floor(10000 + Math.random() * 900000);
+
+      tid = `TEMP${randomNumber}`;
+
+      console.log(`Using fallback TID: ${tid}`);
     }
 
     student = await userModel.findByIdAndUpdate(
@@ -409,7 +426,9 @@ const verifyPayment = async (req, res) => {
           tid: tid,
         },
       },
-      { returnDocument: "after" },
+      {
+        new: true,
+      },
     );
     console.log(student);
 
@@ -420,7 +439,9 @@ const verifyPayment = async (req, res) => {
           tid: tid,
         },
       },
-      { returnDocument: "after" },
+      {
+        new: true,
+      },
     );
 
     // let tid = "";
