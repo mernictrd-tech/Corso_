@@ -12,7 +12,7 @@ const axios = require("axios");
 const {
   sendCertificateEmail,
 } = require("../services/certificateEmail.service");
-const { saveCertificatePNG } = require("../services/certificate.service");
+const { saveCertificatePNG, generateCertificatePNG } = require("../services/certificate.service");
 const { sendEmail } = require("../services/ses.service");
 
 const razorpay = new Razorpay({
@@ -461,7 +461,7 @@ const verifyPayment = async (req, res) => {
     // Success
     // ---------------------------------------------------------
 
-    const generatedCertificate = await saveCertificatePNG({
+    const generatedCertificate = await generateCertificatePNG({
       _id: certificate._id,
       certificateId: certificate.certificateId,
       studentName: student.fullName,
@@ -478,7 +478,7 @@ const verifyPayment = async (req, res) => {
       tid: student.tid,
       score: assessment.score * 10,
       certificateId: certificate.certificateId,
-      certificateFilePath: generatedCertificate.filePath,
+      certificateBuffer: generatedCertificate.buffer,
     })
       .then((result) => {
         console.log("Certificate email sent:", result.messageId);

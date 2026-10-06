@@ -1,6 +1,6 @@
-  const Certificate = require("../models/certificate.model");
-const Program = require("../models/program.model");
+const Certificate = require("../models/certificate.model");
 const Assessment = require("../models/assessment.model");
+const { generateCertificatePNG } = require("../services/certificate.service");
 
 /*
 |--------------------------------------------------------------------------
@@ -40,10 +40,10 @@ const verifyCertificate = async (req, res) => {
 
     // FETCH ASSESSMENT
     const assessment = await Assessment.findOne({
-    student: certificate.user?._id,
+      student: certificate.user?._id,
     })
-    .sort({ createdAt: -1 })
-    .populate("program", "name slug");
+      .sort({ createdAt: -1 })
+      .populate("program", "name slug");
 
     return res.status(200).json({
       success: true,
@@ -73,6 +73,59 @@ const verifyCertificate = async (req, res) => {
   }
 };
 
+const generateCertificate = async (req, res) => {
+  try {
+    const { certificateId } = req.params;
+
+    const certificate = await Certificate.findOne({
+      certificateId,
+    })
+      .populate("user", "fullName email phone tid")
+      .populate("program", "name title");
+
+    if (!certificate) {
+      return res.status(404).json({
+        success: false,
+        message: "Certificate not found",
+      });
+    }
+
+    const { buffer } = await generateCertificatePNG({
+      studentName: certificate.studentName || certificate.user?.fullName || "",
+
+      programName:
+        certificate.program?.name || certificate.program?.title || "",
+
+      certificateId: certificate.certificateId,
+
+      tid: certificate.tid || certificate.user?.tid || "",
+
+      documentIdentifier: certificate.documentIdentifier,
+
+      issueDate: certificate.issueDate,
+
+      score: certificate.score,
+    });
+
+    res.set({
+      "Content-Type": "image/png",
+      "Content-Disposition": `inline; filename="Skilium_Certificate_${certificateId}.png"`,
+      "Content-Length": buffer.length,
+      "Cache-Control": "no-store",
+    });
+
+    return res.send(buffer);
+  } catch (error) {
+    console.error("Certificate generation failed:", error);
+
+    return res.status(500).json({
+      success: false,
+      message: "Unable to generate certificate",
+    });
+  }
+};
+
 module.exports = {
   verifyCertificate,
+  generateCertificate
 };

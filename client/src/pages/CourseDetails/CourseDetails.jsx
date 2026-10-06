@@ -14,6 +14,7 @@ import {
   StartAssessmentCard,
 } from "../../components/courseDetails";
 import StructuredData from "../../seo/StructuredData";
+import SEO from "../../seo/SEO";
 
 const CourseDetails = () => {
   const { courseId } = useParams();
@@ -155,6 +156,8 @@ const CourseDetails = () => {
 
   return (
     <Layout>
+
+      <SEO certificationName={course?.title} />
       <StructuredData data={courseSchema} />
 
       <CourseHero course={course} />

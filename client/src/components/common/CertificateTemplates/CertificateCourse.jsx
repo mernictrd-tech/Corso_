@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import {
   X,
   Download,
-  Printer,
   Copy,
   Check,
   Award,
@@ -13,8 +12,6 @@ import {
   Sparkles,
 } from "lucide-react";
 import toast from "react-hot-toast";
-import certificateTemplate from "../../../assets/images/certificate.png";
-import { QRCodeSVG } from "qrcode.react";
 import { toPng } from "html-to-image";
 
 const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
@@ -28,9 +25,7 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
     certificate?.studentName ||
     userProfile?.fullName ||
     certificate?.name ||
-    "Donna Stroupe";
-
-  const tid = certificate?.tid || certificate?.user?.tid || "TID";
+    "";
 
   const programName =
     certificate?.program?.name ||
@@ -41,14 +36,6 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
 
   const certificateId =
     certificate?.certificateId || certificate?.id || "SKLM-2026-001";
-
-  const skiliumId =
-    certificate?.skiliumId ||
-    `${String(certificateId) || "2026"}`;
-
-  const documentIdentifier =
-    certificate?.skiliumId ||
-    `${String(certificateId) || "2026"}`;
 
   const score = certificate?.score ?? certificate?.assessment?.score ?? 92;
 
@@ -107,31 +94,38 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  // Print Certificate / Save as PDF
-  const handlePrint = () => {
-    window.print();
-  };
-
   // High-Resolution PNG Download using HTML5 Canvas
   const handleDownload = async () => {
-    if (downloading || !certificateRef.current) return;
+    if (downloading || !certificate?.certificateId) return;
 
     try {
       setDownloading(true);
 
-      const dataUrl = await toPng(certificateRef.current, {
-        pixelRatio: 3,
-        cacheBust: true,
-        backgroundColor: "#070b1a",
-      });
+      const url = `${import.meta.env.VITE_API_BASE_URL}/certificate/${certificate.certificateId}`;
 
-      const safeName = String(programName).replace(/[^a-zA-Z0-9]/g, "_");
+      const response = await fetch(url);
+
+      if (!response.ok) {
+        throw new Error("Failed to generate certificate");
+      }
+
+      const blob = await response.blob();
+
+      const safeName = String(programName)
+        .replace(/[^a-zA-Z0-9]/g, "_")
+        .replace(/_+/g, "_");
+
+      const downloadUrl = window.URL.createObjectURL(blob);
 
       const link = document.createElement("a");
-
+      link.href = downloadUrl;
       link.download = `Skilium_Certificate_${safeName}_${certificateId}.png`;
-      link.href = dataUrl;
+
+      document.body.appendChild(link);
       link.click();
+      link.remove();
+
+      window.URL.revokeObjectURL(downloadUrl);
 
       toast.success("Certificate downloaded successfully!");
     } catch (error) {
@@ -234,74 +228,10 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
           <div className="relative w-full aspect-[2000/1414] select-none">
             {/* Background Template */}
             <img
-              src={certificateTemplate}
+              src={`${import.meta.env.VITE_API_BASE_URL}/certificate/${certificate.certificateId}`}
               alt="Skilium Certificate"
               className="w-full h-full object-contain pointer-events-none"
             />
-
-            {/* 1. Student Name */}
-            <div
-              className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 text-center pointer-events-none w-[80%]"
-              style={{ top: "49%" }}
-            >
-              <span className="font-serif font-bold text-cyan-300 tracking-wide drop-shadow-[0_0_15px_rgba(6,182,212,0.5)] text-[9px] sm:text-xl md:text-3xl lg:text-[34px] leading-tight block">
-                {studentName}
-              </span>
-            </div>
-
-            {/* 2. Program Name */}
-            <div
-              className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 text-center pointer-events-none w-[80%]"
-              style={{ top: "64.8%" }}
-            >
-              <span className="font-serif font-bold uppercase tracking-[0.1em] text-white text-[7px] sm:text-base md:text-xl lg:text-[26px] leading-tight block">
-                {programName}
-              </span>
-            </div>
-
-            {/* QR Code */}
-            <div
-              className="absolute -translate-x-1/2 -translate-y-1/2"
-              style={{
-                top: "85%",
-                left: "11%",
-              }}
-            >
-              <div className="bg-white p-1 rounded">
-                <QRCodeSVG
-                  value={`https://skilium.in/verify-certificate/${certificateId}`}
-                  className="w-8 h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20"
-                  bgColor="#ffffff"
-                  fgColor="#000000"
-                  level="H"
-                  includeMargin={false}
-                />
-              </div>
-            </div>
-
-            {/* 3. TID ID */}
-            <div
-              className="absolute font-mono text-[4px] sm:text-[10px] md:text-xs lg:text-[13px] font-semibold text-slate-300 -translate-y-1/2 pointer-events-none"
-              style={{ top: "84.2%", left: "28.5%" }}
-            >
-              {tid}
-            </div>
-
-            {/* 4. Document Identifier */}
-            <div
-              className="absolute font-mono text-[4px] sm:text-[10px] md:text-xs lg:text-[13px] font-semibold text-slate-300 -translate-y-1/2 pointer-events-none"
-              style={{ top: "87.5%", left: "38.5%" }}
-            >
-              {documentIdentifier}
-            </div>
-
-            {/* 5. Achievement Date */}
-            <div
-              className="absolute font-sans text-[4px] sm:text-[10px] md:text-xs lg:text-[13px] font-semibold text-slate-300 -translate-y-1/2 pointer-events-none"
-              style={{ top: "91%", left: "37.5%" }}
-            >
-              {formattedDate}
-            </div>
           </div>
         </div>
 
@@ -323,7 +253,7 @@ const CertificateModal = ({ isOpen, onClose, certificate, userProfile }) => {
             <FileText size={14} className="text-cyan-400 shrink-0" />
             <div className="min-w-0">
               <span className="text-gray-500 block text-[9px] uppercase">
-                Cert ID
+                Document Identifier
               </span>
               <span className="font-mono font-medium text-cyan-300 truncate block text-[10px] sm:text-xs">
                 {certificateId}

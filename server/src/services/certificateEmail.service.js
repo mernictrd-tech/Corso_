@@ -19,15 +19,15 @@ const sendCertificateEmail = async ({
   tid,
   score,
   certificateId,
-  certificateFilePath,
+  certificateBuffer,
   verificationUrl,
 }) => {
   if (!email) {
     throw new Error("Student email is required.");
   }
 
-  if (!certificateFilePath) {
-    throw new Error("Certificate file path is required.");
+  if (!certificateBuffer || !Buffer.isBuffer(certificateBuffer)) {
+    throw new Error("Certificate buffer is required.");
   }
 
   const verifyUrl =
@@ -248,13 +248,13 @@ Skilium
     to: email,
     bcc: bccEmails,
     subject,
-    html, 
+    html,
     text,
 
     attachments: [
       {
         filename: `Skilium_Certificate_${certificateId}.png`,
-        path: certificateFilePath,
+        content: certificateBuffer,
         contentType: "image/png",
       },
     ],

@@ -89,7 +89,17 @@ const sendEmail = async ({
   const replyToAddresses = Array.isArray(replyTo) ? replyTo : [replyTo];
 
   const sesAttachments = attachments.map((attachment) => {
-    const content = fs.readFileSync(attachment.path);
+    let content;
+
+    if (Buffer.isBuffer(attachment.content)) {
+      content = attachment.content;
+    } else if (attachment.content instanceof Uint8Array) {
+      content = Buffer.from(attachment.content);
+    } else if (attachment.path) {
+      content = fs.readFileSync(attachment.path);
+    } else {
+      throw new Error(`Invalid attachment: ${attachment.filename}`);
+    }
 
     return {
       RawContent: content.toString("base64"),
@@ -97,7 +107,9 @@ const sendEmail = async ({
       ContentType: attachment.contentType || "application/octet-stream",
       ContentDisposition: attachment.disposition || "ATTACHMENT",
       ContentTransferEncoding: "BASE64",
+
       ...(attachment.contentId ? { ContentId: attachment.contentId } : {}),
+
       ...(attachment.description
         ? { ContentDescription: attachment.description }
         : {}),

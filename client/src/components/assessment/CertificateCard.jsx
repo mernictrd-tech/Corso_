@@ -60,13 +60,11 @@ const CertificateCard = ({
 
   // Skilium ID
   const skiliumId =
-    certificate?.skiliumId ||
-    `${String(certificateId) || "2026"}`;
+    certificate?.skiliumId || `${String(certificateId) || "2026"}`;
 
   // Document Identifier
   const documentIdentifier =
-    certificate?.skiliumId ||
-        `${String(certificateId) || "2026"}`;;
+    certificate?.skiliumId || `${String(certificateId) || "2026"}`;
 
   // Score
   const score = certificate?.score ?? certificate?.assessment?.score ?? 100;
@@ -103,22 +101,41 @@ const CertificateCard = ({
 
   // Handle Direct Download
   const handleDownload = async () => {
-    if (downloading) return;
-    setDownloading(true);
+    if (downloading || !certificate?.certificateId) return;
+
     try {
-      await downloadCertificate(
-        {
-          studentName,
-          programName,
-          certificateId,
-          score,
-          issueDate: rawDate,
-          skiliumId,
-          documentIdentifier,
-          ...certificate,
-        },
-        { fullName: studentName },
-      );
+      setDownloading(true);
+
+      const url = `${import.meta.env.VITE_API_BASE_URL}/certificate/${certificate.certificateId}`;
+
+      const response = await fetch(url);
+
+      if (!response.ok) {
+        throw new Error("Failed to generate certificate");
+      }
+
+      const blob = await response.blob();
+
+      const safeName = String(programName)
+        .replace(/[^a-zA-Z0-9]/g, "_")
+        .replace(/_+/g, "_");
+
+      const downloadUrl = window.URL.createObjectURL(blob);
+
+      const link = document.createElement("a");
+      link.href = downloadUrl;
+      link.download = `Skilium_Certificate_${safeName}_${certificateId}.png`;
+
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+
+      window.URL.revokeObjectURL(downloadUrl);
+
+      toast.success("Certificate downloaded successfully!");
+    } catch (error) {
+      console.error("Certificate download error:", error);
+      toast.error("Failed to download certificate.");
     } finally {
       setDownloading(false);
     }
@@ -187,7 +204,7 @@ const CertificateCard = ({
               className="flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-6 py-3.5 text-sm sm:text-base font-semibold text-white transition hover:bg-white/10 hover:border-cyan-400 hover:text-cyan-300 cursor-pointer backdrop-blur-sm"
             >
               <Eye size={18} />
-              <span>View & Print / PDF</span>
+              <span>View Certificate</span>
             </button>
 
             <button
@@ -230,82 +247,10 @@ const CertificateCard = ({
             >
               <div className="relative w-full aspect-[2000/1414] select-none">
                 <img
-                  src={certificateTemplate}
+                  src={`${import.meta.env.VITE_API_BASE_URL}/certificate/${certificate.certificateId}`}
                   alt="Skilium Certificate Preview"
                   className="w-full h-full object-contain"
                 />
-
-                {/* Overlay Student Name */}
-                <div
-                  className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 text-center pointer-events-none w-[80%]"
-                  style={{ top: "49%" }}
-                >
-                  <span className="font-serif font-bold text-cyan-300 tracking-wide drop-shadow-[0_0_12px_rgba(6,182,212,0.6)] text-[8px] sm:text-lg md:text-2xl leading-tight block">
-                    {studentName}
-                  </span>
-                </div>
-
-                {/* QR Code */}
-                <div
-                  className="absolute -translate-x-1/2 -translate-y-1/2"
-                  style={{
-                    top: "85%",
-                    left: "11%",
-                  }}
-                >
-                  <div className="bg-white p-1 rounded">
-                    <QRCodeSVG
-                      value={`https://skilium.in/verify-certificate/${certificateId}`}
-                      className="w-8 h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20"
-                      bgColor="#ffffff"
-                      fgColor="#000000"
-                      level="H"
-                      includeMargin={false}
-                    />
-                  </div>
-                </div>
-
-                {/* Overlay Program Name */}
-                <div
-                  className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 text-center pointer-events-none w-[80%]"
-                  style={{ top: "64.8%" }}
-                >
-                  <span className="font-serif font-bold uppercase tracking-[0.1em] text-white text-[6px] sm:text-sm md:text-lg leading-tight block">
-                    {programName}
-                  </span>
-                </div>
-
-                {/* Overlay TID */}
-                <div
-                  className="absolute font-mono text-[3.5px] sm:text-[9px] md:text-[11px] font-semibold text-slate-300 -translate-y-1/2 pointer-events-none"
-                  style={{ top: "84.2%", left: "28.5%" }}
-                >
-                  {tid}
-                </div>
-
-                {/* Overlay Skilium ID */}
-                {/* <div
-                  className="absolute font-mono text-[3.5px] sm:text-[9px] md:text-[11px] font-semibold text-slate-300 -translate-y-1/2 pointer-events-none"
-                  style={{ top: "86.2%", left: "23.5%" }}
-                >
-                  {skiliumId}
-                </div> */}
-
-                {/* Overlay Document ID */}
-                <div
-                  className="absolute font-mono text-[3.5px] sm:text-[9px] md:text-[11px] font-semibold text-slate-300 -translate-y-1/2 pointer-events-none"
-                  style={{ top: "87.5%", left: "38.5%" }}
-                >
-                  {documentIdentifier}
-                </div>
-
-                {/* Overlay Issue Date */}
-                <div
-                  className="absolute font-sans text-[3.5px] sm:text-[9px] md:text-[11px] font-semibold text-slate-300 -translate-y-1/2 pointer-events-none"
-                  style={{ top: "91%", left: "37.5%" }}
-                >
-                  {formattedDate}
-                </div>
 
                 {/* Hover overlay indicator */}
                 <div className="absolute inset-0 bg-cyan-500/10 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
@@ -353,7 +298,7 @@ const CertificateCard = ({
                 <span className="text-gray-400">Final Score</span>
                 <span className="inline-flex items-center gap-1 font-bold text-emerald-400">
                   <Sparkles size={14} />
-                  {(score/program.totalQuestions) * 100}% (Passed)
+                  {(score / program.totalQuestions) * 100}% (Passed)
                 </span>
               </div>
 

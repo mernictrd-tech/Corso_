@@ -14,10 +14,7 @@ const CERTIFICATE_HEIGHT = 1414;
 
 // Keep the certificate template outside src if you want it to be
 // easily replaceable without touching the service logic.
-const TEMPLATE_PATH = path.join(
-  __dirname,
-  "../assets/certificate.png"
-);
+const TEMPLATE_PATH = path.join(__dirname, "../assets/certificate.png");
 
 /*
 |--------------------------------------------------------------------------
@@ -91,14 +88,9 @@ const normalizeCertificateData = (certificate = {}) => {
     "Certification";
 
   const certificateId =
-    certificate.certificateId ||
-    certificate.id ||
-    "CRS-2026-001";
+    certificate.certificateId || certificate.id || "CRS-2026-001";
 
-  const tid =
-    certificate.tid ||
-    certificate.user?.tid ||
-    "TID";
+  const tid = certificate.tid || certificate.user?.tid || "TID";
 
   // const documentIdentifier =
   //   certificate.documentIdentifier ||
@@ -108,11 +100,9 @@ const normalizeCertificateData = (certificate = {}) => {
   //       .toUpperCase() || "9842104"
   //   }`;
 
-  const skiliumId =
-    certificate.skiliumId ||
-    `${String(certificateId)}`;
+  const skiliumId = certificate.skiliumId || `${String(certificateId)}`;
 
-  const documentIdentifier = skiliumId
+  const documentIdentifier = skiliumId;
 
   const issueDate =
     certificate.issueDate ||
@@ -158,10 +148,7 @@ const normalizeCertificateData = (certificate = {}) => {
 const generateCertificatePNG = async (certificate) => {
   const data = normalizeCertificateData(certificate);
 
-  const canvas = createCanvas(
-    CERTIFICATE_WIDTH,
-    CERTIFICATE_HEIGHT
-  );
+  const canvas = createCanvas(CERTIFICATE_WIDTH, CERTIFICATE_HEIGHT);
 
   const ctx = canvas.getContext("2d");
 
@@ -172,20 +159,12 @@ const generateCertificatePNG = async (certificate) => {
   */
 
   if (!fs.existsSync(TEMPLATE_PATH)) {
-    throw new Error(
-      `Certificate template not found: ${TEMPLATE_PATH}`
-    );
+    throw new Error(`Certificate template not found: ${TEMPLATE_PATH}`);
   }
 
   const template = await loadImage(TEMPLATE_PATH);
 
-  ctx.drawImage(
-    template,
-    0,
-    0,
-    CERTIFICATE_WIDTH,
-    CERTIFICATE_HEIGHT
-  );
+  ctx.drawImage(template, 0, 0, CERTIFICATE_WIDTH, CERTIFICATE_HEIGHT);
 
   /*
   |--------------------------------------------------------------------------
@@ -195,8 +174,7 @@ const generateCertificatePNG = async (certificate) => {
 
   ctx.fillStyle = "#00f0ff";
 
-  ctx.font =
-    '700 100px "Playfair Display", "Times New Roman", serif';
+  ctx.font = '700 100px "Playfair Display", "Times New Roman", serif';
 
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
@@ -204,10 +182,14 @@ const generateCertificatePNG = async (certificate) => {
   ctx.shadowColor = "rgba(0, 240, 255, 0.4)";
   ctx.shadowBlur = 12;
 
+  const formattedName = String(data.studentName)
+    .toLowerCase()
+    .replace(/\b\w/g, (char) => char.toUpperCase());
+
   ctx.fillText(
-    data.studentName,
+    formattedName,
     CERTIFICATE_WIDTH * 0.5,
-    CERTIFICATE_HEIGHT * 0.480
+    CERTIFICATE_HEIGHT * 0.48,
   );
 
   ctx.shadowColor = "transparent";
@@ -221,8 +203,7 @@ const generateCertificatePNG = async (certificate) => {
 
   ctx.fillStyle = "#FFFFFF";
 
-  ctx.font =
-    '700 70px "Playfair Display", "Times New Roman", serif';
+  ctx.font = '700 70px "Playfair Display", "Times New Roman", serif';
 
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
@@ -230,7 +211,7 @@ const generateCertificatePNG = async (certificate) => {
   ctx.fillText(
     String(data.programName).toUpperCase(),
     CERTIFICATE_WIDTH * 0.5,
-    CERTIFICATE_HEIGHT * 0.648
+    CERTIFICATE_HEIGHT * 0.648,
   );
 
   /*
@@ -241,8 +222,7 @@ const generateCertificatePNG = async (certificate) => {
 
   ctx.fillStyle = "#cbd5e1";
 
-  ctx.font =
-    '600 38px "Inter", "Segoe UI", sans-serif';
+  ctx.font = '600 38px "Inter", "Segoe UI", sans-serif';
 
   ctx.textAlign = "left";
   ctx.textBaseline = "middle";
@@ -250,11 +230,7 @@ const generateCertificatePNG = async (certificate) => {
   /*
    * TID
    */
-  ctx.fillText(
-    data.tid,
-    CERTIFICATE_WIDTH * 0.285,
-    CERTIFICATE_HEIGHT * 0.835
-  );
+  ctx.fillText(data.tid, CERTIFICATE_WIDTH * 0.285, CERTIFICATE_HEIGHT * 0.835);
 
   /*
    * Document ID
@@ -262,7 +238,7 @@ const generateCertificatePNG = async (certificate) => {
   ctx.fillText(
     data.documentIdentifier,
     CERTIFICATE_WIDTH * 0.385,
-    CERTIFICATE_HEIGHT * 0.875
+    CERTIFICATE_HEIGHT * 0.875,
   );
 
   /*
@@ -271,7 +247,7 @@ const generateCertificatePNG = async (certificate) => {
   ctx.fillText(
     data.issueDate,
     CERTIFICATE_WIDTH * 0.375,
-    CERTIFICATE_HEIGHT * 0.91
+    CERTIFICATE_HEIGHT * 0.91,
   );
 
   /*
@@ -280,19 +256,16 @@ const generateCertificatePNG = async (certificate) => {
   |--------------------------------------------------------------------------
   */
 
-  const qrBuffer = await QRCode.toBuffer(
-    data.verificationUrl,
-    {
-      type: "png",
-      width: 240,
-      margin: 0,
-      errorCorrectionLevel: "H",
-      color: {
-        dark: "#000000",
-        light: "#ffffff",
-      },
-    }
-  );
+  const qrBuffer = await QRCode.toBuffer(data.verificationUrl, {
+    type: "png",
+    width: 240,
+    margin: 0,
+    errorCorrectionLevel: "H",
+    color: {
+      dark: "#000000",
+      light: "#ffffff",
+    },
+  });
 
   const qrImage = await loadImage(qrBuffer);
 
@@ -301,31 +274,18 @@ const generateCertificatePNG = async (certificate) => {
    */
   const qrSize = 240;
 
-  const qrX =
-    CERTIFICATE_WIDTH * 0.11 - qrSize / 2;
+  const qrX = CERTIFICATE_WIDTH * 0.11 - qrSize / 2;
 
-  const qrY =
-    CERTIFICATE_HEIGHT * 0.85 - qrSize / 2;
+  const qrY = CERTIFICATE_HEIGHT * 0.85 - qrSize / 2;
 
   /*
    * White background around QR
    */
   ctx.fillStyle = "#ffffff";
 
-  ctx.fillRect(
-    qrX - 5,
-    qrY - 5,
-    qrSize + 10,
-    qrSize + 10
-  );
+  ctx.fillRect(qrX - 5, qrY - 5, qrSize + 10, qrSize + 10);
 
-  ctx.drawImage(
-    qrImage,
-    qrX,
-    qrY,
-    qrSize,
-    qrSize
-  );
+  ctx.drawImage(qrImage, qrX, qrY, qrSize, qrSize);
 
   /*
   |--------------------------------------------------------------------------
@@ -348,34 +308,21 @@ const generateCertificatePNG = async (certificate) => {
 |--------------------------------------------------------------------------
 */
 
-const saveCertificatePNG = async (
-  certificate,
-  outputDirectory
-) => {
-  const { buffer, data } =
-    await generateCertificatePNG(certificate);
+const saveCertificatePNG = async (certificate, outputDirectory) => {
+  const { buffer, data } = await generateCertificatePNG(certificate);
 
   const directory =
-    outputDirectory ||
-    path.join(
-      __dirname,
-      "../../storage/certificates"
-    );
+    outputDirectory || path.join(__dirname, "../../storage/certificates");
 
   await fs.promises.mkdir(directory, {
     recursive: true,
   });
 
-  const filename =
-    `certificate-${data.certificateId}.png`;
+  const filename = `certificate-${data.certificateId}.png`;
 
-  const filePath =
-    path.join(directory, filename);
+  const filePath = path.join(directory, filename);
 
-  await fs.promises.writeFile(
-    filePath,
-    buffer
-  );
+  await fs.promises.writeFile(filePath, buffer);
 
   return {
     filePath,
