@@ -1,16 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import { X, User, Mail, Save, Camera, PhoneCall } from "lucide-react";
-
-import {
-  X,
-  User,
-  Mail,
-  Save,
-  Camera,
-  Lock,
+import { X, User, Mail, Save, Camera, PhoneCall,Lock,
   Eye,
-  EyeOff,
-} from "lucide-react";
+  EyeOff,  } from "lucide-react";
 
 import api from "../../services/api";
 
