@@ -1,6 +1,19 @@
 import { useEffect, useRef, useState } from "react";
 import { X, User, Mail, Save, Camera, PhoneCall } from "lucide-react";
+
+import {
+  X,
+  User,
+  Mail,
+  Save,
+  Camera,
+  Lock,
+  Eye,
+  EyeOff,
+} from "lucide-react";
+
 import api from "../../services/api";
+
 import toast from "react-hot-toast";
 
 const EditProfileModal = ({ profile, close, onSuccess }) => {
@@ -13,7 +26,24 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
   });
 
   const [preview, setPreview] = useState("");
+
   const [loading, setLoading] = useState(false);
+
+  // ================= CHANGE PASSWORD STATES =================
+
+  const [passwordForm, setPasswordForm] = useState({
+    currentPassword: "",
+    newPassword: "",
+    confirmPassword: "",
+  });
+
+  const [passwordLoading, setPasswordLoading] = useState(false);
+
+  const [showCurrentPassword, setShowCurrentPassword] = useState(false);
+  const [showNewPassword, setShowNewPassword] = useState(false);
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+
+  // ================= LOAD PROFILE =================
 
   useEffect(() => {
     if (profile) {
@@ -28,6 +58,8 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
     }
   }, [profile]);
 
+  // ================= PROFILE CHANGE =================
+
   const handleChange = (e) => {
     setForm((prev) => ({
       ...prev,
@@ -35,13 +67,19 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
     }));
   };
 
+  // ================= IMAGE CHANGE =================
+
   const handleImageChange = (e) => {
     const file = e.target.files?.[0];
 
     if (!file) return;
 
-    // Validate file type
-    const allowedTypes = ["image/jpeg", "image/jpg", "image/png", "image/webp"];
+    const allowedTypes = [
+      "image/jpeg",
+      "image/jpg",
+      "image/png",
+      "image/webp",
+    ];
 
     if (!allowedTypes.includes(file.type)) {
       alert("Please select a JPG, PNG or WEBP image.");
@@ -49,7 +87,6 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
       return;
     }
 
-    // Validate file size - 2MB
     if (file.size > 2 * 1024 * 1024) {
       alert("Profile image must be less than 2MB.");
       e.target.value = "";
@@ -61,7 +98,6 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
       profileImage: file,
     }));
 
-    // Create preview
     const imageUrl = URL.createObjectURL(file);
     setPreview(imageUrl);
   };
@@ -79,11 +115,11 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
 
     return `${import.meta.env.VITE_API_BASE_URL_RESOURCE}${image}`;
   };
+  // ================= PROFILE SUBMIT =================
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Name validation
     const trimmedName = form.name.trim();
 
     if (!trimmedName) {
@@ -101,7 +137,6 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
       return;
     }
 
-    // Email validation
     const trimmedEmail = form.email.trim();
 
     if (!trimmedEmail) {
@@ -133,7 +168,6 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
       formData.append("email", trimmedEmail);
       formData.append("phone", trimmedPhone);
 
-      // Image is optional
       if (form.profileImage) {
         formData.append("profileImage", form.profileImage);
       }
@@ -143,15 +177,101 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
       });
 
       onSuccess?.(data.data);
+
       toast.success(data.message || "Profile updated successfully!");
 
       close();
     } catch (error) {
       console.error("Update profile failed:", error);
 
-      alert(error.response?.data?.message || "Failed to update profile.");
+      toast.error(
+        error.response?.data?.message || "Failed to update profile."
+      );
     } finally {
       setLoading(false);
+    }
+  };
+
+  // ================= PASSWORD INPUT CHANGE =================
+
+  const handlePasswordChange = (e) => {
+    setPasswordForm((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+  };
+
+  // ================= CHANGE PASSWORD =================
+
+  const handleChangePassword = async (e) => {
+    e.preventDefault();
+
+    const { currentPassword, newPassword, confirmPassword } = passwordForm;
+
+    if (!currentPassword) {
+      toast.error("Current password is required.");
+      return;
+    }
+
+    if (!newPassword) {
+      toast.error("New password is required.");
+      return;
+    }
+
+    if (newPassword.length < 6) {
+      toast.error("New password must be at least 6 characters long.");
+      return;
+    }
+
+    if (newPassword === currentPassword) {
+      toast.error(
+        "New password must be different from your current password."
+      );
+      return;
+    }
+
+    if (!confirmPassword) {
+      toast.error("Please confirm your new password.");
+      return;
+    }
+
+    if (newPassword !== confirmPassword) {
+      toast.error("New password and confirm password do not match.");
+      return;
+    }
+
+    try {
+      setPasswordLoading(true);
+
+      const { data } = await api.put(
+        "/auth/change-password",
+        {
+          currentPassword,
+          newPassword,
+        },
+        {
+          withCredentials: true,
+        }
+      );
+
+      toast.success(
+        data.message || "Password changed successfully."
+      );
+
+      setPasswordForm({
+        currentPassword: "",
+        newPassword: "",
+        confirmPassword: "",
+      });
+    } catch (error) {
+      console.error("Change password failed:", error);
+
+      toast.error(
+        error.response?.data?.message ||
+          "Failed to change password."
+      );
+    } finally {
+      setPasswordLoading(false);
     }
   };
 
@@ -161,13 +281,16 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
       onClick={close}
     >
       <div
-        className="w-full max-w-md rounded-2xl border border-gray-800 bg-gray-900 p-6 shadow-2xl"
+        className="max-h-[90vh] w-full max-w-md overflow-y-auto rounded-2xl border border-gray-800 bg-gray-900 p-6 shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header */}
+        {/* ================= HEADER ================= */}
+
         <div className="flex items-start justify-between">
           <div>
-            <h2 className="text-xl font-semibold text-white">Edit Profile</h2>
+            <h2 className="text-xl font-semibold text-white">
+              Edit Profile
+            </h2>
 
             <p className="mt-1 text-sm text-gray-400">
               Update your account information
@@ -183,7 +306,8 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
           </button>
         </div>
 
-        {/* Profile Image */}
+        {/* ================= PROFILE IMAGE ================= */}
+
         <div className="mt-6 flex flex-col items-center">
           <div className="relative">
             {preview ? (
@@ -198,7 +322,6 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
               </div>
             )}
 
-            {/* Camera Button */}
             <button
               type="button"
               onClick={() => fileInputRef.current?.click()}
@@ -221,9 +344,11 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
           </p>
         </div>
 
-        {/* Form */}
+        {/* ================= PROFILE FORM ================= */}
+
         <form onSubmit={handleSubmit} className="mt-6 space-y-5">
           {/* Name */}
+
           <div>
             <label className="mb-2 block text-sm font-medium text-gray-300">
               Name
@@ -249,6 +374,7 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
           </div>
 
           {/* Email */}
+
           <div>
             <label className="mb-2 block text-sm font-medium text-gray-300">
               Email
@@ -297,11 +423,13 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
           </div>
 
           {/* Buttons */}
+          {/* Profile Buttons */}
+
           <div className="flex gap-3 pt-2">
             <button
               type="button"
               onClick={close}
-              disabled={loading}
+              disabled={loading || passwordLoading}
               className="flex-1 rounded-xl border border-gray-700 px-4 py-3 text-sm font-medium text-gray-300 transition hover:bg-gray-800 disabled:opacity-50"
             >
               Cancel
@@ -309,7 +437,7 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
 
             <button
               type="submit"
-              disabled={loading}
+              disabled={loading || passwordLoading}
               className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-cyan-500 px-4 py-3 text-sm font-semibold text-black transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:opacity-50"
             >
               <Save size={17} />
@@ -318,6 +446,163 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
             </button>
           </div>
         </form>
+
+        {/* ================= DIVIDER ================= */}
+
+        <div className="my-7 border-t border-gray-800" />
+
+        {/* ================= CHANGE PASSWORD ================= */}
+
+        <div>
+          <div className="mb-5">
+            <h3 className="text-lg font-semibold text-white">
+              Change Password
+            </h3>
+
+            <p className="mt-1 text-sm text-gray-400">
+              Update your account password
+            </p>
+          </div>
+
+          <form
+            onSubmit={handleChangePassword}
+            className="space-y-4"
+          >
+            {/* Current Password */}
+
+            <div>
+              <label className="mb-2 block text-sm font-medium text-gray-300">
+                Current Password
+              </label>
+
+              <div className="relative">
+                <Lock
+                  size={18}
+                  className="absolute left-3 top-1/2 -translate-y-1/2 text-cyan-400"
+                />
+
+                <input
+                  type={showCurrentPassword ? "text" : "password"}
+                  name="currentPassword"
+                  value={passwordForm.currentPassword}
+                  onChange={handlePasswordChange}
+                  className="w-full rounded-xl border border-gray-700 bg-gray-950 py-3 pl-10 pr-11 text-sm text-white outline-none transition placeholder:text-gray-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500"
+                  placeholder="Enter current password"
+                />
+
+                <button
+                  type="button"
+                  onClick={() =>
+                    setShowCurrentPassword((prev) => !prev)
+                  }
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 transition hover:text-cyan-400"
+                >
+                  {showCurrentPassword ? (
+                    <EyeOff size={18} />
+                  ) : (
+                    <Eye size={18} />
+                  )}
+                </button>
+              </div>
+            </div>
+
+            {/* New Password */}
+
+            <div>
+              <label className="mb-2 block text-sm font-medium text-gray-300">
+                New Password
+              </label>
+
+              <div className="relative">
+                <Lock
+                  size={18}
+                  className="absolute left-3 top-1/2 -translate-y-1/2 text-cyan-400"
+                />
+
+                <input
+                  type={showNewPassword ? "text" : "password"}
+                  name="newPassword"
+                  value={passwordForm.newPassword}
+                  onChange={handlePasswordChange}
+                  className="w-full rounded-xl border border-gray-700 bg-gray-950 py-3 pl-10 pr-11 text-sm text-white outline-none transition placeholder:text-gray-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500"
+                  placeholder="Enter new password"
+                />
+
+                <button
+                  type="button"
+                  onClick={() =>
+                    setShowNewPassword((prev) => !prev)
+                  }
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 transition hover:text-cyan-400"
+                >
+                  {showNewPassword ? (
+                    <EyeOff size={18} />
+                  ) : (
+                    <Eye size={18} />
+                  )}
+                </button>
+              </div>
+
+              <p className="mt-1.5 text-xs text-gray-500">
+                Password must be at least 6 characters.
+              </p>
+            </div>
+
+            {/* Confirm Password */}
+
+            <div>
+              <label className="mb-2 block text-sm font-medium text-gray-300">
+                Confirm New Password
+              </label>
+
+              <div className="relative">
+                <Lock
+                  size={18}
+                  className="absolute left-3 top-1/2 -translate-y-1/2 text-cyan-400"
+                />
+
+                <input
+                  type={
+                    showConfirmPassword ? "text" : "password"
+                  }
+                  name="confirmPassword"
+                  value={passwordForm.confirmPassword}
+                  onChange={handlePasswordChange}
+                  className="w-full rounded-xl border border-gray-700 bg-gray-950 py-3 pl-10 pr-11 text-sm text-white outline-none transition placeholder:text-gray-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500"
+                  placeholder="Confirm new password"
+                />
+
+                <button
+                  type="button"
+                  onClick={() =>
+                    setShowConfirmPassword((prev) => !prev)
+                  }
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 transition hover:text-cyan-400"
+                >
+                  {showConfirmPassword ? (
+                    <EyeOff size={18} />
+                  ) : (
+                    <Eye size={18} />
+                  )}
+                </button>
+              </div>
+            </div>
+
+            {/* Change Password Button */}
+
+            <button
+              type="submit"
+              disabled={passwordLoading}
+              className="flex w-full items-center justify-center gap-2 rounded-xl border border-cyan-500 bg-cyan-500/10 px-4 py-3 text-sm font-semibold text-cyan-400 transition hover:bg-cyan-500 hover:text-black disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              <Lock size={17} />
+
+              {passwordLoading
+                ? "Changing Password..."
+                : "Change Password"}
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   );

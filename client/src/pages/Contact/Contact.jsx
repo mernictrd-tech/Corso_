@@ -182,8 +182,12 @@ const Contact = () => {
 
       setSuccess(
         response?.data?.message ||
-          "Thank you for contacting us. We will get back to you shortly."
+        "Thank you for contacting us. We will get back to you shortly."
       );
+
+      setTimeout(() => {
+        setSuccess("");
+      }, 5000);
 
       setFormData({
         name: "",
@@ -345,11 +349,10 @@ const Contact = () => {
                     onBlur={handleBlur}
                     maxLength={50}
                     placeholder="Your name"
-                    className={`w-full rounded-xl border bg-[#0B1022] px-4 py-3.5 text-sm text-white placeholder-gray-600 outline-none transition ${
-                      errors.name
+                    className={`w-full rounded-xl border bg-[#0B1022] px-4 py-3.5 text-sm text-white placeholder-gray-600 outline-none transition ${errors.name
                         ? "border-red-500/60 focus:ring-2 focus:ring-red-500/10"
                         : "border-white/10 focus:border-cyan-400/50 focus:ring-2 focus:ring-cyan-400/10"
-                    }`}
+                      }`}
                   />
 
                   {errors.name && (
@@ -372,11 +375,10 @@ const Contact = () => {
                     onBlur={handleBlur}
                     maxLength={100}
                     placeholder="you@example.com"
-                    className={`w-full rounded-xl border bg-[#0B1022] px-4 py-3.5 text-sm text-white placeholder-gray-600 outline-none transition ${
-                      errors.email
+                    className={`w-full rounded-xl border bg-[#0B1022] px-4 py-3.5 text-sm text-white placeholder-gray-600 outline-none transition ${errors.email
                         ? "border-red-500/60 focus:ring-2 focus:ring-red-500/10"
                         : "border-white/10 focus:border-cyan-400/50 focus:ring-2 focus:ring-cyan-400/10"
-                    }`}
+                      }`}
                   />
 
                   {errors.email && (
@@ -405,11 +407,10 @@ const Contact = () => {
                     inputMode="numeric"
                     maxLength={10}
                     placeholder="10-digit mobile number"
-                    className={`w-full rounded-xl border bg-[#0B1022] px-4 py-3.5 text-sm text-white placeholder-gray-600 outline-none transition ${
-                      errors.phone
+                    className={`w-full rounded-xl border bg-[#0B1022] px-4 py-3.5 text-sm text-white placeholder-gray-600 outline-none transition ${errors.phone
                         ? "border-red-500/60 focus:ring-2 focus:ring-red-500/10"
                         : "border-white/10 focus:border-violet-400/50 focus:ring-2 focus:ring-violet-400/10"
-                    }`}
+                      }`}
                   />
 
                   {errors.phone && (
@@ -432,11 +433,10 @@ const Contact = () => {
                     onBlur={handleBlur}
                     maxLength={100}
                     placeholder="How can we help?"
-                    className={`w-full rounded-xl border bg-[#0B1022] px-4 py-3.5 text-sm text-white placeholder-gray-600 outline-none transition ${
-                      errors.subject
+                    className={`w-full rounded-xl border bg-[#0B1022] px-4 py-3.5 text-sm text-white placeholder-gray-600 outline-none transition ${errors.subject
                         ? "border-red-500/60 focus:ring-2 focus:ring-red-500/10"
                         : "border-white/10 focus:border-violet-400/50 focus:ring-2 focus:ring-violet-400/10"
-                    }`}
+                      }`}
                   />
 
                   {errors.subject && (
@@ -462,11 +462,10 @@ const Contact = () => {
                   rows={6}
                   maxLength={1000}
                   placeholder="Tell us how we can help..."
-                  className={`w-full resize-none rounded-xl border bg-[#0B1022] px-4 py-3.5 text-sm text-white placeholder-gray-600 outline-none transition ${
-                    errors.message
+                  className={`w-full resize-none rounded-xl border bg-[#0B1022] px-4 py-3.5 text-sm text-white placeholder-gray-600 outline-none transition ${errors.message
                       ? "border-red-500/60 focus:ring-2 focus:ring-red-500/10"
                       : "border-white/10 focus:border-cyan-400/50 focus:ring-2 focus:ring-cyan-400/10"
-                  }`}
+                    }`}
                 />
 
                 <div className="mt-2 flex justify-between">

@@ -1,7 +1,8 @@
 import {
     BadgeCheck,
     Zap,
-    ShieldCheck
+    ShieldCheck,
+    Globe
 } from "lucide-react";
 
 const HeroFeatures = () => {
@@ -20,7 +21,12 @@ const HeroFeatures = () => {
 
         {
             icon: <ShieldCheck size={18} />,
-            text: "Verified online"
+            text: "Secure Online Verification"
+        },
+
+        {
+            icon: <Globe size={18} />,
+            text: "Globally recognized TID"
         }
 
     ];

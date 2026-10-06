@@ -1,16 +1,20 @@
-const {registerUser,
+const {
+  registerUser,
   loginUser,
   getCurrentUser,
+  changeUserPassword,
 } = require("../services/auth.service");
 
 const { googleLogin } = require("../services/googleAuth.service");
 
+// ================= REGISTER =================
 
 const register = async (req, res) => {
   try {
     const { user, token } = await registerUser(req.body);
 
-    res.status(201)
+    res
+      .status(201)
       .cookie("token", token, {
         httpOnly: true,
         secure: process.env.NODE_ENV === "production",
@@ -23,21 +27,19 @@ const register = async (req, res) => {
         token,
         data: user,
       });
-
   } catch (error) {
-
     console.error(error);
 
     res.status(400).json({
       success: false,
       message: error.message,
     });
-
   }
 };
 
-const login = async (req, res) => {
+// ================= LOGIN =================
 
+const login = async (req, res) => {
   try {
     const { user, token } = await loginUser(req.body);
 
@@ -65,6 +67,8 @@ const login = async (req, res) => {
   }
 };
 
+// ================= CURRENT USER =================
+
 const me = async (req, res) => {
   try {
     const user = await getCurrentUser(req.user._id);
@@ -81,21 +85,20 @@ const me = async (req, res) => {
   }
 };
 
+// ================= GOOGLE LOGIN =================
+
 const googleAuth = async (req, res) => {
   try {
     const { accessToken } = req.body;
 
-    const { user, token } =
-    await googleLogin(accessToken);
+    const { user, token } = await googleLogin(accessToken);
 
     res
       .cookie("token", token, {
         httpOnly: true,
-        secure:
-          process.env.NODE_ENV === "production",
+        secure: process.env.NODE_ENV === "production",
         sameSite: "strict",
-        maxAge:
-          7 * 24 * 60 * 60 * 1000,
+        maxAge: 7 * 24 * 60 * 60 * 1000,
       })
       .status(200)
       .json({
@@ -113,6 +116,34 @@ const googleAuth = async (req, res) => {
     });
   }
 };
+
+// ================= CHANGE PASSWORD =================
+
+const changePassword = async (req, res) => {
+  try {
+    const { currentPassword, newPassword } = req.body;
+
+    await changeUserPassword(
+      req.user._id,
+      currentPassword,
+      newPassword
+    );
+
+    res.status(200).json({
+      success: true,
+      message: "Password changed successfully.",
+    });
+  } catch (error) {
+    console.error(error);
+
+    res.status(400).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
+
+// ================= LOGOUT =================
 
 const logout = async (req, res) => {
   try {
@@ -141,4 +172,5 @@ module.exports = {
   me,
   logout,
   googleAuth,
+  changePassword,
 };

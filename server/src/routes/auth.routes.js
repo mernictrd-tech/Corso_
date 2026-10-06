@@ -17,6 +17,7 @@ const {
   me,
   logout,
   googleAuth,
+  changePassword,
 } = require("../controllers/auth.controller");
 
 const {
@@ -36,10 +37,16 @@ router.post("/register", registerValidation, validate, register);
 // Login
 router.post("/login", loginValidation, validate, login);
 
+// Current User
 router.get("/me", protect, me);
 
+// Change Password
+router.put("/change-password", protect, changePassword);
+
+// Logout
 router.post("/logout", logout);
 
+// Google Login
 router.post("/google", googleAuth);
 
 ////////////////////  Program Suggestion  ////////////////////
