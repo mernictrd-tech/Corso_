@@ -10,6 +10,7 @@ import Assessment from "../components/assessment/Assessment";
 import ProtectedRoute from "../components/auth/ProtectedRoute";
 import NotFound from "../pages/NotFound";
 import VerifyCertificate from "../components/layout/VerifyCertificate";
+import ResetPassword from "../components/auth/ResetPassword";
 
 const AppRoutes = () => {
   return (
@@ -26,11 +27,16 @@ const AppRoutes = () => {
 
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
-        <Route path="verify-certificate/:certificateId" element={<VerifyCertificate />} />
+        <Route
+          path="verify-certificate/:certificateId"
+          element={<VerifyCertificate />}
+        />
 
         <Route path="/terms-and-conditions" element={<Terms />} />
 
         <Route path="/refund-policy" element={<RefundPolicy />} />
+
+        <Route path="/reset-password/:token" element={<ResetPassword />} />
 
         {/* Protected Routes */}
         <Route element={<ProtectedRoute />}>

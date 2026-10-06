@@ -18,6 +18,8 @@ const {
   logout,
   googleAuth,
   changePassword,
+  forgotPassword,
+  resetPassword,
 } = require("../controllers/auth.controller");
 
 const {
@@ -42,6 +44,10 @@ router.get("/me", protect, me);
 
 // Change Password
 router.put("/change-password", protect, changePassword);
+
+router.post("/forgot-password", forgotPassword);
+
+router.post("/reset-password/:token", resetPassword);
 
 // Logout
 router.post("/logout", logout);
