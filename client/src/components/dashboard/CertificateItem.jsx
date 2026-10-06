@@ -374,10 +374,6 @@ const CertificateItem = ({ certificate, onViewCertificate }) => {
 
           </div>
 
-          <button className="mt-6 w-full rounded-lg bg-gradient-to-r from-cyan-500 to-emerald-400 py-2.5 text-sm font-semibold text-black transition hover:opacity-90">
-            Download Invoice
-          </button>
-
         </div>
 
       )}
