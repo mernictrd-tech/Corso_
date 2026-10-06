@@ -6,6 +6,7 @@ const AWS_REGION = process.env.AWS_REGION || "ap-south-1";
 const AWS_ACCESS_KEY_ID = process.env.AWS_ACCESS_KEY_ID;
 const AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY;
 const SES_FROM_EMAIL = process.env.SES_FROM_EMAIL || "support@skilium.in";
+const SES_FROM_NAME = process.env.SES_FROM_NAME || "Skilium";
 
 const SERVICE = "ses";
 const HOST = `email.${AWS_REGION}.amazonaws.com`;
@@ -60,6 +61,7 @@ const sendEmail = async ({
   html,
   text = "",
   from = SES_FROM_EMAIL,
+  fromName = SES_FROM_NAME,
   replyTo = [],
   attachments = [],
 }) => {
@@ -120,7 +122,7 @@ const sendEmail = async ({
    * SES API v2 request body.
    */
   const payload = {
-    FromEmailAddress: from,
+    FromEmailAddress: fromName ? `${fromName} <${from}>` : from,
 
     Destination: {
       ToAddresses: toAddresses,
