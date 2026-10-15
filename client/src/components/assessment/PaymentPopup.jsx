@@ -9,6 +9,7 @@ import {
   CheckCircle2,
 } from "lucide-react";
 import api from "../../services/api";
+import { trackMetaEvent } from "../../utils/metaPixel";
 
 const PaymentPopup = ({
   assessmentId,
@@ -43,6 +44,7 @@ const PaymentPopup = ({
   const nameRef = useRef(null);
   const emailRef = useRef(null);
   const mobileRef = useRef(null);
+  const checkoutEventIdRef = useRef(null);
 
   const loading =
     stage === "creating_order" ||
@@ -147,12 +149,29 @@ const PaymentPopup = ({
 
       setStage("creating_order");
 
+      const checkoutEventId = crypto.randomUUID();
+      checkoutEventIdRef.current = checkoutEventId;
+
+      // Track checkout initiation
+      trackMetaEvent(
+        "InitiateCheckout",
+        {
+          content_name: programName || "Skillim Assessment",
+          content_ids: [String(programId)],
+          content_type: "product",
+          value: Number(program?.sellingPrice || 0),
+          currency: "INR",
+        },
+        checkoutEventId,
+      );
+
       const response = await api.post("/payment/create-order", {
         assessmentId,
         programId,
         name: form.name.trim(),
         email: form.email.trim(),
         mobile: form.mobile.trim(),
+        checkoutEventId,
       });
 
       if (!response.data?.success) {
@@ -163,97 +182,123 @@ const PaymentPopup = ({
 
       const order = response.data.data;
 
-      if (!window.Razorpay) {
-        setStage("idle");
-        setError("Razorpay checkout is still initializing. Please tap again.");
-        return;
-      }
+      // Save what the callback page needs for the Purchase pixel
+      sessionStorage.setItem(
+        "pendingPurchase",
+        JSON.stringify({
+          eventId: crypto.randomUUID(), // event_id shared with CAPI
+          programId: String(programId),
+          programName: programName || "Skill Assessment",
+          value: Number(program?.sellingPrice || 0),
+          currency: "INR",
+          paymentId: order.paymentId,
+          fbp: document.cookie.match(/_fbp=([^;]+)/)?.[1],
+          fbc: document.cookie.match(/_fbc=([^;]+)/)?.[1],
+        }),
+      );
 
       setStage("awaiting");
+      window.location.href = order.checkoutUrl; // ← redirect to plino.org
 
-      const options = {
-        key: order.key,
-        amount: order.amount,
-        currency: order.currency,
-        name: "Skilium Certification",
-        description: `Certificate for ${programName || "Assessment"}`,
-        order_id: order.orderId,
-        prefill: {
-          name: form.name.trim(),
-          email: form.email.trim(),
-          contact: `+91${form.mobile.trim()}`,
-        },
-        notes: { programId, assessmentId },
-        theme: { color: "#06B6D4" },
-        modal: {
-          confirm_close: true,
-          escape: true,
-          backdropclose: false,
-          ondismiss: () => setStage("idle"),
-        },
-        handler: async (razorpayResponse) => {
-          try {
-            setStage("verifying");
-            setError("");
+      // if (!window.Razorpay) {
+      //   setStage("idle");
+      //   setError("Razorpay checkout is still initializing. Please tap again.");
+      //   return;
+      // }
 
-            const verifyResponse = await api.post("/payment/verify", {
-              razorpay_order_id: razorpayResponse.razorpay_order_id,
-              razorpay_payment_id: razorpayResponse.razorpay_payment_id,
-              razorpay_signature: razorpayResponse.razorpay_signature,
-              customer: {
-                fullName: form.name.trim(),
-                email: form.email.trim(),
-                mobile: form.mobile.trim(),
-              },
-            });
+      // setStage("awaiting");
 
-            if (!verifyResponse.data?.success) {
-              throw new Error(
-                verifyResponse.data?.message || "Payment verification failed.",
-              );
-            }
+      // const options = {
+      //   key: order.key,
+      //   amount: order.amount,
+      //   currency: order.currency,
+      //   name: "Skilium Certification",
+      //   description: `Certificate for ${programName || "Assessment"}`,
+      //   order_id: order.orderId,
+      //   prefill: {
+      //     name: form.name.trim(),
+      //     email: form.email.trim(),
+      //     contact: `+91${form.mobile.trim()}`,
+      //   },
+      //   notes: { programId, assessmentId },
+      //   theme: { color: "#06B6D4" },
+      //   modal: {
+      //     confirm_close: true,
+      //     escape: true,
+      //     backdropclose: false,
+      //     ondismiss: () => setStage("idle"),
+      //   },
+      //   handler: async (razorpayResponse) => {
+      //     try {
+      //       setStage("verifying");
+      //       setError("");
 
-            setStage("generating");
+      //       const verifyResponse = await api.post("/payment/verify", {
+      //         razorpay_order_id: razorpayResponse.razorpay_order_id,
+      //         razorpay_payment_id: razorpayResponse.razorpay_payment_id,
+      //         razorpay_signature: razorpayResponse.razorpay_signature,
+      //         customer: {
+      //           fullName: form.name.trim(),
+      //           email: form.email.trim(),
+      //           mobile: form.mobile.trim(),
+      //         },
+      //       });
 
-            const generatedCertificate =
-              verifyResponse.data?.data?.certificate;
+      //       if (!verifyResponse.data?.success) {
+      //         throw new Error(
+      //           verifyResponse.data?.message || "Payment verification failed.",
+      //         );
+      //       }
 
-            if (!generatedCertificate) {
-              throw new Error(
-                "Payment was successful, but certificate details could not be retrieved.",
-              );
-            }
+      //       // Track payment only after backend verification succeeds
+      //       trackMetaEvent("Purchase", {
+      //         content_name: programName || "Skill Assessment",
+      //         content_ids: [String(programId)],
+      //         content_type: "product",
+      //         value: Number(program?.sellingPrice || 0),
+      //         currency: "INR",
+      //       });
 
-            if (onCertificateGenerated) {
-              onCertificateGenerated(generatedCertificate);
-            }
+      //       setStage("generating");
 
-            setStage("idle");
-            if (onClose) onClose();
-          } catch (err) {
-            console.error("Payment verification error:", err);
-            setStage("idle");
-            setError(
-              err.response?.data?.message ||
-                err.message ||
-                "Payment verification failed. Please contact support.",
-            );
-          }
-        },
-      };
+      //       const generatedCertificate = verifyResponse.data?.data?.certificate;
 
-      const razorpay = new window.Razorpay(options);
+      //       if (!generatedCertificate) {
+      //         throw new Error(
+      //           "Payment was successful, but certificate details could not be retrieved.",
+      //         );
+      //       }
 
-      razorpay.on("payment.failed", (res) => {
-        console.error("Razorpay payment failed:", res);
-        setStage("idle");
-        setError(
-          res?.error?.description ||
-            "Payment was not completed. Please try again.",
-        );
-      });
+      //       if (onCertificateGenerated) {
+      //         onCertificateGenerated(generatedCertificate);
+      //       }
 
-      razorpay.open();
+      //       setStage("idle");
+      //       if (onClose) onClose();
+      //     } catch (err) {
+      //       console.error("Payment verification error:", err);
+      //       setStage("idle");
+      //       setError(
+      //         err.response?.data?.message ||
+      //           err.message ||
+      //           "Payment verification failed. Please contact support.",
+      //       );
+      //     }
+      //   },
+      // };
+
+      // const razorpay = new window.Razorpay(options);
+
+      // razorpay.on("payment.failed", (res) => {
+      //   console.error("Razorpay payment failed:", res);
+      //   setStage("idle");
+      //   setError(
+      //     res?.error?.description ||
+      //       "Payment was not completed. Please try again.",
+      //   );
+      // });
+
+      // razorpay.open();
     } catch (err) {
       console.error("Payment error:", err);
       setStage("idle");
@@ -269,10 +314,7 @@ const PaymentPopup = ({
 
   return (
     <div className="fixed inset-0 z-[100] flex items-end justify-center bg-black/80 backdrop-blur-sm sm:items-center sm:p-4">
-      <div
-        className="fixed inset-0"
-        onClick={canClose ? onClose : undefined}
-      />
+      <div className="fixed inset-0" onClick={canClose ? onClose : undefined} />
 
       <div
         className="relative z-10 flex w-full flex-col overflow-hidden rounded-t-3xl border border-cyan-400/30 bg-gradient-to-b from-slate-900 via-slate-950 to-[#070B1A] shadow-[0_0_60px_rgba(6,182,212,0.25)]
@@ -397,8 +439,7 @@ const PaymentPopup = ({
               htmlFor="pay-mobile"
               className="mb-1 block text-[11px] font-medium text-gray-300 sm:text-xs"
             >
-              Mobile Number (10 digits){" "}
-              <span className="text-cyan-400">*</span>
+              Mobile Number (10 digits) <span className="text-cyan-400">*</span>
             </label>
             <div className="relative flex items-center">
               <span className="absolute left-3.5 select-none text-xs font-semibold text-gray-400">

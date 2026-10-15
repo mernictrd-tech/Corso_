@@ -12,8 +12,12 @@ const axios = require("axios");
 const {
   sendCertificateEmail,
 } = require("../services/certificateEmail.service");
-const { saveCertificatePNG, generateCertificatePNG } = require("../services/certificate.service");
+const {
+  saveCertificatePNG,
+  generateCertificatePNG,
+} = require("../services/certificate.service");
 const { sendEmail } = require("../services/ses.service");
+const { sendMetaEvent } = require("../services/metaConversionsApi");
 
 const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID,
@@ -28,7 +32,17 @@ const razorpay = new Razorpay({
 
 const createPaymentOrder = async (req, res) => {
   try {
-    const { assessmentId, programId, name, email, mobile } = req.body;
+    const {
+      assessmentId,
+      programId,
+      name,
+      email,
+      mobile,
+      checkoutEventId,
+      fbp,
+      fbc,
+      eventSourceUrl,
+    } = req.body;
 
     // ---------------------------------------------------------
     // Validate input
@@ -148,6 +162,74 @@ const createPaymentOrder = async (req, res) => {
       status: "created",
     });
 
+    const returnUrl = process.env.SKILIUM_RETURN_URL;
+
+    const tokenPayload = {
+      paymentId: payment._id.toString(),
+      orderId: order.id,
+      amount: order.amount,
+      currency: order.currency,
+      key: process.env.RAZORPAY_KEY_ID,
+      name: customerName,
+      email: customerEmail,
+      contact: customerMobile,
+      returnUrl,
+      exp: Date.now() + 30 * 60 * 1000, // 30 min
+    };
+
+    const bodyB64 = Buffer.from(JSON.stringify(tokenPayload)).toString(
+      "base64",
+    );
+    const sig = crypto
+      .createHmac("sha256", process.env.PLINO_SHARED_SECRET)
+      .update(bodyB64)
+      .digest("hex");
+    const token = `${bodyB64}.${sig}`;
+
+    const checkoutUrl = `${process.env.PLINO_PAY_URL}?token=${encodeURIComponent(token)}`;
+
+    return res.status(200).json({
+      success: true,
+      message: "Payment order created.",
+      data: {
+        paymentId: payment._id,
+        orderId: order.id,
+        amount: order.amount,
+        currency: order.currency,
+        key: process.env.RAZORPAY_KEY_ID,
+        checkoutUrl, // <── NEW
+        student: {
+          name: customerName,
+          email: customerEmail,
+          mobile: customerMobile,
+        },
+        program: { id: program._id, name: program.name },
+      },
+    });
+
+    try {
+      await sendMetaEvent({
+        eventName: "InitiateCheckout",
+        eventId: checkoutEventId,
+        eventSourceUrl: "https://skilium.in/",
+        userData: {
+          client_ip_address: req.ip,
+          client_user_agent: req.get("user-agent"),
+          ...(fbp ? { fbp } : {}),
+          ...(fbc ? { fbc } : {}),
+        },
+        customData: {
+          currency: "INR",
+          value: certificateFee,
+          content_type: "product",
+          content_ids: [String(programId)],
+        },
+      });
+    } catch (metaError) {
+      // A Meta tracking failure must not break Razorpay checkout.
+      console.error("Meta CAPI InitiateCheckout failed:", metaError.message);
+    }
+
     // ---------------------------------------------------------
     // Response
     // ---------------------------------------------------------
@@ -198,8 +280,14 @@ const createPaymentOrder = async (req, res) => {
 
 const verifyPayment = async (req, res) => {
   try {
-    const { razorpay_payment_id, razorpay_order_id, razorpay_signature } =
-      req.body;
+    const {
+      razorpay_payment_id,
+      razorpay_order_id,
+      razorpay_signature,
+      purchaseEventId,
+      fbp,
+      fbc,
+    } = req.body;
 
     // ---------------------------------------------------------
     // Validate Razorpay response
@@ -308,6 +396,29 @@ const verifyPayment = async (req, res) => {
     payment.paidAt = new Date();
 
     await payment.save();
+    try {
+      await sendMetaEvent({
+        eventName: "Purchase",
+        eventId: purchaseEventId,
+        eventSourceUrl: "https://skilium.in/",
+        userData: {
+          em: payment.customerEmail, // sha256 hash if your helper doesn’t do it
+          ph: payment.customerMobile,
+          client_ip_address: req.ip,
+          client_user_agent: req.get("user-agent"),
+          ...(fbp ? { fbp } : {}),
+          ...(fbc ? { fbc } : {}),
+        },
+        customData: {
+          currency: "INR",
+          value: payment.amount,
+          content_type: "product",
+          content_ids: [String(payment.program)],
+        },
+      });
+    } catch (e) {
+      console.error("Meta CAPI Purchase failed:", e.message);
+    }
 
     // ---------------------------------------------------------
     // Get assessment

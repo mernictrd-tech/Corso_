@@ -15,6 +15,7 @@ import {
 } from "../../components/courseDetails";
 import StructuredData from "../../seo/StructuredData";
 import SEO from "../../seo/SEO";
+import { trackMetaEvent } from "../../utils/metaPixel";
 
 const CourseDetails = () => {
   const { courseId } = useParams();
@@ -84,6 +85,12 @@ const CourseDetails = () => {
         };
 
         setCourse(mappedCourse);
+
+        // trackMetaEvent("ViewContent", {
+        //   content_name: mappedCourse.title,
+        //   content_type: "product",
+        //   content_ids: [String(mappedCourse.id)],
+        // });
       } catch (err) {
         console.error("Course details error:", err);
 
@@ -156,7 +163,6 @@ const CourseDetails = () => {
 
   return (
     <Layout>
-
       <SEO certificationName={course?.title} />
       <StructuredData data={courseSchema} />
 

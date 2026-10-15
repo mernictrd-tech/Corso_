@@ -19,10 +19,13 @@ import {
 import api from "../../services/api";
 import toast from "react-hot-toast";
 import ResultCard from "./ResultCard";
+import { trackMetaEvent } from "../../utils/metaPixel";
 
 const Assessment = () => {
   const { courseId } = useParams();
   const navigate = useNavigate();
+
+  const hasTrackedStartRef = useRef(false);
 
   /*
   |--------------------------------------------------------------------------
@@ -255,6 +258,17 @@ const Assessment = () => {
 
         if (mounted) {
           setQuestions(loadedQuestions);
+
+          // Track when the assessment successfully loads
+          if (!hasTrackedStartRef.current) {
+            trackMetaEvent("StartAssessment", {
+              content_name: session.program?.name || "Skill Assessment",
+              content_ids: [String(courseId)],
+              content_type: "product",
+            });
+
+            hasTrackedStartRef.current = true;
+          }
         }
 
         /*
@@ -582,6 +596,13 @@ const Assessment = () => {
             response.data?.message || "Assessment completion failed.",
           );
         }
+
+        // Track successful assessment completion in Meta Pixel
+        trackMetaEvent("EndAssessment", {
+          content_name: program?.name || "Skill Assessment",
+          content_ids: [String(courseId)],
+          content_type: "product",
+        });
 
         /*
            |--------------------------------------------------------------------------

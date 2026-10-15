@@ -11,14 +11,18 @@ import ProtectedRoute from "../components/auth/ProtectedRoute";
 import NotFound from "../pages/NotFound";
 import VerifyCertificate from "../components/layout/VerifyCertificate";
 import ResetPassword from "../components/auth/ResetPassword";
+import MetaCoursePageViewTracker from "../components/MetaCoursePageViewTracker";
+import PaymentCallback from "../pages/PaymentCallback";
 
 const AppRoutes = () => {
   return (
     <>
       <ScrollToTop />
-
+      <MetaCoursePageViewTracker />
       <Routes>
         <Route path="/" element={<Home />} />
+
+        <Route path="/payment/callback" element={<PaymentCallback />} />
 
         {/* Course Details */}
         <Route path="/course/:courseId" element={<CourseDetails />} />

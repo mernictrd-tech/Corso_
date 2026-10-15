@@ -5,7 +5,10 @@ import { GoogleOAuthProvider } from "@react-oauth/google";
 
 import App from "./App";
 import "./index.css";
+import { initMetaPixel } from "./utils/metaPixel";
 import { HelmetProvider } from "react-helmet-async";
+
+initMetaPixel();
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
