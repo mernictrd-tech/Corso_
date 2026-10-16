@@ -319,18 +319,26 @@ const getProgramById = async (req, res) => {
 const getWidget = async (req, res) => {
   try {
     // Start/end of today
-    const startOfToday = new Date();
-    startOfToday.setHours(0, 0, 0, 0);
 
-    const endOfToday = new Date();
-    endOfToday.setHours(23, 59, 59, 999);
+    const IST_OFFSET = 5.5 * 60 * 60 * 1000;
 
-    // Start/end of yesterday
-    const startOfYesterday = new Date(startOfToday);
-    startOfYesterday.setDate(startOfYesterday.getDate() - 1);
+    const now = new Date();
+    const istNow = new Date(now.getTime() + IST_OFFSET);
 
-    const endOfYesterday = new Date(startOfToday);
-    endOfYesterday.setMilliseconds(-1);
+    const startOfTodayIST = new Date(istNow);
+    startOfTodayIST.setUTCHours(0, 0, 0, 0);
+
+    const startOfToday = new Date(startOfTodayIST.getTime() - IST_OFFSET);
+
+    const startOfYesterday = new Date(
+      startOfToday.getTime() - 24 * 60 * 60 * 1000,
+    );
+
+    const endOfYesterday = new Date(startOfToday.getTime() - 1);
+
+    const endOfToday = new Date(
+      startOfToday.getTime() + 24 * 60 * 60 * 1000 - 1,
+    );
 
     const [
       totalStudents,
