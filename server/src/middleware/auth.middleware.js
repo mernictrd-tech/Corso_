@@ -53,4 +53,42 @@ const protect = async (req, res, next) => {
   }
 };
 
+const optionalAuth = async (req, res, next) => {
+  try {
+    let token;
+
+    if (req.cookies && req.cookies.token) {
+      token = req.cookies.token;
+    }
+
+    if (
+      !token &&
+      req.headers.authorization &&
+      req.headers.authorization.startsWith("Bearer")
+    ) {
+      token = req.headers.authorization.split(" ")[1];
+    }
+
+    req.user = null;
+
+    if (!token) {
+      return next();
+    }
+
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const user = await User.findById(decoded.id);
+
+    if (user) {
+      req.user = user;
+    }
+
+    return next();
+  } catch (error) {
+    // Invalid or expired token: continue as a guest
+    req.user = null;
+    return next();
+  }
+};
+
 module.exports = protect;
+module.exports.optionalAuth = optionalAuth;

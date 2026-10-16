@@ -3,6 +3,7 @@ const express = require("express");
 const router = express.Router();
 
 const protect = require("../middleware/auth.middleware");
+const { optionalAuth } = require("../middleware/auth.middleware");
 
 const {
   getAssessmentQuestions,
@@ -31,6 +32,6 @@ router.put("/session/:sessionId/answers", saveAssessmentAnswers);
 
 router.get("/session/:sessionId", getAssessmentSession);
 
-router.post("/complete", completeAssessment);
+router.post("/complete", optionalAuth, completeAssessment);
 
 module.exports = router;
