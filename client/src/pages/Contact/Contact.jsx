@@ -282,21 +282,6 @@ const Contact = () => {
                   </div>
                 </div>
 
-                {/* Phone */}
-                <div className="flex gap-4">
-                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-violet-500/10 text-violet-400">
-                    ☎
-                  </div>
-
-                  <div>
-                    <p className="text-sm text-gray-500">Phone</p>
-
-                    <p className="mt-1 text-gray-200">
-                      +91 00000 00000
-                    </p>
-                  </div>
-                </div>
-
                 {/* Working Hours */}
                 <div className="flex gap-4">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-blue-500/10 text-blue-400">

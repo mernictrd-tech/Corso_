@@ -82,14 +82,14 @@ const StudentsPage = () => {
         minWidth: 220,
       },
 
-      {
-        key: "assessmentCount",
-        label: "Assessments",
-        priority: 2,
-        sortable: true,
-        minWidth: 120,
-        render: (value) => value ?? 0,
-      },
+      // {
+      //   key: "assessmentCount",
+      //   label: "Assessments",
+      //   priority: 2,
+      //   sortable: true,
+      //   minWidth: 120,
+      //   render: (value) => value ?? 0,
+      // },
 
       {
         key: "createdAt",

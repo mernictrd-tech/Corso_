@@ -433,6 +433,17 @@ const verifyPayment = async (req, res) => {
       });
     }
 
+    // Link the assessment result to the student
+    if (!assessment.student) {
+      assessment.student = student._id;
+      await assessment.save();
+    } else if (assessment.student.toString() !== student._id.toString()) {
+      return res.status(403).json({
+        success: false,
+        message: "This assessment belongs to another student.",
+      });
+    }
+
     // ---------------------------------------------------------
     // Get program
     // ---------------------------------------------------------

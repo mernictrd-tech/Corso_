@@ -183,12 +183,15 @@ const PaymentPopup = ({
       const order = response.data.data;
 
       // Save what the callback page needs for the Purchase pixel
+      // Save what the callback page needs (survives the plino.org round-trip)
       sessionStorage.setItem(
         "pendingPurchase",
         JSON.stringify({
-          eventId: crypto.randomUUID(), // event_id shared with CAPI
+          eventId: crypto.randomUUID(),
           programId: String(programId),
+          assessmentId: String(assessmentId),
           programName: programName || "Skill Assessment",
+          program: program, // ← full object so ResultCard can render
           value: Number(program?.sellingPrice || 0),
           currency: "INR",
           paymentId: order.paymentId,
@@ -198,7 +201,7 @@ const PaymentPopup = ({
       );
 
       setStage("awaiting");
-      window.location.href = order.checkoutUrl; // ← redirect to plino.org
+      window.location.href = order.checkoutUrl;
 
       // if (!window.Razorpay) {
       //   setStage("idle");

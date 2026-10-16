@@ -255,14 +255,13 @@ const completeAssessment = async (req, res) => {
      * Find Program
      */
 
-    
     /*
      * Find assessment session
-    */
-   
-   const session = await AssessmentSession.findOne({
-     sessionId,
-     completed: false,
+     */
+
+    const session = await AssessmentSession.findOne({
+      sessionId,
+      completed: false,
     });
 
     if (!session) {
@@ -271,10 +270,17 @@ const completeAssessment = async (req, res) => {
         message: "Assessment session not found or already completed",
       });
     }
-    
+
     const program = await Program.findOne({
-      _id: session.program
+      _id: session.program,
     });
+
+    if (!program) {
+      return res.status(404).json({
+        success: false,
+        message: "Program not found.",
+      });
+    }
     /*
      * Check server-side expiry
      */
@@ -328,13 +334,17 @@ const completeAssessment = async (req, res) => {
      * actual passing percentage.
      */
 
-    const passed = percentage >= ((program.passingQuestions / totalQuestions) * 100);
+    const passed =
+      percentage >= (program.passingQuestions / totalQuestions) * 100;
 
     /*
      * Create final Assessment
      */
 
+    const studentId = req.user?._id;
+
     const assessment = await Assessment.create({
+      student: studentId || undefined,
       program: session.program,
       score,
       totalQuestions,
@@ -443,6 +453,13 @@ const getAssessmentQuestions = async (req, res) => {
       sessionId,
       completed: false,
     });
+
+    if (!session) {
+      return res.status(404).json({
+        success: false,
+        message: "Assessment session not found or already completed.",
+      });
+    }
 
     const questions = await Question.find({
       _id: { $in: session.questionIds },
