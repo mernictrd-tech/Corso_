@@ -18,9 +18,20 @@ app.use(
 );
 
 // CORS
+const allowedOrigins = (process.env.CLIENT_URL || "")
+  .split(",")
+  .map((url) => url.trim())
+  .filter(Boolean);
+
 app.use(
   cors({
-    origin: process.env.CLIENT_URL,
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+
+      return callback(new Error(`CORS blocked: ${origin}`));
+    },
     credentials: true,
   }),
 );
