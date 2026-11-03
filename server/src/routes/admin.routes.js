@@ -43,6 +43,11 @@ const {
   updateTopic,
   deleteTopic,
 } = require("../controllers/topic.controller");
+
+const {
+  getAssessments,
+} = require("../controllers/assessments.admin.controller");
+
 const { getAllPayments } = require("../controllers/payment.controller");
 const { getAllContacts, updateContactStatus, deleteContact } = require("../controllers/contact.controller");
 const { adminLogin } = require("../controllers/admin.controller");
@@ -158,5 +163,11 @@ router.get("/contacts/list", adminProtect, getAllContacts);
 router.patch("/contacts/:id/status", adminProtect, updateContactStatus);
 
 router.delete("/contact/delete/:id", adminProtect, deleteContact);
+
+////////////////////////  End Contact List  ////////////////////////////
+
+////////////////////////  Create Assessment  ////////////////////////////
+router.get("/assessments/list", getAssessments);
+////////////////////////  End Create Assessment  ////////////////////////////
 
 module.exports = router;
