@@ -16,25 +16,36 @@ app.use(
     },
   }),
 );
-
 // CORS
 const allowedOrigins = (process.env.CLIENT_URL || "")
   .split(",")
-  .map((url) => url.trim())
+  .map((url) => url.trim().replace(/\/$/, ""))
   .filter(Boolean);
+
+console.log("Allowed CORS Origins:", allowedOrigins);
 
 app.use(
   cors({
     origin: function (origin, callback) {
-      if (!origin || allowedOrigins.includes(origin)) {
+      // Allow requests without origin (Postman, server-to-server, etc.)
+      if (!origin) {
         return callback(null, true);
       }
+
+      if (allowedOrigins.includes(origin.replace(/\/$/, ""))) {
+        return callback(null, true);
+      }
+
+      console.error("Blocked CORS Origin:", origin);
 
       return callback(new Error(`CORS blocked: ${origin}`));
     },
     credentials: true,
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
   }),
 );
+
 
 // Body Parser
 app.use(express.json());
