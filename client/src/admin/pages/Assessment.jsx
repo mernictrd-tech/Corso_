@@ -267,14 +267,14 @@ const submitManualPayment = async (e) => {
       valueClass: "text-green-600",
     },
     {
-      title: "Trashed Students",
+      title: "Tracked Students",
       value: summary.trashedStudents,
       icon: Users,
       iconClass: "bg-amber-50 text-amber-600",
       valueClass: "text-amber-600",
     },
     {
-      title: "Untrashed Students",
+      title: "Untracked Students",
       value: summary.untrashedStudents,
       icon: Trophy,
       iconClass: "bg-purple-50 text-purple-600",
