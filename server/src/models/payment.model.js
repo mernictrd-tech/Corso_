@@ -47,6 +47,12 @@ const paymentSchema = new mongoose.Schema(
       default: "INR",
     },
 
+    paymentMethod: {
+      type: String,
+      enum: ["razorpay", "manual"],
+      default: "razorpay",
+    },
+
     razorpayOrderId: {
       type: String,
       required: true,

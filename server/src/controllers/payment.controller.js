@@ -881,6 +881,375 @@ const sendCredentialEmail = async ({ email, studentName, password }) => {
 
 /*
 |--------------------------------------------------------------------------
+| Manual Payment with MongoDB Transaction / Rollback
+|--------------------------------------------------------------------------
+*/
+
+const manualPayment = async (req, res) => {
+  const session = await mongoose.startSession();
+
+  let student;
+  let assessment;
+  let program;
+  let payment;
+  let certificate;
+
+  let isNewStudent = false;
+  let temporaryPassword = null;
+
+  try {
+    // ---------------------------------------------------------
+    // Get payment details
+    // ---------------------------------------------------------
+
+    const { razorpay_order_id, razorpay_payment_id } = req.body;
+
+    if (!razorpay_order_id || !razorpay_payment_id) {
+      return res.status(400).json({
+        success: false,
+        message: "Razorpay Order ID and Payment ID are required.",
+      });
+    }
+
+    // ---------------------------------------------------------
+    // DATABASE TRANSACTION
+    // ---------------------------------------------------------
+
+    await session.withTransaction(async () => {
+
+      // -------------------------------------------------------
+      // Find payment
+      // -------------------------------------------------------
+
+      payment = await Payment.findOne({
+        razorpayOrderId: razorpay_order_id,
+      }).session(session);
+
+      if (!payment) {
+        throw Object.assign(
+          new Error("Payment record not found."),
+          { statusCode: 404 }
+        );
+      }
+
+      // -------------------------------------------------------
+      // Prevent duplicate payment
+      // -------------------------------------------------------
+
+      if (payment.status === "paid") {
+        throw Object.assign(
+          new Error("Payment has already been verified."),
+          { statusCode: 400 }
+        );
+      }
+
+      // -------------------------------------------------------
+      // Get assessment
+      // -------------------------------------------------------
+
+      assessment = await Assessment.findById(
+        payment.assessment
+      ).session(session);
+
+      if (!assessment || !assessment.passed) {
+        throw Object.assign(
+          new Error("Valid passed assessment not found."),
+          { statusCode: 400 }
+        );
+      }
+
+      // -------------------------------------------------------
+      // Get program
+      // -------------------------------------------------------
+
+      program = await Program.findById(
+        payment.program
+      ).session(session);
+
+      if (!program) {
+        throw Object.assign(
+          new Error("Program not found."),
+          { statusCode: 404 }
+        );
+      }
+
+      // -------------------------------------------------------
+      // Find existing student
+      // -------------------------------------------------------
+
+      student = await userModel.findOne({
+        email: payment.customerEmail,
+      }).session(session);
+
+      // -------------------------------------------------------
+      // Validate assessment ownership before creating student
+      // -------------------------------------------------------
+
+      if (
+        student &&
+        assessment.student &&
+        assessment.student.toString() !== student._id.toString()
+      ) {
+        throw Object.assign(
+          new Error("This assessment belongs to another student."),
+          { statusCode: 403 }
+        );
+      }
+
+      // -------------------------------------------------------
+      // Create new student if not exists
+      // -------------------------------------------------------
+
+      if (!student) {
+        temporaryPassword = crypto.randomBytes(10).toString("hex");
+
+        const createdStudents = await userModel.create(
+          [
+            {
+              fullName: payment.customerName,
+              email: payment.customerEmail,
+              phone: payment.customerMobile,
+              password: temporaryPassword,
+              termsAccepted: true,
+            },
+          ],
+          { session }
+        );
+
+        student = createdStudents[0];
+        isNewStudent = true;
+      }
+
+      // -------------------------------------------------------
+      // Link assessment to student
+      // -------------------------------------------------------
+
+      if (!assessment.student) {
+        assessment.student = student._id;
+
+        await assessment.save({ session });
+      }
+
+      // -------------------------------------------------------
+      // Update payment
+      // -------------------------------------------------------
+
+      payment.student = student._id;
+      payment.status = "paid";
+      payment.razorpayPaymentId = razorpay_payment_id;
+      payment.paymentMethod = "manual";
+      payment.paidAt = new Date();
+
+      await payment.save({ session });
+
+      // -------------------------------------------------------
+      // Check existing certificate
+      // -------------------------------------------------------
+
+      certificate = await Certificate.findOne({
+        payment: payment._id,
+      }).session(session);
+
+      // -------------------------------------------------------
+      // Create certificate if not exists
+      // -------------------------------------------------------
+
+      if (!certificate) {
+        const certificateId =
+          `SKLM-${new Date().getFullYear()}-` +
+          crypto.randomBytes(4).toString("hex").toUpperCase();
+
+        const documentIdentifier =
+          `DOC-${Date.now()}-` +
+          crypto.randomBytes(3).toString("hex").toUpperCase();
+
+        const createdCertificates = await Certificate.create(
+          [
+            {
+              user: student._id,
+              studentName: payment.customerName,
+              program: program._id,
+              attempt: assessment._id,
+              payment: payment._id,
+              certificateId,
+              documentIdentifier,
+              score: assessment.score,
+              issueDate: new Date(),
+              status: "Issued",
+            },
+          ],
+          { session }
+        );
+
+        certificate = createdCertificates[0];
+      }
+
+    });
+
+    // ---------------------------------------------------------
+    // TRANSACTION COMMITTED SUCCESSFULLY
+    // Database changes are now saved
+    // ---------------------------------------------------------
+
+    // ---------------------------------------------------------
+    // Generate TID if student does not already have one
+    // ---------------------------------------------------------
+
+    let tid = student.tid;
+
+    if (!tid) {
+      try {
+        const response = await axios.post(
+          process.env.TID_API_URL,
+          {
+            email: student.email,
+            name: student.fullName,
+            phone: student.phone,
+            parent_institute: "SKILIUM.IN",
+          },
+          {
+            timeout: 10000,
+            headers: {
+              "Content-Type": "application/json",
+            },
+          }
+        );
+
+        tid = response.data?.TID;
+
+        if (!tid) {
+          throw new Error("TID API did not return TID");
+        }
+
+        console.log(`TID received from API: ${tid}`);
+
+      } catch (error) {
+        console.error(
+          `TID API failed for ${student.email}:`,
+          error.response?.data || error.message
+        );
+
+        const randomNumber = Math.floor(
+          10000 + Math.random() * 900000
+        );
+
+        tid = `TEMP${randomNumber}`;
+
+        console.log(`Using fallback TID: ${tid}`);
+      }
+
+      student.tid = tid;
+      await student.save();
+    }
+
+    // ---------------------------------------------------------
+    // Update certificate TID
+    // ---------------------------------------------------------
+
+    certificate.tid = tid;
+    await certificate.save();
+
+    // ---------------------------------------------------------
+    // Generate certificate PNG
+    // ---------------------------------------------------------
+
+    const generatedCertificate = await generateCertificatePNG({
+      _id: certificate._id,
+      certificateId: certificate.certificateId,
+      studentName: student.fullName,
+      tid: student.tid,
+      programName: program.name,
+      issueDate: certificate.issueDate,
+      documentIdentifier: certificate.documentIdentifier,
+    });
+
+    // ---------------------------------------------------------
+    // Send certificate email
+    // ---------------------------------------------------------
+
+    void sendCertificateEmail({
+      email: student.email,
+      studentName: student.fullName,
+      programName: program.name,
+      tid: student.tid,
+      score: assessment.score * 10,
+      certificateId: certificate.certificateId,
+      certificateBuffer: generatedCertificate.buffer,
+    })
+      .then((result) => {
+        console.log("Certificate email sent:", result.messageId);
+      })
+      .catch((error) => {
+        console.error("Certificate email failed:", error);
+      });
+
+    // ---------------------------------------------------------
+    // Send credentials to new student
+    // ---------------------------------------------------------
+
+    if (isNewStudent && temporaryPassword) {
+      void sendCredentialEmail({
+        email: student.email,
+        studentName: student.fullName,
+        password: temporaryPassword,
+      })
+        .then((result) => {
+          console.log("Credential email sent:", result.messageId);
+        })
+        .catch((error) => {
+          console.error("Credential email failed:", error);
+        });
+    }
+
+    // ---------------------------------------------------------
+    // Success response
+    // ---------------------------------------------------------
+
+    return res.status(200).json({
+      success: true,
+      message: "Manual payment verified and certificate generated.",
+
+      data: {
+        payment: {
+          id: payment._id,
+          amount: payment.amount,
+          status: payment.status,
+          paymentMethod: payment.paymentMethod,
+          razorpayPaymentId: payment.razorpayPaymentId,
+          paidAt: payment.paidAt,
+        },
+
+        certificate: {
+          id: certificate._id,
+          certificateId: certificate.certificateId,
+          documentIdentifier: certificate.documentIdentifier,
+          studentName: certificate.studentName,
+          programName: program.name,
+          score: certificate.score,
+          issueDate: certificate.issueDate,
+          status: certificate.status,
+          tid,
+          date: certificate.issueDate,
+        },
+      },
+    });
+
+  } catch (error) {
+    console.error("Manual payment error:", error);
+
+    return res.status(error.statusCode || 500).json({
+      success: false,
+      message: error.message || "Manual payment processing failed.",
+    });
+
+  } finally {
+    await session.endSession();
+  }
+};
+
+
+/*
+|--------------------------------------------------------------------------
 | Exports
 |--------------------------------------------------------------------------
 */
@@ -888,5 +1257,6 @@ const sendCredentialEmail = async ({ email, studentName, password }) => {
 module.exports = {
   createPaymentOrder,
   verifyPayment,
+  manualPayment,
   getAllPayments,
 };

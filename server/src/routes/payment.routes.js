@@ -7,6 +7,7 @@ const protect = require("../middleware/auth.middleware");
 const {
   createPaymentOrder,
   verifyPayment,
+  manualPayment
 } = require("../controllers/payment.controller");
 
 router.post(
@@ -17,6 +18,12 @@ router.post(
 router.post(
   "/verify",
   verifyPayment
+);
+
+// Manual payment (Admin only)
+router.post(
+  "/manual-verify",
+  manualPayment
 );
 
 module.exports = router;

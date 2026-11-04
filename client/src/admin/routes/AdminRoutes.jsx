@@ -14,6 +14,7 @@ import TopicsPage from "../components/topics/TopicsPage";
 import StudentDetails from "../components/students/StudentDetails";
 import AdminNotFound from "../pages/AdminNotFound";
 import ContactPage from "../pages/ContactPage";
+import Assessment from "../pages/Assessment"; 
 
 const AdminRoutes = () => {
   return (
@@ -108,6 +109,15 @@ const AdminRoutes = () => {
         element={
           <ProtectedAdminRoute>
             <ContactPage />
+          </ProtectedAdminRoute>
+        }
+      />
+      
+      <Route
+        path="assessment"
+        element={
+          <ProtectedAdminRoute>
+            <Assessment />
           </ProtectedAdminRoute>
         }
       />

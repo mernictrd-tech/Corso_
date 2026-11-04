@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import {
   LayoutDashboard,
   Folder,
@@ -8,8 +9,8 @@ import {
   Award,
   LogOut,
   X,
+  ClipboardCheck,
 } from "lucide-react";
-import { NavLink } from "react-router-dom";
 
 const menu = [
   {
@@ -51,6 +52,11 @@ const menu = [
     title: "Contact Queries",
     path: "/admin/contact",
     icon: Award,
+  },
+  {
+    title: "Assessment",
+    path: "/admin/assessment",
+    icon: ClipboardCheck,
   },
 ];
 
