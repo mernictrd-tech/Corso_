@@ -167,7 +167,8 @@ router.delete("/contact/delete/:id", adminProtect, deleteContact);
 ////////////////////////  End Contact List  ////////////////////////////
 
 ////////////////////////  Create Assessment  ////////////////////////////
-router.get("/assessments/list", getAssessments);
+router.get("/assessments", getAssessments);
+
 ////////////////////////  End Create Assessment  ////////////////////////////
 
 module.exports = router;
