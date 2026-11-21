@@ -51,7 +51,7 @@ export default function PaymentCallback() {
       } catch {}
 
       try {
-        const res = await api.get(`/payments/${paymentId}`);
+        const res = await api.get(`/payment/${paymentId}`);
 
         if (!res.data?.success) {
           throw new Error(res.data?.message || "Could not load payment.");
