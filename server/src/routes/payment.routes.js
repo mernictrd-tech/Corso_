@@ -2,28 +2,23 @@ const express = require("express");
 
 const router = express.Router();
 
-const protect = require("../middleware/auth.middleware");
-
 const {
   createPaymentOrder,
   verifyPayment,
-  manualPayment
+  manualPayment,
+  handlePartnerCallback,
+  getPaymentDetails
 } = require("../controllers/payment.controller");
 
-router.post(
-  "/create-order",
-  createPaymentOrder
-);
+router.post("/create-order", createPaymentOrder);
 
-router.post(
-  "/verify",
-  verifyPayment
-);
+router.post("/verify", verifyPayment);
+
+router.get("/:paymentId", getPaymentDetails);
+
+router.post("/partner-callback", handlePartnerCallback);
 
 // Manual payment (Admin only)
-router.post(
-  "/manual-verify",
-  manualPayment
-);
+router.post("/manual-verify", manualPayment);
 
 module.exports = router;

@@ -146,19 +146,31 @@ const createPaymentOrder = async (req, res) => {
     // Save payment record
     // ---------------------------------------------------------
 
+    // const payment = await Payment.create({
+    //   program: programId,
+    //   assessment: assessmentId,
+
+    //   customerName,
+    //   customerEmail,
+    //   customerMobile,
+
+    //   amount: certificateFee,
+    //   currency: "INR",
+
+    //   razorpayOrderId: order.id,
+
+    //   status: "created",
+    // });
+
     const payment = await Payment.create({
       program: programId,
       assessment: assessmentId,
-
       customerName,
       customerEmail,
       customerMobile,
-
       amount: certificateFee,
       currency: "INR",
-
-      razorpayOrderId: order.id,
-
+      gateway: "easebuzz",
       status: "created",
     });
 
@@ -166,27 +178,24 @@ const createPaymentOrder = async (req, res) => {
 
     const tokenPayload = {
       paymentId: payment._id.toString(),
-      orderId: order.id,
-      amount: order.amount,
-      currency: order.currency,
-      key: process.env.RAZORPAY_KEY_ID,
+      amount: certificateFee * 100, // paise (PHP divides by 100)
+      currency: "INR",
       name: customerName,
       email: customerEmail,
       contact: customerMobile,
-      returnUrl,
-      exp: Date.now() + 30 * 60 * 1000, // 30 min
+      exp: Date.now() + 30 * 60 * 1000,
     };
 
     const bodyB64 = Buffer.from(JSON.stringify(tokenPayload)).toString(
       "base64",
     );
     const sig = crypto
-      .createHmac("sha256", process.env.PLINO_SHARED_SECRET)
+      .createHmac("sha256", process.env.PAY_PARTNER_SHARED_SECRET)
       .update(bodyB64)
       .digest("hex");
     const token = `${bodyB64}.${sig}`;
 
-    const checkoutUrl = `${process.env.PLINO_PAY_URL}?token=${encodeURIComponent(token)}`;
+    const checkoutUrl = `${process.env.PAY_PARTNER_URL}?token=${encodeURIComponent(token)}`;
 
     return res.status(200).json({
       success: true,
@@ -197,7 +206,7 @@ const createPaymentOrder = async (req, res) => {
         amount: order.amount,
         currency: order.currency,
         key: process.env.RAZORPAY_KEY_ID,
-        checkoutUrl, // <── NEW
+        checkoutUrl,
         student: {
           name: customerName,
           email: customerEmail,
@@ -274,9 +283,361 @@ const createPaymentOrder = async (req, res) => {
 
 /*
 |--------------------------------------------------------------------------
-| Verify Razorpay Payment
+| Verify Easebuzz Payment
 |--------------------------------------------------------------------------
 */
+
+/*
+|--------------------------------------------------------------------------
+| Partner Callback (Indiaactive / Easebuzz → MERN)
+|--------------------------------------------------------------------------
+| Called server-to-server by indiaactive.com/easebuzz/success.php
+| after Easebuzz hash + transaction status have already been verified.
+|--------------------------------------------------------------------------
+*/
+
+const handlePartnerCallback = async (req, res) => {
+
+  try {
+    // ---------------------------------------------------------
+    // 1. Authenticate caller — only Indiaactive may call this
+    // ---------------------------------------------------------
+
+    const providedSecret = req.get("X-Partner-Secret");
+
+    if (
+      !providedSecret ||
+      providedSecret !== process.env.PAY_PARTNER_SHARED_SECRET
+    ) {
+      return res.status(403).json({
+        success: false,
+        message: "Unauthorized.",
+      });
+    }
+
+    const { paymentId, txnid, easebuzz_id, status, amount } = req.body;
+
+    if (!paymentId || !txnid || !easebuzz_id || status !== "success") {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid callback payload.",
+      });
+    }
+
+    // ---------------------------------------------------------
+    // 2. Load payment record
+    // ---------------------------------------------------------
+
+    const payment = await Payment.findById(paymentId);
+
+    if (!payment) {
+      return res.status(404).json({
+        success: false,
+        message: "Payment record not found.",
+      });
+    }
+
+    // ---------------------------------------------------------
+    // 3. Idempotency — success.php may retry
+    // ---------------------------------------------------------
+
+    if (payment.status === "paid") {
+      const existingCertificate = await Certificate.findOne({
+        payment: payment._id,
+      });
+
+      return res.status(200).json({
+        success: true,
+        message: "Payment already processed.",
+        redirectUrl: `${process.env.SKILIUM_RETURN_URL}?status=success&paymentId=${payment._id}&certificateId=${existingCertificate?.certificateId || ""}`,
+        certificateId: existingCertificate?.certificateId || null,
+      });
+    }
+
+    // ---------------------------------------------------------
+    // 4. Sanity check — amount match (Easebuzz sends in rupees)
+    // ---------------------------------------------------------
+
+    if (amount !== undefined && amount !== null) {
+      const callbackAmount = Number(amount);
+
+      if (
+        !Number.isNaN(callbackAmount) &&
+        Math.abs(callbackAmount - payment.amount) > 1
+      ) {
+        console.error(
+          `Amount mismatch: paid ${callbackAmount}, expected ${payment.amount}`,
+        );
+
+        return res.status(400).json({
+          success: false,
+          message: "Amount mismatch.",
+        });
+      }
+    }
+
+    // ---------------------------------------------------------
+    // 5. Load assessment + program
+    // ---------------------------------------------------------
+
+    const assessment = await Assessment.findById(payment.assessment);
+
+    if (!assessment || !assessment.passed) {
+      return res.status(400).json({
+        success: false,
+        message: "Valid passed assessment not found.",
+      });
+    }
+
+    const program = await Program.findById(payment.program);
+
+    if (!program) {
+      return res.status(404).json({
+        success: false,
+        message: "Program not found.",
+      });
+    }
+
+    // ---------------------------------------------------------
+    // 6. Find or create student
+    // ---------------------------------------------------------
+
+    let student = await userModel.findOne({
+      email: payment.customerEmail,
+    });
+
+    let isNewStudent = false;
+    let temporaryPassword = null;
+
+    if (!student) {
+      temporaryPassword = crypto.randomBytes(10).toString("hex");
+
+      student = await userModel.create({
+        fullName: payment.customerName,
+        email: payment.customerEmail,
+        phone: payment.customerMobile,
+        password: temporaryPassword,
+        termsAccepted: true,
+      });
+
+      isNewStudent = true;
+    }
+
+    // ---------------------------------------------------------
+    // 7. Validate assessment ownership
+    // ---------------------------------------------------------
+
+    if (
+      assessment.student &&
+      assessment.student.toString() !== student._id.toString()
+    ) {
+      return res.status(403).json({
+        success: false,
+        message: "This assessment belongs to another student.",
+      });
+    }
+
+    if (!assessment.student) {
+      assessment.student = student._id;
+      await assessment.save();
+    }
+
+    // ---------------------------------------------------------
+    // 8. Mark payment as paid
+    // ---------------------------------------------------------
+
+    payment.student = student._id;
+    payment.status = "paid";
+    payment.gateway = "easebuzz";
+    payment.gatewayPaymentId = easebuzz_id;
+    payment.partnerTxnId = txnid;
+    payment.paidAt = new Date();
+
+    await payment.save();
+
+    // ---------------------------------------------------------
+    // 9. Meta Purchase event
+    //    (no fbp/fbc — server-to-server, so user data only)
+    // ---------------------------------------------------------
+
+    try {
+      await sendMetaEvent({
+        eventName: "Purchase",
+        eventSourceUrl: process.env.PUBLIC_SITE_URL,
+        userData: {
+          em: payment.customerEmail,
+          ph: payment.customerMobile,
+          client_ip_address: req.ip,
+          client_user_agent: req.get("user-agent"),
+        },
+        customData: {
+          currency: "INR",
+          value: payment.amount,
+          content_type: "product",
+          content_ids: [String(payment.program)],
+        },
+      });
+    } catch (metaError) {
+      console.error("Meta CAPI Purchase failed:", metaError.message);
+    }
+
+    // ---------------------------------------------------------
+    // 10. Create certificate if not exists
+    // ---------------------------------------------------------
+
+    let certificate = await Certificate.findOne({
+      payment: payment._id,
+    });
+
+    if (!certificate) {
+      const certificateId =
+        `SKLM-${new Date().getFullYear()}-` +
+        crypto.randomBytes(4).toString("hex").toUpperCase();
+
+      const documentIdentifier =
+        `DOC-${Date.now()}-` +
+        crypto.randomBytes(3).toString("hex").toUpperCase();
+
+      certificate = await Certificate.create({
+        user: student._id,
+        studentName: payment.customerName,
+        program: program._id,
+        attempt: assessment._id,
+        payment: payment._id,
+        certificateId,
+        documentIdentifier,
+        score: assessment.score,
+        issueDate: new Date(),
+        status: "Issued",
+      });
+    }
+
+    // ---------------------------------------------------------
+    // 11. TID (with fallback on API failure)
+    // ---------------------------------------------------------
+
+    let tid = student.tid;
+
+    if (!tid) {
+      try {
+        const response = await axios.post(
+          process.env.TID_API_URL,
+          {
+            email: student.email,
+            name: student.fullName,
+            phone: student.phone,
+            parent_institute: "SKILIUM.IN",
+          },
+          {
+            timeout: 10000,
+            headers: { "Content-Type": "application/json" },
+          },
+        );
+
+        tid = response.data?.TID;
+
+        if (!tid) {
+          throw new Error("TID API did not return TID");
+        }
+
+        console.log(`TID received from API: ${tid}`);
+      } catch (error) {
+        console.error(
+          `TID API failed for ${student.email}:`,
+          error.response?.data || error.message,
+        );
+
+        const randomNumber = Math.floor(10000 + Math.random() * 900000);
+        tid = `TEMP${randomNumber}`;
+
+        console.log(`Using fallback TID: ${tid}`);
+      }
+
+      student = await userModel.findByIdAndUpdate(
+        student._id,
+        { $set: { tid } },
+        { new: true },
+      );
+
+      await Certificate.findByIdAndUpdate(
+        certificate._id,
+        { $set: { tid } },
+        { new: true },
+      );
+    } else if (!certificate.tid) {
+      await Certificate.findByIdAndUpdate(
+        certificate._id,
+        { $set: { tid } },
+        { new: true },
+      );
+    }
+
+    // ---------------------------------------------------------
+    // 12. Certificate PNG + emails (fire-and-forget, non-blocking)
+    // ---------------------------------------------------------
+
+    void (async () => {
+      try {
+        const generatedCertificate = await generateCertificatePNG({
+          _id: certificate._id,
+          certificateId: certificate.certificateId,
+          studentName: student.fullName,
+          tid: student.tid,
+          programName: program.name,
+          issueDate: certificate.issueDate,
+          documentIdentifier: certificate.documentIdentifier,
+        });
+
+        const result = await sendCertificateEmail({
+          email: student.email,
+          studentName: student.fullName,
+          programName: program.name,
+          tid: student.tid,
+          score: assessment.score * 10,
+          certificateId: certificate.certificateId,
+          certificateBuffer: generatedCertificate.buffer,
+        });
+
+        console.log("Certificate email sent:", result.messageId);
+      } catch (error) {
+        console.error("Certificate PNG / email failed:", error);
+      }
+    })();
+
+    if (isNewStudent && temporaryPassword) {
+      void sendCredentialEmail({
+        email: student.email,
+        studentName: student.fullName,
+        password: temporaryPassword,
+      })
+        .then((result) => {
+          console.log("Credential email sent:", result.messageId);
+        })
+        .catch((error) => {
+          console.error("Credential email failed:", error);
+        });
+    }
+
+    // ---------------------------------------------------------
+    // 13. Return where the browser should land
+    // ---------------------------------------------------------
+
+    return res.status(200).json({
+      success: true,
+      message: "Payment confirmed and certificate generated.",
+      redirectUrl: `${process.env.SKILIUM_RETURN_URL}?status=success&paymentId=${payment._id}&certificateId=${certificate.certificateId}`,
+      certificateId: certificate.certificateId,
+    });
+  } catch (error) {
+    console.error("Partner callback error:", error);
+
+    return res.status(500).json({
+      success: false,
+      message: "Partner callback processing failed.",
+      error: error.message,
+    });
+  }
+};
 
 const verifyPayment = async (req, res) => {
   try {
@@ -871,9 +1232,10 @@ const sendCredentialEmail = async ({ email, studentName, password }) => {
     </body>
   </html>
 `;
-
+  const bccEmails = JSON.parse(process.env.SES_BCC_EMAILS || "[]");
   return sendEmail({
     to: email,
+    bcc: bccEmails,
     subject,
     html,
   });
@@ -916,7 +1278,6 @@ const manualPayment = async (req, res) => {
     // ---------------------------------------------------------
 
     await session.withTransaction(async () => {
-
       // -------------------------------------------------------
       // Find payment
       // -------------------------------------------------------
@@ -926,10 +1287,9 @@ const manualPayment = async (req, res) => {
       }).session(session);
 
       if (!payment) {
-        throw Object.assign(
-          new Error("Payment record not found."),
-          { statusCode: 404 }
-        );
+        throw Object.assign(new Error("Payment record not found."), {
+          statusCode: 404,
+        });
       }
 
       // -------------------------------------------------------
@@ -937,49 +1297,46 @@ const manualPayment = async (req, res) => {
       // -------------------------------------------------------
 
       if (payment.status === "paid") {
-        throw Object.assign(
-          new Error("Payment has already been verified."),
-          { statusCode: 400 }
-        );
+        throw Object.assign(new Error("Payment has already been verified."), {
+          statusCode: 400,
+        });
       }
 
       // -------------------------------------------------------
       // Get assessment
       // -------------------------------------------------------
 
-      assessment = await Assessment.findById(
-        payment.assessment
-      ).session(session);
+      assessment = await Assessment.findById(payment.assessment).session(
+        session,
+      );
 
       if (!assessment || !assessment.passed) {
-        throw Object.assign(
-          new Error("Valid passed assessment not found."),
-          { statusCode: 400 }
-        );
+        throw Object.assign(new Error("Valid passed assessment not found."), {
+          statusCode: 400,
+        });
       }
 
       // -------------------------------------------------------
       // Get program
       // -------------------------------------------------------
 
-      program = await Program.findById(
-        payment.program
-      ).session(session);
+      program = await Program.findById(payment.program).session(session);
 
       if (!program) {
-        throw Object.assign(
-          new Error("Program not found."),
-          { statusCode: 404 }
-        );
+        throw Object.assign(new Error("Program not found."), {
+          statusCode: 404,
+        });
       }
 
       // -------------------------------------------------------
       // Find existing student
       // -------------------------------------------------------
 
-      student = await userModel.findOne({
-        email: payment.customerEmail,
-      }).session(session);
+      student = await userModel
+        .findOne({
+          email: payment.customerEmail,
+        })
+        .session(session);
 
       // -------------------------------------------------------
       // Validate assessment ownership before creating student
@@ -992,7 +1349,7 @@ const manualPayment = async (req, res) => {
       ) {
         throw Object.assign(
           new Error("This assessment belongs to another student."),
-          { statusCode: 403 }
+          { statusCode: 403 },
         );
       }
 
@@ -1013,7 +1370,7 @@ const manualPayment = async (req, res) => {
               termsAccepted: true,
             },
           ],
-          { session }
+          { session },
         );
 
         student = createdStudents[0];
@@ -1078,12 +1435,11 @@ const manualPayment = async (req, res) => {
               status: "Issued",
             },
           ],
-          { session }
+          { session },
         );
 
         certificate = createdCertificates[0];
       }
-
     });
 
     // ---------------------------------------------------------
@@ -1112,7 +1468,7 @@ const manualPayment = async (req, res) => {
             headers: {
               "Content-Type": "application/json",
             },
-          }
+          },
         );
 
         tid = response.data?.TID;
@@ -1122,16 +1478,13 @@ const manualPayment = async (req, res) => {
         }
 
         console.log(`TID received from API: ${tid}`);
-
       } catch (error) {
         console.error(
           `TID API failed for ${student.email}:`,
-          error.response?.data || error.message
+          error.response?.data || error.message,
         );
 
-        const randomNumber = Math.floor(
-          10000 + Math.random() * 900000
-        );
+        const randomNumber = Math.floor(10000 + Math.random() * 900000);
 
         tid = `TEMP${randomNumber}`;
 
@@ -1233,7 +1586,6 @@ const manualPayment = async (req, res) => {
         },
       },
     });
-
   } catch (error) {
     console.error("Manual payment error:", error);
 
@@ -1241,12 +1593,33 @@ const manualPayment = async (req, res) => {
       success: false,
       message: error.message || "Manual payment processing failed.",
     });
-
   } finally {
     await session.endSession();
   }
 };
 
+// controllers/payment.controller.js
+const getPaymentDetails = async (req, res) => {
+  try {
+    const payment = await Payment.findById(req.params.paymentId)
+      .populate("student", "fullName email tid")
+      .populate("program", "name")
+      .populate("assessment", "score passed");
+
+    if (!payment) {
+      return res.status(404).json({ success: false, message: "Not found." });
+    }
+
+    const certificate = await Certificate.findOne({ payment: payment._id });
+
+    return res.status(200).json({
+      success: true,
+      data: { payment, certificate },
+    });
+  } catch (err) {
+    return res.status(500).json({ success: false, message: err.message });
+  }
+};
 
 /*
 |--------------------------------------------------------------------------
@@ -1259,4 +1632,6 @@ module.exports = {
   verifyPayment,
   manualPayment,
   getAllPayments,
+  handlePartnerCallback,
+  getPaymentDetails,
 };

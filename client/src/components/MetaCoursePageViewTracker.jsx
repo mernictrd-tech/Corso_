@@ -4,7 +4,7 @@ import { trackMetaEvent } from "../utils/metaPixel";
 
 const TRACKED_COURSE_SLUGS = [
   "generative-ai-fundamentals",
-//   "digital-marketing-fundamentals",
+  "digital-marketing-fundamentals",
 //   "aws-fundamentals",
 ];
 

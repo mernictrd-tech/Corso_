@@ -1,26 +1,24 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { Loader2, CheckCircle2, XCircle } from "lucide-react";
+import { Loader2, XCircle } from "lucide-react";
 import api from "../services/api";
 import { trackMetaEvent } from "../utils/metaPixel";
-import ResultCard from "../components/assessment/ResultCard.jsx"; // ← adjust path
+import ResultCard from "../components/assessment/ResultCard.jsx";
 import Layout from "../components/layout/Layout.jsx";
 
 export default function PaymentCallback() {
   const [params] = useSearchParams();
   const navigate = useNavigate();
 
-  // view.mode: "verifying" | "success" | "failed" | "certificate"
+  // view.mode: "verifying" | "failed" | "certificate"
   const [view, setView] = useState({ mode: "verifying" });
 
   useEffect(() => {
     (async () => {
       const status = params.get("status");
+      const paymentId = params.get("paymentId");
 
-      if (status === "cancelled") {
-        navigate("/", { replace: true });
-        return;
-      }
+      // ---- Hard failures from Indiaactive ----
       if (status === "failed") {
         setView({
           mode: "failed",
@@ -29,64 +27,67 @@ export default function PaymentCallback() {
         return;
       }
 
-      const razorpay_payment_id = params.get("razorpay_payment_id");
-      const razorpay_order_id = params.get("razorpay_order_id");
-      const razorpay_signature = params.get("razorpay_signature");
+      if (status === "unknown") {
+        // Callback to MERN failed, but hash was verified on Indiaactive.
+        // Give the user a "processing" message rather than "failed".
+        setView({
+          mode: "failed",
+          error:
+            "Payment succeeded, but we could not confirm it yet. " +
+            "Your certificate will be emailed shortly. If you do not receive it in 10 minutes, contact support.",
+        });
+        return;
+      }
 
-      if (!razorpay_payment_id || !razorpay_order_id || !razorpay_signature) {
+      if (status !== "success" || !paymentId) {
         setView({ mode: "failed", error: "Missing payment details." });
         return;
       }
 
+      // ---- Fetch full details from MERN ----
       let ctx = null;
       try {
         ctx = JSON.parse(sessionStorage.getItem("pendingPurchase") || "null");
       } catch {}
 
       try {
-        const res = await api.post("/payment/verify", {
-          razorpay_payment_id,
-          razorpay_order_id,
-          razorpay_signature,
-          purchaseEventId: ctx?.eventId,
-          fbp: ctx?.fbp,
-          fbc: ctx?.fbc,
-        });
+        const res = await api.get(`/payments/${paymentId}`);
 
         if (!res.data?.success) {
-          throw new Error(res.data?.message || "Payment verification failed.");
+          throw new Error(res.data?.message || "Could not load payment.");
         }
 
-        const certificate = res.data?.data?.certificate;
+        const { payment, certificate } = res.data.data;
+
         if (!certificate) {
           throw new Error(
-            "Payment succeeded, but certificate details are missing.",
+            "Payment recorded, but certificate is still being generated. " +
+            "Please refresh in a minute.",
           );
         }
 
-        // Fire Purchase pixel with the same eventId that CAPI used
+        // Fire Purchase pixel (dedup with CAPI via eventId)
         if (ctx) {
           trackMetaEvent(
             "Purchase",
             {
-              content_name: ctx.programName,
-              content_ids: [ctx.programId],
+              content_name: payment.program?.name,
+              content_ids: [String(payment.program?._id)],
               content_type: "product",
-              value: ctx.value,
-              currency: ctx.currency,
+              value: payment.amount,
+              currency: payment.currency || "INR",
             },
             ctx.eventId,
           );
         }
         sessionStorage.removeItem("pendingPurchase");
 
-        // 👇 switch to the certificate view; ResultCard handles the rest
         setView({
           mode: "certificate",
           certificate,
-          program: ctx?.program, // passed straight through to ResultCard
-          courseId: ctx?.programId,
-          assessmentId: ctx?.assessmentId,
+          program: payment.program,
+          courseId: payment.program?._id,
+          assessmentId: payment.assessment?._id,
         });
       } catch (err) {
         setView({
@@ -94,19 +95,18 @@ export default function PaymentCallback() {
           error:
             err.response?.data?.message ||
             err.message ||
-            "Verification failed.",
+            "Could not load your certificate.",
         });
       }
     })();
   }, []);
 
-  // ── Certificate view: just render ResultCard ─────────────
+  // ── Certificate view ────────────────────────────────────────
   if (view.mode === "certificate") {
     return (
       <Layout>
         <div className="min-h-screen bg-slate-950 px-4 py-8">
           <ResultCard
-            // ResultCard short-circuits to <CertificateCard /> whenever result.certificate is set
             result={{
               certificate: view.certificate,
               assessmentId: view.assessmentId,
@@ -119,14 +119,14 @@ export default function PaymentCallback() {
     );
   }
 
-  // ── Loading / failed views (same as before) ──────────────
+  // ── Loading / failed views ──────────────────────────────────
   return (
     <div className="min-h-screen flex items-center justify-center bg-slate-950 text-white p-6">
       <div className="w-full max-w-md rounded-2xl border border-white/10 bg-white/5 p-6 text-center">
         {view.mode === "verifying" && (
           <>
             <Loader2 className="mx-auto mb-4 h-10 w-10 animate-spin text-cyan-400" />
-            <h2 className="text-lg font-bold">Verifying your payment…</h2>
+            <h2 className="text-lg font-bold">Loading your certificate…</h2>
             <p className="mt-1 text-sm text-gray-400">
               Please do not close this window.
             </p>
@@ -135,7 +135,7 @@ export default function PaymentCallback() {
         {view.mode === "failed" && (
           <>
             <XCircle className="mx-auto mb-4 h-10 w-10 text-rose-400" />
-            <h2 className="text-lg font-bold">Payment failed</h2>
+            <h2 className="text-lg font-bold">Something went wrong</h2>
             <p className="mt-1 text-sm text-gray-400">{view.error}</p>
             <button
               onClick={() => navigate("/", { replace: true })}

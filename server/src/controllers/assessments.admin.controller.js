@@ -202,13 +202,13 @@ module.exports = {
               },
             },
 
-            trashedStudents: {
+            trackedStudents: {
               $sum: {
                 $cond: ["$hasPayment", 1, 0],
               },
             },
 
-            untrashedStudents: {
+            untrackedStudents: {
               $sum: {
                 $cond: ["$hasPayment", 0, 1],
               },
@@ -220,8 +220,8 @@ module.exports = {
             _id: 0,
             totalAssessments: 1,
             paidAssessments: 1,
-            trashedStudents: 1,
-            untrashedStudents: 1,
+            trackedStudents: 1,
+            untrackedStudents: 1,
           },
         },
       ]);
@@ -327,8 +327,8 @@ module.exports = {
       const summary = summaryResult[0] || {
         totalAssessments: 0,
         paidAssessments: 0,
-        trashedStudents: 0,
-        untrashedStudents: 0,
+        trackedStudents: 0,
+        untrackedStudents: 0,
       };
 
       // ----------------------------------

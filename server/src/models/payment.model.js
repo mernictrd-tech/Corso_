@@ -47,16 +47,25 @@ const paymentSchema = new mongoose.Schema(
       default: "INR",
     },
 
+    gateway: {
+      type: String,
+      enum: ["razorpay", "easebuzz"],
+      default: "razorpay",
+    },
+
     paymentMethod: {
       type: String,
       enum: ["razorpay", "manual"],
       default: "razorpay",
     },
 
+    gatewayPaymentId: { type: String },
+
+    partnerTxnId:     { type: String },
+
     razorpayOrderId: {
       type: String,
-      required: true,
-      unique: true,
+      required: false,
     },
 
     razorpayPaymentId: {

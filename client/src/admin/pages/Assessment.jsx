@@ -24,8 +24,8 @@ import TableComponent from "../components/common/tableComponents/tableComponent"
 const initialSummary = {
   totalAssessments: 0,
   paidAssessments: 0,
-  trashedStudents: 0,
-  untrashedStudents: 0,
+  trackedStudents: 0,
+  untrackedStudents: 0,
 };
 
 const dateFilters = [
@@ -267,15 +267,15 @@ const submitManualPayment = async (e) => {
       valueClass: "text-green-600",
     },
     {
-      title: "Trashed Students",
-      value: summary.trashedStudents,
+      title: "Tracked Students",
+      value: summary.trackedStudents,
       icon: Users,
       iconClass: "bg-amber-50 text-amber-600",
       valueClass: "text-amber-600",
     },
     {
-      title: "Untrashed Students",
-      value: summary.untrashedStudents,
+      title: "Untracked Students",
+      value: summary.untrackedStudents,
       icon: Trophy,
       iconClass: "bg-purple-50 text-purple-600",
       valueClass: "text-purple-600",
