@@ -256,7 +256,7 @@ const Dashboard = () => {
               status: payment?.status || "N/A",
 
               transactionId:
-                payment?.razorpayPaymentId || payment?.razorpayOrderId || "N/A",
+                payment?.razorpayPaymentId || payment?.gatewayPaymentId || "N/A",
 
               orderId: payment?.razorpayOrderId || "N/A",
 

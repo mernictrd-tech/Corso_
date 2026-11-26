@@ -1,9 +1,23 @@
 // import React, { useState, useEffect, useRef, useCallback } from 'react';
-import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import './tableComponent.css';
-import { IconSearch, IconChevron, IconSort, getIconComponent } from './tableIcons';
+import React, {
+  useState,
+  useEffect,
+  useRef,
+  useCallback,
+  useMemo,
+} from "react";
+import "./tableComponent.css";
+import {
+  IconSearch,
+  IconChevron,
+  IconSort,
+  getIconComponent,
+} from "./tableIcons";
 // import { DEFAULT_ROWS, DEFAULT_COLUMNS } from '../tableDataStructure/demoTablesData.jsx';
-import { DEFAULT_ROWS, DEFAULT_COLUMNS } from '../../tableDataStructure/demoTablesData.jsx';
+import {
+  DEFAULT_ROWS,
+  DEFAULT_COLUMNS,
+} from "../../tableDataStructure/demoTablesData.jsx";
 
 const TableComponent = ({
   data = DEFAULT_ROWS,
@@ -11,22 +25,22 @@ const TableComponent = ({
   detailExtra = [],
   pageSize = 8,
   searchable = true,
-  searchPlaceholder = 'Search team…',
+  searchPlaceholder = "Search team…",
   dateFilterable = true,
-  dateKey = 'joined',
-  defaultSort = { key: 'name', dir: 'asc' },
-  rowIdKey = 'id',
-  title = 'Team directory',
-  description = 'Resize the browser — columns collapse into the expandable row',
+  dateKey = "joined",
+  defaultSort = { key: "name", dir: "asc" },
+  rowIdKey = "id",
+  title = "Team directory",
+  description = "Resize the browser — columns collapse into the expandable row",
 }) => {
   const containerRef = useRef(null);
 
   // State
-  const [query, setQuery] = useState('');
-  const [fromDate, setFromDate] = useState('');
-  const [toDate, setToDate] = useState('');
+  const [query, setQuery] = useState("");
+  const [fromDate, setFromDate] = useState("");
+  const [toDate, setToDate] = useState("");
   const [sortKey, setSortKey] = useState(defaultSort?.key || null);
-  const [sortDir, setSortDir] = useState(defaultSort?.dir || 'asc');
+  const [sortDir, setSortDir] = useState(defaultSort?.dir || "asc");
   const [page, setPage] = useState(1);
   const [openChildRows, setOpenChildRows] = useState(new Set());
   const [visibleKeys, setVisibleKeys] = useState(columns.map((c) => c.key));
@@ -54,40 +68,57 @@ const TableComponent = ({
         ...c,
         _index: i,
       })),
-    [columns]
+    [columns],
   );
 
   // Recalculate column visibility dynamically accounting for padding buffers
   const recalcVisibility = useCallback(() => {
     if (!containerRef.current) return;
+
     const width = containerRef.current.clientWidth;
     if (!width) return;
 
-    const sortedByPriority = [...normalizedColumns].sort((a, b) => a.priority - b.priority);
-    let visibleSet = new Set(normalizedColumns.map((c) => c.key));
+    const visibleSet = new Set(normalizedColumns.map((c) => c.key));
 
-    const getTotalWidth = (hasCtrl) =>
-      (hasCtrl ? controlWidth : 0) +
-      sortedByPriority
-        .filter((c) => visibleSet.has(c.key))
-        .reduce((sum, c) => sum + (c.minWidth || 100) + cellPaddingBuffer, 0);
+    const getTotalWidth = () => {
+      const willHaveControl =
+        visibleSet.size < normalizedColumns.length || detailExtra.length > 0;
 
-    while (visibleSet.size > 1) {
-      const willHaveControl = visibleSet.size < normalizedColumns.length || detailExtra.length > 0;
-      if (getTotalWidth(willHaveControl) <= width) {
-        break;
-      }
-      const lowestPriorityCol = sortedByPriority
-        .filter((c) => visibleSet.has(c.key))
-        .sort((a, b) => b.priority - a.priority)[0];
+      return (
+        (willHaveControl ? controlWidth : 0) +
+        normalizedColumns
+          .filter((c) => visibleSet.has(c.key))
+          .reduce((sum, c) => sum + (c.minWidth || 100) + cellPaddingBuffer, 0)
+      );
+    };
 
-      if (!lowestPriorityCol) break;
-      visibleSet.delete(lowestPriorityCol.key);
+    // Hide second-last, third-last, etc.
+    while (visibleSet.size > 2 && getTotalWidth() > width) {
+      const columnsToHide = normalizedColumns.filter((c) =>
+        visibleSet.has(c.key),
+      );
+
+      const columnToHide = columnsToHide[columnsToHide.length - 2];
+
+      if (!columnToHide) break;
+
+      visibleSet.delete(columnToHide.key);
     }
 
-  //   setVisibleKeys(normalizedColumns.filter((c) => visibleSet.has(c.key)).map((c) => c.key));
-  // }, [normalizedColumns, detailExtra]);
-  setVisibleKeys(normalizedColumns.filter((c) => visibleSet.has(c.key)).map((c) => c.key));
+    // If the screen is extremely small, hide the last column too.
+    while (visibleSet.size > 1 && getTotalWidth() > width) {
+      const lastColumn = [...normalizedColumns]
+        .reverse()
+        .find((c) => visibleSet.has(c.key));
+
+      if (!lastColumn) break;
+
+      visibleSet.delete(lastColumn.key);
+    }
+
+    setVisibleKeys(
+      normalizedColumns.filter((c) => visibleSet.has(c.key)).map((c) => c.key),
+    );
   }, [normalizedColumns, detailExtra.length]);
 
   useEffect(() => {
@@ -105,17 +136,17 @@ const TableComponent = ({
 
   // Handlers
   const handleSearchChange = (e) => {
-    setQuery(e.target.value.toLowerCase());
+    setQuery(e.target.value);
     setPage(1);
   };
 
   const handleSort = (col) => {
     if (!col.sortable) return;
     if (sortKey === col.key) {
-      setSortDir((prev) => (prev === 'asc' ? 'desc' : 'asc'));
+      setSortDir((prev) => (prev === "asc" ? "desc" : "asc"));
     } else {
       setSortKey(col.key);
-      setSortDir('asc');
+      setSortDir("asc");
     }
   };
 
@@ -129,25 +160,41 @@ const TableComponent = ({
   };
 
   // Filter & Sort
-  const visibleCols = normalizedColumns.filter((c) => visibleKeys.includes(c.key));
-  const hiddenCols = normalizedColumns.filter((c) => !visibleKeys.includes(c.key));
+  const visibleCols = normalizedColumns.filter((c) =>
+    visibleKeys.includes(c.key),
+  );
+  const hiddenCols = normalizedColumns.filter(
+    (c) => !visibleKeys.includes(c.key),
+  );
   const showControl = hiddenCols.length > 0 || detailExtra.length > 0;
 
   const getProcessedData = () => {
     let result = data || [];
 
-    if (query) {
+    if (query.trim()) {
+      const searchValue = query.trim().toLowerCase();
+
       result = result.filter((row) =>
         normalizedColumns.some((col) => {
-          const val = row[col.key];
-          return val !== undefined && val !== null && String(val).toLowerCase().includes(query);
-        })
+          const val = col.render ? col.render(row[col.key], row) : row[col.key];
+
+          if (val === undefined || val === null) return false;
+
+          // Handle nested objects
+          if (typeof val === "object" && !React.isValidElement(val)) {
+            return JSON.stringify(val).toLowerCase().includes(searchValue);
+          }
+
+          // Handle normal values and rendered values
+          return String(val).toLowerCase().includes(searchValue);
+        }),
       );
     }
 
     if (dateFilterable && (fromDate || toDate)) {
       result = result.filter((row) => {
-        const rawDate = row[dateKey] || row.joined || row.joinDate || row.lastActive;
+        const rawDate =
+          row[dateKey] || row.joined || row.joinDate || row.lastActive;
         if (!rawDate) return true;
         const rowTime = new Date(rawDate).getTime();
         if (isNaN(rowTime)) return true;
@@ -158,7 +205,7 @@ const TableComponent = ({
         }
 
         if (toDate) {
-          const toTime = new Date(toDate + 'T23:59:59').getTime();
+          const toTime = new Date(toDate + "T23:59:59").getTime();
           if (rowTime > toTime) return false;
         }
 
@@ -167,7 +214,7 @@ const TableComponent = ({
     }
 
     if (sortKey) {
-      const dirMultiplier = sortDir === 'desc' ? -1 : 1;
+      const dirMultiplier = sortDir === "desc" ? -1 : 1;
       result = [...result].sort((a, b) => {
         const av = a[sortKey];
         const bv = b[sortKey];
@@ -192,21 +239,27 @@ const TableComponent = ({
     if (col.render) {
       return col.render(val, row);
     }
-    return val !== undefined && val !== null ? val : '';
+    return val !== undefined && val !== null ? val : "";
   };
 
-  const startEntry = processedData.length === 0 ? 0 : (currentPage - 1) * pageSize + 1;
+  const startEntry =
+    processedData.length === 0 ? 0 : (currentPage - 1) * pageSize + 1;
   const endEntry = Math.min(processedData.length, currentPage * pageSize);
 
   const renderPaginationButtons = () => {
     const buttons = [];
     for (let p = 1; p <= totalPages; p++) {
-      if (totalPages > 7 && p !== 1 && p !== totalPages && Math.abs(p - currentPage) > 1) {
+      if (
+        totalPages > 7 &&
+        p !== 1 &&
+        p !== totalPages &&
+        Math.abs(p - currentPage) > 1
+      ) {
         if (p === 2 || p === totalPages - 1) {
           buttons.push(
             <span key={`ellipsis-${p}`} className="dt-page-ellipsis">
               …
-            </span>
+            </span>,
           );
         }
         continue;
@@ -215,11 +268,11 @@ const TableComponent = ({
       buttons.push(
         <button
           key={p}
-          className={`dt-page-btn ${p === currentPage ? 'current' : ''}`}
+          className={`dt-page-btn ${p === currentPage ? "current" : ""}`}
           onClick={() => setPage(p)}
         >
           {p}
-        </button>
+        </button>,
       );
     }
     return buttons;
@@ -233,7 +286,9 @@ const TableComponent = ({
             {title && (
               <h1>
                 {title}
-                <span className="panel-head-badge">{processedData.length} records</span>
+                <span className="panel-head-badge">
+                  {processedData.length} records
+                </span>
               </h1>
             )}
             {description && <p>{description}</p>}
@@ -270,8 +325,8 @@ const TableComponent = ({
                   <button
                     className="dt-date-clear"
                     onClick={() => {
-                      setFromDate('');
-                      setToDate('');
+                      setFromDate("");
+                      setToDate("");
                       setPage(1);
                     }}
                     title="Reset date filter"
@@ -294,7 +349,7 @@ const TableComponent = ({
                 {query && (
                   <button
                     className="dt-search-clear"
-                    onClick={() => setQuery('')}
+                    onClick={() => setQuery("")}
                     aria-label="Clear search"
                   >
                     ✕
@@ -307,7 +362,6 @@ const TableComponent = ({
 
         <div className="panel-body">
           <div className="dt-root" ref={containerRef}>
-
             <div className="dt-scroll">
               <table className="dt-table">
                 <thead>
@@ -318,12 +372,14 @@ const TableComponent = ({
                       return (
                         <th
                           key={c.key}
-                          className={c.sortable ? 'dt-sortable' : ''}
+                          className={c.sortable ? "dt-sortable" : ""}
                           onClick={() => handleSort(c)}
                         >
                           {c.label}
                           {c.sortable && (
-                            <span className={`dt-sort ${isActiveSort ? `active ${sortDir}` : ''}`}>
+                            <span
+                              className={`dt-sort ${isActiveSort ? `active ${sortDir}` : ""}`}
+                            >
                               <IconSort />
                             </span>
                           )}
@@ -344,7 +400,10 @@ const TableComponent = ({
                     </tr>
                   ) : (
                     pageRows.map((row, index) => {
-                      const rowKey = rowIdKey && row[rowIdKey] !== undefined ? row[rowIdKey] : index;
+                      const rowKey =
+                        rowIdKey && row[rowIdKey] !== undefined
+                          ? row[rowIdKey]
+                          : index;
                       const isOpen = showControl && openChildRows.has(rowKey);
 
                       const tiles = [
@@ -362,10 +421,12 @@ const TableComponent = ({
 
                       return (
                         <React.Fragment key={rowKey}>
-                          <tr className={`dt-row ${isOpen ? 'dt-row-open' : ''}`}>
+                          <tr
+                            className={`dt-row ${isOpen ? "dt-row-open" : ""}`}
+                          >
                             {showControl && (
                               <td
-                                className={`dt-control-col dt-control ${isOpen ? 'open' : ''}`}
+                                className={`dt-control-col dt-control ${isOpen ? "open" : ""}`}
                                 onClick={() => toggleRowOpen(rowKey)}
                               >
                                 <span className="dt-play-btn">
@@ -386,8 +447,12 @@ const TableComponent = ({
                                     <div key={i} className="dt-card-tile">
                                       {tile.icon && getIconComponent(tile.icon)}
                                       <div>
-                                        <div className="dt-card-label">{tile.label}</div>
-                                        <div className="dt-card-value">{tile.value}</div>
+                                        <div className="dt-card-label">
+                                          {tile.label}
+                                        </div>
+                                        <div className="dt-card-value">
+                                          {tile.value}
+                                        </div>
                                       </div>
                                     </div>
                                   ))}
@@ -405,7 +470,8 @@ const TableComponent = ({
 
             <div className="dt-footer">
               <div className="dt-info">
-                Showing {startEntry}–{endEntry} of {processedData.length} entries
+                Showing {startEntry}–{endEntry} of {processedData.length}{" "}
+                entries
               </div>
               <div className="dt-pagination">
                 <button

@@ -1,6 +1,28 @@
 import { Calendar, Mail, Pencil, LogOut } from "lucide-react";
+import { useEffect } from "react";
+import { useState } from "react";
 
 const ProfileCard = ({ profile, onEdit, onLogout }) => {
+  const [preview, setPreview] = useState("");
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    profileImage: null,
+  });
+
+  useEffect(() => {
+    if (profile) {
+      setForm({
+        name: profile.fullName || "",
+        email: profile.email || "",
+        phone: profile.phone || "",
+        profileImage: null,
+      });
+
+      setPreview(profile.avatar || "");
+    }
+  }, [profile]);
+
   const studentSince = profile?.createdAt
     ? new Date(profile.createdAt).toLocaleDateString("en-IN", {
         day: "2-digit",
@@ -8,6 +30,20 @@ const ProfileCard = ({ profile, onEdit, onLogout }) => {
         year: "numeric",
       })
     : "—";
+
+  const getImageUrl = (image) => {
+    if (!image) return "";
+
+    if (
+      image.startsWith("blob:") ||
+      image.startsWith("http://") ||
+      image.startsWith("https://")
+    ) {
+      return image;
+    }
+
+    return `${import.meta.env.VITE_API_BASE_URL_RESOURCE}${image}`;
+  };
 
   return (
     <div className="flex h-full flex-col rounded-2xl border border-gray-800 bg-gray-900 p-4 shadow-xl sm:p-5 lg:p-6">
@@ -17,17 +53,16 @@ const ProfileCard = ({ profile, onEdit, onLogout }) => {
         <div className="flex min-w-0 items-center gap-3">
           {/* Avatar */}
           <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full bg-cyan-500 text-lg font-bold text-black shadow-lg shadow-cyan-500/20 sm:h-14 sm:w-14 sm:text-xl lg:h-16 lg:w-16 lg:text-2xl">
-            {profile?.avatar ? (
+            {preview ? (
               <img
-                src={`${import.meta.env.VITE_API_BASE_URL_RESOURCE}${profile.avatar}`}
-                onError={(e) => {
-                  e.currentTarget.src = "/assets/no-img.jpg";
-                }}
-                alt={profile?.fullName || "Profile"}
-                className="h-full w-full object-cover"
+                src={getImageUrl(preview)}
+                alt="Profile"
+                className="h-24 w-24 rounded-full border-2 border-cyan-500 object-cover"
               />
             ) : (
-              profile?.fullName?.charAt(0)?.toUpperCase() || "U"
+              <div className="flex h-24 w-24 items-center justify-center rounded-full bg-cyan-500 text-3xl font-bold text-black">
+                {form.name?.charAt(0)?.toUpperCase() || "U"}
+              </div>
             )}
           </div>
 

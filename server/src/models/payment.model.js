@@ -55,13 +55,13 @@ const paymentSchema = new mongoose.Schema(
 
     paymentMethod: {
       type: String,
-      enum: ["razorpay", "manual"],
-      default: "razorpay",
+      enum: ["online", "manual", "bank_transfer", "upi", "cash", "other"],
+      default: "online",
     },
 
     gatewayPaymentId: { type: String },
 
-    partnerTxnId:     { type: String },
+    partnerTxnId: { type: String },
 
     razorpayOrderId: {
       type: String,

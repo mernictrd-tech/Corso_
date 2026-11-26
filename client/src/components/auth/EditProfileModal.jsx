@@ -408,7 +408,7 @@ const EditProfileModal = ({ profile, close, onSuccess }) => {
                 onChange={handleChange}
                 required
                 className="w-full rounded-xl border border-gray-700 bg-gray-950 py-3 pl-10 pr-4 text-sm text-white outline-none transition placeholder:text-gray-600 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500"
-                placeholder="Enter your email"
+                placeholder="Enter your phone"
               />
             </div>
           </div>

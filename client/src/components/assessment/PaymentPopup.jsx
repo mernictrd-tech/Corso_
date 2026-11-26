@@ -579,7 +579,7 @@ const PaymentPopup = ({
           </button>
 
           {/* Trust badges */}
-          <div className="mt-2.5 flex items-center justify-center gap-3 text-[10px] text-gray-400 sm:text-[11px]">
+          {/* <div className="mt-2.5 flex items-center justify-center gap-3 text-[10px] text-gray-400 sm:text-[11px]">
             <span className="flex items-center gap-1">
               <Lock size={12} className="text-cyan-400" />
               256-Bit SSL Encrypted
@@ -589,7 +589,7 @@ const PaymentPopup = ({
               <ShieldCheck size={12} className="text-emerald-400" />
               Powered by Razorpay
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

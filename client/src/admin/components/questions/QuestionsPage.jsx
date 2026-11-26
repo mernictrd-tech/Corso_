@@ -112,7 +112,7 @@ const QuestionsPage = () => {
               </button>
 
               {openDropdown && (
-                <div className="absolute z-50 mt-2 w-full overflow-hidden rounded-xl border border-slate-200 bg-white shadow-xl">
+                <div className="absolute z-50 mt-2 w-full overflow-y-scroll max-h-[50vh] rounded-xl border border-slate-200 bg-white shadow-xl">
                   {programs.map((program) => (
                     <button
                       key={program._id}

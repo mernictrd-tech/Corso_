@@ -27,6 +27,12 @@
   background: #F8FAFC;
 }
 
+@media (max-width: 640px) {
+  .panel-head {
+    padding: 22px 16px;
+  }
+}
+
 .panel-head-info {
   display: flex;
   flex-direction: column;
@@ -62,6 +68,12 @@
 
 .panel-body {
   padding: 20px 28px 28px;
+}
+
+@media (max-width: 640px) {
+  .panel-body {
+    padding: 20px 5px 28px;
+  }
 }
 
 .dt-root {

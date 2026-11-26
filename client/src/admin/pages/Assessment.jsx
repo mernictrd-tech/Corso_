@@ -1,4 +1,3 @@
-
 import { useEffect, useMemo, useState, useCallback } from "react";
 import {
   Eye,
@@ -68,11 +67,7 @@ const getPaymentBadge = (status) => {
     >
       <span
         className={`mr-2 h-1.5 w-1.5 rounded-full ${
-          paid
-            ? "bg-green-500"
-            : failed
-              ? "bg-red-500"
-              : "bg-amber-500"
+          paid ? "bg-green-500" : failed ? "bg-red-500" : "bg-amber-500"
         }`}
       />
       {normalized
@@ -85,9 +80,7 @@ const getPaymentBadge = (status) => {
 const getResultBadge = (passed) => (
   <span
     className={`inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold ${
-      passed
-        ? "bg-green-100 text-green-700"
-        : "bg-red-100 text-red-700"
+      passed ? "bg-green-100 text-green-700" : "bg-red-100 text-red-700"
     }`}
   >
     {passed ? "Passed" : "Failed"}
@@ -113,9 +106,10 @@ const Assessment = () => {
   const [selectedAssessment, setSelectedAssessment] = useState(null);
 
   // Manual Payment Modal
-const [showManualModal, setShowManualModal] = useState(false);
-const [razorpayPaymentId, setRazorpayPaymentId] = useState("");
-const [manualPaymentLoading, setManualPaymentLoading] = useState(false);
+  const [showManualModal, setShowManualModal] = useState(false);
+  const [paymentGateway, setPaymentGateway] = useState("razorpay");
+  const [paymentReference, setPaymentReference] = useState("");
+  const [manualPaymentLoading, setManualPaymentLoading] = useState(false);
 
   // ---------------------------------------------
   // FETCH ASSESSMENTS
@@ -126,9 +120,7 @@ const [manualPaymentLoading, setManualPaymentLoading] = useState(false);
       setLoading(true);
       setError("");
 
-      const response = await api.get(
-        `/admin/assessments?period=${period}`
-      );
+      const response = await api.get(`/admin/assessments?period=${period}`);
 
       if (response.data?.success) {
         setAssessments(response.data.data || []);
@@ -141,21 +133,17 @@ const [manualPaymentLoading, setManualPaymentLoading] = useState(false);
         setAssessments([]);
         setSummary(initialSummary);
 
-        setError(
-          response.data?.message || "Failed to load assessments."
-        );
+        setError(response.data?.message || "Failed to load assessments.");
       }
     } catch (err) {
       console.error("Fetch assessments error:", err);
 
       setError(
-        err.response?.data?.message ||
-          "Failed to load assessment results."
+        err.response?.data?.message || "Failed to load assessment results.",
       );
 
       toast.error(
-        err.response?.data?.message ||
-          "Failed to fetch assessments."
+        err.response?.data?.message || "Failed to fetch assessments.",
       );
     } finally {
       setLoading(false);
@@ -189,63 +177,65 @@ const [manualPaymentLoading, setManualPaymentLoading] = useState(false);
   };
 
   // ---------------------------------------------
-// MANUAL PAYMENT HANDLERS
-// ---------------------------------------------
+  // MANUAL PAYMENT HANDLERS
+  // ---------------------------------------------
 
-const handleManualPayment = (payment) => {
-  setSelectedAssessment(payment);
-  setRazorpayPaymentId("");
-  setShowManualModal(true);
-};
+  const handleManualPayment = (payment) => {
+    setSelectedAssessment(payment);
+    setPaymentGateway("razorpay");
+    setPaymentReference("");
+    setShowManualModal(true);
+  };
 
-const closeManualModal = () => {
-  setShowManualModal(false);
-  setSelectedAssessment(null);
-  setRazorpayPaymentId("");
-};
+  const closeManualModal = () => {
+    setShowManualModal(false);
+    setSelectedAssessment(null);
+    setPaymentGateway("razorpay");
+    setPaymentReference("");
+  };
 
-const submitManualPayment = async (e) => {
-  e.preventDefault();
+  const submitManualPayment = async (e) => {
+    e.preventDefault();
 
-  if (!razorpayPaymentId.trim()) {
-    toast.error("Please enter Razorpay Payment ID.");
-    return;
-  }
-
-  if (!selectedAssessment?.razorpayOrderId) {
-    toast.error("Razorpay Order ID not found.");
-    return;
-  }
-
-  try {
-    setManualPaymentLoading(true);
-
-    const response = await api.post(
-      "/payment/manual-verify",
-      {
-        razorpay_order_id: selectedAssessment.razorpayOrderId,
-        razorpay_payment_id: razorpayPaymentId.trim(),
-      }
-    );
-
-    if (response.data?.success) {
-      toast.success(response.data.message || "Payment verified successfully.");
-
-      closeManualModal();
-      await fetchAssessments();
-    } else {
-      toast.error(response.data?.message || "Payment verification failed.");
+    if (!paymentGateway) {
+      toast.error("Please select a payment method.");
+      return;
     }
-  } catch (error) {
-    console.error("Manual payment error:", error);
 
-    toast.error(
-      error.response?.data?.message || "Unable to verify manual payment."
-    );
-  } finally {
-    setManualPaymentLoading(false);
-  }
-};
+    if (!paymentReference.trim()) {
+      toast.error("Please enter the payment reference.");
+      return;
+    }
+
+    try {
+      setManualPaymentLoading(true);
+
+      const response = await api.post("/payment/manual-verify", {
+        assessmentId: selectedAssessment.assessmentId,
+        gateway: paymentGateway,
+        paymentReference: paymentReference.trim(),
+      });
+
+      if (response.data?.success) {
+        toast.success(
+          response.data.message || "Payment verified successfully.",
+        );
+
+        closeManualModal();
+        await fetchAssessments();
+      } else {
+        toast.error(response.data?.message || "Payment verification failed.");
+      }
+    } catch (error) {
+      console.error("Manual payment error:", error);
+
+      toast.error(
+        error.response?.data?.message || "Unable to verify manual payment.",
+      );
+    } finally {
+      setManualPaymentLoading(false);
+    }
+  };
 
   // ---------------------------------------------
   // SUMMARY CARDS
@@ -318,9 +308,7 @@ const submitManualPayment = async (e) => {
         sortable: true,
         minWidth: 210,
         render: (value) => (
-          <span className="text-sm text-slate-600">
-            {value || "-"}
-          </span>
+          <span className="text-sm text-slate-600">{value || "-"}</span>
         ),
       },
       {
@@ -338,9 +326,7 @@ const submitManualPayment = async (e) => {
         sortable: true,
         minWidth: 130,
         render: (value) => (
-          <span className="font-medium text-slate-700">
-            {value ?? 0}
-          </span>
+          <span className="font-medium text-slate-700">{value ?? 0}</span>
         ),
       },
       {
@@ -354,16 +340,12 @@ const submitManualPayment = async (e) => {
 
           return (
             <div className="min-w-[90px]">
-              <span className="font-bold text-slate-800">
-                {percentage}%
-              </span>
+              <span className="font-bold text-slate-800">{percentage}%</span>
 
               <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-slate-100">
                 <div
                   className={`h-full rounded-full ${
-                    percentage >= 50
-                      ? "bg-green-500"
-                      : "bg-red-500"
+                    percentage >= 50 ? "bg-green-500" : "bg-red-500"
                   }`}
                   style={{
                     width: `${Math.min(100, Math.max(0, percentage))}%`,
@@ -410,41 +392,39 @@ const submitManualPayment = async (e) => {
         minWidth: 145,
         render: (value) => formatDate(value),
       },
-     {
-  key: "actions",
-  label: "Actions",
-  priority: 1,
-  minWidth: 150,
-  render: (_, row) => (
-    <div className="flex items-center gap-2">
+      {
+        key: "actions",
+        label: "Actions",
+        priority: 1,
+        minWidth: 150,
+        render: (_, row) => (
+          <div className="flex items-center gap-2">
+            {/* VIEW DETAILS */}
+            <button
+              type="button"
+              onClick={() => handleView(row)}
+              className="rounded-lg p-2 text-sky-600 transition hover:bg-sky-50"
+              title="View Assessment Details"
+            >
+              <Eye size={18} />
+            </button>
 
-      {/* VIEW DETAILS */}
-      <button
-        type="button"
-        onClick={() => handleView(row)}
-        className="rounded-lg p-2 text-sky-600 transition hover:bg-sky-50"
-        title="View Assessment Details"
-      >
-        <Eye size={18} />
-      </button>
-
-      {/* MANUAL PAYMENT - ONLY WHEN NOT PAID */}
-      {row.paymentStatus?.toLowerCase() !== "paid" && (
-        <button
-          type="button"
-          onClick={() => handleManualPayment(row)}
-          className="rounded-lg bg-emerald-50 px-3 py-2 text-xs font-semibold text-emerald-700 hover:bg-emerald-100"
-          title="Manual Payment"
-        >
-          Manual Pay
-        </button>
-      )}
-
-    </div>
-  ),
-},
+            {/* MANUAL PAYMENT - ONLY WHEN NOT PAID */}
+            {row.paymentStatus?.toLowerCase() !== "paid" && (
+              <button
+                type="button"
+                onClick={() => handleManualPayment(row)}
+                className="rounded-lg bg-emerald-50 px-3 py-2 text-xs font-semibold text-emerald-700 hover:bg-emerald-100"
+                title="Manual Payment"
+              >
+                Manual Pay
+              </button>
+            )}
+          </div>
+        ),
+      },
     ],
-    []
+    [],
   );
 
   // ---------------------------------------------
@@ -471,7 +451,7 @@ const submitManualPayment = async (e) => {
         ],
       },
     ],
-    []
+    [],
   );
 
   // ---------------------------------------------
@@ -481,7 +461,6 @@ const submitManualPayment = async (e) => {
   return (
     <AdminLayout>
       <div className="space-y-6">
-
         {/* PAGE HEADING */}
 
         <div className="flex flex-col justify-between gap-4 lg:flex-row lg:items-center">
@@ -500,14 +479,10 @@ const submitManualPayment = async (e) => {
           {/* RIGHT SIDE ACTIONS */}
 
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-
             {/* PRESET FILTER */}
 
             <div className="flex min-w-[180px] items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2.5">
-              <CalendarDays
-                size={17}
-                className="shrink-0 text-slate-400"
-              />
+              <CalendarDays size={17} className="shrink-0 text-slate-400" />
 
               <select
                 value={period}
@@ -530,13 +505,9 @@ const submitManualPayment = async (e) => {
               disabled={loading}
               className="inline-flex items-center justify-center gap-2 rounded-xl bg-sky-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-sky-700 disabled:cursor-not-allowed disabled:opacity-60"
             >
-              <RefreshCw
-                size={16}
-                className={loading ? "animate-spin" : ""}
-              />
+              <RefreshCw size={16} className={loading ? "animate-spin" : ""} />
               Refresh Data
             </button>
-
           </div>
         </div>
 
@@ -616,7 +587,6 @@ const submitManualPayment = async (e) => {
             />
           )}
         </div>
-
       </div>
 
       {/* ASSESSMENT DETAILS MODAL */}
@@ -624,7 +594,6 @@ const submitManualPayment = async (e) => {
       {showModal && selectedAssessment && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center overflow-y-auto bg-slate-900/50 p-4">
           <div className="my-auto w-full max-w-2xl overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl">
-
             {/* MODAL HEADER */}
 
             <div className="flex items-center justify-between border-b border-slate-200 px-6 py-5">
@@ -650,7 +619,6 @@ const submitManualPayment = async (e) => {
             {/* MODAL BODY */}
 
             <div className="space-y-6 p-6">
-
               {/* STUDENT INFORMATION */}
 
               <div>
@@ -741,9 +709,10 @@ const submitManualPayment = async (e) => {
                     </span>
 
                     <span className="font-bold text-slate-800">
-                      ₹{Number(
-                        selectedAssessment.amount || 0
-                      ).toLocaleString("en-IN")}
+                      ₹
+                      {Number(selectedAssessment.amount || 0).toLocaleString(
+                        "en-IN",
+                      )}
                     </span>
                   </div>
 
@@ -756,9 +725,7 @@ const submitManualPayment = async (e) => {
                   </div>
 
                   <div>
-                    <p className="text-xs text-slate-500">
-                      Razorpay Order ID
-                    </p>
+                    <p className="text-xs text-slate-500">Razorpay Order ID</p>
                     <p className="mt-1 break-all text-sm font-medium text-slate-800">
                       {selectedAssessment.razorpayOrderId || "-"}
                     </p>
@@ -774,9 +741,7 @@ const submitManualPayment = async (e) => {
                   </div>
 
                   <div className="flex items-center justify-between gap-3">
-                    <span className="text-sm text-slate-500">
-                      Paid Date
-                    </span>
+                    <span className="text-sm text-slate-500">Paid Date</span>
                     <span className="text-sm font-medium text-slate-800">
                       {formatDate(selectedAssessment.paidAt)}
                     </span>
@@ -795,7 +760,6 @@ const submitManualPayment = async (e) => {
                   {formatDate(selectedAssessment.completedAt)}
                 </span>
               </div>
-
             </div>
 
             {/* MODAL FOOTER */}
@@ -809,136 +773,181 @@ const submitManualPayment = async (e) => {
                 Close
               </button>
             </div>
-
           </div>
         </div>
       )}
 
       {/* MANUAL PAYMENT MODAL */}
 
-{showManualModal && selectedAssessment && (
-  <div className="fixed inset-0 z-[110] flex items-center justify-center bg-slate-900/60 p-4">
-    <div className="w-full max-w-lg overflow-hidden rounded-2xl bg-white shadow-2xl">
+      {showManualModal && selectedAssessment && (
+        <div className="fixed inset-0 z-[110] flex items-center justify-center bg-slate-900/60 p-4">
+          <div className="w-full max-w-lg overflow-hidden rounded-2xl bg-white shadow-2xl">
+            {/* HEADER */}
+            <div className="flex items-center justify-between border-b border-slate-200 px-6 py-5">
+              <div>
+                <h2 className="text-xl font-bold text-slate-800">
+                  Manual Payment
+                </h2>
 
-      {/* HEADER */}
-      <div className="flex items-center justify-between border-b border-slate-200 px-6 py-5">
-        <div>
-          <h2 className="text-xl font-bold text-slate-800">
-            Manual Payment
-          </h2>
-          <p className="mt-1 text-sm text-slate-500">
-            Verify student payment details.
-          </p>
-        </div>
+                <p className="mt-1 text-sm text-slate-500">
+                  Record payment received from student.
+                </p>
+              </div>
 
-        <button
-          type="button"
-          onClick={closeManualModal}
-          disabled={manualPaymentLoading}
-          className="rounded-lg p-2 text-slate-500 hover:bg-slate-100"
-        >
-          <X size={20} />
-        </button>
-      </div>
-
-      <form onSubmit={submitManualPayment}>
-
-        <div className="space-y-5 p-6">
-
-          {/* STUDENT DETAILS */}
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-
-            <div className="rounded-lg bg-slate-50 p-3">
-              <p className="text-xs text-slate-500">Student Name</p>
-              <p className="mt-1 text-sm font-semibold text-slate-800">
-                {selectedAssessment.fullName || "N/A"}
-              </p>
+              <button
+                type="button"
+                onClick={closeManualModal}
+                disabled={manualPaymentLoading}
+                className="rounded-lg p-2 text-slate-500 hover:bg-slate-100"
+              >
+                <X size={20} />
+              </button>
             </div>
 
-            <div className="rounded-lg bg-slate-50 p-3">
-              <p className="text-xs text-slate-500">Amount</p>
-              <p className="mt-1 text-sm font-bold text-slate-800">
-                ₹{Number(selectedAssessment.amount || 0).toLocaleString("en-IN")}
-              </p>
-            </div>
+            <form onSubmit={submitManualPayment}>
+              <div className="space-y-5 p-6">
+                {/* STUDENT DETAILS */}
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                  <div className="rounded-lg bg-slate-50 p-3">
+                    <p className="text-xs text-slate-500">Student Name</p>
 
+                    <p className="mt-1 text-sm font-semibold text-slate-800">
+                      {selectedAssessment.fullName || "N/A"}
+                    </p>
+                  </div>
+
+                  <div className="rounded-lg bg-slate-50 p-3">
+                    <p className="text-xs text-slate-500">Amount</p>
+
+                    <p className="mt-1 text-sm font-bold text-slate-800">
+                      ₹
+                      {Number(selectedAssessment.amount || 0).toLocaleString(
+                        "en-IN",
+                      )}
+                    </p>
+                  </div>
+                </div>
+
+                {/* PAYMENT GATEWAY / METHOD */}
+                <div>
+                  <label className="mb-2 block text-sm font-semibold text-slate-700">
+                    Payment Method *
+                  </label>
+
+                  <select
+                    value={paymentGateway}
+                    onChange={(e) => setPaymentGateway(e.target.value)}
+                    required
+                    disabled={manualPaymentLoading}
+                    className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-800 outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-100"
+                  >
+                    <option value="razorpay">Razorpay</option>
+                    <option value="easebuzz">Easebuzz</option>
+                    <option value="bank_transfer">Bank Transfer</option>
+                    <option value="upi">UPI</option>
+                    <option value="cash">Cash</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                {/* PAYMENT REFERENCE */}
+                <div>
+                  <label className="mb-2 block text-sm font-semibold text-slate-700">
+                    {paymentGateway === "razorpay"
+                      ? "Razorpay Payment ID"
+                      : paymentGateway === "easebuzz"
+                        ? "Easebuzz Transaction ID"
+                        : paymentGateway === "bank_transfer"
+                          ? "Bank Transaction Reference"
+                          : paymentGateway === "upi"
+                            ? "UPI Transaction ID"
+                            : paymentGateway === "cash"
+                              ? "Receipt Number"
+                              : "Payment Reference"}{" "}
+                    *
+                  </label>
+
+                  <input
+                    type="text"
+                    value={paymentReference}
+                    onChange={(e) => setPaymentReference(e.target.value)}
+                    placeholder={
+                      paymentGateway === "razorpay"
+                        ? "pay_xxxxxxxxxxxxx"
+                        : paymentGateway === "easebuzz"
+                          ? "Enter Easebuzz Transaction ID"
+                          : paymentGateway === "bank_transfer"
+                            ? "Enter bank transaction reference"
+                            : paymentGateway === "upi"
+                              ? "Enter UPI transaction ID"
+                              : paymentGateway === "cash"
+                                ? "Enter receipt number"
+                                : "Enter payment reference"
+                    }
+                    required
+                    disabled={manualPaymentLoading}
+                    className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm text-black outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-100"
+                  />
+                </div>
+
+                {/* OPTIONAL ORDER ID */}
+                {selectedAssessment.razorpayOrderId && (
+                  <div>
+                    <label className="mb-2 block text-sm font-semibold text-slate-700">
+                      Existing Order ID
+                    </label>
+
+                    <input
+                      type="text"
+                      value={selectedAssessment.razorpayOrderId}
+                      readOnly
+                      className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-600"
+                    />
+                  </div>
+                )}
+
+                {/* WARNING */}
+                <div className="rounded-lg border border-amber-200 bg-amber-50 p-3">
+                  <p className="text-xs leading-5 text-amber-700">
+                    Verify the actual payment in the selected payment gateway or
+                    payment source before recording it.
+                  </p>
+                </div>
+              </div>
+
+              {/* FOOTER */}
+              <div className="flex justify-end gap-3 border-t border-slate-200 px-6 py-4">
+                <button
+                  type="button"
+                  onClick={closeManualModal}
+                  disabled={manualPaymentLoading}
+                  className="rounded-xl border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-600 hover:bg-slate-50"
+                >
+                  Cancel
+                </button>
+
+                <button
+                  type="submit"
+                  disabled={manualPaymentLoading || !paymentReference.trim()}
+                  className="inline-flex items-center gap-2 rounded-xl bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700 disabled:opacity-60"
+                >
+                  {manualPaymentLoading ? (
+                    <>
+                      <RefreshCw size={16} className="animate-spin" />
+                      Recording...
+                    </>
+                  ) : (
+                    <>
+                      <CreditCard size={16} />
+                      Record Payment
+                    </>
+                  )}
+                </button>
+              </div>
+            </form>
           </div>
-
-          {/* ORDER ID */}
-          <div>
-            <label className="mb-2 block text-sm font-semibold text-slate-700">
-              Razorpay Order ID
-            </label>
-
-            <input
-              type="text"
-              value={selectedAssessment.razorpayOrderId || ""}
-              readOnly
-              className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-600"
-            />
-          </div>
-
-          {/* PAYMENT ID */}
-          <div>
-            <label className="mb-2 block text-sm font-semibold text-slate-700">
-              Razorpay Payment ID *
-            </label>
-
-            <input
-              type="text"
-              value={razorpayPaymentId}
-              onChange={(e) => setRazorpayPaymentId(e.target.value)}
-              placeholder="Enter Razorpay Payment ID"
-              required
-              disabled={manualPaymentLoading}
-              className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none text-black focus:border-sky-500 focus:ring-2 focus:ring-sky-100"
-            />
-          </div>
-
-          <div className="rounded-lg border border-amber-200 bg-amber-50 p-3">
-            <p className="text-xs leading-5 text-amber-700">
-              Verify the actual payment in Razorpay before submitting.
-            </p>
-          </div>
-
         </div>
-
-        {/* FOOTER */}
-        <div className="flex justify-end gap-3 border-t border-slate-200 px-6 py-4">
-
-          <button
-            type="button"
-            onClick={closeManualModal}
-            disabled={manualPaymentLoading}
-            className="rounded-xl border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-600 hover:bg-slate-50"
-          >
-            Cancel
-          </button>
-
-          <button
-            type="submit"
-            disabled={manualPaymentLoading || !razorpayPaymentId.trim()}
-            className="inline-flex items-center gap-2 rounded-xl bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700 disabled:opacity-60"
-          >
-            {manualPaymentLoading ? (
-              <>
-                <RefreshCw size={16} className="animate-spin" />
-                Verifying...
-              </>
-            ) : (
-              <>
-                <CreditCard size={16} />
-                Verify Payment
-              </>
-            )}
-          </button>
-
-        </div>
-      </form>
-    </div>
-  </div>
-)}
-
+      )}
     </AdminLayout>
   );
 };

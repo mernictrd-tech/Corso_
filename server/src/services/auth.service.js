@@ -5,7 +5,7 @@ const generateToken = require("../utils/generateToken");
 const bcrypt = require("bcryptjs");
 
 const registerUser = async (userData) => {
-  const { fullName, email, password, termsAccepted } = userData;
+  const { fullName, email, phone, password, termsAccepted } = userData;
 
   const existingUser = await User.findOne({ email });
 

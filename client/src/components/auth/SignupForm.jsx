@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { User, Mail, Lock } from "lucide-react";
+import { User, Mail, Lock, Phone } from "lucide-react";
 
 import InputField from "./InputField";
 import GoogleButton from "./GoogleButton";
@@ -14,6 +14,7 @@ const SignupForm = ({ onSwitchToLogin }) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    phone: "",
     password: "",
     confirmPassword: "",
     agree: false,
@@ -50,6 +51,7 @@ const SignupForm = ({ onSwitchToLogin }) => {
       const res = await registerUser({
         fullName: formData.name,
         email: formData.email,
+        phone: formData.phone,
         password: formData.password,
         confirmPassword: formData.confirmPassword,
         termsAccepted: formData.agree,
@@ -100,7 +102,7 @@ const SignupForm = ({ onSwitchToLogin }) => {
 
   return (
     <div>
-      <h2 className="text-2xl font-bold text-white">
+      <h2 className="text-2xl font-bold text-white mt-7">
         Create Your Account
       </h2>
 
@@ -147,6 +149,16 @@ const SignupForm = ({ onSwitchToLogin }) => {
           onChange={handleChange}
           placeholder="Enter your email"
           icon={Mail}
+        />
+
+        <InputField
+          label="Phone Number"
+          type="tel"
+          name="phone"
+          value={formData.phone}
+          onChange={handleChange}
+          placeholder="Enter your phone number"
+          icon={Phone}
         />
 
         <InputField

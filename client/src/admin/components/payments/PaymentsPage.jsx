@@ -20,8 +20,7 @@ const PaymentsPage = () => {
     } catch (err) {
       console.error("Failed to fetch payments:", err);
 
-      const message =
-        err.response?.data?.message || "Failed to load payments.";
+      const message = err.response?.data?.message || "Failed to load payments.";
 
       setError(message);
       toast.error(message);
@@ -96,12 +95,21 @@ const PaymentsPage = () => {
       },
 
       {
-        key: "razorpayPaymentId",
+        key: "gatewayPaymentId",
         label: "Payment ID",
         priority: 2,
         sortable: true,
-        minWidth: 180,
-        render: (value) => value || "-",
+        minWidth: 220,
+        render: (_, row) => {
+          const paymentId =
+            row.gateway === "razorpay"
+              ? row.razorpayPaymentId
+              : row.gateway === "easebuzz"
+                ? row.gatewayPaymentId
+                : row.partnerTxnId;
+
+          return paymentId || "-";
+        },
       },
 
       {
@@ -134,20 +142,15 @@ const PaymentsPage = () => {
         priority: 2,
         sortable: true,
         minWidth: 180,
-        render: (value, row) =>
-          formatDate(value || row.createdAt),
+        render: (value, row) => formatDate(value || row.createdAt),
       },
     ],
-    []
+    [],
   );
 
   const filters = useMemo(() => {
     const statuses = [
-      ...new Set(
-        payments
-          .map((payment) => payment.status)
-          .filter(Boolean)
-      ),
+      ...new Set(payments.map((payment) => payment.status).filter(Boolean)),
     ];
 
     return [
@@ -155,8 +158,7 @@ const PaymentsPage = () => {
         key: "status",
         label: "Status",
         options: statuses.map((status) => ({
-          label:
-            status.charAt(0).toUpperCase() + status.slice(1),
+          label: status.charAt(0).toUpperCase() + status.slice(1),
           value: status,
         })),
       },
@@ -166,16 +168,11 @@ const PaymentsPage = () => {
   return (
     <AdminLayout>
       <div className="space-y-6">
-
         {/* Heading */}
         <div>
-          <h1 className="text-[30px] font-bold text-slate-800">
-            Payments
-          </h1>
+          <h1 className="text-[30px] font-bold text-slate-800">Payments</h1>
 
-          <p className="mt-2 text-slate-500">
-            All student payment records
-          </p>
+          <p className="mt-2 text-slate-500">All student payment records</p>
         </div>
 
         {/* Error */}

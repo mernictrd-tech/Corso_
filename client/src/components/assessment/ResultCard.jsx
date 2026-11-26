@@ -289,7 +289,7 @@ const ResultCard = ({ result, program, courseId }) => {
                   {/* Trust Line */}
                   <p className="mt-3 text-center text-[10px] sm:text-[11px] text-gray-400 flex items-center justify-center gap-1.5 leading-relaxed">
                     <ShieldCheck size={13} className="text-cyan-400 shrink-0" />
-                    <span>Secure 1-tap checkout powered by Razorpay</span>
+                    {/* <span>Secure 1-tap checkout powered by Razorpay</span> */}
                   </p>
                 </div>
               </div>
